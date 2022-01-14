@@ -55,7 +55,7 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
     return new static(
       $container->get('config.factory'),
       $container->get('module_handler'),
-      $container->get('entity_type.manager')
+      $container->get('entity.manager')
     );
   }
 
