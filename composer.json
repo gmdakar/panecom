@@ -37,7 +37,7 @@
         "enable-patching": true,
         "patches": {
             "drupal/notifications_widget": {
-                "#12348 - Fix some issues for notifications_widget":  "https://www.drupal.org/files/issues/2021-05-27/api-update-notification-fix-3216005-2.patch"
+                "#12345 - Fix some issues for notifications_widget":  "https://www.drupal.org/files/issues/2021-05-27/api-update-notification-fix-3216005-2.patch"
             }
         },
         "drupal-scaffold": {
