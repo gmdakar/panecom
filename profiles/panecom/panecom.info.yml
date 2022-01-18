@@ -1,0 +1,72 @@
+name: 'Plateteforme communautaire'
+type: profile
+description: 'Distribution d'une plateteforme communautaire'
+core_version_requirement: '^8.8 || ^9'
+
+# Modules to install to support the profile.
+install:
+  - admin_toolbar
+  - admin_toolbar_search
+  - admin_toolbar_tools
+  - adminimal_admin_toolbar
+  - automated_cron
+  - backup_migrate
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - help
+  - history
+  - image
+  - link
+  - menu_link_content
+  - menu_ui
+  - node
+  - notifications_widget
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - redirect
+  - rest
+  - search
+  - serialization
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - tour
+  - user
+  - views_ui
+  - views
+
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - node
+  - block
+  - views
+
+# List any themes that should be installed as part of the profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - bartik
+  - seven
+  - bootstrap_barrio
+  - panecom_bstrp
