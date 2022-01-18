@@ -16,11 +16,13 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/backup_migrate": "^5.0",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
+        "drupal/notifications_widget": "^1.5",
         "drupal/notificationswidget": "^1.5"
     },
     "conflict": {
@@ -32,6 +34,12 @@
         "sort-packages": true
     },
     "extra": {
+        "enable-patching": true,
+        "patches": {
+            "drupal/notifications_widget": {
+                "#12348 - Fix some issues for notifications_widget":  "https://www.drupal.org/files/issues/2021-05-27/api-update-notification-fix-3216005-2.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "./"
