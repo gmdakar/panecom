@@ -23,7 +23,8 @@
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/notifications_widget": "^1.5",
-        "drupal/notificationswidget": "^1.5"
+        "drupal/notificationswidget": "^1.5",
+        "drupal/restui": "^1.20"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -36,8 +37,8 @@
     "extra": {
         "enable-patching": true,
         "patches": {
-            "drupal/notifications_widget": {
-                "#12345 - Fix some issues for notifications_widget":  "https://github.com/gmdakar/panecom/blob/main/patches/patch01.txt"
+            "drupal/notifications_widget_save": {
+                "#12345 - Fix some issues for notifications_widget":  "https://www.drupal.org/files/issues/2021-05-27/api-update-notification-fix-3216005-2.patch"
             }
         },
         "drupal-scaffold": {
