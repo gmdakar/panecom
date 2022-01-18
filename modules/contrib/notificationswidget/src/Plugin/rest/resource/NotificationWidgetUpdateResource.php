@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
  *   id = "notifications_update_widget",
  *   label = @Translation("Update notifications items"),
  *   uri_paths = {
- *     "https://www.drupal.org/link-relations/create" = "/api/notification_update"
+ *     "create" = "/api/notification_update"
  *   }
  * )
  */
