@@ -1,0 +1,157 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the notification module module.
+ */
+
+use Drupal\Core\Url;
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_schema().
+ */
+function notifications_widget_schema() {
+  $schema['notifications'] = [
+    'description' => 'Create table used to store data of each site notifications of users',
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+        'unsigned' => TRUE,
+        'description' => 'Unique ID for this record.',
+      ],
+      'entity_id' => [
+        'description' => 'Entity id of action performed',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'entity_uid' => [
+        'description' => 'Entity uid of action performed',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'action' => [
+        'description' => 'Actions type Create, Update, Delete',
+        'type' => 'varchar',
+        'length' => 30,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'bundle' => [
+        'description' => 'Name of the bundle',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'uid' => [
+        'description' => 'uid of actioned user',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'user_name' => [
+        'description' => 'Name of the user',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'message' => [
+        'description' => 'Notification message based on confiuration',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ],
+      'status' => [
+        'description' => 'Status of the notification',
+        'type' => 'int',
+        'not null' => TRUE,
+      ],
+      'created' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'description' => "Timestamp for the record insert.",
+      ],
+    ],
+    'indexes' => [
+      'notification_uid' => ['uid'],
+      'notification_entity' => ['entity_id'],
+      'notification_created_timestamp' => ['created'],
+    ],
+    'primary key' => ['id'],
+  ];
+  return $schema;
+}
+
+/**
+ * Implements hook_install().
+ */
+function notifications_widget_install() {
+  // Inform the user about save the widget configuration.
+  \Drupal::messenger()->addMessage(t('Notification widget will work well once you saved the configuration from <a href=":user_settings_url">Notification Widget Settings</a>.', [
+    ':user_settings_url' => Url::fromRoute('notifications_widget.notifications_widget_settings')->toString(),
+  ]), 'warning');
+}
+
+/**
+ * Update existing messsage value (adding class in message).
+ */
+function notifications_widget_update_8101() {
+  $connection = Drupal::database();
+  $query = $connection->select('notifications', 'n');
+  $query->fields('n', [
+    'id',
+    'message',
+    'status',
+  ]);
+  $query->condition('n.message', '%%class = "noti-store-msg"%%', 'NOT LIKE');
+  $query->orderBy('n.created', 'DESC');
+  $res = $query->execute();
+
+  while ($notification = $res->fetchObject()) {
+    $keys = [
+      'id' => $notification->id,
+    ];
+
+    $replacedStr = 'class="noti-store-msg" href="javascript:;"';
+
+    $fields = [
+      'message' => str_replace('href="javascript:;"', $replacedStr, $notification->message),
+    ];
+    $connection->merge('notifications')
+      ->key($keys)
+      ->fields($fields)
+      ->execute();
+  }
+}
+
+/**
+ * Adding column entity user id.
+ */
+function notifications_widget_update_8102() {
+  $connection = \Drupal::database();
+  $columnExists = $connection->schema()->fieldExists('notifications', 'entity_uid');
+  if ($columnExists == '') {
+    $spec = [
+      'type' => 'int',
+      'description' => 'Entity uid of action performed',
+      'AFTER' => 'entity_id',
+    ];
+    $schema = Database::getConnection()->schema();
+    $schema->addField('notifications', 'entity_uid', $spec);
+  }
+}
+
+/**
+ * Set the module weight to maximum.
+ */
+function notifications_widget_update_8103() {
+  module_set_weight('notifications_widget', 100);
+}

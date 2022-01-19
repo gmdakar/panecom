@@ -1,0 +1,16 @@
+name: Notifications Widget
+type: module
+description: 'Logs and Display the latest updates as notifications on bell.'
+configure: notifications_widget.notifications_widget_settings
+dependencies:
+  - drupal:user
+  - drupal:block
+  - drupal:rest
+  - drupal:system (>=8.1.0)
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+# Information added by Drupal.org packaging script on 2020-05-26
+version: '8.x-1.5'
+project: 'notificationswidget'
+datestamp: 1590489583

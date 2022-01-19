@@ -1,0 +1,5 @@
+notifications_widget.notifications_widget_menu_settings:
+  title: 'Notification widget settings'
+  parent: system.admin_config_system
+  description: 'Configure notifications messages and allow action to log.'
+  route_name: notifications_widget.notifications_widget_settings
