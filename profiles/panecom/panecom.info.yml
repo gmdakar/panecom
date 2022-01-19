@@ -1,6 +1,6 @@
 name: 'Plateteforme communautaire'
 type: profile
-description: 'Distribution d'une plateteforme communautaire'
+description: "Distribution d'une plateteforme communautaire"
 core_version_requirement: '^8.8 || ^9'
 
 # Modules to install to support the profile.
