@@ -68,5 +68,7 @@ dependencies:
 themes:
   - bartik
   - seven
+  - adminimal_theme
   - bootstrap_barrio
   - panecom_bstrp
+
