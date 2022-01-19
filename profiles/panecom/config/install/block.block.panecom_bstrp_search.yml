@@ -1,0 +1,23 @@
+uuid: 72744493-3bb3-4e9d-aab1-6acc2a0f9e88
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - panecom_bstrp
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: panecom_bstrp_search
+theme: panecom_bstrp
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

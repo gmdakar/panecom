@@ -1,0 +1,22 @@
+uuid: 1787cd4f-644d-4d47-a776-446f0c9765ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - notifications_widget
+  theme:
+    - bartik
+id: notificationwidgetblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: notification_widget_block
+settings:
+  id: notification_widget_block
+  label: 'Notification widget block'
+  label_display: visible
+  provider: notifications_widget
+  block_notification_type: '0'
+  block_notification_logs_display: 1
+visibility: {  }

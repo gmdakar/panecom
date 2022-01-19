@@ -1,0 +1,22 @@
+uuid: e2beb361-e558-4498-a659-c59a5625d75e
+langcode: en
+status: true
+dependencies:
+  module:
+    - notifications_widget
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_notificationwidgetblock
+theme: bootstrap_barrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: notification_widget_block
+settings:
+  id: notification_widget_block
+  label: 'Notification widget block'
+  label_display: visible
+  provider: notifications_widget
+  block_notification_type: '0'
+  block_notification_logs_display: 1
+visibility: {  }
