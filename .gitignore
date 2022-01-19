@@ -43,3 +43,4 @@ sites/simpletest
 ./private*
 .gnupg/
 private:/.htaccess
+new
