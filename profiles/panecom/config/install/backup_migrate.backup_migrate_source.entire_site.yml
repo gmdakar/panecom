@@ -1,9 +1,6 @@
-uuid: ec91b7de-5053-4d0f-a286-83dbb098bac6
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 3UIiYanpaojRQR_MLcmaOBTXo5mH-T4CGoTEmr7Rv2M
 id: entire_site
 label: 'Entire Site (do not use)'
 type: EntireSite

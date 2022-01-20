@@ -1,4 +1,3 @@
-uuid: ac808562-3a85-4793-91f5-d40d62013516
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - notifications_widget
     - serialization
     - user
-_core:
-  default_config_hash: VNVszzhjq_LAulGDMVPrBImpdODFiJwTU7TAwa2NYsM
 id: notifications_update_widget
 plugin_id: notifications_update_widget
 granularity: method

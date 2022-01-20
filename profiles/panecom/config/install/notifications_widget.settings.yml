@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: 47YWQALbm33aanLQkeJc91MpPqhtslI3nQG4wCOJrnk
 excluded_entities: 'block,block_content_type,block_content,comment_type,contact_form,contact_message,editor,field_storage_config,field_config,field_collection,field_collection_item,file,filter_format,image_style,login_destination,link_configuration_storage,rdf_mapping,rest_resource_config,search_page,shortcut,shortcut_set,action,menu,tour,user_role,menu_link_content,view,entity_form_display,entity_form_mode,entity_view_display,entity_view_mode,date_format,base_field_override'
 user_enable: 'Create,Update,Delete'
 user_noti_create_message: 'User has been created by [user:name]'

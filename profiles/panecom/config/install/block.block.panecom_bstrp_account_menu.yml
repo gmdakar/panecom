@@ -1,4 +1,3 @@
-uuid: 00b81194-7b5b-42b1-8f33-cf9d5bb9fe86
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - system
   theme:
     - panecom_bstrp
-_core:
-  default_config_hash: jzu74Q7R0QWgw8IniA9HZRSb_a8RPak1M0q5J-VGkZI
 id: panecom_bstrp_account_menu
 theme: panecom_bstrp
 region: secondary_menu
