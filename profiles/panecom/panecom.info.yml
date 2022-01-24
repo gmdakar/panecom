@@ -5,6 +5,10 @@ core_version_requirement: '^8.8 || ^9'
 
 # Modules to install to support the profile.
 install:
+  - language
+  - locale
+  - content_translation
+  - config_translation
   - admin_toolbar
   - admin_toolbar_search
   - admin_toolbar_tools

@@ -1,10 +1,11 @@
 uuid: 46aa00ba-b4d3-4a44-bea5-ea1871d3bd09
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
     - node.type.article
     - node.type.page
+    - rest.resource.notifications_update_widget
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -12,6 +13,7 @@ dependencies:
     - file
     - node
     - path
+    - rest
     - system
     - taxonomy
     - toolbar
@@ -19,7 +21,7 @@ dependencies:
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Content editor'
+label: 'Éditeur de contenu'
 weight: 2
 is_admin: false
 permissions:
@@ -42,6 +44,7 @@ permissions:
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'restful post notifications_update_widget'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

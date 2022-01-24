@@ -1,20 +1,20 @@
-uuid: 1787cd4f-644d-4d47-a776-446f0c9765ad
-langcode: en
+uuid: 4d1ae48a-e301-4218-af16-ea25dd223170
+langcode: fr
 status: true
 dependencies:
   module:
     - notifications_widget
   theme:
-    - bartik
+    - panecom_bstrp
 id: notificationwidgetblock
-theme: bartik
-region: sidebar_second
-weight: 0
+theme: panecom_bstrp
+region: sidebar_first
+weight: -7
 provider: null
 plugin: notification_widget_block
 settings:
   id: notification_widget_block
-  label: 'Notification widget block'
+  label: Notifications
   label_display: visible
   provider: notifications_widget
   block_notification_type: '0'

@@ -1,5 +1,5 @@
 uuid: af196809-057b-42f1-a068-0c780c4f1fcb
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -27,4 +27,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

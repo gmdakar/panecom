@@ -1,5 +1,5 @@
 uuid: 36509f03-2840-4dbf-9a55-d60995ef0f39
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: article
 label: Comments
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     status: 2

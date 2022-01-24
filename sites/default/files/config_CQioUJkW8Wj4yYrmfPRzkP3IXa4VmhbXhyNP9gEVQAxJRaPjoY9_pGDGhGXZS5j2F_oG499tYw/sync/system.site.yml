@@ -1,6 +1,6 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
+langcode: fr
 uuid: dad6329b-cb10-4ca9-a6d3-42ea38c24269
 name: 'Dev panecom'
 mail: testtest@panecom.pro
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: fr
