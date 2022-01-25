@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_periode
+    - node.type.evenement
+  module:
+    - datetime_range
+id: node.evenement.field_periode
+field_name: field_periode
+entity_type: node
+bundle: evenement
+label: Période
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
