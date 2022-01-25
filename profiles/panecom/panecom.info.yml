@@ -5,8 +5,6 @@ core_version_requirement: '^8.8 || ^9'
 
 # Modules to install to support the profile.
 install:
-  - language
-  - locale
   - content_translation
   - config_translation
   - admin_toolbar
@@ -26,7 +24,10 @@ install:
   - contact
   - contextual
   - datetime
+  - datetime_range
   - dblog
+  - devel
+  - devel_generate
   - dynamic_page_cache
   - editor
   - field
@@ -36,7 +37,9 @@ install:
   - help
   - history
   - image
+  - language
   - link
+  - locale
   - menu_link_content
   - menu_ui
   - node
@@ -75,4 +78,3 @@ themes:
   - adminimal_theme
   - bootstrap_barrio
   - panecom_bstrp
-
