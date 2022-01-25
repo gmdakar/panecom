@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2b9aed16-9168-4ab0-a4c4-512a538d69c6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_3d94c7.jpeg
+  uri:
+    -
+      value: 'public://2022-01/generateImage_3d94c7.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8641
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173

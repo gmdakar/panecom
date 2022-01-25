@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 14d0bc7b-ea52-424f-b8b2-e582e6f1974f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_2UTnQR.gif
+  uri:
+    -
+      value: 'public://2022-01/generateImage_2UTnQR.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2318
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173

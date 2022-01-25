@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2cfa427b-be25-437b-b5ed-fcd293aa7abd
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_b0XVUg.png
+  uri:
+    -
+      value: 'public://2022-01/generateImage_b0XVUg.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1640
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173

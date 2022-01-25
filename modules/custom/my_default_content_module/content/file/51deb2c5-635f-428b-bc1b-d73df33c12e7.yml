@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51deb2c5-635f-428b-bc1b-d73df33c12e7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_CJOG3P.jpg
+  uri:
+    -
+      value: 'public://2022-01/generateImage_CJOG3P.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4323
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112319

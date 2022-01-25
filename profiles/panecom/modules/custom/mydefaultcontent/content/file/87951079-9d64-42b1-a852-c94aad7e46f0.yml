@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 87951079-9d64-42b1-a852-c94aad7e46f0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_pIjZcC.jpeg
+  uri:
+    -
+      value: 'public://2022-01/generateImage_pIjZcC.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 10881
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112319

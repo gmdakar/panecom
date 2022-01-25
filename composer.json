@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/notifications_widget": "^1.5",
         "drupal/notificationswidget": "^1.5",
         "drupal/restui": "^1.20"

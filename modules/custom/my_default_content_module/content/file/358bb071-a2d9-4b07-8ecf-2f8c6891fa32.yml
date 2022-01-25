@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 358bb071-a2d9-4b07-8ecf-2f8c6891fa32
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_oLGZrf.gif
+  uri:
+    -
+      value: 'public://2022-01/generateImage_oLGZrf.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2682
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112319

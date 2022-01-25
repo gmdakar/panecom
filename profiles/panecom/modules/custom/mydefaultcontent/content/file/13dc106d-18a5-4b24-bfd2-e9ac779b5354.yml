@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 13dc106d-18a5-4b24-bfd2-e9ac779b5354
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_tXYDpb.png
+  uri:
+    -
+      value: 'public://2022-01/generateImage_tXYDpb.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1763
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173

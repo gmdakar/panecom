@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f9ec97ac-e6c4-4a0a-8a37-f717ed8b0f90
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_Wl5z6x.png
+  uri:
+    -
+      value: 'public://2022-01/generateImage_Wl5z6x.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2610
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 01488506-929c-4d09-8f55-f7539b3e888f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: generateImage_qoBSgK.gif
+  uri:
+    -
+      value: 'public://2022-01/generateImage_qoBSgK.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1230
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643112173
