@@ -7,6 +7,8 @@ core_version_requirement: '^8.8 || ^9'
 install:
   - content_translation
   - config_translation
+  - locale
+  - language
   - admin_toolbar
   - admin_toolbar_search
   - admin_toolbar_tools
@@ -26,9 +28,6 @@ install:
   - datetime
   - datetime_range
   - dblog
-  - mydefaultcontent
-  - devel
-  - devel_generate
   - dynamic_page_cache
   - editor
   - field
@@ -38,9 +37,7 @@ install:
   - help
   - history
   - image
-  - language
   - link
-  - locale
   - menu_link_content
   - menu_ui
   - node
@@ -63,6 +60,9 @@ install:
   - user
   - views_ui
   - views
+  - mydefaultcontent
+  - devel
+  - devel_generate
 
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
