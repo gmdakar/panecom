@@ -13,4 +13,8 @@ QUE FAIRE POUR FAIRE MARCHER CE PROFILE
   composer install
 
 - Vous pouvez maintenant installer le profil normalement avec la méthode classique en navigant 
-  à partir de l'url du projet http://[votredomaineprojet]/
+  à partir de l'url du projet http://[votredomaineprojet]/ et IMPORTANT: Aprés chois du profil "Plateforme communautaire" choisissez l'anglais
+  comme langue d'installation.
+  
+- Des données fictives de demo ont été incorporer dans le module "mydefaultcontent". Pour les voir affichés, installer le module
+  correspondant dans le backend drupal depuis la liste de tous les modules ou via la commande en ligne "drush -y en mydefaultcontent" 
