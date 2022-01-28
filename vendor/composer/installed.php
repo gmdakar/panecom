@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6f9ce645fafde8bca3d2548f52bb5012c7f1297b',
+        'reference' => 'a9eff6243d6ebd91822349f9369cc24ad2366e02',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -532,6 +532,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/default_content' => array(
+            'pretty_version' => '2.0.0-alpha1',
+            'version' => '2.0.0.0-alpha1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/default_content',
+            'aliases' => array(),
+            'reference' => '2.0.0-alpha1',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -652,7 +661,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6f9ce645fafde8bca3d2548f52bb5012c7f1297b',
+            'reference' => 'a9eff6243d6ebd91822349f9369cc24ad2366e02',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -798,6 +807,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/restui' => array(
+            'pretty_version' => '1.20.0',
+            'version' => '1.20.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/restui',
+            'aliases' => array(),
+            'reference' => '8.x-1.20',
+            'dev_requirement' => false,
         ),
         'drupal/search' => array(
             'dev_requirement' => false,
