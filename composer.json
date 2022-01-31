@@ -25,7 +25,8 @@
         "drupal/default_content": "^2.0@alpha",
         "drupal/notifications_widget": "^1.5",
         "drupal/notificationswidget": "^1.5",
-        "drupal/restui": "^1.20"
+        "drupal/restui": "^1.20",
+        "drupal/superfish": "^1.4"
     },
     "conflict": {
         "drupal/drupal": "*"
