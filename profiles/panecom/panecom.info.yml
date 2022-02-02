@@ -18,6 +18,8 @@ install:
   - big_pipe
   - block
   - block_content
+  - bootstrap_layout_builder
+  - bootstrap_styles
   - breakpoint
   - ckeditor
   - color
@@ -28,16 +30,30 @@ install:
   - datetime
   - datetime_range
   - dblog
+  - devel
+  - devel_generate
   - dynamic_page_cache
   - editor
   - field
   - field_ui
   - file
   - filter
+  - fontawesome
+  - fontawesome_menu_icons
+  - fontyourface
   - help
   - history
   - image
+  - layout_builder
+  - layout_builder_blocks
+  - layout_builder_component_attributes
+  - layout_builder_operation_link
+  - layout_builder_save_and_edit
+  - layout_discovery
   - link
+  - media_library
+  - media_library_form_element
+  - media_library_theme_reset
   - menu_link_content
   - menu_ui
   - node
@@ -52,6 +68,7 @@ install:
   - search
   - serialization
   - shortcut
+  - superfish
   - system
   - taxonomy
   - text
@@ -60,8 +77,7 @@ install:
   - user
   - views_ui
   - views
-  - devel
-  - devel_generate
+  - webp
 
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
