@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'fc8f7805f71e2d6b6462cbd623113e2cea6a5383',
+        'reference' => 'c65bf9d9d9364c64e5c7840493f0314d0c5250a3',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -183,6 +183,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/animate_any' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/animate_any',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
         ),
         'drupal/automated_cron' => array(
             'dev_requirement' => false,
@@ -751,7 +760,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'fc8f7805f71e2d6b6462cbd623113e2cea6a5383',
+            'reference' => 'c65bf9d9d9364c64e5c7840493f0314d0c5250a3',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

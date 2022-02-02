@@ -97,6 +97,18 @@ ul.sf-menu .sf-sub-indicator {
     height: 14.5px;
 }
 
+/*Accueil link legerement decaler vers le bas à cause du icon fa-home*/
+ul.sf-menu > li#main-standardfront-page > a  {
+    position: relative;
+    top: -0.42rem;
+}
+/*Accueil icon fa-home trop collé avec le texte Home*/
+ul.sf-menu > li#main-standardfront-page > a .fa-home,
+ul.sf-menu > li#main-standardfront-page-accordion > a .fa-home  {
+   margin: 0 .2rem;
+   font-size: 1.5rem;
+}
+
 /*decaler vers la gauche un peu le chevron dépliant du menu*/
 ul.sf-menu .sf-sub-indicator:after {
     left: -2px !important;
