@@ -6,6 +6,7 @@ module:
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
+  animate_any: 0
   automated_cron: 0
   backup_migrate: 0
   big_pipe: 0
@@ -34,6 +35,7 @@ module:
   file: 0
   filter: 0
   fontawesome: 0
+  fontawesome_iconpicker_widget: 0
   fontawesome_menu_icons: 0
   hal: 0
   help: 0

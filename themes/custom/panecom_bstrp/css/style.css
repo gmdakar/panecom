@@ -57,6 +57,24 @@ div#block-panecom-bstrp-page-title {
     display: none;
 }
 
+/* réseaux sociaux liens*/
+ul[block="block-resosocio"] .fa {
+    font-size: 1.2rem;
+}
+
+.fa-youtube-play {
+    color:  #d94747;
+}
+
+.fa-twitter-square {
+    color: rgb(29, 161, 242);
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+
 /*background image accueil*/
 .bgimage {
     height: 650px;
