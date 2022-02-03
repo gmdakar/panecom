@@ -1,5 +1,4 @@
 <?php
-
 namespace Drush\TestTraits;
 
 /**
@@ -18,7 +17,7 @@ trait OutputUtilsTrait
      *
      * @access public
      */
-    abstract public function getOutputRaw();
+    public abstract function getOutputRaw();
 
     /**
      * Accessor for the last stderr output, non-trimmed.
@@ -28,7 +27,7 @@ trait OutputUtilsTrait
      *
      * @access public
      */
-    abstract public function getErrorOutputRaw();
+    public abstract function getErrorOutputRaw();
 
     /**
      * Get command output and simplify away things like full paths and extra
@@ -60,7 +59,7 @@ trait OutputUtilsTrait
      * @return string
      *   The simplified output.
      */
-    protected function simplifyOutput(string $output)
+    protected function simplifyOutput($output)
     {
         // We do not care if Drush inserts a -t or not in the string. Depends on whether there is a tty.
         $output = preg_replace('# -t #', ' ', $output);
@@ -148,14 +147,14 @@ trait OutputUtilsTrait
      * @param string $key
      *   Optionally return only a top level element from the json object.
      *
-     * @return array
-     *   Decoded array.
+     * @return object
+     *   Decoded object.
      */
     public function getOutputFromJSON($key = null)
     {
         $output = $this->getOutput();
         $json = json_decode($output, true);
-        if (json_last_error() !== JSON_ERROR_NONE) {
+        if (!$json) {
             throw new \Exception("No json output received.\n\nOutput:\n\n$output\n\nStderr:\n\n" . $this->getErrorOutput());
         }
         if (isset($key)) {

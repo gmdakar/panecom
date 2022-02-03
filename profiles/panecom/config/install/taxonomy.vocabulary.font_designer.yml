@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Font Designer'
+vid: font_designer
+description: 'Font Designer'
+weight: 0

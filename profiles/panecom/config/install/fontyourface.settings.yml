@@ -1,0 +1,13 @@
+langcode: fr
+load_all_enabled_fonts: 1
+enabled_fonts:
+  - 'https://www.google.com/webfonts/family?family=Roboto Condensed&subset=latin#300'
+  - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#300'
+  - 'https://www.google.com/webfonts/family?family=Roboto Condensed&subset=latin#regular'
+  - 'https://www.google.com/webfonts/family?family=Roboto Mono&subset=latin#regular'
+  - 'https://www.google.com/webfonts/family?family=Roboto Mono&subset=latin#600'
+  - 'https://www.google.com/webfonts/family?family=Roboto Condensed&subset=latin#700'
+  - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#700'
+  - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#900'
+load_on_themes:
+  panecom_bstrp: panecom_bstrp

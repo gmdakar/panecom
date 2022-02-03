@@ -1,0 +1,29 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:background_image_frontpage:d1247749-c3f8-42e4-b492-0aed145198e3'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: backgroundimagefrontpagecontentblock
+theme: panecom_bstrp
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:d1247749-c3f8-42e4-b492-0aed145198e3'
+settings:
+  id: 'block_content:d1247749-c3f8-42e4-b492-0aed145198e3'
+  label: 'Background image frontpage content block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

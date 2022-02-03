@@ -6,8 +6,6 @@ _meta:
   default_langcode: en
   depends:
     f5753e34-57d0-497c-89f4-f8eb1810c9e4: file
-    39918227-21ce-419a-82cf-17992a15e0dd: taxonomy_term
-    aa892f60-4305-45fa-b614-6f72c7359e55: taxonomy_term
 default:
   revision_uid:
     -
@@ -96,7 +94,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1643302695
+      last_comment_timestamp: 1643303115
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
@@ -107,10 +105,3 @@ default:
       title: 'Blandit quae verto. Augue conventio decet illum nimis pertineo si valde vel.'
       width: 135
       height: 474
-  field_tags:
-    -
-      entity: 39918227-21ce-419a-82cf-17992a15e0dd
-    -
-      entity: 39918227-21ce-419a-82cf-17992a15e0dd
-    -
-      entity: aa892f60-4305-45fa-b614-6f72c7359e55

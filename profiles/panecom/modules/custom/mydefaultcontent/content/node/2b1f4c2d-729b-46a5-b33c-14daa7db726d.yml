@@ -6,7 +6,6 @@ _meta:
   default_langcode: fr
   depends:
     a15d881a-a5f5-4641-9778-ba575130fd6f: file
-    39918227-21ce-419a-82cf-17992a15e0dd: taxonomy_term
 default:
   revision_uid:
     -
@@ -16,7 +15,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   title:
     -
       value: 'Article - Exputo'
@@ -25,7 +24,7 @@ default:
       value: 1642708836
   promote:
     -
-      value: true
+      value: false
   sticky:
     -
       value: false
@@ -95,9 +94,9 @@ default:
     -
       status: 1
       cid: 0
-      last_comment_timestamp: 1643302695
+      last_comment_timestamp: 1643303115
       last_comment_name: ''
-      last_comment_uid: 0
+      last_comment_uid: 1
       comment_count: 0
   field_image:
     -
@@ -106,6 +105,3 @@ default:
       title: 'At interdico iusto iustum quia saluto si.'
       width: 320
       height: 154
-  field_tags:
-    -
-      entity: 39918227-21ce-419a-82cf-17992a15e0dd

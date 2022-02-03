@@ -1,0 +1,18 @@
+palette:
+  top: '#d0d0d0'
+  bottom: '#ffffff'
+  bg: '#ffffff'
+  sidebar: '#ffffff'
+  sidebarborders: '#cccccc'
+  footer: '#016b83'
+  button: '#019dbf'
+  buttonhover: '#016c83'
+  titleslogan: '#000000'
+  text: '#4a4a4a'
+  link: '#064c7e'
+logo: 'public://color/panecom_bstrp-c5d2f707/logo.svg'
+stylesheets:
+  - 'public://color/panecom_bstrp-c5d2f707/colors.css'
+files:
+  - ''
+  - 'public://color/panecom_bstrp-c5d2f707/colors.css'

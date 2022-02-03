@@ -1,0 +1,7 @@
+langcode: fr
+menu_link_icons:
+  standard_front_page:
+    icon: fa-home
+    prefix: fa
+    tag: span
+    appearance: before

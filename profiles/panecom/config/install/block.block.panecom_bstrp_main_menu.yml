@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -10,7 +10,7 @@ dependencies:
 id: panecom_bstrp_main_menu
 theme: panecom_bstrp
 region: primary_menu
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:

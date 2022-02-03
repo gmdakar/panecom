@@ -6,8 +6,6 @@ _meta:
   default_langcode: en
   depends:
     6a7d3fd2-33f1-4685-9ed0-88309b66df34: file
-    aa892f60-4305-45fa-b614-6f72c7359e55: taxonomy_term
-    39918227-21ce-419a-82cf-17992a15e0dd: taxonomy_term
 default:
   revision_uid:
     -
@@ -17,7 +15,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   title:
     -
       value: 'Article - Vel'
@@ -96,9 +94,9 @@ default:
     -
       status: 0
       cid: 0
-      last_comment_timestamp: 1643302695
+      last_comment_timestamp: 1643303115
       last_comment_name: ''
-      last_comment_uid: 0
+      last_comment_uid: 1
       comment_count: 0
   field_image:
     -
@@ -107,10 +105,3 @@ default:
       title: 'Amet capto et pertineo praemitto quidem utinam.'
       width: 157
       height: 342
-  field_tags:
-    -
-      entity: aa892f60-4305-45fa-b614-6f72c7359e55
-    -
-      entity: 39918227-21ce-419a-82cf-17992a15e0dd
-    -
-      entity: aa892f60-4305-45fa-b614-6f72c7359e55

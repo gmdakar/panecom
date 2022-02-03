@@ -1,19 +1,15 @@
 <?php
 namespace Consolidation\AnnotatedCommand;
 
-use Consolidation\AnnotatedCommand\Help\HelpDocumentAlter;
-use Consolidation\AnnotatedCommand\Help\HelpDocumentBuilder;
 use Consolidation\AnnotatedCommand\Hooks\HookManager;
-use Consolidation\AnnotatedCommand\Output\OutputAwareInterface;
 use Consolidation\AnnotatedCommand\Parser\CommandInfo;
-use Consolidation\AnnotatedCommand\State\State;
-use Consolidation\AnnotatedCommand\State\StateHelper;
+use Consolidation\AnnotatedCommand\Help\HelpDocumentAlter;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputAwareInterface;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Consolidation\AnnotatedCommand\Help\HelpDocumentBuilder;
 
 /**
  * AnnotatedCommands are created automatically by the
@@ -39,7 +35,6 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
     protected $topics = [];
     protected $returnType;
     protected $injectedClasses = [];
-    protected $parameterMap = [];
 
     public function __construct($name = null)
     {
@@ -140,7 +135,6 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
         if (method_exists($this, 'setHidden')) {
             $this->setHidden($commandInfo->getHidden());
         }
-        $this->parameterMap = $commandInfo->getParameterMap();
         return $this;
     }
 
@@ -149,7 +143,7 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
         return $this->examples;
     }
 
-    public function addUsageOrExample($usage, $description)
+    protected function addUsageOrExample($usage, $description)
     {
         $this->addUsage($usage);
         if (!empty($description)) {
@@ -207,51 +201,14 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
 
             if (empty($description) && isset($automaticOptions[$name])) {
                 $description = $automaticOptions[$name]->getDescription();
-                $this->addInputOption($inputOption, $description);
-            } else {
-                $this->addInputOption($inputOption);
+                $inputOption = static::inputOptionSetDescription($inputOption, $description);
             }
+            $this->getDefinition()->addOption($inputOption);
         }
     }
 
-    private function addInputOption($inputOption, $description = null)
-    {
-        $default = $inputOption->getDefault();
-        // Recover the 'mode' value, because Symfony is stubborn
-        $mode = 0;
-        if ($inputOption->isValueRequired()) {
-            $mode |= InputOption::VALUE_REQUIRED;
-        }
-        if ($inputOption->isValueOptional()) {
-            $mode |= InputOption::VALUE_OPTIONAL;
-        }
-        if ($inputOption->isArray()) {
-            $mode |= InputOption::VALUE_IS_ARRAY;
-        }
-        if (!$mode) {
-            $mode = InputOption::VALUE_NONE;
-            $default = null;
-        }
-
-        $this->addOption(
-            $inputOption->getName(),
-            $inputOption->getShortcut(),
-            $mode,
-            $description ?? $inputOption->getDescription(),
-            $default
-        );
-    }
-
-    /**
-     * @deprecated since 4.5.0
-     */
     protected static function inputOptionSetDescription($inputOption, $description)
     {
-        @\trigger_error(
-            'Since consolidation/annotated-command 4.5: ' .
-            'AnnotatedCommand::inputOptionSetDescription method is deprecated and will be removed in 5.0',
-            \E_USER_DEPRECATED
-        );
         // Recover the 'mode' value, because Symfony is stubborn
         $mode = 0;
         if ($inputOption->isValueRequired()) {
@@ -317,23 +274,19 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
      */
     protected function interact(InputInterface $input, OutputInterface $output)
     {
-        $state = $this->injectIntoCommandfileInstance($input, $output);
         $this->commandProcessor()->interact(
             $input,
             $output,
             $this->getNames(),
             $this->annotationData
         );
-        $state->restore();
     }
 
     protected function initialize(InputInterface $input, OutputInterface $output)
     {
-        $state = $this->injectIntoCommandfileInstance($input, $output);
         // Allow the hook manager a chance to provide configuration values,
         // if there are any registered hooks to do that.
         $this->commandProcessor()->initializeHook($input, $this->getNames(), $this->annotationData);
-        $state->restore();
     }
 
     /**
@@ -341,16 +294,13 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $state = $this->injectIntoCommandfileInstance($input, $output);
         // Validate, run, process, alter, handle results.
-        $result = $this->commandProcessor()->process(
+        return $this->commandProcessor()->process(
             $output,
             $this->getNames(),
             $this->commandCallback,
             $this->createCommandData($input, $output)
         );
-        $state->restore();
-        return $result;
     }
 
     /**
@@ -361,7 +311,6 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
      */
     public function processResults(InputInterface $input, OutputInterface $output, $results)
     {
-        $state = $this->injectIntoCommandfileInstance($input, $output);
         $commandData = $this->createCommandData($input, $output);
         $commandProcessor = $this->commandProcessor();
         $names = $this->getNames();
@@ -370,14 +319,12 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
             $results,
             $commandData
         );
-        $status = $commandProcessor->handleResults(
+        return $commandProcessor->handleResults(
             $output,
             $names,
             $results,
             $commandData
         );
-        $state->restore();
-        return $status;
     }
 
     protected function createCommandData(InputInterface $input, OutputInterface $output)
@@ -385,8 +332,7 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
         $commandData = new CommandData(
             $this->annotationData,
             $input,
-            $output,
-            $this->parameterMap
+            $output
         );
 
         // Fetch any classes (e.g. InputInterface / OutputInterface) that
@@ -400,17 +346,5 @@ class AnnotatedCommand extends Command implements HelpDocumentAlter
         $commandData->cacheSpecialDefaults($this->getDefinition());
 
         return $commandData;
-    }
-
-    /**
-     * Inject $input and $output into the command instance if it is set up to receive them.
-     *
-     * @param callable $commandCallback
-     * @param CommandData $commandData
-     * @return State
-     */
-    public function injectIntoCommandfileInstance(InputInterface $input, OutputInterface $output)
-    {
-        return StateHelper::injectIntoCallbackObject($this->commandCallback, $input, $output);
     }
 }

@@ -1,0 +1,6 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: blb_col_9
+label: 'Bootstrap 9 Cols'
+number_of_columns: '9'

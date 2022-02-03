@@ -6,8 +6,6 @@ _meta:
   default_langcode: fr
   depends:
     692b3ed3-7bcc-467d-a5a0-fb262151065e: file
-    39918227-21ce-419a-82cf-17992a15e0dd: taxonomy_term
-    aa892f60-4305-45fa-b614-6f72c7359e55: taxonomy_term
 default:
   revision_uid:
     -
@@ -17,7 +15,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   title:
     -
       value: 'Article - Eum Magna Quia'
@@ -26,7 +24,7 @@ default:
       value: 1643114003
   promote:
     -
-      value: true
+      value: false
   sticky:
     -
       value: false
@@ -96,9 +94,9 @@ default:
     -
       status: 1
       cid: 0
-      last_comment_timestamp: 1643302695
+      last_comment_timestamp: 1643303115
       last_comment_name: ''
-      last_comment_uid: 0
+      last_comment_uid: 1
       comment_count: 0
   field_image:
     -
@@ -107,8 +105,3 @@ default:
       title: 'Esca eu feugiat iustum metuo occuro velit volutpat.'
       width: 241
       height: 145
-  field_tags:
-    -
-      entity: 39918227-21ce-419a-82cf-17992a15e0dd
-    -
-      entity: aa892f60-4305-45fa-b614-6f72c7359e55

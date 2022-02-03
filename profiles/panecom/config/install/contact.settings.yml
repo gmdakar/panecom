@@ -1,3 +1,4 @@
+langcode: fr
 default_form: feedback
 flood:
   limit: 5
