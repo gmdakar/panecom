@@ -4,6 +4,7 @@ namespace Drupal\bootstrap_styles\Plugin\BootstrapStyles\Style;
 
 use Drupal\bootstrap_styles\Style\StylePluginBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\bootstrap_styles\ResponsiveTrait;
 
 /**
  * Class BackgroundColor.
@@ -18,6 +19,7 @@ use Drupal\Core\Form\FormStateInterface;
  * )
  */
 class BackgroundColor extends StylePluginBase {
+  use ResponsiveTrait;
 
   /**
    * {@inheritdoc}
@@ -34,6 +36,12 @@ class BackgroundColor extends StylePluginBase {
       '#rows' => 5,
     ];
 
+    // Responsive.
+    $fields = [
+      'background_colors' => ['background'],
+    ];
+    $this->buildBreakpointsConfigurationForm($form, $fields);
+
     return $form;
   }
 
@@ -44,6 +52,13 @@ class BackgroundColor extends StylePluginBase {
     $this->config()
       ->set('background_colors', $form_state->getValue('background_colors'))
       ->save();
+
+    // Responsive.
+    $fields = [
+      'background_colors',
+    ];
+
+    $this->submitBreakpointsConfigurationForm($form_state, $fields);
   }
 
   /**
@@ -70,6 +85,9 @@ class BackgroundColor extends StylePluginBase {
       ],
     ];
 
+    // Responsive.
+    $this->createBreakpointsStyleFormFields($form, 'background_color', 'background', $storage, 'background_colors');
+
     // Attach the Layout Builder form style for this plugin.
     $form['#attached']['library'][] = 'bootstrap_styles/plugin.background_color.layout_builder_form';
 
@@ -80,11 +98,19 @@ class BackgroundColor extends StylePluginBase {
    * {@inheritdoc}
    */
   public function submitStyleFormElements(array $group_elements) {
-    return [
+    $storage = [
       'background_color' => [
         'class' => $group_elements['background_color'],
       ],
     ];
+
+    // Responsive.
+    $fields = [
+      'background_color',
+    ];
+    $this->saveBreakpointsStyleFormFields($group_elements, $storage, $fields);
+
+    return $storage;
   }
 
   /**
@@ -97,6 +123,13 @@ class BackgroundColor extends StylePluginBase {
 
     if ($background_type != 'video') {
       $classes[] = $storage['background_color']['class'];
+
+      // Responsive.
+      $fields = [
+        'background_color',
+      ];
+      $this->buildBreakpoints($classes, $storage, $fields);
+
       // Add the classes to the build.
       $build = $this->addClassesToBuild($build, $classes, $theme_wrapper);
     }

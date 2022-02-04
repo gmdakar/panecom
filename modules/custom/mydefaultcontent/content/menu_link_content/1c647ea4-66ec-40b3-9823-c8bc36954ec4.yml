@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1c647ea4-66ec-40b3-9823-c8bc36954ec4
+  bundle: menu_link_content
+  default_langcode: fr
+  depends:
+    efe5e47e-284d-4faf-95fd-5f509112cfa0: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Projets
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:efe5e47e-284d-4faf-95fd-5f509112cfa0'
+  revision_translation_affected:
+    -
+      value: true

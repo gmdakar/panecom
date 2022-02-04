@@ -9,8 +9,3 @@ dependencies:
   - drupal:layout_builder
   - media_library_form_element:media_library_form_element
   - media_library_theme_reset:media_library_theme_reset
-
-# Information added by Drupal.org packaging script on 2021-01-14
-version: '1.0.3'
-project: 'bootstrap_styles'
-datestamp: 1610598454

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6f856dd46431ca5bd719cf343e17a1900f3a6f80',
+        'reference' => '5511ba282c142e0000104b3bf77626abdde3da2f',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -197,12 +197,14 @@
             'dev_requirement' => false,
         ),
         'drupal/bootstrap_styles' => array(
-            'pretty_version' => '1.0.3',
-            'version' => '1.0.3.0',
+            'pretty_version' => 'dev-1.0.x',
+            'version' => 'dev-1.0.x',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/bootstrap_styles',
-            'aliases' => array(),
-            'reference' => '1.0.3',
+            'aliases' => array(
+                0 => '1.0.x-dev',
+            ),
+            'reference' => '52ae94c66e6e9d4b45d61e510479093294cba01e',
             'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
@@ -688,7 +690,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6f856dd46431ca5bd719cf343e17a1900f3a6f80',
+            'reference' => '5511ba282c142e0000104b3bf77626abdde3da2f',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

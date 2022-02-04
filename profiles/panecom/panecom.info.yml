@@ -44,6 +44,7 @@ install:
   - fontawesome_iconpicker_widget
   - fontyourface
   - google_fonts_api
+  - hal
   - help
   - history
   - image

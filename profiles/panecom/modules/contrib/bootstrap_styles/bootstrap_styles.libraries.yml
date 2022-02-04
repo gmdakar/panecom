@@ -35,6 +35,16 @@ bs_yiq:
   js:
     js/components/yiq.js: { }
 
+# Responsive
+bs_responsive:
+  css:
+    theme:
+      css/responsive.css: { }
+  js:
+    js/components/responsive.js: { }
+  dependencies:
+    - core/drupal.ajax
+
 # Themes.
 # Light
 theme.light:
@@ -64,6 +74,11 @@ plugins_groups.spacing.spacing_preview:
 plugins_groups.border.border_preview:
   js:
     js/plugins_groups/border/border-preview.js: { }
+
+# shadow
+plugins_groups.shadow.shadow_preview:
+  js:
+    js/plugins_groups/shadow/shadow-preview.js: { }
 
 # Plugins.
 # background_color
@@ -150,6 +165,17 @@ plugin.border.build:
     theme:
       css/bs_example_classes/border-classes.css: { }
 
+# box_shadow
+plugin.box_shadow.layout_builder_form:
+  css:
+    theme:
+      css/bs_example_classes/box-shadow-classes.css: { }
+
+plugin.box_shadow.build:
+  css:
+    theme:
+      css/bs_example_classes/box-shadow-classes.css: { }
+
 # scroll_effects
 plugin.scroll_effects.build:
   remote: https://michalsnik.github.io/aos
@@ -159,7 +185,7 @@ plugin.scroll_effects.build:
     url: https://github.com/michalsnik/aos/blob/master/LICENSE
     gpl-compatible: true
   js:
-    https://unpkg.com/aos@2.3.1/dist/aos.js: { weight: -3, minified: true }
+    https://unpkg.com/aos@2.3.1/dist/aos.js: { type: external, weight: -3, minified: true }
     js/plugins/scroll_effects/build.js: { }
   css:
     theme:

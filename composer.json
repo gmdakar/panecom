@@ -21,6 +21,7 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/bg_image_formatter": "^1.15",
         "drupal/bootstrap_layout_builder": "^2.0",
+        "drupal/bootstrap_styles": "1.0.x-dev@dev",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
