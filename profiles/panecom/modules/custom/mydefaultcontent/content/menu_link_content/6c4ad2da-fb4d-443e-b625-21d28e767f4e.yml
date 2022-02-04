@@ -18,7 +18,11 @@ default:
     -
       uri: 'internal:#'
       title: ''
-      options: {  }
+      options:
+        fa_icon: ''
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: before
   external:
     -
       value: false
@@ -27,7 +31,7 @@ default:
       value: true
   weight:
     -
-      value: -45
+      value: -46
   expanded:
     -
       value: false

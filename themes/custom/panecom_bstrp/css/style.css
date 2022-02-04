@@ -3,7 +3,9 @@
  * Subtheme specific CSS.
  * >>>>>>>>>
  */
- 
+
+@import "colors.css";
+
 /*main colors,  use var(--color1); */
 :root {
   --color1: #5186c6;

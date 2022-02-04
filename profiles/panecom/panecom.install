@@ -23,7 +23,7 @@ function panecom_install() {
 /**
  * Implements hook_install_tasks().
  */
-function panecom_install_tasks2(&$install_state) {
+function panecom_install_tasks(&$install_state) {
   $tasks = [
     'panecom_profile_install_module_content' => [
       'display_name' => t('Install module content'),
@@ -55,11 +55,14 @@ function panecom_profile_install_module_content2() {
     'mydefaultcontent',
   ], TRUE);
   \Drupal::logger('panecom')->notice("PROFILE_install_tasks: install mydefaultcontent end");
+  drupal_flush_all_caches();
 }
 
 function panecom_profile_install_module_content() {
-  \Drupal::logger('panecom')->notice("PROFILE_install_tasks: install mydefaultcontent start");
-  \Drupal::service('module_installer')->install(['language', 'content_translation', 'locale', 'config_translation','default_content', 'mydefaultcontent' ], TRUE);
-  \Drupal::logger('panecom')->notice("PROFILE_install_tasks: install mydefaultcontent end");
+ /* drupal_flush_all_caches();
+  \Drupal::logger('panecom')->notice("PROFILE_install_tasks: install mytools start");
+  \Drupal::service('module_installer')->install(['mytools'], TRUE);
+  \Drupal::logger('panecom')->notice("PROFILE_install_tasks: install mytools end");
+   drupal_flush_all_caches();*/
 }
 
