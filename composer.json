@@ -28,7 +28,6 @@
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/default_content": "^2.0@alpha",
         "drupal/fontawesome_menu_icons": "^1.9",
-        "drupal/fontyourface": "^3.6",
         "drupal/layout_builder_blocks": "^1.0",
         "drupal/layout_builder_component_attributes": "^2.0",
         "drupal/layout_builder_operation_link": "^1.0",

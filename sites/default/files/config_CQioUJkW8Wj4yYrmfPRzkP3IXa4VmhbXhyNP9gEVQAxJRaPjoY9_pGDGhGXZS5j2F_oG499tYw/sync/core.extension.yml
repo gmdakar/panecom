@@ -78,9 +78,7 @@ module:
   user: 0
   views_ui: 0
   webp: 0
-  fontyourface: 1
   content_translation: 10
-  google_fonts_api: 10
   views: 10
   standard: 1000
 theme:
