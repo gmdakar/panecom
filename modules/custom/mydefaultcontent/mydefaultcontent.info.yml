@@ -1,7 +1,7 @@
 name: 'Default content YAML panecom'
 type: module
 description: 'Default content YAML panecom'
-package: Web services
+package: Panecom
 core_version_requirement: ^8.7.7 || ^9
 dependencies:
   - default_content:default_content
