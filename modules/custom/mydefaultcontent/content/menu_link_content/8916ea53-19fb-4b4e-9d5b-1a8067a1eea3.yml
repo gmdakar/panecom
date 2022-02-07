@@ -16,7 +16,7 @@ default:
       value: main
   link:
     -
-      uri: 'internal:#'
+      uri: 'internal:/'
       title: ''
       options:
         fa_icon: fa-home

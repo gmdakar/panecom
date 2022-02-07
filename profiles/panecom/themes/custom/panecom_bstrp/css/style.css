@@ -112,19 +112,19 @@ ul#superfish-main {
     margin-right: 10%;
 }
 
-/*fleche legerement coupé vers le bas*/
+/*flêche légérement coupé vers le bas*/
 ul.sf-menu .sf-sub-indicator {
     height: 14.5px;
 }
 
-/*Accueil link legerement decaler vers le bas à cause du icon fa-home*/
-ul.sf-menu > li#main-standardfront-page > a  {
+/*Accueil link légérement decalé vers le bas à cause du icon fa-home*/
+ul.sf-menu > li:first-child > a:first-child  {
     position: relative;
     top: -0.42rem;
 }
 /*Accueil icon fa-home trop collé avec le texte Home*/
-ul.sf-menu > li#main-standardfront-page > a .fa-home,
-ul.sf-menu > li#main-standardfront-page-accordion > a .fa-home  {
+ul.sf-menu > li:first-child > a .fa-home,
+ul.sf-menu > li:first-child > a .fa-home  {
    margin: 0 .2rem;
    font-size: 1.5rem;
 }
