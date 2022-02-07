@@ -89,12 +89,28 @@ header#header {
     position: relative;
 }
 
-nav#navbar-main {
-    position: absolute;
-    top: 65%;
-    transform: translateY(-50%);
-    /*border: 1px solid red;*/
-	z-index:1 !important;
+header#header nav#navbar-main {
+    z-index: 1 !important;
+    margin-top: 55px;
+    background-color: white !important;
+    /*transform: translateY(-50%);
+	top:50% !important;
+	height: 102px;*/
+}
+
+header#header.sticky {
+    height: 100px;
+    position: relative;
+}
+
+header#header.sticky nav#navbar-main {
+    z-index: 1 !important;
+    margin-top: 40px !important;
+    height: 60px;
+}
+
+header#header.sticky img.img-fluid.d-inline-block.align-top {
+    max-height: 50px;
 }
 
 .navbar-brand .align-top {
@@ -164,7 +180,7 @@ ul.sf-menu li a, .nav-link{
 
 /*notification widget*/
 #block-notificationwidgetblock {
-	margin: 0 1rem;
+	margin: 0 1.75rem;
 }
 
 #block-notificationwidgetblock .navbar-nav {

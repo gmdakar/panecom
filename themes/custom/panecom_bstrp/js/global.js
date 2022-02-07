@@ -24,5 +24,28 @@
 		});
     }
   };
+  
+  Drupal.behaviors.stickyNavbar = {
+        attach: function (context, settings) {
+
+            var navbar = $('.header');
+
+            if (navbar.length) {
+                var elmHeight = 25;
+                $(window).scroll(function() {
+                    var scrolltop = $(window).scrollTop();
+                    if (scrolltop > elmHeight) {
+                        if (!navbar.hasClass('sticky')) {
+                            navbar.addClass('sticky');
+                        }
+                    } else {
+                        navbar.removeClass('sticky');
+                    }
+                });
+            }
+
+        }
+
+  };
 
 })(jQuery, Drupal);
