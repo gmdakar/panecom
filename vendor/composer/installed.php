@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8162cd9388fb2124623bfc13e78ee38418ab72f6',
+        'reference' => '261826bb7afa49f800d44450600beabda8c767d6',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -480,6 +480,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/crop' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/crop',
+            'aliases' => array(),
+            'reference' => '8.x-2.1',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -609,6 +618,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/image_widget_crop' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/image_widget_crop',
+            'aliases' => array(),
+            'reference' => '8.x-2.3',
+            'dev_requirement' => false,
+        ),
         'drupal/inline_form_errors' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -681,7 +699,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8162cd9388fb2124623bfc13e78ee38418ab72f6',
+            'reference' => '261826bb7afa49f800d44450600beabda8c767d6',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -803,6 +821,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/owlcarousel' => array(
+            'pretty_version' => '1.0.0-beta1',
+            'version' => '1.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/owlcarousel',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/page_cache' => array(
             'dev_requirement' => false,

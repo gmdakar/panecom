@@ -12,17 +12,29 @@
   --color2: #8ecb80; 
   --color3: #f4793a;
   --color_a: #064c7e;
+  --color4: transparent;
+  --color5: #494c52;  
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,128; 
   --color3-rgb: 244,121,58;
+
 }
 
 a.feed-icon {
     display: none;
 }
 
+a.is-active {
+    color:var(--color3) !important;
+}
+
 /***** TOP HEADER ********** */
 
+
+/*login*/
+a.nav-link.nav-link--fr-user-login{
+    color: rgb(0 0 0 / 80%);
+}
 /*rendre visible l'icon hamburger*/
 .navbar-toggler { 
     background-color: var(--color2);
@@ -76,27 +88,22 @@ ul[block="block-resosocio"] .fa {
     color: #4267B2;
 }
 
-
-/*background image accueil*/
-.bgimage {
-    height: 650px;
-    margin: 0 -15px;
-	z-index:-2;
-}
-
 header#header {
     height: 200px;
     position: relative;
+	border-bottom: 2.2px solid var(--color4);
 }
 
 header#header nav#navbar-main {
     z-index: 1 !important;
     margin-top: 10px;
-    background-color: white !important;
-    /*transform: translateY(-50%);
-	top:50% !important;
-	height: 102px;*/
-	padding-top: 12px;
+    background-color: #ffffff !important;
+	padding-top: 12px;	
+	border-bottom: 2.2px solid var(--color4);
+}
+
+header#header:not(sticky) nav#navbar-main {
+	border-bottom:none;
 }
 
 header#header.sticky {
@@ -109,6 +116,7 @@ header#header.sticky nav#navbar-main {
     margin-top: 38px !important;
     height: 60px;
 	padding-top: 11px;
+	border-bottom: 2.2px solid var(--color4);
 }
 
 header#header.sticky ul.sf-menu li a, .nav-link {
@@ -116,7 +124,7 @@ header#header.sticky ul.sf-menu li a, .nav-link {
 }
 
 header#header.sticky nav#navbar-top {
-    background-color: var(--color2) !important;
+    background-color: var(--color5) !important;
 }
 
 header#header.sticky #block-panecom-bstrp-account-menu span{
@@ -253,21 +261,26 @@ div#block-notificationwidgetblock::before {
     color: var(--color1);
 }
 
-/*zone image background page d'accueil*/
-.bgimage .content{
-   
+/*background image accueil + text welcome*/
+div#block-backgroundimagefrontpagecontentblock {
+    height: 650px;
 }
 
-/*transparent effect above background image*/
-.bgimage::before {
+.bgimage {
+    margin: 0 -15px;
+    z-index: -2;
+	height: 650px;
+}
+
+.path-frontpage .bgimage::before {
     position: absolute;
     display: block;
     width: 100%;
-    min-height: 100%;
     background-color: #5186c6;
     content: "";
     top: 0;
-    opacity: .65;
+    opacity: .85;
+    height: 650px;
 }
 
 /*message bienvenue*/
