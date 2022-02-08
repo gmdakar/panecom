@@ -1,6 +1,3 @@
-'body::bgimage':
-  parent: body.bgimage
-  identifier: '[{"section_identity":".field--name-body","section_event":"scroll","section_animation":"flash","remove":"Retirer"}]'
 'body ::bgimage':
   parent: 'body .bgimage'
   identifier: '[{"section_identity":".field--name-body","section_event":"onload","section_animation":"pulse"}]'

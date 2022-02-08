@@ -9,8 +9,8 @@ dependencies:
     - panecom_bstrp
 id: resosocio
 theme: panecom_bstrp
-region: top_header
-weight: 0
+region: secondary_menu
+weight: -9
 provider: null
 plugin: 'system_menu_block:resosocio'
 settings:

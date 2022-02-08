@@ -9,8 +9,8 @@ dependencies:
     - panecom_bstrp
 id: panecom_bstrp_account_menu
 theme: panecom_bstrp
-region: secondary_menu
-weight: 0
+region: top_header
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:

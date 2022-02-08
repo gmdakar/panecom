@@ -4,24 +4,19 @@ status: true
 dependencies:
   module:
     - notifications_widget
-    - system
   theme:
     - panecom_bstrp
 id: notificationwidgetblock
 theme: panecom_bstrp
-region: sidebar_first
-weight: -7
+region: top_header
+weight: -8
 provider: null
 plugin: notification_widget_block
 settings:
   id: notification_widget_block
   label: Notifications
-  label_display: visible
+  label_display: '0'
   provider: notifications_widget
   block_notification_type: '0'
   block_notification_logs_display: 1
-visibility:
-  request_path:
-    id: request_path
-    negate: true
-    pages: '<front>'
+visibility: {  }
