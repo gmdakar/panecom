@@ -91,11 +91,12 @@ header#header {
 
 header#header nav#navbar-main {
     z-index: 1 !important;
-    margin-top: 55px;
+    margin-top: 10px;
     background-color: white !important;
     /*transform: translateY(-50%);
 	top:50% !important;
 	height: 102px;*/
+	padding-top: 12px;
 }
 
 header#header.sticky {
@@ -105,8 +106,29 @@ header#header.sticky {
 
 header#header.sticky nav#navbar-main {
     z-index: 1 !important;
-    margin-top: 40px !important;
+    margin-top: 38px !important;
     height: 60px;
+	padding-top: 11px;
+}
+
+header#header.sticky ul.sf-menu li a, .nav-link {
+    /*font-size: .95rem;*/
+}
+
+header#header.sticky nav#navbar-top {
+    background-color: var(--color2) !important;
+}
+
+header#header.sticky #block-panecom-bstrp-account-menu span{
+    color: #ffffff !important;
+}
+
+header#header.sticky span:not(.is-active) a.language-link{
+   color: #ffffff !important;
+}
+
+header#header.sticky span.is-active a.language-link{
+    border-bottom-color: #ffffff !important;
 }
 
 header#header.sticky img.img-fluid.d-inline-block.align-top {
@@ -134,6 +156,9 @@ ul.sf-menu .sf-sub-indicator {
 }
 
 /*Accueil link légérement decalé vers le bas à cause du icon fa-home*/
+ul.sf-menu > li:first-child {
+    max-height: 50px;
+}
 ul.sf-menu > li:first-child > a:first-child  {
     position: relative;
     top: -0.42rem;
