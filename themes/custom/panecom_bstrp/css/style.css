@@ -1,7 +1,7 @@
 /**
  * @file
  * Subtheme specific CSS.
- * >>>>>>>>>
+ * <>
  */
 
 @import "colors.css";
@@ -29,7 +29,6 @@ a.is-active {
 }
 
 /***** TOP HEADER ********** */
-
 
 /*login*/
 a.nav-link.nav-link--fr-user-login{
@@ -311,6 +310,68 @@ div#block-backgroundimagefrontpagecontentblock {
     color: var(--color3);
 }
 
+/***** ORGANISATIONS **/
+/**owl carousel organisations*/
+.view-organisations {
+    margin: 2rem auto;
+}
+
+.owl-page.active span,
+.owl-buttons div:hover{
+	background: var(--color3) !important;
+}
+.view-organisations .owl-item > div{
+    padding: 0 100px;
+    text-align: center;
+	border-right: 1px solid #f8f8f8;
+}
+
+.views-field.views-field-title {
+	margin: 0.5rem auto;
+}
+
+.views-field.views-field-title a {
+    color: var(--color1);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.view-organisations .views-field.views-field-body {
+    text-align: justify;
+    color: var(--color5);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.view-organisations .more-link {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.view-organisations .more-link a{
+    color: var(--color2);
+    font-size: 1.35rem;
+    font-weight: 600;
+	text-decoration: underline;
+}
+
+div#block-views-block-organisations-block-1 h2 {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: var(--color3);
+}
+
+div#block-views-block-organisations-block-1 h2::after {
+    display: block;
+    content: "";
+    width: 500px;
+    margin-top:10px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: var(--color1);
+}
 
 /*******   FOOTER  *****/
 /*div#block-panecom-bstrp-powered {
