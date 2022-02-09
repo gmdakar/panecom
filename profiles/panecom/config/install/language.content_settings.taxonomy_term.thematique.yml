@@ -1,0 +1,15 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematique
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.thematique
+target_entity_type_id: taxonomy_term
+target_bundle: thematique
+default_langcode: current_interface
+language_alterable: false

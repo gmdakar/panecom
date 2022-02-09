@@ -1,0 +1,34 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organisation.body
+    - field.field.node.organisation.field_organisation_logo
+    - field.field.node.organisation.field_point_focal
+    - node.type.organisation
+  module:
+    - text
+    - user
+id: node.organisation.teaser
+targetEntityType: node
+bundle: organisation
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_organisation_logo: true
+  field_point_focal: true
+  langcode: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a753257a-52d8-482a-8844-08e87b7db779
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_IF38dO.gif
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_IF38dO.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1407
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337016

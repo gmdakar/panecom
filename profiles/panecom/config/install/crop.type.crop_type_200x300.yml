@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies: {  }
+label: 'Crop type 300x400'
+id: crop_type_200x300
+description: ''
+aspect_ratio: '300:400'
+soft_limit_width: 300
+soft_limit_height: 400
+hard_limit_width: null
+hard_limit_height: null

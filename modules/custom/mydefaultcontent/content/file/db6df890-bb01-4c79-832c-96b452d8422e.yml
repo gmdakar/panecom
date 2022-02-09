@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: db6df890-bb01-4c79-832c-96b452d8422e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_atmmO7.jpg
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_atmmO7.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7106
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337016

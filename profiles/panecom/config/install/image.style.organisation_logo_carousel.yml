@@ -1,0 +1,24 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - crop.type.crop_type_200x300
+  module:
+    - crop
+name: organisation_logo_carousel
+label: 'Style image organisation logo carousel'
+effects:
+  9195ab60-d0f9-4a5c-b99e-27efcb0c86be:
+    uuid: 9195ab60-d0f9-4a5c-b99e-27efcb0c86be
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: crop_type_200x300
+  ec59ff88-9853-4710-8de9-9c3634be5cd6:
+    uuid: ec59ff88-9853-4710-8de9-9c3634be5cd6
+    id: image_scale
+    weight: 2
+    data:
+      width: 300
+      height: 400
+      upscale: false

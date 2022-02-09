@@ -46,6 +46,7 @@ install:
   - help
   - history
   - image
+  - image_widget_crop
   - layout_builder
   - layout_builder_blocks
   - layout_builder_component_attributes
@@ -62,6 +63,7 @@ install:
   - node
   - notifications_widget
   - options
+  - owlcarousel
   - page_cache
   - path
   - path_alias
@@ -71,7 +73,6 @@ install:
   - search
   - serialization
   - shortcut
-  - structure_sync
   - superfish
   - system
   - taxonomy

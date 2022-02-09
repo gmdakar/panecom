@@ -14,6 +14,7 @@
   --color_a: #064c7e;
   --color4: transparent;
   --color5: #494c52;  
+  --color6: #8ecb8008; /*owl carousel all blocks*/
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,128; 
   --color3-rgb: 244,121,58;
@@ -46,6 +47,11 @@ a.nav-link.nav-link--fr-user-login{
    content: "\f410"; 
    font-family: "Font Awesome 5 Free"; 
    font-size: 2rem; 
+}
+
+/*corriger léger décalage qui entraine l'apparition de la barre horizontale en bas de page*/
+section.row.region.region-top-header {
+    margin-right: 0px;
 }
 
 /*color and decorations for links switcherlanguage*/
@@ -274,12 +280,19 @@ div#block-backgroundimagefrontpagecontentblock {
 .path-frontpage .bgimage::before {
     position: absolute;
     display: block;
-    width: 100%;
     background-color: #5186c6;
     content: "";
     top: 0;
     opacity: .85;
     height: 650px;
+	left:-15px;
+	right: -15px;	
+}
+
+/*when logged we have spaces left/right for the overlay background image in frontpage*/
+.path-frontpage.user-logged-in .bgimage::before {
+	left:-15px;
+	right: -15px;	
 }
 
 /*message bienvenue*/
@@ -323,14 +336,19 @@ div#block-backgroundimagefrontpagecontentblock {
 .view-organisations .owl-item > div{
     padding: 0 100px;
     text-align: center;
-	border-right: 1px solid #f8f8f8;
+	border-right: 1px solid #cdd1d8;
 }
 
-.views-field.views-field-title {
+.view-organisations .owl-wrapper {
+    background-color: var(--color6);
+    padding: 2rem;
+}
+
+.view-organisations .views-field.views-field-title {
 	margin: 0.5rem auto;
 }
 
-.views-field.views-field-title a {
+.view-organisations .views-field.views-field-title a {
     color: var(--color1);
     font-size: 1.25rem;
     text-transform: uppercase;
@@ -350,15 +368,16 @@ div#block-backgroundimagefrontpagecontentblock {
 
 .view-organisations .more-link a{
     color: var(--color2);
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-weight: 600;
 	text-decoration: underline;
 }
 
 div#block-views-block-organisations-block-1 h2 {
     text-align: center;
-    margin: 1rem auto;
-    font-size: 2.8rem;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     color: var(--color3);
 }
@@ -366,11 +385,39 @@ div#block-views-block-organisations-block-1 h2 {
 div#block-views-block-organisations-block-1 h2::after {
     display: block;
     content: "";
-    width: 500px;
-    margin-top:10px;
+    width: 300px;
+    margin-top: 9px !important;
     margin: 0 auto;
-    height: 5px;
+    height: 7px;
     background-color: var(--color1);
+}
+
+/*liste organisations*/
+.view-organisations.view-id-organisations.view-display-id-page_1 {
+   /* margin: 0 5%;*/
+    text-align: center;
+}
+.view-organisations .views-view-grid.horizontal .row {
+	margin: 3.5rem auto;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.title {
+	margin: 0.5rem auto;
+	padding: 0 5rem;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.title a {
+    color: var(--color1);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.descriptif{
+    text-align: justify;
+    color: var(--color5);
+    font-size: 1rem;
+    font-weight: 300;
+	padding: 0 5rem;
 }
 
 /*******   FOOTER  *****/

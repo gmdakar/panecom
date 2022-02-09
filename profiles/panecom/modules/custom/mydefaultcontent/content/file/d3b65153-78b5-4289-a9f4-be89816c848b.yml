@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3b65153-78b5-4289-a9f4-be89816c848b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_aLvnBZ.gif
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_aLvnBZ.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 3585
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337434

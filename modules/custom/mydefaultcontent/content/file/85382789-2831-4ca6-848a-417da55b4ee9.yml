@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 85382789-2831-4ca6-848a-417da55b4ee9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-jess-loiterton-6389028.jpg
+  uri:
+    -
+      value: 'public://organisation/2022-02/pexels-jess-loiterton-6389028.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 590092
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337768
