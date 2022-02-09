@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '261826bb7afa49f800d44450600beabda8c767d6',
+        'reference' => '4c4602d4aa0bce91697262ac98b3b7391c202cfc',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -489,6 +489,15 @@
             'reference' => '8.x-2.1',
             'dev_requirement' => false,
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -521,6 +530,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/easy_breadcrumb' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/easy_breadcrumb',
+            'aliases' => array(),
+            'reference' => '2.0.2',
+            'dev_requirement' => false,
         ),
         'drupal/editor' => array(
             'dev_requirement' => false,
@@ -699,7 +717,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '261826bb7afa49f800d44450600beabda8c767d6',
+            'reference' => '4c4602d4aa0bce91697262ac98b3b7391c202cfc',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -849,6 +867,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.8',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -968,6 +995,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/token' => array(
+            'pretty_version' => '1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.10',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,

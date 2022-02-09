@@ -72,7 +72,7 @@ div#block-selecteurdelangue span.is-active a {
 }
 
 /*A cacher car en page d'accueil un titre de page est par défaut affiché par boostrap_bario*/
-div#block-panecom-bstrp-page-title {
+.path-frontpage div#block-panecom-bstrp-page-title {
     display: none;
 }
 
@@ -418,6 +418,45 @@ div#block-views-block-organisations-block-1 h2::after {
     font-size: 1rem;
     font-weight: 300;
 	padding: 0 5rem;
+}
+
+/*block header bandeau image content type organisations*/
+.path-node .bandeau_header_w {
+    position: relative;
+    height: 350px;
+    left: 0;
+    right: 0px;
+    margin: 0 -15px;
+	margin-bottom: 50px;
+}
+.path-node .bandeau_header_r {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	line-height: 3;
+}
+
+.path-node .bandeau_header_r .breadcrumb {
+    background-color: transparent;
+	padding-left: 0;
+	padding-right: 0;
+}
+.path-node .bandeau_header_r .field.field--name-field-titre-du-bloc {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: #78727240;
+    padding: 0 3rem;
+    /* height: 100px; */
+    line-height: 1.2;
+    color: white;
+}
+.path-node .bandeau_header_r .breadcrumb-item,
+.path-node .bandeau_header_r .breadcrumb-item a{
+    color: #ffffff;
+    font-size: 1.25rem;
 }
 
 /*******   FOOTER  *****/

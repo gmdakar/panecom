@@ -34,6 +34,7 @@ install:
   - devel
   - devel_generate
   - dynamic_page_cache
+  - easy_breadcrumb
   - editor
   - field
   - field_ui

@@ -23,6 +23,7 @@ module:
   contact: 0
   contextual: 0
   crop: 0
+  ctools: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
@@ -30,6 +31,7 @@ module:
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
   field: 0
   field_ui: 0
@@ -75,11 +77,13 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   user: 0
   views_ui: 0
   webp: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   standard: 1000

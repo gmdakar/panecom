@@ -1,6 +1,6 @@
 uuid: dee70b57-bdd6-40e8-96e1-8e7e44d8f2f1
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: panecom_bstrp_breadcrumbs
 theme: panecom_bstrp
 region: breadcrumb
-weight: 0
+weight: -10
 provider: null
 plugin: system_breadcrumb_block
 settings:
