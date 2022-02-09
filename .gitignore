@@ -25,6 +25,7 @@ sites/*/services*.yml
 sites/*/files
 sites/*/private
 !sites/*/files/config_*
+!sites/*/*/backup*
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
