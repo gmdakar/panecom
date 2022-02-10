@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - crop
+id: crop.token
+label: 'Jeton (token)'
+targetEntityType: crop
+cache: true

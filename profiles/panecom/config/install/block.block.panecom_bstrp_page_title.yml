@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
   theme:
     - panecom_bstrp
 id: panecom_bstrp_page_title
@@ -14,4 +16,14 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      evenement: evenement
+      organisation: organisation
+      page: page

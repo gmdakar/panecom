@@ -1,0 +1,33 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: organisation
+label: organisation
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  bc683980-d89e-44db-8670-799a3c61327c:
+    id: node_type
+    negate: false
+    uuid: bc683980-d89e-44db-8670-799a3c61327c
+    context_mapping:
+      node: node
+    bundles:
+      organisation: organisation
+  4c3f08f6-fefa-45a3-8400-d845cd0e97c4:
+    id: language
+    negate: false
+    uuid: 4c3f08f6-fefa-45a3-8400-d845cd0e97c4
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      fr: fr
+      en: en
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

@@ -68,6 +68,7 @@ install:
   - page_cache
   - path
   - path_alias
+  - pathauto
   - rdf
   - redirect
   - rest

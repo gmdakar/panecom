@@ -33,8 +33,9 @@ default:
       value: true
   path:
     -
-      alias: /node-261-organisation
+      alias: /organisation/organisation-causa-letalis-loquor-quibus-roto-vicis
       langcode: fr
+      pathauto: 1
   content_translation_source:
     -
       value: und

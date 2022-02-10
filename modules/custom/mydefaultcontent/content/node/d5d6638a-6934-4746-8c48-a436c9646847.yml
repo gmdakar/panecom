@@ -34,6 +34,7 @@ translations:
       -
         alias: /node-217-evenement-fr
         langcode: fr
+        pathauto: 0
     content_translation_source:
       -
         value: und
@@ -126,6 +127,7 @@ default:
     -
       alias: /node-217-evenement
       langcode: en
+      pathauto: 0
   content_translation_source:
     -
       value: und

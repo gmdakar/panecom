@@ -285,8 +285,8 @@ div#block-backgroundimagefrontpagecontentblock {
     top: 0;
     opacity: .85;
     height: 650px;
-	left:-15px;
-	right: -15px;	
+	left: 0;
+	right: 0;	
 }
 
 /*when logged we have spaces left/right for the overlay background image in frontpage*/
@@ -320,6 +320,12 @@ div#block-backgroundimagefrontpagecontentblock {
 }
 
 #block-backgroundimagefrontpagecontentblock .content p:nth-child(2) strong:nth-child(2) {
+    color: var(--color3);
+}
+
+
+/*page title (exemple for a node)*/
+span.field.field--name-title {
     color: var(--color3);
 }
 
@@ -420,7 +426,9 @@ div#block-views-block-organisations-block-1 h2::after {
 	padding: 0 5rem;
 }
 
-/*block header bandeau image content type organisations*/
+/*block header bandeau image content type*/
+#block-backgroundheaderorganisationmembre >  .content > div,
+#block-backgroundheaderorganisationsmembres >  .content > div,
 .path-node .bandeau_header_w {
     position: relative;
     height: 350px;
@@ -429,6 +437,14 @@ div#block-views-block-organisations-block-1 h2::after {
     margin: 0 -15px;
 	margin-bottom: 50px;
 }
+
+/*cacher le titre pour la vue (list organisations*/
+/*#block-backgroundheaderorganisationsmembres h1.title{
+   display: none;
+}*/
+
+#block-backgroundheaderorganisationmembre .content .layout,
+#block-backgroundheaderorganisationsmembres .content .layout,
 .path-node .bandeau_header_r {
     position: absolute;
     top: 50%;
@@ -437,26 +453,48 @@ div#block-views-block-organisations-block-1 h2::after {
 	line-height: 3;
 }
 
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb,
 .path-node .bandeau_header_r .breadcrumb {
     background-color: transparent;
 	padding-left: 0;
 	padding-right: 0;
 }
+
+#block-backgroundheaderorganisationmembre .content .layout .field.field--name-field-titre-du-bloc,
+#block-backgroundheaderorganisationsmembres .content .layout .field.field--name-field-titre-du-bloc,
 .path-node .bandeau_header_r .field.field--name-field-titre-du-bloc {
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     background-color: #78727240;
-    padding: 0 3rem;
+    padding: 1rem 3rem;
     /* height: 100px; */
     line-height: 1.2;
     color: white;
 }
+
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb-item,
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb-item a,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb-item,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb-item a,
 .path-node .bandeau_header_r .breadcrumb-item,
 .path-node .bandeau_header_r .breadcrumb-item a{
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 1rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff;
+    content: ">";
+}
+
+.block-system-breadcrumb-block{
+	text-align: center;
+}
+.block-system-breadcrumb-block nav{
+	display: inline-block;
 }
 
 /*******   FOOTER  *****/

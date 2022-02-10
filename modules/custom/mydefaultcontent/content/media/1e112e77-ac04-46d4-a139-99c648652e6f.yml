@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1e112e77-ac04-46d4-a139-99c648652e6f
+  bundle: image
+  default_langcode: fr
+  depends:
+    aa3711b2-8feb-4a37-aad3-b97a3f44ba93: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: image_bandeau.png
+  created:
+    -
+      value: 1644420374
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_media_image:
+    -
+      entity: aa3711b2-8feb-4a37-aad3-b97a3f44ba93
+      alt: 'image bandeau'
+      title: ''
+      width: 1897
+      height: 430

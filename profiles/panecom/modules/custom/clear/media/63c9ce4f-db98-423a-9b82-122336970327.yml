@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 63c9ce4f-db98-423a-9b82-122336970327
+  bundle: image
+  default_langcode: fr
+  depends:
+    cb0d37d3-d050-469d-8773-ea2bc62ba779: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-scott-webb-27406.jpg
+  created:
+    -
+      value: 1644420845
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_media_image:
+    -
+      entity: cb0d37d3-d050-469d-8773-ea2bc62ba779
+      alt: 'Organisations membres'
+      title: ''
+      width: 1280
+      height: 850

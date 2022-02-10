@@ -1,0 +1,32 @@
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:background_header_content_type_o:48de8ab4-d252-4333-95c8-44cc2eaac749'
+  module:
+    - block_content
+    - node
+  theme:
+    - panecom_bstrp
+id: backgroundheaderorganisationmembre
+theme: panecom_bstrp
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:48de8ab4-d252-4333-95c8-44cc2eaac749'
+settings:
+  id: 'block_content:48de8ab4-d252-4333-95c8-44cc2eaac749'
+  label: 'Background header Organisation membre'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      organisation: organisation

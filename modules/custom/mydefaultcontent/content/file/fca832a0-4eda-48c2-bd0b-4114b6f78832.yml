@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fca832a0-4eda-48c2-bd0b-4114b6f78832
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-ingo-joseph-188035.jpg
+  uri:
+    -
+      value: 'public://organisation/2022-02/pexels-ingo-joseph-188035.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 236124
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644402825

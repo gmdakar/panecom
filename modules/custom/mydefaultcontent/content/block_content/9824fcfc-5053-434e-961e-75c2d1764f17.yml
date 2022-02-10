@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 9824fcfc-5053-434e-961e-75c2d1764f17
+  bundle: background_header_content_type_o
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Background header Organisations membres'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_titre_du_bloc:
+    -
+      value: 'Organisations membres'
+      format: basic_html

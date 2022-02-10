@@ -26,6 +26,7 @@ default:
     -
       alias: ''
       langcode: fr
+      pathauto: 0
   field_media_image:
     -
       entity: afb976a4-90c4-454c-9631-01a2bc44bedd

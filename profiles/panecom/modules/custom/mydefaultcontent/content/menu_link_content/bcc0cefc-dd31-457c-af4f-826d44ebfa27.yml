@@ -18,9 +18,13 @@ default:
       value: main
   link:
     -
-      uri: 'internal:#'
+      uri: 'internal:/organisations'
       title: ''
-      options: {  }
+      options:
+        fa_icon: ''
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: before
   external:
     -
       value: false

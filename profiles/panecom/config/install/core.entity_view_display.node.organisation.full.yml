@@ -1,0 +1,54 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.organisation.body
+    - field.field.node.organisation.field_organisation_logo
+    - field.field.node.organisation.field_point_focal
+    - image.style.organisation_logo_carousel
+    - node.type.organisation
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.organisation.full
+targetEntityType: node
+bundle: organisation
+mode: full
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_organisation_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: organisation_logo_carousel
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_point_focal:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

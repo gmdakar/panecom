@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bda66852-dea8-4eb6-83eb-24673a1f8ec1
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-sora-shimazaki-5669602.jpg
+  uri:
+    -
+      value: 'public://organisation/2022-02/pexels-sora-shimazaki-5669602.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 290645
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644402848

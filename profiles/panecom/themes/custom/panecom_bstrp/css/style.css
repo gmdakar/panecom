@@ -55,6 +55,7 @@ section.row.region.region-top-header {
 }
 
 /*color and decorations for links switcherlanguage*/
+
 div#block-selecteurdelangue {
     margin-right: 2rem;
 }
@@ -71,7 +72,7 @@ div#block-selecteurdelangue span.is-active a {
 }
 
 /*A cacher car en page d'accueil un titre de page est par défaut affiché par boostrap_bario*/
-div#block-panecom-bstrp-page-title {
+.path-frontpage div#block-panecom-bstrp-page-title {
     display: none;
 }
 
@@ -284,7 +285,7 @@ div#block-backgroundimagefrontpagecontentblock {
     top: 0;
     opacity: .85;
     height: 650px;
-	left:0;
+	left: 0;
 	right: 0;	
 }
 
@@ -322,6 +323,12 @@ div#block-backgroundimagefrontpagecontentblock {
     color: var(--color3);
 }
 
+
+/*page title (exemple for a node)*/
+span.field.field--name-title {
+    color: var(--color3);
+}
+
 /***** ORGANISATIONS **/
 /**owl carousel organisations*/
 .view-organisations {
@@ -338,20 +345,16 @@ div#block-backgroundimagefrontpagecontentblock {
 	border-right: 1px solid #cdd1d8;
 }
 
-/*.view-organisations .owl-item:last-child > div{
-	border-right: none;
-}*/
-
 .view-organisations .owl-wrapper {
     background-color: var(--color6);
     padding: 2rem;
 }
 
-.views-field.views-field-title {
+.view-organisations .views-field.views-field-title {
 	margin: 0.5rem auto;
 }
 
-.views-field.views-field-title a {
+.view-organisations .views-field.views-field-title a {
     color: var(--color1);
     font-size: 1.25rem;
     text-transform: uppercase;
@@ -371,7 +374,7 @@ div#block-backgroundimagefrontpagecontentblock {
 
 .view-organisations .more-link a{
     color: var(--color2);
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-weight: 600;
 	text-decoration: underline;
 }
@@ -421,6 +424,77 @@ div#block-views-block-organisations-block-1 h2::after {
     font-size: 1rem;
     font-weight: 300;
 	padding: 0 5rem;
+}
+
+/*block header bandeau image content type*/
+#block-backgroundheaderorganisationmembre >  .content > div,
+#block-backgroundheaderorganisationsmembres >  .content > div,
+.path-node .bandeau_header_w {
+    position: relative;
+    height: 350px;
+    left: 0;
+    right: 0px;
+    margin: 0 -15px;
+	margin-bottom: 50px;
+}
+
+/*cacher le titre pour la vue (list organisations*/
+/*#block-backgroundheaderorganisationsmembres h1.title{
+   display: none;
+}*/
+
+#block-backgroundheaderorganisationmembre .content .layout,
+#block-backgroundheaderorganisationsmembres .content .layout,
+.path-node .bandeau_header_r {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	line-height: 3;
+}
+
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb,
+.path-node .bandeau_header_r .breadcrumb {
+    background-color: transparent;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#block-backgroundheaderorganisationmembre .content .layout .field.field--name-field-titre-du-bloc,
+#block-backgroundheaderorganisationsmembres .content .layout .field.field--name-field-titre-du-bloc,
+.path-node .bandeau_header_r .field.field--name-field-titre-du-bloc {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 900;
+    background-color: #78727240;
+    padding: 1rem 3rem;
+    /* height: 100px; */
+    line-height: 1.2;
+    color: white;
+}
+
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb-item,
+#block-backgroundheaderorganisationmembre .content .layout .breadcrumb-item a,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb-item,
+#block-backgroundheaderorganisationsmembres .content .layout .breadcrumb-item a,
+.path-node .bandeau_header_r .breadcrumb-item,
+.path-node .bandeau_header_r .breadcrumb-item a{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff;
+    content: ">";
+}
+
+.block-system-breadcrumb-block{
+	text-align: center;
+}
+.block-system-breadcrumb-block nav{
+	display: inline-block;
 }
 
 /*******   FOOTER  *****/
