@@ -8,6 +8,10 @@
 # Pour des raisons de simplicité un "lien symbolique" lie le profil "panecom" dans ces 2 instances.
 # AVANT de lancer ce script, se positionner manuellement d'abord à la racine de l'instance de "devpanecom" (ex. cd htdocs/devpanecom/)
 # sachant que l'instance de démo doit être au même niveau (exemple ici htdocs/panecomdistr/)
+# 
+# Pour lancer le script en ligne de commandes: 
+# 1) rendre executable le script. exemple: "chmod 775 deployprofil.sh"
+# 2) ./deployprofil.sh 
 #####
 
 #en cas d'erreur on stoppe immédiatement le script
