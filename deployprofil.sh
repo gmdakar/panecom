@@ -10,8 +10,8 @@
 set -e
 
 # "ls index.php &&"  juste pour s'assurer d'être au bon endroit c'est à dire à la racine de l'instance de dev "devpanecom"
-echo "ls index.php"
-ls index.php
+echo "ls -al index.php"
+ls -al index.php
 
 echo "git add . && git commit -m "new commmit" && git push"
 git add . && git commit -m "new commit" && git push
