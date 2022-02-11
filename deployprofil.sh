@@ -45,11 +45,11 @@ cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /
 echo "rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/"
 rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/
 
-echo "chmod -R 775 ../panecomdistr/ && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom "
-chmod -R 775 ../panecomdistr/ && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom 
+echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom "
+chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom 
 
-echo "cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ "
-cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ 
+echo "cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
+cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
 
 #because at the end of the day we will also provide all libraries needed in the package profiled (up to the end users to put it after in the root of if project)
 echo "cp -r ../devpanecom/libraries/ profiles/panecom/"

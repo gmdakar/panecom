@@ -249,7 +249,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'jeqQ1Ko23wo6kSc_Pu9DIPjvQTCb1eFps9_diZZ8EyPIzc3qs1so8-iy0-Fw5FccVTeXM09LZQ';
+$settings['hash_salt'] = '';
 
 /**
  * Deployment identifier.
@@ -503,7 +503,7 @@ $settings['update_free_access'] = FALSE;
  * See https://www.drupal.org/documentation/modules/file for more information
  * about securing private files.
  */
-$settings['file_private_path'] = 'sites/default/private';
+# $settings['file_private_path'] = '';
 
 /**
  * Temporary file path:
@@ -769,14 +769,3 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'db-devpanecom',
-  'username' => 'db-devpanecom',
-  'password' => 'X38Vt@wp9(',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['config_sync_directory'] = 'sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync';
