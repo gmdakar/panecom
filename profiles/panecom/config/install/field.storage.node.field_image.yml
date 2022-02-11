@@ -1,3 +1,4 @@
+uuid: 4d441ef1-7275-4ecf-9703-f422ecf752d6
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - file
     - image
     - node
+_core:
+  default_config_hash: EymokncRIZ7SgQT2IdOQhQJicX4nNc0K89ik-LxmOHE
 id: node.field_image
 field_name: field_image
 entity_type: node

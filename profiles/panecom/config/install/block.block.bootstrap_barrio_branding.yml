@@ -1,3 +1,4 @@
+uuid: f0b0bae3-e251-45d9-b64e-718622adf287
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - bootstrap_barrio
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
 id: bootstrap_barrio_branding
 theme: bootstrap_barrio
 region: header

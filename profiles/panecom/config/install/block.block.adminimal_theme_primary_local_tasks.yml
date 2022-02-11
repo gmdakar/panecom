@@ -1,8 +1,11 @@
+uuid: f649d51d-9b8d-4fa7-a356-da5c9afdc93f
 langcode: fr
 status: true
 dependencies:
   theme:
     - adminimal_theme
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
 id: adminimal_theme_primary_local_tasks
 theme: adminimal_theme
 region: header

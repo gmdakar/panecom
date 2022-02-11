@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 22dea933-576a-461a-9762-3ff4e8bd2002
+  bundle: image
+  default_langcode: fr
+  depends:
+    ca5fd536-4ad0-4e4b-9ad6-657ccdb05012: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-scott-webb-27406_1200x400.jpg
+  created:
+    -
+      value: 1644507551
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_media_image:
+    -
+      entity: ca5fd536-4ad0-4e4b-9ad6-657ccdb05012
+      alt: 'image bandeau'
+      title: ''
+      width: 1278
+      height: 397

@@ -32,8 +32,8 @@ drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && dru
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
-echo "rm -r profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml; rm file.setting.yml; rm update.setting.yml ; cd ../../../../../devpanecom"
-rm -r profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml; rm file.setting.yml; rm update.setting.yml ; cd ../../../../../devpanecom
+echo "rm -r profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom"
+rm -r profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
 
 echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
 cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
@@ -59,3 +59,6 @@ composer update --no-interaction
 
 echo "composer require drush/drush:8.x -W --no-interaction"
 composer require drush/drush:8.x -W --no-interaction
+
+#echo "rm profiles/panecom/config/install/core.extension.yml profiles/panecom/config/install/file.setting.yml profiles/panecom/config/install/update.setting.yml || true"
+#rm profiles/panecom/config/install/core.extension.yml profiles/panecom/config/install/file.setting.yml profiles/panecom/config/install/update.setting.yml || true

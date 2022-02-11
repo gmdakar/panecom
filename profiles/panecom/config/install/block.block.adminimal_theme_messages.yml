@@ -1,3 +1,4 @@
+uuid: a54766fb-25ac-4645-a772-8fdcd12042cc
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - adminimal_theme
+_core:
+  default_config_hash: YqKTtloWJ8FjLtfVNfrHaK6kVgxT67lC1cJ3j6i6WLo
 id: adminimal_theme_messages
 theme: adminimal_theme
 region: highlighted

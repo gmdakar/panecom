@@ -1,3 +1,4 @@
+uuid: c81837ca-fe76-459b-9546-44b9824544e4
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - core.entity_form_mode.media.media_library
     - field.field.media.document.field_media_document
     - media.type.document
+_core:
+  default_config_hash: dcpfpqyLXOSGpulacMAJW3H-G34_LeNsjdfxd1_oCfY
 id: media.document.media_library
 targetEntityType: media
 bundle: document
