@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '914220c207d8266152124f9232fa6aaec167fef5',
+        'reference' => 'd145967e0479d523f2a5886c304cb3a788cbb91a',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -105,6 +105,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/advagg' => array(
+            'pretty_version' => '4.1.0',
+            'version' => '4.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/advagg',
+            'aliases' => array(),
+            'reference' => '8.x-4.1',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -717,7 +726,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '914220c207d8266152124f9232fa6aaec167fef5',
+            'reference' => 'd145967e0479d523f2a5886c304cb3a788cbb91a',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
