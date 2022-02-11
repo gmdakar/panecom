@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - panecom_bstrp
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
 id: panecom_bstrp_breadcrumbs
 theme: panecom_bstrp
 region: breadcrumb

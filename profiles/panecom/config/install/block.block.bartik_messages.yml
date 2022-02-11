@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - bartik
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
 id: bartik_messages
 theme: bartik
 region: highlighted

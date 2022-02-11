@@ -249,7 +249,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'MQizAkMSg989g20rvwNfOvWR3IGjBgAf-g5qsfrlsC_tmpl9M8ooGGYaSWPnGVSi19Qq2T0WdA';
 
 /**
  * Deployment identifier.
@@ -769,3 +769,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'db-devpanecom',
+  'username' => 'db-devpanecom',
+  'password' => 'X38Vt@wp9(',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync';

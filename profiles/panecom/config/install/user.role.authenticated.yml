@@ -13,6 +13,8 @@ dependencies:
     - search
     - shortcut
     - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
 label: 'Utilisateur authentifié'
 weight: 1

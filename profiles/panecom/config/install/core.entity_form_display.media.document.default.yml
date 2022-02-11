@@ -7,6 +7,8 @@ dependencies:
   module:
     - file
     - path
+_core:
+  default_config_hash: aewrRkePgJzdD5kPOq8JeMcKHs6yat49nE7ZeCQzQZg
 id: media.document.default
 targetEntityType: media
 bundle: document

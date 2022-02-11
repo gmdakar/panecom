@@ -1,6 +1,8 @@
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: hzgvcRgZHltqWf8hBmttoWh95tCJoPL25lPq9YSIRsY
 id: video
 label: Video
 description: 'A locally hosted video file.'
