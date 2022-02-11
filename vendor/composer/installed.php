@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5429a84156bb5748b4d64144645dd91633e813d3',
+        'reference' => '914220c207d8266152124f9232fa6aaec167fef5',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -717,7 +717,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5429a84156bb5748b4d64144645dd91633e813d3',
+            'reference' => '914220c207d8266152124f9232fa6aaec167fef5',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -803,6 +803,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/native_lazy_loading' => array(
+            'pretty_version' => '1.1.0-rc1',
+            'version' => '1.1.0.0-RC1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/native_lazy_loading',
+            'aliases' => array(),
+            'reference' => '1.1.0-rc1',
+            'dev_requirement' => false,
         ),
         'drupal/node' => array(
             'dev_requirement' => false,

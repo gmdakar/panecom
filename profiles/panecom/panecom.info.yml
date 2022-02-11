@@ -61,6 +61,7 @@ install:
   - media_library_theme_reset
   - menu_link_content
   - menu_ui
+  - native_lazy_loading
   - node
   - notifications_widget
   - options
