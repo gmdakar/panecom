@@ -475,8 +475,8 @@ div#block-views-block-organisations-block-1 h2::after {
     color: white;
 }
 
-.views-field-field-organisation-logo .content img {
-    height: 400px; /*solution temporaire*/
+.views-field-field-organisation-logo img {
+    height: 400px !important; /*solution temporaire*/
 }
 
 #block-backgroundheaderorganisationmembre .content .layout .breadcrumb-item,
