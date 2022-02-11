@@ -1,11 +1,8 @@
-uuid: cc5de25c-f290-4880-8121-2028b2528e05
 langcode: fr
 status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
 id: media_save_action
 label: 'Save media'
 type: media

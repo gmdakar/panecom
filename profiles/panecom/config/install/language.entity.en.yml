@@ -1,9 +1,6 @@
-uuid: 039073f2-87c6-4123-b9dc-49cbbbed58c7
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
 id: en
 label: English
 direction: ltr

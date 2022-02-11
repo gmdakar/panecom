@@ -1,11 +1,8 @@
-uuid: 75aa7f19-d09c-4853-8973-e4979527a2ba
 langcode: fr
 status: true
 dependencies:
   module:
     - locale
-_core:
-  default_config_hash: Kcx1PIw-KgGbTo5_tOkbI6TWJiP_0Sr7t5T9SuMV2hA
 id: locale
 label: Translation
 module: locale
