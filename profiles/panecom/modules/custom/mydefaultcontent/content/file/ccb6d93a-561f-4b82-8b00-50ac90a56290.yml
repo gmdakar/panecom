@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ccb6d93a-561f-4b82-8b00-50ac90a56290
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_kdHwrb.jpeg
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_kdHwrb.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2935
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337434

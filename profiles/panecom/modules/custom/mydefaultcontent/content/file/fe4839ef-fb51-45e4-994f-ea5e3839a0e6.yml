@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fe4839ef-fb51-45e4-994f-ea5e3839a0e6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_OQPiii.jpeg
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_OQPiii.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8991
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337016

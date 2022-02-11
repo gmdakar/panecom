@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: b8edb61b-9f5f-484b-9997-51d8a2794508
+  bundle: menu_link_content
+  default_langcode: fr
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Youtube
+  menu_name:
+    -
+      value: resosocio
+  link:
+    -
+      uri: 'internal:#'
+      title: ''
+      options:
+        fa_icon: fa-youtube-play
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: only
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
