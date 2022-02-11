@@ -18,7 +18,7 @@
 set -e
 
 # "ls index.php &&"  juste pour s'assurer d'être au bon endroit c'est à dire à la racine de l'instance de dev "devpanecom"
-echo "ls -al ../index.php"
+echo "ls -al index.php"
 ls -al index.php
 
 echo "git add . && git commit -m "new commmit" && git push"
@@ -64,5 +64,22 @@ composer update --no-interaction
 echo "composer require drush/drush:8.x -W --no-interaction"
 composer require drush/drush:8.x -W --no-interaction
 
-#echo "rm profiles/panecom/config/install/core.extension.yml profiles/panecom/config/install/file.setting.yml profiles/panecom/config/install/update.setting.yml || true"
-#rm profiles/panecom/config/install/core.extension.yml profiles/panecom/config/install/file.setting.yml profiles/panecom/config/install/update.setting.yml || true
+
+############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdsitr"  ###############################
+echo "cd ../panecomdistr"
+cd ../panecomdistr
+
+echo "ls -al index.php"
+ls -al index.php
+
+echo "############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo 'panecomdsitr'  ###############################"
+echo "drush sql-drop --yes && drush -y site-install panecom --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
+drush sql-drop --yes && drush -y site-install panecom --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
+
+echo "............................"
+echo "***  PROFIL INSTALLED  *** "
+echo "............................"
+
+#retour à l'instance de dev
+echo "cd ../devpanecom"
+cd ../devpanecom

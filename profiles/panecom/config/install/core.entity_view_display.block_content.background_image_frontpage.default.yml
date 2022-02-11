@@ -27,7 +27,7 @@ third_party_settings:
                 class: null
               background_media:
                 image:
-                  media_id: '1'
+                  media_id: '5'
                 video:
                   media_id: null
                 background_options:
@@ -101,6 +101,64 @@ third_party_settings:
                 rounded_corner_bottom_right:
                   class: _none
               scroll_effects:
+                class: null
+              background_color_desktop:
+                class: null
+              background_color_laptop:
+                class: null
+              background_color_tablet:
+                class: null
+              background_color_mobile:
+                class: null
+              text_color_desktop:
+                class: null
+              text_color_laptop:
+                class: null
+              text_color_tablet:
+                class: null
+              text_color_mobile:
+                class: null
+              padding_desktop:
+                class: _none
+              padding_laptop:
+                class: _none
+              padding_tablet:
+                class: _none
+              padding_mobile:
+                class: _none
+              padding_left_desktop:
+                class: _none
+              padding_left_laptop:
+                class: _none
+              padding_left_tablet:
+                class: _none
+              padding_left_mobile:
+                class: _none
+              padding_top_desktop:
+                class: _none
+              padding_top_laptop:
+                class: _none
+              padding_top_tablet:
+                class: _none
+              padding_top_mobile:
+                class: _none
+              padding_right_desktop:
+                class: _none
+              padding_right_laptop:
+                class: _none
+              padding_right_tablet:
+                class: _none
+              padding_right_mobile:
+                class: _none
+              padding_bottom_desktop:
+                class: _none
+              padding_bottom_laptop:
+                class: _none
+              padding_bottom_tablet:
+                class: _none
+              padding_bottom_mobile:
+                class: _none
+              box_shadow:
                 class: null
           container_wrapper_bg_color_class: ''
           container_wrapper_bg_media: null
