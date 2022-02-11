@@ -45,8 +45,8 @@ cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /
 echo "rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/"
 rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/
 
-echo "cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom "
-cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom 
+echo "chmod -R 755 ../panecomdistr/sites/default/ && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom "
+chmod -R 755 ../panecomdistr/sites/default/ && cd ../../htdocs && rm -rf panecomdistr/* && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom 
 
 echo "cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ "
 cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ 
