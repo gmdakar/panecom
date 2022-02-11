@@ -7,12 +7,11 @@
 # sachant que l'instance de démo doit être au même niveau (exemple ici htdocs/panecomdistr/)
 #####
 
+set -e
 
-
-
-# "find . -name index.php &&"  juste pour s'assurer d'être au bon endroit c'est à dire à la racine de l'instance de dev "devpanecom"
-echo "find . -name index.pp"
-find . -name index.pp
+# "ls index.php &&"  juste pour s'assurer d'être au bon endroit c'est à dire à la racine de l'instance de dev "devpanecom"
+echo "ls index.php"
+ls index.php
 
 echo "git add . && git commit -m "new commmit" && git push"
 git add . && git commit -m "new commit" && git push
