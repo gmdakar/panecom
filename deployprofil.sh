@@ -21,10 +21,10 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
-echo "drush cr && drush -y cex && git status"
-drush cr && drush -y cex && git status
+echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
+rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
 
-echo "git add . && git commit -m "new commmit" && git push"
+echo "git add . && git commit -m 'new commmit' && git push"
 git add . && git commit -m "new commit" && git push
 
 echo "rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
@@ -36,8 +36,8 @@ drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && dru
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
-echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom"
-rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_CQioUJkW8Wj4yYrmfPRzkP3IXa4VmhbXhyNP9gEVQAxJRaPjoY9_pGDGhGXZS5j2F_oG499tYw/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
+echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom"
+rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
 
 echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
 cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
