@@ -7,8 +7,6 @@ dependencies:
     - system
   theme:
     - panecom_bstrp
-_core:
-  default_config_hash: pnCK21YFjH7iB4XDeokSq3N3XSr6qX8BsqMs9nmip6E
 id: panecom_bstrp_footer
 theme: panecom_bstrp
 region: footer_fifth

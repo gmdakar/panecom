@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6c5ed182-62d1-4adf-8460-92775a3e8a37
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_ynPYpX.gif
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_ynPYpX.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2075
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337016

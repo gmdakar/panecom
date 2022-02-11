@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cd89d8e2-7714-4a39-962c-bd771534b0da
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_eAhOdA.jpg
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_eAhOdA.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6161
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337434

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1569d16f-2bdd-4697-8612-cf0e633588f5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_qebXuD.png
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_qebXuD.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 972
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337016

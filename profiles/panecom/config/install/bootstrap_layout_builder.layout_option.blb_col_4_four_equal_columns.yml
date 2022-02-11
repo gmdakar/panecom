@@ -1,8 +1,6 @@
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: dKXHe1ptqHzW_qAo6ha88GZPP2oMPjPXKtMnMZkSLkM
 id: blb_col_4_four_equal_columns
 layout_id: blb_col_4
 label: 'Four equal columns'

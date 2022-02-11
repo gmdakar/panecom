@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - panecom_bstrp
-_core:
-  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
 id: panecom_bstrp_messages
 theme: panecom_bstrp
 region: highlighted

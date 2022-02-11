@@ -3,8 +3,6 @@ status: true
 dependencies:
   theme:
     - seven
-_core:
-  default_config_hash: P-2PK2v3yJQRI4Mg1RqKQ0Ki0wP_UUErIvahd_MtMVc
 id: seven_page_title
 theme: seven
 region: header

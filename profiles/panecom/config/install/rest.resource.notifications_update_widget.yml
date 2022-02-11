@@ -5,8 +5,6 @@ dependencies:
     - notifications_widget
     - serialization
     - user
-_core:
-  default_config_hash: VNVszzhjq_LAulGDMVPrBImpdODFiJwTU7TAwa2NYsM
 id: notifications_update_widget
 plugin_id: notifications_update_widget
 granularity: method

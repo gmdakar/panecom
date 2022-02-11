@@ -1,8 +1,6 @@
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: tdguknZWpS7uHYPyuFWgJtHHH4g-6SyOlHQ6a2_GErk
 id: blb_col_5_4_2_2_2_2
 layout_id: blb_col_5
 label: '4/12 2/12 2/12 2/12 2/12'

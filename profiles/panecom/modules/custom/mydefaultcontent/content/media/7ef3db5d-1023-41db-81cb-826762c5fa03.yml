@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7ef3db5d-1023-41db-81cb-826762c5fa03
+  bundle: image
+  default_langcode: fr
+  depends:
+    ce4ad366-db49-46fa-8c06-c79327710207: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-scott-webb-430215_1200x400.jpg
+  created:
+    -
+      value: 1644505760
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_media_image:
+    -
+      entity: ce4ad366-db49-46fa-8c06-c79327710207
+      alt: 'image bandeau'
+      title: ''
+      width: 1273
+      height: 403

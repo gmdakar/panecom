@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a1adad8-145d-4322-9631-595c7af931af
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_mAVL7U.png
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_mAVL7U.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 720
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644321426

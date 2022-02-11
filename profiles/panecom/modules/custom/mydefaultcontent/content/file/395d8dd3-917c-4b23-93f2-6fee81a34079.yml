@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 395d8dd3-917c-4b23-93f2-6fee81a34079
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_sSOUJM.jpeg
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_sSOUJM.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9582
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337434

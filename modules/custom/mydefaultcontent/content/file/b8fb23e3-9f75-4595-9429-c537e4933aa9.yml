@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b8fb23e3-9f75-4595-9429-c537e4933aa9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AjEd8n.gif
+  uri:
+    -
+      value: 'public://organisation/2022-02/generateImage_AjEd8n.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1160
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644337434

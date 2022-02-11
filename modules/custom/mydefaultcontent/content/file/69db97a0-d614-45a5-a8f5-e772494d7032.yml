@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 69db97a0-d614-45a5-a8f5-e772494d7032
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_zoY810.png
+  uri:
+    -
+      value: 'public://2022-01/generateImage_zoY810.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1219
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643302695

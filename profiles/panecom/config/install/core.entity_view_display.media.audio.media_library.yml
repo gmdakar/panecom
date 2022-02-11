@@ -8,8 +8,6 @@ dependencies:
     - media.type.audio
   module:
     - image
-_core:
-  default_config_hash: oxp7yFz5G5Yg0Q00XN-9LC_eX4w8wj7vojjkd3XuaQs
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio

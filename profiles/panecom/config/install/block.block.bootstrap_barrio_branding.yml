@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
 id: bootstrap_barrio_branding
 theme: bootstrap_barrio
 region: header

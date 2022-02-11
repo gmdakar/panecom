@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
 id: bootstrap_barrio_breadcrumbs
 theme: bootstrap_barrio
 region: breadcrumb

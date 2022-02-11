@@ -5,8 +5,6 @@ dependencies:
     - system
   theme:
     - panecom_bstrp
-_core:
-  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
 id: panecom_bstrp_content
 theme: panecom_bstrp
 region: content
