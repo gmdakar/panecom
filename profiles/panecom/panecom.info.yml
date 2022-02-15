@@ -43,6 +43,7 @@ install:
   - fontawesome
   - fontawesome_menu_icons
   - fontawesome_iconpicker_widget
+  - galleryslider
   - hal
   - help
   - history

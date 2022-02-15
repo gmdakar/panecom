@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '217423555ed9380f6849f89010d17537128fff52',
+        'reference' => '4895c5c993825a1f5a5717c598c51c1331a96a6d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -615,6 +615,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/galleryslider' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/galleryslider',
+            'aliases' => array(),
+            'reference' => '8.x-3.1',
+            'dev_requirement' => false,
+        ),
         'drupal/hal' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -735,7 +744,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '217423555ed9380f6849f89010d17537128fff52',
+            'reference' => '4895c5c993825a1f5a5717c598c51c1331a96a6d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
