@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd145967e0479d523f2a5886c304cb3a788cbb91a',
+        'reference' => '16adfa4018635c73bb219ff74845112241d875a7',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -660,6 +660,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/jquery_ui' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/jquery_ui',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
         'drupal/jsonapi' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -726,7 +735,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd145967e0479d523f2a5886c304cb3a788cbb91a',
+            'reference' => '16adfa4018635c73bb219ff74845112241d875a7',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -827,15 +836,6 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
-        ),
-        'drupal/notifications_widget' => array(
-            'pretty_version' => '1.5.0',
-            'version' => '1.5.0.0',
-            'type' => 'metapackage',
-            'install_path' => NULL,
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
         ),
         'drupal/notificationswidget' => array(
             'pretty_version' => '1.5.0',
@@ -1001,6 +1001,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/taxonomy_manager' => array(
+            'pretty_version' => '2.0.6',
+            'version' => '2.0.6.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/taxonomy_manager',
+            'aliases' => array(),
+            'reference' => '2.0.6',
+            'dev_requirement' => false,
         ),
         'drupal/telephone' => array(
             'dev_requirement' => false,

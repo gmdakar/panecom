@@ -36,12 +36,12 @@
         "drupal/layout_builder_operation_link": "^1.0",
         "drupal/layout_builder_save_and_edit": "^1.0",
         "drupal/native_lazy_loading": "^1.1@RC",
-        "drupal/notifications_widget": "^1.5",
-        "drupal/notificationswidget": "^1.5",
+        "drupal/notificationswidget": "1.5",
         "drupal/owlcarousel": "^1.0@beta",
         "drupal/pathauto": "^1.8",
         "drupal/restui": "^1.20",
         "drupal/superfish": "^1.4",
+        "drupal/taxonomy_manager": "^2.0",
         "drupal/webp": "^1.0@beta"
     },
     "conflict": {
@@ -62,8 +62,10 @@
     "extra": {
         "enable-patching": true,
         "patches": {
-            "drupal/notifications_widget_save": {
-                "#12345 - Fix some issues for notifications_widget":  "https://www.drupal.org/files/issues/2021-05-27/api-update-notification-fix-3216005-2.patch"
+            "drupal/notificationswidget": {
+                "#123456 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/updated-deprecated-session-token-path-3180168-3.patch",
+				"#123457 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/fixed-admin-page-settings-3216022-2.patch",
+				"#123458 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-08-03/3199296-3.patch"
             }
         },
         "drupal-scaffold": {
