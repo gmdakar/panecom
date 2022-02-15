@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2327ff4f-d2df-4f59-8f3f-a699c807fda2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AKvOKC.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_AKvOKC.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3182
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

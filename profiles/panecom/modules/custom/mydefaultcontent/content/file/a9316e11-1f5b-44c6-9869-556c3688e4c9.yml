@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a9316e11-1f5b-44c6-9869-556c3688e4c9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_2EwQc4.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_2EwQc4.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4158
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

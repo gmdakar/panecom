@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e8ee8689-928c-4744-8671-00d60e23a20e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_QJyMxE.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_QJyMxE.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3587
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

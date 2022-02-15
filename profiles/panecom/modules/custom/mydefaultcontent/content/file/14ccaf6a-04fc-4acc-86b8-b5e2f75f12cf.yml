@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 14ccaf6a-04fc-4acc-86b8-b5e2f75f12cf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_CO69go.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_CO69go.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7837
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

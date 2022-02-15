@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bd161b93-1417-465f-b00b-3aa7630cf34c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_aECMK6.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_aECMK6.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5737
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3433b699-ed22-41bb-a290-122a0b9961c4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_RMC4GL.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_RMC4GL.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 678
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842570

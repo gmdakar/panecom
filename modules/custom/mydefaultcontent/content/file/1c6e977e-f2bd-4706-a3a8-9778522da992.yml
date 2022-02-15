@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c6e977e-f2bd-4706-a3a8-9778522da992
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_qhWvQe.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_qhWvQe.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3027
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 86615f6d-4894-4dd8-a03d-962300bfd6f4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_wH1ilR.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_wH1ilR.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5056
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fbb390b9-a626-4a24-b02d-1b1d02170d8e
+  bundle: article
+  default_langcode: fr
+  depends:
+    419ebf24-b5b6-4040-ab71-89f6d75b7e9f: user
+default:
+  revision_uid:
+    -
+      entity: 419ebf24-b5b6-4040-ab71-89f6d75b7e9f
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 419ebf24-b5b6-4040-ab71-89f6d75b7e9f
+  title:
+    -
+      value: 'test evt 369'
+  created:
+    -
+      value: 1644925311
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<p>test evt 3</p>\r\n"
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1644925311
+      last_comment_name: ''
+      last_comment_uid: 2
+      comment_count: 0

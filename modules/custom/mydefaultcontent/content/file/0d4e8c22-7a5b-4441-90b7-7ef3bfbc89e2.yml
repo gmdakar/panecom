@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0d4e8c22-7a5b-4441-90b7-7ef3bfbc89e2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_QXup7G.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_QXup7G.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2832
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

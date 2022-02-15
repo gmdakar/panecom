@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3aa9e0d1-996b-42f1-8bd4-4aa82c55947a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_ciXlt4.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_ciXlt4.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6961
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

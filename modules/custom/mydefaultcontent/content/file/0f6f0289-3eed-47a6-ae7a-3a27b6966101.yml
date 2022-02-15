@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0f6f0289-3eed-47a6-ae7a-3a27b6966101
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_M5uOpE.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_M5uOpE.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1647
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ab8fc051-eadb-439e-8fad-be5144c2f361
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_oto0xt.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_oto0xt.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3029
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

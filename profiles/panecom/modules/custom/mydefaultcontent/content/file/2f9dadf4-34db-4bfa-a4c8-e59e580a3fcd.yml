@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2f9dadf4-34db-4bfa-a4c8-e59e580a3fcd
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_m6PY7K.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_m6PY7K.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1398
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

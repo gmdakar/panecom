@@ -1,0 +1,17 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_header_content_type_o
+id: block_content.background_header_content_type_o.info
+field_name: info
+entity_type: block_content
+bundle: background_header_content_type_o
+label: 'Block description'
+description: 'Une brève description de votre bloc.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

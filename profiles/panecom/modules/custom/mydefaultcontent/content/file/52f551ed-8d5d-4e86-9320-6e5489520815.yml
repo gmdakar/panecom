@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 52f551ed-8d5d-4e86-9320-6e5489520815
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_KjzJHd.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_KjzJHd.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 564
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

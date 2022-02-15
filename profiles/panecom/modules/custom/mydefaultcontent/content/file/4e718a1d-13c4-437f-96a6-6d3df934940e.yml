@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4e718a1d-13c4-437f-96a6-6d3df934940e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_2YGJWN.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_2YGJWN.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1302
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

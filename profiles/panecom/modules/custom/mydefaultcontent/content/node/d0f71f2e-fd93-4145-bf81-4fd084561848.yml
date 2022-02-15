@@ -34,9 +34,9 @@ default:
       value: true
   path:
     -
-      alias: /node-221-evenement
+      alias: /evenement/evenement-ludus
       langcode: fr
-      pathauto: 0
+      pathauto: 1
   content_translation_source:
     -
       value: und
@@ -138,9 +138,9 @@ translations:
         value: true
     path:
       -
-        alias: /node-221-evenement-en
+        alias: /evenement/evenement-ludus-en
         langcode: en
-        pathauto: 0
+        pathauto: 1
     content_translation_source:
       -
         value: und

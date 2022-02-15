@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 164d140e-2903-43e6-ac84-422e68221db7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_uFJgDy.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_uFJgDy.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4792
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

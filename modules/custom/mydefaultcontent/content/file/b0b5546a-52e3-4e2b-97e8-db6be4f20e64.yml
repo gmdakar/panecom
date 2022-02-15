@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b0b5546a-52e3-4e2b-97e8-db6be4f20e64
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AVYLOT.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_AVYLOT.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 11082
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842504

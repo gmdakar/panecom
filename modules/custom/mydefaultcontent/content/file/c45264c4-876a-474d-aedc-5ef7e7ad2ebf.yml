@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c45264c4-876a-474d-aedc-5ef7e7ad2ebf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_ZbORyJ.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_ZbORyJ.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1647
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

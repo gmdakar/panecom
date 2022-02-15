@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7e4f7dea-2cd8-4c7d-9242-94854996d88d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_UHMQI4.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_UHMQI4.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7240
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842504

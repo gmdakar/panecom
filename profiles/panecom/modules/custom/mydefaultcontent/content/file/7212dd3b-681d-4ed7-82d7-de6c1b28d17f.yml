@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7212dd3b-681d-4ed7-82d7-de6c1b28d17f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_g66KB6.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_g66KB6.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6616
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

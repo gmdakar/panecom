@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 43ccc772-5771-4f29-bb18-be42c554caa5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_uGT1mR.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_uGT1mR.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 11565
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

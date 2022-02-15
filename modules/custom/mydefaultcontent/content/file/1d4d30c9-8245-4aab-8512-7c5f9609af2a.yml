@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1d4d30c9-8245-4aab-8512-7c5f9609af2a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Y97I1f.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Y97I1f.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1256
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

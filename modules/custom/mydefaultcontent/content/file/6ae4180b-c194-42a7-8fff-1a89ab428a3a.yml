@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6ae4180b-c194-42a7-8fff-1a89ab428a3a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_asa8LT.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_asa8LT.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3881
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bab5d73e-b8e9-4174-aa72-c5ff2d12b637
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_oUG3jh.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_oUG3jh.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3179
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644923111

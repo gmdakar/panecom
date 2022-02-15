@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.field.node.organisation.body
     - field.field.node.organisation.field_organisation_logo
-    - field.field.node.organisation.field_point_focal
+    - field.field.node.organisation.field_organisation_pointfocal
     - image.style.organisation_logo_carousel
     - node.type.organisation
   module:
@@ -42,12 +42,12 @@ content:
       show_crop_area: false
       show_default_crop: true
     third_party_settings: {  }
-  field_point_focal:
-    type: text_textarea
-    weight: 3
+  field_organisation_pointfocal:
+    type: text_textfield
+    weight: 26
     region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   path:

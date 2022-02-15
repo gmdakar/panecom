@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6be5ed76-d6b7-4484-b2a2-0c8966f20fb2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_GK4F05.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_GK4F05.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2463
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

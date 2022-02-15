@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 95e1e819-edc8-4e15-843b-1c177a0c0237
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_aD8CMR.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_aD8CMR.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1215
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7bcaf929-359c-4d27-8718-ef097b7bf4d5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_lKLlmC.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_lKLlmC.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2169
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

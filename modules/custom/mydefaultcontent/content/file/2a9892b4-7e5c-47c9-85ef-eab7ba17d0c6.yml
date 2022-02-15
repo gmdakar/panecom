@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a9892b4-7e5c-47c9-85ef-eab7ba17d0c6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_o9PjKn.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_o9PjKn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5075
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

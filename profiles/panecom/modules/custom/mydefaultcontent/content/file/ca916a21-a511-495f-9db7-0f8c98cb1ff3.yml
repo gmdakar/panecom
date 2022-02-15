@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ca916a21-a511-495f-9db7-0f8c98cb1ff3
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_FV4QmI.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_FV4QmI.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7331
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

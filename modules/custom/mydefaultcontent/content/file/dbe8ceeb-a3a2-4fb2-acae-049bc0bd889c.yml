@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dbe8ceeb-a3a2-4fb2-acae-049bc0bd889c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_mPK4lW.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_mPK4lW.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2923
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

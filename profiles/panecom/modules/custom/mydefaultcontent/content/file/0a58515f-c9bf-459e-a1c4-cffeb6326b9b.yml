@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0a58515f-c9bf-459e-a1c4-cffeb6326b9b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_KVjiYl.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_KVjiYl.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9457
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

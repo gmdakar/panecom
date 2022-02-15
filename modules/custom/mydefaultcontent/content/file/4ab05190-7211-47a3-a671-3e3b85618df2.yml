@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4ab05190-7211-47a3-a671-3e3b85618df2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_B4D2Ai.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_B4D2Ai.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2637
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

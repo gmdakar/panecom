@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 02d425d4-593e-40f2-aa7e-82c358cce0eb
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_wuLqtW.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_wuLqtW.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2243
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842504

@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 419ebf24-b5b6-4040-ab71-89f6d75b7e9f
+  default_langcode: fr
+default:
+  preferred_langcode:
+    -
+      value: fr
+  preferred_admin_langcode:
+    -
+      value: fr
+  name:
+    -
+      value: user1
+  pass:
+    -
+      value: $S$Ev2tqpxIjHvNMvWl.nOHDKov4tQOE1FveTYM8ficXsWHsTDr6mMK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: ssmmsowuser@yahoo.com
+  timezone:
+    -
+      value: Africa/Dakar
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644399173
+  access:
+    -
+      value: 1644940028
+  login:
+    -
+      value: 1644923132
+  init:
+    -
+      value: ssmmsowuser@yahoo.com
+  roles:
+    -
+      target_id: content_editor

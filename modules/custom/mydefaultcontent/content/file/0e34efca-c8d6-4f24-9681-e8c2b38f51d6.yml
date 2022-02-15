@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0e34efca-c8d6-4f24-9681-e8c2b38f51d6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_VFcxQg.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_VFcxQg.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1047
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

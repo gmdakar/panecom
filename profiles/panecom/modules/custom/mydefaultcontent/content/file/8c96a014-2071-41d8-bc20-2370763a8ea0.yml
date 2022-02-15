@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8c96a014-2071-41d8-bc20-2370763a8ea0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_ipaVxb.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_ipaVxb.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 3627
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

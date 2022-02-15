@@ -217,6 +217,32 @@ ul.sf-menu li a, .nav-link{
 }
 
 /*notification widget*/
+
+.dropdown-menu.notify-drop .drop-content li a { 
+    padding-left: 5px !important;
+}
+
+.dropdown-menu.notify-drop .drop-content li a {
+    color: #808080 !important;
+    font-weight: 300;
+}
+.dropdown-menu.notify-drop .drop-content li.unread a{
+  color: #222222 !important;
+}  
+
+.notify-drop li.unread {
+    border-left: 4px solid var(--color3);
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--color3);
+}
+
+.dropdown-menu.notify-drop .drop-content li.unread a {
+    color: #222222 !important;
+    font-weight: 400;
+}
+
+
 #block-notificationwidgetblock {
 	margin: 0 1.75rem;
 }

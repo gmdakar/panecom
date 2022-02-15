@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c1f8251-ca25-471b-9862-fd1ad622de9c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_kjKTN1.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_kjKTN1.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1523
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

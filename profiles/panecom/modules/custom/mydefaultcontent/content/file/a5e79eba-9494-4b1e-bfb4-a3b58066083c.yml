@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a5e79eba-9494-4b1e-bfb4-a3b58066083c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_cXqxtz.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_cXqxtz.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2612
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 354e7a78-c85e-4f52-bdcb-f98964de1f08
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_YhzgFa.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_YhzgFa.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4438
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

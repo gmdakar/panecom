@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 78444295-8de8-43e2-a712-a95fbf099dfe
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_SnywWH.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_SnywWH.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1685
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

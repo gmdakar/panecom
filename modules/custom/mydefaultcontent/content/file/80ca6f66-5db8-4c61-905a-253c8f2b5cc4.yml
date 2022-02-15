@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 80ca6f66-5db8-4c61-905a-253c8f2b5cc4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_TYZgQf.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_TYZgQf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4146
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 05de6f80-cefb-4df9-88c8-e12ef915af91
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AVbAve.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_AVbAve.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 10351
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

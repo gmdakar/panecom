@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a3c09730-65f3-413f-bbd9-d548718db8da
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_IwKI6U.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_IwKI6U.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4672
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 965b9a24-fe3b-4407-9870-a2043f957d1e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Fd9bX5.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Fd9bX5.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2230
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

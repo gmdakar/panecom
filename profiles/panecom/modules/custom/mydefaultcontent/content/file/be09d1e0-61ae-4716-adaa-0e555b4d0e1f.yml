@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: be09d1e0-61ae-4716-adaa-0e555b4d0e1f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_i6QknY.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_i6QknY.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1423
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

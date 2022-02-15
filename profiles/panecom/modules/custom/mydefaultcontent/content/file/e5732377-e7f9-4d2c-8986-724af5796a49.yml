@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5732377-e7f9-4d2c-8986-724af5796a49
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_QL8cN8.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_QL8cN8.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1367
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

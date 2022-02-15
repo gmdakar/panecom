@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 44a761f3-8d94-4988-9ca4-cbf94ddf7bb4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-scott-webb-27406.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/pexels-scott-webb-27406.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 215504
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644945402

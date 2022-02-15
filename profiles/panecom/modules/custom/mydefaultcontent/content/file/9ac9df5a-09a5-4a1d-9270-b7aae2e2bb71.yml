@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9ac9df5a-09a5-4a1d-9270-b7aae2e2bb71
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_aidrWz.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_aidrWz.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7072
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

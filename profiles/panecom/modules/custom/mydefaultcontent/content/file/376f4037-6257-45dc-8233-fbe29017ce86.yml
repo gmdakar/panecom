@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 376f4037-6257-45dc-8233-fbe29017ce86
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_cwAjLa.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_cwAjLa.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4455
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

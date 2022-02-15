@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 90568e1a-8c68-4c8c-b60a-e98ff421af3f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_QnpeEV.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_QnpeEV.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1721
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

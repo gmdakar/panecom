@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 735fe357-0bde-402f-a275-33593284f621
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_0mPeLp.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_0mPeLp.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4497
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842504

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7c4f8f30-9452-47e6-810e-39f43e029bb2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_C7fSTi.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_C7fSTi.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1712
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

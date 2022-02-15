@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 73075928-ca89-4b81-b25e-001bfad94088
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_8bh620.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_8bh620.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 3465
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

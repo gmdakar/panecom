@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ff37200e-2b51-41a6-bfdd-4438e52024e4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_eTR0uC.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_eTR0uC.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5470
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

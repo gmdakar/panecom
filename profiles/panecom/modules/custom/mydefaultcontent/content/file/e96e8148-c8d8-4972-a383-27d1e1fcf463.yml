@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e96e8148-c8d8-4972-a383-27d1e1fcf463
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_kbsfiK.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_kbsfiK.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2435
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

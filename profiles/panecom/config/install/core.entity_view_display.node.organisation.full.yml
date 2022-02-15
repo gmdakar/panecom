@@ -1,16 +1,16 @@
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.organisation.body
     - field.field.node.organisation.field_organisation_logo
-    - field.field.node.organisation.field_point_focal
-    - image.style.organisation_logo_carousel
+    - field.field.node.organisation.field_organisation_pointfocal
     - node.type.organisation
+    - responsive_image.styles.responsive_style_organisation_content_node
   module:
-    - image
     - layout_builder
+    - responsive_image
     - text
     - user
 third_party_settings:
@@ -30,20 +30,13 @@ content:
     weight: 2
     region: content
   field_organisation_logo:
-    type: image
+    type: responsive_image
     label: hidden
     settings:
+      responsive_image_style: responsive_style_organisation_content_node
       image_link: content
-      image_style: organisation_logo_carousel
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_point_focal:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
     region: content
   links:
     settings: {  }
@@ -51,4 +44,5 @@ content:
     weight: 0
     region: content
 hidden:
+  field_organisation_pointfocal: true
   langcode: true

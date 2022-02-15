@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fbd40e2e-ad28-4f5a-a442-86dda53f44a8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_O4uvWK.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_O4uvWK.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2023
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

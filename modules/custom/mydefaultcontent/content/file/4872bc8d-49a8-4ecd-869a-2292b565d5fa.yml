@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4872bc8d-49a8-4ecd-869a-2292b565d5fa
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_RC6Ff9.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_RC6Ff9.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5636
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

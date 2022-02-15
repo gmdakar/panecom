@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2bd03543-5424-421b-af9b-da6a2a3b2040
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_yyBgpb.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_yyBgpb.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9615
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841812

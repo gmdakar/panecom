@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b8010816-8e5e-4adb-abac-1622757cb1f3
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Mffgln.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Mffgln.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3939
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

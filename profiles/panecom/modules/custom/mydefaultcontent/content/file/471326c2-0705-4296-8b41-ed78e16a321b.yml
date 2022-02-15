@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 471326c2-0705-4296-8b41-ed78e16a321b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Lk4mnQ.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Lk4mnQ.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1036
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

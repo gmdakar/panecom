@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: abe72bc9-fda2-4fc0-b7ef-e3751b404e1d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_cJSo1p.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_cJSo1p.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1178
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

@@ -3,13 +3,11 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
-    - rest.resource.notifications_update_widget
   module:
     - comment
     - contact
     - filter
     - media
-    - rest
     - search
     - shortcut
     - system
@@ -23,7 +21,6 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'post comments'
-  - 'restful post notifications_update_widget'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'

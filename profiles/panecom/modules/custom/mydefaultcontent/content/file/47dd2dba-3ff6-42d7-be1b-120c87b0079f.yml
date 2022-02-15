@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47dd2dba-3ff6-42d7-be1b-120c87b0079f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_M6IjDa.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_M6IjDa.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2211
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

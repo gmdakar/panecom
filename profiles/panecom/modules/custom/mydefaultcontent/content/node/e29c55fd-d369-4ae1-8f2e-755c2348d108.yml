@@ -33,9 +33,9 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /evenement/test-evt-1
       langcode: fr
-      pathauto: 0
+      pathauto: 1
   content_translation_source:
     -
       value: und
@@ -83,9 +83,9 @@ translations:
         value: true
     path:
       -
-        alias: ''
+        alias: /evenement/test-evt-1-en
         langcode: en
-        pathauto: 0
+        pathauto: 1
     content_translation_source:
       -
         value: fr

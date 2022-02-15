@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3f00c359-9be3-4a75-8a52-8a9695f4253e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_9ynTpG.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_9ynTpG.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2665
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841033

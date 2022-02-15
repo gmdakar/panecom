@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e855d8c4-1c35-458c-8913-adc59f8eca30
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_A3RggZ.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_A3RggZ.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2215
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

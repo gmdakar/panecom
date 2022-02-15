@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6188d380-58dc-4d4e-a394-1c2aaa87942a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_0sXI4N.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_0sXI4N.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2687
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 54d5b17a-0f45-481f-b818-8a3f5db9c1ef
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_opB4TF.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_opB4TF.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2194
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

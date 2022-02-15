@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: af0f7b88-4ee5-4945-90ee-58db6d38a6ce
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_3vLDZv.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_3vLDZv.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3795
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644839782

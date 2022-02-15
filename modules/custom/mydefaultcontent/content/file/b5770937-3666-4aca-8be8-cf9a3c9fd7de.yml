@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b5770937-3666-4aca-8be8-cf9a3c9fd7de
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_FifEO5.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_FifEO5.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 4446
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

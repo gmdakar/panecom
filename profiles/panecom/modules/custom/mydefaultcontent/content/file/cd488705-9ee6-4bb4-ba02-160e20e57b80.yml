@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cd488705-9ee6-4bb4-ba02-160e20e57b80
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_eg8S3W.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_eg8S3W.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3712
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842570

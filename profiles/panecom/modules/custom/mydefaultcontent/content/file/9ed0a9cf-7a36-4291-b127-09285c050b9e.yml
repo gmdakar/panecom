@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9ed0a9cf-7a36-4291-b127-09285c050b9e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_SpBBvW.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_SpBBvW.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3546
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

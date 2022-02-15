@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a33ba017-59e5-4d7d-9fdf-f6719ddb898c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Ihicgs.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Ihicgs.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1848
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

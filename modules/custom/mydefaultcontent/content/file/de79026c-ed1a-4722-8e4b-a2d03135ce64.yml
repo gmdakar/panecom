@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: de79026c-ed1a-4722-8e4b-a2d03135ce64
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_4hsddl.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_4hsddl.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5743
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

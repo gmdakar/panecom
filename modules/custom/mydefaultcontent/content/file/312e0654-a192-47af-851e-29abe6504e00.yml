@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 312e0654-a192-47af-851e-29abe6504e00
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_WmDZ5g.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_WmDZ5g.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9225
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

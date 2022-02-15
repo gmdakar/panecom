@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 116f23e3-57c5-40c1-85a3-d8236769a235
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_CfznrA.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_CfznrA.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 10105
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

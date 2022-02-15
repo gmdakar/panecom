@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c40c45e8-4f78-4c96-8dd3-a719d582a120
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_8ilJAA.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_8ilJAA.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 3007
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842504

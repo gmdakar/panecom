@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7418baaf-7ea2-4227-b41b-798f405101f6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_w7VXSa.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_w7VXSa.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1943
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

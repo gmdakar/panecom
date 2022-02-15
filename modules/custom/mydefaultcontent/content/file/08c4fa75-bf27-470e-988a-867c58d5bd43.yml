@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 08c4fa75-bf27-470e-988a-867c58d5bd43
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_q1m3FK.png
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_q1m3FK.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1897
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

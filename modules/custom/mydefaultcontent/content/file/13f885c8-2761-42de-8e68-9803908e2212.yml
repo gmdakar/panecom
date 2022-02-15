@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 13f885c8-2761-42de-8e68-9803908e2212
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_qoupYq.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_qoupYq.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8689
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841811

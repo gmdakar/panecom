@@ -74,6 +74,7 @@ install:
   - pathauto
   - rdf
   - redirect
+  - responsive_image
   - rest
   - search
   - serialization

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27daf90b-ddce-47a4-a792-8189039cd18f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_USfw4f.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_USfw4f.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2323
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

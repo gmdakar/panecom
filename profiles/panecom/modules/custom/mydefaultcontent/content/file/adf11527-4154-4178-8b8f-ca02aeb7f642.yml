@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: adf11527-4154-4178-8b8f-ca02aeb7f642
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_gUUMXm.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_gUUMXm.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6655
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644923111

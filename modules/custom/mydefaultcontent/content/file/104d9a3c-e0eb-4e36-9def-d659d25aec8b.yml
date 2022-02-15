@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 104d9a3c-e0eb-4e36-9def-d659d25aec8b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_EOYiHK.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_EOYiHK.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2470
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841810

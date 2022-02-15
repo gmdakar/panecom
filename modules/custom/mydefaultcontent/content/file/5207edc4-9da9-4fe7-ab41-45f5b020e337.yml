@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5207edc4-9da9-4fe7-ab41-45f5b020e337
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_25jKoU.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_25jKoU.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3981
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841808

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ca8f7e8b-422d-4ba6-927d-7045742fc139
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_mQo8VQ.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_mQo8VQ.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2397
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840436

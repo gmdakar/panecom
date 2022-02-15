@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 184403d9-411a-400c-8c26-4e274b4ea1e7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_0191Gm.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_0191Gm.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 10806
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841809

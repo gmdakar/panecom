@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 279592eb-b413-48a3-868b-8fa078a6465c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-jens-mahnke-1024634.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/pexels-jens-mahnke-1024634.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 227864
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644945402

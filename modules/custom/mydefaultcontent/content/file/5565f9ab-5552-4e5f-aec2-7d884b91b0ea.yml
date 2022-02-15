@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5565f9ab-5552-4e5f-aec2-7d884b91b0ea
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_W78Gbh.gif
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_W78Gbh.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 3158
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644840949

@@ -22,11 +22,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  path:
-    -
-      alias: ''
-      langcode: fr
-      pathauto: 0
   field_media_image:
     -
       entity: ca5fd536-4ad0-4e4b-9ad6-657ccdb05012

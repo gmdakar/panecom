@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c22dbaa7-372b-46db-9213-4dc959d3e5f8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_O5mjL1.jpeg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_O5mjL1.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4972
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644841905

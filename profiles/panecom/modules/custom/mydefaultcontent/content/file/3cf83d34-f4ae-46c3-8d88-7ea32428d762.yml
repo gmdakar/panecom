@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3cf83d34-f4ae-46c3-8d88-7ea32428d762
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Qdpuuo.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/generateImage_Qdpuuo.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9972
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644842176

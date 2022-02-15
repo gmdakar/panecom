@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c70d64ae-2f1e-4fd9-93b1-eb4adf537919
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: initiativedakar2022.jpg
+  uri:
+    -
+      value: 'public://projet/2022-02/initiativedakar2022.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 406298
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644945402
