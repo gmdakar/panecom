@@ -39,6 +39,10 @@ drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer 
 echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom"
 rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
 
+#les configs et données du module "animate_any"  ne semblent pas bien installés lors de l'installation du profil, donc on forcera plus tard un drush cim partial
+echo "mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/"
+mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/
+
 echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
 cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
 
@@ -65,6 +69,7 @@ echo "composer require drush/drush:8.x -W --no-interaction"
 composer require drush/drush:8.x -W --no-interaction
 
 
+
 ############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdsitr"  ###############################
 echo "cd ../panecomdistr"
 cd ../panecomdistr
@@ -81,6 +86,14 @@ drush -y config-set system.performance css.preprocess TRUE
 
 echo "drush -y config-set system.performance js.preprocess TRUE"
 drush -y config-set system.performance js.preprocess TRUE
+
+#les configs et données du module "animate_any"  ne semblent pas bien installés lors de l'installation du profil
+#donc on forcera plus tard un drush cim partial
+echo "drush -y cim --partial --source=profiles/panecom/config/install/tmp && drush cr"
+drush -y cim --partial --source=profiles/panecom/config/install/tmp && drush cr
+
+echo "rm -rf profiles/panecom/config/install/tmp"
+rm -rf profiles/panecom/config/install/tmp
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
