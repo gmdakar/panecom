@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '4895c5c993825a1f5a5717c598c51c1331a96a6d',
+        'reference' => '60d8612cb46d4105335592dbb4ac237a53693ae1',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -744,7 +744,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '4895c5c993825a1f5a5717c598c51c1331a96a6d',
+            'reference' => '60d8612cb46d4105335592dbb4ac237a53693ae1',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -845,6 +845,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/notifications_widget' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
         ),
         'drupal/notificationswidget' => array(
             'pretty_version' => '1.5.0',
