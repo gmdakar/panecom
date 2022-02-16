@@ -39,8 +39,6 @@ drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer 
 echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom"
 rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
 
-mv profiles/panecom/config/install/*animate* profiles/panecom/config/optional/
-
 echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
 cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
 
