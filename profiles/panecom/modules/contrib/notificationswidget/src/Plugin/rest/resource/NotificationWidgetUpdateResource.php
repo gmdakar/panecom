@@ -2,11 +2,13 @@
 
 namespace Drupal\notifications_widget\Plugin\rest\resource;
 
+use Drupal\Component\Serialization\Json;
 use Drupal\Core\Session\AccountProxyInterface;
 use Drupal\Core\Database\Connection;
 use Drupal\rest\Plugin\ResourceBase;
 use Drupal\rest\ResourceResponse;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Psr\Log\LoggerInterface;
 
@@ -88,7 +90,7 @@ class NotificationWidgetUpdateResource extends ResourceBase {
   /**
    * {@inheritdoc}
    */
-  public function post($notificationData) {
+  public function post(Request $request) {
     $result = [];
 
     // Use current user after pass authentication to validate access.
@@ -96,6 +98,7 @@ class NotificationWidgetUpdateResource extends ResourceBase {
       throw new AccessDeniedHttpException();
     }
 
+	$notificationData = Json::decode($request->getContent());
     $action = $notificationData['notification_action'];
     $id     = (isset($notificationData['notiId'])) ? $notificationData['notiId'] : '';
 

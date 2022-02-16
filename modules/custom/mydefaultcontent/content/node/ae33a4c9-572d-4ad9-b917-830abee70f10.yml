@@ -33,7 +33,7 @@ default:
       value: 1644399852
   promote:
     -
-      value: false
+      value: true
   sticky:
     -
       value: false
@@ -127,7 +127,7 @@ translations:
         value: true
     path:
       -
-        alias: /projet/projet-ad-eros-euismod-importunus-en
+        alias: /node-384-projet-en
         langcode: en
         pathauto: 1
     content_translation_source:

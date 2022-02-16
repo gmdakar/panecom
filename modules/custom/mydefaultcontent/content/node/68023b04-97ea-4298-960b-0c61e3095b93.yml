@@ -28,13 +28,10 @@ default:
       value: 1644494044
   promote:
     -
-      value: false
+      value: true
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
       alias: /projet/cogo-defui

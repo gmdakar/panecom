@@ -39,7 +39,7 @@ default:
       value: true
   path:
     -
-      alias: /projet/projet-autem-comis-interdico
+      alias: /node-385-projet
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -150,7 +150,7 @@ translations:
         value: true
     path:
       -
-        alias: /projet/projet-autem-comis-interdico-en
+        alias: /node-385-projet-en
         langcode: en
         pathauto: 1
     content_translation_source:

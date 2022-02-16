@@ -39,7 +39,7 @@ default:
       value: true
   path:
     -
-      alias: /projet/plaga-secundum
+      alias: /node-378-projet
       langcode: fr
       pathauto: 1
   content_translation_source:

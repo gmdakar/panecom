@@ -39,7 +39,7 @@ default:
       value: true
   path:
     -
-      alias: /projet/pecus-praemitto-vindico
+      alias: /node-381-projet
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -157,7 +157,7 @@ translations:
         value: true
     path:
       -
-        alias: /projet/pecus-praemitto-vindico-en
+        alias: /node-381-projet-en
         langcode: en
         pathauto: 1
     content_translation_source:

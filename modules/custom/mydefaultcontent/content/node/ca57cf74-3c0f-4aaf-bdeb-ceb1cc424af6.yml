@@ -28,7 +28,7 @@ default:
       value: 1644456311
   promote:
     -
-      value: false
+      value: true
   sticky:
     -
       value: false
@@ -37,7 +37,7 @@ default:
       value: true
   path:
     -
-      alias: /projet/aliquam-consequat
+      alias: /node-374-projet
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -143,7 +143,7 @@ translations:
         value: true
     path:
       -
-        alias: /projet/aliquam-consequat-en
+        alias: /node-374-projet-en
         langcode: en
         pathauto: 1
     content_translation_source:

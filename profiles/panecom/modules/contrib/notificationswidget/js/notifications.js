@@ -140,7 +140,7 @@
        * Fetch CSRF token to make POST request.
        */
       function getCsrfToken(callback) {
-        $.get(Drupal.url('rest/session/token'))
+        $.get(Drupal.url('session/token'))
           .done(function (data) {
             var csrfToken = data;
             callback(csrfToken);
