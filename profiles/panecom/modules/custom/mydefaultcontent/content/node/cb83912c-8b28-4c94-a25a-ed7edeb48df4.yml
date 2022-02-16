@@ -36,7 +36,7 @@ default:
       value: true
   path:
     -
-      alias: /node-377-projet
+      alias: /projet/exputo-gilvus-nulla-obruo-refoveo-sino
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -142,7 +142,7 @@ translations:
         value: true
     path:
       -
-        alias: /node-377-projet-en
+        alias: /projet/exputo-gilvus-nulla-obruo-refoveo-sino-en
         langcode: en
         pathauto: 1
     content_translation_source:

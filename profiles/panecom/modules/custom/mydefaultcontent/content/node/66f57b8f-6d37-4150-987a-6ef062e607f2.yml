@@ -28,7 +28,7 @@ default:
       value: 1644609980
   promote:
     -
-      value: true
+      value: false
   sticky:
     -
       value: false
@@ -37,7 +37,7 @@ default:
       value: true
   path:
     -
-      alias: /node-382-projet
+      alias: /projet/fere-genitus-quis
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -143,7 +143,7 @@ translations:
         value: true
     path:
       -
-        alias: /node-382-projet-en
+        alias: /projet/fere-genitus-quis-en
         langcode: en
         pathauto: 1
     content_translation_source:

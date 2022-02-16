@@ -38,7 +38,7 @@ default:
       value: true
   path:
     -
-      alias: /node-383-projet
+      alias: /projet/qui-quis-saluto-valde
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -150,7 +150,7 @@ translations:
         value: true
     path:
       -
-        alias: /node-383-projet-en
+        alias: /projet/qui-quis-saluto-valde-en
         langcode: en
         pathauto: 1
     content_translation_source:

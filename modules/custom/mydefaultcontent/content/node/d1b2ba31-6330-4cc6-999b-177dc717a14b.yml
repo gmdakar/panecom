@@ -38,7 +38,7 @@ default:
       value: true
   path:
     -
-      alias: /node-376-projet
+      alias: /projet/comis-enim-incassum-iriure-olim-praesent
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -150,7 +150,7 @@ translations:
         value: true
     path:
       -
-        alias: /node-376-projet-en
+        alias: /projet/comis-enim-incassum-iriure-olim-praesent-en
         langcode: en
         pathauto: 1
     content_translation_source:

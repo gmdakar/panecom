@@ -38,7 +38,7 @@ default:
       value: true
   path:
     -
-      alias: /node-380-projet
+      alias: /projet/singularis
       langcode: fr
       pathauto: 1
   content_translation_source:
@@ -156,7 +156,7 @@ translations:
         value: true
     path:
       -
-        alias: /node-380-projet-en
+        alias: /projet/singularis-en
         langcode: en
         pathauto: 1
     content_translation_source:
