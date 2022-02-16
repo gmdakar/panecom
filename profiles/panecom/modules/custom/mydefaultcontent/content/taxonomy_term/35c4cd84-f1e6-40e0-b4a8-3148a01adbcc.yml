@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 35c4cd84-f1e6-40e0-b4a8-3148a01adbcc
+  bundle: tags
+  default_langcode: fr
+  depends:
+    419ebf24-b5b6-4040-ab71-89f6d75b7e9f: user
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: zazaz
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: 419ebf24-b5b6-4040-ab71-89f6d75b7e9f
+  content_translation_created:
+    -
+      value: 1645007219
