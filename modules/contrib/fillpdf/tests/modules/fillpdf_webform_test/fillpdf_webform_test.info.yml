@@ -1,0 +1,13 @@
+name: FillPDF webform Testing
+type: module
+description: Fixtures/support for FillPDF webform tests.
+core_version_requirement: ^8.8 || ^9
+package: Testing
+dependencies:
+  - fillpdf:fillpdf_test
+  - webform:webform
+
+# Information added by Drupal.org packaging script on 2021-11-18
+version: '5.0.0-alpha2'
+project: 'fillpdf'
+datestamp: 1637256662

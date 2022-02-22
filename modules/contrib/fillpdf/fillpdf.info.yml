@@ -1,0 +1,22 @@
+name: 'FillPDF'
+type: module
+description: 'Allows users to populate PDF forms from website data.'
+core_version_requirement: ^8.8 || ^9
+php: 7.2.0
+package: Other
+configure: fillpdf.settings
+dependencies:
+  - drupal:file
+  - token:token
+  - drupal:views
+  - drupal:serialization
+  - drupal:options
+test_dependencies:
+  - webform:webform
+  # xmlrpc does not have a Drupal 9 release yet.
+  # - xmlrpc:xmlrpc
+
+# Information added by Drupal.org packaging script on 2021-11-18
+version: '5.0.0-alpha2'
+project: 'fillpdf'
+datestamp: 1637256662

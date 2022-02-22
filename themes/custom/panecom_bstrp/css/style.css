@@ -528,6 +528,84 @@ div#block-views-block-organisations-block-1 h2::after {
 	display: inline-block;
 }
 
+/**                                 AGENDA FORUM  de l'EAU              *************        TO DELETE       *****************/
+.view-agenda caption {
+    caption-side: top;
+}
+
+.view-agenda .view-header {
+    margin: 2rem 9%;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.view-agenda .view-grouping {
+    width: 100%;
+    margin: 3rem 10%;
+	background-color: #fcfcfc;
+}
+
+.view-agenda .view-grouping-header a {
+    font-size: 1.5rem;
+    background-color: #105efe;
+    padding: 0.25rem 0.75rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.view-agenda .view-grouping-header {
+    border-bottom: 5px solid #e4e4e4;
+    background-color: white;
+}
+
+.view-agenda .view-grouping-content h3 {
+    font-size: 1.8rem;
+    margin: 1.6rem 0 0 0;
+    text-align: center;
+}
+
+.view-agenda .views-field a {
+    color: #282c47 !important;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.view-agenda .views-field {
+    padding: 0.1rem 1rem;
+   /* background-color: #f4f4f4;*/
+    margin: 0.85rem 0;
+}
+
+.view-agenda .views-field.views-field-title-1 a::before {
+    content: "+";
+    font-size: 1.5rem;
+    margin-right: 0.25rem;
+    top: 0.1rem;
+    position: relative;
+    color: #40abd4;
+}
+
+.view-agenda .views-field.views-field-title-1 a {
+	text-decoration: none;
+}
+
+.view-agenda .views-field.views-field-title-1 a:hover {
+	padding-left: .1rem;
+}
+
+.view-agenda .view-filters {
+    margin: 0 10%;
+    background-color: gainsboro;
+    padding: 2rem;
+}
+
+
+
 /*******   FOOTER  *****/
 /*div#block-panecom-bstrp-powered {
     margin-left: 15px;

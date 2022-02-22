@@ -25,7 +25,7 @@ class ListBullet extends AbstractFrameDecorator
     const BULLET_DESCENT = 0.3; //descent of font below baseline. Todo: Guessed for now.
     const BULLET_SIZE = 0.35; // bullet diameter. For now 0.5 of font_size without descent.
 
-    static $BULLET_TYPES = ["disc", "circle", "square"];
+    static $BULLET_TYPES = array("disc", "circle", "square");
 
     /**
      * ListBullet constructor.
@@ -38,33 +38,37 @@ class ListBullet extends AbstractFrameDecorator
     }
 
     /**
-     * @return float
+     * @return float|int
      */
-    public function get_margin_width(): float
+    function get_margin_width()
     {
         $style = $this->_frame->get_style();
 
-        if ($style->list_style_type === "none") {
-            return 0.0;
+        // Small hack to prevent extra indenting of list text on list_style_position === "inside"
+        // and on suppressed bullet
+        if ($style->list_style_position === "outside" ||
+            $style->list_style_type === "none"
+        ) {
+            return 0;
         }
 
-        return $style->font_size * self::BULLET_SIZE + 2 * self::BULLET_PADDING;
+        return $style->get_font_size() * self::BULLET_SIZE + 2 * self::BULLET_PADDING;
     }
 
     /**
      * hits only on "inset" lists items, to increase height of box
      *
-     * @return float
+     * @return float|int
      */
-    public function get_margin_height(): float
+    function get_margin_height()
     {
         $style = $this->_frame->get_style();
 
         if ($style->list_style_type === "none") {
-            return 0.0;
+            return 0;
         }
 
-        return $style->font_size * self::BULLET_SIZE + 2 * self::BULLET_PADDING;
+        return $style->get_font_size() * self::BULLET_SIZE + 2 * self::BULLET_PADDING;
     }
 
     /**
@@ -72,7 +76,7 @@ class ListBullet extends AbstractFrameDecorator
      */
     function get_width()
     {
-        return $this->get_margin_width();
+        return $this->get_margin_height();
     }
 
     /**

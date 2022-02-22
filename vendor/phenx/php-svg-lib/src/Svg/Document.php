@@ -2,8 +2,8 @@
 /**
  * @package php-svg-lib
  * @link    http://github.com/PhenX/php-svg-lib
- * @author  Fabien MÃ©nager <fabien.menager@gmail.com>
- * @license GNU LGPLv3+ http://www.gnu.org/copyleft/lesser.html
+ * @author  Fabien Ménager <fabien.menager@gmail.com>
+ * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
 
 namespace Svg;
@@ -41,6 +41,9 @@ class Document extends AbstractTag
     protected $pathBBox;
     protected $viewBox;
 
+    /** @var resource */
+    protected $parser;
+
     /** @var SurfaceInterface */
     protected $surface;
 
@@ -71,7 +74,7 @@ class Document extends AbstractTag
             array($this, "_charData")
         );
 
-        return $parser;
+        return $this->parser = $parser;
     }
 
     public function __construct() {
@@ -330,9 +333,6 @@ class Document extends AbstractTag
             case 'text':
                 $tag = new Text($this, $name);
                 break;
-
-            case 'desc':
-                return;
         }
 
         if ($tag) {
@@ -350,6 +350,8 @@ class Document extends AbstractTag
             $this->stack[] = $tag;
 
             $tag->handle($attributes);
+        } else {
+            echo "Unknown: '$name'\n";
         }
     }
 
