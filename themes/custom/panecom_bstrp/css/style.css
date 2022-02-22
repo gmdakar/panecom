@@ -604,7 +604,11 @@ div#block-views-block-organisations-block-1 h2::after {
     padding: 2rem;
 }
 
-
+.view-agenda #edit-field-code-value.form-control {
+    width: 7rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
 
 /*******   FOOTER  *****/
 /*div#block-panecom-bstrp-powered {
