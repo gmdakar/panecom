@@ -656,7 +656,42 @@ div#block-views-block-organisations-block-1 h2::after {
 	display:none;
 }
 
-	
+.page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc {
+    background-color: #fff;
+}
+
+.page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc .field__label{
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: #284478;
+}
+
+.page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc .field__item{
+    font-weight: 300;
+}
+
+.page-view-agenda .ui-dialog .ui-dialog-titlebar {
+    padding: 0.4em 1em;
+    background-color: #062e80;
+    color: #fff;
+}
+
+.page-view-agenda .ui-button-icon-only .ui-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: #fff;
+}
+
+.page-view-agenda .field--name-field-code {
+    margin-bottom: 1rem;
+}
+
+.page-view-agenda .field__label::after {
+    content: ":";
+}
 
 /*******   FOOTER  *****/
 /*div#block-panecom-bstrp-powered {

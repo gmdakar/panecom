@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1727830dbec575e827fb8869153c84665678056b',
+        'reference' => '4ee0e6f49719de25889e0b9ccc483a46b6e5a94d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -780,7 +780,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1727830dbec575e827fb8869153c84665678056b',
+            'reference' => '4ee0e6f49719de25889e0b9ccc483a46b6e5a94d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -874,6 +874,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/native_lazy_loading',
             'aliases' => array(),
             'reference' => '1.1.0-rc1',
+            'dev_requirement' => false,
+        ),
+        'drupal/ng_lightbox' => array(
+            'pretty_version' => '2.0.0-beta1',
+            'version' => '2.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/ng_lightbox',
+            'aliases' => array(),
+            'reference' => '2.0.0-beta1',
             'dev_requirement' => false,
         ),
         'drupal/node' => array(

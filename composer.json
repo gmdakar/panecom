@@ -40,6 +40,7 @@
         "drupal/layout_builder_operation_link": "^1.0",
         "drupal/layout_builder_save_and_edit": "^1.0",
         "drupal/native_lazy_loading": "^1.1@RC",
+        "drupal/ng_lightbox": "^2.0@beta",
         "drupal/notifications_widget": "^1.5",
         "drupal/owlcarousel": "^1.0@beta",
         "drupal/pathauto": "^1.8",
