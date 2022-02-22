@@ -43,3 +43,4 @@ sites/simpletest
 # Ignore SimpleTest multi-site environment.
 # simpletest
 new
+.gnupg/
