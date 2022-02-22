@@ -693,6 +693,36 @@ div#block-views-block-organisations-block-1 h2::after {
     content: ":";
 }
 
+/***************************************************/
+/*medias query style*
+************************************/
+
+@media (max-width: 768px) {
+   
+   .view-agenda .layout--twocol {
+		border: none;
+		padding: 0;
+	}
+	
+	.view-agenda label {
+		width: 100%;
+	}
+
+   .page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc {
+		width:80% !important;
+	}
+	
+	.view-agenda .chosen-container {
+		width: auto !important;
+	}
+
+	.view-agenda input#edit-combine {
+		width: auto;
+	}
+
+}
+
+
 /*******   FOOTER  *****/
 /*div#block-panecom-bstrp-powered {
     margin-left: 15px;
