@@ -46,6 +46,7 @@
         "drupal/restui": "^1.20",
         "drupal/superfish": "^1.4",
         "drupal/taxonomy_manager": "^2.0",
+        "drupal/vefl": "^3.0",
         "drupal/views_bootstrap": "^4.3",
         "drupal/webform": "^6.2@beta",
         "drupal/webp": "^1.0@beta",

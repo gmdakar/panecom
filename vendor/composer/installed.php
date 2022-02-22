@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '020f75fd1c163ad6f8da37bcfef92b435664a863',
+        'reference' => '1727830dbec575e827fb8869153c84665678056b',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -780,7 +780,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '020f75fd1c163ad6f8da37bcfef92b435664a863',
+            'reference' => '1727830dbec575e827fb8869153c84665678056b',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1115,6 +1115,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/vefl' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/vefl',
+            'aliases' => array(),
+            'reference' => '8.x-3.0',
+            'dev_requirement' => false,
         ),
         'drupal/views' => array(
             'dev_requirement' => false,
