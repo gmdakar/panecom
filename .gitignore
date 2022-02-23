@@ -26,6 +26,7 @@ sites/*/files
 sites/*/private
 !sites/*/files/config_*
 !sites/*/*/backup*
+!sites/default/private/backup_migrate/
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
