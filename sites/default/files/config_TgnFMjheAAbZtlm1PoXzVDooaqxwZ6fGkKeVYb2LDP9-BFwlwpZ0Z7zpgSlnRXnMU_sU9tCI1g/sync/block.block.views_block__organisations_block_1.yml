@@ -1,0 +1,29 @@
+uuid: 3d522866-5197-4d2b-85ba-f2d348a7cbee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.organisations
+  module:
+    - system
+    - views
+  theme:
+    - panecom_bstrp
+id: views_block__organisations_block_1
+theme: panecom_bstrp
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:organisations-block_1'
+settings:
+  id: 'views_block:organisations-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

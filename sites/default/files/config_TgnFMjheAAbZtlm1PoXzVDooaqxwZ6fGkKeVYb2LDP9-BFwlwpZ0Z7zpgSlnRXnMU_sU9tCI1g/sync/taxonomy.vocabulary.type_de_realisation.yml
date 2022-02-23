@@ -1,0 +1,8 @@
+uuid: 93f9b652-d763-4f88-a5b3-9cb5507eea8c
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de réalisation'
+vid: type_de_realisation
+description: ''
+weight: 0

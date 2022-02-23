@@ -1,0 +1,33 @@
+uuid: dc9b48a1-da39-4a90-9fea-c8d78c547034
+langcode: fr
+status: true
+dependencies:
+  config:
+    - crop.type.crop_type_200x300
+  module:
+    - crop
+_core:
+  default_config_hash: wF8fafWUrxhAmWIRBP-K167IRjdgq0n4RHaXQUWlw6k
+name: organisation_logo_carousel
+label: 'style image organisation logo carousel (webp)'
+effects:
+  9195ab60-d0f9-4a5c-b99e-27efcb0c86be:
+    uuid: 9195ab60-d0f9-4a5c-b99e-27efcb0c86be
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: crop_type_200x300
+  ec59ff88-9853-4710-8de9-9c3634be5cd6:
+    uuid: ec59ff88-9853-4710-8de9-9c3634be5cd6
+    id: image_scale
+    weight: -9
+    data:
+      width: 300
+      height: 400
+      upscale: false
+  71bdbcf4-47c5-4ec8-b7ac-0b1a696284c8:
+    uuid: 71bdbcf4-47c5-4ec8-b7ac-0b1a696284c8
+    id: image_convert
+    weight: -8
+    data:
+      extension: webp

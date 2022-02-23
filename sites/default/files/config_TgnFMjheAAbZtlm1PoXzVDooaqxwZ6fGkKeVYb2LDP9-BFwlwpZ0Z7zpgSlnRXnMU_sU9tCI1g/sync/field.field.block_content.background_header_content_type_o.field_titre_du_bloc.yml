@@ -1,0 +1,24 @@
+uuid: 42806e73-66d9-40db-9596-dbbc0a97940a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_header_content_type_o
+    - field.storage.block_content.field_titre_du_bloc
+  module:
+    - text
+id: block_content.background_header_content_type_o.field_titre_du_bloc
+field_name: field_titre_du_bloc
+entity_type: block_content
+bundle: background_header_content_type_o
+label: 'Titre du bloc'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Indiquer le titre de ce bloc'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

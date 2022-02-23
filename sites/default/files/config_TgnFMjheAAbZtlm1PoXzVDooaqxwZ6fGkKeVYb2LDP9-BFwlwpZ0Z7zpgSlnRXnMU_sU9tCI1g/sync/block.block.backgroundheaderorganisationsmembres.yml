@@ -1,0 +1,30 @@
+uuid: 76d57857-ba73-466a-b5a8-f6e04d049637
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:background_header_content_type_o:9824fcfc-5053-434e-961e-75c2d1764f17'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: backgroundheaderorganisationsmembres
+theme: panecom_bstrp
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:9824fcfc-5053-434e-961e-75c2d1764f17'
+settings:
+  id: 'block_content:9824fcfc-5053-434e-961e-75c2d1764f17'
+  label: 'Background header Organisations membres'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /organisations

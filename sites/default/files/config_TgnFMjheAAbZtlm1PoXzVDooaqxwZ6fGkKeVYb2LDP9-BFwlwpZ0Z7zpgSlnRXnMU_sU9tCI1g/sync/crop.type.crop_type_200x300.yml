@@ -1,0 +1,12 @@
+uuid: 530dd21b-b6c2-447e-85bc-c2cb6b307d9c
+langcode: fr
+status: true
+dependencies: {  }
+label: 'Crop type 300x400'
+id: crop_type_200x300
+description: ''
+aspect_ratio: '300:400'
+soft_limit_width: 300
+soft_limit_height: 400
+hard_limit_width: null
+hard_limit_height: null

@@ -1,0 +1,18 @@
+uuid: e94b22d3-1fc5-4d90-9819-a0138590bdb7
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QnVGX9JGkQiAiQY9KGpKPkqyYL5KcfLhxM5knmblpqA
+name: galleryslider
+label: GallerySlider(600x300)
+effects:
+  5a491d04-e64b-4754-8dd2-f01254d59989:
+    uuid: 5a491d04-e64b-4754-8dd2-f01254d59989
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 600
+      height: 300
+      anchor: center-center
+      upscale: true

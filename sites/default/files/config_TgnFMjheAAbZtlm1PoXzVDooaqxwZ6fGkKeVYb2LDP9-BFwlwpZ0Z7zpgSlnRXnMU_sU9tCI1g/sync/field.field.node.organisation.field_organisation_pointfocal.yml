@@ -1,0 +1,21 @@
+uuid: cc5f57b7-aaeb-4765-be0b-220a5b26bf99
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organisation_pointfocal
+    - node.type.organisation
+  module:
+    - text
+id: node.organisation.field_organisation_pointfocal
+field_name: field_organisation_pointfocal
+entity_type: node
+bundle: organisation
+label: 'Point focal'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

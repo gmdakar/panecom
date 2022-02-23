@@ -1,0 +1,17 @@
+uuid: f541743a-0c75-4442-9afa-db69b20952ac
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Projet
+type: projet
+description: 'Projet rattaché aux organisations membres'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

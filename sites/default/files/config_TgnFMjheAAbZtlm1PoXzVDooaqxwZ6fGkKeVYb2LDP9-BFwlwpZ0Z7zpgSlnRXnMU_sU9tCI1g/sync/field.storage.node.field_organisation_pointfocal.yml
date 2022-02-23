@@ -1,0 +1,20 @@
+uuid: cd1a4944-87c3-4673-84e1-68e656a21b4b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_organisation_pointfocal
+field_name: field_organisation_pointfocal
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

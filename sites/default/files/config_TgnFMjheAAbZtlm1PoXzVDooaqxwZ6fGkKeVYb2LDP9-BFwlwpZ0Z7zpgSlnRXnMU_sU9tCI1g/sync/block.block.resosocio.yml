@@ -1,0 +1,25 @@
+uuid: 341b43e4-956b-4a24-afd8-42e6bb573255
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.resosocio
+  module:
+    - system
+  theme:
+    - panecom_bstrp
+id: resosocio
+theme: panecom_bstrp
+region: secondary_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:resosocio'
+settings:
+  id: 'system_menu_block:resosocio'
+  label: ResoSocio
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

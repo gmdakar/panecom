@@ -1,0 +1,29 @@
+uuid: 6bf902e8-ed5d-4314-9564-34bf2e4da161
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_projet_pays
+    - node.type.projet
+    - taxonomy.vocabulary.pays
+id: node.projet.field_projet_pays
+field_name: field_projet_pays
+entity_type: node
+bundle: projet
+label: Pays
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pays: pays
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

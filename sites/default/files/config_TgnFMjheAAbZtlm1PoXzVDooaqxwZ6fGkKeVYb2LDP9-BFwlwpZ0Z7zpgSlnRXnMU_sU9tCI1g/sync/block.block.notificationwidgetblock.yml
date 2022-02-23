@@ -1,0 +1,22 @@
+uuid: 4d1ae48a-e301-4218-af16-ea25dd223170
+langcode: fr
+status: true
+dependencies:
+  module:
+    - notifications_widget
+  theme:
+    - panecom_bstrp
+id: notificationwidgetblock
+theme: panecom_bstrp
+region: top_header
+weight: -8
+provider: null
+plugin: notification_widget_block
+settings:
+  id: notification_widget_block
+  label: Notifications
+  label_display: '0'
+  provider: notifications_widget
+  block_notification_type: '0'
+  block_notification_logs_display: 1
+visibility: {  }

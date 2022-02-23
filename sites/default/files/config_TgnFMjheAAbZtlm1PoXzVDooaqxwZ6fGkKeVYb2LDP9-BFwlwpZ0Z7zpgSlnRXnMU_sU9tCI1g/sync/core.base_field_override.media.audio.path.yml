@@ -1,0 +1,20 @@
+uuid: 3da17d43-132f-426f-aef6-715b44875509
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.audio
+  module:
+    - path
+id: media.audio.path
+field_name: path
+entity_type: media
+bundle: audio
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

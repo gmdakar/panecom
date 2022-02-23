@@ -1,0 +1,17 @@
+uuid: 9709fe9b-91a3-484e-817c-c05093f314d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.organisation_logo_carousel
+    - image.style.style_image_organisation_logo_carousel_no_webp_
+id: test_responsive_image
+label: 'Responsive style organisation carousel'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: organisation_logo_carousel
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: style_image_organisation_logo_carousel_no_webp_

@@ -1,0 +1,8 @@
+uuid: b61cd91a-3852-4f0e-ab46-b22475e868f3
+langcode: fr
+status: true
+dependencies: {  }
+id: background_header_content_type_o
+label: 'Background header selon le content type en cours'
+revision: 0
+description: 'Utilisé comme bandeau d''accueil pour les contenus '
