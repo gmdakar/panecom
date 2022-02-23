@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '4ee0e6f49719de25889e0b9ccc483a46b6e5a94d',
+        'reference' => 'e1b74d8e71f2a9d5190f211a565674d648587fc1',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -284,6 +284,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/conditional_fields' => array(
+            'pretty_version' => '4.0.0-alpha1',
+            'version' => '4.0.0.0-alpha1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/conditional_fields',
+            'aliases' => array(),
+            'reference' => '4.0.0-alpha1',
+            'dev_requirement' => false,
         ),
         'drupal/config' => array(
             'dev_requirement' => false,
@@ -780,7 +789,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '4ee0e6f49719de25889e0b9ccc483a46b6e5a94d',
+            'reference' => 'e1b74d8e71f2a9d5190f211a565674d648587fc1',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
