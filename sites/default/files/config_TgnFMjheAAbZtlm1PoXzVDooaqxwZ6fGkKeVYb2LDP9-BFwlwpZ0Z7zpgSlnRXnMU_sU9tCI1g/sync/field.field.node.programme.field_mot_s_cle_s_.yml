@@ -1,0 +1,29 @@
+uuid: 382084c1-5319-425c-abe3-881a5b1f3b56
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mot_s_cle_s_
+    - node.type.programme
+    - taxonomy.vocabulary.motscles
+id: node.programme.field_mot_s_cle_s_
+field_name: field_mot_s_cle_s_
+entity_type: node
+bundle: programme
+label: 'Mot(s) clé(s)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      motscles: motscles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

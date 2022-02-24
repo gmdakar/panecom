@@ -1,0 +1,29 @@
+uuid: 3d47fd40-0eae-4550-bc76-996d5a164f33
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horaire
+    - node.type.programme
+    - taxonomy.vocabulary.horaires
+id: node.programme.field_horaire
+field_name: field_horaire
+entity_type: node
+bundle: programme
+label: Horaire
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      horaires: horaires
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -10,10 +10,10 @@ label: content
 type: 'canonical_entities:node'
 pattern: '[node:content-type]/[node:title]'
 selection_criteria:
-  47aee60d-751a-4e76-b710-589fe12b105d:
+  b319c346-40ad-4429-9b05-67af05567a01:
     id: node_type
     negate: false
-    uuid: 47aee60d-751a-4e76-b710-589fe12b105d
+    uuid: b319c346-40ad-4429-9b05-67af05567a01
     context_mapping:
       node: node
     bundles:
@@ -21,11 +21,12 @@ selection_criteria:
       evenement: evenement
       organisation: organisation
       page: page
+      programme: programme
       projet: projet
-  78d10333-8cdc-4849-b00b-8f112f6da61d:
+  de56c889-decc-4b5b-a38a-384a17f055cd:
     id: language
     negate: false
-    uuid: 78d10333-8cdc-4849-b00b-8f112f6da61d
+    uuid: de56c889-decc-4b5b-a38a-384a17f055cd
     context_mapping:
       language: 'node:langcode:language'
     langcodes:

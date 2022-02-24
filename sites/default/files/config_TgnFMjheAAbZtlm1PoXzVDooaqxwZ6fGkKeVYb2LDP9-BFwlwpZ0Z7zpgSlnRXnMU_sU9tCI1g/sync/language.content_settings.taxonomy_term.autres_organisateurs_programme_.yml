@@ -1,0 +1,16 @@
+uuid: 0e6e6ed2-1133-402c-9a86-5e8869234a36
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.autres_organisateurs_programme_
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.autres_organisateurs_programme_
+target_entity_type_id: taxonomy_term
+target_bundle: autres_organisateurs_programme_
+default_langcode: current_interface
+language_alterable: false

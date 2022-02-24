@@ -1,0 +1,21 @@
+uuid: e9f7035a-2d1b-42c9-ad12-7676056a944c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_groupes_d_actions
+    - node.type.programme
+  module:
+    - text
+id: node.programme.field_groupes_d_actions
+field_name: field_groupes_d_actions
+entity_type: node
+bundle: programme
+label: 'Groupes d''actions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -5,4 +5,4 @@ dependencies: {  }
 name: 'Type de réalisation'
 vid: type_de_realisation
 description: ''
-weight: 0
+weight: 3

@@ -9,7 +9,9 @@ dependencies:
   module:
     - comment
     - contextual
+    - entity_print
     - file
+    - fillpdf
     - node
     - path
     - system
@@ -29,6 +31,7 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'access tour'
+  - 'administer pdfs'
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'
@@ -42,6 +45,11 @@ permissions:
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'entity print access type fillpdf_file_context'
+  - 'entity print access type fillpdf_form'
+  - 'entity print access type fillpdf_form_field'
+  - 'publish all pdfs'
+  - 'publish own pdfs'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

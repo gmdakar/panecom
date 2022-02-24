@@ -1,0 +1,21 @@
+uuid: 1e041e86-0570-4770-9a70-6e4f02d04f3f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_questions_cles
+    - node.type.programme
+  module:
+    - text
+id: node.programme.field_questions_cles
+field_name: field_questions_cles
+entity_type: node
+bundle: programme
+label: 'Questions clés'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

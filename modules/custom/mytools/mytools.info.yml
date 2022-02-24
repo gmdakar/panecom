@@ -1,8 +1,6 @@
 name: 'My tools'
-type: module
-description: 'For misc actions, e.g activate custom module Default content YAML panecom'
+description: 'misc features for developper.'
+core: 8.x
+core_version_requirement: ^8 || ^9
 package: Panecom
-core_version_requirement: ^8.7.7 || ^9
-dependencies:
-  - default_content:default_content
-  - mydefaultcontent:mydefaultcontent
+type: module

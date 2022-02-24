@@ -1,0 +1,8 @@
+uuid: bc31c486-8355-42fa-8e37-dbc8f69b6429
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Mots clés (programme)'
+vid: motscles
+description: ''
+weight: -4

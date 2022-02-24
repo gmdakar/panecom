@@ -1,0 +1,29 @@
+uuid: ed43f532-f0e5-4813-9585-db222573e5da
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salle
+    - node.type.programme
+    - taxonomy.vocabulary.salle
+id: node.programme.field_salle
+field_name: field_salle
+entity_type: node
+bundle: programme
+label: Salle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      salle: salle
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

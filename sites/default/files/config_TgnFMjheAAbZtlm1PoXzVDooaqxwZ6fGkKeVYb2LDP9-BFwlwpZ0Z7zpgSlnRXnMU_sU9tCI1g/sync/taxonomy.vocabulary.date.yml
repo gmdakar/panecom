@@ -1,0 +1,8 @@
+uuid: 7d6216bc-3cbd-474c-ac46-eafbc7aeb162
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Dates  (programme)'
+vid: date
+description: ''
+weight: -7

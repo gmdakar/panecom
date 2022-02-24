@@ -1,0 +1,19 @@
+uuid: c7cecd5c-740b-43a3-a6f2-e7fa469a6e20
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_code_couleur
+    - taxonomy.vocabulary.legende
+id: taxonomy_term.legende.field_code_couleur
+field_name: field_code_couleur
+entity_type: taxonomy_term
+bundle: legende
+label: 'Code couleur (en hexa)'
+description: 'Ex. #A185F2'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,62 @@
+uuid: a4715b81-0a15-4e3f-81cd-d9b81b9448b6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programme.body
+    - field.field.node.programme.field_autres_organisateurs
+    - field.field.node.programme.field_code
+    - field.field.node.programme.field_date
+    - field.field.node.programme.field_groupes_d_actions
+    - field.field.node.programme.field_horaire
+    - field.field.node.programme.field_legende
+    - field.field.node.programme.field_messages_cles_pour_la_disc
+    - field.field.node.programme.field_mot_s_cle_s_
+    - field.field.node.programme.field_organisateurs
+    - field.field.node.programme.field_priorite
+    - field.field.node.programme.field_projets_inclus
+    - field.field.node.programme.field_questions_cles
+    - field.field.node.programme.field_resultats_attendus_impacts
+    - field.field.node.programme.field_salle
+    - node.type.programme
+  module:
+    - text
+    - user
+id: node.programme.teaser
+targetEntityType: node
+bundle: programme
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_autres_organisateurs: true
+  field_code: true
+  field_date: true
+  field_groupes_d_actions: true
+  field_horaire: true
+  field_legende: true
+  field_messages_cles_pour_la_disc: true
+  field_mot_s_cle_s_: true
+  field_organisateurs: true
+  field_priorite: true
+  field_projets_inclus: true
+  field_questions_cles: true
+  field_resultats_attendus_impacts: true
+  field_salle: true
+  langcode: true

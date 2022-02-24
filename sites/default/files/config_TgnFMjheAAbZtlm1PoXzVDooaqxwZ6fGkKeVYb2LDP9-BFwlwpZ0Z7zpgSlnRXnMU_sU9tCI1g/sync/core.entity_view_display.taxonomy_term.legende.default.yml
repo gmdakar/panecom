@@ -1,0 +1,43 @@
+uuid: f92a3dad-9176-4190-9255-297d91e6f6cc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.legende.field_code
+    - field.field.taxonomy_term.legende.field_code_couleur
+    - taxonomy.vocabulary.legende
+  module:
+    - text
+id: taxonomy_term.legende.default
+targetEntityType: taxonomy_term
+bundle: legende
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_code:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_code_couleur:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

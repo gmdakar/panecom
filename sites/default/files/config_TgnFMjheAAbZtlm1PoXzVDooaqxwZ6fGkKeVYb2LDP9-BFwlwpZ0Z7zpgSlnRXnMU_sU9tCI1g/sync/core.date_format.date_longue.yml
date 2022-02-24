@@ -1,0 +1,8 @@
+uuid: 3a32c3c0-2400-4bb9-a9d3-edb36f5cd058
+langcode: fr
+status: true
+dependencies: {  }
+id: date_longue
+label: 'Date longue'
+locked: false
+pattern: 'l j F Y'
