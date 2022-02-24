@@ -550,7 +550,8 @@ div#block-views-block-organisations-block-1 h2::after {
 	background-color: #fcfcfc;
 }
 
-.view-agenda .view-grouping-header a {
+.view-agenda .view-grouping-header a,
+.view-agenda .view-grouping-header span{
     font-size: 1.5rem;
     background-color: #105efe;
     padding: 0.25rem 0.75rem;
@@ -568,6 +569,7 @@ div#block-views-block-organisations-block-1 h2::after {
     font-size: 1.8rem;
     margin: 1.6rem 0 0 0;
     text-align: center;
+	color: #0a3255;
 }
 
 .view-agenda .views-field a {
