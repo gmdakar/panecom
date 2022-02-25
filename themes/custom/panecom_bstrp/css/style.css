@@ -669,7 +669,9 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc .field__item{
-    font-weight: 300;
+    /*font-weight: 300;*/
+	color: #5c5c5e;
+	display: inline-table;
 }
 
 .page-view-agenda .ui-dialog .ui-dialog-titlebar {
@@ -692,7 +694,17 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .page-view-agenda .field__label::after {
+    content: " :";
+}
+html[lang='en'] .page-view-agenda .field__label::after {
     content: ":";
+}
+
+.page-view-agenda .ui-dialog .taxonomy-term a {
+    color: #383b45;
+    font-size: 1rem;
+    background-color: #eaf2ec;
+    padding: 0.1rem 0.5rem;
 }
 
 /***************************************************/

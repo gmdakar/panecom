@@ -2,19 +2,13 @@
 
 use Drupal\user\Entity\User;
 use Drupal\Core\Url;
+use Drupal\taxonomy\Entity\Vocabulary;
 
 /**
  * Implements hook_entity_type_alter().
  * Alterons dynamiquement les urls des terms de taxonomy afin de les faire correspondre aux filtres de recherche
  */
 function mytools_entity_type_alter(array &$entity_types) {
-
- /* foreach(['date','horaires'] as $vid) {
-    if (isset($entity_types['taxonomy_term'][$vid])) {
-      $entity_types['taxonomy_term'][$vid]['uri_callback'] = 'mytools_uri_taxonomy_term_date';
-    }
-  }*/
-
   // Unset the canonical link template for node content type and
   // replace with a uri callback.
   // Unsetting the uri template is necessary for the uri callbacks to work.
@@ -25,16 +19,22 @@ function mytools_entity_type_alter(array &$entity_types) {
 }
 
 /**
- * Bundle URI callback, all other content types outside of "redirect".
+ * alter paths for the specific agenda taxonomy terms 
  */
 function mytools_taxonomy_uri($term) {
- /*return new Url('entity.taxonomy_term.canonical', array(
-    'taxonomy_term' => $term ->id(),
-  ));*/
-  $termobj = taxonomy_term_load($term ->id());
-  $vid = $termobj->vid;
-	if ($vid == 'date') 
+	if ($term->bundle() == 'date') 
 		return Url::fromRoute('view.agenda.page_1', ['field_date_target_id[]' => $term ->id()]);
-	elseif ($vid == 'horaires') 
+	elseif ($term->bundle() == 'horaires') 
 		return Url::fromRoute('view.agenda.page_1', ['field_horaire_target_id[]' => $term ->id()]);
+	elseif ($term->bundle() == 'salle') 
+		return Url::fromRoute('view.agenda.page_1', ['field_salle_target_id[]' => $term ->id()]);
+	elseif ($term->bundle() == 'legende') 
+		return Url::fromRoute('view.agenda.page_1', ['field_legende_target_id[]' => $term ->id()]);
+	elseif ($term->bundle() == 'motscles') 
+		return Url::fromRoute('view.agenda.page_1', ['field_mot_s_cle_s__target_id[]' => $term ->id()]);
+	
+	//by default (native)
+	return new Url('entity.taxonomy_term.canonical', array(
+		'taxonomy_term' => $term ->id(),
+	));
 }

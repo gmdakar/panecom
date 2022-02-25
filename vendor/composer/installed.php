@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cb659936d56c967ab5a013976bc3bc85482e6e6f',
+        'reference' => '7fd5d722eebb04841c673c03957d6e145bf919e0',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -789,7 +789,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cb659936d56c967ab5a013976bc3bc85482e6e6f',
+            'reference' => '7fd5d722eebb04841c673c03957d6e145bf919e0',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1121,15 +1121,6 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
-        ),
-        'drupal/tvi' => array(
-            'pretty_version' => '1.0.0-rc4',
-            'version' => '1.0.0.0-RC4',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/tvi',
-            'aliases' => array(),
-            'reference' => '8.x-1.0-rc4',
-            'dev_requirement' => false,
         ),
         'drupal/update' => array(
             'dev_requirement' => false,
