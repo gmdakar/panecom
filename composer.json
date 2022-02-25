@@ -32,6 +32,8 @@
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/default_content": "^2.0@alpha",
         "drupal/easy_breadcrumb": "^2.0",
+        "drupal/entity_export_csv": "^1.0@beta",
+        "drupal/feeds": "^3.0@beta",
         "drupal/fillpdf": "^5.0@alpha",
         "drupal/fontawesome_menu_icons": "^1.9",
         "drupal/galleryslider": "^3.1",
@@ -50,6 +52,7 @@
         "drupal/taxonomy_manager": "^2.0",
         "drupal/vefl": "^3.0",
         "drupal/views_bootstrap": "^4.3",
+        "drupal/views_data_export": "^1.1",
         "drupal/webform": "^6.2@beta",
         "drupal/webp": "^1.0@beta",
         "drupal/xmlrpc": "^1.0@beta"
