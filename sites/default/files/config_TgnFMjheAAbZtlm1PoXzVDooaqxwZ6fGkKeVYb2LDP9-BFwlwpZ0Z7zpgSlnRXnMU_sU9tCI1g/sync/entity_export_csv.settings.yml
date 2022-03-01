@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: OLsQ9awT8w1v1Kx6OKAoPbiWhQrPFMRDT6uW-S38JKI
+entity_types:
+  node:
+    enable: true
+    limit_per_bundle: {  }
+    bundles: {  }
+multiple:
+  columns: '3'
+langcode: fr
