@@ -67,17 +67,19 @@ content:
     weight: 11
     region: content
   field_horaire:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: inline
     settings:
+      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 3
     region: content
   field_legende:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: inline
     settings:
+      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 4
@@ -90,9 +92,10 @@ content:
     weight: 14
     region: content
   field_mot_s_cle_s_:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: above
     settings:
+      view_mode: default
       link: true
     third_party_settings: {  }
     weight: 7
@@ -136,9 +139,10 @@ content:
     weight: 12
     region: content
   field_salle:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: inline
     settings:
+      view_mode: default
       link: false
     third_party_settings: {  }
     weight: 5

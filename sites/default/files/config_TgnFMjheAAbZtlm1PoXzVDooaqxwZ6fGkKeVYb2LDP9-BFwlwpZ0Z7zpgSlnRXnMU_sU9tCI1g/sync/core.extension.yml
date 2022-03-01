@@ -26,6 +26,7 @@ module:
   contact: 0
   contextual: 0
   crop: 0
+  csv_serialization: 0
   ctools: 0
   datetime: 0
   datetime_range: 0
@@ -36,7 +37,9 @@ module:
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
+  entity_export_csv: 0
   entity_print: 0
+  feeds: 0
   field: 0
   field_ui: 0
   file: 0
@@ -94,6 +97,7 @@ module:
   user: 0
   vefl: 0
   views_bootstrap: 0
+  views_data_export: 0
   views_ui: 0
   webform: 0
   webform_attachment: 0
@@ -111,7 +115,6 @@ module:
   webform_bootstrap: 1
   content_translation: 10
   views: 10
-  tvi: 15
   standard: 1000
 theme:
   bartik: 0

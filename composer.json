@@ -26,6 +26,7 @@
         "drupal/bootstrap_styles": "1.0.x-dev@dev",
         "drupal/chosen": "^3.0",
         "drupal/conditional_fields": "^4.0@alpha",
+        "drupal/console": "~1.0",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
@@ -47,6 +48,7 @@
         "drupal/notifications_widget": "^1.5",
         "drupal/owlcarousel": "^1.0@beta",
         "drupal/pathauto": "^1.8",
+        "drupal/redirect": "^1.7",
         "drupal/restui": "^1.20",
         "drupal/superfish": "^1.4",
         "drupal/taxonomy_manager": "^2.0",
@@ -69,7 +71,8 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "drupal/core-vendor-hardening": true
+            "drupal/core-vendor-hardening": true,
+            "drupal/console-extend-plugin": true
         }
     },
     "extra": {

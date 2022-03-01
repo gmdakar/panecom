@@ -8,20 +8,21 @@ use Drupal\taxonomy\Entity\Vocabulary;
  * Implements hook_entity_type_alter().
  * Alterons dynamiquement les urls des terms de taxonomy afin de les faire correspondre aux filtres de recherche
  */
-function mytools_entity_type_alter(array &$entity_types) {
+/*function mytools_entity_type_alter(array &$entity_types) {
   // Unset the canonical link template for node content type and
   // replace with a uri callback.
   // Unsetting the uri template is necessary for the uri callbacks to work.
   $entity_types['taxonomy_term']->setUriCallback('mytools_taxonomy_uri');
   $links = $entity_types['taxonomy_term']->get('links');
-  unset($links['canonical']);
+ // unset($links['canonical']);
   $entity_types['taxonomy_term']->set('links', $links);
 }
+*/
 
 /**
  * alter paths for the specific agenda taxonomy terms 
  */
-function mytools_taxonomy_uri($term) {
+/*function mytools_taxonomy_uri($term) {
 	if ($term->bundle() == 'date') 
 		return Url::fromRoute('view.agenda.page_1', ['field_date_target_id[]' => $term ->id()]);
 	elseif ($term->bundle() == 'horaires') 
@@ -38,3 +39,4 @@ function mytools_taxonomy_uri($term) {
 		'taxonomy_term' => $term ->id(),
 	));
 }
+*/

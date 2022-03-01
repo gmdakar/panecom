@@ -544,6 +544,10 @@ div#block-views-block-organisations-block-1 h2::after {
     color: #ffffff;
 }
 
+.view-agenda .view-header p{
+    margin-bottom: 0;
+}
+
 .view-agenda .view-grouping {
     width: 100%;
     margin: 3rem 10%;
@@ -628,6 +632,12 @@ div#block-views-block-organisations-block-1 h2::after {
 
 .view-agenda .form-control {
     height: calc(1.1em + 0.75rem + 2px);
+}
+
+.view-agenda .form-select.form-control {
+	padding: initial;
+	height: auto;
+	border: 0;
 }
 
 .view-agenda label {

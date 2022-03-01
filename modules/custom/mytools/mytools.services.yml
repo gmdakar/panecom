@@ -1,0 +1,6 @@
+services:
+  mytools.default:
+    class: Drupal\mytools\EventSubscriber\DefaultSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }
