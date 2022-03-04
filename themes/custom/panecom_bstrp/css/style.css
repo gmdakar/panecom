@@ -611,7 +611,7 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .view-agenda select#edit-field-legende-target-id {
-    max-width: 75%;
+    /*max-width: 75%;*/
     display: inline-block;
 }
 
