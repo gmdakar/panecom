@@ -632,23 +632,42 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .view-agenda input#edit-combine {
-    width: 50%;
+    max-width: 90%;
 }
+
 
 .view-agenda .form-control {
     height: calc(1.1em + 0.75rem + 2px);
 }
 
 .view-agenda .form-select.form-control {
-	padding: initial;
-	height: auto;
-	border: 0;
+    padding: initial;
+    height: auto;
+    border: 0;
+    width: 90%  !important;
+}
+
+.view-agenda .layout__region--second .form-select.form-control {
+    width: 100% !important;
 }
 
 .view-agenda label {
     font-weight: bold;
     margin-right: 0.5rem;
     color: #284478;
+    display: block;
+}
+
+.view-agenda #edit_field_mot_s_cle_s_target_id_chosen {
+    /*width: 50% !important;*/
+}
+
+.view-agenda .form-item-field-mot-s-cle-s__target-id label{
+    display: block !important;
+}
+
+.view-agenda .js-form-item-combine.form-item-combine.form-group {
+    margin-bottom: 0.35rem;
 }
 
 .view-agenda .layout--twocol {
@@ -755,6 +774,10 @@ html[lang='en'] .page-view-agenda .field__label::after {
 	.view-agenda input#edit-combine {
 		max-width: 100%;
 		min-width: 200px;
+	}
+	
+	.view-agenda #edit_field_mot_s_cle_s_target_id_chosen {
+		max-width: 100% !important;
 	}
 
 }
