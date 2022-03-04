@@ -10,7 +10,7 @@ id: node.programme.field_autres_organisateurs
 field_name: field_autres_organisateurs
 entity_type: node
 bundle: programme
-label: 'Autres organisateurs'
+label: 'Other organizers'
 description: ''
 required: false
 translatable: false

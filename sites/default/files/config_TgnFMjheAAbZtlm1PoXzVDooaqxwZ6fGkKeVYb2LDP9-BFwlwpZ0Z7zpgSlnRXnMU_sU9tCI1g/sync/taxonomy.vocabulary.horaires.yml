@@ -1,8 +1,8 @@
 uuid: 1470cae5-bb72-4b20-a273-75e44bd749b5
-langcode: fr
+langcode: und
 status: true
 dependencies: {  }
-name: 'Horaires  (programme)'
+name: 'Horaires  (agenda)'
 vid: horaires
-description: 'Plage horaires'
+description: ''
 weight: -6

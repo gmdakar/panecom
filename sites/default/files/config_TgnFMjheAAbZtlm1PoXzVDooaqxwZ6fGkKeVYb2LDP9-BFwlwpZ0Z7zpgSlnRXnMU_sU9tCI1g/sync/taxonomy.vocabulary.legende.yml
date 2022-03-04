@@ -1,8 +1,8 @@
 uuid: 2a015e91-fb02-4ea0-b2b5-576df8f05741
-langcode: fr
+langcode: und
 status: true
 dependencies: {  }
-name: 'Type  (programme)'
+name: 'Type  (agenda)'
 vid: legende
 description: ''
 weight: -8

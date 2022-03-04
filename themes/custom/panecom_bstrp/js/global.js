@@ -7,6 +7,18 @@
 
   'use strict';
 
+  Drupal.behaviors.panecom_bstrp_nomodallink_langswitcher = {
+    attach: function (context, settings) {
+		//console.log ("TOTOOTOT");
+		console.log ($(".language-switcher-language-url span a").attr("class"));
+		$(".language-switcher-language-url span a").removeAttr("data-dialog-type");
+		$(".language-switcher-language-url span a").removeAttr("data-dialog-options");
+		$(".language-switcher-language-url span a").removeAttr("data-once");
+		$(".language-switcher-language-url span a").removeAttr("data-drupal-link-system-path");
+		$(".language-switcher-language-url span a").removeClass("language-link").removeClass("use-ajax");
+    }
+  };
+  
   Drupal.behaviors.panecom_bstrp_notificationwidget = {
     attach: function (context, settings) {
 		

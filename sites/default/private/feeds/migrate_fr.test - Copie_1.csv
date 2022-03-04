@@ -1,0 +1,22 @@
+Identifiant (ID);Identifiant universel unique (UUID);Language;Titre;Description;Other organizers;Feeds item;Guid;Code;Date;Groupes d'actions;Horaire;Type;Messages clés pour la discussion;Mot(s) clé(s);Organisateurs;Priorité;Projets inclus;Questions clés;Résultats attendus, impacts et liens de suivi avec les événements et initiatives après le Forum;Salle
+1091;96ad9cc8-f25f-41d3-aacc-435cc339cd40;fr;test1 (fr);"<p>desc test MIGR1</p>
+";;bb27dbdad703531a59847cb26fe26a29;bb27dbdad703531a59847cb26fe26a29;MIG1;Vendredi 25 mars 2022;"<p>Actions 1</p>
+
+<p>Actions 2</p>
+";08.00 - 09.00;Type MIG1;"<p>Messages clés N MIG1</p>
+";Motcle1;;;;"<p>questions clés N</p>
+";;Room 201 CICAD Seats 80*
+1091;96ad9cc8-f25f-41d3-aacc-435cc339cd40;fr;test2 (fr);"<p>desc test MIGR1</p>
+";;bb27dbdad703531a59847cb26fe26a29;bb27dbdad703531a59847cb26fe26a29;MIG1;Jeudi 24 mars 2022;"<p>Actions 1</p>
+
+<p>Actions 2</p>
+";09.00 - 10.30;Type MIG1;"<p>Messages clés N MIG1</p>
+";Motcle2|Motcle3;;;;"<p>questions clés N</p>
+";;Room 201 CICAD Seats 80*
+1091;96ad9cc8-f25f-41d3-aacc-435cc339cd40;fr;test3 (fr);"<p>desc test MIGR1</p>
+";;bb27dbdad703531a59847cb26fe26a29;bb27dbdad703531a59847cb26fe26a29;MIG1;Mercredi 23 mars 2022;"<p>Actions 1</p>
+
+<p>Actions 2</p>
+";12.00 - 13.30;Type MIG1;"<p>Messages clés N MIG1</p>
+";Motcle3;;;;"<p>questions clés N</p>
+";;Room 201 CICAD Seats 80*

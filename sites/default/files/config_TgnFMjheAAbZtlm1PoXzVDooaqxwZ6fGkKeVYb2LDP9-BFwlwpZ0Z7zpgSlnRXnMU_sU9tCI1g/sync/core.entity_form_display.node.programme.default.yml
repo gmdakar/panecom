@@ -4,17 +4,22 @@ status: true
 dependencies:
   config:
     - field.field.node.programme.body
+    - field.field.node.programme.feeds_item
     - field.field.node.programme.field_autres_organisateurs
     - field.field.node.programme.field_code
     - field.field.node.programme.field_date
+    - field.field.node.programme.field_duree
     - field.field.node.programme.field_groupes_d_actions
     - field.field.node.programme.field_horaire
     - field.field.node.programme.field_legende
     - field.field.node.programme.field_messages_cles_pour_la_disc
     - field.field.node.programme.field_mot_s_cle_s_
     - field.field.node.programme.field_organisateurs
+    - field.field.node.programme.field_organisateurs_text
+    - field.field.node.programme.field_other_organizers_text
     - field.field.node.programme.field_priorite
-    - field.field.node.programme.field_projets_inclus
+    - field.field.node.programme.field_pro
+    - field.field.node.programme.field_programme
     - field.field.node.programme.field_questions_cles
     - field.field.node.programme.field_resultats_attendus_impacts
     - field.field.node.programme.field_salle
@@ -40,7 +45,7 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 19
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -86,16 +91,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_groupes_d_actions:
-    type: text_textarea
-    weight: 12
+  field_duree:
+    type: string_textfield
+    weight: 28
     region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_groupes_d_actions:
+    type: options_buttons
+    weight: 13
+    region: content
+    settings: {  }
     third_party_settings:
       conditional_fields:
-        bc9986df-bb8f-42ca-a28a-cb7f357006fe:
+        840c77f7-e72a-431b-b3c7-c21677d1a6e1:
           entity_type: node
           bundle: programme
           dependee: field_legende
@@ -103,10 +114,12 @@ content:
             state: visible
             condition: value
             grouping: AND
-            values_set: 3
+            values_set: 1
             value: ''
-            values: "465\r\n466"
-            value_form: {  }
+            values: {  }
+            value_form:
+              -
+                target_id: '466'
             effect: show
             effect_options: {  }
             selector: ''
@@ -124,7 +137,7 @@ content:
     third_party_settings: {  }
   field_messages_cles_pour_la_disc:
     type: text_textarea
-    weight: 14
+    weight: 15
     region: content
     settings:
       rows: 5
@@ -186,6 +199,22 @@ content:
             effect: show
             effect_options: {  }
             selector: ''
+  field_organisateurs_text:
+    type: text_textarea
+    weight: 29
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_other_organizers_text:
+    type: text_textarea
+    weight: 30
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   field_priorite:
     type: entity_reference_autocomplete
     weight: 10
@@ -214,35 +243,25 @@ content:
             effect: show
             effect_options: {  }
             selector: ''
-  field_projets_inclus:
-    type: string_textfield
-    weight: 11
+  field_pro:
+    type: text_textarea
+    weight: 27
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
-    third_party_settings:
-      conditional_fields:
-        245706de-5f5d-465d-ad0a-2818e305e134:
-          entity_type: node
-          bundle: programme
-          dependee: field_legende
-          settings:
-            state: visible
-            condition: value
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              -
-                target_id: '466'
-            effect: show
-            effect_options: {  }
-            selector: ''
+    third_party_settings: {  }
+  field_programme:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
   field_questions_cles:
     type: text_textarea
-    weight: 13
+    weight: 14
     region: content
     settings:
       rows: 5
@@ -268,7 +287,7 @@ content:
             selector: ''
   field_resultats_attendus_impacts:
     type: text_textarea
-    weight: 15
+    weight: 16
     region: content
     settings:
       rows: 5
@@ -298,15 +317,22 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 22
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   path:
     type: path
-    weight: 16
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 20
+    weight: 21
     region: content
     settings:
       display_label: true
@@ -319,9 +345,14 @@ content:
       size: 150
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 18
+    weight: 19
     region: content
     settings:
       match_operator: CONTAINS
@@ -330,11 +361,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 17
+    weight: 18
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  langcode: true
+  feeds_item: true
   promote: true
   sticky: true

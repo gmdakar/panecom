@@ -1,0 +1,14 @@
+name: Tamper Convert Encoding
+type: module
+description: Tamper plugin to convert text from one encoding to another.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Tamper
+dependencies:
+  - drupal:system (>=8.5.0)
+  - tamper:tamper
+
+# Information added by Drupal.org packaging script on 2021-09-22
+version: '2.0.0'
+project: 'feeds_tamper_convert_encoding'
+datestamp: 1632270860

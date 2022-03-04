@@ -14,7 +14,7 @@ bundle: programme
 label: 'Résultats attendus, impacts et liens de suivi avec les événements et initiatives après le Forum'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

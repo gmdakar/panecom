@@ -33,7 +33,7 @@ selection_criteria:
       fr: fr
       en: en
 selection_logic: and
-weight: -10
+weight: -9
 relationships:
   'node:langcode:language':
     label: Language

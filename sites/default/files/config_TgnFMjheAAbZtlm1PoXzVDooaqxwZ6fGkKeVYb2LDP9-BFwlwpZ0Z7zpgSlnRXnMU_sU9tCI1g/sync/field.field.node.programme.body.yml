@@ -11,7 +11,7 @@ id: node.programme.body
 field_name: body
 entity_type: node
 bundle: programme
-label: Descriptif
+label: Description
 description: ''
 required: false
 translatable: true

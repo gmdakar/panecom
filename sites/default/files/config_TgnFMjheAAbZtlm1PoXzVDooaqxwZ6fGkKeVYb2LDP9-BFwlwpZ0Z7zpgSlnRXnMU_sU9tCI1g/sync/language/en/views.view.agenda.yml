@@ -1,0 +1,35 @@
+description: 'Detailed program'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Ascending
+          sort_desc_label: Descending
+      empty:
+        area:
+          content:
+            value: "<p>No result.</p>\r\n"
+            format: basic_html
+      filters:
+        combine:
+          expose:
+            label: 'Filter by keyword(s)'
+            description: 'Ex. Session Title, Session Code, etc.'
+        field_mot_s_cle_s__target_id:
+          expose:
+            label: Keywords
+        field_horaire_target_id:
+          expose:
+            label: Schedule
+        field_salle_target_id:
+          expose:
+            label: Room
+      header:
+        area:
+          content:
+            value: "<p>Sessions program</p>\r\n"
+            format: full_html

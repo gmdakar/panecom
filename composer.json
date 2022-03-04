@@ -31,10 +31,13 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
+        "drupal/csv_importer": "^1.14",
         "drupal/default_content": "^2.0@alpha",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/entity_export_csv": "^1.0@beta",
         "drupal/feeds": "^3.0@beta",
+        "drupal/feeds_tamper": "^2.0@beta",
+        "drupal/feeds_tamper_convert_encoding": "^2.0",
         "drupal/fillpdf": "^5.0@alpha",
         "drupal/fontawesome_menu_icons": "^1.9",
         "drupal/galleryslider": "^3.1",
@@ -62,7 +65,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
@@ -82,7 +85,11 @@
                 "#123456 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/updated-deprecated-session-token-path-3180168-3.patch",
 				"#123457 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/fixed-admin-page-settings-3216022-2.patch",
 				"#123458 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-08-03/3199296-3.patch"
-            }
+            },
+			"drupal/feaeds":{
+  "[2829283-31] Allow set the content language":"https://www.drupal.org/files/issues/2018-11-01/feeds-language-target-2829283-31.patch",
+  "[2829283-33] Allow translate content fields":"https://www.drupal.org/files/issues/2018-11-01/feeds-content-translation-2829283-33.patch"
+}
         },
         "drupal-scaffold": {
             "locations": {

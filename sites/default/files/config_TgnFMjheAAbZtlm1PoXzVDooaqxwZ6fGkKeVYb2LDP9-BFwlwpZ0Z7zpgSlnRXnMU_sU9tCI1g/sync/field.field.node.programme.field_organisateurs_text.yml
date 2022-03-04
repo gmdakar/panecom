@@ -1,0 +1,21 @@
+uuid: 0a9ba595-ec84-4515-816b-b24ef1c0677e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organisateurs_text
+    - node.type.programme
+  module:
+    - text
+id: node.programme.field_organisateurs_text
+field_name: field_organisateurs_text
+entity_type: node
+bundle: programme
+label: Organisateurs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

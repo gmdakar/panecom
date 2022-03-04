@@ -59,10 +59,13 @@ class DefaultSubscriber implements EventSubscriberInterface {
 			$url = Url::fromRoute('view.agenda.page_1', ['field_legende_target_id[]' => $term ->id()]);
 		elseif ($term->bundle() == 'motscles') 
 			$url = Url::fromRoute('view.agenda.page_1', ['field_mot_s_cle_s__target_id[]' => $term ->id()]);
-
-		// create redirect:
-		$response = new RedirectResponse($url->toString());
-		$response->send();
+		
+		if ($url)
+		{
+			// redirect:
+			$response = new RedirectResponse($url->toString());
+			$response->send();
+		}
     }
   }
 

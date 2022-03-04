@@ -137,6 +137,7 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'D' => 
         array (
             'Drush\\' => 6,
+            'Drupal\\csv_importer\\' => 20,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\' => 12,
             'Drupal\\Console\\Core\\' => 20,
@@ -404,6 +405,10 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'Drush\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
+        ),
+        'Drupal\\csv_importer\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/csv_importer/src',
         ),
         'Drupal\\Driver\\' => 
         array (

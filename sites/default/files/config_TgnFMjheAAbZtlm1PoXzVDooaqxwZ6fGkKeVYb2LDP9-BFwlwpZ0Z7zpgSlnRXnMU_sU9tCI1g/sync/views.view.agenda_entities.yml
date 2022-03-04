@@ -1,20 +1,18 @@
 uuid: e07e9c36-19a2-4f48-86b2-e8794b9798bc
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_autres_organisateurs
     - field.storage.node.field_code
     - field.storage.node.field_date
-    - field.storage.node.field_groupes_d_actions
     - field.storage.node.field_horaire
     - field.storage.node.field_legende
     - field.storage.node.field_messages_cles_pour_la_disc
     - field.storage.node.field_mot_s_cle_s_
     - field.storage.node.field_organisateurs
     - field.storage.node.field_priorite
-    - field.storage.node.field_projets_inclus
     - field.storage.node.field_questions_cles
     - field.storage.node.field_resultats_attendus_impacts
     - field.storage.node.field_salle
@@ -530,68 +528,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_groupes_d_actions:
-          id: field_groupes_d_actions
-          table: node__field_groupes_d_actions
-          field: field_groupes_d_actions
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: 'Groupes d''actions'
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: text_default
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
         field_messages_cles_pour_la_disc:
           id: field_messages_cles_pour_la_disc
           table: node__field_messages_cles_pour_la_disc
@@ -843,69 +779,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_projets_inclus:
-          id: field_projets_inclus
-          table: node__field_projets_inclus
-          field: field_projets_inclus
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: 'Projets inclus'
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
         field_questions_cles:
           id: field_questions_cles
           table: node__field_questions_cles
@@ -1124,14 +997,12 @@ display:
         - 'config:field.storage.node.field_autres_organisateurs'
         - 'config:field.storage.node.field_code'
         - 'config:field.storage.node.field_date'
-        - 'config:field.storage.node.field_groupes_d_actions'
         - 'config:field.storage.node.field_horaire'
         - 'config:field.storage.node.field_legende'
         - 'config:field.storage.node.field_messages_cles_pour_la_disc'
         - 'config:field.storage.node.field_mot_s_cle_s_'
         - 'config:field.storage.node.field_organisateurs'
         - 'config:field.storage.node.field_priorite'
-        - 'config:field.storage.node.field_projets_inclus'
         - 'config:field.storage.node.field_questions_cles'
         - 'config:field.storage.node.field_resultats_attendus_impacts'
         - 'config:field.storage.node.field_salle'
@@ -1176,14 +1047,12 @@ display:
         - 'config:field.storage.node.field_autres_organisateurs'
         - 'config:field.storage.node.field_code'
         - 'config:field.storage.node.field_date'
-        - 'config:field.storage.node.field_groupes_d_actions'
         - 'config:field.storage.node.field_horaire'
         - 'config:field.storage.node.field_legende'
         - 'config:field.storage.node.field_messages_cles_pour_la_disc'
         - 'config:field.storage.node.field_mot_s_cle_s_'
         - 'config:field.storage.node.field_organisateurs'
         - 'config:field.storage.node.field_priorite'
-        - 'config:field.storage.node.field_projets_inclus'
         - 'config:field.storage.node.field_questions_cles'
         - 'config:field.storage.node.field_resultats_attendus_impacts'
         - 'config:field.storage.node.field_salle'
@@ -1207,14 +1076,12 @@ display:
         - 'config:field.storage.node.field_autres_organisateurs'
         - 'config:field.storage.node.field_code'
         - 'config:field.storage.node.field_date'
-        - 'config:field.storage.node.field_groupes_d_actions'
         - 'config:field.storage.node.field_horaire'
         - 'config:field.storage.node.field_legende'
         - 'config:field.storage.node.field_messages_cles_pour_la_disc'
         - 'config:field.storage.node.field_mot_s_cle_s_'
         - 'config:field.storage.node.field_organisateurs'
         - 'config:field.storage.node.field_priorite'
-        - 'config:field.storage.node.field_projets_inclus'
         - 'config:field.storage.node.field_questions_cles'
         - 'config:field.storage.node.field_resultats_attendus_impacts'
         - 'config:field.storage.node.field_salle'

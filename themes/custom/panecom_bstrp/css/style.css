@@ -610,6 +610,11 @@ div#block-views-block-organisations-block-1 h2::after {
 	
 }
 
+.view-agenda select#edit-field-legende-target-id {
+    max-width: 75%;
+    display: inline-block;
+}
+
 .view-agenda .view-filters {
     margin: 0 10%;
     background-color: gainsboro;
@@ -676,6 +681,12 @@ div#block-views-block-organisations-block-1 h2::after {
     font-weight: bold;
     margin-right: 0.5rem;
     color: #284478;
+	display: inline;
+	vertical-align: middle;
+}
+
+.page-view-agenda .ui-dialog .field--label-above {
+    margin-bottom: 0.5rem;
 }
 
 .page-view-agenda .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.lightboxc .field__item{
@@ -710,6 +721,7 @@ html[lang='en'] .page-view-agenda .field__label::after {
     content: ":";
 }
 
+.page-view-agenda .ui-dialog .field--type-entity-reference a,
 .page-view-agenda .ui-dialog .taxonomy-term a {
     color: #383b45;
     font-size: 1rem;
@@ -741,7 +753,8 @@ html[lang='en'] .page-view-agenda .field__label::after {
 	}
 
 	.view-agenda input#edit-combine {
-		width: auto;
+		max-width: 100%;
+		min-width: 200px;
 	}
 
 }
