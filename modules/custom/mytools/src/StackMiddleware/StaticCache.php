@@ -1,46 +1,40 @@
 <?php
-
-namespace Drupal\mytools\EventSubscriber;
+namespace Drupal\mytools\StackMiddleware;
+ 
+use Drupal\page_cache\StackMiddleware\PageCache;
+use Drupal\Core\Cache\Cache;
+use Drupal\Core\Cache\CacheableResponseInterface;
+use Drupal\Core\Cache\CacheBackendInterface;
+use Drupal\Core\PageCache\RequestPolicyInterface;
+use Drupal\Core\PageCache\ResponsePolicyInterface;
+use Drupal\Core\Site\Settings;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use Drupal\Core\Routing\TrustedRedirectResponse;
 use Drupal\user\Entity\User;
 use Drupal\Core\Url;
 use Drupal\taxonomy\Entity\Vocabulary;
-use Drupal\Core\Cache\CacheableMetadata;
+
 /**
- * Class DefaultSubscriber.
+ * Executes the page caching before the main kernel takes over the request.
  */
-class DefaultSubscriber implements EventSubscriberInterface {
-
-  /**
-   * Constructs a new DefaultSubscriber object.
-   */
-  public function __construct() {
-
-  }
-
+class StaticCache extends PageCache
+{
   /**
    * {@inheritdoc}
    */
-  public static function getSubscribedEvents() {
-    $events['kernel.request'] = ['kernelRequest', 0];
+  public function handle(Request $request, $type = self::MASTER_REQUEST, $catch = TRUE) {
+    // do special logic here.
 
-    return $events;
-  }
-
-  /**
-   * This method is called when the kernel.request is dispatched.
-   * Objectif: Rediriger les terms taxonmy path du genre "/taxonomy_term/term/X" vers une views donnée
-   * @param \Symfony\Component\EventDispatcher\Event $event
-   *   The dispatched event.
-   */
-  public function kernelRequest(Event $event) {
+    $response = parent::handle($request, $type, $catch);
 	
-	$request = $event->getRequest();
-    $route_name = $request->attributes->get('_route');
+	$route_name = $request->attributes->get('_route');
     
     if ($route_name == 'entity.taxonomy_term.canonical')  //terms taxonomy path only
 	{
@@ -64,23 +58,11 @@ class DefaultSubscriber implements EventSubscriberInterface {
 		if ($url)
 		{
 			// redirect:
-			//$response = new RedirectResponse($url->toString());
-			
-			
-			
-			
-		   $response = new TrustedRedirectResponse($url->toString(), 301);
-		   $response->addCacheableDependency(CacheableMetadata::createFromRenderArray([])
-			->addCacheTags(['rendered']));
-			$response->send();
-    
-			
-			
-			
-			
-			
+			$response = new RedirectResponse($url->toString());
+			//$response->send();
 		}
     }
-  }
 
+    return $response;	
+  }
 }
