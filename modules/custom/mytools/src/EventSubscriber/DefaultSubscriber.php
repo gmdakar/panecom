@@ -44,8 +44,7 @@ class DefaultSubscriber implements EventSubscriberInterface {
     
     if ($route_name == 'entity.taxonomy_term.canonical')  //terms taxonomy path only
 	{
-		
-		// Create the destination URL, such as:
+    	// Create the destination URL, such as:
 		$url = '';
 		$term_id = substr(\Drupal::service('path.current')->getPath(), 15); // ex. for "/taxonomy_term/term/X"; return X
 		$term = \Drupal::entityTypeManager()->getStorage("taxonomy_term")->load($term_id);
@@ -65,20 +64,11 @@ class DefaultSubscriber implements EventSubscriberInterface {
 		{
 			// redirect:
 			//$response = new RedirectResponse($url->toString());
-			
-			
-			
-			
 		   $response = new TrustedRedirectResponse($url->toString(), 301);
 		   $response->addCacheableDependency(CacheableMetadata::createFromRenderArray([])
 			->addCacheTags(['rendered']));
+			
 			$response->send();
-    
-			
-			
-			
-			
-			
 		}
     }
   }
