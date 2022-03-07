@@ -40,3 +40,48 @@ use Drupal\taxonomy\Entity\Vocabulary;
 	));
 }
 */
+
+function mytools_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $view_ids = ['agenda'];
+  \Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_agenda");
+  if ($form_id == 'views_exposed_form' && in_array($form_state->get('view')->id(), $view_ids)) {
+
+		
+    //$form['field_new_used']['#attributes']['disabled'] = 'disabled';
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_agenda_if");
+	//$current_langcode = "ju";
+	$current_langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_agenda_current_langcode:".$current_langcode);
+	$terms = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadByProperties([
+	  'langcode' => $current_langcode
+	]);
+	$tids = array();
+	foreach ($terms as $key => $val)
+		$tids[$key] = $key;
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_a:". '<pre><code>' . print_r($terms, TRUE) . '</code></pre>' );
+	//\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter:". '<pre><code>' . implode("_", array_keys($terms)) . '</code></pre>' );
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_salle_options:". '<pre><code>' . implode("_", array_keys($form['field_salle_target_id']['#options'])) . '</code></pre>' );
+	//var_dump($terms); exit;
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter:". '<pre><code>' . print_r($form['field_salle_target_id']['#options'], TRUE) . '</code></pre>' );
+	\Drupal::logger('mytools')->notice("mytools_form_views_exposed_form_alter_b:". '<pre><code>' . print_r($tids, TRUE) . '</code></pre>' );
+	$form['field_salle_target_id']['#options'] = array_intersect_key($form['field_salle_target_id']['#options'], $tids);
+  }
+}
+
+/**
+ * Act on a term taxonomy of entity before it is created or updated.
+ *
+ * Remove the custom and tempo lang prefix added by feeds tamper
+ *
+ * @param \Drupal\Core\Entity\EntityInterface $entity
+ *   The entity object.
+ *
+ * @ingroup entity_crud
+ * @see hook_entity_presave()
+ */
+function mytools_taxonomy_term_presave($term) {
+  //\Drupal::logger('mytools')->notice("mytools_form_views_exposed_term_name:". '<pre><code>' . print_r($term, TRUE) . '</code></pre>' );
+  
+  //$term->name = preg_replace('/(lang__en__)(.*)/', '$2', $term->getName()); //remove the custom and tempo lang prefix added by feeds tamper
+  $term->name = preg_replace('/(lang__fr__)(.*)/', '$2', preg_replace('/(lang__en__)(.*)/', '$2', $term->getName())); //remove the custom and tempo lang prefix added by feeds tamper
+}
