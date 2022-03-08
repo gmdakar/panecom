@@ -314,7 +314,19 @@ class EntityReference extends FieldTargetBase implements ConfigurableTargetInter
 
     $target_ids = $this->entityFinder->findEntities($this->getEntityType(), $field, $search, $this->getBundles());
     if (!empty($target_ids)) {
-      return $target_ids;
+		
+		$term_exists = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadByProperties([
+		 'langcode' => $this->getLangcode(),
+		 'name' => $search,  
+		]);
+		
+		if (!empty($term_exists)) {
+			$tid = array_shift(array_keys($term_exists));
+			\Drupal::logger('mytools')->notice("mytools_form_views_exposed_term_exists:".'<pre><code>' .  print_r([$tid => $tid], TRUE));
+		\Drupal::logger('mytools')->notice("mytools_form_views_exposed_target_ids:".'<pre><code>' .  print_r($target_ids, TRUE));
+			return [$tid => $tid];
+		}
+		
     }
 
     if ($this->configuration['autocreate'] && $field === $this->getLabelKey()) {

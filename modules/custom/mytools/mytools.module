@@ -68,20 +68,3 @@ function mytools_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormSta
   }
 }
 
-/**
- * Act on a term taxonomy of entity before it is created or updated.
- *
- * Remove the custom and tempo lang prefix added by feeds tamper
- *
- * @param \Drupal\Core\Entity\EntityInterface $entity
- *   The entity object.
- *
- * @ingroup entity_crud
- * @see hook_entity_presave()
- */
-function mytools_taxonomy_term_presave($term) {
-  //\Drupal::logger('mytools')->notice("mytools_form_views_exposed_term_name:". '<pre><code>' . print_r($term, TRUE) . '</code></pre>' );
-  
-  //$term->name = preg_replace('/(lang__en__)(.*)/', '$2', $term->getName()); //remove the custom and tempo lang prefix added by feeds tamper
-  $term->name = preg_replace('/(lang__fr__)(.*)/', '$2', preg_replace('/(lang__en__)(.*)/', '$2', $term->getName())); //remove the custom and tempo lang prefix added by feeds tamper
-}
