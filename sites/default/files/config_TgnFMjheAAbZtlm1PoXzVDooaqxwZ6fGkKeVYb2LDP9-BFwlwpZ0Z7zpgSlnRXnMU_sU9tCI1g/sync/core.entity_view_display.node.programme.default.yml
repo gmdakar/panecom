@@ -18,6 +18,7 @@ dependencies:
     - field.field.node.programme.field_organisateurs_text
     - field.field.node.programme.field_other_organizers_text
     - field.field.node.programme.field_priorite
+    - field.field.node.programme.field_priority_text
     - field.field.node.programme.field_pro
     - field.field.node.programme.field_programme
     - field.field.node.programme.field_questions_cles
@@ -78,7 +79,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 15
+    weight: 16
     region: content
   field_horaire:
     type: entity_reference_entity_view
@@ -103,7 +104,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 13
+    weight: 14
     region: content
   field_mot_s_cle_s_:
     type: entity_reference_entity_view
@@ -127,14 +128,14 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 18
+    weight: 19
     region: content
   field_other_organizers_text:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 19
+    weight: 20
     region: content
   field_priorite:
     type: entity_reference_label
@@ -144,26 +145,33 @@ content:
     third_party_settings: {  }
     weight: 12
     region: content
+  field_priority_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
   field_pro:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 17
+    weight: 18
     region: content
   field_programme:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 16
+    weight: 17
     region: content
   field_questions_cles:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 14
+    weight: 15
     region: content
   field_resultats_attendus_impacts:
     type: text_default

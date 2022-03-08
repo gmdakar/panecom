@@ -14,7 +14,7 @@ dependencies:
     - field.field.node.programme.field_mot_s_cle_s_
     - field.field.node.programme.field_organisateurs_text
     - field.field.node.programme.field_other_organizers_text
-    - field.field.node.programme.field_priorite
+    - field.field.node.programme.field_priority_text
     - field.field.node.programme.field_pro
     - field.field.node.programme.field_programme
     - field.field.node.programme.field_resultats_attendus_impacts
@@ -301,7 +301,7 @@ third_party_settings:
         uuid: 0aff064e-b2a7-472e-a0ae-7d24be0a8756
         plugin: convert_encoding
         source: titre
-        weight: 0
+        weight: -10
         label: 'Convert text encoding'
         input_encoding: Windows-1252
         output_encoding: UTF-8
@@ -319,7 +319,7 @@ third_party_settings:
         uuid: 189d47b3-1979-4d45-93ae-4488b291f1c6
         plugin: convert_encoding
         source: salle
-        weight: 0
+        weight: -10
         label: 'Convert text encoding'
         input_encoding: Windows-1252
         output_encoding: UTF-8
@@ -367,31 +367,6 @@ third_party_settings:
         source: horaire
         weight: 2
         label: 'Characters to trim'
-      b2295da4-95a9-488d-bfbb-1b9fc2c9b536:
-        default_value: ''
-        only_if_empty: true
-        uuid: b2295da4-95a9-488d-bfbb-1b9fc2c9b536
-        plugin: default_value
-        source: priority
-        weight: -10
-        label: 'Set value or default value'
-      0ebd0e4c-07ef-4b48-ae08-bcff590a3d54:
-        character: ''
-        side: trim
-        uuid: 0ebd0e4c-07ef-4b48-ae08-bcff590a3d54
-        plugin: trim
-        source: priority
-        weight: -8
-        label: 'Characters to trim'
-      0c2dbbd7-0722-4dd2-9da7-3e64e698c22b:
-        uuid: 0c2dbbd7-0722-4dd2-9da7-3e64e698c22b
-        plugin: convert_encoding
-        source: priority
-        weight: -9
-        label: 'Convert text encoding'
-        input_encoding: Windows-1252
-        output_encoding: UTF-8
-        mode: //IGNORE
       db0c8124-3caf-45bb-9fc6-f511b5341015:
         uuid: db0c8124-3caf-45bb-9fc6-f511b5341015
         plugin: convert_encoding
@@ -458,6 +433,95 @@ third_party_settings:
         uuid: 6ebf3389-290b-446f-95c0-aaaee9688f4c
         plugin: convert_encoding
         source: expected_outcomes
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      4ab9e359-0bb3-4f9f-97f2-973a3f1308b0:
+        find: '/((Monday )(.*))/i'
+        replace: 'DAY1 - $0'
+        limit: null
+        uuid: 4ab9e359-0bb3-4f9f-97f2-973a3f1308b0
+        plugin: find_replace_regex
+        source: date
+        weight: -7
+        label: 'Find replace REGEX (add DAYN)'
+      748b59c9-7ac6-494d-9bc8-423a22653542:
+        find: '/((Tuesday )(.*))/i'
+        replace: 'DAY2 - $0'
+        limit: null
+        uuid: 748b59c9-7ac6-494d-9bc8-423a22653542
+        plugin: find_replace_regex
+        source: date
+        weight: -6
+        label: 'Find replace REGEX (add DAYN)'
+      a2d66e51-95a5-43e5-9438-cea597398bc3:
+        find: '/((Wednesday )(.*))/i'
+        replace: 'DAY3 - $0'
+        limit: null
+        uuid: a2d66e51-95a5-43e5-9438-cea597398bc3
+        plugin: find_replace_regex
+        source: date
+        weight: -5
+        label: 'Find replace REGEX (add DAYN)'
+      2f6d77c3-ac2e-4511-94a8-8e283b3bfc37:
+        find: '/((Thursday )(.*))/i'
+        replace: 'DAY4 - $0'
+        limit: null
+        uuid: 2f6d77c3-ac2e-4511-94a8-8e283b3bfc37
+        plugin: find_replace_regex
+        source: date
+        weight: -4
+        label: 'Find replace REGEX (add DAYN)'
+      8034bff1-82cc-46e3-a5f0-163305bc0be6:
+        find: '/((Friday )(.*))/i'
+        replace: 'DAY5 - $1'
+        limit: null
+        uuid: 8034bff1-82cc-46e3-a5f0-163305bc0be6
+        plugin: find_replace_regex
+        source: date
+        weight: -3
+        label: 'Find replace REGEX (add DAYN)'
+      a0daedf4-d79a-44f6-bd24-7794137f5cb2:
+        find: '(^([0-9]\.))'
+        replace: 0$1
+        limit: null
+        uuid: a0daedf4-d79a-44f6-bd24-7794137f5cb2
+        plugin: find_replace_regex
+        source: horaire
+        weight: 3
+        label: 'Find replace REGEX (0X.)'
+      5e4b6b5a-d5b7-459f-9cdf-2b283a767a30:
+        find: '/(- ?)/'
+        replace: '- '
+        limit: null
+        uuid: 5e4b6b5a-d5b7-459f-9cdf-2b283a767a30
+        plugin: find_replace_regex
+        source: titre
+        weight: -8
+        label: 'Find replace REGEX (-\s\?)'
+      d1bdcd45-017b-4538-a9e1-79748e0bf68b:
+        character: ''
+        side: trim
+        uuid: d1bdcd45-017b-4538-a9e1-79748e0bf68b
+        plugin: trim
+        source: titre
+        weight: -9
+        label: 'Characters to trim'
+      ae443abd-1bce-4d88-99c6-259fa81d9b2d:
+        find: '/(\?[^ ])/'
+        replace: $1
+        limit: null
+        uuid: ae443abd-1bce-4d88-99c6-259fa81d9b2d
+        plugin: find_replace_regex
+        source: titre
+        weight: -7
+        label: 'Find replace REGEX (\?(.*))'
+      6ef43b63-c1f4-4f83-8253-adcaf18e41d6:
+        uuid: 6ef43b63-c1f4-4f83-8253-adcaf18e41d6
+        plugin: convert_encoding
+        source: priority
         weight: 0
         label: 'Convert text encoding'
         input_encoding: Windows-1252
@@ -571,11 +635,6 @@ custom_sources:
     label: 'Type of session'
     machine_name: type_of_session2
     type: csv
-  priority:
-    value: Priority
-    label: Priority
-    machine_name: priority
-    type: csv
   session_schedule:
     value: 'Session schedule'
     label: 'Session schedule'
@@ -610,6 +669,11 @@ custom_sources:
     value: 'Expected outcomes'
     label: 'Expected outcomes'
     machine_name: expected_outcomes
+    type: csv
+  priority:
+    value: Priority
+    label: Priority
+    machine_name: priority
     type: csv
 mappings:
   -
@@ -647,7 +711,7 @@ mappings:
     map:
       target_id: salle
     settings:
-      language: ''
+      language: en
       reference_by: name
       autocreate: '1'
   -
@@ -678,14 +742,6 @@ mappings:
     target: field_legende
     map:
       target_id: type_of_session2
-    settings:
-      language: ''
-      reference_by: name
-      autocreate: '1'
-  -
-    target: field_priorite
-    map:
-      target_id: priority
     settings:
       language: ''
       reference_by: name
@@ -740,3 +796,9 @@ mappings:
     settings:
       language: ''
       format: basic_html
+  -
+    target: field_priority_text
+    map:
+      value: priority
+    settings:
+      language: null

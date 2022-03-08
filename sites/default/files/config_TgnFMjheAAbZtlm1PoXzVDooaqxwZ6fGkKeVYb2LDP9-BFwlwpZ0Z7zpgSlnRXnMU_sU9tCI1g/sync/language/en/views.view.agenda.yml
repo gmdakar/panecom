@@ -17,8 +17,8 @@ display:
       filters:
         combine:
           expose:
-            label: 'Filter by keyword(s)'
-            description: 'Ex. Session Title, Session Code, etc.'
+            label: 'Filter by text'
+            placeholder: 'Ex. Session Title, Session Code, etc.'
         field_mot_s_cle_s__target_id:
           expose:
             label: Keywords
@@ -31,5 +31,5 @@ display:
       header:
         area:
           content:
-            value: "<p>Sessions program</p>\r\n"
+            value: "<p>Sessions program&nbsp;([view:total-rows])</p>\r\n"
             format: full_html

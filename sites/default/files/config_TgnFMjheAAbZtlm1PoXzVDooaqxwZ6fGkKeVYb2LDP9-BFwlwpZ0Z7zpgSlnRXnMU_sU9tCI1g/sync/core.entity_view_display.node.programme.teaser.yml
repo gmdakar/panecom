@@ -19,6 +19,7 @@ dependencies:
     - field.field.node.programme.field_organisateurs_text
     - field.field.node.programme.field_other_organizers_text
     - field.field.node.programme.field_priorite
+    - field.field.node.programme.field_priority_text
     - field.field.node.programme.field_pro
     - field.field.node.programme.field_programme
     - field.field.node.programme.field_questions_cles
@@ -64,6 +65,7 @@ hidden:
   field_organisateurs_text: true
   field_other_organizers_text: true
   field_priorite: true
+  field_priority_text: true
   field_pro: true
   field_programme: true
   field_questions_cles: true

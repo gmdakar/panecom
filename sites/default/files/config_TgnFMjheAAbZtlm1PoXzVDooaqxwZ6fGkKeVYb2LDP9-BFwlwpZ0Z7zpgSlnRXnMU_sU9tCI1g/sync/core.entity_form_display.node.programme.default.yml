@@ -18,6 +18,7 @@ dependencies:
     - field.field.node.programme.field_organisateurs_text
     - field.field.node.programme.field_other_organizers_text
     - field.field.node.programme.field_priorite
+    - field.field.node.programme.field_priority_text
     - field.field.node.programme.field_pro
     - field.field.node.programme.field_programme
     - field.field.node.programme.field_questions_cles
@@ -45,7 +46,7 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 20
+    weight: 18
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -93,7 +94,7 @@ content:
     third_party_settings: {  }
   field_duree:
     type: string_textfield
-    weight: 28
+    weight: 23
     region: content
     settings:
       size: 60
@@ -101,7 +102,7 @@ content:
     third_party_settings: {  }
   field_groupes_d_actions:
     type: options_buttons
-    weight: 13
+    weight: 11
     region: content
     settings: {  }
     third_party_settings:
@@ -137,7 +138,7 @@ content:
     third_party_settings: {  }
   field_messages_cles_pour_la_disc:
     type: text_textarea
-    weight: 15
+    weight: 13
     region: content
     settings:
       rows: 5
@@ -201,7 +202,7 @@ content:
             selector: ''
   field_organisateurs_text:
     type: text_textarea
-    weight: 29
+    weight: 24
     region: content
     settings:
       rows: 5
@@ -209,43 +210,23 @@ content:
     third_party_settings: {  }
   field_other_organizers_text:
     type: text_textarea
-    weight: 30
+    weight: 25
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_priorite:
-    type: entity_reference_autocomplete
-    weight: 10
+  field_priority_text:
+    type: string_textarea
+    weight: 26
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
+      rows: 5
       placeholder: ''
-    third_party_settings:
-      conditional_fields:
-        b6e40ead-fccd-4ff8-a8c3-ed41636124b2:
-          entity_type: node
-          bundle: programme
-          dependee: field_legende
-          settings:
-            state: visible
-            condition: value
-            grouping: AND
-            values_set: 1
-            value: ''
-            values: {  }
-            value_form:
-              -
-                target_id: '466'
-            effect: show
-            effect_options: {  }
-            selector: ''
+    third_party_settings: {  }
   field_pro:
     type: text_textarea
-    weight: 27
+    weight: 22
     region: content
     settings:
       rows: 5
@@ -253,7 +234,7 @@ content:
     third_party_settings: {  }
   field_programme:
     type: text_textarea
-    weight: 26
+    weight: 21
     region: content
     settings:
       rows: 5
@@ -261,7 +242,7 @@ content:
     third_party_settings: {  }
   field_questions_cles:
     type: text_textarea
-    weight: 14
+    weight: 12
     region: content
     settings:
       rows: 5
@@ -287,7 +268,7 @@ content:
             selector: ''
   field_resultats_attendus_impacts:
     type: text_textarea
-    weight: 16
+    weight: 14
     region: content
     settings:
       rows: 5
@@ -319,20 +300,20 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 22
+    weight: 20
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 17
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 21
+    weight: 19
     region: content
     settings:
       display_label: true
@@ -346,13 +327,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 11
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 19
+    weight: 17
     region: content
     settings:
       match_operator: CONTAINS
@@ -361,11 +342,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 18
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   feeds_item: true
+  field_priorite: true
   promote: true
   sticky: true
