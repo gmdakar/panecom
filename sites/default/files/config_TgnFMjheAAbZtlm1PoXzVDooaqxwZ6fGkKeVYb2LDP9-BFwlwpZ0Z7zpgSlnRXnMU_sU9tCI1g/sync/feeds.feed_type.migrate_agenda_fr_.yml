@@ -1,4 +1,4 @@
-uuid: 00be4288-3af2-4c32-893a-886dbd21decc
+uuid: 093adf35-9b4f-4360-bcc6-acff612b7af5
 langcode: en
 status: true
 dependencies:
@@ -325,14 +325,14 @@ third_party_settings:
         output_encoding: UTF-8
         mode: //IGNORE
       b8811496-a454-4dcc-9da2-c884d9c3f26f:
-        find: '/(.*)(\sfrom\s)(.*)/'
+        find: '/(.*)(\sde\s)(.*)/'
         replace: $1
         limit: null
         uuid: b8811496-a454-4dcc-9da2-c884d9c3f26f
         plugin: find_replace_regex
         source: date
         weight: -9
-        label: 'Find replace REGEX (from)'
+        label: 'Find replace REGEX (de)'
       b2a32fa9-180b-47d6-9a35-58fc4c365fe3:
         uuid: b2a32fa9-180b-47d6-9a35-58fc4c365fe3
         plugin: convert_encoding
@@ -351,14 +351,14 @@ third_party_settings:
         weight: -8
         label: 'Characters to trim'
       9e3c72b6-d475-4795-9555-538f291fbd5a:
-        find: '/(.*)(\sfrom\s)(.*)/'
+        find: '/(.*)(\sde\s)(.*)/'
         replace: $3
         limit: null
         uuid: 9e3c72b6-d475-4795-9555-538f291fbd5a
         plugin: find_replace_regex
         source: horaire
         weight: 1
-        label: 'Find replace REGEX (from)'
+        label: 'Find replace REGEX (de)'
       b538fa2d-a525-4397-b66a-aff1a2e1eee7:
         character: ''
         side: trim
@@ -439,8 +439,8 @@ third_party_settings:
         output_encoding: UTF-8
         mode: //IGNORE
       4ab9e359-0bb3-4f9f-97f2-973a3f1308b0:
-        find: '/((Monday )(.*))/i'
-        replace: 'DAY1 - $0'
+        find: '/((Lundi )(.*))/i'
+        replace: 'JOUR1 - $0'
         limit: null
         uuid: 4ab9e359-0bb3-4f9f-97f2-973a3f1308b0
         plugin: find_replace_regex
@@ -448,8 +448,8 @@ third_party_settings:
         weight: -7
         label: 'Find replace REGEX (add DAYN)'
       748b59c9-7ac6-494d-9bc8-423a22653542:
-        find: '/((Tuesday )(.*))/i'
-        replace: 'DAY2 - $0'
+        find: '/((Mardi )(.*))/i'
+        replace: 'JOUR2 - $0'
         limit: null
         uuid: 748b59c9-7ac6-494d-9bc8-423a22653542
         plugin: find_replace_regex
@@ -457,8 +457,8 @@ third_party_settings:
         weight: -6
         label: 'Find replace REGEX (add DAYN)'
       a2d66e51-95a5-43e5-9438-cea597398bc3:
-        find: '/((Wednesday )(.*))/i'
-        replace: 'DAY3 - $0'
+        find: '/((Mercredi )(.*))/i'
+        replace: 'JOUR3 - $0'
         limit: null
         uuid: a2d66e51-95a5-43e5-9438-cea597398bc3
         plugin: find_replace_regex
@@ -466,8 +466,8 @@ third_party_settings:
         weight: -5
         label: 'Find replace REGEX (add DAYN)'
       2f6d77c3-ac2e-4511-94a8-8e283b3bfc37:
-        find: '/((Thursday )(.*))/i'
-        replace: 'DAY4 - $0'
+        find: '/((Jeudi )(.*))/i'
+        replace: 'JOUR4 - $0'
         limit: null
         uuid: 2f6d77c3-ac2e-4511-94a8-8e283b3bfc37
         plugin: find_replace_regex
@@ -475,8 +475,8 @@ third_party_settings:
         weight: -4
         label: 'Find replace REGEX (add DAYN)'
       8034bff1-82cc-46e3-a5f0-163305bc0be6:
-        find: '/((Friday )(.*))/i'
-        replace: 'DAY5 - $1'
+        find: '/((Vendredi )(.*))/i'
+        replace: 'JOUR5 - $1'
         limit: null
         uuid: 8034bff1-82cc-46e3-a5f0-163305bc0be6
         plugin: find_replace_regex
@@ -527,8 +527,8 @@ third_party_settings:
         input_encoding: Windows-1252
         output_encoding: UTF-8
         mode: //IGNORE
-label: 'Migrate Agenda (en)'
-id: migrate_agenda_en_
+label: 'Migrate Agenda (fr)'
+id: migrate_agenda_fr_
 description: ''
 help: ''
 import_period: -1
@@ -545,7 +545,7 @@ processor: 'entity:node'
 processor_configuration:
   values:
     type: programme
-  langcode: en
+  langcode: fr
   insert_new: 1
   update_existing: 0
   update_non_existent: _delete

@@ -322,8 +322,6 @@ class EntityReference extends FieldTargetBase implements ConfigurableTargetInter
 		
 		if (!empty($term_exists)) {
 			$tid = array_shift(array_keys($term_exists));
-			\Drupal::logger('mytools')->notice("mytools_form_views_exposed_term_exists:".'<pre><code>' .  print_r([$tid => $tid], TRUE));
-		\Drupal::logger('mytools')->notice("mytools_form_views_exposed_target_ids:".'<pre><code>' .  print_r($target_ids, TRUE));
 			return [$tid => $tid];
 		}
 		
