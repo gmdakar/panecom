@@ -566,13 +566,13 @@ custom_sources:
     machine_name: titre
     type: csv
   date:
-    value: 'Date and time of the session'
-    label: 'Date and time of the session (date)'
+    value: 'Date et heure de la session'
+    label: 'Date et heure de la session (date)'
     machine_name: date
     type: csv
   horaire:
-    value: 'Date and time of the session2'
-    label: 'Date and time of the session (horaire)'
+    value: 'Date et heure de la session2'
+    label: 'Date et heure de la session (horaire)'
     machine_name: horaire
     type: csv
   language:
@@ -596,8 +596,8 @@ custom_sources:
     machine_name: nid
     type: csv
   salle:
-    value: Room
-    label: Room
+    value: Salle
+    label: Salle
     machine_name: salle
     type: csv
   groupes_d_actions:
@@ -606,13 +606,13 @@ custom_sources:
     machine_name: groupes_d_actions
     type: csv
   keywords:
-    value: Keywords
-    label: Keywords
+    value: Mots-cles
+    label: Mots-cles
     machine_name: keywords
     type: csv
   action_group:
-    value: 'Action Group'
-    label: 'Action Group'
+    value: 'Groupe d''Action'
+    label: 'Groupe d''Action'
     machine_name: action_group
     type: blank
   action_gros:
@@ -621,23 +621,23 @@ custom_sources:
     machine_name: action_gros
     type: csv
   action_group2:
-    value: 'Action Group'
-    label: 'Action Group'
+    value: 'Groupe d''Action'
+    label: 'Groupe d''Action'
     machine_name: action_group2
     type: csv
   '':
-    value: 'Type of session'
-    label: 'Type of session'
+    value: 'Type de session'
+    label: 'Type de session'
     machine_name: ''
     type: csv
   type_of_session2:
-    value: 'Type of session'
-    label: 'Type of session'
+    value: 'Type de session'
+    label: 'Type de session'
     machine_name: type_of_session2
     type: csv
   session_schedule:
-    value: 'Session schedule'
-    label: 'Session schedule'
+    value: 'Programme de la session'
+    label: 'Programme de la session'
     machine_name: session_schedule
     type: csv
   session_summary:
@@ -646,33 +646,33 @@ custom_sources:
     machine_name: session_summary
     type: csv
   duration_of_the_session:
-    value: 'Duration of the session'
-    label: 'Duration of the session'
+    value: 'Duree de la session'
+    label: 'Duree de la session'
     machine_name: duration_of_the_session
     type: csv
   projects_included:
-    value: 'Projects included'
-    label: 'Projects included'
+    value: 'Projets inclus'
+    label: 'Projets inclus'
     machine_name: projects_included
     type: csv
   convening_organizations_and_session_coordinators:
-    value: 'Convening organizations and session coordinators'
-    label: 'Convening organizations and session coordinators'
+    value: 'Organisations participantes - coordinateurs de session'
+    label: 'Organisations participantes - coordinateurs de session'
     machine_name: convening_organizations_and_session_coordinators
     type: csv
   other_organizers:
-    value: 'Other organizers'
-    label: 'Other organizers'
+    value: 'Autres organisations et parties prenantes associees'
+    label: 'Autres organisations et parties prenantes associees'
     machine_name: other_organizers
     type: csv
   expected_outcomes:
-    value: 'Expected outcomes'
-    label: 'Expected outcomes'
+    value: 'Resultats attendus, impacts et liens de suivi'
+    label: 'Resultats attendus impacts et liens de suivi'
     machine_name: expected_outcomes
     type: csv
   priority:
-    value: Priority
-    label: Priority
+    value: Priorite
+    label: Priorite
     machine_name: priority
     type: csv
 mappings:
