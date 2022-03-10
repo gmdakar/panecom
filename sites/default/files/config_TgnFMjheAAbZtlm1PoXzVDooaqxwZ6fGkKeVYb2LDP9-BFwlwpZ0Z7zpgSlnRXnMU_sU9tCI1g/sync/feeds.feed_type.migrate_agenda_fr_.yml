@@ -71,7 +71,7 @@ third_party_settings:
         weight: -2
         label: 'Find replace (; by  |)'
       22b84acf-f282-4c1f-b29b-acc71162035a:
-        character: ''
+        character: ' '
         side: trim
         uuid: 22b84acf-f282-4c1f-b29b-acc71162035a
         plugin: trim
@@ -527,6 +527,15 @@ third_party_settings:
         input_encoding: Windows-1252
         output_encoding: UTF-8
         mode: //IGNORE
+      2fa44764-407c-4f4c-91f2-71456f5ca965:
+        find: '/([0-9])( à )/'
+        replace: $1H$2
+        limit: null
+        uuid: 2fa44764-407c-4f4c-91f2-71456f5ca965
+        plugin: find_replace_regex
+        source: horaire
+        weight: 4
+        label: 'Find replace REGEX (([0-9])( à ))'
 label: 'Migrate Agenda (fr)'
 id: migrate_agenda_fr_
 description: ''

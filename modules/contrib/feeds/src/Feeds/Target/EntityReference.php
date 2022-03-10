@@ -311,7 +311,13 @@ class EntityReference extends FieldTargetBase implements ConfigurableTargetInter
     if ($field == 'feeds_item') {
       $field = 'feeds_item.' . $this->configuration['feeds_item'];
     }
-
+	//\Drupal::logger('mytools')->notice("mytools_form_views_exposed_getBundles():". '<pre><code>' . print_r($search, TRUE) . '</code></pre>' );
+	//\Drupal::logger('mytools')->notice("mytools_form_views_exposed_getBundles():". '<pre><code>' . print_r($this->getBundles(), TRUE) . '</code></pre>' );
+	$search = trim($search); 
+	if (array_shift($this->getBundles()) == "motscles") /*hack: pour contourner erreur creation de term pour les caracteres inférieur à 6. Bug feeds ??? */
+		$search = "-".$search;
+	//$search = preg_replace("/_remove_last__/u", "", $search);
+	
     $target_ids = $this->entityFinder->findEntities($this->getEntityType(), $field, $search, $this->getBundles());
     if (!empty($target_ids)) {
 		
@@ -320,10 +326,15 @@ class EntityReference extends FieldTargetBase implements ConfigurableTargetInter
 		 'name' => $search,  
 		]);
 		
-		if (!empty($term_exists)) {
+		if (is_array($term_exists) && !empty($term_exists)) {
+			foreach (array_keys($term_exists) as $key => $value)
+				return [$value => $value];
+		}
+		
+		/*if (!empty($term_exists)) {
 			$tid = array_shift(array_keys($term_exists));
 			return [$tid => $tid];
-		}
+		}*/
 		
     }
 

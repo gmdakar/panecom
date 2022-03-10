@@ -527,6 +527,15 @@ third_party_settings:
         input_encoding: Windows-1252
         output_encoding: UTF-8
         mode: //IGNORE
+      10bfd383-b871-420e-8dc1-fada3ec0caa1:
+        find: '/([0-9])( to )/'
+        replace: $1H$2
+        limit: null
+        uuid: 10bfd383-b871-420e-8dc1-fada3ec0caa1
+        plugin: find_replace_regex
+        source: horaire
+        weight: 4
+        label: 'Find replace REGEX (([0-9])( to ))'
 label: 'Migrate Agenda (en)'
 id: migrate_agenda_en_
 description: ''
