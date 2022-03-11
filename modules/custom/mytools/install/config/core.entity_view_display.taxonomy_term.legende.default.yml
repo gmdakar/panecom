@@ -1,0 +1,21 @@
+uuid: f92a3dad-9176-4190-9255-297d91e6f6cc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.legende.field_code
+    - field.field.taxonomy_term.legende.field_code_couleur
+    - taxonomy.vocabulary.legende
+id: taxonomy_term.legende.default
+targetEntityType: taxonomy_term
+bundle: legende
+mode: default
+content: {  }
+hidden:
+  description: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_code: true
+  field_code_couleur: true
+  langcode: true

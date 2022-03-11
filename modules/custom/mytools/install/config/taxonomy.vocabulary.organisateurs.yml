@@ -1,0 +1,8 @@
+uuid: 52b1dc1d-7712-4ec5-b5ee-e8ba49089cdc
+langcode: und
+status: true
+dependencies: {  }
+name: 'Organisateurs (agenda)'
+vid: organisateurs
+description: ''
+weight: -3

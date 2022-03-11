@@ -1,0 +1,10 @@
+uuid: 25d90b58-d66a-46f3-82eb-ff759909d6e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.view_mode_translated_term
+label: 'view mode translated term'
+targetEntityType: taxonomy_term
+cache: true

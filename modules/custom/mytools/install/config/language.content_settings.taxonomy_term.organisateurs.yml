@@ -1,0 +1,16 @@
+uuid: 581278e4-b7a1-4993-a1a9-70f48cb8c984
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.organisateurs
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: taxonomy_term.organisateurs
+target_entity_type_id: taxonomy_term
+target_bundle: organisateurs
+default_langcode: current_interface
+language_alterable: false

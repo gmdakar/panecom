@@ -1,0 +1,8 @@
+uuid: e7a91d09-82fa-4e33-b411-ffb7d29a483b
+langcode: und
+status: true
+dependencies: {  }
+name: 'Priorité (agenda)'
+vid: priorite
+description: ''
+weight: -1

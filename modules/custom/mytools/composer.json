@@ -1,0 +1,31 @@
+{
+    "name": "mytools/mytools",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "digissol",
+            "email": "digissol@digissol.sn"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/chosen": "^3.0",
+        "drupal/conditional_fields": "^4.0@alpha",
+        "drupal/feeds": "^3.0@beta",
+        "drupal/feeds_tamper": "^2.0@beta",
+        "drupal/feeds_tamper_convert_encoding": "^2.0",
+        "drupal/ng_lightbox": "^2.0@beta",
+        "drupal/pathauto": "^1.8",
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+	    "extra": {
+        "enable-patching": true,
+        "patches": {
+            "drupal/feeds_save": {
+                "#123456 - Allow add term by language by feeds": "https://www.drupal.org/files/issues/2021-05-27/updated-deprecated-session-token-path-3180168-3.patch",
+            },
+    },
+}
