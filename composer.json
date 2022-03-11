@@ -51,6 +51,8 @@
         "drupal/notifications_widget": "^1.5",
         "drupal/owlcarousel": "^1.0@beta",
         "drupal/pathauto": "^1.8",
+        "drupal/pdf_serialization": "^2.1",
+        "drupal/printable": "^2.1",
         "drupal/redirect": "^1.7",
         "drupal/restui": "^1.20",
         "drupal/superfish": "^1.4",
@@ -59,6 +61,7 @@
         "drupal/views_bootstrap": "^4.3",
         "drupal/views_data_export": "^1.1",
         "drupal/webform": "^6.2@beta",
+        "drupal/webform_views": "^5.0@alpha",
         "drupal/webp": "^1.0@beta",
         "drupal/xmlrpc": "^1.0@beta"
     },

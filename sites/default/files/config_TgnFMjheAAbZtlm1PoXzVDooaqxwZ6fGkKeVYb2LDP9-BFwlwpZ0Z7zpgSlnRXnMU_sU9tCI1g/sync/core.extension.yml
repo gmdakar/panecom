@@ -40,6 +40,7 @@ module:
   editor: 0
   entity_export_csv: 0
   entity_print: 0
+  entity_print_views: 0
   feeds: 0
   feeds_tamper: 0
   feeds_tamper_convert_encoding: 0
@@ -82,6 +83,10 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  pdf_api: 0
+  pdf_serialization: 0
+  printable: 0
+  printable_pdf: 0
   rdf: 0
   redirect: 0
   responsive_image: 0
