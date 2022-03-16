@@ -1,6 +1,16 @@
-name: 'My tools'
+name: 'Agenda feature'
 description: 'misc features for developper.'
 core: 8.x
 core_version_requirement: ^8 || ^9
-package: Panecom
+package: Digissol
 type: module
+dependencies:
+  - feeds_tamper:feeds_tamper
+  - feeds:feeds
+  - chosen:chosen
+  - conditional_fields:conditional_fields
+  - feeds_tamper_convert_encoding:feeds_tamper_convert_encoding
+  - ng_lightbox:ng_lightbox
+  - pathauto:pathauto
+  - vefl:vefl
+  - views_bootstrap:views_bootstrap

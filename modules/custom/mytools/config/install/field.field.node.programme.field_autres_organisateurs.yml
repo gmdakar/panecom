@@ -1,0 +1,28 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autres_organisateurs
+    - node.type.programme
+    - taxonomy.vocabulary.autres_organisateurs_programme_
+id: node.programme.field_autres_organisateurs
+field_name: field_autres_organisateurs
+entity_type: node
+bundle: programme
+label: 'Other organizers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      autres_organisateurs_programme_: autres_organisateurs_programme_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

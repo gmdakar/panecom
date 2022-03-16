@@ -1,0 +1,7 @@
+langcode: und
+status: true
+dependencies: {  }
+name: 'Groupe d''actions (agenda)'
+vid: groupe_d_actions
+description: ''
+weight: 0

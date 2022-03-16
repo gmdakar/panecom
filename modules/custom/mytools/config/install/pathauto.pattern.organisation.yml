@@ -1,0 +1,38 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: organisation
+label: content
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  b319c346-40ad-4429-9b05-67af05567a01:
+    id: node_type
+    negate: false
+    uuid: b319c346-40ad-4429-9b05-67af05567a01
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      evenement: evenement
+      organisation: organisation
+      page: page
+      programme: programme
+      projet: projet
+  de56c889-decc-4b5b-a38a-384a17f055cd:
+    id: language
+    negate: false
+    uuid: de56c889-decc-4b5b-a38a-384a17f055cd
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      fr: fr
+      en: en
+selection_logic: and
+weight: -9
+relationships:
+  'node:langcode:language':
+    label: Language

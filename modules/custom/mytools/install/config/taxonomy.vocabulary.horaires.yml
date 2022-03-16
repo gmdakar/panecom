@@ -1,8 +1,0 @@
-uuid: 1470cae5-bb72-4b20-a273-75e44bd749b5
-langcode: und
-status: true
-dependencies: {  }
-name: 'Horaires  (agenda)'
-vid: horaires
-description: ''
-weight: -6

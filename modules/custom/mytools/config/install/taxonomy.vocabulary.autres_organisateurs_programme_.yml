@@ -1,0 +1,7 @@
+langcode: und
+status: true
+dependencies: {  }
+name: 'Autres organisateurs (agenda)'
+vid: autres_organisateurs_programme_
+description: ''
+weight: -2

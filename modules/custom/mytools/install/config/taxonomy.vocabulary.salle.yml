@@ -1,8 +1,0 @@
-uuid: 9a24d96f-8700-4af1-87ef-07b4080b6c62
-langcode: und
-status: true
-dependencies: {  }
-name: 'Salle (agenda)'
-vid: salle
-description: ''
-weight: -5

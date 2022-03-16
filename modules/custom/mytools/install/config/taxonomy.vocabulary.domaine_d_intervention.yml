@@ -1,8 +1,0 @@
-uuid: bbe1d91a-922a-48e8-954b-8dd1b1670f27
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Domaine d''intervention'
-vid: domaine_d_intervention
-description: ''
-weight: -9

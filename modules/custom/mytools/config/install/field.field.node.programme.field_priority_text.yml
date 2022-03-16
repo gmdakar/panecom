@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority_text
+    - node.type.programme
+id: node.programme.field_priority_text
+field_name: field_priority_text
+entity_type: node
+bundle: programme
+label: Priority
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resultats_attendus_impacts
+    - node.type.programme
+  module:
+    - text
+id: node.programme.field_resultats_attendus_impacts
+field_name: field_resultats_attendus_impacts
+entity_type: node
+bundle: programme
+label: 'Résultats attendus, impacts et liens de suivi avec les événements et initiatives après le Forum'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

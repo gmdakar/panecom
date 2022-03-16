@@ -1,0 +1,28 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_groupes_d_actions
+    - node.type.programme
+    - taxonomy.vocabulary.groupe_d_actions
+id: node.programme.field_groupes_d_actions
+field_name: field_groupes_d_actions
+entity_type: node
+bundle: programme
+label: 'Groupes d''actions'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      groupe_d_actions: groupe_d_actions
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

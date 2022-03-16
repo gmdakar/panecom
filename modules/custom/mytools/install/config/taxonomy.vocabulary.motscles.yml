@@ -1,8 +1,0 @@
-uuid: bc31c486-8355-42fa-8e37-dbc8f69b6429
-langcode: und
-status: true
-dependencies: {  }
-name: 'Mots clés (agenda)'
-vid: motscles
-description: ''
-weight: -4

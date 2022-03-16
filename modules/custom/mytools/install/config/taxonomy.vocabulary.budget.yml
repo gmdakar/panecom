@@ -1,8 +1,0 @@
-uuid: 99d5e933-b28c-4e88-b6cb-efdbddd71b07
-langcode: fr
-status: true
-dependencies: {  }
-name: Budget
-vid: budget
-description: ''
-weight: -10

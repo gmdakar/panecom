@@ -1,8 +1,0 @@
-uuid: 655c7bea-1730-4f23-b11c-643b58d316b3
-langcode: und
-status: true
-dependencies: {  }
-name: 'Autres organisateurs (agenda)'
-vid: autres_organisateurs_programme_
-description: ''
-weight: -2

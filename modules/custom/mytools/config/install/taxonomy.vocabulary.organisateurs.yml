@@ -1,0 +1,7 @@
+langcode: und
+status: true
+dependencies: {  }
+name: 'Organisateurs (agenda)'
+vid: organisateurs
+description: ''
+weight: -3

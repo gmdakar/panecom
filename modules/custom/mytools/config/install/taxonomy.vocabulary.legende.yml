@@ -1,0 +1,7 @@
+langcode: und
+status: true
+dependencies: {  }
+name: 'Type  (agenda)'
+vid: legende
+description: ''
+weight: -8

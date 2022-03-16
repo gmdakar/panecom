@@ -1,0 +1,1 @@
+composer require 'drupal/chosen:^3.0' && composer require 'drupal/conditional_fields:^4.0@alpha' && composer require 'drupal/feeds:^3.0@beta' && composer require 'drupal/feeds_tamper:^2.0@beta' && composer require 'drupal/feeds_tamper_convert_encoding:^2.0' && composer require 'drupal/ng_lightbox:^2.0@beta'

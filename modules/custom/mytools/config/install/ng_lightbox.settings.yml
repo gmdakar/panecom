@@ -1,0 +1,6 @@
+langcode: fr
+patterns: "/fr/agenda/*\r\n/en/agenda/*\r\n/fr/programme/*\r\n/en/programme/*"
+default_width: 700
+lightbox_class: lightboxc
+skip_admin_paths: true
+renderer: drupal_dialog
