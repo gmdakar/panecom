@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '94490ab3bffabaa0a479f47c82be05640d757061',
+        'reference' => '9e609083e43196c1b723871ecf5ff8dad4d92181',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -609,6 +609,15 @@
             'reference' => '8.x-1.9',
             'dev_requirement' => false,
         ),
+        'drupal/fontyourface' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/fontyourface',
+            'aliases' => array(),
+            'reference' => '8.x-3.6',
+            'dev_requirement' => false,
+        ),
         'drupal/forum' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -744,7 +753,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '94490ab3bffabaa0a479f47c82be05640d757061',
+            'reference' => '9e609083e43196c1b723871ecf5ff8dad4d92181',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
