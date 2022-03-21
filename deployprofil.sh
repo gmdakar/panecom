@@ -40,8 +40,8 @@ echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/con
 rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.setting.yml update.setting.yml || true ; cd ../../../../../devpanecom
 
 #les configs et données du module "animate_any"  ne semblent pas bien installés lors de l'installation du profil, donc on forcera plus tard un drush cim partial
-echo "mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/"
-mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/
+echo "mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/ && cp profiles/panecom/config/optional/google_fonts_api.settings.yml profiles/panecom/config/install/tmp/"
+mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/ && cp profiles/panecom/config/optional/google_fonts_api.settings.yml profiles/panecom/config/install/tmp/
 
 echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
 cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
