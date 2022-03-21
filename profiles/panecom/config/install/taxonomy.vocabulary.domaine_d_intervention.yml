@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Domaine d''intervention'
-vid: domaine_d_intervention
-description: ''
-weight: 0

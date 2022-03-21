@@ -1,12 +1,7 @@
 langcode: fr
 menu_link_icons:
-  user_page:
-    icon: fa-address-card-o
+  standard_front_page:
+    icon: fa-home
     prefix: fa
-    tag: i
-    appearance: before
-  user_logout:
-    icon: fa-arrow-right
-    prefix: fa
-    tag: i
+    tag: span
     appearance: before

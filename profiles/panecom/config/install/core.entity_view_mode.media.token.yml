@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies:
-  module:
-    - media
-id: media.token
-label: 'Jeton (token)'
-targetEntityType: media
-cache: true

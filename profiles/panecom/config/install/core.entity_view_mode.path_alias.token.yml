@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies:
-  module:
-    - path_alias
-id: path_alias.token
-label: 'Jeton (token)'
-targetEntityType: path_alias
-cache: true

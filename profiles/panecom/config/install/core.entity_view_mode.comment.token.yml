@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies:
-  module:
-    - comment
-id: comment.token
-label: 'Jeton (token)'
-targetEntityType: comment
-cache: true

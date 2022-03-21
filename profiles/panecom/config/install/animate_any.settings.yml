@@ -1,6 +1,6 @@
+'body::bgimage':
+  parent: body.bgimage
+  identifier: '[{"section_identity":".field--name-body","section_event":"scroll","section_animation":"flash","remove":"Retirer"}]'
 'body ::bgimage':
   parent: 'body .bgimage'
-  identifier: '[{"section_identity":".field--name-body","section_event":"onload","section_animation":"pulse"}]'
-body:
-  parent: body
-  identifier: '[{"section_identity":".view-id-organisations.view-display-id-block_1","section_event":"scroll","section_animation":"bounceInUp"},{"section_identity":".block-views-blockorganisations-block-1 h2","section_event":"scroll","section_animation":"fadeInUp"}]'
+  identifier: '[{"section_identity":".field--name-body","section_event":"onload","section_animation":"tada"}]'

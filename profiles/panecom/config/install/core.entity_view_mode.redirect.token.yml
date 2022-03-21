@@ -1,9 +1,0 @@
-langcode: fr
-status: true
-dependencies:
-  module:
-    - redirect
-id: redirect.token
-label: 'Jeton (token)'
-targetEntityType: redirect
-cache: true

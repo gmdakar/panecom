@@ -4,6 +4,7 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - rest.resource.notifications_update_widget
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -11,6 +12,7 @@ dependencies:
     - file
     - node
     - path
+    - rest
     - system
     - taxonomy
     - toolbar
@@ -39,6 +41,7 @@ permissions:
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'restful post notifications_update_widget'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Type de réalisation'
-vid: type_de_realisation
-description: ''
-weight: 0

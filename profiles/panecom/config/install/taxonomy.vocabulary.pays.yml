@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-name: Pays
-vid: pays
-description: ''
-weight: 0

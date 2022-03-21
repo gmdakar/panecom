@@ -8,7 +8,7 @@ features:
   favicon: false
   node_user_picture: true
 logo:
-  path: profiles/panecom/themes/custom/panecom_bstrp/logo.jpg
+  path: themes/custom/panecom_bstrp/logo.jpg
   use_default: false
 bootstrap_barrio_library: production
 bootstrap_barrio_source: '0'
@@ -50,10 +50,10 @@ bootstrap_barrio_navbar_toggle: navbar-toggleable-lg
 bootstrap_barrio_navbar_top_navbar: 0
 bootstrap_barrio_navbar_top_class: ''
 bootstrap_barrio_navbar_class: ''
-bootstrap_barrio_navbar_top_position: ''
+bootstrap_barrio_navbar_top_position: fixed-top
 bootstrap_barrio_navbar_top_color: navbar-light
 bootstrap_barrio_navbar_top_background: bg-light
-bootstrap_barrio_navbar_position: ''
+bootstrap_barrio_navbar_position: fixed-top
 bootstrap_barrio_navbar_color: navbar-light
 bootstrap_barrio_navbar_background: bg-transparent
 bootstrap_barrio_navbar_flyout: false

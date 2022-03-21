@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-name: Budget
-vid: budget
-description: ''
-weight: 0
