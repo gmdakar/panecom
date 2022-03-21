@@ -1,3 +1,4 @@
+uuid: ee0159dd-8820-4ee2-befd-c8009aa4eec0
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   enforced:
     module:
       - media
+_core:
+  default_config_hash: BdkTx7IL59MCw5a_fOZprPTOGM_wcjz-Fm8g7HV3vFk
 id: media.field_media_document
 field_name: field_media_document
 entity_type: media

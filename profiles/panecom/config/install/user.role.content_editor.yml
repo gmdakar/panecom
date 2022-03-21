@@ -1,3 +1,4 @@
+uuid: 46aa00ba-b4d3-4a44-bea5-ea1871d3bd09
 langcode: fr
 status: true
 dependencies:
@@ -17,6 +18,8 @@ dependencies:
     - taxonomy
     - toolbar
     - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
 label: 'Éditeur de contenu'
 weight: 2

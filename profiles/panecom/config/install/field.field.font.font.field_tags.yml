@@ -1,3 +1,4 @@
+uuid: caccfd8f-3577-45eb-bfc9-cb2ce0d14d2a
 langcode: fr
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
     - taxonomy.vocabulary.font_tags
   module:
     - fontyourface
+_core:
+  default_config_hash: vFrDIkrN9IwL_67iczIOTkbiWs_AtxkloxiRoFwHLC4
 id: font.font.field_tags
 field_name: field_tags
 entity_type: font

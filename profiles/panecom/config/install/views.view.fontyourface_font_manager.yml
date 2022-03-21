@@ -1,3 +1,4 @@
+uuid: d6e9fb7e-f1f4-4de8-9953-209bd2de8f74
 langcode: fr
 status: true
 dependencies:
@@ -10,6 +11,8 @@ dependencies:
     - fontyourface
     - taxonomy
     - user
+_core:
+  default_config_hash: A_LJN6fQMhxinZWzAPOoVCLFvGftlN9suE2TPTVAxfs
 id: fontyourface_font_manager
 label: 'FontYourFace Font Manager'
 module: views

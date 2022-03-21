@@ -1,6 +1,9 @@
+uuid: ca0346c7-275c-4b47-ba43-c6cabf4517ab
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: LqxMphMT7HU-LhVnN_di4DBDLqykdUmpL24Xulh3U8c
 id: blb_col_5_2_2_2_2_4
 layout_id: blb_col_5
 label: '2/12 2/12 2/12 2/12 4/12'

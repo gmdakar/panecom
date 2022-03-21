@@ -1,3 +1,4 @@
+uuid: 53ae1946-68be-438e-a605-07fe04c71417
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - seven
+_core:
+  default_config_hash: 2rIN97Rd7-rjv3P4h0-xrZnAgPJHyXFEwrB--sS2_qE
 id: seven_breadcrumbs
 theme: seven
 region: breadcrumb
