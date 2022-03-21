@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1e63fc47-5d2d-40be-874d-841173447984
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    a0bf3951-f1bd-426d-b46e-06d74cf1e7aa: taxonomy_term
+    b9e8b801-4f0e-48ce-ab58-02c114cfe46d: taxonomy_term
+    17e38770-3e75-497b-ac56-95ba7da7ee75: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    4e32f637-bad5-4a58-a4e4-e4c87801a790: taxonomy_term
+    97c8a523-eba7-4673-8f25-2f12390a7165: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promoting capacity development through training cooperation projects'
+  created:
+    -
+      value: 1647484847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promoting-capacity-development-through-training-cooperation-projects
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Capacity development is permanently necessary in all the institutions in charge of the management of water services or water resources. Cooperation between academic or training organizations can bring interesting experience sharing inputs and accelerate both the dissemination of scientific and technical knowledge as well as operational practices.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484847
+      guid: ''
+      hash: d65f313c282040a555afc382e1915460
+  field_code:
+    -
+      value: '3E3'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a0bf3951-f1bd-426d-b46e-06d74cf1e7aa
+    -
+      entity: b9e8b801-4f0e-48ce-ab58-02c114cfe46d
+    -
+      entity: 17e38770-3e75-497b-ac56-95ba7da7ee75
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 4e32f637-bad5-4a58-a4e4-e4c87801a790
+    -
+      entity: 97c8a523-eba7-4673-8f25-2f12390a7165
+  field_organisateurs_text:
+    -
+      value: 'INBO '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'ONEE, Hochschule Weihenstephan - Triesdorf , Pr Ndèye Coumba TOURE KANE USSEIN'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Project 1: Starting a North-South-South-network to promote higher education programs in water-related disciplines with a strong focus on application (i.e. practical training, teachers have practical experience, internships etc.)
+        Project 2: Capacity development for water and sanitation jobs and consolidation of water training centers, prospective study (OiEau)
+        Project 3: Peer-to-peer learning: IEA-ONEE Senegal Cooperation project 
+        Project title : Water Operators Partnership (WOP) between Office National de l’Electricité et de l’Eau Potable - ONEE (Morocco) and Office National de l’Assainissement du Sénégal - ONAS (Senegal) for capacity building of ONAS, in partnership with ONU-Habitat’s GWOPA,
+
+        Project 4: Ecuador/Adour-Garonne cooperation in capacity development for river basin planing and governance
+        Project 5: MRC ? Cambodia ?
+        Project 6: Training cooperation for job creation enhancement
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        From 8 to 10 min max. for each presentation.
+        At least 15 min for questions & answers. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Increased number of cooperation projects in the field of training '
+      format: basic_html
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

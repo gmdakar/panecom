@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c8686f43-8361-47b7-a06b-9ff9e07cfd66
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    f5027879-1314-4a29-ab0e-b322c29970d4: taxonomy_term
+    2f77574c-d83d-462b-b34d-c666f9ebabbc: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    034cb12c-4f04-4add-a0a7-1f04de7d1dd6: taxonomy_term
+    69d68b09-3a89-4da2-b450-228f49522b4f: taxonomy_term
+    041e0c60-1abc-4737-9f5a-df6176399f0b: taxonomy_term
+    0fce0a69-d0ab-42dd-ae81-c6a796f236d6: taxonomy_term
+    5b8502b5-138f-40fe-a56f-28717d089b0b: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Lancement du Manuel du parlementaire sur le droit humain à l''eau et à l''assainissement'
+  created:
+    -
+      value: 1647484965
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lancement-du-manuel-du-parlementaire-sur-le-droit-humain-leau-et-lassainissement
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Il existe un consensus croissant sur l'importance du rôle des parlements dans la réalisation des objectifs WASH, et ce rôle implique un engagement parlementaire avec les OSC. Cependant, jusqu'à présent, les relations entre ces deux parties ont été largement non coordonnées. 
+        Cette question appelle à l'élaboration d'un ensemble de principes et de lignes directrices, pour aider les parlementaires du monde entier à concevoir des structures, des mécanismes et des pratiques appropriés pour s'engager avec les OSC afin d'améliorer leur capacité à s'acquitter de leurs importantes obligations et responsabilités en matière d'AEPHA. 
+        La session s'appuie sur le Manifeste des parlementaires du 8ème FME, qui soulignait le rôle des parlementaires et les droits à l'eau. Cette session note cependant que le succès de la réalisation de l'ODD 6 doit être inclusif, participatif et transparent. Elle doit également tenir compte de la voix des citoyens.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484965
+      guid: ''
+      hash: 067c7e4e04dc70fa91871f85397bb5d7
+  field_code:
+    -
+      value: 4D3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f5027879-1314-4a29-ab0e-b322c29970d4
+    -
+      entity: 2f77574c-d83d-462b-b34d-c666f9ebabbc
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 034cb12c-4f04-4add-a0a7-1f04de7d1dd6
+    -
+      entity: 69d68b09-3a89-4da2-b450-228f49522b4f
+    -
+      entity: 041e0c60-1abc-4737-9f5a-df6176399f0b
+    -
+      entity: 0fce0a69-d0ab-42dd-ae81-c6a796f236d6
+    -
+      entity: 5b8502b5-138f-40fe-a56f-28717d089b0b
+  field_organisateurs_text:
+    -
+      value: |
+        Water Integrity Network 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'To Be Confirmed '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Non applicable '
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "25 Minutes présentations
+        30 minutes de discussions de groupe
+        25 Minutes Dialogues (Q&A/ Interventions)
+        5 Minutes Résumé/passage en revue et clôture 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Les résultats suivants sont attendus de la session sont :
+        1.	Une orientation politique et des recommandations stratégiques pour l'amélioration des dialogues entre les Parlements et les OSC afin d'améliorer le contrôle parlementaire de la fourniture d'eau et d'assainissement.
+        2.	Une prise de conscience accrue du potentiel d'engagement entre les parlementaires et les OSC pour améliorer la responsabilité dans le secteur de l'eau et de l'assainissement.
+        3.	Distribution du guide aux parlements et aux OSC dans le secteur de l'eau et de l'assainissement.
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3b1c0a75-d823-420c-b066-d39c2988a66f
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    a6b73ccf-e499-409d-bcb5-c7f60ad1580a: taxonomy_term
+    a40bab6e-b7d1-48cc-9f8c-3bd1b735affb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'ICT Sanitation Innovations for Effective Sanitation Service Delivery - Experiences from Uganda'
+  created:
+    -
+      value: 1647486042
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ict-sanitation-innovations-effective-sanitation-service-delivery-experiences-uganda
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The panel " ICT Sanitation innovations for effective sanitation service delivery- sharing experiences from Uganda " aims to share the Information and Communication Technologies (ICT) innovations and automated sanitation subsidy and financing models that public and private sector have applied to ensure effective and efficient delivery of sanitation services in Kampala City. 
+
+        At the end of the session, a call to action and recommendations will be made to politicians, municipal leaders and sanitation actors on application of ICTs to inform, improve and deliver better sanitation services to municipalities for the sanitation sector in Africa.
+
+        More specifically, it will:
+        •	Share ICT innovations used by municipality in Uganda to deliver sanitation services to citizens of Kampala, Uganda
+        •	Share the success mechanisms that KCCA has used to improve sanitation service delivery in Kampala.
+        •	Issue a call to action to decision-makers, politicians and Municipal heads for a better integration of Information technology tools within the sanitation sector in Africa.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486042
+      guid: ''
+      hash: 62b47b77b7fba16d63c4afdb78648238
+  field_code:
+    -
+      value: SE49
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Moderator - Eng Allan Nkurunziza
+        Speakers
+        - Mrs Dorothy Kisaka, Executive Director KCCA
+        - Dr, Eng Silver Mugisha, MD National Water and Sewerage Corporation
+        - Mr Shaka Bakabulindi, Executive Secretary Uganda Emptiers Asssociation
+        - Ms Eunice Namirembe , Innovatioons Specialist KCCA
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: a6b73ccf-e499-409d-bcb5-c7f60ad1580a
+  field_organisateurs_text:
+    -
+      value: 'Kampala Capital City Authority'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Presentations - 20 minutes
+        Group discussions - 20 minutes
+        Wraps up and call to action - 15 minutes
+      format: plain_text
+  field_salle:
+    -
+      entity: a40bab6e-b7d1-48cc-9f8c-3bd1b735affb

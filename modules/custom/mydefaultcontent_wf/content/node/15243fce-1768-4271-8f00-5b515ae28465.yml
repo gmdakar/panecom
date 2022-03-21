@@ -1,0 +1,149 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15243fce-1768-4271-8f00-5b515ae28465
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    8e716b38-7670-47f5-b2d6-0006d744d83b: taxonomy_term
+    3fb07c2c-424a-4c3c-8261-ff11c91f6980: taxonomy_term
+    96dc1c1b-2f2e-4cc8-b7dc-9680db873714: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    23b76d93-56f7-46bc-8516-6b5977aed2c5: taxonomy_term
+    277d72d3-af0d-465b-a5c3-dbf70c02b95a: taxonomy_term
+    ddd5719f-1ea4-4e58-98bd-41f9eaef90cf: taxonomy_term
+    cf992b1f-62f6-4adb-9dff-6cb50a3a9d43: taxonomy_term
+    d5a7cff3-7cbb-482d-baea-cb50a62f2891: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Approches écosystémiques pour lutter contre la pénurie d''eau'
+  created:
+    -
+      value: 1647484941
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/approches-ecosystemiques-pour-lutter-contre-la-penurie-deau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session sera consacrée au partage des leçons tirées de solutions naturelles réussies ayant un impact positif sur les ressources en eau marines et terrestres et pouvant être mises à l''échelle. La session rassemble des scientifiques et des chercheurs avec des partisans potentiels dans le gouvernement et le développement pour trouver des moyens de mettre en œuvre les actions nécessaires pour la sécurité alimentaire et de l''eau domestique et industrielle, ainsi que pour assurer l''adaptation au climat.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484941
+      guid: ''
+      hash: b86343a32598dd021f2943bb8df08750
+  field_code:
+    -
+      value: 1D3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8e716b38-7670-47f5-b2d6-0006d744d83b
+    -
+      entity: 3fb07c2c-424a-4c3c-8261-ff11c91f6980
+    -
+      entity: 96dc1c1b-2f2e-4cc8-b7dc-9680db873714
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 23b76d93-56f7-46bc-8516-6b5977aed2c5
+    -
+      entity: 277d72d3-af0d-465b-a5c3-dbf70c02b95a
+    -
+      entity: ddd5719f-1ea4-4e58-98bd-41f9eaef90cf
+    -
+      entity: cf992b1f-62f6-4adb-9dff-6cb50a3a9d43
+    -
+      entity: d5a7cff3-7cbb-482d-baea-cb50a62f2891
+  field_organisateurs_text:
+    -
+      value: |-
+        Andrea Erickson, The Nature Conservancy,
+        Fred Kihara, The Nature Conservancy, fkihara@tnc.org 
+        Mbaruku Vyakweli, Nairobi City Water & Sewerage Company, mvyakweli@nairobiwater.co.ke 
+        Anta Gueye-James, Country Representative, Catholic Relief Services (CRS) Senegal fatimatou.sall@crs.org
+        Emily Kaufman, The Nature Conservancy, ekaufman@tnc.org
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'O2S, UNCCD, PRCM, Wetlands International, Abidjan Convention, WIACO, CRRC, AFWA, WASREB, Nairobi City Water and Sewerage Co., AFD, IWA, City of Cape Town, AGWA, Stanford Nat Cap, AUDA-NEPAD, Athi Water Works Development Agency.'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        Projet 1 : Les aires marines et côtières protégées, un outil d'atténuation des changements climatiques mondiaux
+        Projet 2 : Mangrove et résilience des communautés d'Afrique occidentale
+        Projet 3 : Les fonds pour l'eau, une approche pour la résilience des bassins versants
+        Projet 4 : NbS pour l'eau et l'assainissement en milieu urbain 
+        Projet 5 : Approches basées sur les écosystèmes pour lutter contre la pénurie d'eau
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Accueil et introduction de la session : 5 minutes. Par Mbaruku Vyakweli Gouverneur et Envoyé spécial du CME pour la région ESA.
+        Discours d'ouverture : 10 minutes. Par l'honorable maire Yvonne Aki-Sawyerr. Freetown, Sierra Leone
+        Partie 1. Solutions basées sur la nature pour la conservation des écosystèmes marins
+        Projet 1 : 7 minutes
+        Projet 2 : 7 minutes
+        Discussion de groupe : 15 minutes
+        Partie 2. Solutions basées sur la nature pour des bassins versants résilients
+        Discours principal : 10 minutes. Par M. Eddy Njoroge. Président de l'Organisation internationale de normalisation (ISO)
+        Projet 3 : 7 minutes
+        Projet 4 : 7 minutes
+        Projet 5 : 7 minutes
+        QUESTIONS ET RÉPONSES : 10 minutes
+        Remarques de clôture : 5 minutes. Par Anta Gueye-James, Représentante Pays, Catholic Relief Services (CRS) Sénégal. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Le résultat attendu est une sensibilisation accrue sur la façon d''identifier les services écosystémiques spécifiques qui soutiennent la sécurité de l''eau, sur la façon d''identifier les coûts/bénéfices de la gestion de ces systèmes pour des résultats de sécurité de l''eau, et sur la façon de structurer la livraison par une action collective. Les résultats étayeront également la résolution du congrès pré-WWF de Nairobi 2020 sur la nécessité d''un partenariat pour la protection des sources d''eau en Afrique impliquant les gouvernements, les municipalités, les services publics, le secteur privé et la société civile.'
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

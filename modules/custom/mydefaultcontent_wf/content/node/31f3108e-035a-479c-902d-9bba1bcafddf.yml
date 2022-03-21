@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 31f3108e-035a-479c-902d-9bba1bcafddf
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    51c4f3e5-bb8d-4d08-a6e9-589909ff9c29: taxonomy_term
+    bebfb100-f6e3-457b-9605-f62174ab30d4: taxonomy_term
+    c3f58b6f-2013-4169-a5f5-0bbd8855d7f3: taxonomy_term
+    dc0d09c5-b823-4b7b-8db0-0596c9d84789: taxonomy_term
+    a6f5ca72-24ee-40bc-9839-3be992c70f9f: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rural development to build resilience to global change'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rural-development-build-resilience-global-change-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The scarcity of water resources is a phenomenon that is intensifying under the effect of the strong pressure on water and climate change impacting mainly the most vulnerable rural communities. The latter are dependent on water resources for their socio-economic activities. 
+        Moreover, the real needs of the vulnerable rural population are not really taken into account and sufficiently represented in the decision-making process concerning hydro-agricultural investment projects and territorial development. 
+        Therefore, this special thematic session aims to emphasize the need to ensure rural development that takes into account the real needs of vulnerable populations, often unable to cope with global changes. 
+        It will also allow :
+        To present Morocco's programs and sectoral strategies aimed at strengthening the resilience of populations to climate hazards (the Drinking Water Supply and Irrigation Program 2020-2027, the Generation Green Strategy 2020-2030, the National Watershed Management Plan, INDH......)
+        Emphasize the need to improve water management at the local level, in order to contribute to the strengthening of the resilience of the rural population, improve their living conditions and reduce their poverty level.
+        To present good practices of water and soil conservation
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: 1f84c9b5f1deba1edb15005ce11135d3
+  field_code:
+    -
+      value: SS15
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 51c4f3e5-bb8d-4d08-a6e9-589909ff9c29
+    -
+      entity: bebfb100-f6e3-457b-9605-f62174ab30d4
+    -
+      entity: c3f58b6f-2013-4169-a5f5-0bbd8855d7f3
+    -
+      entity: dc0d09c5-b823-4b7b-8db0-0596c9d84789
+    -
+      entity: a6f5ca72-24ee-40bc-9839-3be992c70f9f
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Equipment and Water/General Directorate of Water '
+      format: basic_html
+  field_programme:
+    -
+      value: 'Program being developed in coordination with partners   '
+      format: plain_text
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

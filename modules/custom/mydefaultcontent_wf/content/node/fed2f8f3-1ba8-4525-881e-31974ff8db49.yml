@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fed2f8f3-1ba8-4525-881e-31974ff8db49
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    8301a608-e48b-4b99-a881-d4e9a88186d3: taxonomy_term
+    0f46c285-35d5-4b69-9ff0-28feed92d6a2: taxonomy_term
+    6015aa7e-a6ae-4178-b55a-ffa3b68900b5: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Too small to economize, too big to compromise? Measuring the effectiveness of finance delivery for drought management at community level'
+  created:
+    -
+      value: 1647493839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/too-small-economize-too-big-compromise?-measuring-effectiveness-finance-delivery-drought-0'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        With a steady increase in climate finance flow from developed to developing countries, there is a growing need to rigorously measure the real-term additionality, the consistency and ultimately the impacts on final beneficiaries in real terms. Increasing the effectiveness of drought finance is of vital interest for both financing partners and communities, whose inherent heterogeneity and diverse needs put a constraint on harmonizing the financing mechanisms and call for more flexible and innovative approaches. Many climate financing mechanisms have already introduced methods to assess their impacts. The approaches, records and retrieved data on the results, however, are often unfitting and insufficient, and a better understanding of the current situation is highly desirable, to share lessons on measuring the effectiveness.
+        The side event contributes to the global debate on measuring effectiveness of drought financing from the perspective of end-users and it involves a coherent set of sessions, as follows:
+        •	Stocktaking of existing financing actors and public climate financing operations to line up the disaggregated trends and status of drought mitigation and adaptation in climate financing;
+        •	Analysing approaches of targeting investments towards the most vulnerable to achieve impact-at-scale, and methods for measuring and monitoring the impacts of the investment;
+        •	Providing showcases on community-based investment designs in support of assessing the effectiveness;
+        •	Discussing the potential of innovative financing mechanisms in support of the transition from a reactive and emergency assistance to a proactive and preparedness finance (e. g. forecast-based financing, risk financing, etc.)
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493839
+      guid: ''
+      hash: 9d31d189e17b6a85ef3df29b9c45a07d
+  field_code:
+    -
+      value: SS08
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 8301a608-e48b-4b99-a881-d4e9a88186d3
+    -
+      entity: 0f46c285-35d5-4b69-9ff0-28feed92d6a2
+    -
+      entity: 6015aa7e-a6ae-4178-b55a-ffa3b68900b5
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening remarks: HL Official (AU?) - 5 mins
+        Keynote speech: Government representative from selected beneficiary country - 10 mins
+        Roundtable discussion: Expected panellists - 30 mins
+        Showcase: Representative from beneficiary country - 10 mins
+        World cafe: Media interview climate finance representatives - 20 minutes
+        Q/A - 10 mins
+        Closing remark - HL official (WWF9?) - 5 minutes
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

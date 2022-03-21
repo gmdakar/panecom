@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0deebe10-516a-4bf8-b0ce-9a023a2451aa
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    824d6098-e95b-4a18-8c9c-0275bb0175fb: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    9bd8ce9c-fca8-40b0-aa80-d95066e4e46b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rural Hydraulics Stand'
+  created:
+    -
+      value: 1647486042
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rural-hydraulics-stand
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'to exchange on the themes of the forom, to bring an answer to the problematic of the AEP in rural environment '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486042
+      guid: ''
+      hash: 3b53bdbeaaf762cfbff15de8133ea9d6
+  field_code:
+    -
+      value: SE48
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: tbd
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 824d6098-e95b-4a18-8c9c-0275bb0175fb
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+  field_organisateurs_text:
+    -
+      value: OFOR
+      format: basic_html
+  field_programme:
+    -
+      value: tbd
+      format: plain_text
+  field_salle:
+    -
+      entity: 9bd8ce9c-fca8-40b0-aa80-d95066e4e46b

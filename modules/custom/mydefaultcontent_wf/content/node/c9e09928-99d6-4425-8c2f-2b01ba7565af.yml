@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c9e09928-99d6-4425-8c2f-2b01ba7565af
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    06e72bf7-4b82-424b-a2c9-4a28175a50e2: taxonomy_term
+    f70311cf-7f1b-4ee0-a3e0-824e10d8748e: taxonomy_term
+    98c99ad7-aebb-4335-b06d-a99450d0c64a: taxonomy_term
+    3e4de2c4-65a2-46c0-9226-7e9e0e0f5b87: taxonomy_term
+    41718f3a-f894-4457-ac1b-4590ecaff8d9: taxonomy_term
+    f13bb2c9-91e7-49d8-8de3-0a67061261f2: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'One Water One Health / Cost- Benefit Opportunity to merge the One Health approach to the water cycle by integrating human & ecosystem risks to water chemical mixtures & exposures'
+  created:
+    -
+      value: 1647493847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/one-water-one-health-cost-benefit-opportunity-merge-one-health-approach-water-cycle-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Water professionals increasingly need to address pollution by chemicals of emerging concern’s (CECs), including low dose and mixtures effects on early indicators of toxic pathway, which cannot be evaluated by traditional substance-based analytical methods. 
+        Effect-based monitoring (EBM) tools (also known as bioassays) demonstrated in international large scale projects, can now provide a better detection and biosensoring of early toxic mode of action triggered by mixtures of EDCs or DBPs, even at low doses exposures. EBM in water safety planning (WSP) can now be applied to different parts of the water sector: from source to tap, but also for example in wastewater treatment plants, and in water reuse schemes. 
+
+        There are strong incentives from governments and institutions such as WHO and the EU to review Water Quality Management Frameworks in various policy areas, and to embed WHO Water Safety Plans
+
+        By promoting the interaction of operators and policy-makers from all over the world, the 2018-2022 proof of concept (POC) project aims to increase knowledge and stimulate the exchange and implementation these innovative, more protective, predictive and cost efficient monitoring/diagnosis strategies to better drive water treatment processes and abbatment options to better protect human and ecosystem health regard water chemical mixtures.
+
+        This POC project aims to demonstrate an innovative water quality and safety assessment framework in a practical setting, and to support water experts in the implementation of EBM in integrative and cost-effective monitoring programmes to detect emerging water quality issues. User guidance will be provided to operators and/or local authorities on the selection of bioassays, the interpretation of bioassay data, the establishment of decision-making support for the operating practices on the upgrading/improvement of the supply chain. 
+
+        Furthermore, a selection of demonstrative case studies in more than 15 countries including more than 40 conventional and alternative water treatment schemes/plants will demonstrate the implementation of a combination of of EBM in Water Safety Plans to assess the effectiveness of treatment stages. Ultimately, this leads towards a more efficient implementation of EBM in the Water Safety Plans across the global water sector.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493847
+      guid: ''
+      hash: 7d872113619dd7396af65ff35ae85626
+  field_code:
+    -
+      value: SS39
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 06e72bf7-4b82-424b-a2c9-4a28175a50e2
+    -
+      entity: f70311cf-7f1b-4ee0-a3e0-824e10d8748e
+    -
+      entity: 98c99ad7-aebb-4335-b06d-a99450d0c64a
+    -
+      entity: 3e4de2c4-65a2-46c0-9226-7e9e0e0f5b87
+    -
+      entity: 41718f3a-f894-4457-ac1b-4590ecaff8d9
+    -
+      entity: f13bb2c9-91e7-49d8-8de3-0a67061261f2
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance '
+      format: basic_html
+  field_programme:
+    -
+      value: '3 x 10'' + 10'' Q&A + 5'' Take Home messages'
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

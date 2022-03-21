@@ -1,0 +1,171 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 625ecca2-cea8-49ed-82d3-04437b43c2a2
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    bba0b245-7baf-4915-9d4d-1630ee331b9b: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    139cae80-e5c7-4e45-9563-73267f5de43a: taxonomy_term
+    12f85d60-272c-4832-b594-b7d21384c4a5: taxonomy_term
+    9d2b4a46-8d0b-49a4-8cf0-856b5d16b83f: taxonomy_term
+    12273875-06e5-4836-ad24-3c16f44808e2: taxonomy_term
+    7f8f6c47-4630-4d4a-ad40-198b84b322b7: taxonomy_term
+    3743781f-3979-4226-aec8-abed192376f3: taxonomy_term
+    734496f5-4c38-4d13-909d-7ab19d789138: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The role of women in irrigation management'
+  created:
+    -
+      value: 1647484840
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/role-women-irrigation-management
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The overall objective is to empower smallholder farmers through a better involvement of women group within irrigation systems and water management. The session will document the challenges facing rural producers and women arena in terms of access and control of irrigation water for the sustainability of agricultural activities and market gardening.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484840
+      guid: ''
+      hash: 6e71c5d75fede392bf0d2069407a8682
+  field_code:
+    -
+      value: '2E4'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: bba0b245-7baf-4915-9d4d-1630ee331b9b
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 139cae80-e5c7-4e45-9563-73267f5de43a
+    -
+      entity: 12f85d60-272c-4832-b594-b7d21384c4a5
+    -
+      entity: 9d2b4a46-8d0b-49a4-8cf0-856b5d16b83f
+    -
+      entity: 12273875-06e5-4836-ad24-3c16f44808e2
+    -
+      entity: 7f8f6c47-4630-4d4a-ad40-198b84b322b7
+    -
+      entity: 3743781f-3979-4226-aec8-abed192376f3
+    -
+      entity: 734496f5-4c38-4d13-909d-7ab19d789138
+  field_organisateurs_text:
+    -
+      value: |-
+        IPAR, Sénégal,  
+        ENDA-Pronat,
+        IRD
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        CICODEV
+        Veolia
+        ESF (Electriciens Sans Frontières
+        UGB
+        Université du Cape, Afrique du Sud
+        FAO:
+        COSTEA (INRAe, AVSF, BRL ; Algérie, Sénégal, Cambodge)
+        SIF
+        Women for Water
+        Youth People
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        A leaflet to resume all the projects included (from speakers and panelists) will be printed. At least, here the list of projects from the 6 invited speakers :
+
+        -	Laure Tall (IPAR, Sénégal: Guinée, Sénégal)
+        La transition énergétique pour l’autonomisation économique des femmes à travers la chaine de valeur horticole dans un contexte post-Covid en Guinée et au Sénégal
+
+        -	Mamadou Mballo (CICODEV, Sénégal: Sénégal)
+        Irrigation for market gardening : the AMOPAR project
+
+        -	Pauline Ndiaye (ENDA-Pronat, Sénégal: Sénégal)
+        De l’eau et du solaire pour le bien-être et le développement des communautés rurales
+
+        -	Jean Comby (ESF, France: Burkina Faso, Bénin, Togo)
+        SISAM, solution d’irrigation solaire améliorée
+
+        -	Armelle Perrin-Guinot (Veolia, France: Niger)
+        The Oasis project, to support the economic integration of women through entrepreneurship
+
+        -	Mariet Verhoef-Cohen (WfWP : Kenya)
+        Women, Water & Leadership
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        -      Welcome and introduction [10’]
+        -	6 introductions of 5 mn based on examples [30’]
+        -	Discussion Panel on questions raised in the assembly [45’]
+        -	Key messages and Conclusion [5’]
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        This session will advocate to support the economic integration of women through entrepreneurship and to raise awareness among them, as well as a wider audience of the issues related to water-related activities for sustainable development, natural resource conservation and market gardening. 
+
+        The key political message will be: Empower smallholder farmers in SSA through the support of women groups into irrigation projects for market gardening, through the following concrete actions:
+
+        1. Introduce country level policies, education, structures and funding that promote the widespread up-take and use of adapted technologies that enable women smallholders to sustainably use irrigation technology for the market gardening and increase their year-round yields and incomes. 
+
+        2. These may include supportive actions and national programmes for women involvement in irrigation management for market gardening. It could be by: Adjusting duties/taxes on relevant water/irrigation technologies; Incorporating training dedicated to women groups on sustainable irrigated farming and water use into agricultural curricular; Widely promoting, with extension and demonstrations, the use of sustainable irrigation and water conservation technologies and practices ; etc. 
+
+        3. Advocate for the improvement of global and local water governance in conjunction with structures dealing with food and agriculture issues, through the creation of an intergovernmental structure on Water&Food as part of the UN and approved by Member States to emphasize the role of women groups in irrigation management for market gardening.
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

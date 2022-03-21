@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 85927655-977a-4c8e-9789-73323bf129bd
+  bundle: motscles
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '-Good governance and Transboundary treaties'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /motscles/agenda/good-governance-and-transboundary-treaties
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647485235

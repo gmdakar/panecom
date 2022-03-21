@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f85562e-3a40-422a-b7b1-ff10a8f23b21
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    428e859f-57be-4310-be26-d9c67b666854: taxonomy_term
+    9b6b07fd-4cc7-44cb-9e9d-faf9e9821d69: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    a3e3fb27-7aab-4571-b1cb-d2ed3db831dc: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Solutions méditerranéennes issues du 4ème forum Méditerranéen de l''eau, Malte, déc 2021'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/solutions-mediterraneennes-issues-du-4eme-forum-mediterraneen-de-leau-malte-dec-2021-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Véritable plateforme d’échange et de consolidation du savoir-faire et des expériences dans le domaine de l’eau en Méditerranée, le 4ème forum méditerranéen de l’eau organisé à Malte en décembre 2021 a permis d’identifier des réponses efficaces à même de garantir la sécurité en eau. Ce thème est d’une importance cruciale pour la Méditerranée où les changements démographiques, les défis socioéconomiques et les effets du changement climatique ne cessent de menacer la sécurité de l’eau. Le processus méditerranéen tentera.
+        Sur la base d’échanges d’expériences durant le forum de Malte, les meilleures pratiques et technologies développées ont été identifiés pour être présenter comme réponses aux défis liés à la sécurité de l’eau dans la région et au-delà parmi lesquelles :
+        a)	Des solutions d'eau inspirées de la nature régénératrice avec des modèles d'exploitation innovants. 
+        b)	Un outil de suivi de l'efficacité hydraulique, proposant un audit et une amélioration de la performance hydraulique des systèmes d'approvisionnement en eau potable.
+        c)	La conciliation de la croissance industrielle avec la préservation des ressources en eau à travers la mise place d’un programme « Economie Circulaire basé sur une stratégie d’optimisation de la consommation et le recours aux eaux non conventionnelles 
+        d)	Guide méthodologique d’une démarche d’assistance technique aux périmètres irrigués par les eaux usées traitées
+        e)	Observatoire mondial des ressources en eau non conventionnelles et des énergies renouvelables associées dont le but est de compléter le travail des institutions en apportant des expériences de recherche et d'application à un public plus large.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 471183a1be71429f03dd45e2e9df9223
+  field_code:
+    -
+      value: SS12
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 428e859f-57be-4310-be26-d9c67b666854
+    -
+      entity: 9b6b07fd-4cc7-44cb-9e9d-faf9e9821d69
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: a3e3fb27-7aab-4571-b1cb-d2ed3db831dc
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+  field_organisateurs_text:
+    -
+      value: 'INSTITUT MEDITERRANEEN DE L''EAU'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        13:30- 13:35	Mot de bienvenue par M. Alain Meyssonnier, Président de l’Institut Méditerranéen de l’Eau (IME)
+        13:35-13:40	Propos introductif par M. Almotaz Abadi, Directeur Général au Secrétariat de l’Union pour la Méditerranée (UPM)
+        13:40-13:50	Retour sur le 4ème Forum Méditerranéen de l’Eau de Malte par M. Alain Meyssonnier (IME) et M. Almotaz Abadi (UPM)
+        13:50-14:20	Solutions innovantes issues du Forum de Malte :
+        •	Zineb Benjelloun, OCP Maroc, « Les défis de l’eau vus par un industriel »
+        •	Maha Alsalehi, EMWIS, « Projet HYDROSA »
+        •	Michel Nalbandian, Eaux de Marseille Maroc, « Audit et amélioration de la performance hydraulique des systèmes d'approvisionnement en eau potable »
+        •	Octavi Quintana, PRIMA “Coopération internationale” (tbc)
+        •	Représentant AECID, “Financement du secteur de l’eau” (tbc)
+        14:20-14:35	Débat (Q/R)
+        14:35-14:45	Synthèse de la session méditerranéenne par Mme Charafat Afailal, ancienne Ministre en charge de l’eau du Gouvernement marocain
+        14:45-14:50	Conclusion par M. Moez Allaoui, Directeur de la Société Nationale d’Exploitation et de Distribution des Eaux de Tunisie (SONEDE)
+        14:50-15:00	Mot de clôture par M. Loïc Fauchon, Président du Conseil Mondial de l’Eau (CME)
+
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b84fa292-af18-4fd0-adff-e04f3ef91f1e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    2e814167-8d7c-49b2-82ae-acc09b16e6b1: taxonomy_term
+    f10dac31-10f2-4f79-9a51-5f4b08f99bfc: taxonomy_term
+    5f8e124f-1afb-4d93-bb26-b5db830a1ee7: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    98431fd2-4813-4d73-a3a4-892548b7a5eb: taxonomy_term
+    d995ebd8-3d27-4a10-a5f8-b19539ca0907: taxonomy_term
+    feca4fb0-7914-406d-a4e0-3fab193ec755: taxonomy_term
+    510cb59c-9955-441a-a031-d89b8a61dd3b: taxonomy_term
+    a4fb2884-589e-4f82-83fd-7ec5df646d2e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Décentralisation de la solidarité : \r\nengager les autorités régionales et locales pour compléter la coopération interétatique"
+  created:
+    -
+      value: 1647484956
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/decentralisation-de-la-solidarite-engager-les-autorites-regionales-et-locales-pour-completer
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "La valeur actuelle des investissements supplémentaires nécessaires jusqu'en 2030 pour atteindre l'objectif de développement durable consistant à assurer un accès universel et équitable à l'eau potable à un prix abordable pour tous est d'environ 2 000 milliards de dollars US".
+
+        Alerte spoiler : le budget national et l'aide publique au développement consacrés à l'eau ne suffiront pas.
+
+        Il convient donc d'accorder une attention particulière aux sources de financement complémentaires que représentent les solidarités décentralisées sur les programmes d'eau et d'assainissement.
+
+        La solidarité décentralisée encourage les autorités locales et régionales à s'engager dans la coopération internationale, à échanger leurs expériences et leurs meilleures pratiques, mais aussi à fournir à leurs homologues qui en ont besoin un soutien financier, une expertise technique, une assistance logistique, la fourniture d'équipements et des formations. 
+
+        Cette session explorera comment la coopération décentralisée peut fournir des ressources supplémentaires pour la réalisation des Objectifs de Développement Durable liés à l'eau !"
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484956
+      guid: ''
+      hash: df03f11f69da9b65df16d1c3ac72e292
+  field_code:
+    -
+      value: 3C3
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2e814167-8d7c-49b2-82ae-acc09b16e6b1
+    -
+      entity: f10dac31-10f2-4f79-9a51-5f4b08f99bfc
+    -
+      entity: 5f8e124f-1afb-4d93-bb26-b5db830a1ee7
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 98431fd2-4813-4d73-a3a4-892548b7a5eb
+    -
+      entity: d995ebd8-3d27-4a10-a5f8-b19539ca0907
+    -
+      entity: feca4fb0-7914-406d-a4e0-3fab193ec755
+    -
+      entity: 510cb59c-9955-441a-a031-d89b8a61dd3b
+  field_organisateurs_text:
+    -
+      value: 'Secretariat of the International Network of Basin Organizations INBO'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        ICHARM, International Centre for Water Hazard 
+        + (To Be Confirmed) pS-Eau
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " - Le projet communautaire du Conseil Régional de Nouakchott (Mauritanie) pour l'accès à l'eau et à l'assainissement
+        - Projet de coopération décentralisée pour la gestion intégrée des ressources en eau du bassin du Paraiba do Sul (Brésil)
+        - Projets de coopération décentralisée du SIAAP : ""la protection des zones humides des Niayes à Dakar"", le ""projet d'assainissement dans les zones de crise et de fragilité du Sahel"" et ""le rejet zéro dans le fleuve Congo"".
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "De 8 à 10 min maximum pour chaque présentation.
+        Au moins 15 min pour les questions et réponses"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Poursuite et extension du nombre d''initiatives sur les programmes de coopération internationale.'
+      format: basic_html
+  field_salle:
+    -
+      entity: a4fb2884-589e-4f82-83fd-7ec5df646d2e

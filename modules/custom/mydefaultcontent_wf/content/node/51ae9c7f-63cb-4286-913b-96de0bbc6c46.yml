@@ -1,0 +1,159 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 51ae9c7f-63cb-4286-913b-96de0bbc6c46
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    f415a322-30e2-42ce-b810-ee351be60ae2: taxonomy_term
+    0d7080d9-e841-44f0-b1ba-f53ea99bb76b: taxonomy_term
+    1b168b68-e49d-4ba5-9b9b-1ad6d863e8da: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    4cc19664-3024-46da-8d6c-3a2d13c015f3: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    e8225769-c7eb-4b1f-9a48-297ac4bcbed7: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    9a9d3f6e-8e60-4b07-ad21-b0c5ea441c9f: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Strengthening policies and governance for water security from source- to- sea'
+  created:
+    -
+      value: 1647484831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/strengthening-policies-and-governance-water-security-source-sea
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Water security, and more broadly, sustainable development cannot be achieved without safeguarding ecosystem health. Current governance approaches can undermine efforts to protect and restore ecosystems and combat desertification. Strengthening coordination across land, freshwater, coastal and marine environments ensures benefits for the source-to-sea system as a whole. Holistic management from source to sea is the surest path toward water security and sustainable development. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484831
+      guid: ''
+      hash: a4d33722a9011806afd4f1168976e76b
+  field_code:
+    -
+      value: 1D1
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f415a322-30e2-42ce-b810-ee351be60ae2
+    -
+      entity: 0d7080d9-e841-44f0-b1ba-f53ea99bb76b
+    -
+      entity: 1b168b68-e49d-4ba5-9b9b-1ad6d863e8da
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 4cc19664-3024-46da-8d6c-3a2d13c015f3
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: e8225769-c7eb-4b1f-9a48-297ac4bcbed7
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 9a9d3f6e-8e60-4b07-ad21-b0c5ea441c9f
+  field_organisateurs_text:
+    -
+      value: 'Action Platform for Source-to-Sea Management'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |2-
+         Stockholm International Water Institute,
+         Partenariat régional pour la Conservation de la Zone côtière et marine (PRCM), 
+        Office des Lacs et Cours d’Eau (OLAC), 
+        Mouvement des Etudiants (Students for Climate),
+         OECD, 
+        AFD
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        Project 1: Coastal and marine wetlands management policy in West Africa
+        Project 2: Revitalization of watercourses and restoration of a degraded wetlands: the case of the Ndiaël reserve
+        Project 3: Raising awareness of coastal communities on actions that fight against the advancing sea and desertification. 
+        Project 4: Depollution of Dakar’s Hann Bay
+        Project 5: Cities for the Blue Economy
+        Project 6:Building a community of practice for source-to-sea management
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Time	Content	Person in charge
+        13:30 – 13:35	Welcome and introduction to session	Moderator (Ruth Mathews)
+        13:35 – 13:45	Setting the Scene: Source-to-sea governance	Ms Ruth Mathews, SIWI, Coordinator of the Action Platform for Source-to-Sea Management 
+        Project presentations
+        13:45 – 13:50	Coastal and marine wetlands management policy in West Africa	Mr Ahmed Senhoury, Partenariat régional pour la Conservation de la Zone côtière et marine (PRCM)
+        13:50 – 13:55	Revitalization of watercourses and restoration of a degraded wetlands: the case of the Ndiaël reserve	Mr Boubacar Cisse, Office des Lacs et Cours d’Eau (OLAC)
+        13:55 – 14:00	Raising awareness of coastal communities on actions that fight against the advancing sea and desertification. 	Mr Amadou Fadyl Diedhiou, Mouvement des Etudiants (Students for Climate)
+        14:00 – 14:05	Depollution of Dakar’s Hann Bay	Ms Mai Linh Cam, AFD Dakar
+        14:05 – 14:10	Cities for the Blue Economy	tbd, OECD
+        14:10 – 14: 15	Building a community of practice for source-to-sea management 	tbd, Action Platform for Source-to-Sea Management
+        14:15 – 14:55	Panel discussion	Moderator (Ruth Mathews)
+        14:55 – 15:00 	Closing comments	Moderator (Ruth Mathews) 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	Strengthened coordination between sectors and cooperation between upstream and downstream stakeholders is stimulated through strengthening partnerships between actors and initiatives, growing understanding of source-to-sea management, building commitments to source-to-sea action and taking action on the ground. 
+        •	Policies that improve ecosystems to combat desertification and achieve drought resilience are implemented and enforced.
+        •	Economic and environmental policy development that considers the interlinkages between terrestrial, freshwater, delta, coastal, nearshore and ocean ecosystems and addresses source-to-sea systems.
+        •	Water quality is improved through cooperation on management of the land-water interface and strengthening governance of shared resources through sharing knowledge.
+        •	A holistic, integrated approach to managing inland freshwater resources, their basins and their ecosystem services, focusing on improved governance actions considering the mixture of complex scientific/management challenges associated with the interlinkages/ interactions between the lentic and lotic water systems typically comprising a freshwater drainage basin is implemented on a global scale
+        •	Improvement of inland water system governance on a basin scale, including development of relevant training regarding institutional capabilities, policy development and application, technological/non-technological options, monitoring needs, encouragement of public participation, and ensuring sustained and adequate funding is available for such purposes, is undertaken at regional, national and local levels, as appropriate
+        •	The environment of Hann Bay will eventually be restored on the sanitary, economic and social levels. The fishing and tourism activities in particular, strongly impacted by the degradation of the bay, will be able to benefit from the positive effects of the collection and treatment of effluents, thus reducing the poverty rate. The population concerned by this project is estimated at 390,000 people spread over 5 municipalities. In 2026, the population concerned should reach 450,000 people.
+        •	Activities will reconcile income-generating activities of communities and ecosystem management. This will allow for the achievement of results to assess the contribution of communities/populations to sustainable development.
+        •	Provide a response to the problems faced by coastal areas affected by climate change and  also a policy of adaptation and mitigation to the effects of climate change.
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

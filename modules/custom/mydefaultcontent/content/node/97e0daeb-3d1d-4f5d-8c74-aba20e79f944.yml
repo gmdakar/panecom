@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 97e0daeb-3d1d-4f5d-8c74-aba20e79f944
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    32c85669-34a6-4c3f-9b45-238cd115e9a3: taxonomy_term
+    9cafa2fa-1e14-466f-8d78-9f4441469f48: taxonomy_term
+    545bc340-7e6f-4e8d-979c-466198c556e4: taxonomy_term
+    0b4c0654-312e-4ebe-9391-e8292b44422e: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Construire une compréhension commune des liens entre l''eau et la sécurité au Sahel'
+  created:
+    -
+      value: 1647485809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/construire-une-comprehension-commune-des-liens-entre-leau-et-la-securite-au-sahel-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La session réunira des parties prenantes des secteurs de l'eau et de la sécurité, ainsi que des scientifiques travaillant sur l'analyse des liens entre l'eau et la sécurité. L'objectif est de partager des idées et d'identifier les prochaines étapes des actions visant à lutter contre les risques de sécurité liés à l'eau sur la base d'une compréhension commune des liens entre l'eau et la sécurité. Avec des exemples de travaux en cours au Mali, au Niger et au Tchad.
+
+        La session commencera par un aperçu des liens potentiels entre l'eau et la sécurité dans différentes régions du monde. Elle se concentrera ensuite sur la façon dont les méthodes participatives telles que la construction de modèles de groupe peuvent aider les parties prenantes à développer une compréhension commune des liens entre l'eau et la sécurité. Pour ce faire, la session partagera les leçons tirées des travaux en cours au Mali, au Niger et au Tchad et des premières étapes des projets. La session explorera ensuite comment la compréhension partagée des liens entre l'eau et la sécurité pourrait aider à concevoir des réponses politiques efficaces aux risques de conflits liés à l'insécurité de l'eau. Elle discutera également de la manière de reproduire ce travail dans d'autres domaines où l'eau et la sécurité peuvent être liées. Le public sera invité à contribuer activement en faisant part de son expérience et à participer à la discussion. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485809
+      guid: ''
+      hash: 434cd7c60a3d264b1dde6ef3f2162c6e
+  field_code:
+    -
+      value: SS07
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 32c85669-34a6-4c3f-9b45-238cd115e9a3
+    -
+      entity: 9cafa2fa-1e14-466f-8d78-9f4441469f48
+    -
+      entity: 545bc340-7e6f-4e8d-979c-466198c556e4
+    -
+      entity: 0b4c0654-312e-4ebe-9391-e8292b44422e
+  field_organisateurs_text:
+    -
+      value: 'Deltares (Research institute)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        5min - Bienvenue et mots d'ouverture 
+        10min - Keynote sur le lien entre l'eau et la sécurité
+        20min - Construire une compréhension commune des liens entre l'eau et la sécurité : le cas du Mali, du Niger et du Tchad
+        Présentation des principales étapes et des leçons apprises du travail en cours, par les partenaires locaux.
+        15min - Vers la conception de réponses politiques efficaces aux risques de conflits liés à l'insécurité de l'eau (discussion de groupe)
+        10min - Remarques finales
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

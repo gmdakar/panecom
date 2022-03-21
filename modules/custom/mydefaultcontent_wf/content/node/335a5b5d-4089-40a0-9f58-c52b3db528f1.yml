@@ -1,0 +1,185 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 335a5b5d-4089-40a0-9f58-c52b3db528f1
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    aec455d3-27f4-471f-8eda-f19c89c9ec93: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    8d515e8e-dc50-41e7-9760-8133fc61697d: taxonomy_term
+    c389d669-4868-42a3-950e-146d6bb75d89: taxonomy_term
+    21918554-b69f-48b5-a3aa-ab78de1ec4fc: taxonomy_term
+    90b8328d-f7db-4ddd-9ed8-63ad13f646b4: taxonomy_term
+    2064aa69-63ad-43f1-9b01-67013648f1b7: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tous compétents et tous ensemble pour l’assainissement rural'
+  created:
+    -
+      value: 1647484945
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/tous-competents-et-tous-ensemble-pour-lassainissement-rural
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |2
+         
+
+        L’assainissement individuel, encore plus en zone rurale est souvent le parent pauvre des politiques nationales d’assainissement. Alors que l’argent public subventionne largement les schémas directeurs urbains et les infrastructures collectives, l’assainissement individuel, par nature sur le domaine privé relève du seul ressort des ménages. Ces derniers, lorsqu’ils ont conscience du problème, se retrouvent à devoir gérer le financement, la conception, la réalisation et l’entretien de leurs infrastructures et de ses sous-produits. Quelles approches permettent aujourd’hui de sensibiliser les ménages à l’importance de l’assainissement, et de construire/dynamiser le secteur en zone rurale pour que chacun trouve des partenaires compétents pour l’aider à construire un assainissement adapté à ses besoins et à ses contraintes ?   
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484945
+      guid: ''
+      hash: 6291948c5b717f1fa7ebff16b19f4333
+  field_code:
+    -
+      value: 2B3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: aec455d3-27f4-471f-8eda-f19c89c9ec93
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 8d515e8e-dc50-41e7-9760-8133fc61697d
+    -
+      entity: c389d669-4868-42a3-950e-146d6bb75d89
+    -
+      entity: 21918554-b69f-48b5-a3aa-ab78de1ec4fc
+    -
+      entity: 90b8328d-f7db-4ddd-9ed8-63ad13f646b4
+    -
+      entity: 2064aa69-63ad-43f1-9b01-67013648f1b7
+  field_organisateurs_text:
+    -
+      value: |
+        Coordinateurs de session :
+        -	Rémi LATUNE 
+        - Emenique ALLADATIN (Association Nationale des Communes du Benin,
+
+        Participants confirmés :
+        -	FESAN
+        -	Direction de l’assainissement du Sénégal
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        -	World Toilet organisation
+        -	EAA 
+        -	GRET (Marketing sanitation)
+        -	Plateforme des Organisations de la Société Civile Eau et Assainissement (POSCEA)
+        -	Association des Jeunes Professionnels de l’Eau et de l’Assainissement (AJPEAS)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        Projet 1 - Développer un modèle de gestion en tant qu'entreprise sociale pour l'accès à l'eau potable et la gestion durable dans les communautés rurales à travers une formation participative 
+        FESAN, Federacion Nacional de Cooperativas de Servicios Sanitarios, Chili,
+
+        Projet 2 - Mise en place d'une campagne de communication pour le changement de comportement en matière d'hygiène et d'assainissement afin d'assurer un développement durable du marché de l'assainissement et d'atteindre l'ODD 6.2.
+        Alassane BEYE alassanebeye61@hotmail.com
+        MEA/Direction de l'assainissement du Sénégal
+
+        Projet 3 - WaseWAG : une approche participative pour construire avec tous les acteurs (usagers, OSC, techniciens, institutions, ...) des stratégies individuelles et collectives pour garantir l'accès à l'assainissement.
+        Rémi LOMBARD-LATUNE remi.lombard-latune@inrae.fr
+        Institut national de recherche sur l'agriculture, l'alimentation et l'environnement 
+        (INRAE)
+
+        Projet 4 - Promouvoir le mouvement mondial en faveur de l'assainissement par une action collaborative qui inspire et stimule la demande d'assainissement et fournit des solutions innovantes pour parvenir à un assainissement durable pour tous. 
+        World Toilet Organisation, Sarika SALUJA sarika@worldtoilet.org
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	30	min.	Brainstorming avec la salle sur la question comment sensibiliser les usagers et renforcer les capacités des acteurs du secteur en zone rurale ?
+        30	-	60	min.	Présentations (6’ chacune) 
+        ANCB : ATPC
+        FESAN: Management model as social enterprise
+        DA: Communication campaign
+        GRET: Marketing approach for sanitation ? 
+        INRAE: WasteWAG concerted planning tool for sanitation
+        60	-	80	min.	Débat entre la salle et les présetnation sur les points fort et les limites des différentes approches présentées
+        80	-	90	min.	Messages clés et conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Expected outcomes
+        -	Highlighting the need of coordination and collectives strategies for sanitation in rural areas
+        -	Sharing approaches implemented
+        -	Identify challenges and opportunities for awareness rising and capacity building of stakeholders in rural areas
+        -	Precisions on the role of each stakeholders in sanitation in rural areas
+        -	Production of a written synthesis on the different approach discussed with references for each of them
+        Impacts
+        -	Consideration of issues to be taken into account to improve the development of sanitation services in rural areas 
+        follow-up linkages
+        -	Dissemination of the conclusions and recommendations to the various stakeholders through the network of the partners involved in the session 
+        -	Dissemination of findings to regional networks of different stakeholders (e.g. for Africa: AMCOW, UCLGA, ANEW, AfWA)
+        -	Follow-up of the preparatory process for the United Nations Water Conference in 2023 to ensure that these issues are taken into account in the debates (follow-up to be conducted via the Forum's global recommendations and via the governments)
+
+        Résultats attendus
+        -	Mise en évidence de la nécessité d’une concertation entre les actions et de stratégies collectives pour l’assainissement en zone rurale
+        -	Partage de démarches de mise en œuvre
+        -	Identification des défis et opportunités pour la mise en œuvre des actions de sensibilisation et de renforcement des capacités des acteurs en zone rurale
+        -	Précisions sur le rôle de chaque acteur dans l'assainissement en milieu rural
+        -	Production d’une synthèse écrite sur les différentes approches présentées et discutées accompagnées de références pour chacune d’elles.
+        Impacts
+        Prise en compte des enjeux pour le développement des services d’assainissement en milieu rural 
+        Liens de suivi
+        -	Diffusion des conclusions et recommandation à l’attention des différentes parties prenantes au travers des réseaux des partenaires à la session
+        -	Diffusion des conclusions vers les réseaux régionaux des différents acteurs (p. ex. pour l’Afrique : AMCOW, CGLUA, ANEW, AfWA)
+        -	Suivi du processus préparatoire à la conférence des Nations unies sur l’eau en 2023 pour veiller à la prise en compte de ces enjeux dans les débats (suivi à conduire via les recommandations global du Forum et via les gouvernements)
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

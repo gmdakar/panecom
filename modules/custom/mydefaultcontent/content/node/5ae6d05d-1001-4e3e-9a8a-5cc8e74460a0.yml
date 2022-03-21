@@ -1,0 +1,172 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ae6d05d-1001-4e3e-9a8a-5cc8e74460a0
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    aec455d3-27f4-471f-8eda-f19c89c9ec93: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    b4be5197-5fe7-430d-afb4-424b9b759552: taxonomy_term
+    f2d6a9ca-7cb5-4b8b-a688-463c367f8abd: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    56cb2d59-7931-494f-8ece-07ac97178650: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gouvernance participative pour l''assainissement et l''hygiène en milieu rural'
+  created:
+    -
+      value: 1647484945
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gouvernance-participative-pour-lassainissement-et-lhygiene-en-milieu-rural
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        La précarité des services d’hygiène et d’assainissement en milieu rural dans le monde surtout dans les pays à faible et moyen revenu est saisissante, tout particulièrement en Afrique où 77% de la population n’a pas d’assainissement basique. La mise en place d’une gouvernance participative est clé pour relever ce défi et considérer l’ensemble de la filière assainissement. La démarche permet ainsi d’associer l’ensemble des parties prenantes (usagers, collectivités, services de l’Etat, partenaires techniques et financiers etc.) pour contribuer à l’élaboration des stratégies nationales, pour traduire ces stratégies en actions concrètes au niveau local en répondant au mieux attentes et au contexte considéré, mais aussi pour assurer le nécessaire suivi du service mis en place et comment il répond aux attentes des usagers. C`est aussi l`occasion de rappelerles rôles et responsabilités des acteurs clé à tous les niveaux mais surtout apprécier le niveau d`implication de chaque partie .
+        Cette session permettra de partager les expériences réussies, les outils et méthodes mis en œuvre et d’en tirer des leçons pour leur prise en compte par le plus grand nombre.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484945
+      guid: ''
+      hash: 9cd84b486316b6fed6f9f649841cc52d
+  field_code:
+    -
+      value: 2B1
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: aec455d3-27f4-471f-8eda-f19c89c9ec93
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: b4be5197-5fe7-430d-afb4-424b9b759552
+    -
+      entity: f2d6a9ca-7cb5-4b8b-a688-463c367f8abd
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 56cb2d59-7931-494f-8ece-07ac97178650
+  field_organisateurs_text:
+    -
+      value: |
+        "-	Christophe Le Jallé (Programme Solidarité Eau - pS-Eau)
+        -	Ndeye Abibatou Lô (Water and Sanitation for Africa)"
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        India Water Foundation 
+        CONGAD/RADI 
+        ART-PESOUNG 
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |+
+        Projet 1 - Approche intégrée pour l'autonomisation des communautés locales en matière d'écologie, de conservation des masses d'eau, d'assainissement et d'hygiène par le biais de campagnes de sensibilisation et de l'utilisation de technologies respectueuses de l'environnement. (India Water Foundation)
+
+        Projet 2 - Développer une approche pour développer un système d'assainissement complet dans les petites villes d'Afrique sub-saharienne, en particulier au Sénégal. (Programme Solidarité Eau - pS-Eau)
+
+        Projet 3 - Participation des autorités locales à la conception, au financement et à la mise en œuvre des interventions d'hygiène et d'assainissement en milieu rural (CONGAD/RADI)
+
+        Projet 4 - ""PESOUNG pour tous - Mise en place de services d'hygiène et d'assainissement ruraux adéquats pour tous. L'exemple de la commune de Pambal, région de Thiès, département de Tivaouane au Sénégal (ART-PESOUNG)
+
+        Projet 5 - Programme AICHA : Mise en place d'un cadre multi-acteurs pour l'eau et l'assainissement dans la région de Saint-Louis et développement du marketing de l'assainissement. (GRET)
+
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        """0 - 5 min.	Introduction/Contexte
+        5 - 10 min.	Film d'introduction
+        10 - 40 min.	Table ronde avec les acteurs impliqués dans les projets d'assainissement rural (des documents présentant brièvement chacun des projets seront également partagés avec les participants)
+        40 - 50 min.	Discussion en petits groupes sur les pratiques de chacun
+        50 - 60 min.	Synthèse en quelques mots clés des discussions de la table ronde + visualisation sur écran
+        60 - 85 min.	Table ronde avec les représentants des différents groupes d'acteurs concernés par le développement de l'assainissement en milieu rural et dans les villes rurales (service d'assainissement de l'Etat, collectivité locale, usagers/société civile, opérateur d'assainissement, jeune professionnel, chercheur) 
+        85 - 90 min.	Conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Expected outcomes
+        -	Highlighting the interest of participatory governance
+        -	Sharing approaches implemented
+        -	Identify challenges and opportunities for implementation of participatory governance
+        -	Precisions on the role of each stakeholders in the governance of the sanitation service in rural areas and rural towns
+
+        Impacts
+        -	Consideration of issues to be taken into account to improve governance for the development of sanitation services in rural areas and in rural towns
+
+        follow-up linkages
+        -	Dissemination of the conclusions and recommendations to the various stakeholders through the network of the partners involved in the session 
+        -	Dissemination of findings to regional networks of different stakeholders (e.g. for Africa: AMCOW, UCLGA, ANEW, AfWA)
+        -	Follow-up of the preparatory process for the United Nations Water Conference in 2023 to ensure that these issues are taken into account in the debates (follow-up to be conducted via the Forum's global recommendations and via the governments)
+        /
+        /
+        Résultats attendus
+        -	Mise en évidence l'intérêt de la gouvernance participative
+        -	Partage de démarches mise en œuvre
+        -	Identification des défis et opportunités pour la mise en œuvre de la gouvernance participative
+        -	Précisions sur le rôle de chaque acteur dans la gouvernance du service d'assainissement en milieu rural et bourgs ruraux
+
+        Impacts
+        Prise en compte des enjeux à prendre en compte pour améliorer la gouvernance pour le développement des services d’assainissement en milieu rural et dans les bourgs ruraux
+
+        Liens de suivi
+        -	Diffusion des conclusions et recommandation à l’attention des différentes parties prenantes au travers des réseaux des partenaires à la session
+        -	Diffusion des conclusions vers les réseaux régionaux des différents acteurs (p. ex. pour l’Afrique : AMCOW, CGLUA, ANEW, AfWA)
+        -	Suivi du processus préparatoire à la conférence des Nations unies sur l’eau en 2023 pour veiller à la prise en compte de ces enjeux dans les débats (suivi à conduire via les recommandations global du Forum et via les gouvernements)
+      format: basic_html
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

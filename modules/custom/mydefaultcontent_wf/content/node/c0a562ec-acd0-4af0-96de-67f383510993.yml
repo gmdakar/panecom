@@ -1,0 +1,181 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0a562ec-acd0-4af0-96de-67f383510993
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    a5f21175-4b3c-44e2-b61d-54f877b69c63: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    11cc4dba-1e8a-4a8e-aa2b-1be74ee04574: taxonomy_term
+    001c5a97-2cab-45a7-9479-5981d5848dca: taxonomy_term
+    8ca82bb1-47bf-4bc0-aab7-971cf974dc47: taxonomy_term
+    3ee4a09a-c18a-4339-869f-42ef52d7651a: taxonomy_term
+    21918554-b69f-48b5-a3aa-ab78de1ec4fc: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promouvoir la paix en élaborant et en mettant en œuvre des cadres juridiques pour les ressources en eau transfrontalières'
+  created:
+    -
+      value: 1647484953
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promouvoir-la-paix-en-elaborant-et-en-mettant-en-oeuvre-des-cadres-juridiques-pour-les
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La coopération en matière d''eau transfrontalière est l''un des fondements de la sécurité internationale, car il est prouvé qu''elle a des retombées économiques et pacifiques au-delà du secteur de l''eau. Il est donc important de faire progresser la coopération sur les ressources en eau partagées pour promouvoir la paix. L''un des moyens éprouvés de faire progresser la coopération dans le domaine de l''eau consiste à établir et à mettre en œuvre des cadres juridiques pour les ressources en eau transfrontalières. Cette session vise à mettre en évidence les outils et les instruments disponibles pour les décideurs et les responsables politiques, y compris les conventions mondiales sur l''eau des Nations unies, pour faire progresser cette coopération.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484953
+      guid: ''
+      hash: 931d594920a9849b1a7ddb0a8f76efc1
+  field_code:
+    -
+      value: 3B2
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a5f21175-4b3c-44e2-b61d-54f877b69c63
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 11cc4dba-1e8a-4a8e-aa2b-1be74ee04574
+    -
+      entity: 001c5a97-2cab-45a7-9479-5981d5848dca
+    -
+      entity: 8ca82bb1-47bf-4bc0-aab7-971cf974dc47
+    -
+      entity: 3ee4a09a-c18a-4339-869f-42ef52d7651a
+    -
+      entity: 21918554-b69f-48b5-a3aa-ab78de1ec4fc
+  field_organisateurs_text:
+    -
+      value: |-
+        UNECE
+        Geneva Water Hub
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNESCO, EU, ECOWAS, Ministry of Sanitation and Water Resources of Ghana, Mekong River Commission (MRC), Ministry of Interior of Hungary, Federal Office for the Environment of Switzerland, Minister of Water Resources of Iraq, Intergovernmental Coordinating Committee for the La Plata River, Central Asia Youth for Water Network, Global Environment Facility'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Projet 1. Initiative sur les Conventions mondiales sur l'eau pour promouvoir la coopération dans le domaine de l'eau   
+
+        Projet 2. Soutien à l'élaboration et à la mise en œuvre d'accords de coopération transfrontalière : renforcement des capacités institutionnelles des organismes de bassin transfrontaliers et soutien à l'adhésion aux conventions mondiales sur l'eau 
+
+        Projet 3. Guide pratique pour le développement d'accords ou d'autres arrangements pour la coopération en matière d'eau transfrontalière  
+
+        Projet 4. Application des règles et procédures d'utilisation de l'eau : Procédures de notification, de consultation et d'accord préalables (PNPCA) pour les projets hydroélectriques classiques.  
+
+        Projet 5. Suivi de l'indicateur SDG 6.5.2 mesurant la coopération en matière d'eau transfrontalière  
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Ouverture  
+        - Introduction par la CEE-ONU : aperçu du programme de la session, du thème principal et des questions. 
+        - Discours d'ouverture : M. Virginijus Sinkevi?ius, Commissaire à l'environnement, aux océans et à la pêche, Union européenne (à confirmer)  
+        - Présentation introductive sur l'état de la coopération dans le domaine des eaux transfrontalières à la lumière des résultats de l'exercice de suivi de l'indicateur 6.5.2 des ODD : 
+        Mme Olga Algayerova, secrétaire exécutive de la CEE-ONU et M. Abou Amani, directeur de la division des sciences de l'eau de l'UNESCO. 
+        - Q&A  
+
+
+        Panel I (20 min) 
+        Outils pour accélérer les progrès vers le développement d'arrangements opérationnels et leurs applications réussies  
+
+        Modérateur : M. Bougonou K. Djeri-Alassani, Directeur Ag. Directeur, Centre de Gestion des Ressources en Eau de la CEDEAO (CGRE) 
+
+        Présentations sur les questions suivantes : 
+        - Quels sont les processus, les outils et les documents d'orientation disponibles au niveau mondial pour accélérer les progrès vers le développement et la mise en œuvre des arrangements opérationnels ? 
+        - Quels sont les développements récents et les exemples d'application réussie des principes du droit international de l'eau au niveau régional et au niveau des bassins ? 
+
+        Interventions du panel :  
+        - Adhésion aux conventions-cadres mondiales des Nations unies : perspective nationale 
+        S.E. Mme Cecilia Abena Dapaah, Ministre de l'Assainissement et des Ressources en eau, Ghana 
+        - Guide pratique pour le développement d'accords ou d'autres arrangements pour la coopération en matière d'eau transfrontalière  
+        M. Peter Kovacs, Directeur de l'eau, Ministère de l'Intérieur, Hongrie, Président du groupe de rédaction du Guide pratique. 
+        - Application des règles et procédures d'utilisation de l'eau : Procédures de notification, de consultation et d'accord préalables (PNPCA) pour les projets hydroélectriques généraux dans le bassin du Mékong, M. Bountieng Sanaxonh, Directeur de la Division de la planification, Secrétariat de la Commission du Mékong.  
+        - Révision d'un accord sur un bassin transfrontalier 
+        M. Phera Ramoeli, Directeur exécutif, Commission de l'eau du bassin du fleuve Okavango (à confirmer) 
+
+        Q&R (15 min)  
+
+         
+        Panel II (25 min) 
+        Progrès, lacunes et défis dans le développement et la mise en œuvre des cadres juridiques et institutionnels pour la coopération en matière d'eau transfrontalière 
+
+        Modérateur : Mme Sibylle Vermont, Chef de section adjoint, Affaires mondiales, Division des affaires internationales, Office fédéral de l'environnement, Suisse 
+
+        Discussion de groupe basée sur les résultats du deuxième exercice de rapport sur l'indicateur 6.5.2 des ODD :  
+        - Progrès, lacunes et défis dans la région MENA : le cas de l'Irak 
+        S.E. M. Mahdi Rashid Al Hamdani, Ministre des ressources en eau, Irak (à confirmer) 
+        - Progrès, lacunes et défis dans la région de l'Amérique latine :
+        M. Juan Carlos Alurralde, Secrétaire général du Comité intergouvernemental de coordination du fleuve La Plata. 
+        - Progrès, lacunes et défis en Afrique 
+        M. Christophe Brachet, Secrétaire Général Adjoint, Réseau International des Organismes de Bassin (RIOB)  
+        - Progrès, lacunes et défis : le point de vue des jeunes 
+        Mme Lyazzat Syrlybayeva, Réseau des jeunes pour l'eau d'Asie centrale  
+        - Progrès, lacunes, défis, et la voie à suivre : la perspective des donateurs 
+        M. Steffen Hansen, spécialiste de l'environnement, Fonds pour l'environnement mondial (FEM)  
+
+        Discussion interactive (15 min) 
+
+        Conclusions et remarques finales :
+        S.E. Danilo Türk, ancien président de la Slovénie, président du Groupe mondial de haut niveau sur l'eau et la paix, conseiller politique principal du Centre pour l'eau de Genève. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Cette session devrait contribuer aux efforts mondiaux pour renforcer les liens entre l''ODD6 et d''autres ODD tels que l''ODD16, ainsi que les ODD13 et 17.  Sur notre chemin commun vers la Conférence de haut niveau de la Décennie de l''eau de 2023, cette session devrait contribuer à formuler les messages adéquats pour mieux intégrer la coopération en matière d''eau transfrontalière et l''aspect de la paix dans la Décennie de l''eau des Nations Unies. '
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

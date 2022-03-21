@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 95bc23fa-0289-4a3b-bbec-1b0ded629a2c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    80e0bfb3-c0f3-4446-ad6c-001d614dc36d: taxonomy_term
+    cde34537-02a1-4795-b654-224a68a035d9: taxonomy_term
+    6f6ec599-3706-4cb4-8982-aeafc8d98815: taxonomy_term
+    f083a15d-2b3f-4dd2-b16b-9cf27900024e: taxonomy_term
+    bb5a7af6-ea21-41c7-b0d7-806e6e77f877: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Leaders de la coalition pour l''eau et le climat - Des paroles aux actes'
+  created:
+    -
+      value: 1647485801
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leaders-de-la-coalition-pour-leau-et-le-climat-des-paroles-aux-actes-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le changement climatique exacerbe à la fois la pénurie d'eau et les risques liés à l'eau, car la hausse des températures perturbe le régime des précipitations et l'ensemble du cycle de l'eau. On estime que 80 % des effets du changement climatique sont ressentis à travers l'eau et la crise ne fera que s'intensifier à l'avenir. 
+
+        Lors de la conférence des Nations unies sur le changement climatique (COP26), les dirigeants de la coalition Eau et Climat ont lancé un appel urgent et uni en faveur d'une action intégrée pour l'eau et le climat, afin de remplacer l'approche actuelle, fragmentée et axée sur la crise. 
+
+        Lors de cette session, les leaders de la coalition pour l'eau et le climat fourniront des conseils stratégiques sur l'intégration des agendas de l'eau et du climat (y compris l'Agenda 2030 des Nations Unies, le Cadre de Sendai, l'Accord de Paris et l'Agenda 2063 de l'Afrique), afin de maximiser les synergies dans la conception et la mise en œuvre des actions visant à atteindre les ODD 6 et 13. 
+
+        Ils présenteront en outre les six résultats concrets suivants, qui seront proposés lors de la conférence de la Décennie des Nations unies pour l'eau en 2023, et en discuteront avec le public : 
+
+        - Un système d'observation de l'eau connecté au niveau mondial 
+        - une nouvelle logique de financement qui tient compte des avantages sociétaux et de la durabilité écologique dans le développement de l'eau et du climat 
+        - un cadre explicite de coopération entre les bassins fluviaux pour évaluer et partager les avantages des activités d'adaptation et d'atténuation des effets de l'eau sur le climat 
+        - Un processus et une plateforme en libre accès qui font le point sur les activités liées au climat et à l'eau.
+        - une année internationale de la préservation des glaciers en 2025 et un mécanisme international pour faciliter l'accès à des informations précises et actualisées sur la cryosphère
+        - une méthodologie et un processus permettant de catalyser un changement réel sur le terrain.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485801
+      guid: ''
+      hash: 961411aa8f3947219146a633625e62cf
+  field_code:
+    -
+      value: HLP04
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 80e0bfb3-c0f3-4446-ad6c-001d614dc36d
+    -
+      entity: cde34537-02a1-4795-b654-224a68a035d9
+    -
+      entity: 6f6ec599-3706-4cb4-8982-aeafc8d98815
+    -
+      entity: f083a15d-2b3f-4dd2-b16b-9cf27900024e
+    -
+      entity: bb5a7af6-ea21-41c7-b0d7-806e6e77f877
+  field_organisateurs_text:
+    -
+      value: 'World Meteorological Organization'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Au cours de l'événement, les participants du WWF auront l'occasion de discuter avec les leaders de l'eau et du climat lors de deux tables rondes. 
+
+        Ouverture (10 min)
+        Planter le décor - M. Gilbert Houngbo, Président de l'ONU-Eau ; Président du FIDA
+
+        Discussion en groupe (40 min)
+        - Intégrer l'adaptation dans le développement des politiques au niveau national - M. Komi Sélom Klassou, Ancien Premier Ministre, République du Togo
+        - La collaboration transfrontalière comme outil d'adaptation - Dr. Mohamed Abdel Aty, Ministre des Ressources en Eau et de l'Irrigation, Egypte
+        - Exemple de cas - M. Abdelkébir Zahoud, ancien secrétaire d'État à l'eau et à l'environnement, Royaume du Maroc
+        - Intégrer les agendas de l'eau et du climat et le rôle des données - M. Howard Bamsey, Président du Partenariat mondial pour l'eau.
+        - Innovation et rôle du secteur privé dans l'adaptation - M. Matthias Berninger, SVP Public Affairs & Sustainability BAYER
+        - La participation et l'inclusion des jeunes dans l'élaboration des politiques - Mme Lindsey Blodgétt, ancienne présidente du Parlement mondial des jeunes pour l'eau. 
+
+        Q&R (5 min)
+
+        Clôture (5 min)
+        Johannes Cullmann, Directeur Eau et Cryosphère, OMM
+
+        Modérateur des discussions de groupe : Johannes Cullmann, Directeur de l'eau et de la cryosphère, OMM
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

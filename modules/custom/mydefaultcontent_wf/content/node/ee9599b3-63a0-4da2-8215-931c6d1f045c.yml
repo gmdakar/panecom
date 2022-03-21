@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee9599b3-63a0-4da2-8215-931c6d1f045c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    dc6d89b4-2c57-4501-97f7-0ca8359251d1: taxonomy_term
+    f7f84408-0fae-46cb-a5e6-53e3f23e7d36: taxonomy_term
+    91ff92a5-6d07-4ef0-a268-c567f52d735c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gestion des eaux pluviales en Afrique de l''Ouest - Une réflexion globale pour des solutions locales'
+  created:
+    -
+      value: 1647486189
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gestion-des-eaux-pluviales-en-afrique-de-louest-une-reflexion-globale-pour-des-solutions
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le partenariat de longue date entre le GWP et l'AAE a été particulièrement approfondi par la mise en œuvre de notre projet commun, l'Initiative allemande pour l'Afrique.
+        particulièrement approfondi par la mise en œuvre de notre projet commun, le Partenariat germano-africain pour l'eau et l'assainissement (GAPWAS), en 2019.
+        partenariat germano-africain pour l'eau et l'assainissement (GAPWAS), en 2019.
+        A travers un transfert de connaissances entre experts allemands et africains et la
+        présentation de technologies innovantes, cette session vise à identifier des solutions
+        stratégies qui peuvent contribuer à une meilleure gestion des événements liés aux eaux pluviales en
+        Afrique de l'Ouest.
+        Avec le changement climatique, le défi de la gestion des eaux pluviales est devenu un défi mondial.
+        mondial qui va s'accroître et affecter de plus en plus nos deux continents dans les années à venir.
+        années à venir. Par conséquent, la mise en réseau et l'échange d'expériences entre
+        experts allemands et africains du secteur de l'eau et de l'assainissement, des organisations de la société civile et des décideurs politiques.
+        des organisations de la société civile et des décideurs politiques jetteront les bases d'une
+        coopération durable et à long terme dans le domaine de la gestion des eaux pluviales.
+        En impliquant les autorités locales, l'importance politique de la gestion des eaux pluviales sera communiquée.
+        l'importance politique de la gestion des eaux pluviales, dans le but de soutenir une prévention et un contrôle efficaces des dommages causés par les inondations dans l'ouest du pays.
+        prévention et le contrôle efficaces des dommages causés par les inondations en Afrique de l'Ouest en correspondant aux
+        programmes politiques correspondants.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486189
+      guid: ''
+      hash: f2528b8cbfc78f72099be5d21434f330
+  field_code:
+    -
+      value: SE34
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Maire de Dakar ; Sylvain Usher, Directeur exécutif de l''Association africaine de l''eau ; Dr. Paul Engelke, Directeur général de Kleine Solutions ; Manuel Krauß, Institut de recherche sur l''eau, Université technique d''Aix-la-Chapelle ; Dirk Wittenberg, Vice-président senior de WILO SE ; Julia Braune, Directrice exécutive du Partenariat allemand pour l''eau e.V.'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: dc6d89b4-2c57-4501-97f7-0ca8359251d1
+    -
+      entity: f7f84408-0fae-46cb-a5e6-53e3f23e7d36
+  field_organisateurs_text:
+    -
+      value: 'German Water Partnership e.V.'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        5 min : Discours d'ouverture (Maire de Dakar)
+        10 min : Défis auxquels les régions africaines sont
+        pendant les saisons de fortes pluies,
+        les exigences d'une gestion adaptée des
+        gestion des eaux pluviales ainsi que les
+        ainsi que les connaissances acquises et les
+        expériences réussies (Sylvain Usher)
+        10 min : Identification des zones à risque potentiel
+        et actions recommandées pour
+        pour minimiser les dommages économiques et écologiques
+        économiques et écologiques des eaux pluviales en
+        Afrique de l'Ouest (Dr. Paul Engelke)
+        10 min : Partage des meilleures pratiques et
+        présentations des leçons apprises
+        du développement d'une prévision des
+        d'inondation pour le projet germano-ghanéen
+        ghanéen RAIN à Accra (Manuel Krauß)
+        10 min : Présentation de pompes spéciales et de
+        composants pour un contrôle efficace des
+        efficace des inondations (Direk Wittenberg)
+        15 min : Discussion modérée avec le public (Julia Braune)
+      format: basic_html
+  field_salle:
+    -
+      entity: 91ff92a5-6d07-4ef0-a268-c567f52d735c

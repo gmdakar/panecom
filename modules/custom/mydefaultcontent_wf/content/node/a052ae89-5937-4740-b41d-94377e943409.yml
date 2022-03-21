@@ -1,0 +1,173 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a052ae89-5937-4740-b41d-94377e943409
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    cdc34610-6841-4f97-bc0c-eb00e3f6f226: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    b41b80f9-fa71-4465-9b2b-0ba7f9686fd5: taxonomy_term
+    06d61be9-6ed4-457f-aebc-9c779ccf0ba0: taxonomy_term
+    7325bbc9-3d47-4d9b-9dd8-cb1170d46191: taxonomy_term
+    0549c68b-7810-4501-9cc0-de46ab97841e: taxonomy_term
+    d3ff1e6e-0b89-4fd2-b84c-83e7a763634d: taxonomy_term
+    e394547c-0170-4316-a381-d357264d54aa: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Des technologies innovantes et des eaux productives pour renforcer les communautés rurales'
+  created:
+    -
+      value: 1647484950
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/des-technologies-innovantes-et-des-eaux-productives-pour-renforcer-les-communautes-rurales
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Au cours de cette session, les panélistes donneront un aperçu et des exemples de la manière dont les petits exploitants agricoles peuvent être responsabilisés par l''introduction de technologies et de connaissances innovantes en matière d''irrigation et de gestion de l''eau, combinées à des plateformes éducatives, communicationnelles, financières et institutionnelles innovantes, afin de garantir un accès durable et équitable à l''eau tout au long de l''année, de l''utiliser de manière productive et rentable et de s''adapter au changement climatique, tout en préservant leurs ressources en eau.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484950
+      guid: ''
+      hash: 92537d0f3bfc6da16f3555ac87ff2c73
+  field_code:
+    -
+      value: '2E3'
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: cdc34610-6841-4f97-bc0c-eb00e3f6f226
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: b41b80f9-fa71-4465-9b2b-0ba7f9686fd5
+    -
+      entity: 06d61be9-6ed4-457f-aebc-9c779ccf0ba0
+    -
+      entity: 7325bbc9-3d47-4d9b-9dd8-cb1170d46191
+    -
+      entity: 0549c68b-7810-4501-9cc0-de46ab97841e
+    -
+      entity: d3ff1e6e-0b89-4fd2-b84c-83e7a763634d
+    -
+      entity: e394547c-0170-4316-a381-d357264d54aa
+  field_organisateurs_text:
+    -
+      value: |
+        KickStart International (Private Company) : Martin Fisher, CEO, USA,  
+
+        IWRA (International association): Dr Henning Bjornlünd, IWRA Vice-President, UniSA, Professor, Australia, 
+
+        IRD (French National research institute for sustainable development), French public research institution : Dr Didier Orange, PI of 2E Group rom WWF, 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        KickStart
+        IWRA
+        SIF
+        VERGNET-HYDRO
+        ESF (Electriciens Sans Frontières)
+        AMETEN 
+        COSTEA (INRAe, AVSF, BRL ; Algérie, Sénégal, Cambodge)
+        Santé & Territoires (CIRAD, ISRA, …)
+        IRD / CERAAS
+        LATEU (IFAN, UCAD)
+        INOWASIA (Erasmus+)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "Ce point traite des technologies innovantes pour promouvoir un accès durable et équitable des agriculteurs à l'eau productive. 
+
+        Un dépliant reprenant tous les projets inclus (des intervenants et des panélistes) sera imprimé. En tout cas, voici la liste des projets des 5 orateurs invités : 
+
+        - Martin Fisher (KickStart International, USA)
+        Mise à l'échelle de l'irrigation à faible coût pour les petits exploitants en Afrique subsaharienne : ce qui fonctionne et pourquoi.
+
+        - Henning Bjornlund (IWRA et UniSA, Australie)
+        Transformer les systèmes d'irrigation à petite échelle en Afrique australe' (TISA)
+
+        - Laura Le Floch (Secours Islamique France, Pakistan)
+        Renforcer la résilience des communautés vulnérables face au changement climatique, par des solutions durables en matière d'eau, d'assainissement et d'agriculture (Pakistan, district de Tharparkar)
+
+        - Romain Dubreuil (VERGNET HYDRO, France ; RDC)
+        Construction de systèmes d'eau hybrides à énergie solaire pour le projet d'agroforesterie NTSIO (RDC)
+
+        - Didier Orange (INOWASIA, IRD, France ; Vietnam, Laos, Cambodge)
+        INOWASIA, une plateforme éducative innovante qui promeut l'approche Living Lab.
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Accueil et introduction [10']
+        - 5 introductions de 5 mn basées sur des exemples [25']
+        - Panel de discussion sur les questions soulevées dans l'assemblée [50']
+        - Messages clés et conclusion [5']
+
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Cette session plaidera pour un changement de paradigme afin d'assurer l'intensification durable de la sécurité agricole, alimentaire et nutritionnelle en Afrique sub-saharienne par l'utilisation durable des eaux de surface et souterraines par les petits exploitants agricoles afin d'améliorer leur productivité et leurs revenus grâce à l'introduction de nouvelles technologies.
+
+        Le message politique clé sera le suivant : Donner aux petits exploitants agricoles d'Afrique subsaharienne les moyens d'agir grâce à l'introduction de nouvelles technologies, de nouvelles politiques, d'une éducation et de systèmes innovants qui améliorent l'accès durable et équitable aux eaux souterraines et de surface et leur utilisation pour une petite agriculture productive et durable, par le biais des actions concrètes suivantes :
+
+        1. Introduire des politiques, une éducation, des structures et un financement au niveau national qui favorisent l'adoption et l'utilisation généralisées de technologies permettant aux petits exploitants d'utiliser durablement les eaux souterraines et de surface pour irriguer leurs exploitations et augmenter leurs rendements et leurs revenus tout au long de l'année. 
+
+        2. Il peut s'agir de : Ajuster les droits/taxes sur les technologies d'eau/irrigation pertinentes ; Incorporer une formation sur l'agriculture irriguée et l'utilisation de l'eau durables dans les programmes d'enseignement agricole ; Promouvoir largement, avec la vulgarisation et les démonstrations, l'utilisation des technologies et pratiques d'irrigation et de conservation de l'eau durables par le biais d'un enseignement innovant dans les universités (Problem Based Learning #PBL, Living Lab #LL, Nature Based Solutions #NBS) ; Fournir des "subventions intelligentes" pour augmenter l'adoption et l'utilisation des technologies d'irrigation et de surveillance de l'eau pertinentes pour les petits exploitants ; fournir des "garanties de prêt" aux institutions financières qui financent l'irrigation des petits exploitants ; créer de nouveaux cadres politiques et/ou institutions qui encouragent, surveillent et/ou réglementent l'utilisation durable des ressources en eau locales, etc. 
+
+        3. Plaider pour l'amélioration de la gouvernance mondiale et locale de l'eau en conjonction avec les structures traitant des questions d'alimentation et d'agriculture, par la création d'une structure intergouvernementale sur l'eau et l'alimentation dans le cadre de l'ONU et approuvée par les États membres.
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

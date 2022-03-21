@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c404d818-8f36-4473-aca6-ae19cf7b6fcd
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    fc7fa897-7d23-4d93-8cc4-04ee95868fba: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    603739db-8271-4a81-80ac-42df4efa6621: taxonomy_term
+    c389d669-4868-42a3-950e-146d6bb75d89: taxonomy_term
+    22100d39-5f81-49fa-9c37-3909927bd1cd: taxonomy_term
+    edfdf1bb-ac51-4d15-a296-5a4ae7843879: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sortir du cloisonnement : l''eau, l''assainissement et l''hygiène au cœur de la santé, de la nutrition, du climat et de l''environnement.'
+  created:
+    -
+      value: 1647484939
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sortir-du-cloisonnement-leau-lassainissement-et-lhygiene-au-coeur-de-la-sante-de-la
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: ..
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484939
+      guid: ''
+      hash: d665a0d94bf9c6c3fea59f86ba8af373
+  field_code:
+    -
+      value: 1C4
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: fc7fa897-7d23-4d93-8cc4-04ee95868fba
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 603739db-8271-4a81-80ac-42df4efa6621
+    -
+      entity: c389d669-4868-42a3-950e-146d6bb75d89
+    -
+      entity: 22100d39-5f81-49fa-9c37-3909927bd1cd
+    -
+      entity: edfdf1bb-ac51-4d15-a296-5a4ae7843879
+  field_organisateurs_text:
+    -
+      value: 'WHO, UNICEF, LSHTM'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: WaterAid
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: 'HH4A, WASH ‘Em, GOARN/Global RCCE network?'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1.	Rapport sur l'état de l'hygiène des mains dans le monde : messages clés et appel à l'action 
+        2.	Panel de représentants des gouvernements de cinq pays pour présenter des exemples des cinq "accélérateurs" clés identifiés dans le rapport et qui sous-tendent le cadre mondial d'accélération de l'ONU-Eau pour l'OMD 6. Les panélistes seront invités par un président à faire des interventions de 5 minutes pour partager leurs expériences d'amélioration de la gouvernance, du financement, des capacités, des données et des informations ou de l'innovation pour améliorer l'hygiène des mains. 
+        3.	Discussion plénière guidée 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Cette session fait partie d''une série de sessions qui se tiendront au cours de la période 2020-2022 et qui ont pour but de mettre en lumière le rôle essentiel de l''hygiène des mains dans la prévention et le contrôle des épidémies et, plus largement, en tant que pierre angulaire de la santé publique. En partageant les expériences et les leçons des pays, le résultat souhaité est une discussion stimulante sur les opportunités et les défis à venir. Ceux-ci alimenteront le Sommet sur l''hygiène de mai 2022 à Singapour, où les donateurs seront particulièrement mobilisés, mais aussi le processus dirigé par l''OMS pour renforcer le cadre normatif de l''hygiène des mains grâce à de nouvelles directives sur l''hygiène des mains dans le cadre communautaire.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

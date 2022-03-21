@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5d31477-c9b2-43fd-a512-3ebdf94955d0
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    e5cff376-c3a1-43a6-8c85-b055217c8e74: taxonomy_term
+    85927655-977a-4c8e-9789-73323bf129bd: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    137552f0-c450-4597-979d-90952fcb822c: taxonomy_term
+    9c5023cf-6b8b-4202-a800-06908d0ae870: taxonomy_term
+    b29e9b5e-13b0-47c8-8513-8e8974025f3c: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'High- Level Dialogue on Mainstreaming Climate Action in the Water Sector'
+  created:
+    -
+      value: 1647493836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/high-level-dialogue-mainstreaming-climate-action-water-sector-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Objectives of the Session:
+        To establish a dynamic exchange of experiences between three transboundary aquifer management treaties on three continents: firstly the major developments on governance in the last two years on the Senegal-Mauritania aquifer in Africa secondly the 40 years experience of the Genevois aquifer between France and Switzerland in Europe, and finally the developments of the Guarani aquifer in South America. The session will bring together representatives from the three basins on these aquifers to exchange experiences, lessons learned, relevant committees and other institutional arrangements, data sharing, stakeholder participation and peace building opportunities. It is expected that this session will mark the beginning of a longer term collaboration between these three different transboundary aquifer treaties.
+        This session will have a particular focus on the BASM which has had major developments in the last two years and in particular to join surface water and groundwater governance.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493836
+      guid: ''
+      hash: f07f03e4a88b5ad63ccfcb29107381bb
+  field_code:
+    -
+      value: HLP23
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: e5cff376-c3a1-43a6-8c85-b055217c8e74
+    -
+      entity: 85927655-977a-4c8e-9789-73323bf129bd
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 137552f0-c450-4597-979d-90952fcb822c
+    -
+      entity: 9c5023cf-6b8b-4202-a800-06908d0ae870
+    -
+      entity: b29e9b5e-13b0-47c8-8513-8e8974025f3c
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub AU NOM DE Ababacar Ndao, Secrétaire Général OMVG'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        First part approx 50'.
+        The session opens with a piece/video from the symphony Voice of the River Voice of Peace. 2'
+        Introductory presentation by the Secretary General. OMVG 2'
+        Introductory words from the two facilitators (GWH, UNECE,) 2'
+
+        Transboundary Aquifers Roundtable
+        o BASM presentation (Representatives of the working group of the four BASM countries)
+        Speakers from Mauritania, Senegal, Guinea Bissau and Gambia - 12' (3'/pers)
+        The 2 High Commissioners of the transboundary basin organizations (OMVG and OMVS) present their commitment to project management - 6' (3'/pers)
+        World Bank its appreciation / interest of the project - 3' (3'/pers)
+        EU 3' (3'/PERS)
+        Summary of facilitators - 3' (3'/pers)
+
+        o Presentation of Genevois
+        Presentation of Geneva 40 years of cooperation Project Director - 5' o Presentation of Guarani
+        o Presentation of the Guarani 2 representatives of the aquifer
+        Presentations of the work and the situation of the development of the Guarani - 5' o Facilitator's summary - 3
+        o Summary of the facilitator group - 3'.
+        Part 2 (approx 30')
+        Round table Intercontinental exchange of experiences (Representatives of BASM, Guarani and Genevois, IGRAC, UNESCO, OSS)
+        o Launching of the UNESCO Session - 2 minutes
+        o Elements to consider in this exchange BASM, Guarani and Genevois, and IGRAC -12' (3'/pers)
+        o Interaction with the audience led by UNESCO - 10' o Experiences and conclusion
+        o Experiences and conclusion UNESCO and OSS - 4' (2'/pers)
+        3rd part - conclusions approx 10' (2'/pers)
+        Considerations of the 4 Ministers of the Mauritanian-Senegalese Basin 8' (2' x4) 
+         
+      format: plain_text
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

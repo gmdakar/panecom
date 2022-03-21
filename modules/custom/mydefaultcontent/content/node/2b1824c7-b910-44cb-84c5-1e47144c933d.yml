@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2b1824c7-b910-44cb-84c5-1e47144c933d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    0940c0c6-2fe4-4416-94b0-1363d7ff9fc2: taxonomy_term
+    f541ab9d-816e-4521-ae65-854c9a08b0d7: taxonomy_term
+    d6ed955d-cf8f-4962-935e-151e602b6a3c: taxonomy_term
+    e01347c5-7603-4865-82bc-f696e35cf0dc: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Opportunités coûts- avantages pour faire respecter le renforcement des capacités des pays en matière de santé environnementale par les décideurs africains (institutions - territoires - ONG) Appel à la mise en œuvre intersectorielle des déterminants envir…'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/opportunites-couts-avantages-pour-faire-respecter-le-renforcement-des-capacites-des-pays-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+
+        L'impact de l'environnement sur la santé des individus et des communautés est profond. Cette réalité n'est nulle part aussi fortement ressentie que sur le continent africain, où une grande partie des maladies sont déterminées par des facteurs environnementaux, et où les conditions de vie des communautés (habitat, alimentation, transport) les rendent extrêmement vulnérables aux changements de l'environnement et du climat.
+
+        Par les accords de Libreville adoptés en 2008, 47 gouvernements africains se sont engagés à agir de manière intégrée sur les déterminants environnementaux et sociétaux de la santé humaine et de l'intégrité des écosystèmes, en adoptant un cadre de politique environnementale & Santé pour l'Afrique sous l'égide de l'OMS et du PNUE. Dix ans après la signature de ces accords historiques, des progrès ont été réalisés, mais les actions communes de prévention restent largement insuffisantes au regard des besoins des pays. Selon l'OMS, jusqu'à 40% des décès prématurés en Afrique subsaharienne sont dus à la pollution environnementale (air, eau, sol), ce qui en fait l'une des régions les plus touchées au monde.
+
+        Au-delà des injonctions internationales, la mise en œuvre de ces programmes conjoints nécessite des capacités d'action (infrastructures, compétences) qui sont aujourd'hui insuffisantes ou absentes dans la plupart des pays africains. Dans ce contexte, la récente publication de la Commission Lancet-OMS exhorte les gouvernements de ces pays à renforcer leurs capacités en matière de santé environnementale dans les processus de planification afin d'être en mesure (i) de relever les défis et stratégies associés, (ii) de solliciter le soutien des agences de développement pour (iii) concevoir et mettre en œuvre des programmes et interventions conjointes à grande échelle.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: 6adb3b4e05eed2539b7ebe508f9fc8b9
+  field_code:
+    -
+      value: SS38
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 0940c0c6-2fe4-4416-94b0-1363d7ff9fc2
+    -
+      entity: f541ab9d-816e-4521-ae65-854c9a08b0d7
+    -
+      entity: d6ed955d-cf8f-4962-935e-151e602b6a3c
+    -
+      entity: e01347c5-7603-4865-82bc-f696e35cf0dc
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance'
+      format: basic_html
+  field_programme:
+    -
+      value: '3 x 10'' + 10'' Q&A + 5'' Take Home messages'
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

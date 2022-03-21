@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 69c1587a-466c-4c55-9d23-d12cedbb41bc
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    499e851c-c898-444d-a9f9-ab117d72cdd8: taxonomy_term
+    352c22b9-0812-4e06-bd73-b3b60f315545: taxonomy_term
+    9bd8ce9c-fca8-40b0-aa80-d95066e4e46b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Meet and Collaborate with and African Center of Excellence'
+  created:
+    -
+      value: 1647486046
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/meet-and-collaborate-and-african-center-excellence
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This side event aims at bringing together in a very casual way water professionals and stakeholders in order to open discussions to find axes for collaboration. The objectives are to:  
+        1-Offer African Center of Excellence working in the water field to showcase their expertise
+        2-In a B2B meeting style in a casual and concrete way spark discussions for potential partnerships
+        3-introduce african research of excellence in sustainable water resources to the world 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486046
+      guid: ''
+      hash: 378e2f65407896667ae6e1ff57dbb61a
+  field_code:
+    -
+      value: SE25
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Gregory Giraud -ACE Partner project Manager 
+        Ouedraogo Faissal Romaric-Coordinator of the NET-WATER
+        Harouna Karambiri-Leader of the African Center of Excellence (ACE) International Institute for Engineering in Water and Environment
+        Daouda Mama-Director of the African Center of Excellence in Water and Sanitation 
+        Gordana Kranjac-Berisavljevic, Deputy director of the West African Center for Water Irrigation and Sustainable agriculture 
+        Mamadou Cherif, Deputy Director of the African Center of Excellence on Climate Change, Biodiversity and sustainable agriculture  
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 499e851c-c898-444d-a9f9-ab117d72cdd8
+    -
+      entity: 352c22b9-0812-4e06-bd73-b3b60f315545
+  field_organisateurs_text:
+    -
+      value: 'ACE Partner Project '
+      format: basic_html
+  field_programme:
+    -
+      value: 'This session is a B2B session to promote cooperation between Science through African Centers of Excellence and the Socio-economic sector represented by companies, NGOs private and public sector etc. Invited organisations will have the chance to meet and greet a high ranking executive of an African Center of Excellence to discuss potential partnerships that will be co-constructed to meet both the needs and objectives of both parties. Each ACE will meet a potential partner for 10 minute to explore ways to establish a collaboration. '
+      format: plain_text
+  field_salle:
+    -
+      entity: 9bd8ce9c-fca8-40b0-aa80-d95066e4e46b

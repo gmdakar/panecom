@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6a398950-04cb-493f-8910-0bb8014eb127
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    c83b79d6-5bce-4f4a-a1fd-479a9ccb1d3e: taxonomy_term
+    7b54552b-df1a-42b9-90ef-a95b5ba4edab: taxonomy_term
+    e83e9f97-728e-4799-9479-0b567628ab9d: taxonomy_term
+    dd26ddf4-6219-48b2-9040-8b9c7a831058: taxonomy_term
+    92bd92bc-4537-4eb7-a75b-83ea60d46882: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'De Bonn à Dakar - Accélérer la mise en œuvre intersectorielle de l''ODD 6 à l''horizon 2030'
+  created:
+    -
+      value: 1647486190
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/de-bonn-dakar-accelerer-la-mise-en-oeuvre-intersectorielle-de-lodd-6-lhorizon-2030
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session réunira les principales parties prenantes des différents groupes capables d''accélérer l''action : gouvernements, organisations multilatérales, système des Nations unies et MGS. Les messages clés et les recommandations de Bonn et leur développement au cours des Dialogues sur l''eau seront brièvement présentés et expliqués comment ils s''inscrivent dans la Déclaration de Dakar. Une discussion permettra d''échanger sur les changements nécessaires pour mettre en œuvre une action intersectorielle et s''engager avec d''autres secteurs, et d''identifier les domaines d''action prioritaires à l''horizon 2023 et 2030. Une perspective vers la prochaine conférence préparatoire officielle, le Sommet de l''eau Asie-Pacifique en avril à Kumamoto, conclura la session.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486190
+      guid: ''
+      hash: d3c6ab213aeb3ff25fef1ee13c0991fa
+  field_code:
+    -
+      value: SE43
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Intervenants (à confirmer) : Rashid Mbaziira (AMCOW ES), Abdoulaye Sène (Co-Président du comité de pilotage international du 9ème Forum mondial de l'eau, Sénégal), Kenzo Hiroki (Représentant du Sommet de l'eau Asie-Pacifique), Kobie Brand (ICLEI), Francis Daniel Bougaire (Directeur de la Division de la Coordination et des Partenariats de l'Eau, AFDB), Frank Rutabingwa (UN ECA, responsable de la coordination de l'ONU-Eau au niveau régional), Arlette Soudan-Nonault (Ministre de l'Environnement, du Développement Durable et du Bassin du Congo ; République du Congo) ;
+        Modérateur : à confirmer
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: c83b79d6-5bce-4f4a-a1fd-479a9ccb1d3e
+    -
+      entity: 7b54552b-df1a-42b9-90ef-a95b5ba4edab
+    -
+      entity: e83e9f97-728e-4799-9479-0b567628ab9d
+    -
+      entity: dd26ddf4-6219-48b2-9040-8b9c7a831058
+  field_organisateurs_text:
+    -
+      value: 'GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        - Bienvenue par le modérateur - 3 min
+        '- Récapitulation : Dialogues de Bonn sur l'eau (vidéo explicative avec enregistrements graphiques) - 5 min
+        '- Introduction de Bonn à Dakar et au-delà - Où en sommes-nous ? (5 min)
+        --> Vue d'ensemble : Les Dialogues d
+      format: basic_html
+  field_salle:
+    -
+      entity: 92bd92bc-4537-4eb7-a75b-83ea60d46882

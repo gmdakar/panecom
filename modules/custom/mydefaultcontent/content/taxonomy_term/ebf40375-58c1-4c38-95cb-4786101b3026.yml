@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ebf40375-58c1-4c38-95cb-4786101b3026
+  bundle: motscles
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '-Gestion intégrée des ressources en eau (GIRE)'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /motscles/agenda/gestion-integree-des-ressources-en-eau-gire
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647484956

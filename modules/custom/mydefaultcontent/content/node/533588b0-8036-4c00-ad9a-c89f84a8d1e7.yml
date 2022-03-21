@@ -1,0 +1,167 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 533588b0-8036-4c00-ad9a-c89f84a8d1e7
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    a0bf3951-f1bd-426d-b46e-06d74cf1e7aa: taxonomy_term
+    b9e8b801-4f0e-48ce-ab58-02c114cfe46d: taxonomy_term
+    17e38770-3e75-497b-ac56-95ba7da7ee75: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    6d406653-d8a2-4cc7-a1d3-b6b55ae63152: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    9597ceb5-8a03-4185-b9c5-625e75244654: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    58372def-a936-4fba-95a3-d3300696d64a: taxonomy_term
+    da3fcf81-f2fb-45a6-ba5e-981162a2f387: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'From research communities to end- users and citizens, launching new cooperative networks'
+  created:
+    -
+      value: 1647484847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/research-communities-end-users-and-citizens-launching-new-cooperative-networks
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session will try to highlight the needs for the academia and WASH operational bodies to get closer together and engage cooperation for a better development of the WASH sector in Africa and show why one needs the other, even for its own development. The session will give the opportunity to assess what was done these past years to really link research & development  to operational needs of the Africa WASH sector. The Need for the involvement of the Civil Society, which can be key for educational and behavior purpose of population vis-à-vis of the use of WASH services will be highlighted.  The session will also look at the management of the resources through network of basin which will encourage collaboration between organization. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484847
+      guid: ''
+      hash: 0075beae80dca75924ba8a4ca23f1530
+  field_code:
+    -
+      value: '3E2'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a0bf3951-f1bd-426d-b46e-06d74cf1e7aa
+    -
+      entity: b9e8b801-4f0e-48ce-ab58-02c114cfe46d
+    -
+      entity: 17e38770-3e75-497b-ac56-95ba7da7ee75
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 6d406653-d8a2-4cc7-a1d3-b6b55ae63152
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 9597ceb5-8a03-4185-b9c5-625e75244654
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 58372def-a936-4fba-95a3-d3300696d64a
+    -
+      entity: da3fcf81-f2fb-45a6-ba5e-981162a2f387
+  field_organisateurs_text:
+    -
+      value: |+
+        African Water Association 
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        Un. Cheikh Anta Diop, Dakar Séné-gal, Un. Nairobi, Kenya, Un. Makerere, Kampala, Un. College London, London, GB, Royal Society, London, UK aid
+
+        IHE Delft, ICLEI Africa, ANBO, AfWA, Waternet, etc…
+
+        Youth United in Action, Latin American and the Caribbean Youth Parliament for Water
+
+        Office de l’Eau de Martinique, INBO
+
+        Water Research Commission South Africa (WRC)
+
+        International Water Association (IWA)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1: Research and Develop scientific evidence to inform policies and practices to sustain low-cost, on-site water supplies and sanitation systems in urban Africa and strengthen the capacity of individuals and institutions to conduct this vital research. 
+
+        Project 2: Afrialliance : Boosting and matchmaking research & innovation needs and solutions for preparedness to climate change in Africa. 
+
+        Project 3 :Create a network for mutual education and data, good practices and experiences exchange between civil society stakeholders in sustainable development and lifestyles. 
+
+        Project 4 – Creation of a Basin Islands Network. 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        08 : 30 to 09 : 00	installation of Participant
+        09 : 00 to 09 : 05	Welcome words (5mn) 
+        09 : 05 to 09 : 10	Keynote speaker address (5mn)
+        09 : 10 to 09 : 20	Presentation from project 1(10mn) 
+        09 : 20 to 09 : 30 Presentation from project 2(10mn)
+        09 : 30 to 09 : 40 Q/A from audience on project 1 and 2 (10mn)
+        09 : 40 to 09 : 50	Presentation from project 3 (10mn)
+        09 : 50 to 10 : 00	Presentation from project 5 (10mn)
+        10 : 00 to 10 : 10	Q/A from audience on project 2 and 3 (10mn)
+        10 : 10 to 10 : 25 Panel discussion with panelists (15mn) 
+        10 : 25 to 10 : 30 Closing remarks panelists and moderator (5mn)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        ?	Raise of Consciousness and better understanding of the needed closer relation between Research and operationalization in the water and sanitation sector. 
+        ?	Stronger Engagement of both parties to work together, and identification of ways and means to move to practical implementation. 
+        ?	Concrete involvement of Universities with water and Sanitation Utilities as well as with the Community of practice of the water and sanitation sector. 
+        ?	Follow-up sessions will be organized within AfWA programs with SA Water Research Commission and other research bodies 
+        ?	Within the AFRIALLIANCE project,  the sharing of knowledge will raise awareness of water and Sanitation operators on the effects of Climate Change that could jeopardize their daily operation. 
+        ?	knowledge sharing on how the Civil Society can better be involved in the development of the Water and Sanitation sector in Africa and what can be done to fully implement the Civil Society actions . 
+        ?	information for a better Water Resources Management through cooperation between different Basin organizations 
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

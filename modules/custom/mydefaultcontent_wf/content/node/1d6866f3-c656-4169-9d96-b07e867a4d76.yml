@@ -1,0 +1,160 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1d6866f3-c656-4169-9d96-b07e867a4d76
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    8e716b38-7670-47f5-b2d6-0006d744d83b: taxonomy_term
+    3fb07c2c-424a-4c3c-8261-ff11c91f6980: taxonomy_term
+    96dc1c1b-2f2e-4cc8-b7dc-9680db873714: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    9da074e7-b7b3-45ba-ab6b-32329dacb6c8: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    83c2cc65-3f44-45a4-ae03-6711ccbdb92f: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    b74acfd7-4dec-4c22-b91c-99c45d1ab758: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Renforcer les politiques et la gouvernance pour la sécurité de l''eau de la source à la mer.'
+  created:
+    -
+      value: 1647484939
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/renforcer-les-politiques-et-la-gouvernance-pour-la-securite-de-leau-de-la-source-la-mer
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La sécurité de l''eau et, plus largement, le développement durable ne peuvent être assurés sans préserver la santé des écosystèmes. Les approches actuelles en matière de gouvernance peuvent saper les efforts déployés pour protéger et restaurer les écosystèmes et lutter contre la désertification. Le renforcement de la coordination entre les environnements terrestres, d''eau douce, côtiers et marins garantit des avantages pour le système de la source à la mer dans son ensemble. La gestion holistique de la source à la mer est la voie la plus sûre vers la sécurité de l''eau et le développement durable. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484939
+      guid: ''
+      hash: 79bd4a8664aca3b97b04e4a71c0a2d46
+  field_code:
+    -
+      value: 1D1
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8e716b38-7670-47f5-b2d6-0006d744d83b
+    -
+      entity: 3fb07c2c-424a-4c3c-8261-ff11c91f6980
+    -
+      entity: 96dc1c1b-2f2e-4cc8-b7dc-9680db873714
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 9da074e7-b7b3-45ba-ab6b-32329dacb6c8
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 83c2cc65-3f44-45a4-ae03-6711ccbdb92f
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: b74acfd7-4dec-4c22-b91c-99c45d1ab758
+  field_organisateurs_text:
+    -
+      value: 'Action Platform for Source-to-Sea Management, '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |2-
+         Stockholm International Water Institute,
+         Partenariat régional pour la Conservation de la Zone côtière et marine (PRCM), 
+        Office des Lacs et Cours d’Eau (OLAC), 
+        Mouvement des Etudiants (Students for Climate),
+         OECD, 
+        AFD
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        Projet 1 : Politique de gestion des zones humides côtières et marines en Afrique de l'Ouest
+        Projet 2 : Revitalisation des cours d'eau et restauration d'une zone humide dégradée : le cas de la réserve de Ndiaël
+        Projet 3 : Sensibilisation des communautés côtières aux actions de lutte contre l'avancée de la mer et la désertification. 
+        Projet 4 : Dépollution de la baie de Hann de Dakar
+        Projet 5 : Des villes pour l'économie bleue
+        Projet 6 : Construire une communauté de pratique pour la gestion de la source à la mer
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Heure Contenu" Personne en charge
+        13:30 - 13:35 Accueil et présentation de la session Modératrice (Ruth Mathews)
+        13:35 - 13:45 Planter le décor : La gouvernance de la source à la mer Mme Ruth Mathews, SIWI, Coordinatrice de la plateforme d'action pour la gestion de la source à la mer 
+        Présentations de projets
+        13:45 - 13:50 Politique de gestion des zones humides côtières et marines en Afrique de l'Ouest M. Ahmed Senhoury, Partenariat régional pour la Conservation de la Zone côtière et marine (PRCM)
+        13:50 - 13:55 Revitalisation des cours d'eau et restauration d'une zone humide dégradée : le cas de la réserve de Ndiaël M. Boubacar Cisse, Office des Lacs et Cours d'Eau (OLAC)
+        13:55 - 14:00 Sensibilisation des communautés côtières sur les actions de lutte contre l'avancée de la mer et la désertification. 	M. Amadou Fadyl Diedhiou, Mouvement des Etudiants (Students for Climate)
+        14:00 - 14:05 Dépollution de la baie de Hann de Dakar Mme Mai Linh Cam, AFD Dakar
+        14:05 - 14:10 Les villes pour l'économie bleue tbd, OCDE
+        14:10 - 14 : 15 Construire une communauté de pratique pour la gestion de la source à la mer tbd, Plateforme d'action pour la gestion de la source à la mer
+        14:15 - 14:55 Discussion en groupe Modératrice (Ruth Mathews)
+        14:55 - 15:00 Commentaires de clôture Modératrice (Ruth Mathews) 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- Le renforcement de la coordination entre les secteurs et de la coopération entre les parties prenantes en amont et en aval est stimulé par le renforcement des partenariats entre les acteurs et les initiatives, par une meilleure compréhension de la gestion de la source à la mer, par la création d'engagements en faveur de l'action de la source à la mer et par des actions sur le terrain. 
+        - Les politiques qui améliorent les écosystèmes pour lutter contre la désertification et atteindre la résilience à la sécheresse sont mises en œuvre et appliquées.
+        - Élaboration de politiques économiques et environnementales qui tiennent compte des liens entre les écosystèmes terrestres, d'eau douce, des deltas, des côtes, des littoraux et des océans et qui abordent les systèmes de la source à la mer.
+        - Amélioration de la qualité de l'eau par la coopération en matière de gestion de l'interface terre-eau et renforcement de la gouvernance des ressources partagées grâce au partage des connaissances.
+        - Une approche holistique et intégrée de la gestion des ressources en eau douce intérieure, de leurs bassins et de leurs services écosystémiques, axée sur des mesures de gouvernance améliorées tenant compte de l'ensemble des défis scientifiques et de gestion complexes associés aux liens/interactions entre les systèmes d'eau lentique et lotique qui composent généralement un bassin de drainage d'eau douce, est mise en œuvre à l'échelle mondiale.
+        - L'amélioration de la gouvernance des systèmes d'eaux intérieures à l'échelle du bassin, y compris le développement d'une formation pertinente concernant les capacités institutionnelles, l'élaboration et l'application des politiques, les options technologiques/non technologiques, les besoins en matière de surveillance, l'encouragement de la participation du public, et la garantie d'un financement durable et adéquat à ces fins, est entreprise aux niveaux régional, national et local, selon le cas.
+        - L'environnement de la baie de Hann sera finalement restauré sur le plan sanitaire, économique et social. Les activités de pêche et de tourisme en particulier, fortement impactées par la dégradation de la baie, pourront bénéficier des effets positifs de la collecte et du traitement des effluents, réduisant ainsi le taux de pauvreté. La population concernée par ce projet est estimée à 390 000 personnes réparties sur 5 communes. En 2026, la population concernée devrait atteindre 450 000 personnes.
+        - Les activités concilieront les activités génératrices de revenus des communautés et la gestion des écosystèmes. Cela permettra d'obtenir des résultats pour évaluer la contribution des communautés/populations au développement durable.
+        - Apporter une réponse aux problèmes rencontrés par les zones côtières affectées par le changement climatique ainsi qu'une politique d'adaptation et d'atténuation aux effets du changement climatique."
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

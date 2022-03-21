@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1ade50f8-7a1e-469e-ae79-e3779e8741f9
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    11cc4dba-1e8a-4a8e-aa2b-1be74ee04574: taxonomy_term
+    c63b09a3-1a55-4675-bf75-6a737103a8a8: taxonomy_term
+    07658432-5256-44bd-931a-b1b12908c018: taxonomy_term
+    3ca26a34-212f-4ea2-b708-c80e5c93fc9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        L'eau partagée en Afrique 
+        et au Moyen- Orient : 
+        La coopération régionale pour 
+        désamorcer les tensions et 
+        partager la prospérité
+  created:
+    -
+      value: 1647486181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leau-partagee-en-afrique-et-au-moyen-orient-la-cooperation-regionale-pour-desamorcer-les
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Après des décennies de prévisions et de discours sombres sur les guerres et les conflits liés à l'eau, il s'avère que les guerres de l'eau sont davantage un récit médiatique qu'un avenir possible dans les eaux transfrontalières. Relier les intérêts communs socio-économiques des nations par le biais de mégaprojets de développement transfrontaliers est un moyen de parvenir à une prospérité partagée. L'eau dans les bassins partagés est un véritable connecteur de développement. Il faut une volonté politique pour que les nations en amont et en aval deviennent de véritables actionnaires dans le dialogue et la coopération, conformément à la devise du WWF9, l'eau pour la paix et le développement. Il faut commencer par recentrer le débat en valorisant les avantages de la coopération sur les bénéfices des rivières partagées tout en désamorçant les causes profondes de tension et en dépolitisant (ou du moins en réduisant la politisation) le discours sur l'eau partagée.  
+        La présente session est une occasion remarquable de présenter trois cas de laboratoire pour illustrer le potentiel de la coopération au développement régional dans le domaine des eaux transfrontalières : La faisabilité d'un projet de navigation de la source à la mer dans le fleuve Nil et la sécurité énergétique transfrontalière dans le bassin du fleuve Sénégal et en Asie centrale.   
+
+        Objectifs : 
+        - Partager des expériences sur le potentiel de la coopération au développement dans les rivières transfrontalières à travers des exemples concrets. 
+        - Identifier les conditions cadres clés pour la réussite de projets communs, en matière de navigation et de sécurité énergétique, dans 3 bassins partagés en Afrique et en Asie.  
+        - Débattre des facteurs de réussite du développement économique partagé et des enseignements tirés des trois expériences.
+        - Elaborer un ensemble de principes directeurs pour transformer les risques de tension en opportunités de coopération et passer du droit à l'eau au droit partagé au développement et à la prospérité.
+        - Évaluer les limites et les avantages potentiels de l'hydro-diplomatie dans l'établissement de la confiance entre les nations en amont et en aval. 
+
+        La session vise à répondre aux questions suivantes : 
+        - Qu'est-ce qui doit primer, la volonté politique ou les avantages économiques, afin de transformer les risques de tensions en opportunités pour le développement régional ?
+        - Quels sont les facteurs clés de succès pour faire de l'eau un lien entre les nations des trois bassins ? 
+        - Quels principes pourraient guider les pays à opter pour de grands projets communs plutôt que pour des désaccords sur le partage de l'eau.
+        Résultats escomptés :
+        - Compréhension globale de l'eau partagée comme moteur du développement socio-économique, de la paix et de la coopération entre les pays en amont et en aval.
+        - Définition des principes clés guidant la coopération économique régionale dans les bassins partagés
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486181
+      guid: ''
+      hash: f420932dd0f80c8ca3f17c1386f7789f
+  field_code:
+    -
+      value: SE47
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Modératrice Ambassdor Shahira Wahbi LAS 
+        Orateurs/Panélistes
+        Dr Khaled AbuZeid CEDARE Egypte ; 
+        Dr Tahani Sleet MoWRI Égypte
+        CAREC (Centre régional de l'environnement pour l'Asie centrale) (à confirmer)
+        SADC (À CONFIRMER)
+        ORMVAS Sénégal (M. Madioudiou) Sénégal 
+        Discutants :
+        HE Mahdi Rachid AL Hamadani Ministre des Ressources en Eau en Irak
+        HE Ministre Eng. Mazen Ghoneim Autorité palestinienne de l'eau 
+        Ancien Ministre Dr. Hussein El Atfy AWC (TBC)
+        ACSAD-DG M. Naser Eddin Obaid 
+        Dr. Emad Adly Réseau d'organisations de la société civile RAED
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 11cc4dba-1e8a-4a8e-aa2b-1be74ee04574
+    -
+      entity: c63b09a3-1a55-4675-bf75-6a737103a8a8
+    -
+      entity: 07658432-5256-44bd-931a-b1b12908c018
+  field_organisateurs_text:
+    -
+      value: 'League of Arab States'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Remarques d'ouverture et présentation de la session et des intervenants par le modérateur (5 mn)
+        - Présentation par le Dr. Kheled AbuZeid (CEDARE) : La disponibilité de l'eau au niveau du bassin : le bassin fluvial (10 mn)
+        - Expérience de 3 bassins en matière de développement régional autour de ressources en eau partagées (3 x 10 mn)
+        - Commentaires de haut niveau des intervenants (10 mn) : 
+        - Questions et réponses (5 mn)
+      format: basic_html
+  field_salle:
+    -
+      entity: 3ca26a34-212f-4ea2-b708-c80e5c93fc9e

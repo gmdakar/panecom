@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02787789-28ac-4ab0-b4ea-124301382f27
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    e9fecbf0-1e34-47db-8a64-76a044e27028: taxonomy_term
+    ae4ed91c-db5f-4a9b-aae1-cad6dc9fc444: taxonomy_term
+    0e75e89f-550b-4ca1-8018-21db86fd9fb8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Conférence des Nations unies de 2023 : L''Eau, un enjeu multi- sectoriel / 2023 UN Conference: Water, a cross- sectoral issue'
+  created:
+    -
+      value: 1647486186
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/conference-des-nations-unies-de-2023-leau-un-enjeu-multi-sectoriel-2023-un-conference-water
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        L’eau est un enjeu transverse. Les 20 cibles de l’Agenda 2030 relatives à l’eau illustrent cette transversalité : cible 4 de l’ODD 1 sur la pauvreté, cible 3 de l’ODD3 sur la santé, cible a de l’ODD4 sur l’éducation...  Le 9ème Forum mondial de l’eau rassemblera la communauté internationale de l’eau et ses conclusions nourriront les débats du prochain grand rendez-vous international : la ‘Conférence des Nations unies de mars 2023 consacrée à l’examen approfondi à mi-parcours de la réalisation des objectifs de la Décennie internationale d’action sur le thème « L’eau et le développement durable », la première conférence sur l’eau de cette ampleur organisée aux Nations unies depuis 1977. 
+        Deux autres événements seront consacrés à la conférence de 2023 pendant le Forum : un panel de haut-niveau organisé par les deux pays co-organisateurs : les Pays-Bas et le Tadjikistan ; et une session organisée par l’Allemagne pour rendre compte des ‘Water Dialogues for Results’ organisés à Bonn en juillet 2021.
+        Ce side-event donnera la parole à d’autres secteurs que celui de l’eau : ceux de l’agriculture, de la santé, de l’aménagement du territoire et de l’environnement (secteurs de l'énergie et industriel à confirmer), afin de décloisonner les débats, d’identifier les enjeux liés à l’eau pour ces autres secteurs et d’encourager ces autres communautés d’expertise à prendre part à la préparation de la conférence de 2023. Le side-event bénéficiera pour cela de la venue à Dakar de représentants de haut-niveau dans ces domaines.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486186
+      guid: ''
+      hash: 95d47ad9a87d6afab756b3e5e096c129
+  field_code:
+    -
+      value: SE38
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        S.E. Bérengère Abba, Secrétaire d'État auprès de la ministre de la Transition écologique, chargée de la Biodiversité, France (confirmée)
+        S.E. Akiça Bahri, ex Ministre de l'agriculture de la Tunisie (confirmée)
+        S.E. Ousmane Gaoual Diallo, Ministre de l’Urbanisme, de l’Habitat et de l’Aménagement du Territoire de la Guinée (confirmé)
+        Pr Serge Morand, Ecologue et parasitologue au CNRS (Centre national de la recherche scientifique) (confirmé)
+        M. Henk Ovink, Envoyé spécial sur l'eau du gouvernement des Pays-Bas (tbc)
+        M. Serigne Mbaye Thiam, Ministre de l'Eau et de l'Assainissement du Sénégal (tbc)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: e9fecbf0-1e34-47db-8a64-76a044e27028
+    -
+      entity: ae4ed91c-db5f-4a9b-aae1-cad6dc9fc444
+  field_organisateurs_text:
+    -
+      value: 'Ministère français de l''Europe et des affaires étrangères'
+      format: plain_text
+  field_salle:
+    -
+      entity: 0e75e89f-550b-4ca1-8018-21db86fd9fb8

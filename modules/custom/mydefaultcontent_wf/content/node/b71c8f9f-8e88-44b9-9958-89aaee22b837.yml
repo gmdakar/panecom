@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b71c8f9f-8e88-44b9-9958-89aaee22b837
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    d2e3dede-c4de-41f9-ae2d-4e40f675b227: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    c15ef937-9107-4aab-ac04-76402f658e2e: taxonomy_term
+    160aaf2f-3cac-416f-9985-2082b21a67d3: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'City- Wide Inclusive Sanitation as an approach to Scale Sustainable Solutions at the City- Level: From RASOP Africa to SAO- CWIS for sanitation stakeholders capacity building'
+  created:
+    -
+      value: 1647493848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/city-wide-inclusive-sanitation-approach-scale-sustainable-solutions-city-level-rasop-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Citywide Inclusive Sanitation (CWIS) is a public service approach to planning and implementing urban sanitation systems to achieve outcomes summarized by Sustainable Development Goal 6: safe, equitable, and sustainable sanitation for everyone in an urban area, paying special attention to the needs of the poor, the marginalized, and women and girls. To advance and sustain SDG outcomes at a meaningful scale, all CWIS systems must demonstrate three core functions:
+        •	A responsible authority(ies) is executing a public mandate for inclusive urban service delivery.
+        •	The authority(ies) is accountable for performance against its mandate.
+        •	Resource management and planning reflect authority mandates, priorities, and performance accountability.
+        Objectives assigned to this session organized by AfWA, are:
+        i.	Discuss the local and global urban sanitation issues 
+        ii.	Identify key challenges that contribute to poor sanitation in cities
+        iii.	Describe approaches: WOP, CWIS approach and Service Framework, principles and key stages for CWIS action
+        iv.	Agree on the role of the private sector and regulators on CWIS implementation
+        v.	Explain AfWA contribution in building the capacity of African Utilities and municipalities to improve sanitation service delivery.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493848
+      guid: ''
+      hash: 9482b9cd7f97e7f5392f2fa0e92fc708
+  field_code:
+    -
+      value: SS42
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: d2e3dede-c4de-41f9-ae2d-4e40f675b227
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: c15ef937-9107-4aab-ac04-76402f658e2e
+    -
+      entity: 160aaf2f-3cac-416f-9985-2082b21a67d3
+  field_organisateurs_text:
+    -
+      value: 'African Water Association (AfWA)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        a.	Introduction from chair (5 mins)
+        b.	Lead presentation from AfWA (10 mins)
+        c.	Presentation on the role of private sector on Sanitation services delivery (10 mins)
+        d.	Presentation on CWIS and regulation by ESAWAS (10 mins)
+        e.	Feedback and questions from the audience will be fielded. (20 mins)
+        f.	Moderated Panel- Hard Talk format. (20 mins)
+        g.	Feedback and questions from the audience will be fielded. (10 mins)
+        h.	Moderator Summary (5 mins)
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

@@ -1,0 +1,76 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a58baaa-a85e-41c3-92e0-d647e0379ef5
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Circular economy in the management of the autonomous sanitation value chain'
+  created:
+    -
+      value: 1647493848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/circular-economy-management-autonomous-sanitation-value-chain-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493848
+      guid: ''
+      hash: 1f3b0f805393ae73a6260277f169458a
+  field_code:
+    -
+      value: SS44
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_organisateurs_text:
+    -
+      value: 'ONAS (Senegal)'
+      format: basic_html
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

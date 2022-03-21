@@ -1,0 +1,176 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10bc4c59-f4fc-43d1-bc62-090d44e0d18c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    2e814167-8d7c-49b2-82ae-acc09b16e6b1: taxonomy_term
+    f10dac31-10f2-4f79-9a51-5f4b08f99bfc: taxonomy_term
+    5f8e124f-1afb-4d93-bb26-b5db830a1ee7: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    feca4fb0-7914-406d-a4e0-3fab193ec755: taxonomy_term
+    fde9acb4-09b1-4fc2-a82f-963c1615c8c7: taxonomy_term
+    a8f2a238-f33b-4ea5-acb8-563a964b1a75: taxonomy_term
+    ee502fbf-85de-42ff-b9b7-7dd9bb441452: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stimuler la coopération internationale face aux défis de l''eau : le rôle des banques publiques de développement dans le déblocage des investissements dans le domaine de l''eau et de l''assainissement'
+  created:
+    -
+      value: 1647484956
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/stimuler-la-cooperation-internationale-face-aux-defis-de-leau-le-role-des-banques-publiques
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "L'eau, l'assainissement et l'hygiène sont au cœur des équilibres des écosystèmes et des sociétés, un facteur essentiel de biodiversité, de sécurité alimentaire, de santé et de paix. Les banques publiques de développement ont prouvé dans de nombreux contextes qu'elles pouvaient jouer un rôle de catalyseur, non seulement pour financer des investissements dans le domaine de l'eau et de l'assainissement, mais aussi pour renforcer la coopération. Cette session sera l'occasion d'explorer leur mandat unique et de voir comment elles peuvent contribuer à combler le déficit de financement vers des investissements solides dans le domaine de l'eau, de l'assainissement et de l'hygiène et à atteindre l'ODD6.
+
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484956
+      guid: ''
+      hash: b6748bf210e3be3b73c9372e002121e3
+  field_code:
+    -
+      value: 3C4
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2e814167-8d7c-49b2-82ae-acc09b16e6b1
+    -
+      entity: f10dac31-10f2-4f79-9a51-5f4b08f99bfc
+    -
+      entity: 5f8e124f-1afb-4d93-bb26-b5db830a1ee7
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: feca4fb0-7914-406d-a4e0-3fab193ec755
+    -
+      entity: fde9acb4-09b1-4fc2-a82f-963c1615c8c7
+    -
+      entity: a8f2a238-f33b-4ea5-acb8-563a964b1a75
+    -
+      entity: ee502fbf-85de-42ff-b9b7-7dd9bb441452
+  field_organisateurs_text:
+    -
+      value: |2+
+         AFD
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        AFD 
+        BAfD
+        BOAD 
+        CAF
+        EIB 
+        WHO – GLAAS & Trackfin 
+        Moderator: WaterAid 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " Rapport GLAAS
+        TrackFin
+        Coalition pour le financement de l'eau
+        Étude sur le rôle des banques nationales de développement
+        Ligne de crédit bleue (BEI AFD)
+        Projets BAD & BOAD en cours de cadrage
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        I - Bilan - Dans quelle mesure sommes-nous loin de financer efficacement le secteur de l'eau et de l'assainissement ? 20 min
+        GLAAS & TrackFin - 10 min Didier Allely
+
+        Le financement efficace de l'eau potable, de l'assainissement et de l'hygiène (WASH) est essentiel pour fournir et maintenir les services. Les résultats de l'analyse et de l'évaluation mondiales de l'assainissement et de l'eau potable (GLAAS) de l'ONU-Eau indiquent qu'il existe des lacunes importantes dans notre compréhension et notre suivi du financement du secteur WASH. Les rapports financiers sont souvent insuffisants pour prendre des décisions de planification et de budgétisation solides et fondées sur des preuves. Pour contribuer à résoudre ce problème, l'OMS aide les gouvernements nationaux à élaborer des comptes WASH en utilisant la méthodologie TrackFin dans le cadre du projet GLAAS de l'ONU-Eau. Les rapports GLAAS évaluent des données provenant de plusieurs sources différentes, notamment des données mondiales sur la couverture en assainissement et en eau potable, les flux d'aide des donateurs, les indicateurs économiques et de développement, les données des indicateurs sanitaires et les données des évaluations sectorielles et multisectorielles régionales. Le GLAAS recueille des données tant au niveau des pays bénéficiaires que des organismes d'aide extérieure afin de combler les principales lacunes en matière de connaissances. 
+        Objectifs :
+        - Mettre en évidence les informations financières actuelles au niveau national provenant des pays mettant en œuvre les comptes GLAAS et WASH.
+        - Mettre en évidence les résultats de l'enquête sur les agences de soutien externe
+        - 10 min de discussion avec le public
+        II - De la nécessité d'un engagement accru : Les APB mobilisent les acteurs privés et publics - 30 min 
+        - AFD Céline Robert - Co-présidente de la Water Finance Coalition - 15 min
+        Introduire la raison d'être de la Coalition pour le financement de l'eau et la nécessité pour les PDB de s'engager et de travailler sur ces défis, ainsi que la façon dont les PDB peuvent aider à mobiliser les acteurs privés et publics. 
+        + Les points à retenir de l'étude mondiale sur les APB : Certaines contraintes doivent être abordées pour que les PBD réussissent à financer l'eau et l'assainissement : la demande et l'offre de financement ne se rencontrent pas spontanément. Les banques nationales de développement ont besoin d'outils financiers spécifiques (tels que les fonds de préparation de projet) et de compétences/expertise dédiées pour pouvoir investir dans le secteur de l'eau.
+
+        CAF (Franz Rojas) - Les APBs comme moyen de mobiliser les acteurs privés et publics (10min)
+
+        5 min de discussion avec l'auditoire
+        III - De la complémentarité des outils : Les APB comme catalyseur - 40 min
+        Comment les PBD peuvent renforcer la gouvernance et les capacités des parties prenantes pour catalyser les investissements grâce à des investissements patients, une variété d'outils financiers et un soutien souple.
+        - Etude de cas Ligne de crédit bleue, Maroc - BEI - 10 min Emmanuel Chaponniere
+        - Etude de cas - BOAD - Serge EKUE 10 min
+        - Etude de cas BAfD - 10 min Ousseynou Guene  
+
+        10 min discussion avec le public
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "-Faire le point sur l'engagement actuel des différentes parties prenantes dans le secteur de l'eau et de l'assainissement et évaluer le niveau de coopération entre elles.
+        -Sensibiliser sur le rôle des PBDs dans le financement du secteur WASH et la réalisation des objectifs climatiques et de biodiversité, présenter les problèmes de financement du secteur.
+
+        -Présenter le travail effectué par la Water Finance Coalition, les résultats de la recherche sur le rôle des PBDs, ainsi que des études de cas illustratives.
+
+        -Créer une dynamique de mobilisation à travers une déclaration d'engagement des membres de la Coalition sur le rôle crucial des PBD dans l'amélioration du financement de l'eau et de l'assainissement.
+
+        -Renforcer et élargir la communauté des PBD au sein de la Coalition pour le financement de l'eau, afin de poursuivre le partage des connaissances et des bonnes pratiques."
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

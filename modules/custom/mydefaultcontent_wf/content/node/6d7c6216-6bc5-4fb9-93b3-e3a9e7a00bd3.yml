@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6d7c6216-6bc5-4fb9-93b3-e3a9e7a00bd3
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    ef5ece3c-e9f9-4225-9a00-98d665973a05: taxonomy_term
+    8531babb-04b6-478b-8cdf-deea4275c883: taxonomy_term
+    62cff3b5-39b9-4da3-80ce-515e173bb7fb: taxonomy_term
+    3ba94a1b-28e0-4b0d-8e59-86283fd0ab5a: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    67aee449-f23f-4b09-b1ef-e06c7472eabe: taxonomy_term
+    8e6669b0-a94a-412f-a7e4-3dd565a6c931: taxonomy_term
+    17ac320e-2d57-462a-9796-f5f9ceec8cc9: taxonomy_term
+    7d458ca1-7e83-496f-859b-3db2f0a079da: taxonomy_term
+    0e6c641d-e686-47ac-aa51-67b05606a6b9: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water is politics: Professionalizing WASH Advocacy'
+  created:
+    -
+      value: 1647484836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-politics-professionalizing-wash-advocacy
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'WASH advocates from across Africa, Asia, Latin America and the Middle East will convene to discuss and debate best, worst, and promising practices in advocating for WASH in healthcare facilities and schools. How are advocates working with political leadership in their countries and communities to accelerate progress on WASH access? What are the challenges encountered, and what are the keys to successful advocacy? '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484836
+      guid: ''
+      hash: 1999eda09be733b093f0223303ade58a
+  field_code:
+    -
+      value: 2C2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: ef5ece3c-e9f9-4225-9a00-98d665973a05
+    -
+      entity: 8531babb-04b6-478b-8cdf-deea4275c883
+    -
+      entity: 62cff3b5-39b9-4da3-80ce-515e173bb7fb
+    -
+      entity: 3ba94a1b-28e0-4b0d-8e59-86283fd0ab5a
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 67aee449-f23f-4b09-b1ef-e06c7472eabe
+    -
+      entity: 8e6669b0-a94a-412f-a7e4-3dd565a6c931
+    -
+      entity: 17ac320e-2d57-462a-9796-f5f9ceec8cc9
+    -
+      entity: 7d458ca1-7e83-496f-859b-3db2f0a079da
+    -
+      entity: 0e6c641d-e686-47ac-aa51-67b05606a6b9
+  field_organisateurs_text:
+    -
+      value: |-
+        John Oldfield (formerly with Global Water 2020)
+        Water Youth Network
+        UNICEF
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Health and education stakeholders will be involved as well. '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        WASH Advocacy Trainings
+        WASH Advocacy Networks
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Panel Discussion – 45 minutes
+        -	Remarks from panelists 
+        -	1-2 brief videos 
+        Open roundtable – 45 minutes 
+        -	Potential “jumpstart” stories from participants 
+        -	Potential videos from participants unable to join in person
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -	More successful WASH advocacy outcomes in healthcare facilities, schools, and other institutions.
+        -	Stronger global, regional, and national WASH advocacy networks. 
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

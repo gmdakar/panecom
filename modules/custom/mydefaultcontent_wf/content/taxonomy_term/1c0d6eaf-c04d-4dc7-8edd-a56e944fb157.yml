@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1c0d6eaf-c04d-4dc7-8edd-a56e944fb157
+  bundle: motscles
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '-Territory'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /motscles/agenda/territory
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647485237

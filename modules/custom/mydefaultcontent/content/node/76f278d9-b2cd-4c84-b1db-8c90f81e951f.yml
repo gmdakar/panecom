@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 76f278d9-b2cd-4c84-b1db-8c90f81e951f
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    70c5b503-a4b4-42b7-bee4-5f2bb84b09dd: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    41f03213-4a69-43e2-bcec-6bad19a28e28: taxonomy_term
+    dc481087-091a-4796-90c4-65601b745100: taxonomy_term
+    eb2c1017-0f1d-44d4-a139-bc25788337d3: taxonomy_term
+    7637454d-11a3-474a-a924-221ee57477b0: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Address all kinds of water pollutions, including industrial pollutants and Contaminants of Emerging Concerns'
+  created:
+    -
+      value: 1647484828
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/address-all-kinds-water-pollutions-including-industrial-pollutants-and-contaminants-emerging
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Water is an essential constituent for humans, and for life. Polluted water is often identified as the main vector to infectious pathogens, toxins and organic contaminants, which can be associated with a large number of chronic diseases worldwide. In the past decades, growth of human population and human activities have not only increased the quantity of waste discharged into water bodies, but also introduced emerging substances, including pollutants of industrial source, pharmaceuticals or micro plastics. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484828
+      guid: ''
+      hash: 8f8215abdbc9260e987a0b171489935e
+  field_code:
+    -
+      value: 1B1
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 70c5b503-a4b4-42b7-bee4-5f2bb84b09dd
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 41f03213-4a69-43e2-bcec-6bad19a28e28
+    -
+      entity: dc481087-091a-4796-90c4-65601b745100
+    -
+      entity: eb2c1017-0f1d-44d4-a139-bc25788337d3
+    -
+      entity: 7637454d-11a3-474a-a924-221ee57477b0
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+  field_organisateurs_text:
+    -
+      value: |-
+        AFD & IWRA
+        Alice Colson 
+        Ignacio Deregibus
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Moderator : Mrs Alice Colson – AFD (F)
+        Club Jeunes representatives – IRD –(Y) 
+        Suez – Julien Dupont (M)
+        City Of Paris – Yann Bhogal (M) 
+        SUEN – Mrs Bilge Alpaslan Kocamemi(F) 
+        ONAS – Dr Papa Samba Diop (M) 
+        SIAAP – M. Joakim Giacomoni (M) 
+        WWQA - Nina Raasakka
+        Vito Be - Katrien Van Hooydonk (F)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        Project 1 - ONAS – Sénégal : Polluted groundwater recovery program to increase drinking water supply capacities and for economic activities in the city of Dakar, Senegal. 
+        Project 2 - AFD – France: reducing industrial pollution and launching a worldwide initiative to address it 
+        Project 3 - SIAAP – France: River rehabilitation in Manilla, Philippines
+        Project 4 – SUEN - Evaluation of Reuse of Used Water in Agriculture from the Covid-19 outbreak perspective 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        00:00 – Introduction : 
+        Club Jeunes IRD : About different water pollutions and their impact on health, ecosystems and the economy.  
+        00:05 – Framing the session by AFD moderator
+
+        00:07 Part 1 – IDENTIFY : identify sources of pollution, their nature, their origin
+        (5min) ONAS – of reinforcing sanitation systems to avoid groundwater pollution in Senegal – Dr Papa Samba DIOP
+        (5min) Suez Consulting -  RSDE (research and reduction of discharges of hazardous substances) initiative on micropollutants identification-  Pol’solutions  -  Julien Dupont
+
+        00:20 10 min discussion with the audience – what solutions do you know to identify sources of pollution? (on an app or on a paperboard)
+
+        00:30 Part II – MONITOR : Implement evaluation and monitoring mechanisms 
+        (5min) WWQA – World Water Quality Alliance, key findings - Nina Raasakka
+        (5min) SUEN – An overview to Turkey  nationwide Wastewater-based SARS-CoV-2 Epidemiology project: Routine Monitoring Covid-19 outbreak and future perspectives for emerging contaminants beyond Covid-19- Bilge Alpaslan Kocamemi
+        (5 min) VITO - How a holistic method to tackle emerging pollutants can prevent drowning - Katrien Van Hooydonk
+        00:40 10 min discussion – are current approaches sufficient to assess water quality? 
+
+        00:55 Part III – REDUCE : reduce the pollution load. When harm is done, what do we do? 
+        (5 min) City of Paris – Comparative approach to water quality for bathing in Dakar, Tokyo and Paris. Yann Boghal
+        (The implementation of solutions aimed at reducing the impact of pollution on the environment: curative approach with the example of the screen in Minato, preventive approach with the example of Paris Rain, aimed at limiting unit water discharges in the Seine when the network is saturated).
+        (5min) SIAAP – River Rehabilitation in the Philippines – Joakim GIACOMONI
+        (5min) 
+        1:15  10min discussion –How can we implement realistic standards and regulations for water pollutions? 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'The objective of this session focusing on water pollutions, including industrial pollutants and Contaminants of Emerging Concerns, is to provide existing solutions and case studies on how to address the issue of water pollution, and to raise awareness about new kinds of pollutants which are not yet taken -or barely- into account in regulations, laws and water treatments. This session will be a useful way to gather knowledge on how to identify, monitor, and tackle some specific sources of pollutants, as well as better understand the issue of emerging contaminants. '
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

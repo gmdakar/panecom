@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d08a49a-7bc7-4884-b884-fff21ef52f96
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    0b4c0654-312e-4ebe-9391-e8292b44422e: taxonomy_term
+    cb7cd304-5495-4e0a-ae81-c66dc1ed58c8: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    c7c3e062-06a1-47b4-a194-722a2a3d6dbc: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    ca1c17c1-89f3-49d6-b5d2-fa981e583f14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Enjeux et Priorités de l''Eau dans la mise en oeuvre de la Grande Muraille Verte'
+  created:
+    -
+      value: 1647486180
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/enjeux-et-priorites-de-leau-dans-la-mise-en-oeuvre-de-la-grande-muraille-verte
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le Sahel se caractérise par des conditions climatiques drastiques, sécheresses récurrentes, dégradation des terres, pauvreté, malnutrition, migrations forcées. L’Initiative Grande Muraille Verte a été crée face à ce contact avec vision, le rétablissement de la viabilité du capital naturel et des systèmes productifs des terroirs sahéliens et leur transformation en zone de prospérité économique parfaitement arrimés au tissu économique des pays. L’Initiative intègre les trois paradigmes Restauration / Développement / Sécurisation. L’enjeu de taille est la maîtrise des ressources en eau, ce qui implique nécessairement, une gestion plus efficiente de cette ressource vitale, facteur limitant de tout développement. Les pays de la GMV sont au-dessus du seuil de stress hydrique. Une étude faite par l’OSS en 2021 indique que le potentiel-eau est significatif au regard de la superficie de l’emprise par système aquifère mais qui est peu mobilisé et sous exploité. Cette question mérite un débat de haut niveau afin d’obtenir en retour, des orientations significatives car c’est une question primordiale. Les principaux objectifs du Side Event consistent à discuter de la problématique de l’eau dans la région sahélienne et en particulier dans le contexte de la GMV. Les panélistes qui sont des experts internationaux de très haut niveau aborderont les questions essentielles liées à cette ressource pour le Sahel et déclineront les meilleures perspectives en termes de son importance stratégique, maîtrise et gestion, mécanismes de mobilisation des ressources financières potentielles et d’améliorations envisageables des politiques nationales.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486180
+      guid: ''
+      hash: f739bedf89faa53181dbedc4a329c75f
+  field_code:
+    -
+      value: SE30
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'A titre indicatif, Prof Boubacar Barry du 9èFME, Nabil Ben Khatra Secrétaire Exécutif de l''OSS, Dr Abdelkader Dodo de l''OSS, Geoffroy Citegeste de Birdlife international, '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 0b4c0654-312e-4ebe-9391-e8292b44422e
+    -
+      entity: cb7cd304-5495-4e0a-ae81-c66dc1ed58c8
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: c7c3e062-06a1-47b4-a194-722a2a3d6dbc
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+  field_organisateurs_text:
+    -
+      value: 'Agence Panafricaine de la Grande Muraille Verte'
+      format: plain_text
+  field_salle:
+    -
+      entity: ca1c17c1-89f3-49d6-b5d2-fa981e583f14

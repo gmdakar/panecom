@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af2917f9-f6f0-42f7-bca4-f7d685ddd5f2
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    a5bbf249-f629-44e3-9d35-421ec047ec10: taxonomy_term
+    495a0903-5539-4142-8a99-ebdb4365b351: taxonomy_term
+    d60560ae-072b-46a2-9ed6-5d2d173b1c27: taxonomy_term
+    6efe73b7-b3c6-4f44-a6fc-0ff9b40ee216: taxonomy_term
+    f913ff33-910e-43a1-afe9-39b9d9c54814: taxonomy_term
+    45a2da9d-8d87-4ebe-a43e-b137fb67f06c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Progress- based finance for water security – Innovative approaches to supporting water sector framework and utility reforms'
+  created:
+    -
+      value: 1647486040
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/progress-based-finance-water-security-innovative-approaches-supporting-water-sector
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La gestion responsable des ressources en eau et l'accès universel à l'eau potable, à l'assainissement et à l'hygiène (WASH), tels qu'énoncés dans l'objectif de développement durable (ODD) 6, peuvent améliorer considérablement la santé publique, protéger l'environnement, réduire le risque de catastrophes (telles que celles causées par les pandémies et les événements climatiques extrêmes) et constituer le fondement d'un développement économique durable. Un cadre sectoriel favorable aux niveaux politique, institutionnel et réglementaire et des services d'eau et d'assainissement performants jouent tous un rôle essentiel dans la réalisation de la sécurité mondiale de l'eau. Pour de nombreuses sociétés d'eau dans le monde, la réalité actuelle est constituée de réglementations dysfonctionnelles et de niveaux de tarification insuffisants qui perpétuent un équilibre de faible niveau de performance. Le développement du secteur de l'eau lui-même et le développement des entreprises de services publics peuvent bénéficier de mécanismes de financement innovants, au-delà du financement des infrastructures par projet provenant des donateurs. Le financement lié à des incitations concrètes au changement est une occasion d'accélérer les réformes dans le secteur de l'eau et le redressement des opérations des services publics.
+        L'objectif de cette session est de partager des expériences et de recueillir des commentaires sur les mécanismes de financement innovants qui répondent aux défis mentionnés ci-dessus : Les prêts basés sur les politiques (PBL), le financement basé sur les résultats (RBF) et le financement d'entreprise pour les services d'eau et d'assainissement (" financement opérationnel ").
+        Les PBL, les WOP et potentiellement l'UWCF peuvent jouer un rôle de catalyseur dans la réalisation de divers autres ODD, tels que l'ODD 3 sur la santé, l'ODD 13 sur le climat ou l'ODD 11 sur les villes et communautés durables, ainsi que d'autres programmes de développement mondiaux, tels que l'Accord de Paris sur le climat, les contributions déterminées au niveau national et le Programme d'action d'Addis-Abeba sur le financement du développement.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486040
+      guid: ''
+      hash: 3151f8890363f0a04d4644c07b38a360
+  field_code:
+    -
+      value: SE36
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Moderator: Katrin Gronemeier, GIZ; 
+        Participants: Christopher Wenzel, BMZ; Detlef Klein, KfW; Stefan Gramel/Bernd Schönewald, KfW; Dieter Rothenberger, GIZ; DGIS/Dutch Embassy
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: a5bbf249-f629-44e3-9d35-421ec047ec10
+    -
+      entity: 495a0903-5539-4142-8a99-ebdb4365b351
+    -
+      entity: d60560ae-072b-46a2-9ed6-5d2d173b1c27
+    -
+      entity: 6efe73b7-b3c6-4f44-a6fc-0ff9b40ee216
+    -
+      entity: f913ff33-910e-43a1-afe9-39b9d9c54814
+  field_organisateurs_text:
+    -
+      value: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Ignite speech (8 minutes) by Christopher Wenzel, BMZ: Progress-based finance for water security – Innovative approaches to supporting water sector framework and utility reforms
+
+        Intervention I (8 minues) by Detlef Klein, KfW / Dieter Rothenberger, GIZ: Urban Water Catalyst Fund - Operational / Corporate Finance as novel approach to support water utility turnarounds and operator partnerships
+
+        Intervention II (8 minutes) by Stefan Gramel/Bernd Schönewald tbc, KfW: Policy-based Lending (PBL) and Results-based Financing (RBF) to improve sectoral framework conditions
+
+        Structured Discussion with panelists and participants (30 minutes): Brief comments / reactions by and questions to selected panelists: 
+        -	Utility representative, tbc 
+        -	Donor representative, tbc 
+        -	KFW, tbc
+        -	GIZ, tbc
+        Key questions: What shall be the nature and demand of operational / corporate fi-nance as well as PBL (compared to project-based and RB finance) from the per-spective of utility and development partners?  What are challenges in implementing such type of finance?
+
+        Closing remarks (6 minutes) by DGIS/Dutch Embassy (tbc)
+      format: plain_text
+  field_salle:
+    -
+      entity: 45a2da9d-8d87-4ebe-a43e-b137fb67f06c

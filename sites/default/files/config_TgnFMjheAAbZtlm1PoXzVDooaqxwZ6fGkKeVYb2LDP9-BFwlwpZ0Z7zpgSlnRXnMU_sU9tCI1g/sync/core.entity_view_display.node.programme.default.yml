@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.programme.field_code
     - field.field.node.programme.field_date
     - field.field.node.programme.field_duree
+    - field.field.node.programme.field_expected_speakers
     - field.field.node.programme.field_groupes_d_actions
     - field.field.node.programme.field_horaire
     - field.field.node.programme.field_legende
@@ -46,7 +47,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 11
     region: content
   field_code:
     type: string
@@ -73,13 +74,20 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
+  field_expected_speakers:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 21
+    region: content
   field_groupes_d_actions:
     type: entity_reference_label
     label: above
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 16
+    weight: 17
     region: content
   field_horaire:
     type: entity_reference_entity_view
@@ -104,7 +112,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 14
+    weight: 15
     region: content
   field_mot_s_cle_s_:
     type: entity_reference_entity_view
@@ -113,7 +121,7 @@ content:
       view_mode: default
       link: true
     third_party_settings: {  }
-    weight: 8
+    weight: 9
     region: content
   field_organisateurs:
     type: entity_reference_label
@@ -121,7 +129,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 9
+    weight: 10
     region: content
   field_organisateurs_text:
     type: text_default
@@ -143,14 +151,14 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 12
+    weight: 13
     region: content
   field_priority_text:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 13
+    weight: 14
     region: content
   field_pro:
     type: text_default
@@ -164,21 +172,21 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 17
+    weight: 8
     region: content
   field_questions_cles:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 15
+    weight: 16
     region: content
   field_resultats_attendus_impacts:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 11
+    weight: 12
     region: content
   field_salle:
     type: entity_reference_entity_view

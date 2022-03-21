@@ -1,0 +1,161 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6152f161-efe5-47bf-a8aa-e893f156a5d4
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0b073729-8858-4017-8170-e60ce0ca01f1: taxonomy_term
+    e30413f9-8e70-4d55-8223-eb454165649a: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    ceffcd48-6f48-4848-91bb-ddc45124af7c: taxonomy_term
+    7e83079e-ea23-4c9b-8f21-dd71f52a3b83: taxonomy_term
+    1863c5c9-bc9f-42f8-acc4-be9f3a44c759: taxonomy_term
+    c4c29906-a874-4cfd-ace0-3776763791e4: taxonomy_term
+    f075c372-4720-4a0e-ab11-bb84f926daae: taxonomy_term
+    2aa61004-6d94-43e5-b814-041e53df1c0b: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Les changements dont nous avons besoin dans le secteur de l''eau : Donner la parole aux groupes vulnérables'
+  created:
+    -
+      value: 1647484964
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/les-changements-dont-nous-avons-besoin-dans-le-secteur-de-leau-donner-la-parole-aux-groupes
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'En apportant des témoignages de leaders communautaires, de femmes, de jeunes et de communautés indigènes de différents continents sur la façon dont ils traitent l''accès à l''eau, comment ils la gèrent, comment ils participent aux processus décisionnels liés à l''eau et comment ils changeraient le secteur de l''eau d''aujourd''hui.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484964
+      guid: ''
+      hash: 88ba57b45d0a3b68e139628deba2956c
+  field_code:
+    -
+      value: 4B4
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0b073729-8858-4017-8170-e60ce0ca01f1
+    -
+      entity: e30413f9-8e70-4d55-8223-eb454165649a
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: ceffcd48-6f48-4848-91bb-ddc45124af7c
+    -
+      entity: 7e83079e-ea23-4c9b-8f21-dd71f52a3b83
+    -
+      entity: 1863c5c9-bc9f-42f8-acc4-be9f3a44c759
+    -
+      entity: c4c29906-a874-4cfd-ace0-3776763791e4
+    -
+      entity: f075c372-4720-4a0e-ab11-bb84f926daae
+    -
+      entity: 2aa61004-6d94-43e5-b814-041e53df1c0b
+  field_organisateurs_text:
+    -
+      value: |-
+        ISW
+        MTES 
+        SWE
+        Coalition eau
+        WYPW 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |+
+        •	REFELA (network of elected women leaders in Africa) – TBC
+        •	Presidente des Jeunes Professionnels de l’Eau (Sénégal) - TBC
+        •	leader of the side event on youth at WWF9 (Spain) – TBC
+        •	President of the WYPW (World Youth Parliament for Water)
+        •	VicePresident of the WYPW (World Youth Parliament for Water) 
+        •	President of the Haitian Youth Parliament for Water and Sanitation. 
+
+        Representatives of indigenous communities: 
+        •	Mohawk Council of Akwesasne (Canada-USA), 
+        •	Quispillacta Ayacucho Quechua Communnity (Peru), 
+        •	Chaco Guarani Federation (Paraguay-Brazil), 
+        •	Senu Nuevo Caribea Indigenous Community (Colombia), 
+        •	Otomi Indigenous Community (Mexico).
+
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "L'effet papillon
+        Parlement mondial des jeunes pour l'eau
+
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " La session sera modérée par le SWE, le ISW ou la Coalition Eau, et sera provisoirement divisée en 2 parties (à confirmer lors de la production de la vidéo) :
+
+        - Discours liminaire (10 min)
+        - Partie 1. Des témoignages qui revendiquent le changement (30 minutes)
+        Présentation de témoignages audio-visuels de pays en développement.
+        - Partie 2. Canaliser les témoignages vers le changement - Comment ? (30 minutes)
+        4 panélistes - pour la plupart des spécialistes du secteur de l'eau - auront 5 minutes pour présenter les résultats clés des témoignages et suggérer comment ils pourraient les influencer (20 min).
+        - Q&R (10mn).
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " - Un site web libre de droits pour télécharger tous les témoignages 
+        - Un document contenant des recommandations politiques à l'intention des décideurs
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

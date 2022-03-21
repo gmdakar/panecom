@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d4b45dc7-4dd2-4de3-946d-20e0bb22bd10
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    9fc07054-726a-4c97-9a45-70c4a8aa7dd5: taxonomy_term
+    a08812b7-62d4-4e51-baf7-8c40ef0490ad: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    30fa15bb-09ab-47a2-bd53-104a79f65ae5: taxonomy_term
+    23e5ee28-0a9e-4314-8a44-4573cc339cec: taxonomy_term
+    407889f6-e01d-4f5a-aaa7-73bc3baa7e61: taxonomy_term
+    984a1906-45be-49b2-92cd-b6f0e4e621b3: taxonomy_term
+    9fe63eda-7de3-428d-b34b-efd3fc59f98c: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Effective multi- stakeholders platforms at local level for universal CITY WIDE INCLUSIVE SANITATION service delivery'
+  created:
+    -
+      value: 1647484854
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/effective-multi-stakeholders-platforms-local-level-universal-city-wide-inclusive-sanitation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Setting up a multi-stakeholders platform at local level for : 
+        ?	Stakeholders engagement 
+        ?	CWIS planning, implementation and monitoring
+        ?	Fund raising, budget allocation, accountability and integrity in the WASH services  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484854
+      guid: ''
+      hash: d0c4b8b8a8b2e54683a7ec226767c9d2
+  field_code:
+    -
+      value: 4D2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 9fc07054-726a-4c97-9a45-70c4a8aa7dd5
+    -
+      entity: a08812b7-62d4-4e51-baf7-8c40ef0490ad
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 30fa15bb-09ab-47a2-bd53-104a79f65ae5
+    -
+      entity: 23e5ee28-0a9e-4314-8a44-4573cc339cec
+    -
+      entity: 407889f6-e01d-4f5a-aaa7-73bc3baa7e61
+    -
+      entity: 984a1906-45be-49b2-92cd-b6f0e4e621b3
+    -
+      entity: 9fe63eda-7de3-428d-b34b-efd3fc59f98c
+  field_organisateurs_text:
+    -
+      value: |
+        AfWA
+        Speak Up Africa
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        -	Global network of cities and local, regional, and metropolitan governments and their associations (UCLG)
+        -	Worldwide network of French-speaking local elected officials and their associations (AIMF)
+        -	Water Integrity Network (WIN)
+        -	Speak Up Africa
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: 'Establish and support the operationalization of a global platform of local governments for the implementation of SDG 6 of sustainable development with a focus on inclusive sanitation.'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        -	01h30-02h00 : Participants’ registration
+        -	02h00-02h05 : Opening remarks - AfWA
+        -	02h00-02h05 : Opening remarks - TBD
+        -	02h05-02h10 : The situation of the management of sanitation issues by municipalities 
+                in French-speaking Africa - Local council
+        -	02h10-02h15 : The situation of the management of sanitation issues by municipalities in English-speaking Africa - Mayor 
+        -	Discussing Challenges and Solutions-Panel Discussion  with Mayors
+        -	03h10-03h15 : Review of the mayors engagement taken during the first mayors' forum held in Bamako at the AFWA congress – AfWA
+        -	03h15-03h25: 2019 Cape Town Call: Building an active, impactful and structured network of, by and for mayors. Amplify a united regional voice for cities and their residents. Enhance cooperation between city representatives – Speack up africa
+        -	03h25-03h30 : Closing remarks- Mayor
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -	Stakeholders mobilization and Engagement towards 
+        -	African Local Authority Declaration on CWIS signed 
+        -	Follow-up of implementation by AfWA
+        -	Organization of Capacity Building and experience exchange events for Local Authorities stakeholders  
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

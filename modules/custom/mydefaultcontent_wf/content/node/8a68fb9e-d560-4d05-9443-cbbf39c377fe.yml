@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8a68fb9e-d560-4d05-9443-cbbf39c377fe
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    0a2afbfa-169c-4d7f-8ddf-5477f88e4853: taxonomy_term
+    5a9ba4f4-8555-4a42-a8ef-4598b88cdbca: taxonomy_term
+    7bf5f92c-c76f-4851-be2b-f0afa6316052: taxonomy_term
+    c2fc72fe-e1f2-414f-9abc-c196d7bbe20b: taxonomy_term
+    a45aa13c-792f-49b9-b56b-f2098d0aee70: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gestion Intégrée des Ressources en Eau (GIRE) dans les zones d’extraction minière en Afrique de l’Ouest'
+  created:
+    -
+      value: 1647485809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gestion-integree-des-ressources-en-eau-gire-dans-les-zones-dextraction-miniere-en-afrique-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Le développement de l’activité minière en Afrique de l’ouest est sans précédent depuis les années 2000. Les filières artisanales et semi-industrielles impliquent plus de 6 millions de personnes. Ce nombre augmente régulièrement. Des revenus importants sont perçus. Toutefois sont générés des tensions sociales et des impacts environnementaux considérables, déclinés à différentes échelles spatiales et temporelles, qu’il convient de mieux comprendre afin d’y apporter des solutions durables de maîtrise construites et acceptées par l’ensemble des acteurs. 
+        La gestion intégrée des ressources en eau des territoires miniers, ainsi que la qualité de l’eau, des effluents issus du traitement des minerais ou de l’exposition des déchets issus de l’activité minière active ou passée est un enjeu majeur de vie et de santé publique. Opérateurs privés, publics, collectivités, populations sont fortement concernés à l’échelle territoriale au-delà même du strict périmètre des zones exploitées. La construction de solutions viables pour adresser les problématiques complexes soulevées demande la mise en place de nouveaux paradigmes scientifiques, basés sur un dialogue multi-acteurs, pluri et interdisciplinaires, sur une recherche participative et sur une science ouverte et partagée.
+        Conduite en anglais et en français, l’objectif de cette table ronde sera d’aborder les problématiques, méthodologies, innovations et perspectives permettant de proposer des pistes de solutions viables, dont celles inspirées par la nature, pour mieux connaître, préserver ou restaurer les hydro-éco-systèmes, pour garantir une meilleure gestion quantitative et qualificative de la ressource « eaux » des bassins miniers en Afrique de l’Ouest et dans le contexte mondial des urgences et des transitions.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485809
+      guid: ''
+      hash: d9320f7370d913ebff3c857f1a9145e0
+  field_code:
+    -
+      value: SS09
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 0a2afbfa-169c-4d7f-8ddf-5477f88e4853
+    -
+      entity: 5a9ba4f4-8555-4a42-a8ef-4598b88cdbca
+    -
+      entity: 7bf5f92c-c76f-4851-be2b-f0afa6316052
+    -
+      entity: c2fc72fe-e1f2-414f-9abc-c196d7bbe20b
+    -
+      entity: a45aa13c-792f-49b9-b56b-f2098d0aee70
+  field_organisateurs_text:
+    -
+      value: 'Institut de Recherche pour le Développement (IRD)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Une session de 90 minutes est proposée. Elle sera séquencée de la manière suivante: 
+
+        Session 1: Les grands enjeux scientifiques régionaux pour une GIRE dans les zones d’extraction minières en Afrique de l’ouest. 20 minutes d’échanges entre 4 intervenants et 10 minutes de questions/réponses. 
+
+        Cette première session aura pour objectif de cartographier des principaux sites miniers par type d’exploitation en Afrique de l’ouest et les impacts sur la ressource en eau. Il s’agira de présenter les principales problématiques de développement économique et humain associées. Le panel sera constitué de deux représentants des acteurs académiques (Harouna Karambiri - 2iE, Alphonse Yao - INPHB), d’une représentante des acteurs publics (Dr. DIENE SAMBA ROKHAYA, Directrice de la Géologie du Sénégal, un représentant d’un acteur privé BAMBA ZAKARI, ¨Président du Syndicat des producteurs miniers et acheteurs de l’UEMOA et d’un représentant de la société civile (à identifier). 
+        Session 2: Vers un dialogue multi-acteurs pluridisciplinaire. 20 minutes d’échanges entre 4 intervenants et 10 minutes de questions/réponses. 
+        Une deuxième session abordera la problématique du manque de dialogue entre acteurs impliqués dans la problématique et comment passer d’une organisation en silo à un dialogue multi-acteurs permettant la co-construction de pratiques et d’une réglementation adaptée aux contextes. Le panel sera constitué de M. Emile Kaboré (Chef de Division  mines et hydrocarbures de l’UEMOA), M. Lamine Seydou Traoré Ministre des mines, de l’eau et de l’energie  du Mali (à confirmer), de M. Felix Abagale (Directeur du centre d’excellence WACWISA UDS, Ghana), M. Daouda Mama (Directeur C2EA, Bénin) et d’un représentant d’une société minière (à identifier).  
+        Session 3: Présentations des solutions innovantes pour une meilleure GIRE en territoires miniers. 20 minutes d’échanges entre 4 intervenants et 10 minutes de questions/réponses. 
+         Cette dernière session viendra clôturer notre session par une présentation concrète des solutions existantes pour une meilleure gestion des ressources en eau en territoires miniers. Ces solutions, basées sur la science, doivent être partagées, testées et mises à l’échelle pour atteindre nos objectifs de développement durable. Les panélistes seront M. Fabrice Colin (IRD), Mme. Diaka Sidibé (Ministre de l’enseignement supérieur et de la recherche de Guinée), M. Bernard Alando (CEA RWESCK), Mme. Marie Thérèse Laguerre (Véolia à confirmer).
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 60b9000c-6933-42a2-95eb-48ad0fd94325
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    6fc048bc-e83c-4cca-89fe-fd6ba1c59416: taxonomy_term
+    f26f163a-6815-450d-87fa-0fb63396a656: taxonomy_term
+    ff979a46-d06b-42fd-8ed2-eee7fb3db24d: taxonomy_term
+    b6f5922b-d41a-44a4-821b-328709e8a533: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rendre l''invisible visible : Catalogue des eaux souterraines pour des interventions éclairées en matière d''élaboration de politiques et de gestion'
+  created:
+    -
+      value: 1647485809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rendre-linvisible-visible-catalogue-des-eaux-souterraines-pour-des-interventions-eclairees-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le processus de gouvernance et de gestion des eaux souterraines implique l'identification des dispositions légales, réglementaires et institutionnelles requises pour établir la tutelle publique et la responsabilité collective des ressources en eau souterraine, et pour introduire des mesures de gestion technique avec l'intégration des parties prenantes et la coordination intersectorielle. En raison de la diversité et de la complexité des problèmes liés à l'eau, il est souvent difficile d'identifier le rôle des eaux souterraines et de l'intégrer de manière adéquate dans le processus décisionnel. En outre, les décideurs et les gestionnaires n'ont pas toujours une vue d'ensemble suffisante des outils, mesures et instruments qui pourraient être appliqués dans des questions spécifiques et complexes. 
+        Cette session spéciale portera sur le renforcement de l'interface science-politique-pratique en utilisant le nouveau catalogue développé pour faciliter ce processus.
+        Le catalogue sur la gestion des eaux souterraines a pour but de mieux fournir des informations sur les outils, mesures et instruments de gestion des eaux souterraines, englobant l'offre et la demande, la protection des eaux souterraines et la participation des parties prenantes. Le catalogue permettra aux responsables politiques et aux décideurs de mieux explorer les solutions appropriées aux problèmes complexes des eaux souterraines, sur la base de fiches d'information, d'études de cas et de références. 
+        L'objectif de la session est d'impliquer activement les responsables politiques et les décideurs en matière d'eaux souterraines dans le développement et la vérification du catalogue.  Cette session interactive sur place est nécessaire pour attirer les futurs co-développeurs et utilisateurs du Catalogue. Le résultat de la session fournira le contenu nécessaire à la continuité du processus. En fin de compte, les utilisateurs finaux s'approprieront le catalogue et veilleront à son amélioration (comme dans le cas de Wikipedia).   
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485809
+      guid: ''
+      hash: 55a69fde5bf45f9bbaacced341cfebaa
+  field_code:
+    -
+      value: SS04
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 6fc048bc-e83c-4cca-89fe-fd6ba1c59416
+    -
+      entity: f26f163a-6815-450d-87fa-0fb63396a656
+    -
+      entity: ff979a46-d06b-42fd-8ed2-eee7fb3db24d
+    -
+      entity: b6f5922b-d41a-44a4-821b-328709e8a533
+  field_organisateurs_text:
+    -
+      value: 'IGRAC  (Global Groundwater Centre of UNESCO)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "Remarques d'ouverture (A. Aureli - science ; Repr. EPA) - 10min
+        - Introduction à un catalogue des eaux souterraines (y compris un exemple sur les aquifères côtiers) - 15 min
+        - Introduction à une discussion de groupe, panélistes, objectifs - 5 min
+        - Sujets du panel 30min - sur : 
+        o Questions sociétales et environnementales et le rôle des eaux souterraines dans le Catalogue 
+        o Mesures de gestion /Gestion de la demande, Gestion de l'offre, Protection de la qualité, Participation des parties prenantes
+        o Développement technique ultérieur du Catalogue (priorités, par exemple interface utilisateur, amélioration du contenu, participation des utilisateurs...), développements similaires      
+        - Questions du public (probablement en ligne) - 15 min. 
+        - Conclusion et clôture - 10min"               
+             
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

@@ -1,0 +1,176 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d1edb72e-8bd3-44b1-b7fb-db8616dfdd97
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    cdc34610-6841-4f97-bc0c-eb00e3f6f226: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    27656fbf-78ad-4f0a-a34c-d88f0fb412aa: taxonomy_term
+    7745f892-7ca2-4ec8-8063-78f0a0cbc48a: taxonomy_term
+    5b26fc6a-5480-4565-aee6-1cb9ac5289c2: taxonomy_term
+    bb911cc9-55d7-45a6-bee0-b2145ab79600: taxonomy_term
+    863ee882-4413-4b4a-885f-057ba3034d2c: taxonomy_term
+    986c379f-8188-4667-9742-cdfab1871354: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'De nouveaux paradigmes pour rendre les eaux productives pour les agriculteurs'
+  created:
+    -
+      value: 1647484949
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/de-nouveaux-paradigmes-pour-rendre-les-eaux-productives-pour-les-agriculteurs
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''objectif global est de donner aux petits exploitants agricoles les moyens, grâce à de nouveaux paradigmes, d''économiser l''eau en utilisant les eaux de pluie sales, les eaux usées domestiques ou les eaux salines. Ces eaux abandonnées pourraient être utilisées pour rendre équitable l''accès aux eaux productives. Cette session fournira des outils pour transformer les eaux économisées en une ressource productrice de richesse. L''accès raisonné à l''eau de pluie et aux eaux usées représente un atout économique innovant majeur pour renforcer la petite agriculture dans les systèmes ruraux et périurbains.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484949
+      guid: ''
+      hash: e8d38299f870ff50ce5b62685ef29163
+  field_code:
+    -
+      value: '2E2'
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: cdc34610-6841-4f97-bc0c-eb00e3f6f226
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 27656fbf-78ad-4f0a-a34c-d88f0fb412aa
+    -
+      entity: 7745f892-7ca2-4ec8-8063-78f0a0cbc48a
+    -
+      entity: 5b26fc6a-5480-4565-aee6-1cb9ac5289c2
+    -
+      entity: bb911cc9-55d7-45a6-bee0-b2145ab79600
+    -
+      entity: 863ee882-4413-4b4a-885f-057ba3034d2c
+    -
+      entity: 986c379f-8188-4667-9742-cdfab1871354
+  field_organisateurs_text:
+    -
+      value: |+
+        IRD : Dr Didier ORANGE,
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |+
+        Secours Islamique Français (SIF)
+        LATEU (IFAN, UCAD)
+        Solidarity Foundation University of Barcelona (FSUB)
+        INRAe
+        ADED (Geneva, Switzerland)
+        MASCARA (France, Sénégal)
+        CORAIL DEVELOPPEMENT (Lyon, France): Alain Tidière a.tidiere@corail-developpement.org , 
+        AMETEN (Grenoble, France): Ludovic Le Contellec l.lecontellec@ameten.fr , Khalid Alami k.alami@ameten.fr 
+        SUEZ International: Mohamed Nadah mohamed.nadah@suez.com  , Flabia Mestre flabia.mestre@suez.com , Alejandra Suarez Aller alejandra.suarez@suez.com 
+        FiltrePlante: Michaël Orange michael@filtreplante.com 
+        UN-HCR : Pierre-Yves Rochat rochat@unhcr.org , Marc-André BUNZLI marc-andre.buenzli@eda.admin.ch 
+        Young International: Oscar Alejandro Luna Alvarez oscarlunavzla18@gmail.com 
+        INOWASIA (Erasmus+): Ignasi Rodriguez-Roda ignasi.rodriguezroda@udg.edu ,  Antonina Torrens antoninatorrens@ub.edu ,  Magali Gérino  magali.gerino@univ-tlse3.fr ,  Didier Orange didier.orange@ird.fr , Coco Gonzalez (PI INOWASIA) coco.inowasia@udg.edu
+        EPURTEK: Dan Tam Costa dan@epurtek.fr 
+        FiltrePlante: Michaël Orange michael@filtreplante.com 
+        ENDA-Pronat (DyTAES): Jean-Michel Sene sjanmichel@yahoo.fr  ,  Laure Brun-Diallo lor_brun@yahoo.fr 
+
+
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "Un dépliant reprenant tous les projets inclus (des intervenants et des panélistes) sera imprimé. Au moins, voici la liste des projets des 5 intervenants invités :
+
+        - Laura Le Floch (SIF, France : Gaza)
+        Amélioration de la gestion des ressources en eau à usage domestique et agricole par le recyclage des eaux usées à Gaza
+        Amélioration de la gestion des ressources en eau pour l'usage domestique et agricole à travers le recyclage des eaux usées à Gaza
+
+        - Pascal Breil (INRAe, France : Egypte)
+        Réutilisation des eaux usées et collecte des précipitations dans les zones périurbaines des pays arides pour relancer la production vivrière des petits exploitants (ville d'Alexandrie, Egypte)
+
+        - Michaël Orange (TPE FiltrePlante, Sénégal) et Pierre-Yves Rochat (UN-HCR, Sénégal)
+        Assainissement durable et réutilisation des eaux usées pour la création d'espaces verts dans les camps de réfugiés
+
+        - Rémi Lombard-Latune (INRAe, France)
+        Approche participative pour la mise en œuvre de l'approche multi-barrières promue par l'OMS
+
+        - Maxime Therrillion (MASCARA, France : Sénégal)
+        Technologie OSMOSUN, dessalement 100% solaire pour l'irrigation
+
+        - Mohamed Nadah (SUEZ International, France)
+        Smart Village : développer un environnement socio-économique durable pour les populations rurales
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: 'Il est prévu de partager la discussion autour de 6 introductions de 5 mn chacune fixant le cadre technique ou thématique. Nous disposons actuellement de 5 exemples. '
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Cette session se veut un plaidoyer pour le changement de paradigme sur les actions d'économie d'eau pour assurer l'intensification durable de l'agriculture et la sécurité alimentaire et nutritionnelle en Afrique de l'Ouest. 
+
+        Le message politique clé est le suivant : Donner aux petits exploitants agricoles les moyens d'agir grâce à de nouveaux paradigmes d'utilisation des eaux usées et des eaux de pluie pour faciliter l'accès durable et équitable aux eaux productives et réduire les prélèvements dans la nappe phréatique pour les besoins de l'irrigation et améliorer les facteurs environnementaux, en ce qui concerne les actions politiques concrètes suivantes : 
+
+        1. Plaider pour l'amélioration de la gouvernance mondiale et locale de l'eau en conjonction avec les structures traitant des questions d'alimentation et d'agriculture, par la création d'une structure intergouvernementale sur l'eau et l'alimentation dans le cadre de l'ONU et approuvée par les États membres.
+
+        2. Accélérer les actions pour l'assainissement autonome et la récupération et la réutilisation des eaux usées domestiques et des eaux de pluie sales afin de protéger les ressources en eau au niveau local pour des eaux plus et mieux productives et une production verte.
+
+        3. Il peut s'agir de : Ajuster les droits/taxes sur les technologies et pratiques d'économie d'eau pertinentes ; Intégrer la formation sur les technologies et pratiques durables d'économie d'eau dans les programmes agricoles ; Promouvoir largement, avec la vulgarisation et les démonstrations, l'utilisation de technologies et pratiques d'économie d'eau durables par le biais d'un enseignement innovant dans les universités (Problem Based Learning #PBL, Living Lab #LL, Nature Based Solutions #NBS) ; Fournir des " subventions intelligentes " pour augmenter l'adoption et l'utilisation de technologies et de pratiques d'économie d'eau pertinentes pour les petits exploitants ; fournir des " garanties de prêt " aux institutions financières qui financent les technologies d'économie d'eau pour les petits exploitants ; créer de nouveaux cadres politiques et/ou institutions qui promeuvent, surveillent et/ou réglementent l'utilisation durable des ressources locales en eau, etc.
+
+        4. Introduire des politiques, une éducation, des structures et un financement au niveau national qui favorisent l'adoption et l'utilisation généralisées de technologies d'économie d'eau permettant aux petits exploitants d'utiliser durablement les eaux de surface sales et les eaux salines pour irriguer leurs exploitations et augmenter leurs rendements et leurs revenus tout au long de l'année. 
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

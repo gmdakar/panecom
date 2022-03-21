@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2aa31577-7134-4d0c-b893-8992d2f3263a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    6eabd673-b1eb-475c-9507-c5c951880c53: taxonomy_term
+    5dfeb666-0fcf-46b7-b258-74ed6b0327bd: taxonomy_term
+    7fbff67b-6ab0-4d0a-bc36-5a9f3dd8a78d: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    cf69fe29-c595-49b7-b2c3-8a3ec84212f0: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le pouvoir des partenariats entre pairs : le programme WOP de l''UE'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-pouvoir-des-partenariats-entre-pairs-le-programme-wop-de-lue-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le programme EU-WOP est une initiative de quatre ans, dirigée par l'Alliance mondiale des partenariats entre opérateurs de l'eau (GWOPA) d'ONU-Habitat et financée par la Commission européenne IntPA. Le programme permet à vingt-deux projets de partenariats internationaux d'opérateurs de l'eau, impliquant plus de 50 organisations partenaires en Afrique, en Asie et en Amérique latine au cours des trois prochaines années, de renforcer les capacités et les performances des services publics avec le soutien de leurs pairs. 
+        Au cours de la session, des fournisseurs de services d'eau et d'assainissement de première ligne de différentes parties du monde expliqueront comment ils travaillent, par le biais de partenariats et de soutien par les pairs, pour développer les connaissances et co-créer des solutions à leurs plus grands défis. La session dynamique et interactive cherchera à donner de la visibilité à cet important programme financé par l'UE tout en impliquant un large éventail géographique et de parties prenantes pour répondre aux questions suivantes : 
+        - Comment les projets EU-WOP renforcent-ils les capacités des compagnies d'électricité et améliorent-ils leurs performances ? 
+        - ? Comment les projets EU-WOP aident-ils les compagnies à accéder au financement et à faire le meilleur usage des investissements dont elles ont besoin ?
+        - Comment les gouvernements, les ONG et les institutions financières peuvent-ils se connecter à ces partenariats et leur apporter une valeur ajoutée ?
+        - Comment les WOPs (Water Operators' Partnerships) changent-ils la donne en matière de coopération dans le domaine de l'eau ? Les WOPs peuvent-ils aider à évoluer vers des partenariats plus axés sur la demande, co-créés, axés sur les capacités, liés aux investissements et durables ? Quelles perspectives pour la coopération Sud-Sud ? 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 6fd9cee4857ddce2576cc9ff97758b57
+  field_code:
+    -
+      value: SS20
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 6eabd673-b1eb-475c-9507-c5c951880c53
+    -
+      entity: 5dfeb666-0fcf-46b7-b258-74ed6b0327bd
+    -
+      entity: 7fbff67b-6ab0-4d0a-bc36-5a9f3dd8a78d
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: cf69fe29-c595-49b7-b2c3-8a3ec84212f0
+  field_organisateurs_text:
+    -
+      value: 'GWOPA/UN-Habitat (United Nations)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        " AGENDA
+        Ouverture (20 minutes)
+        - Perspectives sur les partenariats pour des services publics durables ,Commission européenne DG Intpa
+        - Une vue à vol d'oiseau sur le programme EU-WOP de l'ONU-Habitat GWOPA
+        - Vidéo du programme EU-WOP
+
+        Les nouveaux partenariats entre opérateurs de l'eau (WOPs) - Interviews (65 minutes)
+        - La(les) nature(s) des EU-WOPs - Peer to peer, diverses constellations, Nord-Sud et Sud-Sud, accent sur les capacités, partenariats sains.
+        - Focus WOP - Quels sont les défis opérationnels, financiers, environnementaux et sociaux que les WOPs aident les compagnies à relever ? Quelles sont les innovations qui émergent ?
+        - Effet de levier des améliorations - comment les projets WOP de l'UE mobilisent-ils les financements ? Catalysent-ils les changements sectoriels ? Stimulent-ils l'innovation pour des services plus verts et plus inclusifs ?
+
+        Moment de lancement et clôture de la session (5 minutes)
+        "
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

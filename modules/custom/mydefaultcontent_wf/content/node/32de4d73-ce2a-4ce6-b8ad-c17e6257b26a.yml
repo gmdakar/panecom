@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 32de4d73-ce2a-4ce6-b8ad-c17e6257b26a
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    da3fcf81-f2fb-45a6-ba5e-981162a2f387: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    1bc310ab-0296-49e5-8354-e8d68fbdcb9b: taxonomy_term
+    81a6e209-9ad3-4711-86ae-8acd115fd604: taxonomy_term
+    4119e959-2d33-41ab-b27a-b9d1fd8cfbaf: taxonomy_term
+    104aba1a-ea05-497d-8dc7-64400b04d40c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'INBO World General Assembly Statutory Session'
+  created:
+    -
+      value: 1647486048
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/inbo-world-general-assembly-statutory-session
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        On Tuesday, 22nd of March, from 5 pm to 6 pm. 
+        1. Opening by Mr. Nizar Baraka, Minister of Equipment and Water of the Kingdom of Morocco, President of INBO
+        2. Presentation of the 2019-2021 activity report
+        3. Extension of the Presidency of the Kingdom of Morocco until the General Assembly of 2024
+        4. Presentation of the 2019-2021 budget report
+        5. Renewal of the mandate of the INBO Auditor
+        6. Presentation of the candidacy of the host country of the general assembly of 2024
+        7. Conclusions by the Presidency (Morocco) 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486048
+      guid: ''
+      hash: 638d5c29cdab43718f812a3316a55ba3
+  field_code:
+    -
+      value: SE5
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        1. Mr. Nizar Baraka, Minister of Equipment and Water of the Kingdom of Morocco, President of INBO
+        2. Dr. Eric Tardieu, Secretary General of INBO
+        3. Mr. Manuel Sapiano, Chief Executive Officer, Energy and Water Agency, Malta President of Europe-INBO
+        4. Mr. Ramiro Martinez Costa, Secretary of the Mediterranean Network of Basin Organizations (MENBO)
+        5. Ms. Judith Enaw, President, African Network of Basin Organizations (ANBO)
+        6. Ms. Michéla Adin, Secretary of the North American Network of Basin Organizations (NANBO)
+        7. Ms. Dinara Ziganshina, Secretary, Eastern Europe, Caucasus, and Central Asia Network of Water Management Organizations (EECCA-NWO)
+        8. M. Lupercio Ziroldo Antonio, President, Latin American Network of Basin Organizations (LANBO)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: da3fcf81-f2fb-45a6-ba5e-981162a2f387
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: 1bc310ab-0296-49e5-8354-e8d68fbdcb9b
+    -
+      entity: 81a6e209-9ad3-4711-86ae-8acd115fd604
+    -
+      entity: 4119e959-2d33-41ab-b27a-b9d1fd8cfbaf
+  field_organisateurs_text:
+    -
+      value: 'International Network of Basin Organizations (INBO), International Non-Governmental Organisations (INGOs)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1. Opening by Mr. Nizar Baraka, Minister of Equipment and Water of the Kingdom of Morocco, President of INBO, 10 min
+        2. Presentation of the 2019-2021 activity report, 10 min
+        3. Extension of the Presidency of the Kingdom of Morocco until the General Assembly of 2024, 5 min
+        4. Presentation of the 2019-2021 budget report, 5 min
+        5. Renewal of the mandate of the INBO Auditor, 5 min
+        6. Presentation of the candidacy of the host country of the general assembly of 2024, 5 min
+        7. Q&A, exchanges between participants, 15 min
+        8. Conclusions by the Presidency (Morocco), 5 min
+      format: plain_text
+  field_salle:
+    -
+      entity: 104aba1a-ea05-497d-8dc7-64400b04d40c

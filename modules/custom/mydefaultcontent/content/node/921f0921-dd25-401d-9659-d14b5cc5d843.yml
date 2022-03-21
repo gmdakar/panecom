@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 921f0921-dd25-401d-9659-d14b5cc5d843
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    5d9b9cb4-0949-4c79-90d1-97b3b4b100b3: taxonomy_term
+    0e75e89f-550b-4ca1-8018-21db86fd9fb8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innovations TIC en matière d''assainissement pour une prestation efficace des services d''assainissement - Expériences en Ouganda'
+  created:
+    -
+      value: 1647486182
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/innovations-tic-en-matiere-dassainissement-pour-une-prestation-efficace-des-services
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le panel "ICT Sanitation innovations for effective sanitation service delivery- sharing experiences from Uganda" vise à partager les innovations des technologies de l'information et de la communication (TIC) et les modèles de subvention et de financement de l'assainissement automatisé que les secteurs public et privé ont appliqués pour assurer une prestation efficace et efficiente des services d'assainissement dans la ville de Kampala. 
+
+        À la fin de la session, un appel à l'action et des recommandations seront faits aux politiciens, aux dirigeants municipaux et aux acteurs de l'assainissement sur l'application des TIC pour informer, améliorer et fournir de meilleurs services d'assainissement aux municipalités pour le secteur de l'assainissement en Afrique.
+
+        Plus précisément, il s'agira de
+        - Partager les innovations TIC utilisées par la municipalité en Ouganda pour fournir des services d'assainissement aux citoyens de Kampala, en Ouganda.
+        - Partager les mécanismes de succès que la KCCA a utilisé pour améliorer la prestation de services d'assainissement à Kampala.
+        - lancer un appel à l'action aux décideurs, aux politiciens et aux responsables municipaux pour une meilleure intégration des outils informatiques dans le secteur de l'assainissement en Afrique.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486182
+      guid: ''
+      hash: 660f57c266d9713ae11f24bb8d4ace8b
+  field_code:
+    -
+      value: SE49
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Modérateur - Eng Allan Nkurunziza
+        Intervenants
+        - Mme Dorothy Kisaka, Directrice Exécutive KCCA
+        - Dr, Eng Silver Mugisha, MD National Water and Sewerage Corporation (Société nationale des eaux et des égouts)
+        - M. Shaka Bakabulindi, Secrétaire exécutif Uganda Emptiers Asssociation
+        - Mme Eunice Namirembe , Spécialiste des innovations KCCA
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: 5d9b9cb4-0949-4c79-90d1-97b3b4b100b3
+  field_organisateurs_text:
+    -
+      value: 'Kampala Capital City Authority'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Présentations - 20 minutes
+        Discussions de groupe - 20 minutes
+        Clôture et appel à l'action - 15 minutes
+      format: basic_html
+  field_salle:
+    -
+      entity: 0e75e89f-550b-4ca1-8018-21db86fd9fb8

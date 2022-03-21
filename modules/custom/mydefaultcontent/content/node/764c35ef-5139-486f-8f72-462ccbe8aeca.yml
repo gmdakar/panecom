@@ -1,0 +1,175 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 764c35ef-5139-486f-8f72-462ccbe8aeca
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    457c1e95-a18c-44b3-8228-d73aac117634: taxonomy_term
+    3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae: taxonomy_term
+    d4d2fdab-051c-4aaf-b23c-7b055980caa3: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    1bc310ab-0296-49e5-8354-e8d68fbdcb9b: taxonomy_term
+    c2e96aa1-7a92-4c49-ab0c-1ef051be24c4: taxonomy_term
+    5e061d9b-bbeb-4913-a942-5e8dc8894911: taxonomy_term
+    4e817700-b42b-435f-ae5d-dbbd09ce6e5f: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Boosting international cooperation on water challenges: the role of public development banks in unlocking water and sanitation investments'
+  created:
+    -
+      value: 1647484845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/boosting-international-cooperation-water-challenges-role-public-development-banks-unlocking
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Water, sanitation and hygiene are at the heart of the balances of ecosystems and societies, an essential factor of biodiversity, food security, health and peace. Public Development Banks have in many contexts proven they can have a catalyst role, not only to finance water and sanitation investments but also to enhance cooperation. This session will be an opportunity to explore their unique mandate and see how  they can help bridging the funding gap towards sound WASH investments and achieving SDG6.
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484845
+      guid: ''
+      hash: 0ebf3525f7fe90d0738b2279db0f1c47
+  field_code:
+    -
+      value: 3C4
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 457c1e95-a18c-44b3-8228-d73aac117634
+    -
+      entity: 3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae
+    -
+      entity: d4d2fdab-051c-4aaf-b23c-7b055980caa3
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: 1bc310ab-0296-49e5-8354-e8d68fbdcb9b
+    -
+      entity: c2e96aa1-7a92-4c49-ab0c-1ef051be24c4
+    -
+      entity: 5e061d9b-bbeb-4913-a942-5e8dc8894911
+    -
+      entity: 4e817700-b42b-435f-ae5d-dbbd09ce6e5f
+  field_organisateurs_text:
+    -
+      value: |2+
+         AFD
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        AFD 
+        BAfD
+        BOAD 
+        CAF
+        EIB 
+        WHO – GLAAS & Trackfin 
+        Moderator: WaterAid 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        GLAAS Report
+        TrackFin
+        Water Finance Coalition
+        Study on the role of National Development Banks
+        Blue Credit line (BEI AFD)
+        BAD & BOAD projets en cours de cadrage
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        I – Assessment – How far are we from effectively financing the water and sanitation sector? 20 min
+        GLAAS & TrackFin – 10 min Didier Allely
+
+        Effective financing for drinking water, sanitation and hygiene (WASH) is essential to deliver and sustain services. The UN-Water Global Analysis and Assessment of Sanitation and Drinking-Water (GLAAS) results indicate that there are substantial gaps in our understanding and tracking of financing to the WASH sector. Financial reporting is often insufficient to make sound and evidence-based planning and budgeting decisions. To help address the issue, WHO is supporting national government to develop WASH accounts using the TrackFin methodology under the UN-Water GLAAS project. GLAAS reports assess data from several different sources, including global data on sanitation and drinking-water coverage, donor aid flows, economic and development indicators, health indicator data, and data from regional sector and multi-sector assessments. GLAAS gathers data at both recipient country and external support agency level to fill key knowledge gaps 
+        Objectives:
+        •	Highlight current financial information at the national level from GLAAS and WASH accounts implementing countries
+        •	Highlight results from the External Support Agency survey
+        •	 10 min discussion with the audience
+        II – Of the need for more engagement: PDBs leveraging private and public stakeholders – 30 min 
+        •	AFD Céline Robert – Co Chair of the Water Finance Coalition – 15 min
+        Introduce the rationale of the Water Finance Coalition and the necessity for PBDs to engage and work on those challenges, as well as how PDBs can help leveraging both private and public stakeholders. 
+        + Take aways from the global study on PDBs : Some constraints have to be addressed for NDBs to succeed in financing water and sanitation: demand and offer of financing do not meet spontaneously. National Development Banks need specific financial tools (such as project preparation funds) and dedicated skills/expertise to be able to invest in the wash sector.
+
+        CAF (Franz Rojas) – PDBs as a way to leverage private and public stakeholders (10min)
+
+        5 min discussion with the audience
+        III – Of the complementarity of tools: PDBs as a catalyser – 40 min
+        How PBDs can strengthen stakeholders’ governance and capacities to catalyse investments with patient investments, a variety of financial tools, and soft support
+        •	Case Study Blue credit line, Morroco – EIB – 10 min Emmanuel Chaponniere
+        •	Case Study– BOAD – Serge EKUE 10 min
+        •	Case Study BAfD – 10 min Ousseynou Guene  
+
+        10 min discussion with the audience
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •To take stock of the existing engagement of different stakeholders in the water and sanitation sector and assess the level of cooperation between them
+        •To raise awareness on the role of PBDs in financing the WASH sector and achieving climate and biodiversity objectives, to present the financing issues of the sector
+
+        •To present the work carried out by the Water Finance Coalition, FiCS-aligned research findings on the role of PBDs along with illustrative case studies
+
+        •To create a dynamic of mobilization through a declaration of commitment from the Coalition members on PBD’s crucial role to play in enhancing financing for water and sanitation
+
+        •To strengthen and expand the community of PBDs in the Water Finance Coalition, to continue sharing knowledge and good practices
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

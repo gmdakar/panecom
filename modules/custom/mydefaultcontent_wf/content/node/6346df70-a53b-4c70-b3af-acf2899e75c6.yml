@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6346df70-a53b-4c70-b3af-acf2899e75c6
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Massif du Fouta Djallon: Visions for the safeguard of the "water tower of West Africa"'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/massif-du-fouta-djallon-visions-safeguard-water-tower-west-africa-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: 73b4c543b5220124fbcb9845c667b6a1
+  field_code:
+    -
+      value: SS56
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

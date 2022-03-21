@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bac3c53f-4eb8-44fe-b733-3c6aa026540a
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    bf050638-d82c-433f-bb98-6b62ed5bf881: taxonomy_term
+    e3c2d358-67a0-4649-9a96-970e87a1c14a: taxonomy_term
+    701b5202-ce24-425a-8767-c2cc7de92e55: taxonomy_term
+    c0b09bcf-f846-426a-b8f3-775e336b1ff6: taxonomy_term
+    f2895898-0814-4457-89ea-e10f3c28e774: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Depollution of Water Bodies in Urban Environments, Circular economy and adaptability in water and sanitation services.'
+  created:
+    -
+      value: 1647493847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/depollution-water-bodies-urban-environments-circular-economy-and-adaptability-water-and-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This session will present ongoing actions on the themes: depollution of water bodies, social technologies, service supply regularization, and adaptability in order to share innovative practices that contribute to the advancement of the sector, above all, to ensure the access to water and sanitation to low-income communities. 
+        Additionaly,  will present actions and projects carried out or in progress on the themes: adaptation to climate change, water resilience, circular economy, nature-based solutions in order to share innovative practices that contribute to the advancement of the sector. 
+        It seeks to contribute with ideas for facing future challenges in Africa and other parts of the world, which face similar difficulties.
+        In other words, such projects can be seen more broadly and integrated into the concept of circular economy and the benefits arising therefrom.
+        Projects and programs addressed: Sustainable Wastewater Treatment Plants (WTP) and Compact Wastewater Treatment Plants, Reduction of greenhouse gases, Distributed energy generation, photovoltaic plants.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493847
+      guid: ''
+      hash: e0a9209954f8aec9c6a85986f8c04c39
+  field_code:
+    -
+      value: SS36
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: bf050638-d82c-433f-bb98-6b62ed5bf881
+    -
+      entity: e3c2d358-67a0-4649-9a96-970e87a1c14a
+    -
+      entity: 701b5202-ce24-425a-8767-c2cc7de92e55
+    -
+      entity: c0b09bcf-f846-426a-b8f3-775e336b1ff6
+    -
+      entity: f2895898-0814-4457-89ea-e10f3c28e774
+  field_organisateurs_text:
+    -
+      value: Sabesp
+      format: basic_html
+  field_programme:
+    -
+      value: '20 minutes to opening and first speaker, three blocks of 15 minutes for each speaker and 15 minutres for audience interaction.'
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

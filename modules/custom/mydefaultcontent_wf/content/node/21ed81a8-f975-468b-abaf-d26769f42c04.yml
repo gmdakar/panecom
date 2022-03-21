@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 21ed81a8-f975-468b-abaf-d26769f42c04
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    6a8fd2df-8f3b-4406-b488-700845ace357: taxonomy_term
+    4b1e6f19-70f5-4b6e-a491-1fd09132d3a5: taxonomy_term
+    463822d7-22e8-4362-bfe1-a7e3f0a66cf6: taxonomy_term
+    87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Nature for Water Facility launch event: enabling local champions to deliver watershed NbS investments'
+  created:
+    -
+      value: 1647493838
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/nature-water-facility-launch-event-enabling-local-champions-deliver-watershed-nbs-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Objective:
+        This is the public launch session for the Nature for Water Facility, a technical assistance facility designed to provide a suite of Nature-based Solutions (NbS) consultancy services for water security.  The session will highlight why NbS matter, provide case studies of their successful impact, describe the value proposition of this new program, and showcase how members of the global water sector community can partner and deliver on-the-ground watershed results. 
+
+        Session Description:
+        Nature-based Solutions – such as reforestation, landscape restoration, and agricultural best management practices – offer promising avenues for driving catchment health and water security outcomes. They also help deliver meaningful co-benefits such as sustainable livelihoods, biodiversity protection, and carbon sequestration.
+
+        However, despite growing interest in mainstreaming NbS into the water sector, they remain <0.1% of annual global investment spend. This is partially driven by a market failure in the availability of technical assistance to equip local champions with the necessary expertise to originate, design, and execute watershed investment programs.
+
+        The Nature Conservancy (a global environmental non-profit) and Pegasys (an Africa-based sustainable infrastructure consultancy) are pleased to use this Special Session as the official launch the Nature for Water Facility. This four-year program is designed to bridge the 'nature gap' by providing a suite of NbS consultancy services to local clients seeking to build out watershed investment programs'. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493838
+      guid: ''
+      hash: 5e2f0eea9d0d246c97f244fca0e1a9ff
+  field_code:
+    -
+      value: SS01
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 6a8fd2df-8f3b-4406-b488-700845ace357
+    -
+      entity: 4b1e6f19-70f5-4b6e-a491-1fd09132d3a5
+    -
+      entity: 463822d7-22e8-4362-bfe1-a7e3f0a66cf6
+    -
+      entity: 87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c
+  field_organisateurs_text:
+    -
+      value: 'The Nature Conservancy'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        1)	Welcome & Water Security and the global potential for NbS – Andrea Erickson + Video – 5 minutes
+        2)	NbS in action: connecting the case of the Greater Cape Town Water Fund to Kruger to Canyons – Mayor Geordin Hill-Lewis, Louise Stafford, & Nicholas Theron – 20 min
+        3)	Enabling locally to deliver globally: Launching the Nature for Water Facility - Justus and Mike in conversation – 20 min
+        o	Will be interspersed with 1 minute videos for first round of grantee projects
+        4)	Panel discussion – 40 min, moderated by Andrea
+        5)	Session wrap-up & invitation to collaboration – Andrea Erickson – 5 min
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d38f8e1-09f9-410c-933f-e2954ecf12cb
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6f62f872-ce34-44ba-ab5e-9c11f32544eb: taxonomy_term
+    b86868f4-14ae-4840-ac79-f9e70f02b689: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    4eabc251-0439-434b-8244-66420b0e6d9e: taxonomy_term
+    fe850fb6-3bab-47fb-ac97-a9c7c94afacc: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'à ajouter'
+  created:
+    -
+      value: 1647484960
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ajouter
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Mais comment le secteur privé coopère-t-il efficacement avec les femmes pour aider à lutter contre l''inégalité entre les sexes dans le domaine de l''eau et de l''assainissement et quelles sont les leçons à en tirer.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484960
+      guid: ''
+      hash: 7cca73eb42b351bca21c650743809727
+  field_code:
+    -
+      value: 3F3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 6f62f872-ce34-44ba-ab5e-9c11f32544eb
+    -
+      entity: b86868f4-14ae-4840-ac79-f9e70f02b689
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 4eabc251-0439-434b-8244-66420b0e6d9e
+    -
+      entity: fe850fb6-3bab-47fb-ac97-a9c7c94afacc
+  field_organisateurs_text:
+    -
+      value: |-
+        AquaFed
+        WFWP
+        ISW
+        Humanright2water.org
+        Toilet Board Coalition tbc
+        Sanergy tbc
+        IWMI South Africa
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNWATER (media team)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'à ajouter'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "A finaliser
+
+        Débat animé et modéré avec des études de cas du Sud global
+
+        Nous proposons une session sous le thème 3 : Collaboration. La session sera un mélange d'études de cas, de recherche et d'apprentissage. L'objectif est de vraiment comprendre les détails les plus fins de la façon d'assurer une collaboration réussie entre le secteur privé et les groupes de femmes.
+
+        La session rendra également compte d'une initiative conjointe qu'AquaFed et le WFWP mènent tout au long de la semaine du Forum (Pop-up sessions)".
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Nous espérons un impact durable, car la communauté de l''eau peut tirer des leçons de ces campagnes réussies et de la coopération sur le terrain.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

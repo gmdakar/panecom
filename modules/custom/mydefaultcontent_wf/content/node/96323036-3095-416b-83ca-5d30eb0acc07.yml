@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 96323036-3095-416b-83ca-5d30eb0acc07
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    499593e4-a2fa-4b12-8b4c-ebd740d96667: taxonomy_term
+    8f37baeb-bfb0-47f0-ad95-f1c185e8f8df: taxonomy_term
+    02ee1ad0-e744-49d6-a470-92fc8e0bce29: taxonomy_term
+    6ca5cd3c-e042-4ddf-b355-e4ea56aafa14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Round table for the mobilization of funds for the financing of drinking water supply works in Mali'
+  created:
+    -
+      value: 1647486042
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/round-table-mobilization-funds-financing-drinking-water-supply-works-mali
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This round table aims to bring together technical and financial partners in the water sector to discuss Mali's investment needs in the area of drinking water.
+        The main objective of the round table is to mobilize funds to ensure the proper and sustainable supply of drinking water to localities in Mali.
+        It will provide an opportunity to present investment needs, identify potential partners and obtain funding commitments.
+        The roundtable may address some of the partners' concerns, particularly those related to security issues and sustainable financing of the sector in times of multidimensional crisis (COVID 19; Socio-political...).
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486042
+      guid: ''
+      hash: 7431e075908bcd1f2d4c72836137b9ed
+  field_code:
+    -
+      value: SE31
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Bakary COULIBALY / General Manager
+        Modibo TRAORE / Director of Planning and Investments
+        Namory KEITA / Director of Operations Control
+        Koen Maathuis / Regional Manager West Africa / World Waternet
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: 499593e4-a2fa-4b12-8b4c-ebd740d96667
+    -
+      entity: 8f37baeb-bfb0-47f0-ad95-f1c185e8f8df
+    -
+      entity: 02ee1ad0-e744-49d6-a470-92fc8e0bce29
+  field_organisateurs_text:
+    -
+      value: SOMAPEP-SA
+      format: basic_html
+  field_salle:
+    -
+      entity: 6ca5cd3c-e042-4ddf-b355-e4ea56aafa14

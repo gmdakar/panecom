@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b6eb1f0-a380-45c1-b60f-92c1b009dcf6
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    b142c626-5592-4067-91cf-493f48b3749c: taxonomy_term
+    30b25a98-fca1-4dbc-a472-ca8f52fa5afc: taxonomy_term
+    e8aca36f-cb5c-4145-8f14-225129aaf755: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'dans le financement de l’eau : des initiatives concrètes pour révolutionner le financement de l’eau, de l’assainissement et de la GIRE'
+  created:
+    -
+      value: 1647485813
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/dans-le-financement-de-leau-des-initiatives-concretes-pour-revolutionner-le-financement-de-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session sera l''occasion d''analyser et de discuter en profondeur des contraintes liées aux importants déficits de financement pour soutenir la feuille de route 2030. Un examen des faiblesses liées au modèle classique des 3T sera également posé pour mettre en évidence les points faibles qui nécessitent des ajustements conceptuels et pratiques. Le plus passionnant, cependant, sera la présentation d''initiatives concrètes pour l''innovation dans le financement de l''eau et de l''assainissement et de la GIRE, y compris celles basées sur l''expérimentation et la mise à l''échelle de solutions impliquant des acteurs du secteur privé et d''autres sources de financement non traditionnelles. En particulier pour les pays à faible revenu, la baisse des volumes d''aide publique au développement au cours des dernières années suggère la nécessité d''autres mécanismes émergents tels que les stratégies de financement mixte. Il est également pertinent de reconnaître que l''innovation dans le financement de l''eau se trouvera dans la recherche de niches de productivité dans les dépenses d''exploitation, dans la maîtrise des pertes d''eau, dans le très important potentiel à tirer de l''économie circulaire, etc. Le Forum mondial de l''eau de Dakar étant l''occasion d''une évaluation de la feuille de route de l''ODD6, cette session mettra en évidence des leviers très utiles pour révolutionner le développement des modèles de financement de l''eau afin de remettre la courbe de l''ODD6 sur les rails dans les prochaines années.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485813
+      guid: ''
+      hash: 74b592249c300b0790b6234da55fb6b3
+  field_code:
+    -
+      value: SS27
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+    -
+      entity: b142c626-5592-4067-91cf-493f48b3749c
+    -
+      entity: 30b25a98-fca1-4dbc-a472-ca8f52fa5afc
+  field_organisateurs_text:
+    -
+      value: 'Ministère de l''Eau et de l''Assainissement du Sénégal'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Présentation des panélistes
+        5 - 10 min.	Exposé introductif du modérateur
+        10 - 50 min.	Présentation des projets
+        50 - 60 min.	Questions/Réponses du modérateur et des panélistes
+        60 - 85 min.	Réactions du public et réponses des panélistes 
+        85 - 90 min.	Conclusion et messages clés du modérateur 
+      format: plain_text
+  field_salle:
+    -
+      entity: e8aca36f-cb5c-4145-8f14-225129aaf755

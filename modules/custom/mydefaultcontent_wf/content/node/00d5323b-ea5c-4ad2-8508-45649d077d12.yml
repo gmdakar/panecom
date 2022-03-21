@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 00d5323b-ea5c-4ad2-8508-45649d077d12
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    959828cc-d37e-441d-8ed5-222716ddf3a2: taxonomy_term
+    841d6017-2e5d-4a05-b2e0-df2f95f76b93: taxonomy_term
+    38fba5fc-094f-4838-b33a-1d4125d436f9: taxonomy_term
+    2fc4ea91-7974-4a11-b947-91f3b51725ce: taxonomy_term
+    6a525a28-a2e2-44eb-8f37-9a43bc47f506: taxonomy_term
+    c45eed21-ef03-40bb-888f-bf4605431415: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Échange entre aquifères transfrontières de trois continents'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/echange-entre-aquiferes-transfrontieres-de-trois-continents-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Objectifs de la Session :
+        Etablir une dynamique d’échange d'expériences entre trois traités de gestion de trois aquifères transfrontières sur trois continents : premièrement les développements majeurs sur la gouvernance lors de ces deux dernières années sur l’aquifère sénégalo-mauritanien en Afrique deuxièmement les 40 ans d’expérience de l’aquifère du Genevois entre la France et la Suisse en Europe, et enfin les développements de la nappe du Guarani en Amérique du Sud. La session réunira des représentants des trois bassins sur ces aquifères pour échanger leurs expériences, les leçons apprises, des comités pertinents et d'autres arrangements institutionnels, le partage de données, la participation des parties prenantes et les opportunités de consolidation de la paix. On s'attend à ce que cette session marque le début d'une collaboration à plus long terme entre ces trois différents traités sur les aquifères transfrontières.
+        Cette session portera un focus particulier sur le BASM qui a eu des développements majeurs ces deux dernières années et notamment de joindre la gouvernance des eaux superficielles et les eaux souterraines.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: 07046f5d44595a8b5a17ff88e8dfddf9
+  field_code:
+    -
+      value: HLP22
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 959828cc-d37e-441d-8ed5-222716ddf3a2
+    -
+      entity: 841d6017-2e5d-4a05-b2e0-df2f95f76b93
+    -
+      entity: 38fba5fc-094f-4838-b33a-1d4125d436f9
+    -
+      entity: 2fc4ea91-7974-4a11-b947-91f3b51725ce
+    -
+      entity: 6a525a28-a2e2-44eb-8f37-9a43bc47f506
+    -
+      entity: c45eed21-ef03-40bb-888f-bf4605431415
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub AU NOM DE Ababacar Ndao, Secrétaire Général OMVG'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Première partie approx 50’
+        ?	La session s’ouvre avec un morceau/vidéo de la symphonie Voix du Fleuve voix de la paix. 2’
+        ?	Présentation introductive par le Secrétaire Général. OMVG 2’
+        ?	Mots d’introduction de ls Session des deux facilitateurs (GWH, UNECE,) 2’
+
+        ?	Table ronde des aquifères transfrontières
+        o	Présentation BASM (Représentants du groupe de travail des quatre pays du BASM)
+        ?	?	Prise de parole des représentants de Mauritanie, Sénégal, Guinée Bissau et Gambie – 12’ (3’/pers)
+        ?	Les 2 Hauts commissaires des organismes de bassins transfrontières (OMVG et OMVS) présentent leur engagement sur la gestion de projet – 6’ (3’/pers)
+        ?	Banque Mondiale son appréciation / intérêt du projet - 3’
+        ?	UE 3’
+        ?	Résumé facilitateurs - 3’
+
+        o	Présentation du Genevois
+        ?	Présentation du Genevois 40 ans de coopération Directeur du projet - 5’
+        o	Présentation du Guarani 2 représentants de l’aquifère
+        ?	Présentations des travaux et situation du développement du Guarani - 5’
+        o	Résumé du groupe facilitateur - 3’
+        2ième partie (approx 30’)
+        ?	Table ronde Echange intercontinental d’expériences (Représentants du BASM, Guarani et Genevois, IGRAC, UNESCO, OSS)
+        o	Lancement de la Session UNESCO - 2’
+        o	Eléments à considérer dans cet échange BASM, Guarani et Genevois, et IGRAC -12’ (3’/pers)
+        o	Interaction avec le public conduit par UNESCO – 10’
+        o	Expériences et conclusion UNESCO et OSS – 4’ (2’/pers)
+        3ième partie conclusions approx 10’
+        Considérations des 4 ministres du Bassin Mauritanien-Sénégalais 8’ (2’ x4) 
+         
+      format: plain_text
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

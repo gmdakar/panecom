@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 66148624-9357-438f-b09c-c5b4cdc4ffc3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    b142c626-5592-4067-91cf-493f48b3749c: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    9b6b07fd-4cc7-44cb-9e9d-faf9e9821d69: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financement de l''assainissement urbain'
+  created:
+    -
+      value: 1647484963
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financement-de-lassainissement-urbain
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '"Accroître et maximiser l''impact des investissements et des services d''assainissement urbain en Afrique".'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484963
+      guid: ''
+      hash: f69372c1de19384bf60920c85fec62db
+  field_code:
+    -
+      value: 4A8
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: b142c626-5592-4067-91cf-493f48b3749c
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 9b6b07fd-4cc7-44cb-9e9d-faf9e9821d69
+  field_organisateurs_text:
+    -
+      value: 'Water.org, AfDB'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: TBD
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'La session discutera des opportunités de financement de l''assainissement et présentera le nouveau fonds en cours de création - l''AUSIF. '
+      format: plain_text
+  field_programme:
+    -
+      value: TBD
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: TBD
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

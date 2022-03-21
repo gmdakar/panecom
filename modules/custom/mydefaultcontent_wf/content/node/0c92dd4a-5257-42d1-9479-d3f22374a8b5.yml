@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0c92dd4a-5257-42d1-9479-d3f22374a8b5
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    2c4da4d8-0354-43ed-afd5-0f553e569f01: taxonomy_term
+    7f0b947c-eca9-4b3a-8536-f66986bed812: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Cooperation of Central Asian countries to ensure Water Security in the context of Climate Change'
+  created:
+    -
+      value: 1647493845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cooperation-central-asian-countries-ensure-water-security-context-climate-change-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Central Asia - an extensive, landlocked region of Asia. The region includes the Republic of Kazakhstan, the Kyrgyz Republic, the Republic of Tajikistan, Turkmenistan, and the Republic of Uzbekistan. According to the latest UN estimations, the current population of Central Asia is more than 75.1 million people - this is about 1% of the total population of the Earth. 
+        The region is facing an unprecedented ecological crisis - the drying up of the Aral Sea. For several decades, a significant part of the Aral Sea from a full-flowing ecological system turned into a desert – Aralkum. The region's water resources are predominantly transboundary and form the basis for ensuring food, energy, ecological security, and sustainable socio-economic development of countries.
+        However, ensuring water security in the region, due to a number of factors, is itself at great risk. The most important challenges in this context are the impact of climate change and population growth.
+        The Climate Change leads to a more intense melting of glaciers, which are the main sources of the water resources of the region. This problem, combined with population growth, creates a very difficult situation in the region. For example, if in the 1960s the water safety per capita in the region was 8.4 thousand m3 / year, today the indicator has decreased by 4 times - to less than 2.0 thousand m3 / year. Meanwhile, this trend continues and by 2040 the region will become water-deficient, having dropped in terms of water safety to 1.0 thousand m3 per person.
+        The main objective of the session is to present a united vision and position of the Central Asian region in accordance with the priorities of the 9th WWF and the most important issues for Central Asia, attract the attention of the world community, international development partners, academia, civil society and the private sector to the problems of the Aral Sea basin and their solutions, demonstrate the policy and practice of the region on solving water-ecological, socio-economic issues, the adopted programs and strategies in the region including the Action Program for Assistance to the Countries of the Aral Sea Basin, 2021-2030 (ASBP-4) and the Regional Environmental Program for Sustainable Development in Central Asia (REP4SD-CA) contributing to socio-economic development, achievement of water, energy, ecological and food security in the Central Asian region.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493845
+      guid: ''
+      hash: 8b25f59698710180dd7ea678e022a7ae
+  field_code:
+    -
+      value: SS31
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 2c4da4d8-0354-43ed-afd5-0f553e569f01
+    -
+      entity: 7f0b947c-eca9-4b3a-8536-f66986bed812
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+  field_organisateurs_text:
+    -
+      value: 'Executive Committee of the International Fund for Saving the Aral Sea '
+      format: basic_html
+  field_programme:
+    -
+      value: 'Part 3'
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

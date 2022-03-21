@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f67b5c8a-db82-4b23-981a-1dbfc3aa93a4
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    52373cc5-4527-4666-abc6-46a78fb1401b: taxonomy_term
+    d58082be-4506-4325-8338-fe4c229c92c1: taxonomy_term
+    3296f159-9e9f-47f3-a98a-a572081126de: taxonomy_term
+    33533c8a-c679-4d85-96dc-53b8024c4a8f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    edfdf1bb-ac51-4d15-a296-5a4ae7843879: taxonomy_term
+    17d2926a-fd17-431c-9876-337d5f94a8d7: taxonomy_term
+    3334e725-2823-4790-9773-6599dd92de43: taxonomy_term
+    51b8a5f0-3826-4f5d-8761-f654ccd4e8a3: taxonomy_term
+    e5cb483a-c8f1-4969-9b30-4ec7d86c381e: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''eau est une politique : Professionnaliser le plaidoyer WASH'
+  created:
+    -
+      value: 1647484946
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leau-est-une-politique-professionnaliser-le-plaidoyer-wash
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les défenseurs de l''accès à l''eau, à l''assainissement et à l''hygiène en Afrique, en Asie, en Amérique latine et au Moyen-Orient se réuniront pour discuter et débattre des meilleures, des pires et des pratiques prometteuses en matière de plaidoyer pour l''accès à l''eau, à l''assainissement et à l''hygiène dans les établissements de santé et les écoles. Comment les militants travaillent-ils avec les dirigeants politiques de leurs pays et communautés pour accélérer les progrès en matière d''accès aux services WASH ? Quels sont les défis rencontrés, et quelles sont les clés d''un plaidoyer réussi ? '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484946
+      guid: ''
+      hash: cb642bb03f2f7d1d3069bc18d3fb22e4
+  field_code:
+    -
+      value: 2C2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 52373cc5-4527-4666-abc6-46a78fb1401b
+    -
+      entity: d58082be-4506-4325-8338-fe4c229c92c1
+    -
+      entity: 3296f159-9e9f-47f3-a98a-a572081126de
+    -
+      entity: 33533c8a-c679-4d85-96dc-53b8024c4a8f
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: edfdf1bb-ac51-4d15-a296-5a4ae7843879
+    -
+      entity: 17d2926a-fd17-431c-9876-337d5f94a8d7
+    -
+      entity: 3334e725-2823-4790-9773-6599dd92de43
+    -
+      entity: 51b8a5f0-3826-4f5d-8761-f654ccd4e8a3
+    -
+      entity: e5cb483a-c8f1-4969-9b30-4ec7d86c381e
+  field_organisateurs_text:
+    -
+      value: |-
+        John Oldfield (formerly with Global Water 2020)
+        Water Youth Network
+        UNICEF
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Health and education stakeholders will be involved as well. '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: "Formations au plaidoyer WASH\r\nRéseaux de plaidoyer WASH\r\n"
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Discussion en panel - 45 minutes
+        - Remarques des panélistes 
+        - 1-2 brèves vidéos 
+        Table ronde ouverte - 45 minutes 
+        - Histoires potentielles de "démarrage" des participants 
+        - Vidéos potentielles de participants qui ne peuvent pas se rendre sur place.
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -	More successful WASH advocacy outcomes in healthcare facilities, schools, and other institutions.
+        -	Stronger global, regional, and national WASH advocacy networks. 
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

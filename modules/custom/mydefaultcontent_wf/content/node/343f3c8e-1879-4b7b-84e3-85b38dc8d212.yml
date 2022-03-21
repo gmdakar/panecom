@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 343f3c8e-1879-4b7b-84e3-85b38dc8d212
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    34811afd-95fb-46f8-9285-a6dfdce098c8: taxonomy_term
+    d395f715-24cc-420e-aa19-202f49fdf953: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rendre visible l’invisible : les eaux souterraines, une réponse pour la résilience et la durabilité'
+  created:
+    -
+      value: 1647485801
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rendre-visible-linvisible-les-eaux-souterraines-une-reponse-pour-la-resilience-et-la-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le panel de haut niveau (HLP) est destiné à être un événement de suivi après la session plénière de la célébration de la Journée mondiale de l''eau 2022 organisée par l''UNESCO et UN-WATER sur le thème de la Journée mondiale de l''eau - Les eaux souterraines : Rendre l''invisible visible. Le panel HLP permettra d''organiser un débat plus large et approfondi sur le Rapport de Développement des Nations Unies 2022 qui sera présenté le 21 mars à l''ouverture avec la participation de représentants de pays et d''experts de haut niveau.  Le HLP a pour but de discuter de la façon dont les eaux souterraines peuvent être une réponse aux défis de la sécurité de l''eau. Une attention particulière sera accordée à la mise en œuvre du Cadre mondial d''accélération du SDG6. Les principales conclusions du HLP seront examinées lors du Sommet de l''ONU sur les eaux souterraines, qui sera organisé les 7 et 8 décembre 2022 au siège de l''UNESCO, et constitueront un moyen de mettre l''accent sur les eaux souterraines lors de la conférence de l''ONU sur l''eau de 2023. Le HLP mettra l''accent sur les investissements dans les eaux souterraines en Afrique et dans les PEID et examinera comment les eaux souterraines offrent une voie potentielle pour soutenir les activités humaines et la santé des écosystèmes, avec un accent particulier sur l''Afrique et les PEID.  L''Afrique, le continent le plus jeune, a plus que tout besoin d''une attention particulière pour les eaux souterraines, afin de garantir la sécurité de l''eau pour les générations futures.  Il existe 72 aquifères transfrontaliers en Afrique, qui représentent un potentiel pour le développement socio-économique de la région.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485801
+      guid: ''
+      hash: b56b68b99b8ec9161fabd89381b7809a
+  field_code:
+    -
+      value: HLP01
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 34811afd-95fb-46f8-9285-a6dfdce098c8
+    -
+      entity: d395f715-24cc-420e-aa19-202f49fdf953
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8
+  field_organisateurs_text:
+    -
+      value: 'UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "Ce HLP est un suivi de la session plénière de la célébration de la Journée mondiale de l'eau de l'ONU. Les représentants de haut niveau des pays et les experts invités feront des déclarations, des présentations et des débats dans une modalité de panel. 
+
+        Modérateur : Mme Alice Aureli, UNESCO 
+        5'-Président : M. Nabil Ben Khatra, Secrétaire exécutif, Observatoire du Sahara et du Sahel (OSS)
+
+         Déclarations de haut niveau
+        - 5' M. Jean Paul Adam, Directeur Changement climatique, gestion des ressources naturelles et technologie, Commission économique des Nations Unies pour l'Afrique
+        - 5' M. Sekou Sangare, Commissaire, Communauté Economique des Etats de l'Afrique de l'Ouest (CEDEAO) 
+         
+        Présentations (15') 
+        Le PAM CEDEAO sur les eaux souterraines. Un exemple réussi de coopération scientifique : Un nouvel outil pour rendre visible la gestion des eaux souterraines. 
+        - M. Alexis Gutierrez, Service Géologique Français (BRGM), M. Stefan Broda, Institut Fédéral des Géosciences et des Ressources Naturelles, Allemagne (BGR), Mme Brighid O Dochartaigh, British Geological Survey (BGS)
+        - Mme Jodie Miller, Agence internationale de l'énergie atomique (AIEA)
+
+        5' Déclaration : Mme Eugénie Avram, Ministère de l'Europe et des Affaires étrangères de la France
+         
+        Présentations 
+        - 5' Mme Sonja Koppel, Secrétaire de la Convention sur l'eau, Commission économique des Nations Unies pour l'Europe (UNECE) et M. Aurélien Dumont, Chargé de projet, Programme hydrologique intergouvernemental (UNESCO PHI). Coopération en matière d'aquifères transfrontaliers - les principaux résultats de l'indicateur 6.5.2. de l'ODD 6.  
+        - 5' Mme Karen Villholth, Coordinatrice GRIPP (IWMI), Aquifères transfrontaliers. 
+        5' Déclaration : S.E. Shawn Richards - Ministre de l'infrastructure publique et du développement urbain du gouvernement de St. Kitts et Nevis - Les eaux souterraines dans les petites îles (Vidéo)
+
+        Panel d'experts   
+        Modérateurs : Mme Neno Kukuric (IGRAC) et Mme Michela Miletto (UNESCO WWAP)
+
+        Panélistes :  (35')
+        1.	Mme Concepcion Marcuello, Ministère de la Transition Ecologique de l'Espagne 
+        2.	M. Gérard Payen, Vice-président, Partenariat Français pour l'Eau (FWE)
+        3.	Mme Dominique Darmendrail, Directrice de programme Eau (BRGM)
+        4.	M. Eddy Moors, Recteur, IHE Delft Institute for Water Education, Pays-Bas
+        5.	Banque mondiale ?
+        6.	M. Abdelkader Dodo, Coordinateur du Département de l'eau, (OSS)
+        7.	Mme Maria Salvetti, Economiste et analyste des politiques de l'eau, (OCDE)  
+
+        Remarques finales
+        Participation des jeunes/jeunes professionnels
+        Mme Alice Aureli, UNESCO PHI 
+
+        "
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

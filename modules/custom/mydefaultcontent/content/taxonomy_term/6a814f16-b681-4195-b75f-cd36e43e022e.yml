@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6a814f16-b681-4195-b75f-cd36e43e022e
+  bundle: motscles
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '-Professionnalisation'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /motscles/agenda/professionnalisation
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647484944

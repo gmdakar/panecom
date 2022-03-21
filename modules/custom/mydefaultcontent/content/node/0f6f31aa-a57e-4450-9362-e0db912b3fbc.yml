@@ -1,0 +1,135 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0f6f31aa-a57e-4450-9362-e0db912b3fbc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    3be2476c-c508-4097-8f7f-0cb0584537d0: taxonomy_term
+    c5d718c3-913f-44a7-b239-cbc336ee448e: taxonomy_term
+    84ca9a8e-e1a1-4fba-a33c-98c7a364fe58: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    14340f16-2d09-43e3-b0ae-5230a0a1263d: taxonomy_term
+    a33fd943-517f-41e6-8b72-17fa1d93402a: taxonomy_term
+    668d7d1c-adad-4213-ab62-ff41f883a697: taxonomy_term
+    af9d41b4-e695-4d3d-b890-14800f400616: taxonomy_term
+    43dbc393-fc91-46c3-83e5-8c20a2269788: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Amélioration de la qualité des produits agricoles en tenant compte du développement durable par la maîtrise de l''eau'
+  created:
+    -
+      value: 1647484948
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/amelioration-de-la-qualite-des-produits-agricoles-en-tenant-compte-du-developpement-durable
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les pollutions diffuses et les pertes alimentaires sont de plus en plus fréquentes et ont un impact négatif sur la réduction de la pauvreté et de la faim dans nos pays. Leur réduction contribuera à l''amélioration des revenus des producteurs, à la contribution à la sécurité alimentaire et à la création d''emplois.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484948
+      guid: ''
+      hash: 09814958613f533edd98dae6fa3e44ee
+  field_code:
+    -
+      value: 2D3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3be2476c-c508-4097-8f7f-0cb0584537d0
+    -
+      entity: c5d718c3-913f-44a7-b239-cbc336ee448e
+    -
+      entity: 84ca9a8e-e1a1-4fba-a33c-98c7a364fe58
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 14340f16-2d09-43e3-b0ae-5230a0a1263d
+    -
+      entity: a33fd943-517f-41e6-8b72-17fa1d93402a
+    -
+      entity: 668d7d1c-adad-4213-ab62-ff41f883a697
+    -
+      entity: af9d41b4-e695-4d3d-b890-14800f400616
+    -
+      entity: 43dbc393-fc91-46c3-83e5-8c20a2269788
+  field_organisateurs_text:
+    -
+      value: 'MAER _Mr. Youssoupha Gueye and Mrs. Asta Gaye (Ministry of Agriculture and Rural Equipment of Senegal) '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'DGPRE_Ministry of Water and Sanitation, DPV_Ministry of Agriculture and Rural Equipment'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "Projet 1 : Cartographie de la qualité de l'eau dans le bassin arachidier
+        Projet 2 : Système régional innovant de lutte contre la mouche des fruits en Afrique de l'Ouest - SyRIMAO "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " 15 minutes pour la présentation de chaque projet
+        Discussion : 30 minutes 
+        Discussion sur les contributions : 30 minutes "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        1.	Mobiliser la conscience politique et le soutien pour la professionnalisation de l'approvisionnement en eau en milieu rural et les alternatives viables aux points d'eau gérés par les communautés.
+        2.	Identifier les lacunes en matière de preuves pour une recherche plus approfondie (par le nouveau programme REAL-Water financé par l'USAID et d'autres).
+        3.	Renforcer l'initiative 100 millions afin de développer les contrats basés sur la performance pour une meilleure qualité des services d'eau en milieu rural.
+        4.	Soutenir les autres projets présentés afin de trouver de nouveaux partenaires pour étendre leurs innovations et partager les leçons apprises."
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

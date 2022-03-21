@@ -1,0 +1,154 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 40d6b16c-e74a-4eca-b7fb-5a08462865f6
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    8af8cc94-2ec3-4258-92bb-92465a1f3bc0: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    b4be5197-5fe7-430d-afb4-424b9b759552: taxonomy_term
+    6a814f16-b681-4195-b75f-cd36e43e022e: taxonomy_term
+    52a7e94d-03d2-4ba8-a3cd-f36056db4d75: taxonomy_term
+    2592c0c6-e15f-43fe-a141-af07e696b8b1: taxonomy_term
+    ff8eff82-f0a9-4725-98ed-f48d69b984e2: taxonomy_term
+    e8aca36f-cb5c-4145-8f14-225129aaf755: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Modèles de prestation de services pour l''approvisionnement en eau en milieu rural'
+  created:
+    -
+      value: 1647484944
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/modeles-de-prestation-de-services-pour-lapprovisionnement-en-eau-en-milieu-rural
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '8 personnes sur 10 n''ayant pas accès à un approvisionnement en eau, même de base, vivent dans des zones rurales. Pour relever ce défi, il faut adopter de nouvelles méthodes de travail et attirer les investissements nécessaires pour étendre et pérenniser les services d''eau en milieu rural. Il existe des modèles de services prêts à être investis, mais il faut une nouvelle génération de professionnels de l''eau en milieu rural pour les faire fonctionner, et des investisseurs et des gouvernements pour les soutenir. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484944
+      guid: ''
+      hash: dbbeac20395c1d06c79e5676920ea205
+  field_code:
+    -
+      value: 2A4
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8af8cc94-2ec3-4258-92bb-92465a1f3bc0
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: b4be5197-5fe7-430d-afb4-424b9b759552
+    -
+      entity: 6a814f16-b681-4195-b75f-cd36e43e022e
+    -
+      entity: 52a7e94d-03d2-4ba8-a3cd-f36056db4d75
+    -
+      entity: 2592c0c6-e15f-43fe-a141-af07e696b8b1
+    -
+      entity: ff8eff82-f0a9-4725-98ed-f48d69b984e2
+  field_organisateurs_text:
+    -
+      value: 'Rural Water Supply Network (RWSN)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Aguaconsult, Aquaya Institute, Skat Foundation'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "(1) "Evaluation de la gestion des forages ruraux par les associations, Locales Villageoises au Sénégal" par M. Mamadou DIAGNE.
+        (2) ""L'initiative 100 millions"" par M. Duncan McNicholl, Uptime Consortium
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " PARTIE 1 : Introduction, planter le décor (15 minutes)
+        o Perspective historique sur l'approvisionnement en eau en milieu rural et la gestion communautaire
+        o Modèles de prestation de services (présentation vidéo)
+
+        PARTIE 2 : Présentations des intervenants (45 minutes)
+        Présentations 
+        o Sénégal : résistance communautaire à la privatisation de la gestion des forages
+        o Madagascar : partenariats public-privé et synergies urbain-rural 
+        o Programme d'extension et d'amélioration de la performance et de la résilience du service d'eau potable dans les provinces du Nord du Maroc
+        o Uptime : financement basé sur les résultats 
+        o Questions-réponses de l'auditoire
+
+        PARTIE 3 : Panel de discussion (30 minutes)
+        Les panélistes seront les quatre présentateurs + M. Teodoro Estrela, directeur général de l'eau en Espagne. 
+
+        PARTIE 3a : comment intégrer la sécurité de l'eau dans le parcours de professionnalisation ? (10 minutes) 
+
+        o Présentation vidéo d'Aquaya présentant une approche de la professionnalisation du contrôle de la qualité de l'eau (Water Quality Assurance Fund au Ghana)
+        o Termine par une question à tous les présentateurs : "dans les modèles de prestation de services que vous avez présentés, à quoi ressemblerait l'incorporation explicite de la surveillance de la qualité de l'eau ?"
+        o 15 minutes de discussion
+
+        PARTIE 3b : comment réaliser la professionnalisation à l'échelle ? (10 minutes)
+        o Question à tous les présentateurs : "Dans les modèles de prestation de services que vous avez présentés, quel type de soutien externe a été fourni ? Par qui ? Quels seraient les défis à relever pour étendre ce soutien dans chaque contexte ? 
+
+        o Récapitulation
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Expected outcomes, impacts, and follow-up linkages with events and initiatives after the Forum	The session will inform the ongoing efforts by RWSN and partners to:
+        1.	Mobilise political awareness and support for rural water supply professionalization and viable alternatives to community-managed water points.
+        2.	Identify evidence gaps for further research (by the new USAID-funded REAL-Water Programme and others)
+        3.	Strengthen the 100 Million Initiative to scale-up performance based contracting for better quality rural water service delivery.
+        4.	Support the other projects presented to find new partners to expand their innovations and share lessons learned.
+      format: basic_html
+  field_salle:
+    -
+      entity: e8aca36f-cb5c-4145-8f14-225129aaf755

@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 222ac2f8-46e6-481f-9583-73ec9809ac40
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    bbbad279-378f-4f9f-839a-7485a921a41a: taxonomy_term
+    bccdfb41-355e-425c-9fa5-e00b6fb5cb01: taxonomy_term
+    89db6466-01c6-4462-9cc3-e58631c6b13d: taxonomy_term
+    24ec730b-2e2e-4847-9d4a-f73c8c102fff: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Advancing Africa - EU water partnerships'
+  created:
+    -
+      value: 1647493850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/advancing-africa-eu-water-partnerships-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Africa has undergone fundamental changes over the last decade, which has fueled increasing demand for water and interconnected sectors underpinning human development, food security, energy access, environmental wellbeing, and climate action.  Building on the vision of the EU-Africa partnership “Towards a Comprehensive Strategy with Africa” this special session serves as a follow-up to the European Union - African Union summit (17-18 February 2022). 
+
+        The EU-Africa vision stresses that coming partnerships will be based on mutual interest and green growth models building around five main areas: “green transition and energy access”, “digital transformation”, “sustainable growth and jobs”, “peace and governance”, and “migration and mobility”. 
+
+        Across all these partnerships, water plays a vital role for life, health, food, biodiversity, climate, societal resilience, economy and trade. However, water continues to be rated as one of the most important sectors for Africa’s growth but is still facing investment shortfalls and lacking political attention.
+
+        Drawing on this observation, the “African Union Agenda 2063: The Africa We Want”, water security constitutes one of the priorities sought by the agenda and has the potential to unlock greater progress in terms of direct human benefits, economic benefits, and environmental benefits. This position has been reaffirmed in 2021 with AMCOW’s Windhoek Multi-Stakeholder Resolutions calling to accelerate water security and access to safely managed sanitation and hygiene in Africa. 
+
+        The session will present the central role played by water in advancing strategic partnerships between the EU and Africa to tackle emerging challenges and dovetail common priorities and interests through water.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493850
+      guid: ''
+      hash: 6579a3ff245f7c9eee6f36916896f5e3
+  field_code:
+    -
+      value: SS48
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: bbbad279-378f-4f9f-839a-7485a921a41a
+    -
+      entity: bccdfb41-355e-425c-9fa5-e00b6fb5cb01
+    -
+      entity: 89db6466-01c6-4462-9cc3-e58631c6b13d
+    -
+      entity: 24ec730b-2e2e-4847-9d4a-f73c8c102fff
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+  field_organisateurs_text:
+    -
+      value: 'European Commission (DG INTPA) / African Ministers'' Council on Water (AMCOW)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        •	2-minutes: Welcome by Session Moderator, Introduction of Panelists (4 panelists) and Description/Goals of Panel and Discussions
+        •	5-minutes: Welcoming video speech by Commissioner Jutta Urpilainen – DG INTPA
+        •	5-minutes: Opening remarks by African Union 
+        •	10 minutes: Presentation of the responses given in the new programming to Africa water Challenges – link with current major EU-AU strategic discussions, Deputy Director-General. Marjeta Jager. DG INTPA
+        •	20-minutes (4x5 min): Presentations of key points by each panelist.
+        •	45-minutes: Panel discussion with questions from moderator.
+        •	5-minutes: Conclusion by the moderator
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

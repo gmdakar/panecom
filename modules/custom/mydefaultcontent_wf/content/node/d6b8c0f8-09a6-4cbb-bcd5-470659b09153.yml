@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d6b8c0f8-09a6-4cbb-bcd5-470659b09153
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    fb8063b6-5d4d-4d1c-ba52-dedb168920c4: taxonomy_term
+    5bcebaaf-174c-42f6-b3f8-c5a5050b69d6: taxonomy_term
+    3ccb354c-c931-4842-9895-3d371a8057ca: taxonomy_term
+    f00fbebb-4ee4-4363-a81f-2148e31a8cfd: taxonomy_term
+    275149ee-f834-4949-a812-3ae65928d253: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Table ronde : Le rôle des instituts culturels européens dans le développement durable'
+  created:
+    -
+      value: 1647486184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/table-ronde-le-role-des-instituts-culturels-europeens-dans-le-developpement-durable
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        EUNIC Sénégal, le réseau des instituts européens engagés dans la coopération culturelle, souhaite questionner le rôle que peuvent avoir ses différents membres dans le développement durable.
+
+        Conscient de sa capacité à sensibiliser et à mener des actions fortes, EUNIC Sénégal souhaite renforcer son impact et questionner ses pratiques car les institutions culturelles et les secteurs de l'art et de la culture ont un rôle à jouer dans le développement durable. Quel est ce rôle et comment le secteur culturel peut-il contribuer au développement durable ?
+
+        Ces questions seront abordées lors d‘une table ronde qui rassemblera des experts et permettra d’ouvrir des pistes de réflexion et de proposer des actions concrètes afin d’agir en faveur d’une politique culturelle consciente des défis liés à l'environnement. 
+
+        EUNIC Sénégal a déjà entamé cette démarche, en accompagnant trois organisations environemmentales : Association Zéro Déchet, ENDA Pronat et le Jardin ethnobotanique de Hann et Fandène en leur proposant de réfléchir à comment la culture peut être un levier et un outil dans leur travail. Ces organisations seront présentes et partageront leurs expériences et leurs réflexions sur cette question.
+
+        Les principaux objectifs sont de :
+
+        '- Montrer le rôle important que l'art et la culture peuvent jouer en termes de sensibilisation aux objectifs de développement durable.
+
+        '- Engager une discussion ouverte sur ce que les institutions culturelles peuvent et doivent faire pour contribuer à la lutte contre le changement climatique.
+
+        '- Discuter du rôle de l’art et de la culture dans le développement durable.
+         
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486184
+      guid: ''
+      hash: 31b482a39815f3b83b9d31722fdb3682
+  field_code:
+    -
+      value: SE46
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'à definir'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: fb8063b6-5d4d-4d1c-ba52-dedb168920c4
+    -
+      entity: 5bcebaaf-174c-42f6-b3f8-c5a5050b69d6
+    -
+      entity: 3ccb354c-c931-4842-9895-3d371a8057ca
+    -
+      entity: f00fbebb-4ee4-4363-a81f-2148e31a8cfd
+  field_organisateurs_text:
+    -
+      value: 'EUNIC Senegal'
+      format: plain_text
+  field_programme:
+    -
+      value: 'à definir'
+      format: basic_html
+  field_salle:
+    -
+      entity: 275149ee-f834-4949-a812-3ae65928d253

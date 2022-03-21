@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b3ebeaa9-d5ed-49d5-80eb-c6a079af766f
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    b7d5a093-25cc-49dc-8fcb-69f68fcc024b: taxonomy_term
+    b13d5677-b5ba-4c0a-bc45-499d4f03fd68: taxonomy_term
+    09b338de-f89f-491a-9863-81cc92c8831a: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    d2753b5e-7895-42c4-8988-f21026d4bd89: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'ALLIANCES FOR ODD 6'
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/alliances-odd-6-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "SDG 6 of the 2030 Agenda wants to "Ensure the availability and sustainable management of water and sanitation", but the importance of water is also evident for the success of the other goals marked by the 2030 Agenda. Moreover, in the current global context of a health pandemic, water plays a central role in the economic and health recovery of states, promoting resilience, employment opportunities and health benefits and access to innovative financing. 
+
+        The MDG 6 Global Acceleration Framework was launched during the July 2020 session of the High Level Political Forum on Development to support accelerated progress by countries in five areas related to MDG 6: financing, data and information, capacity development, innovation and governance.
+
+        However, the key SDG for achieving the 2030 Agenda is SDG 17, on Alliances for the Achievement of the Goals. "Water services are sustainable only when they are linked to sound water resources management, when governance is ensured and when the participation of all key sectors and stakeholders is strengthened", says UN-Water in a preliminary statement directed to the ministers participating in the 2020 High Level Political Forum on Sustainable Development.
+        Moreover, as stated by the UN Secretary General, Mr. Antonio Guterres, during the Global Forum on SDGs, the COVID-19 pandemic has taught us that "more than ever, cooperation, alliances and multilateralism must be at the heart of our work. 
+
+        In this session, evidence and practical experiences of successful investment in the sector will be presented, and this will open the dialogue between ministers, heads of development agencies, development banks, bilateral and multilateral partners, civil society and private sector."
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: 804af10af34a93d5bfd34750fda934a7
+  field_code:
+    -
+      value: HLP20
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: b7d5a093-25cc-49dc-8fcb-69f68fcc024b
+    -
+      entity: b13d5677-b5ba-4c0a-bc45-499d4f03fd68
+    -
+      entity: 09b338de-f89f-491a-9863-81cc92c8831a
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: d2753b5e-7895-42c4-8988-f21026d4bd89
+  field_organisateurs_text:
+    -
+      value: 'Spanish Agency for International Development Cooperation (AECID)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Moderated Roundtable Discussion (8 min. each panelist)
+        - Vice-Minister of Cooperation (Ministry of the Exterior): The Great Alliance between the Cooperation Fund for Water and Sanitation in Latin America and the Caribbean
+        - Director General of Water (MITERD): CODIA and the 5+5 Initiative in the Mediterranean 
+        - European Commission: Team Europe and Water and Sanitation priorities 
+        - CAF
+        - EIB
+        - SWA
+        - CEO Private Sector
+        - Civil Society
+        - University
+        - Debates between participants  
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

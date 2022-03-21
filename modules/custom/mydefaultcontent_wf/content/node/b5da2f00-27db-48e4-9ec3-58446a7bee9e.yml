@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5da2f00-27db-48e4-9ec3-58446a7bee9e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    eeee2648-c6eb-48df-8f60-7faf7cb3810b: taxonomy_term
+    15caa298-7cae-4319-a383-a6206b510010: taxonomy_term
+    ebfab946-2222-46b2-b012-a1bac466bdce: taxonomy_term
+    c5b14200-14f4-4cd8-b795-ae6ebcef879a: taxonomy_term
+    b806b0cc-7c66-40e6-a6f8-4bfff21aaf9c: taxonomy_term
+    345960d0-6db5-4bb1-a708-3b406ef52491: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financement basé sur le progrès pour la sécurité de l''eau - Approches innovantes pour soutenir les réformes du cadre et des services publics du secteur de l''eau'
+  created:
+    -
+      value: 1647486180
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financement-base-sur-le-progres-pour-la-securite-de-leau-approches-innovantes-pour-soutenir
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La gestion responsable des ressources en eau et l'accès universel à l'eau potable, à l'assainissement et à l'hygiène (WASH), tels qu'énoncés dans l'objectif de développement durable (ODD) 6, peuvent améliorer considérablement la santé publique, protéger l'environnement, réduire le risque de catastrophes (telles que celles causées par les pandémies et les événements climatiques extrêmes) et constituer le fondement d'un développement économique durable. Un cadre sectoriel favorable aux niveaux politique, institutionnel et réglementaire et des services d'eau et d'assainissement performants jouent tous un rôle essentiel dans la réalisation de la sécurité mondiale de l'eau. Pour de nombreuses sociétés d'eau dans le monde, la réalité actuelle est constituée de réglementations dysfonctionnelles et de niveaux de tarification insuffisants qui perpétuent un équilibre de faible niveau de performance. Le développement du secteur de l'eau lui-même et le développement des entreprises de services publics peuvent bénéficier de mécanismes de financement innovants, au-delà du financement des infrastructures par projet provenant des donateurs. Le financement lié à des incitations concrètes au changement est une occasion d'accélérer les réformes dans le secteur de l'eau et le redressement des opérations des services publics.
+        L'objectif de cette session est de partager des expériences et de recueillir des commentaires sur les mécanismes de financement innovants qui répondent aux défis mentionnés ci-dessus : Les prêts basés sur les politiques (PBL), le financement basé sur les résultats (RBF) et le financement d'entreprise pour les services d'eau et d'assainissement (" financement opérationnel ").
+        Les PBL, les WOP et potentiellement l'UWCF peuvent jouer un rôle de catalyseur dans la réalisation de divers autres ODD, tels que l'ODD 3 sur la santé, l'ODD 13 sur le climat ou l'ODD 11 sur les villes et communautés durables, ainsi que d'autres programmes de développement mondiaux, tels que l'Accord de Paris sur le climat, les contributions déterminées au niveau national et le Programme d'action d'Addis-Abeba sur le financement du développement.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486180
+      guid: ''
+      hash: 36c7b2fd980a5da643839fd6729ad608
+  field_code:
+    -
+      value: SE36
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Modérateur : Katrin Gronemeier, GIZ ; 
+        Participants : Christopher Wenzel, BMZ ; Detlef Klein, KfW ; Stefan Gramel/Bernd Schönewald, KfW ; Dieter Rothenberger, GIZ ; DGIS/Dutch Embassy
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: eeee2648-c6eb-48df-8f60-7faf7cb3810b
+    -
+      entity: 15caa298-7cae-4319-a383-a6206b510010
+    -
+      entity: ebfab946-2222-46b2-b012-a1bac466bdce
+    -
+      entity: c5b14200-14f4-4cd8-b795-ae6ebcef879a
+    -
+      entity: b806b0cc-7c66-40e6-a6f8-4bfff21aaf9c
+  field_organisateurs_text:
+    -
+      value: 'Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Discours d'ouverture (8 minutes) par Christopher Wenzel, BMZ : Le financement basé sur le progrès pour la sécurité de l'eau - Approches innovantes pour soutenir les réformes du cadre du secteur de l'eau et des services publics.
+
+        Intervention I (8 minutes) par Detlef Klein, KfW / Dieter Rothenberger, GIZ : Urban Water Catalyst Fund - Financement opérationnel / d'entreprise comme nouvelle approche pour soutenir les redressements des services d'eau et les partenariats avec les opérateurs.
+
+        Intervention II (8 minutes) par Stefan Gramel/Bernd Schönewald tbc, KfW : Policy-based Lending (PBL) et Results-based Financing (RBF) pour améliorer les conditions cadres sectorielles.
+
+        Discussion structurée avec les panélistes et les participants (30 minutes) : Brefs commentaires / réactions et questions aux panélistes sélectionnés : 
+        - Représentant des services publics, tbc 
+        - Représentant des donateurs, tbc 
+        - KFW, tbc
+        - GIZ, tbc
+        Questions clés : Quelle sera la nature et la demande de financement opérationnel / d'entreprise ainsi que de PBL (par rapport au financement de projet et de RB) du point de vue de la compagnie et des partenaires de développement ?  Quels sont les défis à relever pour mettre en œuvre ce type de financement ?
+
+        Remarques de clôture (6 minutes) par DGIS/Ambassade des Pays-Bas (à confirmer)
+      format: basic_html
+  field_salle:
+    -
+      entity: 345960d0-6db5-4bb1-a708-3b406ef52491

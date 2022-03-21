@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3c379769-d1ee-49da-aa6d-14558a482748
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    da7a0fb1-7dcc-4444-a84d-09b3f47280d5: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    6c68a3b4-f2e7-4930-be9c-1ab6b096f015: taxonomy_term
+    a713d3fa-5b71-4ae6-88ba-11efc6012359: taxonomy_term
+    81438084-2276-4d17-87b4-9ad7aaeea8d8: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sustainable Finance after COVID- 19'
+  created:
+    -
+      value: 1647484850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sustainable-finance-after-covid-19
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        New models and mechanisms that inspire and reward utilities for thinking outside of their government budget need to be implemented alongside new methods for financing water and sanitation service provision
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484850
+      guid: ''
+      hash: 708cf000e3f6bf87ba9609ab2b8b6f10
+  field_code:
+    -
+      value: 4A3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: da7a0fb1-7dcc-4444-a84d-09b3f47280d5
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 6c68a3b4-f2e7-4930-be9c-1ab6b096f015
+    -
+      entity: a713d3fa-5b71-4ae6-88ba-11efc6012359
+    -
+      entity: 81438084-2276-4d17-87b4-9ad7aaeea8d8
+  field_organisateurs_text:
+    -
+      value: |
+        SOMAGEP, UN Capital Development Fund
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: tbd
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: tbd
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        tbd
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: tbd
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

@@ -1,0 +1,155 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d2fea61a-1359-4c80-b02d-435dc6cf701e
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    7cd54521-4303-40a4-8625-259b48a4e75e: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    2a1045b4-37d6-4d94-83d5-1adf9de4e2e4: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    d9d664de-b872-442e-909f-cc27beadad3f: taxonomy_term
+    0375928c-365a-42df-8090-542ada8589a2: taxonomy_term
+    f691a6e1-08ed-4765-9642-6438e7be56af: taxonomy_term
+    ab9c597e-7ca1-47c3-8eaa-ae1dee79551f: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Are water deficits and extreme events increasing migration and displacement?'
+  created:
+    -
+      value: 1647484841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/are-water-deficits-and-extreme-events-increasing-migration-and-displacement?'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'There is growing evidence that water scarcity, changes in precipitation patterns and extreme weather events combined with socioeconomic vulnerabilities are driving migration and displacement.  In 2016, climate and water-related disasters were responsible for displacing 23.5 million people.  Closing the knowledge gaps by gathering statistics, data and information on migration and its drivers, is key to support evidence-based policies, programmes and investments to tackle migration. There is no clear, simple solution but while the cost of responses to migration is concerning for States, the cost of no decisions will certainly surpass it. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484841
+      guid: ''
+      hash: fea18cc0e3b32741a23bbb80600076be
+  field_code:
+    -
+      value: 2F2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 7cd54521-4303-40a4-8625-259b48a4e75e
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 2a1045b4-37d6-4d94-83d5-1adf9de4e2e4
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: d9d664de-b872-442e-909f-cc27beadad3f
+    -
+      entity: 0375928c-365a-42df-8090-542ada8589a2
+    -
+      entity: f691a6e1-08ed-4765-9642-6438e7be56af
+    -
+      entity: ab9c597e-7ca1-47c3-8eaa-ae1dee79551f
+  field_organisateurs_text:
+    -
+      value: |
+        FAO
+        UNU  
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        IOM
+        GWP
+        Italian Agency for Development Cooperation, 
+        Turkish Water Institute Caritas 
+        UN Habitat
+        Ziguinchor University 
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        -	Addressing climate- and water-driven migration and conflict interlinkages to build Community Resilience in the Congo Basin
+
+        -	The role of migration as climate change adaptation strategy in the Near East and North Africa region. 
+
+        -	One million cisterns program in West Africa
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        •	Welcome and introduction by the Session coordinators and poll of the participants (5 min)
+
+
+        •	General overview on current knowledge about migration and water (10 min)
+         Presentation on available data and information at global level (IOM) (10   min)
+          Presentation of climate migration projections (TBC)  (10 min)
+
+        •	Regional perspectives (North Africa and Middle East, Africa, Central Asia, Latin America and the Caribbean)  - 30 min
+
+        The role of migration as climate change adaptation strategy in the Near East and North Africa region (FAO) 
+
+        UNU CRIS (Causality and Regional  (Africa) Trends of Displacement  from Water and Climate Crisis- focus on pastoral communities , tactical measure for managed migration-climate diplomacy for negotiating organised and orderly migration pathways )
+
+        Other regions (TBD)
+
+        •	Expert panel discussion on knowledge gaps ( 20 min) 
+
+
+        •	Q/A session (15 min)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Brief conclusion report summarizing findings and setting a framework to bridge knowledge gaps'
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

@@ -1,0 +1,217 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02d2dfde-75a4-4129-9b7a-2ff1e31032d2
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    f5027879-1314-4a29-ab0e-b322c29970d4: taxonomy_term
+    2f77574c-d83d-462b-b34d-c666f9ebabbc: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    d9338811-6c22-44ce-a158-06bb895a4185: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    c389d669-4868-42a3-950e-146d6bb75d89: taxonomy_term
+    1947b835-64d3-4167-824c-71a80ccb9305: taxonomy_term
+    36f4ea4f-dea1-4945-a0db-dfbd2d60e3b0: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La voix des jeunes : cultiver le leadership de la prochaine génération pour renforcer la gouvernance, l''eau et les résultats en matière de santé.'
+  created:
+    -
+      value: 1647484965
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-voix-des-jeunes-cultiver-le-leadership-de-la-prochaine-generation-pour-renforcer-la
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Les conversations sur les questions liées à l'eau sont souvent dominées par le secteur de l'eau, les experts en la matière et les organisations spécialisées de la société civile. Notre session vise à changer cela.  Nous devons entendre de nouvelles voix.  Avec les jeunes leaders qui émergent partout sur la planète dans les entreprises, les médias, la technologie, la société civile et les gouvernements, s'ils tournent leur leadership vers l'eau, ce serait une manière puissante d'approcher, de comprendre les problèmes et de s'attaquer aux causes des inégalités. Nous voulons aider la communauté de l'eau en amenant de nouveaux leaders d'une manière passionnante.  La session réunira des leaders clés de l'eau capables d'influencer des changements significatifs avec des organisations de jeunesse, des leaders et des organisations de la société civile. Une alliance des leaders d'aujourd'hui et de demain créera une percée, catalysée par le Forum mondial de l'eau de Dakar. 
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484965
+      guid: ''
+      hash: 22a8e438dfd84ea052b5ed5fc00f519a
+  field_code:
+    -
+      value: '4D1 '
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f5027879-1314-4a29-ab0e-b322c29970d4
+    -
+      entity: 2f77574c-d83d-462b-b34d-c666f9ebabbc
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: d9338811-6c22-44ce-a158-06bb895a4185
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: c389d669-4868-42a3-950e-146d6bb75d89
+    -
+      entity: 1947b835-64d3-4167-824c-71a80ccb9305
+    -
+      entity: 36f4ea4f-dea1-4945-a0db-dfbd2d60e3b0
+  field_organisateurs_text:
+    -
+      value: 'WaterAid, Citizens Alliance '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Posceas, '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Programme "Nettoyer l''eau, nettoyer les mains, sauver des vies" (bassins versants)'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "13:30-13:35
+        5 minutes
+         	Les invités arrivent pour l'enregistrement et les rafraîchissements 
+
+        Lecture d'une vidéo pour lancer l'événement.
+        	 Accueil + liste de présence
+        13:35-13:45
+        10 mins
+         	Session d'ouverture
+        Bienvenue de Mariame Dem, Directrice des projets spéciaux, WaterAid (modératrice)
+        Mariame présente la session et la structure
+         
+        Lecture du film : compilation de messages vidéo de jeunes du monde entier
+         	Décrire l'opportunité passionnante du leadership des jeunes pour le secteur WASH, et les défis auxquels le secteur est confronté.
+          
+        Présenter les objectifs de la session 
+         
+        13:45-14:00
+        15 mins Orateurs principaux 1 & 2
+        Mariame présente :
+
+        - Dr Fatimatou Sall, Présidente, AYPWS (Association des Jeunes Professionnels de l'Eau et de l'Assainissement du Sénégal) 
+        (5mins de remarques)
+
+
+        - M. Pedro Arrojo-Agudo, Rapporteur spécial sur les droits de l'homme à l'eau potable et à l'assainissement. 
+        (remarques de 5 minutes)
+        	
+
+
+        Dr Sall - pourquoi je me préoccupe de WASH, et ce que fait notre organisation. Un appel à l'action à tous les participants de l'atelier pour partager leurs idées, leur énergie.
+
+        M. Arrojo-Agudo - l'eau et l'assainissement en tant que droits de l'homme - ce que cela signifie, et le rôle des citoyens, en particulier des jeunes, pour exiger des services et demander des comptes aux gouvernements.
+
+        14:00-14:20
+        20mins Tester les eaux - les idées des jeunes
+        Mariame présente la session et les questions clés pour les discussions en petits groupes.
+
+         Discussion en groupes.	
+        Pour entendre vos idées.
+
+        Questions pour la discussion :
+        - Qu'est-ce qui vous inspire en matière de WASH ?
+        - Quelles actions sont nécessaires pour garantir que tout le monde ait de l'eau potable et des installations sanitaires ?
+        - Quels rôles les jeunes peuvent-ils jouer ?
+
+        14:20-14:35
+        15mins Orateurs principaux 3 & 4 
+        Mariame présente :
+
+        - Dr Kathryn Nwajiaku, Directrice du programme Politique et Gouvernance, Overseas Development Institute (ODI). 
+        (remarques de 5 minutes)
+
+
+        - Marième Soda Ndiaye, plus jeune député sénégalais, jeune déléguée pour l'Afrique et le Moyen-Orient au Conseil mondial de l'eau (confirmé) 
+
+
+
+        - M. Henk Ovink, Envoyé spécial pour les affaires internationales de l'eau, Gouvernement des Pays-Bas
+        (remarques de 5 minutes)
+        	
+
+
+        Dr Nwajiaku - quelles sont les inégalités dans l'accès à l'eau, à l'assainissement et à l'hygiène, comment se produisent-elles et que peuvent faire les gouvernements, le secteur privé, les donateurs internationaux et les jeunes pour y remédier ?
+
+        Marieme pourrait couvrir comment les jeunes peuvent améliorer la gouvernance de l'eau ? (elle le peut en raison de son rôle de député - développement de politiques, budget...),
+
+        M. Ovink : pourquoi le secteur WASH est important pour la santé, l'éducation, l'égalité des sexes, la croissance économique et la résilience climatique. Pourquoi nous avons besoin de votre leadership (jeunes).
+        14:35-14:50
+        15mins La voix des jeunes
+        Mariame facilite les questions et la discussion
+
+        - De quelles idées avez-vous parlé dans vos groupes ?
+        - Qu'est-ce qui vous a le plus inspiré parmi les intervenants ?
+        - Quel est votre appel à l'action pour les dirigeants du WWF ?	  
+        Pour entendre vos voix.
+        14:50-15:00
+        10mins Appel à l'action des jeunes
+        Remarques finales de Mariame, appelant tous les participants à s'engager dans la campagne "Eau propre. Mains propres. Sauvez des vies".
+
+        Invitez les participants à s'inscrire au programme " Clean Water. Mains propres. Sauver des vies" qui sera lancé lors du WWF et partagé avec les dirigeants.
+
+        Merci à tous les intervenants. 
+
+        Visionner la vidéo
+        	Obtenez l'engagement des participants, des leaders, des jeunes et des experts à contribuer au manifeste "Clean Water. Mains propres. Sauvez des vies" en signant le Manifeste
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Résultats escomptés des sessions
+
+        - Produire un projet de manifeste à l'intention des jeunes leaders du monde entier, signé par les participants à la session, qui est distribué par l'ensemble du groupe comme un appel à participer au programme sous l'égide du WWF.
+        - Développer le message le plus simple et le plus convaincant pour galvaniser les jeunes leaders du monde entier et les persuader que l'eau doit être au centre de leur réflexion, de leur citoyenneté et de leur leadership.
+        - Obtenir l'engagement des participants à piloter ce programme dans au moins un bassin versant en Afrique.
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

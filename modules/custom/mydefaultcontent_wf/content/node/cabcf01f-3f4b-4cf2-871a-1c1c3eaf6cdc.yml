@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cabcf01f-3f4b-4cf2-871a-1c1c3eaf6cdc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    4fca3b45-ba83-4b73-8309-7ef17568364e: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    dc4e4141-1ee5-4fc6-a3a9-092f8aa438b1: taxonomy_term
+    276bb925-e68f-4e65-bdc1-f7dca35005d6: taxonomy_term
+    03edb199-93a3-4000-9f15-01ee7366729a: taxonomy_term
+    b53af4b6-0ab6-4be3-a7b1-d1e330921183: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Traiter tous les types de pollutions de l''eau, y compris les polluants industriels et les contaminants d''intérêt émergent.'
+  created:
+    -
+      value: 1647484937
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/traiter-tous-les-types-de-pollutions-de-leau-y-compris-les-polluants-industriels-et-les
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''eau est un élément essentiel pour l''homme et pour la vie. L''eau polluée est souvent identifiée comme le principal vecteur d''agents pathogènes infectieux, de toxines et de contaminants organiques, qui peuvent être associés à un grand nombre de maladies chroniques dans le monde. Au cours des dernières décennies, la croissance de la population humaine et les activités humaines ont non seulement augmenté la quantité de déchets déversés dans les masses d''eau, mais ont également introduit des substances émergentes, notamment des polluants de source industrielle, des produits pharmaceutiques ou des microplastiques. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484937
+      guid: ''
+      hash: dcbc51aeb783e414a29b5761edf4f23e
+  field_code:
+    -
+      value: 1B1
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 4fca3b45-ba83-4b73-8309-7ef17568364e
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: dc4e4141-1ee5-4fc6-a3a9-092f8aa438b1
+    -
+      entity: 276bb925-e68f-4e65-bdc1-f7dca35005d6
+    -
+      entity: 03edb199-93a3-4000-9f15-01ee7366729a
+    -
+      entity: b53af4b6-0ab6-4be3-a7b1-d1e330921183
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+  field_organisateurs_text:
+    -
+      value: |-
+        AFD & IWRA
+        Alice Colson 
+        Ignacio Deregibus
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Modératrice : Mme Alice Colson - AFD (F)
+        Représentants du Club Jeunes - IRD -(Y) 
+        Suez - Julien Dupont (M)
+        Ville de Paris - Yann Bhogal (M) 
+        SUEN - Mme Bilge Alpaslan Kocamemi(F) 
+        ONAS - Dr Papa Samba Diop (M) 
+        SIAAP - M. Joakim Giacomoni (M) 
+        WWQA - Nina Raasakka (M)
+        Vito Be - Katrien Van Hooydonk (F)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        Projet 1 - ONAS - Sénégal : Programme de récupération des eaux souterraines polluées pour augmenter les capacités d'approvisionnement en eau potable et pour les activités économiques de la ville de Dakar, Sénégal. 
+        Projet 2 - AFD - France : réduction de la pollution industrielle et lancement d'une initiative mondiale pour y remédier 
+        Projet 3 - SIAAP - France : Réhabilitation d'une rivière à Manilla, Philippines
+        Projet 4 - SUEN - Évaluation de la réutilisation des eaux usées en agriculture du point de vue de l'épidémie de Covid-19 
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        00:00 - Introduction : 
+        Club Jeunes IRD : Les différentes pollutions de l'eau et leur impact sur la santé, les écosystèmes et l'économie.  
+        00:05 - Cadrage de la session par le modérateur AFD
+
+        00:07 Partie 1 - IDENTIFIER : identifier les sources de pollution, leur nature, leur origine.
+        (5min) ONAS - du renforcement des systèmes d'assainissement pour éviter la pollution des eaux souterraines au Sénégal - Dr Papa Samba DIOP
+        (5min) Suez Consulting - RSDE (recherche et réduction des rejets de substances dangereuses) initiative sur l'identification des micropolluants- Pol'solutions - Julien Dupont
+
+        00:20 10 min discussion avec la salle - quelles solutions connaissez-vous pour identifier les sources de pollution ? (sur une application ou sur un carton)
+
+        00:30 Partie II - MONITOR : Mettre en place des mécanismes d'évaluation et de suivi 
+        (5min) WWQA - Alliance mondiale pour la qualité de l'eau, résultats clés - Nina Raasakka
+        (5min) SUEN - Un aperçu du projet national turc d'épidémiologie du SRAS-CoV-2 basé sur les eaux usées : Surveillance de routine de l'épidémie Covid-19 et perspectives futures pour les contaminants émergents au-delà de Covid-19- Bilge Alpaslan Kocamemi
+        (5 min) VITO - Comment une méthode holistique de lutte contre les polluants émergents peut prévenir les noyades - Katrien Van Hooydonk
+        00:40 10 min de discussion - les approches actuelles sont-elles suffisantes pour évaluer la qualité de l'eau ? 
+
+        00:55 Partie III - REDUIRE : réduire la charge polluante. Quand le mal est fait, que faisons-nous ? 
+        (5 min) Ville de Paris - Approche comparative de la qualité de l'eau pour la baignade à Dakar, Tokyo et Paris. Yann Boghal
+        (La mise en place de solutions visant à réduire l'impact de la pollution sur l'environnement : approche curative avec l'exemple de l'écran à Minato, approche préventive avec l'exemple de Paris Rain, visant à limiter les rejets unitaires d'eau dans la Seine lorsque le réseau est saturé).
+        (5min) SIAAP - Réhabilitation des rivières aux Philippines - Joakim GIACOMONI
+        (5min) 
+        1:15 10min discussion -Comment mettre en place des normes et réglementations réalistes pour les pollutions de l'eau ? 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'L''objectif de cette session axée sur les pollutions de l''eau, y compris les polluants industriels et les contaminants émergents, est de fournir des solutions existantes et des études de cas sur la façon d''aborder la question de la pollution de l''eau, et de sensibiliser aux nouveaux types de polluants qui ne sont pas encore - ou à peine - pris en compte dans les règlements, les lois et les traitements de l''eau. Cette session sera un moyen utile de rassembler des connaissances sur la manière d''identifier, de surveiller et de traiter certaines sources spécifiques de polluants, ainsi que de mieux comprendre la question des contaminants émergents. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

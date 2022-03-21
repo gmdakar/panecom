@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 01c7cc81-6c6c-42a7-a9ec-47ade986beac
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    277d72d3-af0d-465b-a5c3-dbf70c02b95a: taxonomy_term
+    0afc3eec-4d09-4bde-b7d1-f0086005516b: taxonomy_term
+    83798d2a-8b8c-42ab-aeb9-e2fd48bda2ec: taxonomy_term
+    817bf412-b3d8-4176-86c7-2df63d72cfc8: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La Nature pour les infrastructures de l’eau : permettre aux champions locaux de créer des programmes d''investissement dans les bassins versants à l''échelle mondiale.'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-nature-pour-les-infrastructures-de-leau-permettre-aux-champions-locaux-de-creer-des-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Objectif :
+        Il s'agit de la session de lancement public de la Facilité pour la Nature dans le secteur de l'eau, une facilité d'assistance technique conçue pour fournir un ensemble de services de conseil sur les solutions basées sur la nature (NbS) pour la sécurité de l'eau.  La session soulignera pourquoi les solutions basées sur la nature sont importantes, fournira des études de cas de leur impact réussi, décrira la proposition de valeur de ce nouveau programme, et montrera comment les membres de la communauté mondiale du secteur de l'eau peuvent s'associer et fournir des résultats sur le terrain dans les bassins versants. 
+
+        Description de la session :
+        Les solutions basées sur la nature - telles que la reforestation, la restauration des paysages et les meilleures pratiques de gestion agricole - offrent des voies prometteuses pour améliorer la santé des bassins versants et la sécurité de l'eau. Elles permettent également d'obtenir des co-bénéfices significatifs tels que des moyens de subsistance durables, la protection de la biodiversité et la séquestration du carbone.
+
+        Cependant, malgré l'intérêt croissant pour l'intégration des NbS dans le secteur de l'eau, elles représentent toujours moins de 0,1 % des dépenses d'investissement annuelles mondiales. Cette situation s'explique en partie par une défaillance du marché en ce qui concerne la disponibilité de l'assistance technique pour doter les champions locaux de l'expertise nécessaire pour créer, concevoir et exécuter des programmes d'investissement dans les bassins versants.
+
+        The Nature Conservancy (un organisme environnemental mondial à but non lucratif) et Pegasys (une société de conseil en infrastructures durables basée en Afrique) sont heureux de profiter de cette session spéciale pour lancer officiellement la Facilité Nature pour l'eau. Ce programme de quatre ans est conçu pour combler le "fossé de la nature" en fournissant une série de services de conseil NbS aux clients locaux qui cherchent à élaborer des programmes d'investissement dans les bassins versants. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: 23e168f0f7980fd9adba2bd6758f6474
+  field_code:
+    -
+      value: SS01
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 277d72d3-af0d-465b-a5c3-dbf70c02b95a
+    -
+      entity: 0afc3eec-4d09-4bde-b7d1-f0086005516b
+    -
+      entity: 83798d2a-8b8c-42ab-aeb9-e2fd48bda2ec
+    -
+      entity: 817bf412-b3d8-4176-86c7-2df63d72cfc8
+  field_organisateurs_text:
+    -
+      value: 'The Nature Conservancy'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        1) Accueil & sécurité de l'eau et le potentiel global de la NbS - Andrea Erickson + Vidéo - 5 minutes
+        2) NbS en action : relier le cas du Greater Cape Town Water Fund à Kruger to Canyons - Maire Geordin Hill-Lewis, Louise Stafford, & Nicholas Theron - 20 minutes
+        3) Permettre au niveau local d'agir au niveau mondial : Lancement de la Facilité Nature pour l'Eau - Justus et Mike en conversation - 20 min
+        o Entrecoupé de vidéos d'une minute sur les projets des bénéficiaires de la première série de subventions.
+        4) Discussion en groupe - 40 minutes, modérée par Andrea
+        5) Synthèse de la session et invitation à la collaboration - Andrea Erickson - 5 min
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

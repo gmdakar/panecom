@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b42e6ac-f621-41bd-803a-eb4e64282409
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    277d72d3-af0d-465b-a5c3-dbf70c02b95a: taxonomy_term
+    2fb138e4-7ff8-4358-85a2-6f4c28e23521: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    817bf412-b3d8-4176-86c7-2df63d72cfc8: taxonomy_term
+    ff8eff82-f0a9-4725-98ed-f48d69b984e2: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Investir dans des solutions fondées sur la nature pour la sécurité de l''eau'
+  created:
+    -
+      value: 1647484961
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/investir-dans-des-solutions-fondees-sur-la-nature-pour-la-securite-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Il est essentiel d''investir dans des solutions fondées sur la nature, telles que la préservation ou la restauration des zones humides et les mesures de gestion naturelle des inondations, pour renforcer la sécurité de l''eau. Ces solutions peuvent compléter ou remplacer les infrastructures grises, telles que les réservoirs construits et les usines de traitement des eaux. La mobilisation de fonds pour ces solutions pose des problèmes spécifiques, car elles génèrent de multiples avantages pour un large éventail de bénéficiaires - et seuls certains de ces avantages peuvent être monétisés. Pourtant, la nature est souvent l''un des meilleurs investissements d''aujourd''hui, notamment pour faire face à la double crise du changement climatique et de la perte de biodiversité. La session fournira des conseils pratiques aux praticiens et aux investisseurs sur la manière d''organiser le financement de solutions basées sur la nature pour la sécurité de l''eau et de mobiliser des fonds. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484961
+      guid: ''
+      hash: 90bcdfbbe17c15f3864d647f772dd4d4
+  field_code:
+    -
+      value: 4A5
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 277d72d3-af0d-465b-a5c3-dbf70c02b95a
+    -
+      entity: 2fb138e4-7ff8-4358-85a2-6f4c28e23521
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 817bf412-b3d8-4176-86c7-2df63d72cfc8
+    -
+      entity: ff8eff82-f0a9-4725-98ed-f48d69b984e2
+  field_organisateurs_text:
+    -
+      value: ' The Nature Conservancy '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'CAF, SABESP, Agence Française de Développement, Ministere de l''Eau et de l''Assainissement du Senegal'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Lancement de "Nature-based Solutions for Water Security - An Investor Guide" (produit par le Conseil mondial de l''eau, The Nature Conservancy et Finance Earth) ; présentation d''un guide pratique pour développer des programmes d''investissement dans les bassins versants (produit par The Nature Conservancy et l''Agence française de développement) et présentation de deux projets : Pout au Sénégal et le programme SABESP NBS au Brésil.'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "0-10' : introduction au sujet et à l'ordre du jour de la session, Sophie Trémolet, Directrice Europe Eau Douce, The Nature Conservancy 
+        10-25' : Présentation "How to Guide to Develop Watershed investment Programmes" par The Nature Conservancy - avec des commentaires de l'AFD 
+        25-40' : Présentation "Nature-based Solutions for Water Security - An Investor Guide" par CAF et Finance Earth / TNC 
+        40-55' : Présentation du projet Pout Climate Adaptation and Aquifer Recharge au Sénégal - par un représentant du Ministère de l'Eau et de l'Assainissement du Sénégal
+        55-70' : Présentation de l'approche de la SABESP en matière d'investissement en NbS 
+        70-90' : Questions et réponses et conclusions sur les prochaines étapes - y compris les appels à la Facilité Nature pour l'Eau et les prochaines formations sur le sujet (modéré par TNC). 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'La sensibilisation au financement des NBS pour la sécurité de l''eau a été considérablement accrue. Les participants connaissent les publications qui seront présentées et peuvent y accéder. Ils ont été sensibilisés à l''existence de diverses facilités d''assistance technique et de programmes de formation pour élargir leurs connaissances sur le sujet. '
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

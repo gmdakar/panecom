@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 39901e8e-e324-4bf9-8a2c-4a6c5fbf1013
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    3ee7a34b-e026-41fe-904d-c05df6aa1b4d: taxonomy_term
+    80965757-4c66-4858-a07a-503edd789171: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Eau écologique'
+  created:
+    -
+      value: 1647486185
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/eau-ecologique
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        L’initiative pour l’eau écologique vise à établir des relations avec les institutions nationales et internationales œuvrant dans le domaine de la gestion rationnelle des ressources en eau,
+         à produire des évidences scientifiques en mesure d’étayer les réformes des politiques nationales et locales en faveur de l’eau écologique. Du fait de sa transversalité, la gestion écologique de l’eau nécessite un partenariat multi-acteurs et multi-niveaux.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486185
+      guid: ''
+      hash: 38148423ce5aa997b8797a25f6f9de4f
+  field_code:
+    -
+      value: SE24
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Dr. Adrien COLY, Enseignant Chercheur, UGB Saint-Louis'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 3ee7a34b-e026-41fe-904d-c05df6aa1b4d
+  field_organisateurs_text:
+    -
+      value: 'Ministère de l''Environnement et du Développement durable/Partenariat national de l''Eau du Sénégal'
+      format: plain_text
+  field_salle:
+    -
+      entity: 80965757-4c66-4858-a07a-503edd789171

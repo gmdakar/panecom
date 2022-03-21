@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56592298-d853-4ec9-8471-8b8f03e8f5e0
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    e4a73d29-0421-415d-a3a7-14cb9bece9af: taxonomy_term
+    58542240-92f6-48f7-80ab-79611ec97d53: taxonomy_term
+    98f941d3-4ff4-4457-a1ac-5b95389eceea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rencontrer et collaborer avec un centre d''excellence africain'
+  created:
+    -
+      value: 1647486185
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rencontrer-et-collaborer-avec-un-centre-dexcellence-africain
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Cet événement parallèle vise à réunir de manière très décontractée les professionnels de l'eau et les parties prenantes afin d'ouvrir des discussions pour trouver des axes de collaboration. Les objectifs sont de :  
+        1-Offrir aux centres d'excellence africains travaillant dans le domaine de l'eau de présenter leur expertise.
+        2-Dans un style de réunion B2B, de manière décontractée et concrète, susciter des discussions pour des partenariats potentiels
+        3-introduire la recherche africaine d'excellence dans le domaine des ressources en eau durables au monde entier. 
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486185
+      guid: ''
+      hash: a6a11984b2e6b0287257e02ff58633f4
+  field_code:
+    -
+      value: SE25
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Gregory Giraud - Responsable du projetACE Partner 
+        Ouedraogo Faissal Romaric-Coordinateur du projet NET-WATER
+        Harouna Karambiri - Directeur du Centre d'Excellence Africain (ACE) - Institut International d'Ingénierie de l'Eau et de l'Environnement.
+        Daouda Mama-Directeur du Centre d'excellence africain pour l'eau et l'assainissement. 
+        Gordana Kranjac-Berisavljevic, directeur adjoint du Centre ouest-africain pour l'irrigation de l'eau et l'agriculture durable 
+        Mamadou Cherif, Directeur adjoint du Centre d'excellence africain sur le changement climatique, la biodiversité et l'agriculture durable  
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: e4a73d29-0421-415d-a3a7-14cb9bece9af
+    -
+      entity: 58542240-92f6-48f7-80ab-79611ec97d53
+  field_organisateurs_text:
+    -
+      value: 'ACE Partner Project '
+      format: plain_text
+  field_programme:
+    -
+      value: 'Cette session est une session B2B pour promouvoir la coopération entre la science à travers les centres d''excellence africains et le secteur socio-économique représenté par les entreprises, les ONG, le secteur privé et public, etc. Les organisations invitées auront la possibilité de rencontrer et de saluer un cadre supérieur d''un Centre d''excellence africain afin de discuter de partenariats potentiels qui seront co-construits pour répondre aux besoins et aux objectifs des deux parties. Chaque CAE rencontrera un partenaire potentiel pendant 10 minutes pour explorer les moyens d''établir une collaboration. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 98f941d3-4ff4-4457-a1ac-5b95389eceea

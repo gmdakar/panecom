@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e60c8aae-c6bc-4d1b-a384-bfc50a7ddd35
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    87f9ac24-af7e-481e-b972-6e710ef5aa06: taxonomy_term
+    dd4d3fbb-d6b2-4adf-9ce0-4f4784a69ebe: taxonomy_term
+    01709acd-9109-4b93-bdd2-327875fb8e2f: taxonomy_term
+    6f0563ea-2770-46b3-9167-6f304cab87d2: taxonomy_term
+    510cb59c-9955-441a-a031-d89b8a61dd3b: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''assainissement non- collectif, un enjeu clé pour les collectivités locales africaines.'
+  created:
+    -
+      value: 1647485815
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lassainissement-non-collectif-un-enjeu-cle-pour-les-collectivites-locales-africaines-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L’assainissement non-collectif est largement prédominant en Afrique subsaharienne. En 2020, ce mode de gestion, souvent informel, représentait 72% de l’accès en milieu rural et 78,6% en milieu urbain.  La formalisation de l'assainissement non-collectif apparaît donc comme un enjeu clé pour les collectivités locales africaines qui sont généralement chargées d’en assurer la gestion. 
+
+        L’objectif principal de cette session est de contribuer aux cibles 6.2 et 6.3 de l’ODD 6 en matière d’assainissement et de gestion des eaux usées. Plus spécifiquement, il s’agit de présenter l’assainissement autonome comme une alternative durable et complémentaire au système centralisé collectif et d’accompagner les collectivités locales dans sa structuration.  
+
+        Cette session se base sur plusieurs éléments : 
+        -	des monographies réalisées sur la situation de l’assainissement au Cameroun, au Cap Vert et au Ghana. 
+        -	des retours d’expériences d’élus locaux notamment dans le cadre de projets de coopération décentralisée. Un projet labélisé « Initiatives Dakar 2022 » au Togo sera présenté à cette occasion. 
+        -	un questionnaire élaboré en coordination avec CGLU-Afrique et transmis aux Associations nationales de collectivités locales africaines.
+
+        A l’issu de cette rencontre, sera élaborée une feuille de route concrète à destination des collectivités locales portant sur les bonnes pratiques en matière d’assainissement non-collectif. 
+
+        Cette initiative coordonnée par Yvelines, Coopération internationale et développement (YCID) bénéficie de l’appui du Parteneriat Français et de la Fondation Gates. 
+
+        Cette coalition en faveur de l’assainissement autonome fait suite aux discussions déjà entamées pendant le Forum Mondial de l’Eau à Brasilia et lors du Sommet Africités (Marrakech, 2018). 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485815
+      guid: ''
+      hash: 912d82af8b21366139e50b09b8f7265f
+  field_code:
+    -
+      value: SS40
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 87f9ac24-af7e-481e-b972-6e710ef5aa06
+    -
+      entity: dd4d3fbb-d6b2-4adf-9ce0-4f4784a69ebe
+    -
+      entity: 01709acd-9109-4b93-bdd2-327875fb8e2f
+    -
+      entity: 6f0563ea-2770-46b3-9167-6f304cab87d2
+    -
+      entity: 510cb59c-9955-441a-a031-d89b8a61dd3b
+  field_organisateurs_text:
+    -
+      value: 'Yvelines, Coopération internationale et développement (YCID)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1.	Introduction et présentation de l’initiative globale sur l’assainissement non-collectif : Jean-Marie Tétart, 10 min
+        2.	Exposé de la situation de l’assainissement non-collectif en Afrique : Mbaye Mbeguere, 10 minutes 
+        3.	Résumé des recommandations issues des monographies et discussion sur les différents modes de gestion : 
+        -	Cameroun : Roger Feumba 10 min
+        -	Cap Vert : Herménio Fernandes, 10 min
+        4.	Première phase d’échanges (questions-réponses avec la salle) : 10 min 
+        5.	Exemple d’un projet de coopération décentralisée sur l’assainissement non-collectif (labélisé) : expérience de la Commune des Lacs 1 : Alexis Acquereburu, 10 min 
+        6.	Rôle des collectivités et premiers résultats du questionnaire : Mohamed Nbou, 10 min 
+        7.	Débat avec la salle pour tirer les grandes recommandations et points d’attention sur la question de l’assainissement non-collectif (Possibilité de le réaliser sous la forme d’une matrice SWOT en co-construction avec les participants) : 15 min
+        8.	Clôture – (Fondation Gates ou Jean-Marie Tétart) 5 min 
+
+        (Le temps d’intervention pourra être limité à 7 minutes par intervenant pour laisser place à des questions). 
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5b71541-7553-4480-8f92-5f7ef5340b83
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    b1a3440c-e1e1-451f-b284-7c07bb7750cc: taxonomy_term
+    44b6b01b-ea4c-4190-98fd-69b97324aacc: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    9e5a6cc5-6e7c-4978-8335-cb52d7da01b8: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    345960d0-6db5-4bb1-a708-3b406ef52491: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'LES EVOLUTIONS INSTITUTIONNELLES ET ORGANISATIONNELLES DU SECTEUR DE L’EAU ET DE L’ASSAINISSEMENT EN AFRIQUE'
+  created:
+    -
+      value: 1647486182
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/les-evolutions-institutionnelles-et-organisationnelles-du-secteur-de-leau-et-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session est conçue comme un espace d’échange entre les participants sur la gouvernance du secteur de l''Eau et de l''Assainissement et de partager les expériences sur le cadre institutionnel et les mécanismes opérationnels de mise en œuvre des stratégies nationales de développement du secteur de l’Eau et de l’Assainissement dans les pays africains. Il s’agira de présenter le sujet et les enjeux qu’il recouvre, d’échanger sur les évolutions institutionnelles et organisationnelles du secteur, de procéder à une évaluation de l’efficacité des modèles d’opérationnalisation des orientations des structures nationales en charge du développement du secteur , et de formuler des recommandations fortes à l’endroit des décideurs publics ainsi que de toutes les autres parties prenantes y compris les consommateurs et autres usagers des services d’eau et d’assainissement.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486182
+      guid: ''
+      hash: e7bf1a1c330d96bce0e5b3548781f28d
+  field_code:
+    -
+      value: SE29
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panélistes / intervenants : DA / DG ONAS / Responsables autres pays africains
+        Modérateur attendu : CPCS/MEA SENEGAL 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: b1a3440c-e1e1-451f-b284-7c07bb7750cc
+    -
+      entity: 44b6b01b-ea4c-4190-98fd-69b97324aacc
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 9e5a6cc5-6e7c-4978-8335-cb52d7da01b8
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	20	min.	Brainstorming avec la salle sur la question : Les évolutions institutionnelles et organisationnelles du secteur de l’Eau de l’Assainissement en Afrique
+        20	-	40	min.	Présentations (10’ chacune) 
+        CPCS : Etat des lieux de la Gouvernance du secteur en prenant en compte les évolutions institutionnelles au Sénégal
+        DA : Evaluation de l’efficacité des modèles d’opérationnalisation des orientations des structures nationales en charge du développement du secteur de l'Eau et de l'Assainissement en Afrique : cas du Sénégal 
+        40	-	50	min.	Débat sur les présentation 
+        50	-	60	min.	Messages clés et conclusion
+      format: basic_html
+  field_salle:
+    -
+      entity: 345960d0-6db5-4bb1-a708-3b406ef52491

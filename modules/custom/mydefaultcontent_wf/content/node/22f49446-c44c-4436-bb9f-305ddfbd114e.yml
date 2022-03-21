@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 22f49446-c44c-4436-bb9f-305ddfbd114e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    9425c238-9b42-444f-98ce-f60f6f6d83f5: taxonomy_term
+    845f4a3d-05f9-4582-b579-fb02b7f24d13: taxonomy_term
+    46bc1c4b-13c2-4dfc-8b9d-eba07bf0e05c: taxonomy_term
+    1f8ad20e-57b6-4282-b697-7e3b00f0dac5: taxonomy_term
+    f5520756-8a6a-4c0d-babd-e4d4dce7a4bc: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accelerating gender equality in the water domain: the way forward'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accelerating-gender-equality-water-domain-way-forward-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The extensive analysis of gender-related achievements and challenges in the water domain carried out by the Water and Gender working Group led by UNESCO WWAP clearly suggests that - despite advances at international policy-level - progress in the fulfilment of the basic right of gender equality in water and sanitation is not on track. Women remain underrepresented with respect to employment and participation to decision-making at all levels in the water domain. Eight years to the end-date of the 2030 Agenda for Sustainable Development, bold and ambitious concrete action is urgently needed.
+
+        Unlocking progress towards gender equality in water needs solid knowledge, practical solutions, and collaborative action. UNESCO WWAP together with a Multi-stakeholder Coalition, which includes Member States’ institutions, international and regional organizations, academia and NGOs, is leading a global Call for Action for accelerating progress towards gender equality in the water domain and building just and resilient societies. 
+
+        This special session presents the efforts on the ground to reach the common goal and to close the data gap in the water sector in pursuit of gender equality. Mobilised by the Call for Action Initiative, a number of organizations and experts will discuss strategies and good practices in overcoming persistent gender-related challenges in water. Similarly, the session will explore how decision makers in different global regions are addressing gender inequalities in water governance and in adaptive integrated water management, as well as share knowledge on approaches to increase the resilience and inclusion of community members.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: 814f763f70edc3f372e4a90d06ebf9d4
+  field_code:
+    -
+      value: SS10
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 9425c238-9b42-444f-98ce-f60f6f6d83f5
+    -
+      entity: 845f4a3d-05f9-4582-b579-fb02b7f24d13
+    -
+      entity: 46bc1c4b-13c2-4dfc-8b9d-eba07bf0e05c
+    -
+      entity: 1f8ad20e-57b6-4282-b697-7e3b00f0dac5
+    -
+      entity: f5520756-8a6a-4c0d-babd-e4d4dce7a4bc
+  field_organisateurs_text:
+    -
+      value: 'UNESCO WWAP, Intergovernmental Organization'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Welcoming words (5 min)
+        UNESCO WWAP Director, Michela Miletto – Introduction to the Call for Action
+
+        Multi-Stakeholder Coalition members: support to the Call for Action and Introduction to the 2023 International Water Decade Mid-Term Celebrations (20 min)
+        o	Slovenia – Borut Pahor, President 
+        o	The Netherlands  - Kitty van der Heijden, Director General for International Cooperation,  Ministry of Foreign Affairs
+        o	Tajikistan – Sirojiddin Muhriddin, Minister for Foreign Affairs
+        o	Italy – Marina Sereni, Vice Minister for Foreign Affairs and International Cooperation 
+
+        Multi-Stakeholder Coalition members: country perspectives (50 min)
+
+        Panel 1: Better data for better informed water decisions (20')
+        o	Argentina – María Eugenia Vargas Zambrano, Gender Commission Head, COHIFE (Consejo Hidrológico Federal) 
+        o	Costa Rica – Pilot plan to disaggregate national statistical water data by sex -  Vivian Gonzalez Gimenez, Director of Projects and Strategic Processes, Ministry of Water and Energy
+        o	Liberia - (TBC)
+        o	World Bank - Karin Krchnak, Programme Manager, 2030 Water Resources group / or / Kamila Galeza, Social Development Specialist, World Bank Group 
+
+        Panel 2: Policies and programmes that work on the ground – Regional experiences of water and gender policies (30')
+        o	AMCOW – Comfort Kanshio, ASPG Support Officer and Gender Focal Point -  The gender mainstreaming and youth policy
+        o	Asian Development Bank - Strengthening WASH Practices and Hygiene Behavioural Change in the Pacific / Regional organisation, Vivian Castro-Wooldridge
+        o	Mediterranean Youth for Water Network, Ms. Fatine Ezbakhe, Coordinator 2020-2022 / or / WSP 
+        o	WIWAS – Supporting women professionals in water services in Africa – Ms. Leunita Sumba, Chairperson
+        o	Ivory Coast – Ms. Euphrasie Kouassi Yao, Advisor to the President on gender issues, former Minister 
+        o	AFD (French Development Agency)– Ms. Celine Gilquin, Head of Water and Sanitation 
+
+          
+        Questions & Answers (15 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

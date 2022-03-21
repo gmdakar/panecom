@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b130cdd-bbd8-4f1a-827c-c5f5d550c459
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    95dac91c-c849-4eca-8dcd-26cc312b5da6: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    9c776f91-8f07-473d-9e02-55825169adb8: taxonomy_term
+    88e7f3f6-9231-4307-ab59-b4af20a84610: taxonomy_term
+    cfbdb320-77c6-4c54-bea5-d84e906e1a40: taxonomy_term
+    0ab7bb08-5f5d-4156-b42b-689782483a3d: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''assainissement inclusif à l''échelle de la ville pour promouvoir des systèmes d''assainissement urbains inclusifs et durables : Leçons apprises de la BIsD et d''UN- Habitat'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lassainissement-inclusif-lechelle-de-la-ville-pour-promouvoir-des-systemes-dassainissement-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le monde n'est pas sur la bonne voie pour atteindre les cibles 6.2 et 6.3 des objectifs de développement durable en matière d'assainissement et de gestion des eaux usées. Aujourd'hui, 3,6 milliards de personnes ne disposent pas d'un système d'assainissement géré en toute sécurité et plus de 494 millions de personnes pratiquent encore la défécation en plein air, ce qui constitue une menace sérieuse pour la santé publique, l'environnement et le développement économique. 
+        Il est essentiel de fournir un accès adéquat à des services d'assainissement inclusifs et gérés en toute sécurité à plus de 700 millions de citadins pour rendre les villes et les établissements humains inclusifs, sûrs, résilients et durables, comme le prévoit l'ODD 11.  Aujourd'hui, jusqu'à 530 villes font état des effets dévastateurs du changement climatique. Ainsi, 517 millions de citadins ont été directement touchés par l'augmentation des maladies et la perte de leurs moyens de subsistance, ont détruit des infrastructures et ont sapé la capacité des gouvernements locaux à fournir des services de base à leurs citoyens. Les impacts du changement climatique sur les systèmes d'assainissement appellent donc à une augmentation des investissements dans les infrastructures et systèmes d'assainissement résilients au climat.
+
+        CWIS est une approche de service public pour la planification et la mise en œuvre de systèmes d'assainissement urbain afin d'atteindre les résultats résumés par l'ODD 6.2. CWIS cherche à changer le paradigme de l'assainissement urbain, visant à assurer un accès universel à un assainissement géré en toute sécurité en promouvant une gamme de solutions - sur site et en égout, centralisées ou décentralisées - en tenant compte du contexte local des villes en croissance. Le cadre de service du CWIS comprend un ensemble de résultats de service de base et le système requis pour la prestation de services d'assainissement.
+
+        Objectifs de la session 
+        La session fera le point sur les enseignements tirés des projets liés au CWIS mis en œuvre par la Banque islamique de développement (BIsD), ONU-Habitat et leurs organisations partenaires.  L'objectif principal de cette session est de partager les expériences et apprentissages pratiques sur la préparation de projets CWIS bancables et les facteurs clés de succès pour traduire l'approche CWIS en actions efficaces sur le terrain. Les mécanismes pour une collaboration accrue entre les banques de développement et l'ONU (par exemple, ONU-Habitat) pour soutenir la croissance et maximiser les impacts des investissements dans l'assainissement urbain seront également discutés au cours de cette session.
+
+        Résultats attendus 
+        1. Partage entre les participants des leçons tirées des projets liés au CWIS terminés ou en cours de préparation par la BIsD, ONU-Habitat et leurs organisations partenaires.
+        2. Discussion sur les facteurs clés de succès pour traduire l'approche CWIS en actions efficaces sur le terrain.
+        3. Mécanismes pour une collaboration accrue entre les BMD et les agences de l'ONU (par exemple, ONU-Habitat) pour soutenir la croissance et maximiser les impacts des investissements dans l'assainissement urbain.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 8b3df95b129411e2f7ff30bb2ba5ebfe
+  field_code:
+    -
+      value: SS47
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 95dac91c-c849-4eca-8dcd-26cc312b5da6
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 9c776f91-8f07-473d-9e02-55825169adb8
+    -
+      entity: 88e7f3f6-9231-4307-ab59-b4af20a84610
+    -
+      entity: cfbdb320-77c6-4c54-bea5-d84e906e1a40
+    -
+      entity: 0ab7bb08-5f5d-4156-b42b-689782483a3d
+  field_organisateurs_text:
+    -
+      value: 'ISLAMIC DEVELOPMENT BANK'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "Discours d'ouverture : 2 de 5 minutes chacun = 10 minutes
+        Présentations : 3 présentations de 15 minutes chacune = 45 minutes
+        Discussions = 30 minutes
+        Introduction et remarques de clôture = 5 minutes "
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

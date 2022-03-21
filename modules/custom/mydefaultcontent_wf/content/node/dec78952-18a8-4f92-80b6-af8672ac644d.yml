@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dec78952-18a8-4f92-80b6-af8672ac644d
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    febf458e-5402-4020-9ab8-81e862013b82: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    cef6a5ac-2eb7-42ed-9386-2d949f2d91ba: taxonomy_term
+    e5cff376-c3a1-43a6-8c85-b055217c8e74: taxonomy_term
+    c55f94d1-a9b7-479e-b3d8-0328a924b66d: taxonomy_term
+    daed129c-a6f6-422d-a1a3-05ef1bed64a6: taxonomy_term
+    eee7ee2d-c6b1-41f2-8262-567fe280fa73: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promoting knowledge and tools for collaboration and benefit- sharing on transboundary water resources'
+  created:
+    -
+      value: 1647484844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promoting-knowledge-and-tools-collaboration-and-benefit-sharing-transboundary-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session will present successful cases in which knowledge and tools are fostering transboundary cooperation on surface and groundwater resources worldwide, for improved management, collaboration and shared benefits.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484844
+      guid: ''
+      hash: 8815c6251e283ebb77ecdcfbe6881094
+  field_code:
+    -
+      value: 3B5
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: febf458e-5402-4020-9ab8-81e862013b82
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: cef6a5ac-2eb7-42ed-9386-2d949f2d91ba
+    -
+      entity: e5cff376-c3a1-43a6-8c85-b055217c8e74
+    -
+      entity: c55f94d1-a9b7-479e-b3d8-0328a924b66d
+    -
+      entity: daed129c-a6f6-422d-a1a3-05ef1bed64a6
+    -
+      entity: eee7ee2d-c6b1-41f2-8262-567fe280fa73
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+  field_organisateurs_text:
+    -
+      value: |-
+        UNESCO-IHP 
+        GWP
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	UNECE 
+        •	China MWR 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        •	Transboundary Cooperation: Tools for promoting peace and preventing conflict in the Niger basin
+        •	Scientific tools and methodologies for transboundary cooperation
+        •	Water-Food-Energy-Ecosystems Nexus: assessment and dialogue for solutions and investments	
+        •	Assessing the inclusiveness of transboundary water management 
+        •	Water quality monitoring and data in transboundary rivers
+        •	Global transboundary water partners knowledge and community exchange platform
+        •	Lancang-Mekong water resources cooperation information sharing platform
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        7  Presentations 
+        Panel discussion
+        Interaction with the audience
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Compilation of messages to be promoted during events related to shared waters to be organized in 2022 and to be refined in view of the upcoming UN 2023 Water Conference.'
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

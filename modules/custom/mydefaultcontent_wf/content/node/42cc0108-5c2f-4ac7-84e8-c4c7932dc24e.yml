@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 42cc0108-5c2f-4ac7-84e8-c4c7932dc24e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    b6680ca4-3ac0-4451-a0cb-6f6c461c3214: taxonomy_term
+    7433a448-d8b4-4219-989e-327bccaac034: taxonomy_term
+    bac2ad77-479c-4b8f-a2a6-7c6fa3654fbf: taxonomy_term
+    1597aa3c-4133-4a66-bd4e-3199efa18e69: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La gestion durable des cycles hydrologiques au cœur de l’accélération de la Grande Muraille Verte en Afrique'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-gestion-durable-des-cycles-hydrologiques-au-coeur-de-lacceleration-de-la-grande-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Le projet de la Grande Muraille Verte (GMV) est l’un des plus grands projets de lutte contre la désertification initié et porté par l’Afrique notamment par les États de la bande Sahelo-saharienne qui sont. Ce projet ambitionne de fédérer les États sahéliens autour des enjeux de lutte contre la désertification et l’adaptation au changement climatique dans une logique de développement économique durable.
+         Le projet vise à l’horizon 2030 de :
+        ·         Restaurer 100 millions d’hectares de terre dégradées
+        ·         Créer 10 millions d’emplois verts
+        ·         et Séquestrer de 250 millions de tonne de carbone 
+        Depuis son lancement officiel en 2007 il est constaté que le projet peine à atteindre ses objectifs conduisant ainsi à la mise en place en janvier 2021 de l’Accélérateur de la Grande Muraille verte porté par la Convention des Nations Unies sur la lutte contre la désertification (CNULCD) avec un financement annoncé de 14 milliards d’euros entre 2021-2025. Ce nouvel élan dans la mise en place de la GMV propose aux acteurs académiques d’excellence en Afrique de l’Ouest et leurs partenaires de proposer et tester les solutions agro-écologiques et basées sur la nature, innovantes et adaptées aux contextes locaux. 
+        L’objectif de cette table ronde sera de dresser les problématiques, méthodologies, innovations et perspectives permettant de proposer des pistes de solutions viables basées sur l’innovation, la nature et la structuration de filières économiques et sociales pour une meilleure gestion des ressources en eau dans le contexte de l’accélération de la GMV en Afrique de l’Ouest.
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: 8368bd8c45809fb954ae4a7156ce3976
+  field_code:
+    -
+      value: HLP12
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: b6680ca4-3ac0-4451-a0cb-6f6c461c3214
+    -
+      entity: 7433a448-d8b4-4219-989e-327bccaac034
+    -
+      entity: bac2ad77-479c-4b8f-a2a6-7c6fa3654fbf
+    -
+      entity: 1597aa3c-4133-4a66-bd4e-3199efa18e69
+  field_organisateurs_text:
+    -
+      value: 'Institut de Recherche pour le Développement (IRD)'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Cette table ronde sera divisé en trois grandes portions avec des interventions de panelists dans chaque portion suivi de débats '
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

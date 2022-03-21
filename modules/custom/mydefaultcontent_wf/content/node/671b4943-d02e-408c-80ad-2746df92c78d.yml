@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 671b4943-d02e-408c-80ad-2746df92c78d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    4f8bc67e-0687-48b7-96bb-5f89af1d6194: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    5d7aa32e-ddb7-470e-a8cb-9e15161cf217: taxonomy_term
+    6f0ac689-b82c-42b8-9bb6-0c57d1aa422f: taxonomy_term
+    24c9d8fe-bd5b-45ec-989f-605de044e927: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Freiner la perte de biodiversité dans les milieux aquatiques'
+  created:
+    -
+      value: 1647484941
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/freiner-la-perte-de-biodiversite-dans-les-milieux-aquatiques
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les zones humides et les milieux aquatiques, qui abritent une riche biodiversité végétale et animale, sont menacés dans le monde entier par de fortes pressions anthropiques exacerbées par le changement climatique et la prolifération d''espèces invasives. Des solutions sont proposées pour inverser la tendance.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484941
+      guid: ''
+      hash: 0a89987d87de15d64076deb600ea5a43
+  field_code:
+    -
+      value: 1E2-1E3
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 4f8bc67e-0687-48b7-96bb-5f89af1d6194
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 5d7aa32e-ddb7-470e-a8cb-9e15161cf217
+    -
+      entity: 6f0ac689-b82c-42b8-9bb6-0c57d1aa422f
+    -
+      entity: 24c9d8fe-bd5b-45ec-989f-605de044e927
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+  field_organisateurs_text:
+    -
+      value: |
+        Innovation Environnement et Developpement Durable (IE2D) – Contact : Racine KANE 
+         SPYGEN - Contact: Pierre JORCIN   
+        Young Volunteers for Environment Cameroon
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'IUCN – Association Intervillageoise du Ndiael (AIV) – Ramsar Convention – Réseau des Parlementaires et Élus du Sénégal (REPES) – Direction des Eaux et Forêts du Sénégal – African Development Bank – Office des  Lacs et Cours d’Eau (OLAC)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: "Projet 1 - Projet d'appui à la mise en œuvre du plan de gestion de la réserve spéciale d'avifaune de Ndiaël - 1E2\r\nProjet 2 - Suivi de la biodiversité mondiale grâce à l'ADN environnemental - 1E3\r\nProjet 3 - Renforcement des capacités socio-économiques des communautés vivant le long de la réserve de faune du lac Ossa (tbc)\r\n"
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Ouverture de la session - Maire de Ross Bethio
+        Présentation des 3 projets sélectionnés - 30 mn par projet 
+        Projection du film documentaire sur la réhabilitation de Ndiael
+        Intervention des représentants de la communauté 
+        Discussions 
+        Fin de la session
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Les menaces qui pèsent sur la biodiversité aquatique et les zones humides sont comprises. 
+        Les solutions pour réhabiliter les zones humides menacées et lutter contre les plantes envahissantes sont partagées
+        Les parties prenantes s'engagent à stopper la perte de biodiversité aquatique et à réhabiliter les zones humides. "
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

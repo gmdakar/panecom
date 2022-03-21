@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c9355c4d-c08f-4b5d-b816-1af91db6f391
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    1ce703ba-c9d0-428e-a68e-8454475ddbd3: taxonomy_term
+    d52b76ca-6e8c-4c13-969e-14ed2d0423f4: taxonomy_term
+    1845f726-4810-464d-baa8-1109d7f8cf20: taxonomy_term
+    4a74a23f-033b-498a-937d-201b9b78849b: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sustainable management of hydrological cycles at the heart of accelerating the Great Green Wall in Africa'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sustainable-management-hydrological-cycles-heart-accelerating-great-green-wall-africa-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The Great Green Wall (GGW) project is one of the largest projects to combat desertification initiated and carried out by Africa, in particular by the Sahelo-Saharan States. This project aims to unite the Sahelian States around the issues of combating desertification and adapting to climate change in a logic of sustainable economic development.
+         The project aims by 2030 to :
+        - Restore 100 million hectares of degraded land
+        - Create 10 million green jobs
+        - Sequester 250 million tons of carbon 
+        Since its official launch in 2007, it has been noted that the project is struggling to achieve its objectives, leading to the establishment in January 2021 of the Great Green Wall Accelerator supported by the United Nations Convention to Combat Desertification (UNCCD) with an announced funding of 14 billion euros between 2021-2025. This new impetus in the implementation of the GGW proposes to academic actors of excellence in West Africa and their partners to propose and test agro-ecological and nature-based solutions, innovative and adapted to local contexts. 
+        The objective of this roundtable will be to draw up the issues, methodologies, innovations and perspectives to propose viable solutions based on innovation, nature and the structuring of economic and social sectors for a better management of water resources in the context of accelerating GGW in West Africa.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: f1f57988bde53f4bc6fbabcd53f9d0f1
+  field_code:
+    -
+      value: HLP12
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 1ce703ba-c9d0-428e-a68e-8454475ddbd3
+    -
+      entity: d52b76ca-6e8c-4c13-969e-14ed2d0423f4
+    -
+      entity: 1845f726-4810-464d-baa8-1109d7f8cf20
+    -
+      entity: 4a74a23f-033b-498a-937d-201b9b78849b
+  field_organisateurs_text:
+    -
+      value: 'Institute of Research for Development (IRD)'
+      format: basic_html
+  field_programme:
+    -
+      value: 'This round table will be divided into three main portions with interventions of panelists in each portion followed by discussions '
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

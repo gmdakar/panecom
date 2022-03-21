@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b12160b-0f5f-46c7-8f01-beed4a0c469f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    99d3d5ea-b6ee-4281-966a-d6fd7b975acb: taxonomy_term
+    4b1f2a4b-29de-44a2-b951-0ca348e635b7: taxonomy_term
+    3ca26a34-212f-4ea2-b708-c80e5c93fc9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Aquaculture au Sénégal : opportunités et défis'
+  created:
+    -
+      value: 1647486184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/aquaculture-au-senegal-opportunites-et-defis
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Comme objectifs :
+        - démontrer le potentiel aquacole au Sénégal ;
+        - attirer les potentiels investisseurs ;
+        - montrer l'impact socio-économique de l'aquaculture, sa place dans l'amélioration de la sécurité alimentaire, la création d'emplois et de revenus ;
+        - rendre visible le rôle de l'aquaculture dans la conservation de la biodiversité face aux changements climatiques ;
+
+        En termes de résultats attendus :
+        - le potentiel aquacole du Sénégal est mis en avant ;
+        - des investisseurs sont attirés ;
+        - l'impact socio-économique de l'aquaculture, à savoir son rôle dans la sécurité alimentaire et la création d'emplois, est compris par le public ;
+        - le rôle de l'aquaculture dans la conservation de la biodiversité face aux changements climatiques est compris ;
+        - s'inspirer du modèle sénégalais pour favoriser le développement de l'aquaculture dans la sous-région ;
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486184
+      guid: ''
+      hash: acb82ea134e1a0bf0f076a64f033efb7
+  field_code:
+    -
+      value: SE45
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'intervenant : Dr Tening SENE, Directeur général de l''ANA'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 99d3d5ea-b6ee-4281-966a-d6fd7b975acb
+    -
+      entity: 4b1f2a4b-29de-44a2-b951-0ca348e635b7
+  field_organisateurs_text:
+    -
+      value: 'AGENCE NATIONALE DE L''AQUACULTURE (ANA)'
+      format: plain_text
+  field_programme:
+    -
+      value: '20 Minutes de présentation et 40 minutes de discussions'
+      format: basic_html
+  field_salle:
+    -
+      entity: 3ca26a34-212f-4ea2-b708-c80e5c93fc9e

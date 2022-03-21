@@ -1,0 +1,147 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 828b5112-4b65-494d-a733-58e8a444920b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    a16fec96-26c8-45b0-afe8-8f00762afd59: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    0a2afbfa-169c-4d7f-8ddf-5477f88e4853: taxonomy_term
+    539b34a2-5c9e-431a-8e11-c13194496747: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science et innovation pour améliorer la gouvernance et la gestion des aquifères transfrontaliers et de la GIRE'
+  created:
+    -
+      value: 1647484967
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/science-et-innovation-pour-ameliorer-la-gouvernance-et-la-gestion-des-aquiferes
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Cette session apportera la preuve de la nécessité d'intégrer les connaissances scientifiques et les solutions innovantes dans les mécanismes de gouvernance.  
+
+        En Afrique, la gouvernance de plusieurs aquifères transfrontaliers a été améliorée grâce à l'application d'approches innovantes dans des cadres juridiques.  
+
+        La session appellera à une volonté politique forte et à un engagement des décideurs à soutenir la science dans le cadre de l'accélérateur mondial de l'ONU pour l'ODD 6. "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484967
+      guid: ''
+      hash: 272d58907dc7ebf02433236b3b895e65
+  field_code:
+    -
+      value: '4E1'
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: a16fec96-26c8-45b0-afe8-8f00762afd59
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 0a2afbfa-169c-4d7f-8ddf-5477f88e4853
+    -
+      entity: 539b34a2-5c9e-431a-8e11-c13194496747
+  field_organisateurs_text:
+    -
+      value: 'UNESCO-IHP  '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        •	Agence française de développement (AFD)
+        •	The Nature Conservancy (TNC)
+        •	BGR
+        •	OSS
+        •	INBO
+        •	European Commission
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        " - Expérience avec LCBC, ABN et OSS, trois projets régionaux et transfrontaliers en Afrique. 
+        - Améliorer la gestion et la gouvernance des aquifères transfrontaliers en Afrique du Nord (ITTAS)
+        - Une approche orientée vers la mission pour résoudre les défis liés à l'eau et créer des impacts sociétaux 
+        - Investir dans des solutions basées sur la nature - se concentrer sur les écosystèmes dépendant des eaux souterraines. 
+        - Vers une gestion conjonctive et une gouvernance concertée des ressources en eau des aquifères transfrontaliers 
+        - Promouvoir les initiatives des jeunes en matière de gouvernance de l'eau
+        - Gouvernance des aquifères transfrontaliers (Stampriet / Guarani) "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Présentations du projet
+        Discussion en groupe
+        Q&A"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Promouvoir l''accélération des investissements dans la science pour l''élaboration des politiques. Appeler à un partage transparent des informations au sein des secteurs et entre eux, ainsi qu''au-delà des frontières, afin d''éclairer efficacement les processus décisionnels, notamment en s''appuyant sur des systèmes de données et d''informations cohérents, sur l''innovation et sur l''engagement de multiples parties prenantes, ainsi que sur des conseils stratégiques et une assistance technique. Examiner les approches et les outils innovants qui peuvent avoir un grand potentiel pour soutenir la surveillance de l''eau et les évaluations des ressources en eaux souterraines.'
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

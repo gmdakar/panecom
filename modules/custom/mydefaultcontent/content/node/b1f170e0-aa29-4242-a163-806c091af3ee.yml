@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1f170e0-aa29-4242-a163-806c091af3ee
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    04b3db07-ba02-475b-b462-d9cd77470252: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    5fffc8b8-63c6-463c-9de9-741e155cc4b8: taxonomy_term
+    aa93b752-5a01-408a-afcc-bdd8e0a58c48: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'State of the World’s Land and Water Resources for Food and Agriculture 2021 (SOLAW 2021)'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/state-worlds-land-and-water-resources-food-and-agriculture-2021-solaw-2021-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Water, land and soil resources are the sources of life, without which there is no agriculture. With 98% of the food consumed produced on land/soil and the immediate and visible impact of drought on crop production, the good state of these crucial natural resources should be everyone's priority. In 2011, FAO published its first comprehensive report on the status of the world’s land and water resources for food and agriculture (SOLAW 2011). This new edition of SOLAW update the previous status of the resources, review the trends and explore the new emerging global processes.
+        The objective of the session is to raise awareness about the status of land and water resources and provide high level profiles with key data to meet the challenges of sustainable use and governance of these natural resources, their greater integration in food systems and climate change.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: 96efbe6a017ebec705c3cf59dc4ccb53
+  field_code:
+    -
+      value: HLP09
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 04b3db07-ba02-475b-b462-d9cd77470252
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 5fffc8b8-63c6-463c-9de9-741e155cc4b8
+    -
+      entity: aa93b752-5a01-408a-afcc-bdd8e0a58c48
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        -	Welcome and introduction (5’)
+        -	Video animation on “The State of the World’s Land and Water Resources for Food and Agriculture 2021” (5’)
+        -	Keynote address “Presentation of SOLAW 2021: main findings and recommendations” by Mr Lifeng Li, Director of United Nations Food and Agriculture Organization (FAO) Land and Water Division (15’)
+        -	High Level Panel on the momentum for land and water safekeeping (30’) moderated by by Sasha Koo-Oshima, Deputy Director Land and Water Division:
+               o	Mr Gilbert F. Houngbo, President of the International Fund for Agricultural Development and Chair of UN-Water
+               o	H.E. Mariam Almheiri, Minister of Climate Change and Environment, UAE
+               o	Mr Moussa Baldé, Ministry of Agriculture and Rural Infrastructure (MAER) of Senegal (tbc)
+               o	Ms Akissa Bahri, Agriculture Minister of Tunisia, SOLAW independent advisory committee
+               o	Mr Pieter Waalewijn, Senior Water Resources Management and Irrigation Specialist, World Bank (World Bank)
+        -	Key messages and Conclusion (5’)  by Sasha Koo-Oshima
+      format: plain_text
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

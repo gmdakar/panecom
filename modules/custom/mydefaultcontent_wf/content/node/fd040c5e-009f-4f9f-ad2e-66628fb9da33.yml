@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd040c5e-009f-4f9f-ad2e-66628fb9da33
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    a642cf32-ba8f-4e9b-8c72-06b62e288a34: taxonomy_term
+    ff8eff82-f0a9-4725-98ed-f48d69b984e2: taxonomy_term
+    58542240-92f6-48f7-80ab-79611ec97d53: taxonomy_term
+    ea750380-fb5b-4ebe-9b38-71bc85c51038: taxonomy_term
+    ab93150b-e250-4012-8e41-34e86c23e9ff: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rôles et pratiques de financement de l''eau à plusieurs niveaux'
+  created:
+    -
+      value: 1647484961
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/roles-et-pratiques-de-financement-de-leau-plusieurs-niveaux
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Créer des opportunités pour les fournisseurs de solutions orientées vers l''action (entrepreneurs, investisseurs, sociétés, services publics, autorités publiques, associations) afin de les mettre en réseau et d''accélérer la diffusion de leurs solutions.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484961
+      guid: ''
+      hash: 2ac28186c48715e8220da1a0cf541692
+  field_code:
+    -
+      value: 4A6
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: a642cf32-ba8f-4e9b-8c72-06b62e288a34
+    -
+      entity: ff8eff82-f0a9-4725-98ed-f48d69b984e2
+    -
+      entity: 58542240-92f6-48f7-80ab-79611ec97d53
+    -
+      entity: ea750380-fb5b-4ebe-9b38-71bc85c51038
+    -
+      entity: ab93150b-e250-4012-8e41-34e86c23e9ff
+  field_organisateurs_text:
+    -
+      value: 'Waterpreneurs , US Department of Agriculture '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Possibly World Bank, OECD, CAF, The Nature Conservancy, InTent, Solar Impulse Foundation, IDFC, USAID, AfDB, University of Nebraska – Water for food... and others'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Places de marché "Innovate 4 Water" / A vérifier avec Alex Money'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Introduction et cadrage (10 minutes)
+
+         Présentations du gouvernement, d'investisseurs commerciaux, d'organisations philanthropiques et d'un développeur de projet sur les questions, les opportunités et les problèmes rencontrés pour accélérer et augmenter le financement dans le secteur de l'eau (8 minutes chacun, 1 minute de transition, 35 minutes au total)
+
+        Série de 6 pitchs (5mn chacun, 1 minute de transition, 35 minutes au total ; au moins 3 sont d'Afrique de l'Ouest)
+
+        Questions de débriefing et engagement du public (10 minutes)."
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Résultats escomptés : Visibilité mutuelle accrue entre les fournisseurs de solutions et les investisseurs, création d'un environnement de confiance permettant une collaboration intersectorielle, renforcement du marché de l'investissement à impact et dé-risque des projets basés sur le marché, création d'approches intégrées (c'est-à-dire coalitions, consortiums) accélérant le financement du secteur.
+        Liens de suivi : Séries de places de marché "Innovate 4 Water" dans le monde entier, connexions avec les PME et les organismes de financement.
+      format: basic_html
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

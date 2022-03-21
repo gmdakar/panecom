@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b8ccc31-6ed0-4f34-9478-9a2975831e02
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    a7bdff78-9c7e-42b5-85ad-e9f992abbd72: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    9888a0a7-37d0-4608-a3e3-d0fe58eb40b5: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Egypt National Water Resources Plan as a Tool for Achieving SDGs'
+  created:
+    -
+      value: 1647493842
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/egypt-national-water-resources-plan-tool-achieving-sdgs-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Water challenges in countries that suffer from water scarcity have become more complex than before, especially in light of population increases, rising standards of living, and an increase in demand for water from competing sectors. In addition, the effects of climate change and complex cooperation with riparian countries sharing international rivers add more pressure, especially with unilaterally adopted decisions that would increase challenges and threaten the stability and peace of the region. Integrated Water Resources Management strategies acknowledge that water needs to be managed as a system – where water system boundaries often do not correlate with political or administrative boundaries. For achieving good governance and increasing water use efficiency and sustainability, integrated solutions are needed, followed by effective and coordinated cross-sectoral implementation. Such actions would enhance the process of achieving the SDGs.
+
+        Water scarcity in Egypt will increase for several reasons. Climate change may result in less predictable annual inflow into Lake Nasser, reduced rainfall in northern Egypt, and increased crop water requirements. Projected population growth is an even predominant determinant of increased water scarcity. In 2037, the amount of available freshwater per capita of the population; is expected to be less than 35% of 2017 levels. A larger population has greater demands for drinking water, while the sustained economic growth intended by Egypt will increase industrial freshwater demands, and return flows of water from domestic and industrial uses will affect its suitability for further use. The agricultural sector will be strongly affected by the growing scarcity of good quality water and will be hard-pressed to continue to contribute 12% to GDP and to prevent the existing food gap from widening further.
+        The Egyptian Ministry of Water Resources and Irrigation (MWRI) is one of the oldest agencies in the Egyptian government. Its establishment dates back to 1836 as an institution that carries thousands of years of unique experience in irrigation and Nile River control which is the mainstay of life in Egypt. MWRI is concerned with planning and managing water resources through the implementation of the long-term National Water Resources Plan 2037 (NWRP2037), which has been built primarily on experiences gained and lessons learned from the implementation of the previous NWRP2017. In addition, the current plan is firmly aligned to the vision provided by Egypt’s Sustainable Development Strategy 2030, it also enables Egypt’s society, economy, and environment to share effectively the available water for a robust, balanced, diversified, and knowledge-based economy, characterized by justice, social integration, and participation, and by a balanced and diversified ecosystem. Finally, it is worth mentioning that Egypt has made tangible progress in implementing SDGs No. (6.5.1) which is concerned with the degree of integrated water resources management implementation, as the percentage of implementation of the indicator increased from 40% in 2017 to 63% in 2020.
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493842
+      guid: ''
+      hash: 4fc5896249c5f8038fd4ff196549effc
+  field_code:
+    -
+      value: SS17
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: a7bdff78-9c7e-42b5-85ad-e9f992abbd72
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 9888a0a7-37d0-4608-a3e3-d0fe58eb40b5
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+  field_organisateurs_text:
+    -
+      value: |
+        Head of Planning Sector
+        Executive Director, Cairo Water Week Permanent Secretariat
+        Ministry of Water Resources and Irrigation
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        Panelists :(75 min)
+        o	Overview on NWRP and the current status of implementation, H.E Dr. Mohamed Abdel-Aty, Minister of Water Resources and Irrigation (MWRI)
+        o	Climate change challenges along the Northern Coast of Egypt, Dr. Mohamed Ahmed, Project Manager, Enhancing Climate Change Adaptation in the North Coast and Nile Delta Regions in Egypt Project (ECCADP)
+        o	VICMED Development Corridor and Bilateral Cooperation with the Nile Basin Countries”, Dr. Mamdouh Antar, chairman of Nile Water Sector, MWRI
+        o	Training Potential, Eng. Tarek El Sayed, Regional Training Center, MWRI
+        o	Preparation for CWW 2022 and COP 27, Dr. Eman Sayed, Head of Planning Sector, MWRI
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

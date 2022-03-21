@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d480f44d-c91e-44cb-86bb-bee24be39890
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    90286546-5fe9-44f0-bc15-3f0d812b7545: taxonomy_term
+    c4cde985-7ea2-4428-9b7c-9ad04698d6ae: taxonomy_term
+    6a43a2b3-5c23-4cb6-9872-d3d321a9dd67: taxonomy_term
+    36d1b4a9-39fb-459e-b136-057ff2239320: taxonomy_term
+    853a4765-5b54-4ebd-91af-5faaf0c46704: taxonomy_term
+    4ba81387-1472-4723-b7b1-040b5463cb8c: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Funding and Financing Blue Peace:  – The Blue Peace Financing Initiative – How to invest in Peace through Water'
+  created:
+    -
+      value: 1647493830
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/funding-and-financing-blue-peace-blue-peace-financing-initiative-how-invest-peace-through-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        In 2017, the Global High-Level Panel on Water and Peace launched its report “A Matter of Survival” with recommendations on how to promote water as an instrument for cooperation and peace, including through innovative financing for water cooperation. At the 9th session (2021) of the Meeting of the Parties to the 1992 Water Convention, the UN Economic Commission for Europe (UNECE) launched the publication on Funding and Financing transboundary water cooperation and basin development, also presenting innovative Financing Initiatives, including the Blue Peace Financing Initiative.  Co-created by Basin Organisations, the Swiss Agency for Development and Cooperation (SDC), the UN Capital Development Fund (UNCDF) as the main implementing agency and other stakeholders, the Blue Peace Financing Initiative combines public and private finance to develop and implement transboundary master- and joint investment plans. It will promote access to public and private capital for Transboundary Organizations (e.g. River Basin Organizations (RBOs)). The main objective of this High-Level Panel (HLP) will be to launch the Blue Peace Financing Initiative, showing how innovative financing mechanisms can transform water into an instrument for transboundary, multi-sectoral and inter-generational cooperation frameworks, leading to peaceful societies and circular economies. 
+        Outcomes: It will provide a new financial incentive for countries and sectors to cooperate and establish political agreements on the sustainable management of shared resources, reducing social, political, economic and environmental risks and conflicts. Meanwhile, it will change the financial sector’s perception of water, not as a distinct sector, but as an entry-point for multi-sectoral and regional impact investment opportunities.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493830
+      guid: ''
+      hash: 4b7303b621f2b747d75c82443a15e784
+  field_code:
+    -
+      value: HLP02
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 90286546-5fe9-44f0-bc15-3f0d812b7545
+    -
+      entity: c4cde985-7ea2-4428-9b7c-9ad04698d6ae
+    -
+      entity: 6a43a2b3-5c23-4cb6-9872-d3d321a9dd67
+    -
+      entity: 36d1b4a9-39fb-459e-b136-057ff2239320
+    -
+      entity: 853a4765-5b54-4ebd-91af-5faaf0c46704
+    -
+      entity: 4ba81387-1472-4723-b7b1-040b5463cb8c
+  field_organisateurs_text:
+    -
+      value: 'United Nations Capital Development Fund (UNCDF)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Opening Session:
+        •	Opening and Moderation: Ms. Preeti Sinha, Executive Director, United Nations Capital Development Fund (UNCDF) – 5’
+        •	Keynote address:  Ms. Amina Mohammed, UN Deputy Secretary General – 5’
+        •	Launch of Blue Peace Financing Initiative: David Jackson, Director Local Transformative Finance Practice (LTFP), UNCDF – 5’
+
+        Panel Interventions: 
+        •	Challenges and Opportunities of financing transboundary water projects: High-Commissioner, Elhadj Lansana Fofana or Secretary-General Ababacar Ndao, Gambia River Basin Development Organization (OMVG) – 5’
+        •	Sovereign State Perspective on financing transboundary water cooperation: H.E. Mr. Njie, Minister of Finance and Economic Affairs, The Gambia – sovereign state perspective -  5’
+        •	Sovereign State Perspective on financing transboundary water cooperation: H.E. Mr. M. Bessler, State Secretary, Switzerland – sovereign state perspective – 5’
+        •	Genesis of the Blue Peace Finance Initiative: Dr. Danilo Türk, Former President of the Republic of Slovenia and Chair of the Global High-Level Panel on Water and Peace - 5’
+
+        Panel discussion: 
+        •	Perspective of the financial sector: Panelists and Representatives from the financial sector – 30’.
+        •	Question and Answers – 15’
+
+        Closing Session:
+        •	Summary and Closing remarks (UNCDF and/or OMVG) – 10’ 
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

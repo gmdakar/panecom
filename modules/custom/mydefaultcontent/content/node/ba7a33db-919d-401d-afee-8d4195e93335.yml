@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ba7a33db-919d-401d-afee-8d4195e93335
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    5d5d0f31-a458-4ca4-b9b0-9efbf13afe24: taxonomy_term
+    88fa2a62-eca6-47b0-9aa8-ef0686ae0564: taxonomy_term
+    07a02233-42b3-4233-baa3-bbe97cc80a54: taxonomy_term
+    79eb5ca7-949d-491e-8033-2711a959e68e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sanitation and Climate Change: what responses to the challenges of mitigation and adaptation?'
+  created:
+    -
+      value: 1647486046
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/sanitation-and-climate-change-what-responses-challenges-mitigation-and-adaptation?'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session is designed as a space for exchange between participants on the impacts of climate change on sanitation systems and the contribution of the sub-sector to GHG emissions. It will also be an opportunity to share with stakeholders the Senegalese standard NS-017-074 on non-collective sanitation facilities. 
+        The first step will be to present the subject and the issues it covers, then to discuss climate change and its effects on sanitation systems and its consideration in sanitation projects, while encouraging discussions among participants and contributions from the floor.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486046
+      guid: ''
+      hash: 8ef0b7b51d7533707b947cd056c79a79
+  field_code:
+    -
+      value: SE26
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'DEEC /MEDD and DA/MEA'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 5d5d0f31-a458-4ca4-b9b0-9efbf13afe24
+    -
+      entity: 88fa2a62-eca6-47b0-9aa8-ef0686ae0564
+    -
+      entity: 07a02233-42b3-4233-baa3-bbe97cc80a54
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Introduction/Context
+        5 - 10 min.	Introductory film
+        10 - 20 min.	Brainstorming with the audience on the question: Sanitation and climate 
+        climate change: what responses to the challenges of mitigation and adaptation   
+        20 - 30 min.	Presentation (10') 
+        GGGI : Evaluation of the contribution of sanitation to GHG emissions
+        30 - 50 min.	Discussion on the presentations 
+        50 - 60 min.	Key messages and conclusion
+      format: plain_text
+  field_salle:
+    -
+      entity: 79eb5ca7-949d-491e-8033-2711a959e68e

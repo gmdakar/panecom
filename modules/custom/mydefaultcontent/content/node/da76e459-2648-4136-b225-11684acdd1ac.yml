@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da76e459-2648-4136-b225-11684acdd1ac
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    15759bc5-4240-40b2-ad58-b013a9f48bed: taxonomy_term
+    59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ecological water'
+  created:
+    -
+      value: 1647486046
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ecological-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The Ecological Water Initiative aims to build relationships with national and international institutions working in the field of water resources management,
+         to generate scientific evidence to support national and local policy reforms in favor of ecological water. Because of its transversality, ecological water management requires a multi-stakeholder and multi-level partnership.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486046
+      guid: ''
+      hash: 8db4ea0505de98b81d8e421a70497724
+  field_code:
+    -
+      value: SE24
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Dr. Adrien COLY, Research Professor, UGB Saint-Louis'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 15759bc5-4240-40b2-ad58-b013a9f48bed
+  field_organisateurs_text:
+    -
+      value: 'Ministère de l''Environnement et du Développement durable/Partenariat national de l''Eau du Sénégal'
+      format: basic_html
+  field_salle:
+    -
+      entity: 59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33

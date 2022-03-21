@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4663ed5e-7f4f-4136-9feb-65c7d46ad130
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    332b2644-271f-47c8-9c73-71fdd6086683: taxonomy_term
+    06fee4e0-0f75-4e29-aeb1-a5083e9fcd46: taxonomy_term
+    c7c3e062-06a1-47b4-a194-722a2a3d6dbc: taxonomy_term
+    40e4cf3c-d126-4bdf-ba4c-a2fbdaf9e848: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Assainissement et Changement climatique : quelles réponses face   aux défis de l’atténuation et de l’adaptation ?'
+  created:
+    -
+      value: 1647486185
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/assainissement-et-changement-climatique-quelles-reponses-face-aux-defis-de-lattenuation-et
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La session est conçue comme un espace d’échange entre les participants sur les impacts du changement climatique au niveau des système d’assainissement et la contribution du sous-secteur aux émissions de GES. Elle sera aussi l’occasion de partager avec les acteurs la norme sénégalaise NS-017-074 sur les ouvrages d’assainissement non collectifs. 
+        Il s’agira dans un premier temps de présenter le sujet et les enjeux qu’il recouvre, d’échanger ensuite sur le changement climatique et ses effets sur les systèmes d’assainissement et sa prise en compte dans les projets d’assainissement, tout en favorisant les débats entre les participants et les apports de la salle.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486185
+      guid: ''
+      hash: 5c6e1903b44a7b03d0c2f6578121ecf1
+  field_code:
+    -
+      value: SE26
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'DEEC /MEDD et DA/MEA'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 332b2644-271f-47c8-9c73-71fdd6086683
+    -
+      entity: 06fee4e0-0f75-4e29-aeb1-a5083e9fcd46
+    -
+      entity: c7c3e062-06a1-47b4-a194-722a2a3d6dbc
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	20	min.	Brainstorming avec la salle sur la question : Assainissement et 
+        changement climatique : quelles réponses face   aux défis de l’atténuation et de l’adaptation   
+        20	-	30	min.	Présentation (10’) 
+        GGGI : Evaluation de la contribution de l'assainissement aux émissions de GES
+        30	-	50	min.	Débat sur les présentation 
+        50	-	60	min.	Messages clés et conclusion
+      format: basic_html
+  field_salle:
+    -
+      entity: 40e4cf3c-d126-4bdf-ba4c-a2fbdaf9e848

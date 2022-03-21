@@ -1,0 +1,144 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e8e372a5-a62c-4ba5-bd3e-f436e6d1c977
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    a0bf3951-f1bd-426d-b46e-06d74cf1e7aa: taxonomy_term
+    b9e8b801-4f0e-48ce-ab58-02c114cfe46d: taxonomy_term
+    17e38770-3e75-497b-ac56-95ba7da7ee75: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    70f17d3d-5ac7-4ac3-88b5-c9cb6304c916: taxonomy_term
+    1233a1e8-4e80-4243-9d60-2fda3bf6a710: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    3ca65f90-1b8d-4bbf-8f80-2cbf61437ff2: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Satellites and water resources management, towards a revolution?'
+  created:
+    -
+      value: 1647484847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/satellites-and-water-resources-management-towards-revolution?'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Adaptation to climate change requires a strong knowledge of its impacts, especially on water resources and related ecosystems: we cannot manage what we do not know. 
+        The current Sentinel / Copernicus constellation, the upcoming SWOT and TRISHNA mission can be combined to build knowledge regarding rainfall, discharge and evaporation. More generally, “multi-sensor” satellite data can be mobilized, since these data are essential for water resource management and climate change adaptation. 
+        Hydro-meteorological Information systems can integrate both data from classical in situ monitoring networks and satellite altimetry data.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484847
+      guid: ''
+      hash: aa4684e8519d5d7e65c4f3c3e0343af0
+  field_code:
+    -
+      value: '3E1'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a0bf3951-f1bd-426d-b46e-06d74cf1e7aa
+    -
+      entity: b9e8b801-4f0e-48ce-ab58-02c114cfe46d
+    -
+      entity: 17e38770-3e75-497b-ac56-95ba7da7ee75
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: 70f17d3d-5ac7-4ac3-88b5-c9cb6304c916
+    -
+      entity: 1233a1e8-4e80-4243-9d60-2fda3bf6a710
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 3ca65f90-1b8d-4bbf-8f80-2cbf61437ff2
+  field_organisateurs_text:
+    -
+      value: |
+        International Office for Water (OiEau) - French Centre National d’Etudes Spatiales (CNES)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        International Commission of the Congo-Ubangi-Sangha River Basin (CICOS), National Research Institute for Sustainable Development (IRD),  Organization for the Development of the Senegal River (OMVS), Adour-Garonne Water Agency (AEAG) 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        1.	Enhance the use of satellite data for water resources monitoring
+        2.	Innovative monitoring of water resources through Earth observation satellites for adaptation to climate change in 4 African Transboundary River Basin: – Senegal, Congo, Mekong, Amazona, Niger and, Lake Chad… 
+        3.	Sharing water and biodiversity on the Guiana Shield, through the establishment of a transboundary observatory
+        4.	 Pooling Satellite Observations for Service Innovation in the Senegal River Basin (MOSIS) - Strengthening the resilience of climate-vulnerable communities in the Senegal River Basin using a multi-hazard early warning system and enhancing adaptation capacity
+        5.	Dissemination of the INBO manual on Water Information Systems (continuity from Brasilia to Dakar)
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Schedule proposal :
+        -	Keynote speech : CNES
+        -	Presentations (8 min max. for each presentation)
+        -	2 Round tables: The proposed panelists are representatives from different « hydro--spatial » projects. 
+        Discussion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        - Strengthening of the hydrological information systems of the different institutions, Basin Organizations and their Member States, including data from both virtual and in situ monitoring stations. 
+        - Development of applications that enhance water information systems for biodiversity preservation and water uses, climate change monitoring and adaptation. This component will develops downstream services: forecasting models, dynamics of flooded areas and wetlands, allocation models for strategic planning, water quality, etc. Specific applications will beare dedicated to the monitoring of large dams (hydropower / irrigation) and water surfaces using satellite data.
+        - Strengthening of national and regional capacities, capitalization of long-term information systems for decision-makers and users. Capacity building will beis organized to meet one main objective: ownership by the countries and basin organizations of the technical innovation brought by the project, together with research / science community.
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

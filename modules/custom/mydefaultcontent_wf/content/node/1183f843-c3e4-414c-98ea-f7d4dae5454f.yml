@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1183f843-c3e4-414c-98ea-f7d4dae5454f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    9d336f87-6d42-40d5-babc-6dae15656637: taxonomy_term
+    e0efcfe3-32fe-4b31-bd7e-ceeb30498f34: taxonomy_term
+    8a1b1825-6b48-434f-a0e6-153aae081289: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financer l''innovation'
+  created:
+    -
+      value: 1647484967
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financer-linnovation
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Financement de l''innovation : moyens et outils novateurs, solutions techniques et non techniques pour tirer parti des connaissances, de l''éducation, de la science et de l''innovation nécessaires à la résolution des problèmes liés à l''eau.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484967
+      guid: ''
+      hash: 0dd20b1dbd9f9334f5cf4f8c98a048cc
+  field_code:
+    -
+      value: '4E2'
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 9d336f87-6d42-40d5-babc-6dae15656637
+    -
+      entity: e0efcfe3-32fe-4b31-bd7e-ceeb30498f34
+    -
+      entity: 8a1b1825-6b48-434f-a0e6-153aae081289
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+  field_organisateurs_text:
+    -
+      value: |-
+        ANR 
+        Water JPI Secretariat 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'European Commission, Société Nationale des Eaux du Sénégal (SONES), UNESCO, Young Water Solutions'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        * Nouveaux moyens de financement et de mise en relation des résultats des programmes de R&I avec la société (Commission européenne).
+        * Identifier les modalités de cette coopération en matière de financement de la RDI et les parties intéressées qui pourraient unir leurs forces (ANR).
+        * Benchmarking des programmes de financement existants, y compris le Fonds bleu de l'initiative sénégalaise (SONES).
+        * Initiatives d'investissement et mécanismes de mise à l'échelle pour les technologies innovantes dans le secteur de l'eau en Afrique (UNESCO Afrique de l'Est).
+        * Encourager l'innovation par l'entrepreneuriat dans le domaine de l'eau et de l'assainissement (Young Water Solutions).
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Premier bloc (45 minutes) :
+        - Commission européenne - Le nouveau programme-cadre et ses nouveautés (par exemple, les missions)
+        - ANR (France) - Mécanismes bilatéraux et multilatéraux de financement de la recherche et des innovations
+        - SONES (Sénégal) - Benchmarking des programmes de financement existants, y compris le Fonds bleu de l'initiative sénégalaise
+        - UNESCO - Fonds pour l'eau en Afrique australe : approches pour payer la protection des sources d'eau en amont dans les réserves de biosphère de l'UNESCO.
+        - Young Water Solutions - Encourager l'innovation par l'entrepreneuriat dans le domaine de l'eau et de l'assainissement.
+
+        Deuxième bloc (45 minutes) : Panel de discussion autour de deux débats
+        - Les obstacles actuels (brièvement)
+        - Les solutions existantes possibles pour créer un financement de masse critique pour investir dans des approches et des solutions innovantes et pour surmonter certains des principaux obstacles connus.
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Au cours des discussions, il est prévu (i) d''identifier des moyens efficaces pour financer durablement les meilleures expériences, (ii) d''optimiser les ressources existantes et (iii) d''impliquer les utilisateurs, les agences de l''eau et de l''assainissement et les décideurs des différents niveaux de gouvernance tout en orientant les mécanismes et instruments de financement possibles visant à compiler et à diffuser les informations existantes et dispersées, comment les transformer en produits, processus et méthodologies applicables, et comment les rendre accessibles à la société. Afin de mettre en œuvre des actions, il convient d''envisager de nouveaux modèles de financement (fondations, mise en réseau - JPI, secteurs privés, fonds d''amorçage), impliquant des partenariats entre les différentes sphères des gouvernements et les initiatives privées, rendant possible des décisions qui incluent les différents secteurs de la société.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

@@ -1,0 +1,128 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f8275da-4b94-463a-84c2-405c656ff4f5
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    72cf10c8-d2d8-4bdd-9042-570098641856: taxonomy_term
+    e4bc917d-4e83-4e05-9e16-5183683acf02: taxonomy_term
+    85e0cba1-16e5-4c1a-93ca-920a9a279ef4: taxonomy_term
+    d92bb211-45d9-441c-90d9-8b37e060021a: taxonomy_term
+    d1fd3b1a-8334-448e-82a6-ed68f43d1ecd: taxonomy_term
+    04b9374d-645d-437a-bdab-4c3afb5291d1: taxonomy_term
+    110ccc84-828b-466b-9098-8110d868313a: taxonomy_term
+    b45f3a6b-a022-4ed4-a4fa-4520abf16d5b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gestion des eaux de surface à l’échelle des bassins versants et maintien des services écosystémiques de la mangrove'
+  created:
+    -
+      value: 1647486178
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gestion-des-eaux-de-surface-lechelle-des-bassins-versants-et-maintien-des-services
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les mangroves fournissent de multiples services écosystémiques qui sont cruciaux pour la sauvegarde des communautés côtières, tels que la réduction des contraintes hydrodynamiques par les courants, les vagues et les surtensions, réduisant ainsi l''érosion et les inondations. De plus, les mangroves fournissent des services essentiels pour les moyens de subsistance des communautés côtières. La session reviendra sur le rôle des mangroves que peuvent jouer les mangroves pour une protection des côtes en Afrique de l’Ouest et sur l’importance d’une gestion efficace des ces écosystèmes. A travers différentes présentations, les conditions de la préservation des cet écosystème mangrove seront illustrés et discutés. La session répondra à la question suivante : Quelles sont les conditions nécessaires pour assurer un rôle efficace des mangroves dans la protection des côtes en Afrique de l’Ouest. Cela devrait permettre de formuler quelques recommandations fortes qui pourront alimenter les résultats du forum.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486178
+      guid: ''
+      hash: 4cd797334730992a63385bbf5f161b90
+  field_code:
+    -
+      value: SE2
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Modérateur: Pr. Ahmed SENHOURY
+
+        Orateurs: 
+        Audrey LEGAT (DELTARES)
+        Paul Tendeng (UICN)	
+        Pr. Ahmed SENHOURY (PRCM)
+        Yakhya Gueye  et Therese Musabe (WIA)
+
+        Intervenants
+        ADAM Cesay
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 72cf10c8-d2d8-4bdd-9042-570098641856
+    -
+      entity: e4bc917d-4e83-4e05-9e16-5183683acf02
+    -
+      entity: 85e0cba1-16e5-4c1a-93ca-920a9a279ef4
+    -
+      entity: d92bb211-45d9-441c-90d9-8b37e060021a
+    -
+      entity: d1fd3b1a-8334-448e-82a6-ed68f43d1ecd
+    -
+      entity: 04b9374d-645d-437a-bdab-4c3afb5291d1
+    -
+      entity: 110ccc84-828b-466b-9098-8110d868313a
+  field_organisateurs_text:
+    -
+      value: 'PRCM / ONG REGIONALE'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        1.	Ouverture de la session (5mn)
+        2.	Introduction : le rôle des mangroves pour la protection contre l’érosion et les inondations côtières  par Audrey LEGAT de DELTARES
+        3.	Impact des lâchées d’eaux du barrage de Nangbeto au sur le règlement assisté de mangroves dans la Réserve de Biosphère Transfrontière (RBT) du Mono Côté Togo Par Dr. TENDENG
+        4.	Cohabitation entre riziculture et restauration de la Mangrove à travers une gestion optimale de l’eau et des terres dans les îles de TRISTAO en Guinée par Pr. Ahmed SENHOURY
+        5.	Le rôle des mangroves pour la protection contre l’érosion et les inondations côtières par Audrey LEGAT DETARES
+        6.	impact des apports d’eau douce sur la biodiversité des mangroves par Yakhya Gueye  et Therese Musabe (WIACO)
+        7.	Discussion (15mn) – comment traduire ces conditions de succès dans un plan de gestion efficace des mangroves ?  
+      format: basic_html
+  field_salle:
+    -
+      entity: b45f3a6b-a022-4ed4-a4fa-4520abf16d5b

@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a95e5b6a-e2ea-437c-b338-0d24188b42c3
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    76b2393f-c2d6-44c5-ab24-18c7664677bf: taxonomy_term
+    a8884d1b-1821-4905-9565-3a354b9895c7: taxonomy_term
+    3a11e527-71e6-4901-8e6a-bfbcd06ac6a6: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water security approach: a key solution for successful IWRM implementation beyond the SDG era'
+  created:
+    -
+      value: 1647493844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-security-approach-key-solution-successful-iwrm-implementation-beyond-sdg-era-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The objective of this panel is to allow participants to discuss the challenges and issues related to water security in Senegal and to formulate concrete recommendations for a better integration of the water security approach in policies, strategies and programs. The panel will present:
+        - The challenges and issues related to water security in Senegal;
+        - The issues of governance of BR and sectoral policy for a good IWRM;
+        - The organizational and legal framework of IWRM for a good implementation of water security;
+        - The circular economy of water as a factor of economic development (agriculture, industry...);
+        - The development of infrastructures for a sustainable management of water resources;
+        - Water quality as an important factor in preserving the health of populations;
+        - The management of water-related conflicts through internal and transboundary agreements on the management of water resources;
+        - The principle of the taxpayer pays as a means of generating resources to balance this sub-sector;
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493844
+      guid: ''
+      hash: 8b2e59ca809e0133c96b4b8f4113031b
+  field_code:
+    -
+      value: SS25
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+    -
+      entity: 76b2393f-c2d6-44c5-ab24-18c7664677bf
+    -
+      entity: a8884d1b-1821-4905-9565-3a354b9895c7
+    -
+      entity: 3a11e527-71e6-4901-8e6a-bfbcd06ac6a6
+  field_organisateurs_text:
+    -
+      value: 'Direction de la Gestion et de la Planification des Ressources en Eau - Ministère de l''Eau et de l''Assainissement du Sénégal'
+      format: basic_html
+  field_programme:
+    -
+      value: 'The moderator will introduce the Dakar 2022 Initiative and present the results achieved against the stated priority. '
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

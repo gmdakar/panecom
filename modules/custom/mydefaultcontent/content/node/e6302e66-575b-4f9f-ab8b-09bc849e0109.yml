@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e6302e66-575b-4f9f-ab8b-09bc849e0109
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    6126f067-976f-45b1-8d41-570963a9d3a2: taxonomy_term
+    4d4e71b3-36f2-4b8f-9917-2891965c1e5d: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    ebc697f6-883c-4f5b-b5a4-a7f86644ae81: taxonomy_term
+    d1ae2de6-7125-40a8-bc72-53403c225f4c: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'WASH, HEALTH AND ENVIRONNEMENT'
+  created:
+    -
+      value: 1647484848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/wash-health-and-environnement
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Access to sanitation remains a key issue for millions of people. 2.4 billion still lack access to basic sanitation, and 1.2 billion of these live in fragile or extremely fragile contexts. The COVID-pandemic only disclosed the fragility of the achievements by various stakeholders so far and highlights the importance of collaboration among WASH, health, and environment sectors for sustainable results.
+        Addressing these issues, the session focuses on successfully completed or ongoing programmes and projects showcasing the integrated policy and management efforts among WASH, Health and Environment sectors and advocates for their scaling up to raise the profile and strengthen the sustainable collaboration of WASH and broader health and environment sectors to address the needs of their common target groups, incl. vulnerable population, women, and youth, etc. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484848
+      guid: ''
+      hash: a0c7415d5caa7c404b7a31c7a360fe31
+  field_code:
+    -
+      value: '3F1 '
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 6126f067-976f-45b1-8d41-570963a9d3a2
+    -
+      entity: 4d4e71b3-36f2-4b8f-9917-2891965c1e5d
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: ebc697f6-883c-4f5b-b5a4-a7f86644ae81
+    -
+      entity: d1ae2de6-7125-40a8-bc72-53403c225f4c
+  field_organisateurs_text:
+    -
+      value: |-
+        Earth Forever
+        Astou Sarr Senegal Country office Programme
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        French Water Partnership (PFE), Lake Baikal Foundation for Environmental Applications and Research, Baikal Water Forum, Don Bosco Foundation, WfWP;
+        WiSDOM, The Greater Paris Sanitation Authority (SIAAP); The Senegal River Basin Development Authority (OMVS); OECD Water Governance Programme; SUEZ International.
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1 – Learning workshop:  From data to the policy that strengthens the integration between 
+        WASH, health, and environment 
+        Project 2 - Talk Show: Multi-stakeholder Water-Health-Environment partnerships for safe WASH services for all 
+        Project 3 - Talk Show: Multi-stakeholders Sanitation Project in a Fragile Context (Mali) 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        •	Learning workshop – preliminary online event
+        •	Talk show – 90 min
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	to achieve better results for the implementation of SDG6 in collaboration with the other water-related SDG targets by 2030 as development actors seek to adapt to the humanitarian ecosystem to address vulnerabilities, manage risks and build resilience.
+
+        •	to serve as a platform to meet potential multistakeholder partners to develop and implement Water-Health-Environment joint programmes and projects towards 10th World Water Forum. 
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

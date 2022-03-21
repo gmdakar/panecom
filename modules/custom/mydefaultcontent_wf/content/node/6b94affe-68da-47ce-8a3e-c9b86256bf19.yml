@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b94affe-68da-47ce-8a3e-c9b86256bf19
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    afb5ad10-e61f-4425-af11-035d056a2371: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    4c215789-9acb-4eab-b34e-8eb848cec870: taxonomy_term
+    817bf412-b3d8-4176-86c7-2df63d72cfc8: taxonomy_term
+    3ca26a34-212f-4ea2-b708-c80e5c93fc9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Eau et Assainissement dans le PSE Vert'
+  created:
+    -
+      value: 1647486185
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/eau-et-assainissement-dans-le-pse-vert
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le programme PSE Vert a identifié six secteurs  comme prioritaires à l’issue  d’un processus d’analyses participatif et transparent, dont le secteur de l'Eau et de l'Assainissement. 
+        la session permettra de discuter (ii) des objectifs du PSE Vert relatif au secteur de l’Eau et de l’Assainissement dans une perspective d’économie circulaire, (ii) des politiques publiques à mettre en place (iii) des expériences capitalisées dans d’autres pays et (iv) des possibilités d’investissement pour atteindre les objectifs du PSE Vert pour le secteur. 
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486185
+      guid: ''
+      hash: 399e226b8601b5887e9ab38c98bdc620
+  field_code:
+    -
+      value: SE22
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Modérateur:  Aïda Diongue-Niang; Panélistes : Khalil Rahmane Ndiaye (Bureau Opérationel de Suivi-Plan Sénégal Émergent, Responsable du pôle de structuration ou son DG); Gatta Soulé Ba (Ministère de l''Eau et de l''Assainissement,  Cellule de Planification, de Coordination et de Suivi des Programmes, Environnementaliste ou son Directeur) , Abdou Aziz Diedhiou (La Banque Agricole chef département Etudes et Stratégie, point focal Environnement et Climat ou son Dg)); '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: afb5ad10-e61f-4425-af11-035d056a2371
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 4c215789-9acb-4eab-b34e-8eb848cec870
+    -
+      entity: 817bf412-b3d8-4176-86c7-2df63d72cfc8
+  field_organisateurs_text:
+    -
+      value: 'Global Green Growth Institute, International, intergovernmental organization'
+      format: plain_text
+  field_salle:
+    -
+      entity: 3ca26a34-212f-4ea2-b708-c80e5c93fc9e

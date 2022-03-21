@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f5fed96-741a-400c-853b-bc9dd5d34377
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    6c68a3b4-f2e7-4930-be9c-1ab6b096f015: taxonomy_term
+    e1641db3-1d70-402a-9d88-45ff2ec7314c: taxonomy_term
+    2b9486ad-e4fa-4066-a13c-0fdd11b2834d: taxonomy_term
+    b2abe6d2-dff8-41e3-9422-e71fe7e15b65: taxonomy_term
+    7cb304b7-7b0d-4a64-9c7f-179e53c9227b: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Power of Peer Partnerships: EU- backed Mentorship for Utility Improvement'
+  created:
+    -
+      value: 1647493842
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/power-peer-partnerships-eu-backed-mentorship-utility-improvement-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The EU-WOP Programme is a four-year initiative, led by UN-Habitat’s Global Water Operators’ Partnerships Alliance (GWOPA) and funded by the European Commission IntPA. The program is enabling twenty-two international Water Operators’ Partnerships projects, involving over 50 partner organizations in Africa, Asia and Latin America over the coming three years, in boosting the capacity and performance of utilities with the support of their peers. 
+        The session will hear from front line water and sanitation service providers from different parts of the globe, how they are working, through partnership and peer support, to build knowledge and co-create solutions to their biggest challenges. The dynamic and interactive session will seek to provide visibility to this important EU-funded programme while engaging a wide geographic and stakeholder range in answeringaddress the following questions: 
+        -	How are the EU- WOP projects building utilities’ capacity and improving utilities performance? 
+        -	? How are the EU-WOP projects helping utilities access finance?, and make best use of the investments they need?
+        -	Where can governments, NGOs, and financial institutions connect to and add value to these partnerships?
+        -	How are WOPs (Water Operators’ Partnerships) changing the game for water cooperation? Can WOPs help move to more demand-led, co-created, capacity-focused, investment-linked and sustainable partnerships? What prospects for South-south cooperation? 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493842
+      guid: ''
+      hash: 99e76d8cbef29d54312ec852d9b1b8ba
+  field_code:
+    -
+      value: SS20
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 6c68a3b4-f2e7-4930-be9c-1ab6b096f015
+    -
+      entity: e1641db3-1d70-402a-9d88-45ff2ec7314c
+    -
+      entity: 2b9486ad-e4fa-4066-a13c-0fdd11b2834d
+    -
+      entity: b2abe6d2-dff8-41e3-9422-e71fe7e15b65
+    -
+      entity: 7cb304b7-7b0d-4a64-9c7f-179e53c9227b
+  field_organisateurs_text:
+    -
+      value: 'GWOPA/UN-Habitat (United Nations)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        AGENDA
+        Opening (20 minutes)
+        •	Perspectives on Partnerships for Sustainable Utilities ,European Commission DG Intpa
+        •	A birds’ eye view on the EU-WOP programme from UN-Habitat GWOPA
+        •	EU-WOP Video
+
+        The new Water Operators` Partnerships (WOPs) – Spotlight Interviews (65 minutes)
+        •	The Nature(s) of the EU-WOPs – Peer to peer, diverse constellations, North-South and South-South, capacity focus, healthy partnerships
+        •	WOP Focus – What operational, financial, environmental and social challenges are WOPs helping utilities tackle? What innovations are emerging?
+        •	Leveraging Improvements – how are the EU WOP projects mobilizing finance? Catalyzing sectoral change? Driving innovation for greener and more inclusive services?
+
+        Launch Moment & Close of session (5 minutes)
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

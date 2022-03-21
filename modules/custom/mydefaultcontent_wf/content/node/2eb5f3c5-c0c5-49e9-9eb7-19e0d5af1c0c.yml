@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2eb5f3c5-c0c5-49e9-9eb7-19e0d5af1c0c
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    4efe9bdc-460c-42e8-81f0-a7af1fb0ef6a: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    fc5bc8a7-1ef7-4005-a07d-4b4cf1344188: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'City- basin dialogue : INBO- IWA methodological guide on cities connected to their basin'
+  created:
+    -
+      value: 1647486041
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/city-basin-dialogue-inbo-iwa-methodological-guide-cities-connected-their-basin
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Most of the world's population lives in cities and there will be close to 6 billion people living in urban areas by 2050. This growth creates many challenges for making cities sustainable and requires collective intelligence and action for water and environmental security. Urban growth can be an opportunity for economic development however as natural resources are limited; it is also a threat to the quality of life.
+
+        There is already a focus on sustainable cities through frameworks such as the Principles for Water Wise Cities , which emphasis the need to optimize  costs, resilience of water resources, conservation of biodiversity, etc. This includes collaborative actions to reconcile the urban water cycle with the wider water cycle which includes river and lake basins and aquifers which cities rely on for their water resources. All stakeholders must be involved in identifying and implementing appropriate and sustainable solutions for effective city-basin governance.
+
+        The International Water Association (IWA) and the International Network of Basin Organizations (INBO) are designing a handbook, a decision-making tool to strengthen the city's connection and integration with its hydrographic basin. This handbook expands on the Action Agenda for Basin-Connected Cities which reflects the current and potential issues between cities and their basins and how to deal with them by identifying the drivers for action (e.g. what are the risks?), and the possible solution pathways.  Through practical case studies, testimonials and recommendations, the handbook will illustrate how the "urban actor" can and must play an active role in the protection of water resources and in the reconnection of basins to their cities.
+
+        During this event INBO and IWA will outline the ambition of the handbook which targets both policy makers and technicians, and which will also aims to raise awareness among civil society and environmental groups.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486041
+      guid: ''
+      hash: 808121572b4e30b2c79e12b465873a4e
+  field_code:
+    -
+      value: SE8
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Eric TARDIEU, INBO Secretary General
+        Projects holders from the "basin stories" (TBC)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 4efe9bdc-460c-42e8-81f0-a7af1fb0ef6a
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+  field_organisateurs_text:
+    -
+      value: 'International Office for Water - NGO'
+      format: basic_html
+  field_programme:
+    -
+      value: 'In progress'
+      format: plain_text
+  field_salle:
+    -
+      entity: fc5bc8a7-1ef7-4005-a07d-4b4cf1344188

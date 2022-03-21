@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 438018dc-e942-4b14-826e-d89fc97694d1
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    a0bf3951-f1bd-426d-b46e-06d74cf1e7aa: taxonomy_term
+    b9e8b801-4f0e-48ce-ab58-02c114cfe46d: taxonomy_term
+    17e38770-3e75-497b-ac56-95ba7da7ee75: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    2303e1b6-0b43-48d6-afb7-f4ff06866ccf: taxonomy_term
+    b06d4d9e-fc02-420d-8361-cedb96ca37ce: taxonomy_term
+    5ff908d0-3acf-4c4f-a978-bd91bc93b1f9: taxonomy_term
+    fb50d0d6-76c6-49b6-a8ca-9ff7b1d59b21: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    71ede854-ec22-4218-b160-5bc1bda9a21c: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Leveraging innovative finance to strengthen North- South, South- South and Triangular water cooperation.'
+  created:
+    -
+      value: 1647484848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leveraging-innovative-finance-strengthen-north-south-south-south-and-triangular-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Key opportunities through innovative funding mechanisms to implement North-South, South-South and Triangular water cooperation to improve access to water and sanitation for all.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484848
+      guid: ''
+      hash: 0754e7699d9afa9d98179a161c4ca9be
+  field_code:
+    -
+      value: '3E4'
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a0bf3951-f1bd-426d-b46e-06d74cf1e7aa
+    -
+      entity: b9e8b801-4f0e-48ce-ab58-02c114cfe46d
+    -
+      entity: 17e38770-3e75-497b-ac56-95ba7da7ee75
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 2303e1b6-0b43-48d6-afb7-f4ff06866ccf
+    -
+      entity: b06d4d9e-fc02-420d-8361-cedb96ca37ce
+    -
+      entity: 5ff908d0-3acf-4c4f-a978-bd91bc93b1f9
+    -
+      entity: fb50d0d6-76c6-49b6-a8ca-9ff7b1d59b21
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 71ede854-ec22-4218-b160-5bc1bda9a21c
+  field_organisateurs_text:
+    -
+      value: |
+        Office National de l’Electricité et de l’Eau Potable– ONEE (Morocco)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        Agence de l'Eau Adour-Garonne 
+        World Bank Group
+        Islamic Development Bank
+        Ministère de l'Urbanisme, de l'Habitat et de l'Aménagement du Territoire de la République de Guinée
+        African Development Bank
+        Autorité du Bassin de la Volta 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1: “IsDB’s “Reverse Linkage” innovative funding mechanism: Office National de l’Electricité et de l’Eau Potable– ONEE (Morocco) technical support for the sanitation project of Conakry in Guinea.”
+        Project 2 : the French “1% cooperation” as key tool for WASH projects, and integration with other sectors (solid waste, energy)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Opening (5 min)
+        Keynote speech (10 min)
+        Panel discussion (20 min) 
+        Discussion between panelists : follow-up questions (20 min)
+        Questions and answers with the audience (30 min)
+        Conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	To showcase successful water cooperation projects worldwide (completed or ongoing) and advocate for their scaling up through innovative funding mechanisms.
+        •	Share France’s experience of the Oudin-Santini law (“1% cooperation”), which authorizes local authorities, water unions and water agencies to dedicate up to 1% of their revenues for international cooperation in the field of water and sanitation.
+        •	Share ONEE (Morocco) experience with IsDB’s Reverse Linkage innovative funding mechanism to provide technical support to Guinean actors in the field of sanitation, 
+
+        Expected impacts :
+        •	Replicate successful cooperation projects in international contexts especially amongst developing countries, taking into account their specificities,
+        •	Increase the use of the French Oudin-Santini law (“1% cooperation”) 
+        •	Attract new financial ressources for international cooperation in the field of water, including Climate Funds to support capacity building activities, 
+        •	Improve access to water and sanitation to reach SDG 6 targets (6.1 Safe drinking water, 6.2 Safe sanitation and hygiene, 6.5.2 Transboundary water cooperation, 6.A Water and sanitation support etc.),
+      format: basic_html
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

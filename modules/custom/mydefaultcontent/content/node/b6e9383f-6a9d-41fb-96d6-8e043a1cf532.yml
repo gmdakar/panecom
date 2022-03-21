@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b6e9383f-6a9d-41fb-96d6-8e043a1cf532
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    2225580b-4c4c-4e01-b875-cb5177945e4c: taxonomy_term
+    aee3f573-a9cb-40d3-8e2d-15605e8425e4: taxonomy_term
+    ee1737d3-cd2c-49f6-bb1e-41deadfbd843: taxonomy_term
+    2ee523ac-988b-4b58-9bbd-75d89a9fc400: taxonomy_term
+    506f5b2e-bd9d-4a8c-b4b4-b0153aa7a358: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Visions religieuses interconfessionnelles et motivations pour l’action en matière d’eau et d’assainissement'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/visions-religieuses-interconfessionnelles-et-motivations-pour-laction-en-matiere-deau-et-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La session recoupe la priorité 1 : Sécurité de l'eau et assainissement (droits de l'homme à l'eau et à l'assainissement) et la priorité 3 : Coopération (renforcer le dialogue et les partenariats...).
+
+        La session entend s'inscrire dans les thèmes suivants :
+        droits de l'homme à l'accès à l'eau, accès pour tous, relations entre l'éthique et les services d'eau et d'assainissement et collaboration/dialogue interconfessionnel.
+
+        Objectifs
+
+        - Montrer les liens entre la foi, les valeurs religieuses et spirituelles et l'eau, l'assainissement et l'hygiène.
+        - Appeler à un dialogue interconfessionnel accru dans l'éducation et l'engagement sur les questions de sécurité de l'eau.
+        - Souligner que les valeurs et traditions religieuses peuvent être une motivation pour l'engagement, la solidarité, la responsabilité et le souci de l'eau.
+        - Appel à l'action pour promouvoir le dialogue interconfessionnel et l'engagement sur l'eau, l'assainissement et l'hygiène. 
+
+
+        Résultats attendus
+
+        - Démontrer le rôle des religions dans le soutien de :
+        o des pratiques individuelles/collectives pour assurer un accès équitable et préserver, utiliser les ressources en eau ;
+        o la cohésion sociale et la paix autour des ressources en eau ;
+        o la bonne gouvernance, l'équité et la fourniture de services aux populations vulnérables.
+
+
+        - Obtenir des engagements pour traiter les risques d'exclusion dans les politiques et pratiques qui promeuvent les services d'eau et d'assainissement, en considérant également la privatisation des services.
+        - Partager les bonnes pratiques en matière de traduction des valeurs religieuses dans la pratique pour soutenir l'eau et l'assainissement.
+        - Montrer que certaines organisations religieuses et confessionnelles peuvent être des partenaires précieux pour les administrations, les agences de mise en œuvre et la société civile au sens large.
+        - Organiser une action interconfessionnelle à Dakar (pour symboliser le dialogue et la collaboration), en tant que suivi de la session ou en parallèle pour engager les populations locales, non présentes au forum, sur les thèmes de la session.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 042ee7f7c797f1cfa78e17b30b6d6741
+  field_code:
+    -
+      value: SS46
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 2225580b-4c4c-4e01-b875-cb5177945e4c
+    -
+      entity: aee3f573-a9cb-40d3-8e2d-15605e8425e4
+    -
+      entity: ee1737d3-cd2c-49f6-bb1e-41deadfbd843
+    -
+      entity: 2ee523ac-988b-4b58-9bbd-75d89a9fc400
+    -
+      entity: 506f5b2e-bd9d-4a8c-b4b4-b0153aa7a358
+  field_organisateurs_text:
+    -
+      value: 'CARITAS Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: tbd
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

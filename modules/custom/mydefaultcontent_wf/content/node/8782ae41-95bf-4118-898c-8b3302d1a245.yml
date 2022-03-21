@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8782ae41-95bf-4118-898c-8b3302d1a245
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    d2753b5e-7895-42c4-8988-f21026d4bd89: taxonomy_term
+    eaefed69-bd18-4885-8bb8-4791a3c2f16f: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innovating in Water Financing: Practical Initiatives to revolutionize Financing for Water, Sanitation and IWRM'
+  created:
+    -
+      value: 1647493844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/innovating-water-financing-practical-initiatives-revolutionize-financing-water-sanitation-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session will be an opportunity to analyze and discuss in depth the constraints related to the large financing gaps to support the 2030 roadmap. A review of the weaknesses related to the classic 3T model will also be posed to highlight the weak points that require conceptual and practical adjustments. Most exciting, however, will be the presentation of concrete initiatives for innovation in water and sanitation and IWRM financing, including those based on testing and scaling up solutions involving private sector actors and other non-traditional sources of finance. Particularly for low-income countries, the decline in official development assistance volumes in recent years suggests the need for other emerging mechanisms such as blended finance strategies. It is also relevant to recognize that innovation in water financing will be found in the search for productivity niches in operating expenses, in the control of water losses, in the very important potential to be drawn from the circular economy, etc. The World Water Forum in Dakar being an opportunity for an evaluation of the roadmap for the MDG6, this session will highlight very useful levers to revolutionize the development of water financing models in order to put the SDG6 curve back on track in the coming years.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493844
+      guid: ''
+      hash: 84b8d82aeebb5befa2eec78fa0fbd8db
+  field_code:
+    -
+      value: SS27
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: d2753b5e-7895-42c4-8988-f21026d4bd89
+    -
+      entity: eaefed69-bd18-4885-8bb8-4791a3c2f16f
+  field_organisateurs_text:
+    -
+      value: 'Ministère de l''Eau et de l''Assainissement du Sénégal'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Part 2'
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

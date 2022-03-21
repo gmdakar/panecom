@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6269dd2b-7fcd-4b20-b771-10083d86db7b
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    2acc5287-44fc-4512-9d04-531a3b37c87a: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    a34ddb3a-8f21-48d3-9506-ff4cce7d847a: taxonomy_term
+    251a644d-3a28-48e9-875b-a0256c8e7362: taxonomy_term
+    43979c9b-8464-4dfa-94cb-0b507b7ccd57: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Curb biodiversity loss in aquatic environments'
+  created:
+    -
+      value: 1647484832
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/curb-biodiversity-loss-aquatic-environments
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Wetlands and aquatic environments, which are home to a rich biodiversity of plants and animals, are threatened worldwide by strong anthropogenic pressures exacerbated by climate change and the proliferation of invasive species. Solutions are proposed to reverse the trend.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484832
+      guid: ''
+      hash: 8c7bbd34aae32f22a7cf7a684ef439e5
+  field_code:
+    -
+      value: 1E2-1E3
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2acc5287-44fc-4512-9d04-531a3b37c87a
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: a34ddb3a-8f21-48d3-9506-ff4cce7d847a
+    -
+      entity: 251a644d-3a28-48e9-875b-a0256c8e7362
+    -
+      entity: 43979c9b-8464-4dfa-94cb-0b507b7ccd57
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+  field_organisateurs_text:
+    -
+      value: |
+        Innovation Environnement et Developpement Durable (IE2D) 
+        SPYGEN   
+        Young Volunteers for Environment Cameroon
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'IUCN – Association Intervillageoise du Ndiael (AIV) – Ramsar Convention – Réseau des Parlementaires et Élus du Sénégal (REPES) – Direction des Eaux et Forêts du Sénégal – African Development Bank – Office des  Lacs et Cours d’Eau (OLAC)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |
+        Project 1 – Project to support the implementation of the Management Plan of the Ndiaël Special Avifauna Reserve - 1E2
+        Project 2 – Global biodiversity monitoring with environmental DNA -  1E3
+        Project 3 – Socio-economic empowerment of communities living along the Ossa Lake Wildlife Reserve (tbc)
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Session opening – Mayor of Ross Bethio
+        Presentation of the 3 selected projects - 30 mn each project 
+        Screening of the documentary film on the rehabilitation of Ndiael
+        Intervention of community representatives 
+        Discussions 
+        End of the session
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Threats to aquatic biodiversity and wetlands are understood 
+        Solutions to rehabilitate threatened wetlands and combat invasive plants are shared
+        Stakeholders are committed to halting the loss of aquatic biodiversity and rehabilitating wetlands 
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

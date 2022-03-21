@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6af3fd7a-fda8-47fc-b59b-476ba5be93ba
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    13d5c1ac-0de3-4332-990c-b9e982f9b7ff: taxonomy_term
+    190a867a-f225-4f4c-9e21-59b29c8e2a9f: taxonomy_term
+    75e368a3-a85a-46bd-aa10-dc015b211cda: taxonomy_term
+    43dc5d56-234b-4287-8899-c19c966c7226: taxonomy_term
+    79c09ed7-afba-45ae-8d1c-cee5bf0d1c50: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Connaissances endogènes et solutions locales pour l''éducation, les politiques et l''utilisation de l''eau'
+  created:
+    -
+      value: 1647484968
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/connaissances-endogenes-et-solutions-locales-pour-leducation-les-politiques-et-lutilisation
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session se concentre sur le rôle clé des connaissances endogènes pour la gestion et la gouvernance de l''eau, y compris les initiatives actuelles en termes d''éducation à l''eau, de connaissances ancestrales, de développement des capacités et de musées de l''eau.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484968
+      guid: ''
+      hash: ef7b6dcbe54be26974792d774d4cd9c6
+  field_code:
+    -
+      value: '4E7'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 13d5c1ac-0de3-4332-990c-b9e982f9b7ff
+    -
+      entity: 190a867a-f225-4f4c-9e21-59b29c8e2a9f
+    -
+      entity: 75e368a3-a85a-46bd-aa10-dc015b211cda
+    -
+      entity: 43dc5d56-234b-4287-8899-c19c966c7226
+    -
+      entity: 79c09ed7-afba-45ae-8d1c-cee5bf0d1c50
+  field_organisateurs_text:
+    -
+      value: |-
+        UNESCO IHP
+        International Youth Council Philippines and Philippine Parliament for Water, Intercultural Network for Development and Peace (INDP), Global Water Museums Network
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: "Red de Jóvenes por el Agua Centroamérica; IRD, France; University of Venice ; Musee de l’Eau de Ouagadougou, Burkina Faso;\tMusee de la Civilisation de l’Eau au Maroc, Morocco; Universidad Regional Amazónica IKIAM, Ecuador "
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "* Développement de l'interface Connaissance / Innovation - Politique publique (INDP)
+        * Fournir des résultats de connaissance alignés avec l'objectif du projet sur la durabilité des solutions indigènes et basées sur la nature.
+        * L'éducation et la culture de l'eau comme outils clés pour la sécurité de l'eau en Amérique latine et dans les Caraïbes.
+        * Leçons tirées des démonstrations locales
+        * Musées de l'eau, patrimoine et connaissances ancestrales".
+      format: plain_text
+  field_programme:
+    -
+      value: '2 conférences de 15 minutes (une sur les musées et l''autre sur la culture et le patrimoine), suivies d''un débat et d''une interaction avec le public.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Moyens possibles pour réaliser le défi mondial de l''eau tel qu''il est prévu, identification des contributeurs.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 262d09e8-eb77-4951-a5e6-0b1ec79df50e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Faire de l’eau un facteur de paix et de développement en Afrique occidentale et centrale,  évolution et perspectives de l’initiative Pôle Eau Dakar.'
+  created:
+    -
+      value: 1647485813
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/faire-de-leau-un-facteur-de-paix-et-de-developpement-en-afrique-occidentale-et-centrale-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session vise d’abord à aborder le nexus Eau-Paix-Sécurité dans le contexte Afrique de l''ouest et du centre. Aussi, elle vise à présenter les principales réalisations de l’initiative du PED depuis son lancement officiel depuis 2019 ; la session servira d’occasion d’échanger sur les principales orientations stratégiques futures du PED en termes think tank sur le nexus eau-paix-développement. A cet effet, la session aura pour objectif d’explorer les possibilités de mise en place du dispositif de suivi des recommandations du FME en concert avec le secrétariat Forum de l’eau de Dakar.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485813
+      guid: ''
+      hash: b310a15294687a844b03d732843c2970
+  field_code:
+    -
+      value: SS28
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_organisateurs_text:
+    -
+      value: 'Direction de la Gestion et de la Planification et de la Gestion des Ressources en Eau (DGPRE) - Administration publique'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        La session spéciale consistera en deux panels au courant desquels les intervenants vont partager leurs réflexions sur les thématiques retenues que sont : 
+        3.	Panel 1: Eau-Paix-Sécurité : Enjeux régionaux, défis locaux 
+        4.	Panel 2 : Évolution et perspectives du Pôle Eau Dakar 
+        Chacune des sessions aura une durée de 25 minutes suivies par une courte séance de synthèse et de discussions (10mn). 
+        La session sera ouverte  par un mot introductif afin de présenter le cadre général de la session et de présenter les différents panélistes (10mn). Une note de clôture de la session sera prévue afin de faire la synthèse générale de la session (10mn). La séance portera sur le les évolutions et réalisations de l’initiative ainsi que les principales orientations stratégiques futures. 
+        Un programme détaillé provisoire est le suivant : 
+
+        Heure et Rubriques
+        10h30 - 10h45 : Installation des invités et panélistes
+        Par la coordination du PED
+
+        10h45 - 10h55 : Note d'ouverture et présentation de panélistes (1 et 2)
+        Mot d’ouverture du Ministre de l’eau et de l’assainissement du Sénégal (5 mn)
+        Mot de présentation des panéliste, par M. Niokhor Ndour , DGPRE- Coordonnateur de l’initiative Pôle Eau Dakar (5mn).
+
+        10h55 – 11h20 : Panel 1: Eau-Paix-Sécurité : Enjeux régionaux, défis locaux (25mn)
+        11h20 - 11h30 : Synthèse - Discussions Panel 1 (10mn)
+
+        11h30 - 11h55 : Panel 2 : Évolution et perspectives du Pôle Eau Dakar (25mn)
+        11h55 - 12h05 : Synthèse - Discussions Panel 2 (10mn)
+
+        12h05 - 12h15 : Conclusion et clôture (10mn)
+        Par le Secrétaire exécutif du 9e FME / Partenaires stratégiques : Représentant du Geneva Water Hub et de la coopération suisse (DDC) à déterminer ;
+
+        1.	Panel 1: Eau-Paix-Sécurité : Enjeux régionaux, défis locaux 
+        Modérateur du panel : Professeur Alioune Kane (UCAD)
+        Panélistes : 
+        • M. Hamed Diane SEMEGA, Haut-Commissaire de l’Organisation pour la Mise en Valeur du fleuve Sénégal (OMVS) ;
+        • Paul Ouédraogo, Comité permanent Inter-Etats de Lutte contre la Sécheresse dans le Sahel (CILSS) ; 
+        • M. Mouhamed Seck, acteur Industriel (Secteur Minier), Grande Côte Opérations (GCO) ; 
+        • M. Djeri Alassani, Centre de gestion des ressources en eau de la CEDEAO
+        • Dr Aliou Faye, Union Internationale pour la conservation de la nature – Afrique de l’ouest et du centre (IUCN-PACO) ;
+        • SE. M. Youssouph Diallo, Ministère des affaires étrangères du Sénégal 
+
+        2.	Panel 2 : Évolution et perspectives du Pôle Eau Dakar 
+        Modératrice : Dr. Fatima Sall, (AJPEAS)
+        Panélistes : 
+        • M. Ababacar Ndao, Organisation pour la Mise en Valeur du fleuve Gambie (OMVG) ;
+        • M. Niokhor Ndour, Direction de Gestion et de Planification des ressources en eau ; 
+        • Pr Serigne Faye, Ecole doctorale de l’eau de Dakar (EDEQUE – UCAD)
+        • Dr Issa Sakho, Université Amadou Makhtar Mbow de Dakar ;
+        • Dr Madiodio Niasse, Consultant international
+        • Dr Boubacar Barry , Secrétariat du Forum Mondial de l’eau 
+
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

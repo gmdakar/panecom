@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1e8f51aa-faa2-41ea-b236-2ab8b4372c3a
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    1d35441f-52c0-419f-9ec1-af88dba29d27: taxonomy_term
+    59eed9e1-3b09-4dbe-9092-bc52f680b7fa: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    6a43a2b3-5c23-4cb6-9872-d3d321a9dd67: taxonomy_term
+    298f7d9d-f52f-464b-a4d4-536648126d7c: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New perspectives on droughts in a time of climate change'
+  created:
+    -
+      value: 1647493836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/new-perspectives-droughts-time-climate-change-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        What are the new perspectives on drought in a time of climate change? Drought is often compared with other natural hazards such as floods, storms, and wildfires. However, unlike these hazards, drought is often a so-called hidden risk, meaning that its onset is not perceived until drought conditions are already having an impact. 
+
+        In many countries worldwide and as a result of climate change, droughts are becoming more severe with higher negative and large-scale impacts. Also, incidences of severe heat waves and short-term dryness (flash droughts) seem to increase. The session objective is to look at the developments in droughts in a time of climate change and how that may change our perspectives on dealing with the increasing issue. 
+
+        The keynote speech will introduce the different types of drought events, and how the frequency, magnitude and severity are changing due to changing climate (evolution of droughts, its definition and identification). Representatives of different international organizations will be invited to present and discuss management principles formulated to guide and support decision-makers in dealing with droughts. Specific attention will be paid to the intrinsic nature of drought as cross-border (with specific attention to the role of groundwater in dealing with droughts), cross-sectoral and cross-institutional. The HELP Flagship report on drought will also be launched during the event. It suggests ten guiding principles for effective drought management. Finally, those principles will guide the discussion with panel members. Regional and national representatives will look back at those principles and reflect on what these principles concretely mean for their own country and what steps are needed to address the full range of risks and impacts associated with shifting and dynamic hydrologic cycles. By linking principles collected from experiences worldwide to local experiences, an interaction is started that leads to mutual influence to cater for the developments that climate change brings. This will lead to conclusions and take-home messages on how climate change influences droughts, what mechanisms are in place to mitigate the impacts of droughts on livelihoods and what steps might be needed to facilitate their implementation.
+
+        The session targets influential leaders and decision-makers from government, business, and civil society who are dealing with droughts.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493836
+      guid: ''
+      hash: 216ded1ef2647bdb45e5b45115843114
+  field_code:
+    -
+      value: HLP24
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 1d35441f-52c0-419f-9ec1-af88dba29d27
+    -
+      entity: 59eed9e1-3b09-4dbe-9092-bc52f680b7fa
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 6a43a2b3-5c23-4cb6-9872-d3d321a9dd67
+    -
+      entity: 298f7d9d-f52f-464b-a4d4-536648126d7c
+  field_organisateurs_text:
+    -
+      value: 'Islamic Development Bank (IsDB), Multilateral Development Bank '
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        FINAL PROGRAM 
+
+        Moderator: Mr. Henk Ovink, Special Envoy for International Water Affairs, Dutch ministry of Infrastructure and Water Management 
+
+        5min – Welcome words, Dr. Han, High-level Experts and Leaders Panel on Water and Disasters (HELP) 
+
+        10min – Keynote speech by the World Meteorological Organization 
+        Mr. Johannes Cullman, Director of the Climate and Water Department at World Meteorological Organization at the World Meteorological Organisation (WMO / IMDP) 
+
+        25min – Effective drought management for present and future challenges: two perspectives 
+        •	Ms. Chloë Oliver Viola, Senior Water Supply and Sanitation Specialist for the World Bank Group's Water Global Practice
+        •	Mr. Abou Amani, Director of the Division of Water Sciences, Secretary of the Intergovernmental Hydrological Programme (IHP)
+
+        10min – Releasing the HELP Flagship Report ‘Guiding Principles for Drought Risk Management under a Changing Climate’
+        Mr. Eelco van Beek, Expert Advisor at Deltares
+        Video and short presentation highlighting 12 Guiding Principles developed in the report as an efficient way to tackle those new perspectives on drought.
+
+        35min – Panel discussion 
+        “Dealing with drought: how do we translate those principles into actions at the local and regional level?”
+        •     Mr. Harunobu Nagai, Deputy Director General, Water Resources Department, Water and 
+        Disaster Management Bureau, Ministry of Land, Infrastructure, Transport and Tourism of Japan 
+        •     Dr. Issoufou MAIGARY, Expert Hydrologist, Permanent Interstate Committee for Drought Control in the Sahel
+        •     Mr. Tomás Sancho, Deputy Director for Infrastructures and Public Hydraulic Domain, Spanish Ministry for the Ecological Transition and the Demographic Challenge.
+
+        5min – Closing of the session 
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

@@ -1,0 +1,137 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 619cc6cc-8647-496b-9d6e-8c282e0a9fcc
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    5e9a3005-72e9-4ea8-a854-ae580e3dee13: taxonomy_term
+    9a1fe490-57ff-4099-af9a-ee0d9ad35a48: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water- Energy- Food- Environment Nexus'
+  created:
+    -
+      value: 1647493836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-energy-food-environment-nexus-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        What are the new perspectives on drought in a time of climate change ? Drought is often compared with other natural hazards such as floods, storms, and wildfires. However, unlike these hazards, drought is often a so-called hidden risk, meaning that its onset is not perceived until drought conditions are already having an impact. In many countries worldwide and as a result of climate change, droughts are becoming more severe with higher negative and large-scale impacts. Also, incidences of severe heat waves and short-term dryness (flash droughts) seem to increase. 
+
+        The session objective is to look at the developments in droughts in a time of climate change and how that may change our perspectives on dealing with the increasing issue. 
+
+        The keynote speech will introduce the different types of drought events, and how the frequency, magnitude and severity are changing due to changing climate (evolution of droughts, its definition and identification).  
+
+        Representatives of different international organizations will be invited to present and discuss management principles formulated to guide and support decision-makers in dealing with droughts. Specific attention will be paid to the intrinsic nature of drought as cross-border (with specific attention to the role of groundwater in dealing with droughts), cross-sectoral and cross-institutional. 
+
+        The HELP Flagship report on drought will also be launched during the event. It suggests ten guiding principles for effective drought management. 
+
+        Finally, those principles will guide the discussion with panel members. Local government representatives will look back at those principles and reflect on what these principles  concretely mean for their own country and what steps are needed to address the full range of risks and impacts associated with shifting and dynamic hydrologic cycles. By linking principles collected from experiences worldwide to local experiences, an interaction is started that leads to mutual influence to cater for the developments that climate change brings. 
+
+        This will lead to conclusions and take-home messages on how climate change influences droughts, what mechanisms are in place to mitigate the impacts of droughts on livelihoods and what steps might be needed to facilitate their implementation.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493836
+      guid: ''
+      hash: f59d0195e1e2bb3dee050f4e178a1949
+  field_code:
+    -
+      value: HLP25
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 5e9a3005-72e9-4ea8-a854-ae580e3dee13
+    -
+      entity: 9a1fe490-57ff-4099-af9a-ee0d9ad35a48
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+  field_organisateurs_text:
+    -
+      value: |-
+        Deltares (Research Institute) /
+        The Netherlands Ministry of Infrastructure and Water management 
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        5min – Welcome and Opening remarks 
+
+        10min – Keynote speech by the World Meteorological Organization (WMO / IDMP)
+        Droughts are evolving. The word “drought” itself presents a challenge, as drought is understood and experienced differently depending on a range of socio-economic, geographic and cultural factors, and drought definitions are evolving. What are the new perspectives on drought, in a time of climate change ? 
+
+        The speech will also highlight the need for collaboration and knowledge sharing to tackle the drought challenges, due to the intrinsic cross-borders and cross-sectoral nature of droughts.
+
+        20min – Effective drought management for present and future challenges
+        In the last years, several international organisations have been looking at guiding principles and best practices for drought management. What are the impacts of drought and how are they impacted as climate change effects unfold? And how can we ensure effective drought management in the long-term, aligning with the Global Agenda’s (e.g. SDG’s or the Sendai Framework) ? 
+        Three pitches will look at different aspects for effective drought management, namely: 
+        cross-borders, highlighted through the impact on groundwater, by UNESCO (TBC) 
+        cross-sectoral, looking at the nexus between drought and the impact on biodiversity and land-use, by UNCCD (TBC)
+        cross-institutional, looking on effective governance, by World Bank (TBC)
+
+        10min – Releasing the HELP Flagship report on drought 
+        Video and short presentation highlighting 10 Guiding Principles developed in the report as an efficient way to tackle those new perspectives on drought. 
+
+        30min – Dealing with drought: how to act at the local level ?
+        Those principles and best practices are formulated to support management at the local level. How are they implemented and what is needed to bring it one step further? And do they suffice given the climate change developments? Interventions from decision-makers at the local (or regional) level, with cases from the Sahel region, Middle-East, North America and Europe. 
+
+        10min – Closing remarks
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e1ab47eb-62c5-4085-a6b4-7cca0142031f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    8a1b1825-6b48-434f-a0e6-153aae081289: taxonomy_term
+    64eff19f-dda2-4b7e-8a03-3db707a2b84b: taxonomy_term
+    cd32f74d-b7e7-4b64-89d9-241612328806: taxonomy_term
+    5f4daab6-6d06-434f-8832-cb22247933e4: taxonomy_term
+    9eefecf4-05f2-471e-a3c8-206c11d4b7e5: taxonomy_term
+    b9489931-3d10-4f9d-9caf-f6259ac0924f: taxonomy_term
+    98a5c902-d051-407d-bc23-8a0749fb7387: taxonomy_term
+    2acff629-771f-4c63-86ea-51a5f327305a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Une école d'' Eco santé à Nogthie ( Sénégal)'
+  created:
+    -
+      value: 1647486186
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/une-ecole-d-eco-sante-nogthie-senegal
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le projet de construction d’une  École d''Éco-Santé a été décidé entre les habitants du village de Ngothie ( Sénégal)  et une équipe internationale de chercheurs qui se proposent de construire des solutions durables et soutenables face aux défis climatiques actuels qui entrainent un appauvrissement des sols et amène un risque de famine dans les prochaines années.  L ’objectif de ce programme, sur 5 ans, est de mettre en place une Ecole de l’Eco-santé, fondée sur une coopérative de recherches et d’actions collectives d’arrangement éco-productifs locaux visant la formation à la formation de la sauvegarde de l’eau, des semences, des plantes médicinales par le développement de l’agroécologie et la sauvegarde des savoirs écologiques. L’ Ecole se veut ouvrir un tiers-espace original de dialogue des savoirs écologiques du Sénégal, ceux du Brésil et de l’Europe pour développer la santé collective.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486186
+      guid: ''
+      hash: d6d1daf45e7edd3f213cf199f8e0d7f6
+  field_code:
+    -
+      value: SE3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Jacqueline Descarpentries, UMR CNRS LADYSS Paris 8, Université de Paris 8 ( France), jacqueline.descarpentries@univ-paris8.fr, Babacar Diouf, Moussa Mbodji, Amadou Yade, UCAD Dakar ( Sénégal), les représentants du village de Ngothie,  Savino Wilson, Edmundo Gallo, Lorena Portela, Fondation Oswaldo Cruz,  Rio de Janeiro (Brésil), Vaguihno Nascimento, OTTS, et Forum des communautés traditionnelles ( Brésil) , Joao Nunès , CES, Université de Coimbra; (Porugal) Farba Diouf, Clarissa Figueira, Alice Furtado, UMR CNRS LADYSS Paris 8, Université de Paris 8 ( France)  '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 8a1b1825-6b48-434f-a0e6-153aae081289
+    -
+      entity: 64eff19f-dda2-4b7e-8a03-3db707a2b84b
+    -
+      entity: cd32f74d-b7e7-4b64-89d9-241612328806
+    -
+      entity: 5f4daab6-6d06-434f-8832-cb22247933e4
+    -
+      entity: 9eefecf4-05f2-471e-a3c8-206c11d4b7e5
+    -
+      entity: b9489931-3d10-4f9d-9caf-f6259ac0924f
+    -
+      entity: 98a5c902-d051-407d-bc23-8a0749fb7387
+  field_organisateurs_text:
+    -
+      value: 'L'' Université Coopérative Internationale UMR CNRS LADYSS PARIS 8 Université Paris 8-Vincennes '
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+
+        Présentation du projet global de l' Ecole d'Eco Santé Jacqueline Descarpentries et Clarissa Figuiera, UMR CNRS LADYSS Paris 8, Université de Paris 8 , Babacar Diouf  UCAD de Dakar 
+        Un territoire vulnérabilisé par le changement climatique : les représentants du village de Ngothie et apport de la géographie: Alice Furtado, UMR CNRS LADYSS Paris 8
+        Les réponses aux vulnérabilités de santé et d'environnement  :  Savino Wilson,  de la Fondation Oswaldo Cruz Rio de Janeiro (Brésil), Lorena Portela ,Moussa Mobdji (UCAD de Dakar), 
+        Nghotie : un territoire d'apprentissage par l'agroécologie : Edmundo Gallo,  Vaguihno Nascimento  , OTTS, et Forum des communautés traditionnelles ( Brésil), 
+        Sauvegarder les savoirs écologiques :  Joao Nunès,  CES, Université de Coimbra; (Portugal) Farba Diouf, UMR CNRS LADYSS Paris 8, Université de Paris 8 ,
+        Conclusion de la session:  Une école d' Eco-Santé pour une santé collective.
+
+
+      format: basic_html
+  field_salle:
+    -
+      entity: 2acff629-771f-4c63-86ea-51a5f327305a

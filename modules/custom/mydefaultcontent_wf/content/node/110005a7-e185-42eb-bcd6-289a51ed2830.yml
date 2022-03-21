@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 110005a7-e185-42eb-bcd6-289a51ed2830
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    9dde80db-bf2c-430d-8e95-9d7484015c12: taxonomy_term
+    84162dc3-f886-4de8-a0d9-d34718fcf498: taxonomy_term
+    b31b1af0-8d13-474d-9d68-5bee563120e3: taxonomy_term
+    8557a668-3c9f-4fa7-9f06-98c6140ebb9f: taxonomy_term
+    b6b7eaa2-6ab2-4324-a61a-cbe35405c210: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Endogenous knowledge and local solutions for water education, policies and use'
+  created:
+    -
+      value: 1647484856
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/endogenous-knowledge-and-local-solutions-water-education-policies-and-use
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session focuses on the key role of endogenous knowledge for water management and governance, including current initiatives in terms of water education, ancestral knowledges, capacity development and water museums.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484856
+      guid: ''
+      hash: 54d8b60315f4520491c6e5f945216caf
+  field_code:
+    -
+      value: '4E7'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 9dde80db-bf2c-430d-8e95-9d7484015c12
+    -
+      entity: 84162dc3-f886-4de8-a0d9-d34718fcf498
+    -
+      entity: b31b1af0-8d13-474d-9d68-5bee563120e3
+    -
+      entity: 8557a668-3c9f-4fa7-9f06-98c6140ebb9f
+    -
+      entity: b6b7eaa2-6ab2-4324-a61a-cbe35405c210
+  field_organisateurs_text:
+    -
+      value: |-
+        UNESCO IHP
+        International Youth Council Philippines and Philippine Parliament for Water, Intercultural Network for Development and Peace (INDP), Global Water Museums Network
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: "Red de Jóvenes por el Agua Centroamérica; IRD, France; University of Venice ; Musee de l’Eau de Ouagadougou, Burkina Faso;\tMusee de la Civilisation de l’Eau au Maroc, Morocco; Universidad Regional Amazónica IKIAM, Ecuador "
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        * Development of the Knowledge / Innovation - Public Policy interface (INDP)
+        * Provide knowledge outputs aligned with the objective of the project on sustainability of indigenous and nature based solutions
+        * Water Education and Culture as key tools for water security in Latin America and the Caribbean
+        * Lessons learnt from Local Demonstration
+        * Water Museums, Heritage and Ancestral Knowledge
+      format: plain_text
+  field_programme:
+    -
+      value: '2x15 min talks (1 on museums and other on culture and heritage), followed by discussion panel and interaction with public'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Possible means for achieving the World Water Challenge as foreseen, identification of contributers'
+      format: basic_html
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0f6cb703-5183-4174-bf9c-be36c3f6ca3e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    a5238d1e-af41-4326-aa9c-f339da404634: taxonomy_term
+    e290e271-ca78-4a49-82e1-6953aa814d0b: taxonomy_term
+    5cd4a74f-35e1-499a-bf5c-46223087879f: taxonomy_term
+    70f17d3d-5ac7-4ac3-88b5-c9cb6304c916: taxonomy_term
+    66047178-f990-4169-9fc6-d51f68f7e505: taxonomy_term
+    bc99c4b0-6835-47fd-b0b2-45102d528701: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Voice of the River, Way of Peace'
+  created:
+    -
+      value: 1647493850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/voice-river-way-peace-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        " Context 
+        Within the framework of the 9th World Water Forum in Dakar in March 2022, OMVS and its partners present "Voice of the River, Path to Peace". Aiming at engaging a dialogue between the major development axes of the Senegal River basin, the societal dynamics and the local entrepreneurship related to water, this project will conceive innovative solutions by gathering local populations and their youth, artists, personalities, experts and the basin organization. It will thus reflect on the consultation of local populations, the creation of local jobs and the role that OMVS can play in strengthening peace in the basin with the establishment of a Blue Fund to support local entrepreneurship and employment. The internationally renowned artist Baaba Maal, sponsor of the project, will be involved in facilitating dialogue with local populations.  
+
+        The project has several components, including the Open Sahel Festival; the production of an album with Baaba Maal, Daara J Family, Noumoucounda, Fatoumata Diawara, Noura Mint Seymali, and Sékou Kouyaté; community exchanges; the development of a blue fund concept; and a contest to mobilize and engage youth. All of the activities and works produced under the project will be used to bring local people's advocacy to the 9th World Water Forum in Dakar so that local voices are better considered in decision-making bodies. 
+
+        Objectives 
+        - To present to the WWF the results of the dialogue carried out by the "Voices from the River, Path to Peace" project and the solutions created through the project.
+        - Interact with WEF participants to exchange and generate partnerships on the concept of a Blue Fund for employment and social entrepreneurship at OMVS and other solutions identified by the project
+
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493850
+      guid: ''
+      hash: ad8051e046267c28cce719162f47f8ab
+  field_code:
+    -
+      value: SS49
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: a5238d1e-af41-4326-aa9c-f339da404634
+    -
+      entity: e290e271-ca78-4a49-82e1-6953aa814d0b
+    -
+      entity: 5cd4a74f-35e1-499a-bf5c-46223087879f
+    -
+      entity: 70f17d3d-5ac7-4ac3-88b5-c9cb6304c916
+    -
+      entity: 66047178-f990-4169-9fc6-d51f68f7e505
+    -
+      entity: bc99c4b0-6835-47fd-b0b2-45102d528701
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Introductory remarks by Baaba Maal, sponsor of the initiative - 5 minutes
+        Intervention of a representative of the Executive Secretariat of the 9th World Water Forum - 5'.
+
+        - Introduction to the initiative by a representative of the Geneva Water Hub - 5'
+
+
+        - Presentation panel composed of :
+        Baaba Maal
+        Two young representatives of the basin
+        Representatives of the OMVS
+        An expert from the Pôle Eau Dakar
+        An expert from IPAR
+
+        o Part 1: Findings and reflections on the development of the river for jobs, the resilience of populations and the reinforcement of peace in the basin -20'.
+
+        o Part 2 : The role of OMVS for local development and the creation of a support fund for local entrepreneurship and employment in the basin -20'.
+
+        o Part 3: Exchanges with the participants - 20'.
+
+        - Concluding remarks by the OMVS High Commissioner -5' minutes
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c782f77c-632e-42bc-a445-6a6674022cfb
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    1149714b-409b-412d-8f35-f3d43fbc2f41: taxonomy_term
+    216bfba1-80e6-4258-905e-71a4c5a28d89: taxonomy_term
+    b7d5a093-25cc-49dc-8fcb-69f68fcc024b: taxonomy_term
+    6b1e8bf7-e9d2-4de8-97a0-3768c1b92a05: taxonomy_term
+    4b1e6f19-70f5-4b6e-a491-1fd09132d3a5: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Role of Private Operators on the implementation of SDG goal 6'
+  created:
+    -
+      value: 1647493848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/role-private-operators-implementation-sdg-goal-6-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The primary focus of the session will be to present AfWA with focus on its contribution to empower African private and public WASH operators for better achieving the SDG 6. This session would allow AfWA to showcase of its strategy to scale up programs for high impact in accelerating access to water and sanitation services in Africa.
+
+        The session will be structured in three parts:
+        1.	Introductory remarks on of AfWA and the various presenters by Mr Sylvain Usher, the Executive Director of AfWA o who will moderate the session (15 minutes)
+        2.	Presentation of AfWA strategy in support to water and sanitation operators: Dr. Eng. Simeon Kenfack, AfWA Program Director
+        3.	A panel group of discussion with four panelists for (60 min)
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493848
+      guid: ''
+      hash: 41a3eafe6366a361a59538a8363f26c5
+  field_code:
+    -
+      value: SS41
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 1149714b-409b-412d-8f35-f3d43fbc2f41
+    -
+      entity: 216bfba1-80e6-4258-905e-71a4c5a28d89
+    -
+      entity: b7d5a093-25cc-49dc-8fcb-69f68fcc024b
+    -
+      entity: 6b1e8bf7-e9d2-4de8-97a0-3768c1b92a05
+    -
+      entity: 4b1e6f19-70f5-4b6e-a491-1fd09132d3a5
+  field_organisateurs_text:
+    -
+      value: 'African Water Association'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        1.	Introductory remarks on the theme of the session and the various speakers/panelists by The moderator (10 minutes)
+        2.	Presentation of AfWA and its strategy in support inclusion of private operators and various group of actors into water and sanitation sector in AfWA: Dr. Eng. Simeon Kenfack, AfWA Program Director (15 min)
+        3.	A panel group discussion for (65 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

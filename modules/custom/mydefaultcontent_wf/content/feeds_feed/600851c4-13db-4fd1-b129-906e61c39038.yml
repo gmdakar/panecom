@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: feeds_feed
+  uuid: 600851c4-13db-4fd1-b129-906e61c39038
+  bundle: migrate_agenda_ss_hlp_fr_
+default:
+  title:
+    -
+      value: 'Migrate feeds ss-hlp (fr)'
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1647464401
+  imported:
+    -
+      value: 1647485830
+  next:
+    -
+      value: -1
+  queued:
+    -
+      value: 0
+  source:
+    -
+      value: 'private://feeds/SS-HLP Excel (FR)_5.csv'
+  item_count:
+    -
+      value: 81

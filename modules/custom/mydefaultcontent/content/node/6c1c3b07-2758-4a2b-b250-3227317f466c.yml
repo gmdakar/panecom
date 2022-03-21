@@ -1,0 +1,181 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6c1c3b07-2758-4a2b-b250-3227317f466c
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    febf458e-5402-4020-9ab8-81e862013b82: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    a33ee1ab-a30b-413b-94e9-354442bbf850: taxonomy_term
+    67c9a8cc-8969-4d0d-9953-b7d426a15868: taxonomy_term
+    12dad574-f7e8-4d99-b1bb-9c3243a10292: taxonomy_term
+    0a802b01-177a-42a8-ae92-91c298bd42cd: taxonomy_term
+    5ff908d0-3acf-4c4f-a978-bd91bc93b1f9: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promoting peace by developing and implementing legal frameworks for transboundary water resources'
+  created:
+    -
+      value: 1647484843
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promoting-peace-developing-and-implementing-legal-frameworks-transboundary-water-resources
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Transboundary water cooperation is one of the bedrocks of international security since it has proven spill over economic and peace benefits beyond the water sector. It is thus important to advance cooperation on shared water resources to promote peace. One of the well-tested and tried ways of advancing water cooperation is through the establishment and implementation of legal frameworks for transboundary water resources. This session is aimed at highlighting the tools and instruments for advancing such cooperation available for policy and decision-makers, including the United Nations global Water Conventions.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484843
+      guid: ''
+      hash: 24548183276ee97859ae1086466fb651
+  field_code:
+    -
+      value: 3B2
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: febf458e-5402-4020-9ab8-81e862013b82
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: a33ee1ab-a30b-413b-94e9-354442bbf850
+    -
+      entity: 67c9a8cc-8969-4d0d-9953-b7d426a15868
+    -
+      entity: 12dad574-f7e8-4d99-b1bb-9c3243a10292
+    -
+      entity: 0a802b01-177a-42a8-ae92-91c298bd42cd
+    -
+      entity: 5ff908d0-3acf-4c4f-a978-bd91bc93b1f9
+  field_organisateurs_text:
+    -
+      value: |-
+        UNECE
+        Geneva Water Hub
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNESCO, EU, ECOWAS, Ministry of Sanitation and Water Resources of Ghana, Mekong River Commission (MRC), Ministry of Interior of Hungary, Federal Office for the Environment of Switzerland, Minister of Water Resources of Iraq, Intergovernmental Coordinating Committee for the La Plata River, Central Asia Youth for Water Network, Global Environment Facility'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Project 1. Initiative on the Global Conventions on Water to promote Water Cooperation   
+
+        Project 2. Support to the development and implementation of transboundary cooperation agreements: institutional capacity building of transboundary basin organisations and support to the accession to global water conventions 
+
+        Project 3. Practical Guide for the development of agreements or other arrangements for transboundary water cooperation  
+
+        Project 4. Application of Water Utilization rules and procedures: Procedures for Notification, Prior Consultation and Agreement (PNPCA) for mainstream hydropower projects  
+
+        Project 5. Monitoring of SDG indicator 6.5.2 measuring transboundary water cooperation  
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Opening  
+        - Introduction by the UNECE: overview of the session programme, key topic, and questions 
+        - Keynote speech: Mr. Virginijus Sinkevi?ius, Commissioner for Environment, Oceans and Fisheries, European Union (TBC)  
+        - Introductory presentation on the state of transboundary water cooperation in light of the results of the monitoring exercise under SDG indicator 6.5.2: 
+        Ms. Olga Algayerova, Executive Secretary, UNECE and Mr. Abou Amani, Director of Water science division, UNESCO 
+        - Q&A  
+
+
+        Panel I (20 min) 
+        Tools for accelerating the progress towards the development of operational arrangements and their successful applications  
+
+        Moderator: Mr. Bougonou K. Djeri–Alassani, Ag. Director, ECOWAS Water Resources Management Center (EWRMC) 
+
+        Presentations on the following questions: 
+        - Which processes, tools, and guidance materials are available at the global level for accelerating the progress towards the development and implementation of operational arrangements? 
+        - What are the recent developments and examples of the successful application of international water law principles at the regional and basin level? 
+
+        Panel Interventions:  
+        - Accession to the UN global framework conventions: country perspective 
+        H.E. Mrs. Cecilia Abena Dapaah, Minister of Sanitation and Water Resources, Ghana 
+        - Practical Guide for the Development of Agreements or Other Arrangements for Transboundary Water Cooperation  
+        Mr. Peter Kovacs, Water Director, Ministry of Interior, Hungary, Chair of the Practical Guide Drafting Group 
+        - Application of Water Utilization Rules and Procedures: Procedures for Notification, Prior Consultation and Agreement (PNPCA) for mainstream hydropower projects in the Mekong River Basin, Mr. Bountieng Sanaxonh, Director of Planning Division, Secretariat of the Mekong River Commission  
+        - Revising an Agreement on a Transboundary Basin 
+        Mr. Phera Ramoeli, Executive Director, Okavango River Basin Water Commission (TBC) 
+
+        Q&A (15 min)  
+
+         
+        Panel II (25 min) 
+        Progress, gaps and challenges in the development and implementation of legal and institutional frameworks for transboundary water cooperation 
+
+        Moderator: Ms. Sibylle Vermont, Deputy Head of Section, Global Affairs, International Affairs Division, Federal Office for the Environment, Switzerland 
+
+        Panel discussion based on the results of the second reporting exercise on SDG indicator 6.5.2:  
+        - Progress, gaps, and challenges in the MENA region: the Case of Iraq 
+        H.E. Mr. Mahdi Rashid Al Hamdani, Minister of Water Resources, Iraq (TBC) 
+        - Progress, gaps, and challenges in the Latin American region:
+        Mr. Juan Carlos Alurralde, Secretary General, Intergovernmental Coordinating Committee for the La Plata River 
+        - Progress, gaps, and challenges in Africa 
+        Mr. Christophe Brachet, Deputy-Secretary General, International Network of Basin Organizations (INBO)  
+        - Progress, gaps, and challenges: perspective of youth 
+        Ms. Lyazzat Syrlybayeva, Central Asia Youth for Water Network  
+        - Progress, gaps, challenges, and the way forward: donor perspective 
+        Mr. Steffen Hansen, Environmental Specialist, Global Environment Facility (GEF)  
+
+        Interactive discussion (15 min) 
+
+        Take away and concluding remarks:
+        H.E. Danilo Türk, Former President of Slovenia, Chair of the Global High-Level Panel on Water and Peace, Lead Political Advisor of the Geneva Water Hub 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'This session should contribute to the global efforts to reinforce the linkages between SDG6 and other SDG such as SDG16, as well as SDG 13 and 17.  On our common road towards the 2023 High-Level Water Decade Conference, this session should contribute to form the adequate messages for better integrating transboundary water cooperation and peace aspect within the UN Water Decade. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

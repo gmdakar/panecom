@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8863f72e-4636-410f-9648-a125fedad898
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    c2be7926-c90b-415f-997c-4d5948d47cfa: taxonomy_term
+    ae762c6c-a30b-4775-b010-f676332f7d52: taxonomy_term
+    5f4daab6-6d06-434f-8832-cb22247933e4: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    e8aca36f-cb5c-4145-8f14-225129aaf755: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Intégration de l’agroécologie dans l’agriculture irriguée'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/integration-de-lagroecologie-dans-lagriculture-irriguee-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session a pour but de présenter les effets de l''agroécologie dans les systèmes d''irrigation qui cherchent à redéfinir les systèmes alimentaires tout en préservant la diversité des écosystèmes. Elle présentera également des réponses spécifiques à la pénurie d''eau dans le contexte des terres marginales et du changement climatique. Favorisant la durabilité des ressources naturelles et de la gouvernance, la protection des petits exploitants et la sécurité alimentaire, et s''inscrivant dans l''approche "Une eau, une santé", l''agroécologie optimise les interactions mutuellement bénéfiques entre les plantes, les animaux, les humains et l''environnement. La session cherchera à présenter la mise en œuvre possible de l''agroécologie dans les systèmes alimentaires irrigués et à explorer les performances productives d''exemples pratiques.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: 6e9b5bd049f598d4864810a56d88988c
+  field_code:
+    -
+      value: SS35
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: c2be7926-c90b-415f-997c-4d5948d47cfa
+    -
+      entity: ae762c6c-a30b-4775-b010-f676332f7d52
+    -
+      entity: 5f4daab6-6d06-434f-8832-cb22247933e4
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Bienvenue et introduction [5']
+        - Présentation principale sur "Comment réconcilier l'agroécologie et l'agriculture irriguée" par Mr Li Lifeng [15']
+        - Panel de discussion sur les questions soulevées lors de la présentation [30'] :
+                o Didier Orange, IRD
+                o Sami BOUARFA, INRAE
+                o Caroline LEJARS, Cirad
+                o Ndjido Kane, ISRA-CERAAS
+                o Mme Dionysia Angeliki Lyra, ICBA
+                o Mme Alice Colson (AFD) (à confirmer)
+        - Q&R [30']
+        - Messages clés et conclusion (5')
+
+        "
+      format: plain_text
+  field_salle:
+    -
+      entity: e8aca36f-cb5c-4145-8f14-225129aaf755

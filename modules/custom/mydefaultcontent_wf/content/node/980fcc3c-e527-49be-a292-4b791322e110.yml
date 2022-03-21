@@ -1,0 +1,135 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 980fcc3c-e527-49be-a292-4b791322e110
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    b9229aaf-8ecc-4078-9140-8767105bfd87: taxonomy_term
+    04b9374d-645d-437a-bdab-4c3afb5291d1: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nouvelles perspectives sur les sécheresses à l''heure du changement climatique'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/nouvelles-perspectives-sur-les-secheresses-lheure-du-changement-climatique-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Quelles sont les nouvelles perspectives sur la sécheresse à l'heure du changement climatique ? La sécheresse est souvent comparée à d'autres risques naturels tels que les inondations, les tempêtes et les incendies de forêt. Toutefois, contrairement à ces risques, la sécheresse est souvent un risque dit caché, ce qui signifie que son apparition n'est perçue que lorsque les conditions de sécheresse ont déjà un impact. 
+
+        Dans de nombreux pays du monde et en raison du changement climatique, les sécheresses deviennent plus sévères et ont des impacts négatifs plus importants et à grande échelle. De plus, l'incidence des vagues de chaleur sévères et de la sécheresse à court terme (sécheresses éclair) semble augmenter. L'objectif de la session est d'examiner l'évolution des sécheresses à l'heure du changement climatique et de voir comment cela peut changer nos perspectives pour faire face à ce problème croissant. 
+
+        Le discours d'ouverture présentera les différents types de sécheresses et la manière dont leur fréquence, leur ampleur et leur gravité évoluent en raison du changement climatique (évolution des sécheresses, leur définition et leur identification). Des représentants de différentes organisations internationales seront invités à présenter et à discuter des principes de gestion formulés pour guider et aider les décideurs à faire face aux sécheresses. Une attention particulière sera accordée à la nature intrinsèque de la sécheresse qui est transfrontalière (avec une attention particulière au rôle des eaux souterraines dans la gestion des sécheresses), intersectorielle et interinstitutionnelle. Le rapport du programme phare HELP sur la sécheresse sera également lancé au cours de l'événement. Il propose dix principes directeurs pour une gestion efficace de la sécheresse. Enfin, ces principes guideront la discussion avec les membres du panel. Les représentants régionaux et nationaux se pencheront sur ces principes et réfléchiront à ce qu'ils signifient concrètement pour leur propre pays et aux mesures à prendre pour faire face à l'ensemble des risques et des impacts associés aux cycles hydrologiques changeants et dynamiques. En reliant les principes recueillis à partir d'expériences dans le monde entier aux expériences locales, une interaction est lancée qui conduit à une influence mutuelle pour faire face aux développements que le changement climatique apporte. Il en ressortira des conclusions et des messages à emporter sur la manière dont le changement climatique influence les sécheresses, sur les mécanismes mis en place pour atténuer l'impact des sécheresses sur les moyens de subsistance et sur les mesures à prendre pour faciliter leur mise en œuvre.
+
+        La session s'adresse aux dirigeants et décideurs influents des gouvernements, des entreprises et de la société civile qui sont confrontés aux sécheresses.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: f2473d28a15f6102cb6fa8a42eb0d792
+  field_code:
+    -
+      value: HLP24
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: b9229aaf-8ecc-4078-9140-8767105bfd87
+    -
+      entity: 04b9374d-645d-437a-bdab-4c3afb5291d1
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+  field_organisateurs_text:
+    -
+      value: |-
+        Deltares (Research Institute) /
+        The Netherlands Ministry of Infrastructure and Water management 
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        PROGRAMME FINAL 
+
+        Modérateur : M. Henk Ovink, Envoyé spécial pour les affaires internationales de l'eau, Ministère néerlandais des infrastructures et de la gestion de l'eau. 
+
+        5min - Mot de bienvenue, Dr. Han, Panel d'experts et de dirigeants de haut niveau sur l'eau et les catastrophes (HELP) 
+
+        10min - Discours principal de l'Organisation météorologique mondiale (OMM) 
+        M. Johannes Cullman, Directeur du Département du climat et de l'eau de l'Organisation météorologique mondiale à l'Organisation météorologique mondiale (OMM / IMDP) 
+
+        25min - Gestion efficace de la sécheresse pour les défis actuels et futurs : deux perspectives 
+        - Mme Chloë Oliver Viola, spécialiste principale en approvisionnement en eau et assainissement pour la pratique globale de l'eau du Groupe de la Banque mondiale
+        - M. Abou Amani, Directeur de la Division des Sciences de l'Eau, Secrétaire du Programme Hydrologique Intergouvernemental (PHI)
+
+        10min - Présentation du rapport phare HELP "Principes directeurs pour la gestion du risque de sécheresse dans un contexte de changement climatique".
+        M. Eelco van Beek, Conseiller expert chez Deltares
+        Vidéo et courte présentation soulignant les 12 principes directeurs développés dans le rapport comme un moyen efficace d'aborder ces nouvelles perspectives sur la sécheresse.
+
+        35min - Panel de discussion 
+        "Faire face à la sécheresse : comment traduire ces principes en actions au niveau local et régional ?"
+        - M. Harunobu Nagai, Directeur général adjoint, Département des ressources en eau, Bureau de la gestion de l'eau et des catastrophes, Ministère de la terre et de l'environnement. 
+        Bureau de la gestion de l'eau et des catastrophes, Ministère du territoire, des infrastructures, des transports et du tourisme du Japon. 
+        - Dr. Issoufou MAIGARY, Expert Hydrologue, Comité permanent inter-états de lutte contre la sécheresse dans le Sahel
+        - M. Tomás Sancho, Directeur adjoint des infrastructures et du domaine public hydraulique, Ministère espagnol de la transition écologique et du défi démographique.
+
+        5min - Clôture de la session 
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 678c230e-74c8-48c6-8e22-884ddaf708a5
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    d219347c-df8b-40ed-8342-4fc1e3696593: taxonomy_term
+    90cde90b-62d2-408e-af47-190a2bc5a7ae: taxonomy_term
+    0518fe01-c489-4f8d-b00a-be3934cf32a8: taxonomy_term
+    d52b76ca-6e8c-4c13-969e-14ed2d0423f4: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Integrated Water Resources Management (IWRM) in mining areas in West Africa'
+  created:
+    -
+      value: 1647493839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/integrated-water-resources-management-iwrm-mining-areas-west-africa-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The development of mining activity in West Africa has been unprecedented since the 2000s. The artisanal and semi-industrial sectors involve more than 6 million people. This number is steadily increasing. Significant revenues are received. However, social tensions and considerable environmental impacts are generated, at different spatial and temporal scales, which need to be better understood in order to provide sustainable control solutions built and accepted by all stakeholders. 
+        The integrated management of water resources in mining areas, as well as the quality of water, effluents from ore processing or the exposure of waste from active or past mining activities, is a major issue for life and public health. Private and public operators, communities and populations are strongly concerned on a territorial scale beyond the strict perimeter of the exploited areas. The construction of viable solutions to address the complex issues raised requires the implementation of new scientific paradigms, based on a multi-stakeholder, multi- and interdisciplinary dialogue, on participatory research and on open and shared science.
+        Conducted in English and French, the objective of this roundtable will be to address the issues, methodologies, innovations and perspectives to propose viable solutions, including those inspired by nature, to better understand, preserve or restore hydro-ecosystems, to ensure better quantitative and qualitative management of the resource "water" of mining basins in West Africa and in the global context of emergencies and transitions.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493839
+      guid: ''
+      hash: 1232372a37be3d45af208b2be192a251
+  field_code:
+    -
+      value: SS09
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: d219347c-df8b-40ed-8342-4fc1e3696593
+    -
+      entity: 90cde90b-62d2-408e-af47-190a2bc5a7ae
+    -
+      entity: 0518fe01-c489-4f8d-b00a-be3934cf32a8
+    -
+      entity: d52b76ca-6e8c-4c13-969e-14ed2d0423f4
+  field_organisateurs_text:
+    -
+      value: 'Institute of Research for Development (IRD)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        A 90-minute session is proposed. It will be sequenced as follows: 
+
+        Session 1: Major regional scientific issues for IWRM in mining areas in West Africa. 20 minutes of exchanges between 4 speakers and 10 minutes of questions and answers. 
+
+        This first session will aim to map the main mining sites by type of exploitation in West Africa and the impacts on water resources. It will present the main economic and human development issues associated. The panel will consist of two representatives of academic actors (Harouna Karambiri - 2iE, Alphonse Yao - INPHB), a representative of public actors (Dr. DIENE SAMBA ROKHAYA, Director of Geology of Senegal, a representative of a private actor BAMBA ZAKARI, ¨President of the Union of Mining Producers and Purchasers of WAEMU and a representative of the civil society (to be identified) 
+        Session 2: Towards a multi-stakeholder, multi-disciplinary dialogue. 20 minutes of exchanges between 4 speakers and 10 minutes of questions and answers. 
+        A second session will address the issue of the lack of dialogue between actors involved in the issue and how to move from a silo organization to a multi-stakeholder dialogue allowing the co-construction of practices and regulations adapted to the contexts. The panel will include Mr. Emile Kaboré (Head of the Mining and Hydrocarbons Division of WAEMU), Mr. Lamine Seydou Traoré, Minister of Mines, Water and Energy of Mali (to be confirmed), Mr. Felix Abagale (Director of the WACWISA UDS Center of Excellence, Ghana), Mr. Daouda Mama (Director of the C2EA, Benin) and a representative of a mining company (to be identified).  
+        Session 3: Presentation of innovative solutions for better IWRM in mining territories. 20 minutes of exchanges between 4 speakers and 10 minutes of questions and answers. 
+         This last session will close our session with a concrete presentation of existing solutions for a better management of water resources in mining territories. These solutions, based on science, must be shared, tested and scaled up to reach our sustainable development goals. The panelists will be Mr. Fabrice Colin (IRD), Ms. Diaka Sidibé (Minister of Higher Education and Research of Guinea), Mr. Bernard Alando (CEA RWESCK), Ms. Marie Thérèse Laguerre (Véolia to be confirmed).
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

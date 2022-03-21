@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6e084a93-86cd-43fb-8f6a-a3425224f173
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    3be2476c-c508-4097-8f7f-0cb0584537d0: taxonomy_term
+    c5d718c3-913f-44a7-b239-cbc336ee448e: taxonomy_term
+    84ca9a8e-e1a1-4fba-a33c-98c7a364fe58: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    e7105ce9-9f11-450b-b9e5-02703fca78ba: taxonomy_term
+    3e1a72f4-79eb-412d-ab05-bf29f10ee91a: taxonomy_term
+    4c215789-9acb-4eab-b34e-8eb848cec870: taxonomy_term
+    5454568c-6fc7-4eef-b56e-cc8c81673f2d: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Passer du développement rural à la transformation rurale'
+  created:
+    -
+      value: 1647484948
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/passer-du-developpement-rural-la-transformation-rurale
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '"La transformation rurale (TR), implique une augmentation de la productivité agricole, l''augmentation de la commercialisation et des excédents commercialisables, ainsi que la diversification des modèles de production et des moyens de subsistance, des modes de production et des moyens de subsistance. Elle implique également le développement d''emplois décents non agricoles et des opportunités entrepreneuriales, une meilleure couverture et un meilleur accès aux services et aux services et aux infrastructures, ainsi qu''un meilleur accès aux processus politiques pertinents et une plus grande capacité à les influencer. processus politiques pertinents. "'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484948
+      guid: ''
+      hash: f159ebcb04ab48450c0d99464e935deb
+  field_code:
+    -
+      value: 2D2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3be2476c-c508-4097-8f7f-0cb0584537d0
+    -
+      entity: c5d718c3-913f-44a7-b239-cbc336ee448e
+    -
+      entity: 84ca9a8e-e1a1-4fba-a33c-98c7a364fe58
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: e7105ce9-9f11-450b-b9e5-02703fca78ba
+    -
+      entity: 3e1a72f4-79eb-412d-ab05-bf29f10ee91a
+    -
+      entity: 4c215789-9acb-4eab-b34e-8eb848cec870
+    -
+      entity: 5454568c-6fc7-4eef-b56e-cc8c81673f2d
+  field_organisateurs_text:
+    -
+      value: 'AARDO, ICID, OECD, IRNCID'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'FAO, GWP, IWMI, WORLD BANK'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |
+        "- Promouvoir des modes de coopération innovants, y compris des partenariats entre zones urbaines et rurales ; accorder une attention particulière aux catégories sous-représentées (jeunes, pauvres, femmes, populations autochtones, utilisateurs domestiques), aux nouveaux arrivants (promoteurs immobiliers, investisseurs institutionnels) et aux autres parties prenantes et institutions liées à l'eau, tant dans les zones urbaines que rurales.
+        - Améliorer une approche globale pour renforcer la résilience sociale, économique, écologique et culturelle des communautés rurales dans divers secteurs, y compris l'eau.
+        -Études de cas de réussites et d'échecs
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Planifié pour être exécuté par des présentations par la CIID, AARDO et des discussions de panel
+
+        0-10 minutes Accueil et déclaration d'ouverture par le président
+        10-15 minutes Présentation par le coordinateur
+        15-35 minutes présentation par le représentant CIID
+        35-55 minutes présentation par le représentant de l'AARDO.
+        55- 85 minutes Discussion en panel par la CIID, FAO, IWMI, OCDE, Banque Mondiale et Q & A
+        85-90 minutes Récapitulation par la CIID
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        1- Awareness about strategies, policies, and benefit from rural development from rural transformation
+        2- Participants will have knowledge about modern techniques for sustainable rural transformation to ensure food security through local participation 
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

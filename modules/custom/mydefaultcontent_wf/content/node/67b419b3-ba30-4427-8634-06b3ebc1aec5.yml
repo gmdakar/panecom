@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 67b419b3-ba30-4427-8634-06b3ebc1aec5
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    89aa3dac-1b03-4c4c-8a7c-c38e49896711: taxonomy_term
+    307af519-e05c-46d7-90bd-40e9ff3fba55: taxonomy_term
+    5fffc8b8-63c6-463c-9de9-741e155cc4b8: taxonomy_term
+    21ae5faa-766b-4e06-bc37-c5da8943a151: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Cross Cutting Issues across thematic areas'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cross-cutting-issues-across-thematic-areas-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session looks at cross cutting solutions that cuts across the thematic areas and generates a multidisciplinary dialogue across disciplinary areas surrounding water '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: e087d33419241df2524aacd390a46ab0
+  field_code:
+    -
+      value: SS11
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 89aa3dac-1b03-4c4c-8a7c-c38e49896711
+    -
+      entity: 307af519-e05c-46d7-90bd-40e9ff3fba55
+    -
+      entity: 5fffc8b8-63c6-463c-9de9-741e155cc4b8
+    -
+      entity: 21ae5faa-766b-4e06-bc37-c5da8943a151
+  field_organisateurs_text:
+    -
+      value: WWC
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        overview - 5 min
+        brief interventions by co chairs - 30 min  
+        moderated discussion - 30 min 
+        summary and way forward - 15 min 
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8364a615-bb2c-46ec-a7a0-d48d0fc4981b
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    de4531d1-346a-42a7-9068-eeab9ef0d608: taxonomy_term
+    faa33d05-2dc0-4d70-a0f9-de32cbd5e712: taxonomy_term
+    00206d2a-4e54-4760-9c77-d09eede90d17: taxonomy_term
+    9a8b9701-c976-4582-8a3b-46223aab664d: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    4b1e6f19-70f5-4b6e-a491-1fd09132d3a5: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Carbon- Neutral Smart Water Management for Climate Resilience'
+  created:
+    -
+      value: 1647493842
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/carbon-neutral-smart-water-management-climate-resilience-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This session by the Korea Water Forum and the Ministry of Environment of the Republic of Korea will share the latest solutions for carbon-neutral smart water management, and provide the framework and direction for the regional cooperation and partnership enhancing climate resilience and achieving sustainable development.
+
+        Discussion on the status and trends of smart water management, with a special focus on the innovative technologies to reduce carbon emissions, will deliver useful implications in designing better water solutions. Good governance and policies are other key factors in carbon-neutral smart water management facilitating the cooperation among different sectors in a way to maximize synergies for climate resilience. Appropriate finance and legislation, which are essential to make innovative water solutions to be implemented, will also be an important topic to be addressed in this Session. 
+
+        The agendas have been developed with the strong linkage between the theme of the 9th WWF and its priorities focusing on ‘Cooperation’ and ‘Means and Tools’. Achieving regional cooperation for water management is essential to collect and disseminate the water solutions and experiences among diverse stakeholders in the water sector. Adapting appropriate technology, good governance and policies are focal areas of the Means & Tools. 
+
+        Objective:
+         o  Promote actions to develop water solutions that contribute to carbon neutrality
+         o  Strengthen cooperation and partnership to achieve the common goal of carbon-neutral 
+             water management 
+         o Close the knowledge gap in water management and climate change between the private 
+            and public sectors, as well as among different social and age group
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493842
+      guid: ''
+      hash: 1f42556122e326b3cc024eb7e0e3bb18
+  field_code:
+    -
+      value: SS16
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: de4531d1-346a-42a7-9068-eeab9ef0d608
+    -
+      entity: faa33d05-2dc0-4d70-a0f9-de32cbd5e712
+    -
+      entity: 00206d2a-4e54-4760-9c77-d09eede90d17
+    -
+      entity: 9a8b9701-c976-4582-8a3b-46223aab664d
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 4b1e6f19-70f5-4b6e-a491-1fd09132d3a5
+  field_organisateurs_text:
+    -
+      value: 'The Korea Water Forum(NGO, Civil Society Organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        ? Opening and Introduction(5min)
+        	
+        ? Opening Remarks(3min)
+
+        ? Panel Discussion (60min, 20min per each agenda)
+          (Agenda I) Water Solutions to Climate Resilience through Innovative Carbon-Neutral 
+           Technologies
+          (Agenda II) Policies and Governance for Carbon-Neutral Water Management to achieve 
+           Climate Resilience
+          (Agenda III) Regional Cooperation and Partnership for Climate Resilience in Water 
+           Management
+
+        ? Moderated Discussion(20min) 
+           : Global Youth Delegations
+
+        ? Closing: Moderator Wrap-up(2min)
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

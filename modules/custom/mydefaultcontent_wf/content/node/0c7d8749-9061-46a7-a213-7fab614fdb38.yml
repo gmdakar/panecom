@@ -1,0 +1,169 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0c7d8749-9061-46a7-a213-7fab614fdb38
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    6126f067-976f-45b1-8d41-570963a9d3a2: taxonomy_term
+    4d4e71b3-36f2-4b8f-9917-2891965c1e5d: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    e7aea0b2-bfcd-478f-b2f5-f4cf060df604: taxonomy_term
+    c3c79539-1018-4731-9e08-5de3aa101d17: taxonomy_term
+    32a95f37-e82d-4147-b131-c3361f57981d: taxonomy_term
+    4ae31ffe-9f8d-431b-8ff1-7583febed96a: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    114aec88-67a4-4f0c-b81f-9abb395ca251: taxonomy_term
+    03674c0a-9368-436a-a9bb-f31715a45696: taxonomy_term
+    55c715e1-1e17-46ee-ad71-2fbcd479d155: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '?Localizing Multi- stakeholders partnership for sustainable, resilient, and inclusive water resources management in Africa and Asia'
+  created:
+    -
+      value: 1647484848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/?localizing-multi-stakeholders-partnership-sustainable-resilient-and-inclusive-water'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        As the syntheses of various measures and recommendations, it is necessary to strengthen the following four pillars: 
+        ?	Science and technology: to accelerate policy implementation and monitoring processes;
+        ?	Governance: to enhance governance, institutional and legal frameworks and enforcement at regional, national, sub-national levels. This includes the improvement of sectoral awareness about inter-linkage between water and economic development to accelerate water sectors reform by encouraging the consultation and meaningful participation of various stakeholders for the co-design and co-implementation of fair legislation, regulation, and institutional arrangements through community empowerment; 
+        ?	Financial and economic instruments: to ensure the diversification of economic revenue for investing in water security and creating job opportunities;
+        ?	Capacity building and gender: to build capacity and integrate gender in a cross-cutting manner across sectors and regions.
+
+        Political leadership should be strengthened through rigorous research and analysis on ongoing regional initiatives that measure and track the progress of water security indices in all the region's countries.
+
+        The importance of developing a water-sensitive culture through education at all levels – formal and informal – requires recognition and investment in policy development and financial resources, including the measures to enhance the participation of women in leadership positions in the water sector.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484848
+      guid: ''
+      hash: 73ea349d07d7b2af67a5c681cdd9e26e
+  field_code:
+    -
+      value: 3F2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 6126f067-976f-45b1-8d41-570963a9d3a2
+    -
+      entity: 4d4e71b3-36f2-4b8f-9917-2891965c1e5d
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: e7aea0b2-bfcd-478f-b2f5-f4cf060df604
+    -
+      entity: c3c79539-1018-4731-9e08-5de3aa101d17
+    -
+      entity: 32a95f37-e82d-4147-b131-c3361f57981d
+    -
+      entity: 4ae31ffe-9f8d-431b-8ff1-7583febed96a
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 114aec88-67a4-4f0c-b81f-9abb395ca251
+    -
+      entity: 03674c0a-9368-436a-a9bb-f31715a45696
+    -
+      entity: 55c715e1-1e17-46ee-ad71-2fbcd479d155
+  field_organisateurs_text:
+    -
+      value: 'Japan Water Forum/ Asia-Pacific Water Forum '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Asia Pacific Water Forum
+        GWP Pan Africa and Asia team 
+        Asian Development Bank 
+        International Water Centre
+        OECD
+        Executive Committee, International Fund for Saving the Aral Sea (EC-IFAS)
+        India Water Foundation
+        Association of mayors of the Senegal river basin
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1 – Investing?in?Sustainable?Water Security?
+        Project 2 - Enhance Resilience for All? with the movement led by youth 
+        Project 3 – Policy?dialogue to promote a multi-stakeholder participatory process for sustainable, inclusive, and resilient?basin management? 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Session overview (3 minutes)
+
+        Water Governance in Africa and Asia (10 minutes)
+        OECD
+
+        Presentation from two representatives of the high-level government officials of both African and Asian countries, respectively about their water governance and institutional architecture toward water-related SDGs and sustainable, inclusive, and climate-resilient water resource management(each 10 minute – 20 minutes)
+
+        Panel Discussion among the multi-stakeholders  (60 minutes)
+
+        Wrap up (5 minutes)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        ?	to identify different expectations and objectives (political or operational) 
+        ?	to?mobilize research and technical tools of citizen science to enhance?the?practice of public participation and collaboration in?academic?scientific?research?to?increase?usable?scientific?knowledge for sustainable, resilient, and inclusive water resource management; and??? 
+        ?	to promote Meaningful engagement of youth for inter-generational collaboration for sustainable basin management
+
+        follow-up linkage and events after the Forum 
+        ?	4th Asia-Pacific Water Summit, 23-24 April 2022
+        ?	OECD Water Governance Initiatives, etc  
+      format: basic_html
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

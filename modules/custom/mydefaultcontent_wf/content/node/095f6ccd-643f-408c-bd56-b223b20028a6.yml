@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 095f6ccd-643f-408c-bd56-b223b20028a6
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    6126f067-976f-45b1-8d41-570963a9d3a2: taxonomy_term
+    4d4e71b3-36f2-4b8f-9917-2891965c1e5d: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    1f1020a7-7f3f-4a53-97e2-e9764534d4b2: taxonomy_term
+    c33b72ee-72b8-410b-9fc8-b83a6051aa88: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'to be added'
+  created:
+    -
+      value: 1647484850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/be-added
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'But how does the private sector cooperate effectively with women to help address gender inequity in water and sanitation and what lessons are being learned.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484850
+      guid: ''
+      hash: 4a41a827b9d5dd0d06360d90d2005f46
+  field_code:
+    -
+      value: 3F3
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 6126f067-976f-45b1-8d41-570963a9d3a2
+    -
+      entity: 4d4e71b3-36f2-4b8f-9917-2891965c1e5d
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 1f1020a7-7f3f-4a53-97e2-e9764534d4b2
+    -
+      entity: c33b72ee-72b8-410b-9fc8-b83a6051aa88
+  field_organisateurs_text:
+    -
+      value: |-
+        AquaFed
+        WFWP
+        ISW
+        Humanright2water.org
+        Toilet Board Coalition tbc
+        Sanergy tbc
+        IWMI South Africa
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNWATER (media team)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'to be added'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        To be finalised
+
+        Moderated lively debate with case studies from the Global South
+
+        We propose a session under Theme 3: Collaboration. The session will be a mixture of case studies, research and learning. The objective is to really understand the finer details of how to ensure successful collaboration between the private sector and women’s groups.
+
+        The session will also report on a joint initiative that AquaFed and WFWP run throughout the Forum week (Pop-up sessions)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'We expect a lasting impact as the water community can learn from theses successful campaigns and cooperation on the ground.'
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

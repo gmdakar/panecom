@@ -536,7 +536,16 @@ third_party_settings:
         source: horaire
         weight: 4
         label: 'Find replace REGEX (([0-9])( to ))'
-label: 'Migrate Agenda (en)'
+      979ea9ff-8f6b-4e97-9169-cdb5a8f0e276:
+        find: /(H)/
+        replace: ''
+        limit: null
+        uuid: 979ea9ff-8f6b-4e97-9169-cdb5a8f0e276
+        plugin: find_replace_regex
+        source: horaire
+        weight: 5
+        label: 'Find replace REGEX (/H/)'
+label: 'Migrate Agenda OTS (en)'
 id: migrate_agenda_en_
 description: ''
 help: ''

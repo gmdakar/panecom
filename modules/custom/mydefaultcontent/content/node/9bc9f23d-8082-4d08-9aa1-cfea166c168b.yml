@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9bc9f23d-8082-4d08-9aa1-cfea166c168b
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    68bee41c-0b50-43ab-b994-410cfd92fbb7: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    e3bc8a43-d847-4ce2-8593-8f4ea8b3ac1b: taxonomy_term
+    407889f6-e01d-4f5a-aaa7-73bc3baa7e61: taxonomy_term
+    11d9572d-8885-446e-9a95-200bbd61bb85: taxonomy_term
+    1dbabd0a-33db-4c31-8422-3a87d9f2b026: taxonomy_term
+    0375928c-365a-42df-8090-542ada8589a2: taxonomy_term
+    0a07f47b-986f-47ae-b929-83e3f9b27e49: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Platforms for mapping and monitoring data on drinking water supply facilities'
+  created:
+    -
+      value: 1647484835
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/platforms-mapping-and-monitoring-data-drinking-water-supply-facilities
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Optimizing the monitoring of (i) the development and operation of water assets and (ii) the management of the public drinking water supply service (DWSS), implies detailed and dynamic control of the assets and a capacity to monitor and control the operating data of the assets.  
+        Information and Communication Technologies (ICT) offer many opportunities to set up adapted, inclusive and participative tools.  
+        Operationalizing these tools contributes to improving not only transparency and political accountability but also performance (technical, recovery, etc.), with a view to reassuring financial partners and encouraging public-private partnerships for sustainable development of the public water service. 
+        Session 2A2 will serve as a framework for sharing operational case studies on the control of assets and monitoring of the public water supply service in rural areas, at different levels (local, national, regional). 
+        The main success criteria of the case studies will be discussed in light of the frequent and common difficulties of monitoring the development and operation of rural water assets.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484835
+      guid: ''
+      hash: 1f1d06f5c75e09ef68e72c1c84a2f460
+  field_code:
+    -
+      value: 2A2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 68bee41c-0b50-43ab-b994-410cfd92fbb7
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: e3bc8a43-d847-4ce2-8593-8f4ea8b3ac1b
+    -
+      entity: 407889f6-e01d-4f5a-aaa7-73bc3baa7e61
+    -
+      entity: 11d9572d-8885-446e-9a95-200bbd61bb85
+    -
+      entity: 1dbabd0a-33db-4c31-8422-3a87d9f2b026
+    -
+      entity: 0375928c-365a-42df-8090-542ada8589a2
+    -
+      entity: 0a07f47b-986f-47ae-b929-83e3f9b27e49
+  field_organisateurs_text:
+    -
+      value: |-
+        1- National Agency of Drinking Water Supply (ANAEPMR)
+        2- Cantaro Azul (Redes del agua- México)
+        3- National Service for Water Supply (SNAPE)
+
+        Session coordinators: 
+        Sylvain Migan  
+        Pacôme AHOKPOSSI 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        1-	Rural Water Supply Network (RWSN)
+        2-	Global Water Challenge
+        3-	MANOBI Africa
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        Project 1 – eTransform Rural Water Supply Sector: Benin Case (ANAEPMR)
+        Project 2 – Digital Management of the Planning of Technical Studies and Supervision of the Construction of Drinking Water Systems in Benin (ANAEPMR)
+        Project 3 – Accountability in schools water quality in a digital platform. (Cantaro Azul (Redes del agua- México)
+        Project 4 - Creation of an application to map all drinking water works in rural areas (SNAPE)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Presentations + Q&A: 45 minutes
+        Group + Plenary Discussions: 45 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        - To demonstrate and stimulate the compilation and availability of indicative information on the characteristics, management and operation of rural water supply facilities.
+        '- Follow-up links to events and initiatives after the Forum will be communicated during the various presentations.
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

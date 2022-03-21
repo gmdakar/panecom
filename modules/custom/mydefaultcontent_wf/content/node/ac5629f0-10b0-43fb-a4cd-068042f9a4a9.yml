@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ac5629f0-10b0-43fb-a4cd-068042f9a4a9
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    5fc35984-aaca-472b-b62c-4a43444a3a77: taxonomy_term
+    5e9a3005-72e9-4ea8-a854-ae580e3dee13: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    db349b06-1c35-47a2-b334-df25fa80880c: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'A new approach for hydro- climatic risk management.'
+  created:
+    -
+      value: 1647493845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/new-approach-hydro-climatic-risk-management-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Floods and droughts are some of the most tangible and devastating consequences of the climate crisis. The World Bank, Deltares, and the World Meteorological Organization’s Associated Program for Flood Management (APFM) and Integrated Drought Management Program (IDMP) have teamed up to further explore and operationalize the potential of leveraging synergies in the management of floods and drought. This session will introduce a new perspective for the combined management of floods and drought, will present the application of this new perspective on a case study and will describe the ongoing effort to operationalize this new perspective to help governments tackle flood and drought risks in a combined manner. We hope that this new approach will both inspire and guide governments to reduce the huge toll from floods and drought and provide a key way forward for increased adaptation and resilience. Participants will leave the event with the following take home messages: i) the synergies and opportunities related to flood and drought management; ii) a real life example of the application of this new perspective; iii) clear framework for action; and iv) identification of key actors and possible collaboration in this evolving area. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493845
+      guid: ''
+      hash: 64102cf03889b8f7eb45a987389635e1
+  field_code:
+    -
+      value: SS32
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 5fc35984-aaca-472b-b62c-4a43444a3a77
+    -
+      entity: 5e9a3005-72e9-4ea8-a854-ae580e3dee13
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: db349b06-1c35-47a2-b334-df25fa80880c
+  field_organisateurs_text:
+    -
+      value: 'Deltares/World Bank'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Duration: 8 minutes - Conclusion'
+      format: plain_text
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

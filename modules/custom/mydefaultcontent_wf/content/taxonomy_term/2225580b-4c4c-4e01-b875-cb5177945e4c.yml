@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2225580b-4c4c-4e01-b875-cb5177945e4c
+  bundle: motscles
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '-Rôles des religions dans l''éducation et la promotion des questions de sécurité de l''eau et de l''écologie intégrale'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /motscles/agenda/roles-des-religions-dans-leducation-et-la-promotion-des-questions-de-securite-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647485398

@@ -1,0 +1,160 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c3b7ba47-2f19-4b0e-862c-060b6d4fd1be
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    a7edb964-3a9d-4805-9feb-a296fdb65d42: taxonomy_term
+    03c87107-de89-4e6b-aa59-2797e4976d16: taxonomy_term
+    ef3efec3-6352-419d-814e-d6c1a782be31: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    c7c3e062-06a1-47b4-a194-722a2a3d6dbc: taxonomy_term
+    13913ef4-4614-444f-82b7-d31d1a1d823e: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Patrimoine mondial de l’eau : un pont essentiel vers la paix et le développement'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/patrimoine-mondial-de-leau-un-pont-essentiel-vers-la-paix-et-le-developpement-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Objectifs
+        La session spéciale examinera l'importance des aspects matériels, conceptuels et spirituels du patrimoine culturel lié à l'eau. La discussion portera sur la pertinence critique du patrimoine mondial de l'eau pour la sécurité actuelle et future de l'eau, et pour promouvoir la paix et le développement. La session spéciale découle des recommandations du symposium de Tokyo 2020 sur l'eau et la culture/patrimoine, organisé par l'Institut national d'études politiques du Japon en coopération avec le Comité scientifique international de l'ICOMOS sur l'eau et le patrimoine (ISCWater).  
+        Le président de l'ISCWater fera la présentation principale (via le lien), au cours de laquelle il soulignera l'importance du patrimoine mondial de l'eau dans la réalisation des Objectifs de développement durable (ODD) des Nations Unies (ONU), en tant que jalon menant à l'examen à mi-parcours (MTR) de la Décennie mondiale de l'eau de 2023 à New York. Nous pensons que les résultats du groupe de haut niveau apporteront une contribution directe au cadre conceptuel de la valorisation de l'eau et à l'examen à mi-parcours de la Décennie des Nations unies pour l'eau. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 96c2903a094b6915a242d22cd88b105f
+  field_code:
+    -
+      value: SS54
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: a7edb964-3a9d-4805-9feb-a296fdb65d42
+    -
+      entity: 03c87107-de89-4e6b-aa59-2797e4976d16
+    -
+      entity: ef3efec3-6352-419d-814e-d6c1a782be31
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+    -
+      entity: c7c3e062-06a1-47b4-a194-722a2a3d6dbc
+    -
+      entity: 13913ef4-4614-444f-82b7-d31d1a1d823e
+  field_organisateurs_text:
+    -
+      value: ICOMOS
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Key notes: 25 minutes
+        Examples: 25 minutes
+        Panle discussion: 20 minutes
+        Discussion with audience: 20 minutes
+        Dialogue among Panel members (15 minutes) 
+        Concluding remarks including next steps by Chair (5 minutes)
+
+        ------------------------------
+
+        Coordinateur modérateur
+        Dr Sergio Ribeiro, CIRAT, Brésil, membre du conseil d'administration de l'ICOMOS ISC Water
+
+        Discours d'ouverture : 
+        Ian Travers, Président de l'ISCWater de l'ICOMOS
+        Le patrimoine de l'eau pour la gestion de l'eau expliqué (Vidéo, 10 minutes) 
+
+        Doug Comer, Président de l'ICOMOS US	
+        L'eau et le patrimoine à l'examen à mi-parcours de la Décennie d'action pour l'eau des Nations Unies (Vidéo, 5 minutes)
+
+        Hilde Sennema, TU Delft et ICOMOS NL
+        Importance du patrimoine lié à l'eau : évaluation et incorporation dans la planification et les politiques de gestion des ressources en eau (en direct : 10 minutes)
+
+
+
+
+        Exemples 
+        Taha Ansari, Conseil des ressources en eau, Algérie et Soudeh Semsar, ICQHWS, Yazd, Iran 
+        Les systèmes d'approvisionnement en eau de Falaji/Qanat, un patrimoine vivant pour les régions arides. (à confirmer) (Vidéo, 5 minutes)
+
+        Jonathan Doe, candidat au doctorat, Ghana
+        La gestion traditionnelle des ressources en eau 
+
+        Barbara van Koppen, IWMI
+        Importance des droits d'eau coutumiers pour les défis de la gestion de l'eau (Vidéo 5 minutes)
+
+        Mona Polacca, (US) Senior Fellow, Programme des gardiens originels, Center for Earth Ethics
+        L'importance des peuples indigènes pour les défis actuels de la gestion de l'eau. 
+
+        Sara Ahmad, Centre de recherche sur l'eau, IISER-Pune, Inde, 
+        Conservation et utilisation du patrimoine lié à l'eau en Inde 
+
+
+        Panel de discussion sur  
+        1.	L'importance du patrimoine lié à l'eau pour les défis de la gestion de l'eau.
+        2.	Suggestions sur la sensibilisation et la pratique de l'utilisation du patrimoine culturel lié à l'eau dans les défis de la gestion de l'eau. 
+
+        Henk Ovink, Envoyé spécial international pour l'eau, Pays-Bas 
+
+        Envoyé international pour l'eau, Sénégal (tbn)
+
+        Représentants GWP Afrique de l'Ouest, tbn
+
+        Alexander Otte, UNESCO, Paris, tbc
+      format: plain_text
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

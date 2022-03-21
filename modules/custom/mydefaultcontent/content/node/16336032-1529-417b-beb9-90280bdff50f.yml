@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 16336032-1529-417b-beb9-90280bdff50f
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    996ce4a4-12f4-45c0-bc57-1db6218edee0: taxonomy_term
+    b0e9645c-ae1b-41da-9e65-ba25e5fb6ce0: taxonomy_term
+    218d9e44-4154-4760-a12b-b4fb5a4da95b: taxonomy_term
+    71eedb9e-387d-4f3c-aa44-677140b4b89a: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'High Level Panel Discussion on Water Justice'
+  created:
+    -
+      value: 1647486049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/high-level-panel-discussion-water-justice
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Specifically, UAF-Africa will organize a high level panel on 23rd March during the main forum  to discuss the challenges that African womn face when it comes to access, control and use of water. The panel discussions will entail conversations that uplift a critical feminist analysis of African womn’s water justice struggles. Additionally, the panel discussion will seek to  center thought leadership and influence feminist action of alternative solutions to the dominant water governance challenges that African Womn face.
+        High level panel,  primary target audience are Government officials, multinational companies, and financial institutions.  
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486049
+      guid: ''
+      hash: cb3e94090b74b734bbf8db5a8c2ab6aa
+  field_code:
+    -
+      value: SE16
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Elizabeth Wathuti, Mela Chiponda, Priscilla Achakpa, Gloria Sekonou Dossi, Mari Jean Diouf'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 996ce4a4-12f4-45c0-bc57-1db6218edee0
+    -
+      entity: b0e9645c-ae1b-41da-9e65-ba25e5fb6ce0
+    -
+      entity: 218d9e44-4154-4760-a12b-b4fb5a4da95b
+    -
+      entity: 71eedb9e-387d-4f3c-aa44-677140b4b89a
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+  field_organisateurs_text:
+    -
+      value: 'Urgent Action Fund - Africa'
+      format: basic_html
+  field_salle:
+    -
+      entity: 59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33

@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a58ee434-7841-4321-aae0-78e3bb19a590
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    d7cb7b9e-6e16-47a4-8bf6-622fed402566: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    158946ba-4205-4f72-bed4-35f8738849d1: taxonomy_term
+    bda986fa-d43f-4dcc-bd07-c61f47cbb167: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    fc5bc8a7-1ef7-4005-a07d-4b4cf1344188: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dialogue with Young Voices of the Sahel and UNICEF'
+  created:
+    -
+      value: 1647486050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/dialogue-young-voices-sahel-and-unicef
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Building on two public debates bringing together Young Voices of the Sahel (100 young people from 10 Sahelian countries) and political decision-makers and experts, the session aims to hear the testimonies of young people around the issue of water in their daily lives, and to promote an exchange with political actors and experts to outline solutions, particularly by putting these young people in the position of actors of change, and supporting their access to courses and green jobs.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486050
+      guid: ''
+      hash: 5a7d843c42c8df406d3d59be1a783bfb
+  field_code:
+    -
+      value: SE39
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'We expect the presence of Mr. Abdoulaye Sène, Mr. Djibrin Niang (Young Volunteers for the Environment), Mr. Ruben Bayiha (UNICEF), and 10 young people from the 10 Sahel countries. The moderation will be ensured by Mrs. Charlotte Idrac (RFI correspondent in Senegal)'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: d7cb7b9e-6e16-47a4-8bf6-622fed402566
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 158946ba-4205-4f72-bed4-35f8738849d1
+    -
+      entity: bda986fa-d43f-4dcc-bd07-c61f47cbb167
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+  field_organisateurs_text:
+    -
+      value: UNICEF
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        5:00 pm: Opening (possible video of support from Ms. Angélique Kidjo)
+        17h05: Water shortage, floods, coastal erosion: what consequences for children, their health and their future. Discussion with Ruben Bayida and 5 young people
+        17h30: Turning the challenge of water into an opportunity for development. What solutions, what recommendations? Discussion with Mr. Abdoulaye Sène, Mr. Djibrin Niang (Young Volunteers for the Environment) and 5 young voices from the Sahel
+        17h55: Conclusion - Mr. Abdoulaye Sène.
+      format: plain_text
+  field_salle:
+    -
+      entity: fc5bc8a7-1ef7-4005-a07d-4b4cf1344188

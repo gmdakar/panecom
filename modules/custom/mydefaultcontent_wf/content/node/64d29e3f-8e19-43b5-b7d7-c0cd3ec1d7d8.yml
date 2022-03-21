@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 64d29e3f-8e19-43b5-b7d7-c0cd3ec1d7d8
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    8f030a66-6752-4f1c-b1d6-7c336f13d50f: taxonomy_term
+    c9c848a6-1e7e-4c6b-be80-d9bf657b8868: taxonomy_term
+    880e41cc-626e-4786-bb1b-07302126ca4a: taxonomy_term
+    905d330c-57d5-4f8a-b417-51ad770d38db: taxonomy_term
+    dcebd1fc-5a0b-46f9-b794-a0ea7788fdcd: taxonomy_term
+    98d8ff3d-bb7a-4900-a28b-ac96f8d13114: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Bridging SDG 6 and SDG14 – sailing from Dakar to Lisbon'
+  created:
+    -
+      value: 1647486044
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/bridging-sdg-6-and-sdg14-sailing-dakar-lisbon
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Panel discussion on the upcoming High-Level Symposium on Water “Bridging SDG6 and SDG 14” that will occur during the UN Ocean Conference, in Lisbon (27th of June) and the way this Symposium can contribute to the road towards 2023 UN Water Conference, putting fresh and saltwater communities working together.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486044
+      guid: ''
+      hash: a5f8a12bb733588b0b989d38b363feb0
+  field_code:
+    -
+      value: SE7
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Secretary-General of the Ministry of Environment and Climate Action
+        President of the Board of the Portuguese Environment Agency
+        Representative of the Portuguese Ministry of Foreign Affairs/Portuguese Embassy in Dakar
+        Representative from UN-Water
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 8f030a66-6752-4f1c-b1d6-7c336f13d50f
+    -
+      entity: c9c848a6-1e7e-4c6b-be80-d9bf657b8868
+    -
+      entity: 880e41cc-626e-4786-bb1b-07302126ca4a
+    -
+      entity: 905d330c-57d5-4f8a-b417-51ad770d38db
+    -
+      entity: dcebd1fc-5a0b-46f9-b794-a0ea7788fdcd
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: basic_html
+  field_salle:
+    -
+      entity: 98d8ff3d-bb7a-4900-a28b-ac96f8d13114

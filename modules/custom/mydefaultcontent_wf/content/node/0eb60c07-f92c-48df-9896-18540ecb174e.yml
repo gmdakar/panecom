@@ -1,0 +1,135 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0eb60c07-f92c-48df-9896-18540ecb174e
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    8968d637-dbd1-4d20-9724-4ff6c91b332f: taxonomy_term
+    24f4f925-49da-41b2-973e-ef743e7978d3: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    39c719a4-22ac-4c39-8a17-4d0a59e1c397: taxonomy_term
+    b1ec46e3-24bb-4b56-a75f-f1e56cf13913: taxonomy_term
+    2ccb51ea-c385-4cb2-9e20-8fc17f23ca61: taxonomy_term
+    d9d664de-b872-442e-909f-cc27beadad3f: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Transboundary cooperation, challenges, issues and vision: the example of ANBO'
+  created:
+    -
+      value: 1647484845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/transboundary-cooperation-challenges-issues-and-vision-example-anbo
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The key role of Multipurpose Water Infrastructures (MPWI) in socio-economic development and its contribution to water, food and energy security, among other key aspects.
+        -Dialogue and consultation are essential for the success, management of potential conflicts and the sustainability of MPWI projects.
+        -The importance of the analysis of limitations, externalities and risks within the strategic planning process to undertake a MPWI.
+         
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484845
+      guid: ''
+      hash: c13f0823d926414dea32f7f14b565ff1
+  field_code:
+    -
+      value: 3D1
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8968d637-dbd1-4d20-9724-4ff6c91b332f
+    -
+      entity: 24f4f925-49da-41b2-973e-ef743e7978d3
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 39c719a4-22ac-4c39-8a17-4d0a59e1c397
+    -
+      entity: b1ec46e3-24bb-4b56-a75f-f1e56cf13913
+    -
+      entity: 2ccb51ea-c385-4cb2-9e20-8fc17f23ca61
+    -
+      entity: d9d664de-b872-442e-909f-cc27beadad3f
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+  field_organisateurs_text:
+    -
+      value: '  ANBO, OMVS, AMCOW, NBI, INBO,     ZRA, OMVG'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	AMCOW 
+        •	PIDA/AFDB
+        •	INBO
+               ZRA (Zambezi River Authority)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'Sustainable regional development agenda for transboundary water-related infrastructures, current and future challenges, joint strategy '
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        •	1 Keynote speaker - 15 minutes
+        •	3 Speakers - 15 minutes each
+        •	Panel discussion led by a session moderator – 25 minutes
+        •	2 to 5 minutes session conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: '- Showcase the challenges and responses to guarantee water services, affordable rates, customer satisfaction within the context of population growth and climate change. - Share a set of guidelines and assessment tools used by developers, operators, and financiers to increase the sustainability performance of cooperation tools within the continent - Emphasize to new challenges et adaptative approach that need to be promoted with partners et members'
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

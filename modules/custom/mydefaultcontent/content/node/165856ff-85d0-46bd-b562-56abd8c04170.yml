@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 165856ff-85d0-46bd-b562-56abd8c04170
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    c88fa5bf-2455-4c2a-82c1-a7de68fb13e9: taxonomy_term
+    afe1b005-c39a-4e8c-bbed-3f71935c97fd: taxonomy_term
+    ec3c8a94-fa12-4dff-ac03-e397f1074956: taxonomy_term
+    b385a194-af34-4b4b-a8ad-68e0ab785de1: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    307af519-e05c-46d7-90bd-40e9ff3fba55: taxonomy_term
+    5e9d377b-69ca-4d96-b0f5-e06cff68db35: taxonomy_term
+    61e95c76-ddde-4169-91ca-c611a5d573cd: taxonomy_term
+    7251bfb5-20f9-424b-bd8a-d37ef162db52: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Switching from Rural Development Towards Rural Transformation'
+  created:
+    -
+      value: 1647484837
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/switching-rural-development-towards-rural-transformation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Rural Transformation (RT), involves rising agricultural productivity,
+        increasing commercialization and marketable surpluses, and diversification of
+        production patterns and livelihoods. It also involves expanded decent off-farm
+        employment and entrepreneurial opportunities, better rural coverage and access to
+        services and infrastructure, and greater access to, and capacity to influence, relevant
+        policy processes. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484837
+      guid: ''
+      hash: 75c83c737ff72a03bb2f987da01116eb
+  field_code:
+    -
+      value: 2D2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c88fa5bf-2455-4c2a-82c1-a7de68fb13e9
+    -
+      entity: afe1b005-c39a-4e8c-bbed-3f71935c97fd
+    -
+      entity: ec3c8a94-fa12-4dff-ac03-e397f1074956
+    -
+      entity: b385a194-af34-4b4b-a8ad-68e0ab785de1
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 307af519-e05c-46d7-90bd-40e9ff3fba55
+    -
+      entity: 5e9d377b-69ca-4d96-b0f5-e06cff68db35
+    -
+      entity: 61e95c76-ddde-4169-91ca-c611a5d573cd
+    -
+      entity: 7251bfb5-20f9-424b-bd8a-d37ef162db52
+  field_organisateurs_text:
+    -
+      value: 'AARDO, ICID, OECD, IRNCID'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'FAO, GWP, IWMI, WORLD BANK'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        • Promoting innovative ways to co-operate, including urban-rural partnerships; Paying special attention to under-represented categories (youth, the poor, women, indigenous people, domestic users) newcomers (property developers, institutional investors) and other water-related stakeholders and institutions, in both urban and rural areas.
+        • Enhancing a comprehensive approach to strengthen the social, economic, ecological and cultural resilience of rural communities in various sectors, including water
+        •Successful and failure case studies
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Planned to be run by presentations by ICID, AARDO and Panel Discussions
+
+        0-10 minutes  Welcoming and opening statement by the Chair
+        10-15 minutes  Introduction by the coordinator
+        15-35 minutes presentation by ICID rep.
+        35-55 minutes presentation by AARDO rep.
+        55- 85  minutes panel discussion by ICID, FAO, IWMI, OECD, World Bank and Q & As
+        85-90 minutes Wrap up by ICID
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        1- Awareness about strategies, policies, and benefit from rural development from rural transformation
+        2- Participants will have knowledge about modern techniques for sustainable rural transformation to ensure food security through local participation 
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

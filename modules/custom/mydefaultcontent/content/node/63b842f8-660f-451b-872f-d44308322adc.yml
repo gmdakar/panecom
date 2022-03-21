@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 63b842f8-660f-451b-872f-d44308322adc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    2723a479-a5fa-47bb-ad58-8f62dc03842b: taxonomy_term
+    e6af8c75-d265-42e5-bf3b-e87dd2bab633: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La route vers la conférence de l''ONU sur l''eau de 2023'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-route-vers-la-conference-de-lonu-sur-leau-de-2023-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le Tadjikistan et les Pays-Bas accueilleront conjointement la conférence des Nations unies sur l'eau 2023 et s'engagent à en faire un moment décisif pour le monde entier. Conformément à cet engagement, ils organisent, conjointement avec le Sénégal, la session de haut niveau sur la conférence des Nations unies sur l'eau 2023 dans le cadre du 9e Forum mondial de l'eau afin d'attirer davantage l'attention et de promouvoir l'engagement des parties prenantes dans le processus préparatoire et la conférence elle-même.
+
+        La session de haut niveau sur la conférence de l'eau ONU 2023 est une vitrine et un événement interactif sur les bons exemples de coopération internationale en matière de gestion de l'eau. Les mesures les plus importantes pour un avenir durable doivent être prises dans le secteur de l'eau. Il s'agit d'une bonne occasion de présenter des exemples et de discuter des étapes nécessaires pour reproduire, mettre à l'échelle et tirer des leçons de ces exemples en vue de la Conférence des Nations Unies sur l'eau 2023.
+
+        La conférence des Nations unies sur l'eau 2023 étant la deuxième conférence jamais organisée par les Nations unies et la première après près de 50 ans, les attentes de la communauté internationale sont très élevées. Elle devrait être un moment décisif pour le monde entier. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: c7d0fa3fd9ce5af024eae2c164dadd78
+  field_code:
+    -
+      value: HLP06
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 2723a479-a5fa-47bb-ad58-8f62dc03842b
+    -
+      entity: e6af8c75-d265-42e5-bf3b-e87dd2bab633
+  field_organisateurs_text:
+    -
+      value: 'Republic of Tajikistan, The Kingdom of the Netherlands, Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        XX:30-XX:35 Introduction à l'événement parallèle
+        Modérateur
+        Sulton Rahimzoda
+        Président du Comité exécutif du Fonds international pour le sauvetage de la mer d'Aral, Envoyé spécial du Président du Tadjikistan auprès du Groupe de haut niveau sur l'eau et le climat 
+         
+        XX:35-XX:50 Remarques d'ouverture par les co-organisateurs (5 minutes chacun)
+        - Représentant de haut niveau du gouvernement de la République du Tadjikistan
+        - M. Mark Habers, (TBC) Ministre des infrastructures et de la gestion de l'eau du Royaume des Pays-Bas
+        - Représentant de haut niveau du gouvernement de la République du Sénégal
+
+        XX:50-XX:05 Présentation de la Conférence de l'ONU sur l'eau 2023
+        Représentant de l'UNDESA/UN-Water (à confirmer)
+
+        XX:05-XX:40 Segment de haut niveau (représentants de haut niveau)
+        1) Ministères nationaux ;
+        2) Autorités régionales et locales ;
+        3) Organisations intergouvernementales ;
+        4) Secteur privé ;
+        5) Etc.
+
+        XX:40-XX:15 Discussion du panel d'experts
+        1) Institutions financières ; 
+        2) ONG ;
+        3) Secteur privé ;
+        4) Grands groupes ;
+        5) Communauté scientifique/institutions académiques.
+
+        XX:15-XX:25 Questions et réponses
+
+        XX:25-XX:30 Résumé et conclusion
+        Henk Ovink,
+        Envoyé spécial pour les affaires internationales de l'eau du Royaume des Pays-Bas
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

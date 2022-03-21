@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: caa15a86-71b6-49dc-a174-2fcfe6e6eba9
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    62bd400e-4e1f-4472-831b-5de689c29d74: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    64e0210d-8036-4de6-b9c9-4fa84923b38a: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le plan national des ressources en eau de l''Égypte comme outil de réalisation des ODD'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-plan-national-des-ressources-en-eau-de-legypte-comme-outil-de-realisation-des-odd-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Les défis liés à l'eau dans les pays qui souffrent de pénurie d'eau sont devenus plus complexes qu'auparavant, notamment en raison de l'augmentation de la population, de l'élévation du niveau de vie et de l'accroissement de la demande en eau de la part de secteurs concurrents. En outre, les effets du changement climatique et la coopération complexe avec les pays riverains partageant des fleuves internationaux ajoutent à la pression, notamment avec des décisions adoptées unilatéralement qui augmenteraient les défis et menaceraient la stabilité et la paix de la région. Les stratégies de gestion intégrée des ressources en eau reconnaissent que l'eau doit être gérée comme un système - où les frontières des systèmes d'eau ne correspondent souvent pas aux frontières politiques ou administratives. Pour parvenir à une bonne gouvernance et accroître l'efficacité et la durabilité de l'utilisation de l'eau, des solutions intégrées sont nécessaires, suivies d'une mise en œuvre intersectorielle efficace et coordonnée. De telles actions permettraient de renforcer le processus de réalisation des ODD.
+
+        La pénurie d'eau en Égypte va s'aggraver pour plusieurs raisons. Le changement climatique pourrait entraîner un débit annuel moins prévisible dans le lac Nasser, une diminution des précipitations dans le nord de l'Égypte et une augmentation des besoins en eau des cultures. La croissance démographique prévue est un déterminant encore plus important de l'augmentation de la pénurie d'eau. En 2037, la quantité d'eau douce disponible par habitant de la population devrait être inférieure à 35 % des niveaux de 2017. Une population plus nombreuse a une plus grande demande d'eau potable, tandis que la croissance économique soutenue voulue par l'Égypte augmentera la demande d'eau douce industrielle, et les flux de retour de l'eau provenant des utilisations domestiques et industrielles affecteront son aptitude à une utilisation ultérieure. Le secteur agricole sera fortement touché par la pénurie croissante d'eau de bonne qualité et aura du mal à continuer à contribuer à hauteur de 12 % au PIB et à empêcher le déficit alimentaire existant de se creuser davantage.
+        Le ministère égyptien des Ressources en eau et de l'Irrigation (MWRI) est l'une des plus anciennes agences du gouvernement égyptien. Sa création remonte à 1836. Cette institution est porteuse de milliers d'années d'expérience unique en matière d'irrigation et de contrôle du Nil, qui est le pilier de la vie en Égypte. Le MWRI s'occupe de la planification et de la gestion des ressources en eau par la mise en œuvre du plan national des ressources en eau à long terme 2037 (NWRP2037), qui s'appuie principalement sur les expériences acquises et les leçons tirées de la mise en œuvre du précédent NWRP2017. En outre, le plan actuel est fermement aligné sur la vision fournie par la Stratégie de développement durable 2030 de l'Égypte, il permet également à la société, à l'économie et à l'environnement de l'Égypte de partager efficacement l'eau disponible pour une économie robuste, équilibrée, diversifiée et basée sur la connaissance, caractérisée par la justice, l'intégration sociale et la participation, et par un écosystème équilibré et diversifié. Enfin, il convient de mentionner que l'Égypte a fait des progrès tangibles dans la mise en œuvre des ODD n° (6.5.1) qui concerne le degré de mise en œuvre de la gestion intégrée des ressources en eau, puisque le pourcentage de mise en œuvre de l'indicateur est passé de 40% en 2017 à 63% en 2020.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 87d016fba261b188666c9ebcb3b942be
+  field_code:
+    -
+      value: SS17
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 62bd400e-4e1f-4472-831b-5de689c29d74
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 64e0210d-8036-4de6-b9c9-4fa84923b38a
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+  field_organisateurs_text:
+    -
+      value: |
+        Head of Planning Sector
+        Executive Director, Cairo Water Week Permanent Secretariat
+        Ministry of Water Resources and Irrigation
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Panélistes :(75 min)
+        o Aperçu du NWRP et de l'état actuel de sa mise en œuvre, S.E. Dr. Mohamed Abdel-Aty, Ministre des Ressources en Eau et de l'Irrigation (MWRI)
+        o Défis liés au changement climatique le long de la côte nord de l'Egypte, Dr. Mohamed Ahmed, Directeur de projet, Projet d'amélioration de l'adaptation au changement climatique dans les régions de la côte nord et du delta du Nil en Egypte (ECCADP)
+        o Corridor de développement VICMED et coopération bilatérale avec les pays du bassin du Nil", Dr. Mamdouh Antar, président du secteur des eaux du Nil, MWRI
+        o Potentiel de formation, Eng. Tarek El Sayed, Centre de formation régional, MWRI
+        o Préparation pour le CWW 2022 et la COP 27, Dr. Eman Sayed, chef du secteur de la planification, MWRI
+      format: plain_text
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

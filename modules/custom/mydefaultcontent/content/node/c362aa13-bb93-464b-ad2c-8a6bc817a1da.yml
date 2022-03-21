@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c362aa13-bb93-464b-ad2c-8a6bc817a1da
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    37b22e2e-8be5-4d40-bf65-8ec80ea7dbc5: taxonomy_term
+    07bb9bf1-3f43-4405-b9fb-78996266ccc9: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    ca1c17c1-89f3-49d6-b5d2-fa981e583f14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Approches de développement pacifique dans le bassin du Niger et du lac Tchad'
+  created:
+    -
+      value: 1647486186
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/approches-de-developpement-pacifique-dans-le-bassin-du-niger-et-du-lac-tchad
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'objectif de cette session est de montrer les possibilités de prise de décision sensible aux conflits, basée sur une analyse approfondie des conditions sur le terrain - du niveau politique aux petites communautés. Cette session est complémentaire à une autre session organisée par les partenaires FREXUS, le Partenariat pour la paix et la sécurité de l'eau (WPS), qui abordera les interconnexions complexes entre l'eau, les conflits et la paix à un niveau plus large.
+        Des représentants des principales agences donatrices actuellement présentes dans la région devraient assister à l'ouverture et réfléchiront à l'engagement et aux réalisations respectives. Le projet Frexus présentera son outil analytique local qui est appliqué dans des communautés sélectionnées de la zone d'intervention. L'outil est développé pour soutenir la prise de décision dans un dialogue comme moyen clé pour la prévention, l'atténuation et la résolution des conflits, en participation avec les acteurs locaux. 
+        Lors de la table ronde, l'événement accueillera les principaux partenaires et parties prenantes du projet Frexus. En particulier, les représentants des principales organisations de bassin fluvial dans la zone d'intervention, à savoir la NBA et la LCBC, discuteront de la valeur ajoutée de l'outil analytique local soutenant les processus de prise de décision dans la construction de la paix liée aux ressources naturelles. En outre, les perspectives des autorités nationales et/ou locales seront également mises en avant afin de présenter les points de vue sur le terrain et de concevoir les solutions les plus appropriées aux complexités de la gestion pacifique et durable des ressources naturelles dans la région du Sahel.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486186
+      guid: ''
+      hash: a1794c3f17985eb4c9118abc26ce87f5
+  field_code:
+    -
+      value: SE32
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Représentant de BMZ/NL/EU FPI (à confirmer)
+        GIZ + WPS
+        Représentants de la NBA, du LCBC, des décideurs locaux, du monde universitaire.
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 37b22e2e-8be5-4d40-bf65-8ec80ea7dbc5
+    -
+      entity: 07bb9bf1-3f43-4405-b9fb-78996266ccc9
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+  field_organisateurs_text:
+    -
+      value: 'GIZ, implementing organisation'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Bienvenue et remarques d'ouverture (10min) : BMZ, représentant du gouvernement néerlandais, représentant du Service des instruments de politique étrangère de l'UE. 
+        Contribution sur la mise en œuvre de l'outil analytique local Frexus (10min) : GIZ/WPS/Deltares
+        Discussion en groupe (35min) :	Représentants de l'Autorité du Bassin du Niger, de la Commission du Bassin du Lac Tchad, décideurs au niveau national ou local, universités.
+        Résumé et remarques de clôture (5min) : GIZ/WPS
+      format: basic_html
+  field_salle:
+    -
+      entity: ca1c17c1-89f3-49d6-b5d2-fa981e583f14

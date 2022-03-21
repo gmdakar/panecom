@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1122a0b-93af-4e0a-af12-d659d19914ab
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    750ca47e-d528-485d-96b0-9216771e9c63: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    6d2cc85b-8a5d-437f-8b58-c8e147684f53: taxonomy_term
+    0906d101-334a-4665-914b-7b793ffae777: taxonomy_term
+    ad6d8d25-5bf3-4c1e-9593-16d5715a3a30: taxonomy_term
+    4a8f3b0d-524c-43d6-bc00-12542b6cb496: taxonomy_term
+    5af9d453-b2c5-4446-b5ae-7c6a14e44d3e: taxonomy_term
+    85dd4c9e-b013-4c24-837b-41915a21db67: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accélérer l''action : augmenter les financements et partager les expériences pour le développement de projets de résilience'
+  created:
+    -
+      value: 1647484942
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accelerer-laction-augmenter-les-financements-et-partager-les-experiences-pour-le
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        " Fréquence et intensité accrues des inondations, sécheresses, régimes pluviométriques imprévisibles... L'eau est la première victime du changement climatique, et nos sociétés en sont les victimes collatérales. Face à l'augmentation des impacts du changement climatique, un effort financier massif est nécessaire pour améliorer la gestion des ressources en eau, développer les infrastructures d'eau (verte et grise) et stimuler l'adaptation.
+
+        Pourtant, dans le portefeuille de projets soutenus par les acteurs de la finance climatique, l'eau n'est pas bien représentée, loin derrière les secteurs de l'énergie, de l'agriculture ou de la forêt. Une partie du problème réside encore dans le fait que les donateurs ne sont pas conscients que l'adaptation de ces secteurs (refroidissement des centrales électriques, irrigation des cultures, limitation de la déforestation et de la désertification) nécessite de l'eau. Et le maintien d'une communication et d'un plaidoyer forts fait partie de la solution. 
+
+        Mais le cœur du problème semble résider à la fois dans la complexité du paysage du financement climatique et dans les capacités limitées des acteurs de l'eau à réaliser un cycle de préparation de projet climatique et à accéder aux facilités de préparation des bailleurs. 
+
+        Il est nécessaire de renforcer leurs capacités à préparer des projets d'eau résilients au climat, bien conçus et bancables, qui attireront les financements du large éventail de bailleurs de fonds privés et publics du financement climatique !
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484942
+      guid: ''
+      hash: 0d605e7253fde871b4ceb448656e2e16
+  field_code:
+    -
+      value: 1F4
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 750ca47e-d528-485d-96b0-9216771e9c63
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 6d2cc85b-8a5d-437f-8b58-c8e147684f53
+    -
+      entity: 0906d101-334a-4665-914b-7b793ffae777
+    -
+      entity: ad6d8d25-5bf3-4c1e-9593-16d5715a3a30
+    -
+      entity: 4a8f3b0d-524c-43d6-bc00-12542b6cb496
+    -
+      entity: 5af9d453-b2c5-4446-b5ae-7c6a14e44d3e
+    -
+      entity: 85dd4c9e-b013-4c24-837b-41915a21db67
+  field_organisateurs_text:
+    -
+      value: |-
+        International Network of Basin Organizations (INBO)
+        Edouard Boinet
+        secretariat@inbo-news.org
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Caroline King-Okumu (representative of the The Borders Institute Africa, but here in her personal capacity)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        " - Projet de la Banque mondiale : le manuel " Financer l'adaptation au changement climatique dans les bassins transfrontaliers : préparer des projets bancables ".
+        - L'initiative de l'OPS "100 projets eau et climat pour l'Afrique".
+        - Projet de Regions4 "Initiative RegionsAdapt".
+        - Projet du Réseau québécois des organismes de bassin (ROBVQ) "Rés-Alliance"."
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "De 8 à 10 min max. pour chaque présentation.
+        Au moins 15 min pour les questions et réponses. 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Poursuite et extension du nombre d'initiatives mises en œuvre pour dynamiser le renforcement des capacités et la formation dans les programmes de coopération internationale " :
+        - Projet de la Banque mondiale : le manuel " Financer l'adaptation au changement climatique dans les bassins transfrontaliers : préparer des projets bancables ", avec des sessions de formation pour les porteurs de projets.
+        - L'initiative de l'OPS "100 projets eau et climat pour l'Afrique".
+        - Projet de Regions4 "Initiative RegionsAdapt".
+        - Projet du Réseau québécois des organismes de bassin (ROBVQ) "Rés-Alliance".
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

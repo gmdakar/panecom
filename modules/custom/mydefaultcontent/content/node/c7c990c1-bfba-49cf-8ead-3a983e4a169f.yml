@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c7c990c1-bfba-49cf-8ead-3a983e4a169f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    bd4a22be-cb83-4437-a505-07db59ba663d: taxonomy_term
+    b3f79c57-037c-4eec-ad80-6d97901b1ccb: taxonomy_term
+    b3cd2a58-107f-4a82-80ed-184648b9f123: taxonomy_term
+    bcdcf553-67a1-4914-b6f2-318a4ef27794: taxonomy_term
+    8f3de4c7-f8a3-40ea-b0c3-6a363bf98e62: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    5c4692aa-d3d4-4c4c-8791-13590863c789: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    28b5ae62-a04e-4b0c-90b8-ab242b5493a8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Panel de haut niveau sur la justice de l''eau'
+  created:
+    -
+      value: 1647486187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/panel-de-haut-niveau-sur-la-justice-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Plus précisément, l'UAF-Africa organisera un panel de haut niveau le 23 mars pendant le forum principal pour discuter des défis auxquels les femmes africaines sont confrontées en matière d'accès, de contrôle et d'utilisation de l'eau. Les discussions du panel entraîneront des conversations qui soulèveront une analyse féministe critique des luttes des femmes africaines pour la justice de l'eau. En outre, le panel de discussion cherchera à centrer la réflexion et à influencer l'action féministe de solutions alternatives aux défis dominants de la gouvernance de l'eau auxquels les femmes africaines sont confrontées.
+        Ce panel de haut niveau s'adresse principalement aux responsables gouvernementaux, aux entreprises multinationales et aux institutions financières.  
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486187
+      guid: ''
+      hash: 8a4f7b24323bd95c3938c918b0136473
+  field_code:
+    -
+      value: SE16
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Elizabeth Wathuti, Mela Chiponda, Priscilla Achakpa, Gloria Sekonou Dossi, Mari Jean Diouf'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: bd4a22be-cb83-4437-a505-07db59ba663d
+    -
+      entity: b3f79c57-037c-4eec-ad80-6d97901b1ccb
+    -
+      entity: b3cd2a58-107f-4a82-80ed-184648b9f123
+    -
+      entity: bcdcf553-67a1-4914-b6f2-318a4ef27794
+    -
+      entity: 8f3de4c7-f8a3-40ea-b0c3-6a363bf98e62
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 5c4692aa-d3d4-4c4c-8791-13590863c789
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+  field_organisateurs_text:
+    -
+      value: 'Urgent Action Fund - Africa'
+      format: plain_text
+  field_salle:
+    -
+      entity: 28b5ae62-a04e-4b0c-90b8-ab242b5493a8

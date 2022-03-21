@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce92f934-c1f2-42a6-8696-b54caa16b2f3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    dc7f3193-747f-48fc-b685-a1ea617494b9: taxonomy_term
+    18e669bd-8162-4e39-9228-206c0dfcaa9b: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    2c441a1b-86b1-4e41-91b7-6194a19556d3: taxonomy_term
+    dd26ddf4-6219-48b2-9040-8b9c7a831058: taxonomy_term
+    c965a002-2079-4c58-8776-7877038e3c46: taxonomy_term
+    5f1822f8-889d-4d13-9974-4d541c9f6738: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Evaluer précisément les impacts de ses projets, politiques ou stratégies sur les 17 ODD avec l''application Water4allSDGs'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/evaluer-precisement-les-impacts-de-ses-projets-politiques-ou-strategies-sur-les-17-odd-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        La session présentera l’application utilisée par le jury Dakar 2022 pour évaluer les contributions des projets Eau à l’ensemble des 17 ODD et se conclura par sa mise en ligne pour utilisation gratuite par tous les acteurs de l’Eau au plan mondial. 
+        Le Forum de Dakar est un moment fort pour favoriser le développement durable et faciliter l'atteinte des ambitions de l'Agenda 2030 et de ses 17 ODD.  Son programme thématique est structuré selon les ODD. Cependant peu d’acteurs les utilisent de façon opérationnelle car leur apparente complexité les rebute. Cette session spéciale concrétisera les ODD aux yeux des participants en leur montrant comment évaluer facilement les impacts sur les ODD des projets, politiques et stratégies du domaine de l'eau. Des utilisateurs de différentes parties du monde et de types différents feront part de leurs expériences et parleront ainsi des ODD de façon concrète.
+        Les objectifs de la session sont de rendre les ODD plus concrets aux yeux des acteurs de l’eau, de montrer la pertinence de l'application Water4allSDGs pour les utiliser de façon opérationnelle et de lancer sa mise en ligne gratuite au plan mondial sur les sites web des 3 organisations porteuses de la session.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: 43e62319d0fc43634e4bdcbe24b7bf3a
+  field_code:
+    -
+      value: SS03
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: dc7f3193-747f-48fc-b685-a1ea617494b9
+    -
+      entity: 18e669bd-8162-4e39-9228-206c0dfcaa9b
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+    -
+      entity: 2c441a1b-86b1-4e41-91b7-6194a19556d3
+    -
+      entity: dd26ddf4-6219-48b2-9040-8b9c7a831058
+    -
+      entity: c965a002-2079-4c58-8776-7877038e3c46
+    -
+      entity: 5f1822f8-889d-4d13-9974-4d541c9f6738
+  field_organisateurs_text:
+    -
+      value: 'Partenariat Français pour l''eau avec Conseil mondial de l''eau et Secrétariat du Forum de Dakar'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        5 mn: présentation de la session spéciale et de son déroulement
+
+        10 mn: les actions et politiques menées contribuent-elles vraiment aux ODD?
+                    Rappel de l’Agenda 2030 et du suivi statistique des 232 indicateurs]
+                    Nécessité de réduire les perceptions de complexité et de flou]
+                    Water4allSDGs : une méthode pour évaluer aisément l'impact sur les ODD
+
+        20 mn: présentation de l'application web Water4allSDGs
+                   Démonstration d’utilisation
+                   Présentation des types de résultats sur un exemple
+
+        20 mn: panel international d'utilisateurs ayant expérimenté l'application
+                   Retours d’expérience, propositions d'améliorations
+
+        25 mn: débat avec la salle
+
+        5 mn: cérémonie de mise en ligne de l'application bilingue avec mise en scène ludique
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

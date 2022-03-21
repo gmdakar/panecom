@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8db5e219-38f1-4e73-b1a2-0f5a69dc432f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    52373cc5-4527-4666-abc6-46a78fb1401b: taxonomy_term
+    d58082be-4506-4325-8338-fe4c229c92c1: taxonomy_term
+    3296f159-9e9f-47f3-a98a-a572081126de: taxonomy_term
+    33533c8a-c679-4d85-96dc-53b8024c4a8f: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    f9ffccef-c6db-4077-ac2a-ef433dbe7abe: taxonomy_term
+    a5459454-4a87-426a-adca-ff3188f3db7b: taxonomy_term
+    b17376b9-0600-4fee-8909-4bfb10199162: taxonomy_term
+    fc975a75-3786-4a2d-936a-fc9560927d5a: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Créer des systèmes plus solides pour l''eau, l''assainissement et l''hygiène dans les institutions publiques grâce à un meilleur partage des connaissances et des données.'
+  created:
+    -
+      value: 1647484945
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/creer-des-systemes-plus-solides-pour-leau-lassainissement-et-lhygiene-dans-les-institutions
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        L'accès aux services et installations WASH de base dans les établissements publics tels que les établissements de santé (HCF) et les écoles est essentiel pour garantir la santé et le bien-être des personnes. Malgré les efforts déployés à l'échelle mondiale par une multitude d'acteurs pour répondre à ce besoin, le manque d'accès aux services WASH dans les écoles et les établissements de santé reste généralisé. La mise en œuvre à grande échelle du programme WASH dans les établissements est souvent sous-financée et déconnectée d'autres programmes nationaux clés. C'est dans le but de favoriser une vision collective de l'échelle que nous avons choisi de concentrer notre action sur l'identification et l'amplification des connaissances sur les voies de mise en œuvre à grande échelle du programme WASH dans les institutions. 
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484945
+      guid: ''
+      hash: 067afda0c3fd79073c6c41808f874d2e
+  field_code:
+    -
+      value: 2C1
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 52373cc5-4527-4666-abc6-46a78fb1401b
+    -
+      entity: d58082be-4506-4325-8338-fe4c229c92c1
+    -
+      entity: 3296f159-9e9f-47f3-a98a-a572081126de
+    -
+      entity: 33533c8a-c679-4d85-96dc-53b8024c4a8f
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: f9ffccef-c6db-4077-ac2a-ef433dbe7abe
+    -
+      entity: a5459454-4a87-426a-adca-ff3188f3db7b
+    -
+      entity: b17376b9-0600-4fee-8909-4bfb10199162
+    -
+      entity: fc975a75-3786-4a2d-936a-fc9560927d5a
+  field_organisateurs_text:
+    -
+      value: 'Water Youth Network, UNICEF WCARO, GIZ, Swiss Water and Sanitation Consortium, WHO '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'WASH in Schools Network'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: '-'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        1) Présentation du cadre : quelles leçons transversales (opportunités et barrières) ont été acquises dans le domaine du WASH dans les établissements de santé et du WASH dans les écoles dans une perspective de renforcement du système ? 
+        a.	WASH dans les écoles : enseignements tirés des régions Asie de l'Est et Pacifique et Asie du Sud 
+        b.	WASH dans les établissements de santé : enseignements tirés de la mise en œuvre mondiale des mesures pratiques pour parvenir à un accès universel à des soins de qualité. 
+        c.	Partage d'expériences entre les Philippines et le Burkina Faso sur la mise en place d'un programme national WinS à grande échelle. 
+
+        2) Discussion/Q&A (15 min) 
+
+        3) Table ronde avec facilitation guidée (25 min) : Les points de discussion comprendront les défis et les obstacles à la mise en place de systèmes plus solides communs à WASH dans les écoles et WASH dans les établissements de santé, les modalités réussies de collaboration intersectorielle avec les secteurs de la santé et de l'éducation, l'impact de COVID-19 :
+        a.	Inclura les perspectives des acteurs gouvernementaux et non gouvernementaux, notamment la GIZ, le Réseau mondial WASH dans les écoles, Terre des Hommes, l'OMS et l'UNICEF.
+
+        4) Remarques de clôture et points clés (10 minutes)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        - Les gouvernements et leurs partenaires sont davantage sensibilisés aux approches et stratégies programmatiques favorisant l'extensibilité et peuvent clairement articuler les voies d'action à l'échelle pour améliorer le programme WASH dans les institutions de leur pays.
+        '- Les participants sont capables d'identifier clairement les points clés du plaidoyer pour des changements au niveau des systèmes pour le WASH dans les institutions publiques suite au Forum mondial de l'eau.
+        '- L'échange de connaissances et d'apprentissage catalysera l'augmentation des investissements et des politiques en matière de WASH dans les institutions par les gouvernements et leurs partenaires.
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

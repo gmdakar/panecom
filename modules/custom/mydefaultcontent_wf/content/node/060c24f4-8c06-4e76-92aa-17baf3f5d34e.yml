@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 060c24f4-8c06-4e76-92aa-17baf3f5d34e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    58c6182e-722b-44ed-a294-2b43d3169f10: taxonomy_term
+    bf45135d-e97c-4a01-b7be-53b6c85bf385: taxonomy_term
+    9d1df899-f49d-4557-ab46-73fcb9becde2: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    64eff19f-dda2-4b7e-8a03-3db707a2b84b: taxonomy_term
+    a5459454-4a87-426a-adca-ff3188f3db7b: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promouvoir le développement des capacités par des projets de coopération en matière de formation'
+  created:
+    -
+      value: 1647484959
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promouvoir-le-developpement-des-capacites-par-des-projets-de-cooperation-en-matiere-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le développement des capacités est une nécessité permanente dans toutes les institutions en charge de la gestion des services ou des ressources en eau. La coopération entre organismes universitaires ou de formation peut apporter des apports intéressants en matière de partage d''expériences et accélérer la diffusion des connaissances scientifiques et techniques ainsi que des pratiques opérationnelles.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484959
+      guid: ''
+      hash: f18f49ea2e301a58fe4f70cb32c86343
+  field_code:
+    -
+      value: '3E3'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 58c6182e-722b-44ed-a294-2b43d3169f10
+    -
+      entity: bf45135d-e97c-4a01-b7be-53b6c85bf385
+    -
+      entity: 9d1df899-f49d-4557-ab46-73fcb9becde2
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 64eff19f-dda2-4b7e-8a03-3db707a2b84b
+    -
+      entity: a5459454-4a87-426a-adca-ff3188f3db7b
+  field_organisateurs_text:
+    -
+      value: 'INBO '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'ONEE, Hochschule Weihenstephan - Triesdorf , Pr Ndèye Coumba TOURE KANE USSEIN'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " Projet 1 : Démarrage d'un réseau Nord-Sud-Sud pour promouvoir les programmes d'enseignement supérieur dans les disciplines liées à l'eau avec un fort accent sur l'application (c'est-à-dire une formation pratique, les enseignants ont une expérience pratique, des stages etc...).
+        Projet 2 : Développement des capacités pour les métiers de l'eau et de l'assainissement et consolidation des centres de formation aux métiers de l'eau, étude prospective (OiEau)
+        Projet 3 : Apprentissage de pair à pair : Projet de coopération IEA-ONEE Sénégal 
+        Titre du projet : Partenariat des opérateurs de l'eau (WOP) entre l'Office National de l'Electricité et de l'Eau Potable - ONEE (Maroc) et l'Office National de l'Assainissement du Sénégal - ONAS (Sénégal) pour le renforcement des capacités de l'ONAS, en partenariat avec le GWOPA de l'ONU-Habitat,
+
+        Projet 4 : Coopération Equateur/Adour-Garonne pour le développement des capacités de planification et de gouvernance des bassins versants.
+        Projet 5 : MRC ? Cambodge ?
+        Projet 6 : Coopération en matière de formation pour l'amélioration de la création d'emplois.
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "De 8 à 10 min max. pour chaque présentation.
+        Au moins 15 min pour les questions et réponses. 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Augmentation du nombre de projets de coopération dans le domaine de la formation '
+      format: basic_html
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

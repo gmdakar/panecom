@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9afc04d4-5c7c-4d11-89c2-07449f25947c
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    42b5d263-ae88-4022-97d8-aabd93a14c9b: taxonomy_term
+    cfb1b576-eadb-42f0-ad52-03518dcc0db0: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    f620e799-f603-4eb4-8cb8-4a943e175057: taxonomy_term
+    cecb6847-bfc1-47bb-b7f4-3166fedd8254: taxonomy_term
+    f4a8dc63-4bd1-48e3-a75a-75e71aba9d4c: taxonomy_term
+    c2df13fe-9353-4099-bf6a-b9c5c6e0b254: taxonomy_term
+    d86746ea-7f32-4f75-a1c9-71f4e04dcc2a: taxonomy_term
+    ba5a718d-a92a-4b34-a95a-3006dd25d98c: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Join the international and collective One Sustainable Health (OSH) initiative'
+  created:
+    -
+      value: 1647493847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/join-international-and-collective-one-sustainable-health-osh-initiative-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'OSH Forum is an international and collective initiative that aims to produce tangible evidence based recommendations towards the operational implementation of an integrated One Sustainable Health approach. These recommendations will be made by the 6 International Working Groups and synthesized in a One Sustainable Health Declaration to be published during the World Health Summit 2022 October in Berlin. This declaration will provide guideline s for operational programmes and public policies for states, international agencies, companies, NGOs and foundations.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493847
+      guid: ''
+      hash: 2e65dc88e2e88b9cc45d149887da0734
+  field_code:
+    -
+      value: SS37
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 42b5d263-ae88-4022-97d8-aabd93a14c9b
+    -
+      entity: cfb1b576-eadb-42f0-ad52-03518dcc0db0
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: f620e799-f603-4eb4-8cb8-4a943e175057
+    -
+      entity: cecb6847-bfc1-47bb-b7f4-3166fedd8254
+    -
+      entity: f4a8dc63-4bd1-48e3-a75a-75e71aba9d4c
+    -
+      entity: c2df13fe-9353-4099-bf6a-b9c5c6e0b254
+    -
+      entity: d86746ea-7f32-4f75-a1c9-71f4e04dcc2a
+    -
+      entity: ba5a718d-a92a-4b34-a95a-3006dd25d98c
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance'
+      format: basic_html
+  field_programme:
+    -
+      value: '3 times sessions of 10 minutes and 15 min of Q&A / Take Home messages '
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

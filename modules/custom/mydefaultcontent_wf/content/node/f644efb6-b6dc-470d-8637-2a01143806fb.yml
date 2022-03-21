@@ -1,0 +1,176 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f644efb6-b6dc-470d-8637-2a01143806fb
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    aec455d3-27f4-471f-8eda-f19c89c9ec93: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    b4be5197-5fe7-430d-afb4-424b9b759552: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    b41b80f9-fa71-4465-9b2b-0ba7f9686fd5: taxonomy_term
+    e7105ce9-9f11-450b-b9e5-02703fca78ba: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innover dans le secteur de l’assainissement en faveur du développement rural : sur quelles innovations et technologies miser aujourd’hui ?'
+  created:
+    -
+      value: 1647484945
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/innover-dans-le-secteur-de-lassainissement-en-faveur-du-developpement-rural-sur-quelles
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+
+        Quasiment 1 personne sur 2 dans le monde n’a pas accès à un assainissement adapté, ne peut évacuer ou réutiliser de façon sûre ses eaux usées. La situation en milieu rural pour les populations vulnérables est particulièrement préoccupante, les deux tiers des personnes n’ayant pas accès à des services de base vivant en zone rurale. 
+        Innover sur la filière de l’assainissement est une nécessité. Une nécessité pour prévenir les dangers sur la santé publique, l’environnement, pour préserver les ressources en eau, développer la production d’eau non conventionnelle et favoriser le développement rural. 
+        Quelles solutions existent aujourd’hui ? Quels rôles pour quels acteurs pour promouvoir et mettre en œuvre ces innovations dans la filière assainissement ?  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484945
+      guid: ''
+      hash: 63d7d85c930c0fef74610ce0eabb8f4b
+  field_code:
+    -
+      value: 2B2
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: aec455d3-27f4-471f-8eda-f19c89c9ec93
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: b4be5197-5fe7-430d-afb4-424b9b759552
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: b41b80f9-fa71-4465-9b2b-0ba7f9686fd5
+    -
+      entity: e7105ce9-9f11-450b-b9e5-02703fca78ba
+  field_organisateurs_text:
+    -
+      value: |+
+        Coordinatrice de session: Laura le Floch, advocacy officer / chargée de plaidoyer, Secours Islamique France 
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        -	INRAE 
+        -	Association des Jeunes Professionnels de l’Eau et de l’Assainissement du Sénégal (AJPEAS)  
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        " Projet 1 : Développer le recyclage des eaux usées pour améliorer l'accès à l'eau et la sécurité alimentaire (solution innovante à Gaza pour les cultivateurs vulnérables).
+        Développer le recyclage des eaux usées pour améliorer l'accès à l'eau et la sécurité alimentaire (solution innovante pour les cultivateurs vulnérables de Gaza)
+        Secours Islamique France 
+
+        Projet 2 : Solutions naturelles pour l'assainissement : Système français d'épuration à flux vertical adapté au climat tropical
+        Solutions fondées sur la nature pour l'assainissement : adaptation des filtres plantés de roseaux au climat tropical
+        INRAE & OFB 
+
+        Projet 3 TBC Projet accès reuse, centrée sur l'approche multi-barrières de l'OMS 
+        Ps-Eau - INRAE 
+
+        Projet 4 TBC : Valorisation des déchets organiques par le lombricompostage
+        Valorisation des déchets organiques par lombricompostage
+        All about WASH Cameroon
+
+        Projet 5 TBC : a) Mettre en place des mécanismes ou des services adéquats pour améliorer les conditions de vie de la communauté en termes d'hygiène et d'assainissement b) Se concentrer sur le traitement des eaux usées pour leur réutilisation c) Traitement et valorisation des déchets solides 
+        Association des Jeunes Professionnels de l'Eau et de l'Assainissement du Sénégal (AJPEAS) 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        0 - 5 min.	Introduction/Contexte
+        5 - 10 min.	Film d'introduction
+        10 - 50 min.	Table ronde avec les panélistes (présentation des techniques, innovations et projets) 
+        50 - 70 min.	Discussion en petits groupes sur les principaux défis, les opportunités et les principales recommandations 
+        70 - 85 min.	Synthèse des discussions de la table ronde 
+        85 - 90 min.	Conclusion
+
+        0 - 5 min.	Introduction/Contexte
+        5 - 10 min.	Film d'introduction
+        10 - 50 min.	Table ronde avec les panélistes (présentation de techniques, d'innovations, de projets)
+        50 - 70 min.	Discussion en petits groupes sur les principaux défis, opportunités et recommandations
+        70 - 80 min.	Retour d'information sur les discussions en table ronde 
+        85 - 90 min.	Conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        The session will organise plenary presentations to showcase techniques and innovations, and will organise working groups to feed, in the most participatory way, the high level sessions of the forum and the thematic conclusion round-tables. 
+        Indeed, the participants will have to: 
+        -	Identify challenges and opportunities for rural sanitation innovation (political, technical, financial, governance challenges and opportunities)
+        -	Identify the key recommendations to support innovative solutions and their implementation. These recommendations will be send to the high level sessions of the forum and the thematic conclusion round-tables. 
+        follow-up linkages
+        -	Dissemination of the conclusions and recommendations to the various stakeholders through the network of the partners involved in the session 
+        -	Dissemination of findings to regional networks of different stakeholders (e.g. for Africa: AMCOW, UCLGA, ANEW, AfWA)
+        -	Follow-up of the preparatory process for the United Nations Water Conference in 2023 to ensure that these issues are taken into account in the debates (follow-up to be conducted via the Forum's global recommendations and via the governments)
+
+
+        La session comprendra des présentations plénières des techniques et innovations, et comprendra des travaux de groupe pour alimenter de manière la plus participative possible les travaux de sessions de haut niveau du forum et les tables-rondes thématiques de clôture. 
+        Les participants seront en effet amenés à : 
+        -	Identifier des défis et des opportunités pour l’innovation de l’assainissement en milieu rural (en termes politiques, techniques, financiers, de gouvernance)
+        -	Identifier les recommandations clés pour permettre appuyer la mise en œuvre des solutions existantes et favoriser l’émergence de nouvelles solutions et transmettre nos recommandations aux high level panels du FME et aux tables-ronde thématiques de clôture. 
+        Liens de suivi
+        -	Diffusion des conclusions et recommandation à l’attention des différentes parties prenantes au travers des réseaux des partenaires à la session
+        -	Diffusion des conclusions vers les réseaux régionaux des différents acteurs (p. ex. pour l’Afrique : AMCOW, CGLUA, ANEW, AfWA)
+        -	Suivi du processus préparatoire à la conférence des Nations unies sur l’eau en 2023 pour veiller à la prise en compte de ces enjeux dans les débats (suivi à conduire via les recommandations global du Forum et via les gouvernements)
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

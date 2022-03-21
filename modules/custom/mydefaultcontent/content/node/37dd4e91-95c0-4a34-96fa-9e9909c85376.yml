@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 37dd4e91-95c0-4a34-96fa-9e9909c85376
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    9719ba15-4424-4e5e-a817-0462ee0b1a7f: taxonomy_term
+    9c4b08c1-7141-4a5e-8804-b18baffe638f: taxonomy_term
+    64f49d09-2aee-4d17-baf2-7127d69c8af6: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Apprendre à partir d''expérimentations et de cas probants d''innovations scientifiques et technologiques'
+  created:
+    -
+      value: 1647484967
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/apprendre-partir-dexperimentations-et-de-cas-probants-dinnovations-scientifiques-et
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'En présentant des actions qui identifient et traitent les problèmes mondiaux les plus difficiles liés à l''eau. En promouvant des cas concrets de solutions pragmatiques ! '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484967
+      guid: ''
+      hash: f19a7f3db42feec1af71eb18892f5daa
+  field_code:
+    -
+      value: '4E3'
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 9719ba15-4424-4e5e-a817-0462ee0b1a7f
+    -
+      entity: 9c4b08c1-7141-4a5e-8804-b18baffe638f
+    -
+      entity: 64f49d09-2aee-4d17-baf2-7127d69c8af6
+  field_organisateurs_text:
+    -
+      value: BRGM
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Hydronews (FR - tbc) , Waterlution (CA-tbc), IRD Senegal (SN), University of Agricultural Sciences Dharwad (IN), Spanish Center for Studies and Experimentation of Public Works, Youth - Axel Tcheheumeni Djanni (SN)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "Explorer plus profondément la confirmation de l'efficacité et de la probation des économies d'eau et d'énergie - Hydronews (tbc)
+        * Partager quelques initiatives connues (Water Innovation Land financé par l'ONG CA - Waterlution) - Waterlution (tbc)
+        * Financement des kiosques à eau - IRD Sénégal
+        * Le potentiel des projets dans le renforcement des capacités et l'emploi rural des femmes dans le secteur de l'eau - Université des sciences agricoles de Dharwad.
+        * Le lien entre l'innovation technologique et les défis réels de la gestion de l'eau (Centre espagnol d'études et d'expérimentation des travaux publics).
+        * la voix des jeunes / étudiants
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: 'Présentations uniquement - 15 min chacune + temps pour les questions de la salle'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Présenter des innovations scientifiques et technologiques susceptibles d''être transférées dans des actions concrètes.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

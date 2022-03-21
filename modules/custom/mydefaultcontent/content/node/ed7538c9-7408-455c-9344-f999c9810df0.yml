@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ed7538c9-7408-455c-9344-f999c9810df0
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    c945fbb5-c8ac-4956-9a5b-8e6ab464efcc: taxonomy_term
+    7e40d1f1-7ec6-4b7c-a3e4-8a118c111ed7: taxonomy_term
+    2d688ca0-6650-4948-a0f4-8b04c31ec061: taxonomy_term
+    6600b851-e1b2-47a9-ab20-dae73517e765: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Climate Change High- level Round- table ''Innovative Climate Solutions in Water Sector'''
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/climate-change-high-level-round-table-innovative-climate-solutions-water-sector-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Background
+        - As the world faces deteriorating environmental conditions, dense populations, and rapid economic growth, Africa and Asia are highly vulnerable to climate change. They must be considered as strategically important locations in responding to global climate change.
+        i) Throughout the high-level discussion on supporting multilateral cooperation, Asia Water Council aims to address the importance of the role of each stakeholder, specifically policy makers, to contribute towards the dissemination and expansion of efforts in overcoming the climate crisis and achieving the Sustainable Development Goals (SDGs).
+        ii) Throughout an honorable global leader’s participation, Former UN Secretary Ki-moon Ban, the session will provide a new opportunity to vulnerable climate countries via addressing the importance of worldwide solidarity and response.
+
+        The session goals
+        - Addressing the importance of the strategic approaches in responding to the climate change
+        - Emphasizing the roles of decision-makers on innovative solutions to water-related challenges in regions (incl. a presentation for the result of 'the Statement of Asia to World' initiated during the Asia World Water Week)
+        - Presenting expected outcomes and synergies of global climate/water platforms, such as COP, WWF, and Asia World Water Week
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: 2b92afbab68641b0a7b5fe2499477aa9
+  field_code:
+    -
+      value: HLP18
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: c945fbb5-c8ac-4956-9a5b-8e6ab464efcc
+    -
+      entity: 7e40d1f1-7ec6-4b7c-a3e4-8a118c111ed7
+    -
+      entity: 2d688ca0-6650-4948-a0f4-8b04c31ec061
+    -
+      entity: 6600b851-e1b2-47a9-ab20-dae73517e765
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+  field_organisateurs_text:
+    -
+      value: 'Asia Water Council'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        (10 min) Session overview / introduction by organizers 
+        (10 min) Keynote Speech
+        (40 min) Panelist interventions - 5 min each, 6-8 panelists
+        (20 min) Moderated discussion
+        (10 min) Wrap-up & Closing by organizers
+      format: plain_text
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

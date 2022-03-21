@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 24a0906f-4270-4212-931a-d0ec20d9ebe0
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    72ed5513-4dae-468e-9e78-dc83d0657af9: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    af7ba194-ef6a-4fbf-b53f-0bc9f5254232: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water: connector of solutions to face global changes'
+  created:
+    -
+      value: 1647493842
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-connector-solutions-face-global-changes-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The session aims to present water as a key element without which none of the 
+        problems associated with global changes will be resolved: combating desertification, resilience to change climate and epidemic prevention. The session also aims to discuss how it is possible to revive, in some form or another, the Climate is water initiative, so as to produce, by the community, and in the shortest possible time, (from preferably in view of COP 27) a series of synthetic but unified messages, to be transmitted to external partners, and to broadcast during major international events.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493842
+      guid: ''
+      hash: 004af94a4ad805df9b3d5a02269e3dca
+  field_code:
+    -
+      value: SS19
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 72ed5513-4dae-468e-9e78-dc83d0657af9
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: af7ba194-ef6a-4fbf-b53f-0bc9f5254232
+  field_organisateurs_text:
+    -
+      value: 'Global Changes Task Force (World Water Council)'
+      format: basic_html
+  field_programme:
+    -
+      value: tbd
+      format: plain_text
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

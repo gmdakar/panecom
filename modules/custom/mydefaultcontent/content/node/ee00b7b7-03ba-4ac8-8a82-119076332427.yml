@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee00b7b7-03ba-4ac8-8a82-119076332427
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    8d5ecfd7-94d6-4b09-9f72-9a43b322414e: taxonomy_term
+    de7e2d7a-12d3-4f95-a60b-63c640b869f9: taxonomy_term
+    f74744b8-28a6-45af-a867-919dc155adc0: taxonomy_term
+    daf17972-ee08-4ae9-b2c6-6843d4852ba2: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Table ronde de haut niveau sur le changement climatique : "Solutions climatiques innovantes dans le secteur de l''eau".'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/table-ronde-de-haut-niveau-sur-le-changement-climatique-solutions-climatiques-innovantes-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Background
+        - As the world faces deteriorating environmental conditions, dense populations, and rapid economic growth, Africa and Asia are highly vulnerable to climate change. They must be considered as strategically important locations in responding to global climate change.
+        i) Throughout the high-level discussion on supporting multilateral cooperation, Asia Water Council aims to address the importance of the role of each stakeholder, specifically policy makers, to contribute towards the dissemination and expansion of efforts in overcoming the climate crisis and achieving the Sustainable Development Goals (SDGs).
+        ii) Throughout an honorable global leader’s participation, Former UN Secretary Ki-moon Ban, the session will provide a new opportunity to vulnerable climate countries via addressing the importance of worldwide solidarity and response.
+
+        The session goals
+        - Addressing the importance of the strategic approaches in responding to the climate change
+        - Emphasizing the roles of decision-makers on innovative solutions to water-related challenges in regions (incl. a presentation for the result of 'the Statement of Asia to World' initiated during the Asia World Water Week)
+        - Presenting expected outcomes and synergies of global climate/water platforms, such as COP, WWF, and Asia World Water Week
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: b7d2d9fdc110af7081c2c66418e29aa3
+  field_code:
+    -
+      value: HLP18
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 8d5ecfd7-94d6-4b09-9f72-9a43b322414e
+    -
+      entity: de7e2d7a-12d3-4f95-a60b-63c640b869f9
+    -
+      entity: f74744b8-28a6-45af-a867-919dc155adc0
+    -
+      entity: daf17972-ee08-4ae9-b2c6-6843d4852ba2
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+  field_organisateurs_text:
+    -
+      value: 'Asia Water Council'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        (10 min) Aperçu de la session / introduction par les organisateurs 
+        (10 min) Discours principal
+        (40 min) Interventions des panélistes - 5 min chacune, 6-8 panélistes
+        (20 min) Discussion avec modérateur
+        (10 min) Récapitulation et clôture par les organisateurs
+      format: plain_text
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

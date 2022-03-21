@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3a6398a9-2490-4def-b5dd-05aba9051868
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    20dde852-9259-4e11-887f-077b75cec0de: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    95e6c73d-4e52-4b2f-847f-423c74e262c7: taxonomy_term
+    88576394-e014-4249-81d6-66196aa03d3a: taxonomy_term
+    74801e77-30db-4c7c-9151-0bd2cac3e1ec: taxonomy_term
+    72542a14-b769-4e47-b35d-13e4e245253a: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Citywide Inclusive Sanitation for promoting inclusive and sustainable urban sanitation systems: Lessons learnt from IsDB & UN- Habitat'
+  created:
+    -
+      value: 1647493850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/citywide-inclusive-sanitation-promoting-inclusive-and-sustainable-urban-sanitation-systems-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The world is not on track to reach the Sustainable Development Goal targets 6.2 on sanitation and 6.3 on wastewater management. Today, 3.6 billion people lack safely managed sanitation and more than 494 million people still practice open defecation, which is posing serious threats to public health, environment, and economic development. 
+        Providing adequate access to safely managed and inclusive sanitation services to more than 700 million urban dwellers is essential in making cities and human settlements inclusive, safe, resilient, and sustainable as envisaged by SDG 11.  Today, up to 530 cities are reporting the devastating effects of climate change as such 517 million urban residents have been directly impacted by the increased diseases and lost livelihoods, have destroyed infrastructure, and have undermined the capacity of local governments to provide basic services to their citizens. The impacts of climate change on sanitation systems, therefore, call for increased investment in climate-resilient sanitation infrastructures and systems.
+
+        CWIS is a public service approach to planning and implementing urban sanitation systems to achieve outcomes summarized by SDG 6.2. CWIS looks to shift the urban sanitation paradigm, aiming to ensure universal access to safely managed sanitation by promoting a range of solutions—both onsite and sewered, centralized or decentralized—considering the local context of the growing cities. The CWIS service framework includes a set of core service outcomes and the required system for sanitation service delivery.
+
+        Sessions Objectives 
+        The session will take stock of the lessons learnt from CWIS-related projects being implemented by Islamic Development Bank (IsDB), UN-Habitat, and their partner organizations.  The main objective of this session is to share the hands-on experiences and learnings on the preparation of bankable CWIS projects and the key success factors to translate the CWIS Approach into impactful actions on the ground. Mechanisms for increased collaboration between development banks and the UN (e.g., UN-Habitat) to support growth and maximize impacts of urban sanitation investments will be also discussed during this session.
+
+        Expected Results 
+        1. Lessons learnt from CWIS-related projects completed or being prepared by IsDB, UN-Habitat and their partner organizations shared among the participants.
+        2. Key success factors to translate the CWIS Approach into impactful actions on the ground discussed.
+        3. Mechanisms for increased collaboration between MDBs and UN agencies  (e.g., UN-Habitat) to support growth and maximize impacts of urban sanitation investments.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493850
+      guid: ''
+      hash: 7cc80fab6b9492dd36ea6de6d1ffd046
+  field_code:
+    -
+      value: SS47
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 20dde852-9259-4e11-887f-077b75cec0de
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 95e6c73d-4e52-4b2f-847f-423c74e262c7
+    -
+      entity: 88576394-e014-4249-81d6-66196aa03d3a
+    -
+      entity: 74801e77-30db-4c7c-9151-0bd2cac3e1ec
+    -
+      entity: 72542a14-b769-4e47-b35d-13e4e245253a
+  field_organisateurs_text:
+    -
+      value: 'ISLAMIC DEVELOPMENT BANK'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Keynote speeches: 2 of 5 minutes each = 10 minutes
+        Presentations: 3 presentations of 15 minutes each = 45 minutes
+        Discussions =  30 minutes
+        Introduction and closing remarks = 5 minutes 
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da8e1443-3354-4599-87b9-a039c47bf1dc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    ff7e0d09-ec59-41fb-925d-02614ffe9c9b: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    102ea66e-9220-427a-9970-2253739bc866: taxonomy_term
+    c635f007-c5e0-4b9a-878a-6fbb322f46c6: taxonomy_term
+    3261b523-53df-4a9f-b07b-f1975ab0a25e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Coopération 
+        cadre et 
+        approche pour 
+        intégrée 
+        gestion intégrée et 
+        restauration des ressources 
+        ressources en eau partagées et 
+        leurs écosystèmes 
+        écosystèmes associés
+  created:
+    -
+      value: 1647486187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cooperation-cadre-et-approche-pour-integree-gestion-integree-et-restauration-des-ressources
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Cette session traitera de la question de la gestion intégrée des ressources naturelles, en mettant le focus sur les eaux souterraines transfrontalières partagées et leur interaction avec les eaux de surface. Les résultats pertinents obtenus dans le cadre de la restauration des terres seront mis en exergue. Elle abordera aussi de façon globale les défis à relever pour l’intégration de la comptabilité écosystémique dans les processus de planification des pays.
+        Elle regroupera des représentants d’organismes de bassins œuvrant dans ces domaines, des agences nationales ou régionales de coopération et/ou de développement et des partenaires nationaux.
+        Les objectifs spécifiques sont : 
+        •	L’échange des bonnes pratiques pour une gestion durable des ressources en eau entre les institutions partenaires ;
+        •	La promotion de la gestion concertée des ressources en eau transfrontalières partagées souterraines et superficielles ainsi que leurs écosystèmes associés, et la diffusion des meilleures pratiques ;
+        •	La sensibilisation des pays africains sur l’intérêt d’internaliser les coûts et les avantages de la conservation de la biodiversité et de l'utilisation durable des écosystèmes ;
+        •	La promotion des approches et outils méthodologiques développés pour la restauration des terres ;
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486187
+      guid: ''
+      hash: 50f4d9693f0c98425265dc1b8f551833
+  field_code:
+    -
+      value: SE51
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        •	Modérateur (M. Nabil BEN KHATRA SE/OSS)
+        •	Panelistes :
+        1.	Mrs. Astrid Hillers (GEF)
+        2.	Mme Alice Aureli (UNESCO)
+        3.	M. Abderahim Birème Hamid (ABN)
+        4.	M. Ahmed Diane SEMEGA (OMVS)
+        5.	M. Abakar Zougoulou (APGMV)
+        6.	M. Abdel Kader Dodo (OSS)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: ff7e0d09-ec59-41fb-925d-02614ffe9c9b
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 102ea66e-9220-427a-9970-2253739bc866
+    -
+      entity: c635f007-c5e0-4b9a-878a-6fbb322f46c6
+  field_organisateurs_text:
+    -
+      value: |-
+        Sahara and Sahel 
+        Observatory (OSS)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        •	Allocution de Bienvenue : 5mn
+        •	Présentation introductive : 10mns (OSS)
+        •	Sous session thématique n°1 : sous forme de débat animé par des Questions-Réponses avec 4 intervenants : 20mns
+        •	Sous-sessions thématiques n°2 : sous forme de débat animé par des Questions-Réponses avec 2 intervenants : 10mns
+        •	Clôture « conclusion et leçons tirées » par chaque paneliste (10 min)
+      format: basic_html
+  field_salle:
+    -
+      entity: 3261b523-53df-4a9f-b07b-f1975ab0a25e

@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: edb766f2-d43a-4f84-8b36-baf4cd3d582e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    5b26fc6a-5480-4565-aee6-1cb9ac5289c2: taxonomy_term
+    e9fd5880-1ead-457b-a507-ff6040877a89: taxonomy_term
+    b819af1e-d627-4322-b2dc-6a6d1b7fac39: taxonomy_term
+    b644079d-c3ea-458c-a24e-cf6ae667018e: taxonomy_term
+    92634f69-ec73-4de3-ba09-120f3d2952e9: taxonomy_term
+    c66c1106-1da5-47d4-9fe0-30eaa2d24a4b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Contribution à l''économie circulaire par la gestion durable des services d''eau potable : Le cas de la Non- Revenue Water (NRW)'
+  created:
+    -
+      value: 1647486189
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/contribution-leconomie-circulaire-par-la-gestion-durable-des-services-deau-potable-le-cas-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Les services publics de l'eau dans le monde entier, et en particulier dans les pays en développement, sont confrontés à des défis majeurs, notamment le niveau élevé des pertes d'eau, dues aux fuites dans les réseaux, à la fraude, aux problèmes de facturation, aux problèmes de comptage, etc. La différence entre le volume d'eau qui entre dans le système de distribution et l'eau facturée aux consommateurs est appelée Eau Non Reçue (ENR).
+        Chaque année, plus de 32 milliards de mètres cubes d'eau traitée sont perdus en raison de fuites dans le système de distribution. En outre, 16 milliards de mètres cubes par an sont fournis aux clients sans être facturés, en raison de vols, de compteurs défectueux ou de corruption. Une estimation du coût annuel total de ces pertes pour les compagnies des eaux du monde entier est de 14 milliards de dollars US. Ces pertes représenteraient 50 à 60% de l'eau fournie, alors que la moyenne mondiale est de 35%. En économisant ce montant, on pourrait fournir de l'eau à 100 millions de personnes supplémentaires sans aucun investissement additionnel. 
+        Dans de nombreux pays africains, les pertes en eau atteignent souvent des proportions si élevées qu'elles compromettent considérablement la viabilité financière des entreprises en réduisant leur capacité à servir la population. De plus, le NRW augmente la pression humaine sur l'environnement, notamment en encourageant la surexploitation des ressources en eau douce. 
+        Grâce à l'approche des Partenariats d'opérateurs de l'eau (WOP) en tant que processus d'apprentissage entre pairs, l'AAE a prouvé son efficacité à relever les défis et à améliorer la performance des opérateurs afin d'accélérer les progrès vers les OMD en matière de services d'eau et d'assainissement.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486189
+      guid: ''
+      hash: bc40eb93ba6beafadda45f775555fed0
+  field_code:
+    -
+      value: SE35
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Président : Mme Koubra Hissène ITNO, DG Compagnie des eaux du Tchad
+        Modérateur : Olivier Gosso, SODECI, Côte d'Ivoire
+        Présentateur : Gilles Djagoun, coordinateur principal de programme, AAE
+        PANELISTES
+        i.	Dr. Rose Kaggwa, NWSC, Ouganda
+        ii.	M. Olivier Gosso, SODECI, Côte d'Ivoire
+        iii.	M. Olivier Billard, DIELT, France
+        iv.	M. Michael Kerstin, GWP, Allemagne
+        v.	M. Lars Stordal, GWOPA, Allemagne
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 5b26fc6a-5480-4565-aee6-1cb9ac5289c2
+    -
+      entity: e9fd5880-1ead-457b-a507-ff6040877a89
+    -
+      entity: b819af1e-d627-4322-b2dc-6a6d1b7fac39
+    -
+      entity: b644079d-c3ea-458c-a24e-cf6ae667018e
+    -
+      entity: 92634f69-ec73-4de3-ba09-120f3d2952e9
+  field_organisateurs_text:
+    -
+      value: AAE
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Ouverture par le président : 05 min
+        Introduction par le modérateur : 05 Min
+        Présentation : 10 min
+        Discussion en groupe : 35 min
+        Clôture/récapitulation : 05 min
+      format: basic_html
+  field_salle:
+    -
+      entity: c66c1106-1da5-47d4-9fe0-30eaa2d24a4b

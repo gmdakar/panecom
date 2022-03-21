@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8dc3ae29-1777-4c37-8f5e-d444eecf8988
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    8968d637-dbd1-4d20-9724-4ff6c91b332f: taxonomy_term
+    24f4f925-49da-41b2-973e-ef743e7978d3: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    90cde90b-62d2-408e-af47-190a2bc5a7ae: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    1ac3c560-9e6d-4c2f-bd29-8df6d0328e0b: taxonomy_term
+    4eff5f95-67a5-433e-ba6e-48ced37e5ca9: taxonomy_term
+    1b39cf4d-cb6b-4dd4-b6a7-35ad5e085d84: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '?Adaptation of management models for multipurpose dams, to take into account the new challenges (climate change, new water uses, aging infrastructures etc.)'
+  created:
+    -
+      value: 1647484847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/?adaptation-management-models-multipurpose-dams-take-account-new-challenges-climate-change'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This section aims to discuss how multipurpose dams are adapting to changes caused by climate change and the increasing pressure from different water uses. This involves discussions on how different management approaches, including adaptative strategies, available instruments (standards) and other mechanisms can contribute to meeting future demands for energy security, sustainability and resilience of multi-purpose infrastructures and water security.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484847
+      guid: ''
+      hash: 2c12d00d42c9db72d72a452e4a75b27c
+  field_code:
+    -
+      value: 3D3
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8968d637-dbd1-4d20-9724-4ff6c91b332f
+    -
+      entity: 24f4f925-49da-41b2-973e-ef743e7978d3
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 90cde90b-62d2-408e-af47-190a2bc5a7ae
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 1ac3c560-9e6d-4c2f-bd29-8df6d0328e0b
+    -
+      entity: 4eff5f95-67a5-433e-ba6e-48ced37e5ca9
+    -
+      entity: 1b39cf4d-cb6b-4dd4-b6a7-35ad5e085d84
+  field_organisateurs_text:
+    -
+      value: 'ITAIPU BINACIONAL'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        ANBO (African Network of Basin Organizations)
+        IHA (International Hydropower Association)
+        ITAIPU
+        SANEPAR
+        Ministry for the Ecological Transition and the Demographic Challenge of Spain
+        Spanish National Committee for Large Dams (SPANCOLD)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'Technical cooperation for the Implementation of Sustainable Sanitary Sewage Systems aiming at improving water quality for the multiple uses of the Reservoir and ITAIPU '
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1 Keynote speaker - 10 minutes
+        Short video – 5 minutes
+        3 Speakers - 12 minutes each
+        Panel discussion led by a session moderator – 30 minutes
+        2 to 5 minutes session conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        An expected outcome of this session is to promote discussions on critical issues such as the current and future role of multi-use infrastructure amid the challenges posed by climate change and growing demand for water resources. Among them:
+        -Understand how dams play an important role in mitigating climate change.
+        -Show the significant gap between what is planned, in execution and projected for the generation of energy in compliance with the global goals (Paris agreement / Net-zero),
+        - Promote practical solutions/experiences on the benefits of wastewater treatment in multipurpose dams and their multiple uses of water, and show practical cases with replication potential, especially for small towns with little incentive to implement sanitary infrastructure.
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

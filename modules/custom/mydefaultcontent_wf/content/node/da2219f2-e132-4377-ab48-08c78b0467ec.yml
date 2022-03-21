@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da2219f2-e132-4377-ab48-08c78b0467ec
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    84d24a91-d590-4fbd-ba02-b2dd03e676bc: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    41648b57-a739-4602-95e6-4d42dc4432d1: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    1365b6f1-ee22-43a0-a547-d9710611e263: taxonomy_term
+    6f6ec599-3706-4cb4-8982-aeafc8d98815: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Vers une plus grande cohérence des politiques concernant le lien entre migration et eau dans le contexte du développement rural'
+  created:
+    -
+      value: 1647484950
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/vers-une-plus-grande-coherence-des-politiques-concernant-le-lien-entre-migration-et-eau-dans
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Il existe de grandes opportunités sur le lien entre migration et eau dans les zones rurales - par exemple par le développement de projets d''emplois verts et décents, en particulier pour l''autonomisation des femmes et des jeunes, l''inclusion des migrants et la durabilité des ressources en eau, tant dans les territoires d''origine que de destination. La session explorera comment des politiques adaptées et cohérentes peuvent nous aider à réaliser ces opportunités.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484950
+      guid: ''
+      hash: e51df6b52c7face899b5abcdee5045e3
+  field_code:
+    -
+      value: 2F1
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 84d24a91-d590-4fbd-ba02-b2dd03e676bc
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 41648b57-a739-4602-95e6-4d42dc4432d1
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 1365b6f1-ee22-43a0-a547-d9710611e263
+    -
+      entity: 6f6ec599-3706-4cb4-8982-aeafc8d98815
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+  field_organisateurs_text:
+    -
+      value: |-
+        Hind ASSAOUI BENNANI, IOM,
+        Julienne ROUX, Global Water Parnership, 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Caritas,
+        - Italian Agency for Development Cooperation,
+        - FAO,
+        - OIM,
+        - UN Habitat,
+        - Ziguinchor University,
+        - Turkish Water Institute
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "? Vers l'intégration du lien entre migration, environnement et changement climatique dans les politiques au Niger, OIM
+        ? Renforcer la résilience des communautés touchées par le changement climatique et la dégradation de l'environnement en Guinée, OIM
+        ? Mettre en œuvre les politiques mondiales sur les migrations environnementales et les déplacements liés aux catastrophes en Afrique de l'Ouest, OIM
+        ? Mieux connaître l'eau : Vers un accès plus équitable et plus durable aux ressources naturelles pour une plus grande sécurité alimentaire au Rwanda, au Sénégal et au Sri Lanka, FAO"
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Accueil par les coordinateurs de la session et sondage des participants (5 min)
+        - Introduction au lien entre l'eau et la migration dans le développement rural (10 min)
+        - Perspectives des praticiens - panel : Quelles sont les réalités du lien entre l'eau et la migration dans le contexte du développement rural et quelles recommandations peuvent être faites aux décideurs politiques ? (25 min)
+        - Remue-méninges de l'auditoire et recommandations (15 min)
+        - Dialogue politique - panel : Comment intégrer les politiques relatives à l'eau, aux migrations et au développement rural (20 min)
+        - Questions et réponses (10 min)
+        - Conclusion (5 min)"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        ? Recommandations pour un dialogue politique amélioré et l'élaboration de politiques fondées sur des preuves et inclusives sur la migration et l'eau dans le contexte du développement rural.
+        Un recueil de recommandations sur le lien migration-eau dans le contexte du développement rural sera produit et sera soumis à la communauté de l'eau et aux décideurs, au Sommet des chefs d'État et aux grandes institutions internationales. La cible ultime de cette action est la jeunesse, les migrants (travailleurs migrants, rapatriés, migrants internes, diaspora) et les femmes (genre).
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

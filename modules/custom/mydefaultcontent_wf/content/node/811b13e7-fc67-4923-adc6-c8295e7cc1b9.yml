@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 811b13e7-fc67-4923-adc6-c8295e7cc1b9
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    a2e2d6ec-024c-4adf-b394-8dc79a54127a: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    2cabe501-6ba0-4ef3-8563-c7100d456cf7: taxonomy_term
+    6f6ec599-3706-4cb4-8982-aeafc8d98815: taxonomy_term
+    00675bdf-24a7-4608-9a2d-5c467ec6efc6: taxonomy_term
+    17add517-fb2b-4fe7-a6f0-fe88e7521fbe: taxonomy_term
+    30be91ec-7e05-4d34-85eb-561280b45374: taxonomy_term
+    fa5b75a9-63c2-42b8-ac8c-31b32948df48: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Renforcer l''environnement favorable à un assainissement géré en toute sécurité en Afrique'
+  created:
+    -
+      value: 1647484937
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/renforcer-lenvironnement-favorable-un-assainissement-gere-en-toute-securite-en-afrique
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''idée d''action #3 a été divisée en trois projets : (1) Renforcer l''environnement politique favorable à un assainissement géré en toute sécurité ; (2) Promouvoir une large adoption de l''assainissement en tant que service d''utilité publique et (3) Démonstration des nouvelles technologies commerciales pour faire progresser l''assainissement. La réalisation d''un assainissement durable nécessite des efforts combinés de la part de multiples partenaires. Les sessions dans le cadre de cette idée d''action réuniront les parties prenantes gouvernementales, les régulateurs, le secteur privé et les acteurs de la société civile. Le gouvernement et les régulateurs seront guidés pour adopter l''assainissement inclusif comme un service d''utilité publique par la présentation de la façon dont les progrès dans la technologie de l''assainissement inclusif et les opportunités commerciales des pilotes CWIS matérialisent les politiques d''assainissement. Les décideurs participants, le secteur privé, les acteurs des organisations de la société civile et les communautés comprendront comment les politiques d''assainissement inclusif contribuent à la création d''un environnement bien réglementé pour un assainissement géré en toute sécurité. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484937
+      guid: ''
+      hash: 460eeb215f406176a7d94b6510d30418
+  field_code:
+    -
+      value: 1A3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a2e2d6ec-024c-4adf-b394-8dc79a54127a
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 2cabe501-6ba0-4ef3-8563-c7100d456cf7
+    -
+      entity: 6f6ec599-3706-4cb4-8982-aeafc8d98815
+    -
+      entity: 00675bdf-24a7-4608-9a2d-5c467ec6efc6
+    -
+      entity: 17add517-fb2b-4fe7-a6f0-fe88e7521fbe
+    -
+      entity: 30be91ec-7e05-4d34-85eb-561280b45374
+    -
+      entity: fa5b75a9-63c2-42b8-ac8c-31b32948df48
+  field_organisateurs_text:
+    -
+      value: 'AMCOW, Speak Up Africa & Bill and Melinda Gates Foundation'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNICEF, WHO, APHRC, Delvic, FSM Alliance, Senegalese Standards Association, CRANE Engineering, Sen Engineering, USAID WASHFIN, Pan African Sanitation Actors Association, AfWASA, ONAS'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: "(1) Renforcer l'environnement politique favorable à un assainissement géré en toute sécurité.\r\n(2) Promouvoir une large adoption de l'assainissement en tant que service public\r\n(3) Les innovations technologiques, une solution pour faire progresser l'assainissement\r\n"
+      format: plain_text
+  field_programme:
+    -
+      value: 'Une discussion modérée par le Conseil des ministres africains de l''eau (AMCOW) réunissant les ministres/points focaux de l''assainissement et/ou les parties prenantes institutionnelles pour partager des informations, les meilleures pratiques et les expériences passées en matière d''élaboration de politiques d''assainissement. Les représentants du secteur privé et des services publics seront également invités à participer à cette discussion afin de souligner la contribution des technologies.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        o Mise en évidence des modèles réussis d'adoption des politiques du GASP.
+        o Engagements des gouvernements, des donateurs et des partenaires d'assistance technique annoncés en faveur de l'élaboration de politiques d'assainissement. 
+        o Domaines clés de collaboration des parties prenantes du secteur (partenaires de développement et pays) précisés. 
+        o Les solutions innovantes améliorent et transforment les solutions d'assainissement existantes.
+        o Les innovateurs, les fabricants et les entrepreneurs du secteur de l'assainissement sans égouts soutiennent les dirigeants et les investisseurs des pays dans l'amélioration de la chaîne de valeur de la gestion des boues fécales.
+        o Les négociations à huis clos aboutissent à des partenariats commerciaux entre les dirigeants des pays, les investisseurs et d'autres acteurs du monde des affaires.
+        o Le rôle des services publics dans la fourniture de services d'assainissement et d'eau est reconnu.
+        o Des dispositions institutionnelles claires et une coordination des parties prenantes sont mises en œuvre.
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

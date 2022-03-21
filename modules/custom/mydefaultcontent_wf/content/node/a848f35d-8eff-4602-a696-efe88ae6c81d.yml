@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a848f35d-8eff-4602-a696-efe88ae6c81d
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    3743781f-3979-4226-aec8-abed192376f3: taxonomy_term
+    7f8f6c47-4630-4d4a-ad40-198b84b322b7: taxonomy_term
+    e8225769-c7eb-4b1f-9a48-297ac4bcbed7: taxonomy_term
+    3bc3826f-d709-40bd-b032-1945346712f8: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Africa Focus'
+  created:
+    -
+      value: 1647493828
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/africa-focus-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The main objective of the session is to promote the Water-Energy-Food-Environment Nexus approach for a sustainable response to development needs. 
+        Specifically, it will aim to 
+        - Promote a better understanding of the water-energy-food-environment nexus concept for the development of synergies; 
+        - To map the relationships and mutual impacts between these different sectors;
+        - To bring out good practices and innovative solutions to make the Nexus approach operational; 
+        - Define methods of cooperation to maximize the benefits of the nexus.
+        At the end of the session, the following results are expected
+        - A good understanding of the Water-Energy-Food-Environment Nexus approach and issues;
+        - Good practices and innovative solutions to operationalize the Nexus approach are shared;
+        - Mechanisms and levers to foster cooperation between actors are identified;
+        - Recommendations are formulated for the various stakeholders.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493828
+      guid: ''
+      hash: db60583ce9a50af87394c921052b7e49
+  field_code:
+    -
+      value: 'HLP 26'
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 3743781f-3979-4226-aec8-abed192376f3
+    -
+      entity: 7f8f6c47-4630-4d4a-ad40-198b84b322b7
+    -
+      entity: e8225769-c7eb-4b1f-9a48-297ac4bcbed7
+    -
+      entity: 3bc3826f-d709-40bd-b032-1945346712f8
+  field_organisateurs_text:
+    -
+      value: 'United Nations Development Programme'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Timing Communication Speakers
+        9 :00 - 9 :10 Welcome and presentation of the objectives of the session: UNDP Resident Representative
+        9 :10 - 9 :20 Introductory presentation on the nexus approach and issues related to the water-energy-food-environment nexus Mr. Minister Abdou Fall: Facilitator 
+        9 :20 - 9 :30 Water resources management and climate challenges: Niokhor Diouf /DGPRE
+        9 :30 - 9 : 40 Sharing good practices at the international level: Expert (TBC)
+        9 :40 - 9 : 55 How to make operational the water-energy-food-environment nexus?
+        Questions/answers : Participants
+        9 :55 - 9 : 50 Synthesis : UNDP
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

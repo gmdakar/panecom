@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e692aa87-bbf6-4f6c-8d6f-ab462c1e60b2
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    a5f21175-4b3c-44e2-b61d-54f877b69c63: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    34811afd-95fb-46f8-9285-a6dfdce098c8: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    512091cb-142b-47f0-a6ab-6256e67268c2: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    db1bdfc7-842d-4985-846d-6f8dbcacf974: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promouvoir le développement durable en améliorant la connaissance et la gouvernance des ressources en eaux souterraines transfrontalières'
+  created:
+    -
+      value: 1647484954
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promouvoir-le-developpement-durable-en-ameliorant-la-connaissance-et-la-gouvernance-des
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session présentera des initiatives mondiales et des exemples concrets de coopération sur les ressources en eau souterraine des aquifères transfrontaliers contribuant à favoriser la coopération et à prévenir les conflits.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484954
+      guid: ''
+      hash: 48cf040214f1ac9029e9be912882f42a
+  field_code:
+    -
+      value: 3B4
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a5f21175-4b3c-44e2-b61d-54f877b69c63
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 34811afd-95fb-46f8-9285-a6dfdce098c8
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 512091cb-142b-47f0-a6ab-6256e67268c2
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: db1bdfc7-842d-4985-846d-6f8dbcacf974
+  field_organisateurs_text:
+    -
+      value: |-
+        UNESCO-IHP 
+        UNECE 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	Geneva Water Hub
+        •	IWRA 
+        •	iWSSM - UNESCO Centre in Korea
+        •	IGRAC 
+        •	ORASECOM, 
+        •	SADC-GMI 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "- 20 ans d'évaluation des aquifères transfrontaliers, réalisations et défis à relever
+
+        - Aller de l'avant en améliorant l'évaluation et la gestion des aquifères transfrontaliers
+
+        - Mise en place d'une gestion partagée des ressources en eau dans le bassin aquifère sénégalo-mauritanien (SMAB) 
+
+        - Gouvernance du système aquifère transfrontalier de Stampriet (Afrique australe) 
+
+        - Mise en œuvre du programme d'action stratégique de l'aquifère Guarani : Favoriser les actions régionales 
+
+        - Le rôle de la bonne gestion et de la gouvernance des ressources en eau souterraine pour atteindre la sécurité de l'eau".
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "6 Présentations 
+        Débat d'experts
+        Interaction avec le public"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Cette session devrait contribuer à collecter et à résumer les messages pertinents pour mieux intégrer la coopération transfrontalière sur les aspects liés aux eaux souterraines dans le cadre de la Décennie des Nations Unies pour l''eau et à mettre en avant les eaux souterraines et le besoin de coopération pour un monde sûr en matière d''eau.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

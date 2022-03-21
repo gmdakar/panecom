@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 75adab61-4159-44d4-af79-76e0abe2013d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    e713b7a7-a08e-4bf3-a873-9353492b56fb: taxonomy_term
+    ad2ba8cb-272e-4375-8bb1-1f69f529f017: taxonomy_term
+    391d77fb-2ede-45f3-9c4f-bfe46f2447d9: taxonomy_term
+    2aa61004-6d94-43e5-b814-041e53df1c0b: taxonomy_term
+    43629b57-29c0-4f5d-9b2d-a048e82eddcb: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accélérer l''égalité des genres dans le domaine de l''eau : la voie à suivre'
+  created:
+    -
+      value: 1647485809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accelerer-legalite-des-genres-dans-le-domaine-de-leau-la-voie-suivre-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'analyse approfondie des réalisations et des défis liés au genre dans le domaine de l'eau, réalisée par le groupe de travail sur l'eau et le genre dirigé par le WWAP de l'UNESCO, indique clairement que, malgré les progrès réalisés au niveau des politiques internationales, la réalisation du droit fondamental à l'égalité des sexes dans le domaine de l'eau et de l'assainissement n'est pas en bonne voie. Les femmes restent sous-représentées en matière d'emploi et de participation à la prise de décision à tous les niveaux dans le domaine de l'eau. À huit ans de la date butoir de l'Agenda 2030 pour le développement durable, il est urgent de prendre des mesures concrètes, audacieuses et ambitieuses.
+
+        La réalisation de progrès vers l'égalité des sexes dans le domaine de l'eau nécessite des connaissances solides, des solutions pratiques et une action collaborative. Le WWAP de l'UNESCO, en collaboration avec une coalition multipartite comprenant des institutions des États membres, des organisations internationales et régionales, des universités et des ONG, mène un appel mondial à l'action pour accélérer les progrès vers l'égalité des sexes dans le domaine de l'eau et construire des sociétés justes et résilientes. 
+
+        Cette session spéciale présente les efforts déployés sur le terrain pour atteindre l'objectif commun et combler le manque de données dans le secteur de l'eau en vue de l'égalité des sexes. Mobilisés par l'initiative "Call for Action", un certain nombre d'organisations et d'experts discuteront des stratégies et des bonnes pratiques pour surmonter les défis persistants liés au genre dans le domaine de l'eau. De même, la session explorera comment les décideurs de différentes régions du monde abordent les inégalités entre les sexes dans la gouvernance de l'eau et dans la gestion intégrée et adaptative de l'eau, et partagera des connaissances sur les approches visant à accroître la résilience et l'inclusion des membres de la communauté.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485809
+      guid: ''
+      hash: 54b4a98047866237bc6becc39e74832e
+  field_code:
+    -
+      value: SS10
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: e713b7a7-a08e-4bf3-a873-9353492b56fb
+    -
+      entity: ad2ba8cb-272e-4375-8bb1-1f69f529f017
+    -
+      entity: 391d77fb-2ede-45f3-9c4f-bfe46f2447d9
+    -
+      entity: 2aa61004-6d94-43e5-b814-041e53df1c0b
+    -
+      entity: 43629b57-29c0-4f5d-9b2d-a048e82eddcb
+  field_organisateurs_text:
+    -
+      value: 'UNESCO WWAP, Intergovernmental Organization'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Mots de bienvenue (5 min)
+        Directrice du WWAP de l'UNESCO, Michela Miletto - Introduction à l'appel à l'action
+
+        Membres de la Coalition multi-acteurs : soutien à l'Appel à l'action et introduction aux célébrations à mi-parcours de la Décennie internationale de l'eau 2023 (20 min)
+        o Slovénie - Borut Pahor, Président 
+        o Pays-Bas - Kitty van der Heijden, directrice générale de la coopération internationale, ministère des Affaires étrangères
+        o Tadjikistan - Sirojiddin Muhriddin, ministre des Affaires étrangères
+        o Italie - Marina Sereni, vice-ministre des affaires étrangères et de la coopération internationale 
+
+        Membres de la Coalition multipartite : perspectives nationales (50 min)
+
+        Panel 1 : De meilleures données pour des décisions mieux informées sur l'eau (20')
+        o Argentine - María Eugenia Vargas Zambrano, Chef de la Commission Genre, COHIFE (Consejo Hidrológico Federal) 
+        o Costa Rica - Plan pilote pour désagréger les données statistiques nationales sur l'eau par sexe - Vivian Gonzalez Gimenez, Directeur des projets et des processus stratégiques, Ministère de l'eau et de l'énergie
+        o Liberia - (à confirmer)
+        o Banque mondiale - Karin Krchnak, gestionnaire de programme, groupe Ressources en eau 2030 / ou / Kamila Galeza, spécialiste du développement social, Groupe de la Banque mondiale 
+
+        Panel 2 : Politiques et programmes qui fonctionnent sur le terrain - Expériences régionales des politiques de l'eau et du genre (30')
+        o AMCOW - Comfort Kanshio, Agent de soutien ASPG et Point Focal Genre - L'intégration du genre et la politique de la jeunesse
+        o Banque asiatique de développement - Renforcement des pratiques WASH et changement de comportement en matière d'hygiène dans le Pacifique / Organisation régionale, Vivian Castro-Wooldridge
+        o Réseau méditerranéen des jeunes pour l'eau, Mme Fatine Ezbakhe, coordinatrice 2020-2022 / ou / WSP 
+        o WIWAS - Soutien aux femmes professionnelles des services de l'eau en Afrique - Mme Leunita Sumba, Présidente
+        o Côte d'Ivoire - Mme Euphrasie Kouassi Yao, Conseillère du Président sur les questions de genre, ancienne ministre 
+        o AFD (Agence Française de Développement) - Mme Céline Gilquin, Chef de service eau et assainissement 
+
+          
+        Questions et réponses (15 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

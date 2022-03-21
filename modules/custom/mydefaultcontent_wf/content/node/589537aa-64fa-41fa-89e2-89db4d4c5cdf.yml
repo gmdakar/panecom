@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 589537aa-64fa-41fa-89e2-89db4d4c5cdf
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    a2e2d6ec-024c-4adf-b394-8dc79a54127a: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    b3cd2a58-107f-4a82-80ed-184648b9f123: taxonomy_term
+    51b6674a-b1a7-4d44-90fb-a8ceb5ffbac9: taxonomy_term
+    b196d738-a10d-4892-9342-28406d40bf0f: taxonomy_term
+    17add517-fb2b-4fe7-a6f0-fe88e7521fbe: taxonomy_term
+    6de27f58-58cd-4d25-b179-846f1aaf40ac: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mettre en œuvre le droit humain à l’eau'
+  created:
+    -
+      value: 1647484935
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/mettre-en-oeuvre-le-droit-humain-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le droit humain à l''eau est une composante essentielle du cadre international des droits, et un élément nécessaire à l''avancement de la société humaine et du développement. Dans la foulée du 10e anniversaire de l''adoption par l''Assemblée générale des Nations unies de la résolution 64/292 reconnaissant explicitement le droit à l''eau et du 20e anniversaire de l''observation générale 15 du Comité des droits économiques, sociaux et culturels reconnaissant le droit humain à l''eau, ce panel pose la question suivante : où en sommes-nous et où allons-nous ? Ce panel de grande envergure réunira des voix à l''avant-garde de ces efforts, montrant comment le droit, l''éducation, le journalisme, la technologie et le développement peuvent aider à mener les deux prochaines décennies d''action.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484935
+      guid: ''
+      hash: 3ef525801b4034b9a032faebace6c2eb
+  field_code:
+    -
+      value: 1A2
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a2e2d6ec-024c-4adf-b394-8dc79a54127a
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: b3cd2a58-107f-4a82-80ed-184648b9f123
+    -
+      entity: 51b6674a-b1a7-4d44-90fb-a8ceb5ffbac9
+    -
+      entity: b196d738-a10d-4892-9342-28406d40bf0f
+    -
+      entity: 17add517-fb2b-4fe7-a6f0-fe88e7521fbe
+    -
+      entity: 6de27f58-58cd-4d25-b179-846f1aaf40ac
+  field_organisateurs_text:
+    -
+      value: 'The Center for Water Security and Cooperation ; RECOJAC'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UN Special Rapporteur for the Human Right to Water and Sanitation; RECOJAC; Center for Water Security and Cooperation; Sanitation and Water for All; The United Nations; The United Nations Office of the High Commissioner for Human Rights--West Africa; Camide; H3A; Water for Life Cameroon; Lydec.'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: " Projet un : Projet d'amélioration de l'accès aux services de base dans les quartiers informels des zones périurbaines et rurales de Casablanca.\r\nOrganisation : Lydec\r\n\r\nProjet deux : Approches innovantes pour la fourniture de services de base\r\nOrganisation : H3A\r\n\r\nTroisième projet : Développer le respect de l'eau par le biais de Kids Wealth at School à Yaoundé (KWESY)\r\nOrganisation : Eau pour la vie Cameroun\r\n\r\nProjet quatre : L'accès à l'eau : un droit humain essentiel pour la paix et le développement (voix des jeunes)\r\nOrganisation : Camide (Mali)\r\n\r\nProjet 5 : Présentation des projets en cours\r\nOrganisation : Haut Commissariat des Nations Unies aux droits de l'homme - Bureau Afrique de l'Ouest \r\n"
+      format: plain_text
+  field_programme:
+    -
+      value: " Partie I. Introduction (2 minutes)\r\n1. Accueil et présentation de la session ; reconnaissance du groupe consultatif et respect de tous les protocoles (2 minutes)\r\n\r\nPartie II. Croissance globale du droit humain à l'eau (49 minutes)\r\n2. Présentation du Rapporteur Spécial pour l'Eau et l'Assainissement (1 minute)\r\n\r\n3. S.E. le Rapporteur Spécial Pedro Arrojo-Agudo (\"Défis clés pour la réalisation future du droit humain à l'eau\") (10 minutes)\r\n\r\n4. Présentation des panélistes (2 minutes)\r\n\r\n5. Panéliste : Anjani Kapoor, Sanitation and Water for All Présentation sur la réédition du Manuel sur la réalisation du DH2S (9 minutes)\r\n\r\n6. Panéliste : Luke Wilson, Directeur adjoint du Centre pour la sécurité de l'eau et la coopération. \r\nTitre : Améliorer les cadres juridiques pour HR2W : la prochaine décennie (9 minutes)\r\n\r\n7. Panéliste : Joseph Moukoue de RECOJAC \r\nTitre : Activer les journalistes : Responsabilité et éducation sur HR2W à travers un reportage responsable (9 minutes)\r\n\r\n8. Panéliste : Représentant des Nations Unies\r\nTitre : L'approche des droits de l'homme de l'ONU : Tracer la voie pour atteindre les ODD (9 minutes)\r\n\r\nPartie III. Projets de mise en œuvre du HR2W (37 minutes)\r\n9. Présentation des projets de mise en œuvre de HR2W (2 minutes)\r\n\r\nProjet Un : Projet d'amélioration de l'accès aux services de base dans les quartiers informels des zones périurbaines et rurales de Casablanca (7 minutes)\r\nOrganisation : Lydec\r\nOrateur proposé : Saadia Zouheir, Chef de projet INDH-INMAE\r\n\r\nDeuxième projet : Approches innovantes pour la fourniture de services de base (7 minutes)\r\nOrganisation : H3A\r\nOrateur proposé : Godwill Babalao, PDG de H3A\r\n\r\nProjet trois : Renforcer le respect de l'eau grâce à Kids Wealth at School in Yaounde (KWESY) (7 minutes)\r\nOrganisation : Eau pour la vie Cameroun\r\nConférencier proposé : Pierre Alain Biboum\r\n\r\nQuatrième projet : L'accès à l'eau : un droit humain essentiel pour la paix et le développement\r\n(7 minutes)\r\nOrganisation : Camide (Mali)\r\nOrateur proposé : Safiatou Traoré\r\n\r\nProjet 5 : Présentation des projets en cours (7 minutes)\r\nOrganisation : Haut Commissariat des Nations Unies aux droits de l'homme - Bureau Afrique de l'Ouest \r\nOrateur proposé : Yaye Ba, HCDH\r\n\r\nPartie IV. Conclusions (2 minutes)\r\n10. Synthèse thématique et remarques finales (2 minutes)\r\n\r\nDurée totale : 90 minutes\r\n"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Nous pensons que la session peut être un tremplin pour des changements fondamentaux dans la gouvernance du secteur, et peut fournir une feuille de route aux organisations, aux gouvernements, aux citoyens et aux journalistes pour mieux harmoniser et protéger l'eau et l'accès à l'eau dans leurs pays.  Tirer parti du passé et créer une vision pour l'avenir exigera également beaucoup d'efforts en matière d'éducation, de plaidoyer, de technologie, de droit, de journalisme et autres avant et après le Forum, et nous développerons des partenariats de suivi pour y parvenir au cours de la période. 
+
+        Le Forum est l'occasion d'exploiter un grand espoir, un monde émergeant qui cherche à résoudre les problèmes, et une population qui sait - maintenant plus que jamais - combien l'eau est importante. En revendiquant clairement et en définissant une voie claire pour l'eau, nous sommes convaincus que nous pouvons fixer le cap pour l'eau pour les deux prochaines décennies".
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

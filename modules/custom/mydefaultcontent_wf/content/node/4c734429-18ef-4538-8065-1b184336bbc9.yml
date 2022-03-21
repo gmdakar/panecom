@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4c734429-18ef-4538-8065-1b184336bbc9
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    bf2124a3-74ae-41fe-a3f5-e69f9b81628d: taxonomy_term
+    ce775465-9e53-42fd-ac0a-290e816d70dd: taxonomy_term
+    40a158bb-ff02-42d7-83ed-e8659a0ff256: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    ca1c17c1-89f3-49d6-b5d2-fa981e583f14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Présentation du document Pays de la Côte d''Ivoire'
+  created:
+    -
+      value: 1647486182
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/presentation-du-document-pays-de-la-cote-divoire
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Dans un contexte de raréfaction, de dégradation et de conflits autour de la ressource en eau, des solutions idoines doivent être trouvées pour l’humanité. A travers cette session la Côte d’Ivoire entend montrer sa contribution dans ce processus de recherche de solution à travers son expérience dans le domaine et ses attentes. 
+        Le document-pays, sans se soustraire des réalités sous-régionales et continentales, présente un état des lieux des ressources en eaux en Côte d’Ivoire et fait une esquisse du Plan National de Gestion Intégrée des Ressources en Eau (PLANGIRE) en cours d’actualisation.
+        Par ailleurs, la capacité interne de mobilisation des ressources financières étant en deçà des besoins de financements du Plan d’Actions National de Gestion Intégrée des Ressources en Eau (PLANGIRE), le Forum Mondial de l’Eau est une opportunité à saisir afin démontrer que la Côte d’Ivoire est une référence utile à tous les Partenaires au Développement désireux l’accompagner dans son ambitieux programme d’opérationnalisation de la GIRE.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486182
+      guid: ''
+      hash: f6f7fa296f75f283b2060d2d649c2fb2
+  field_code:
+    -
+      value: SE42
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Ministre des Eaux et Forêt
+        Ministre de l'Hydraulique
+        Ministre de l'Assainissement
+        Directeur Général des Ressources en Eau
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: bf2124a3-74ae-41fe-a3f5-e69f9b81628d
+    -
+      entity: ce775465-9e53-42fd-ac0a-290e816d70dd
+    -
+      entity: 40a158bb-ff02-42d7-83ed-e8659a0ff256
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+  field_organisateurs_text:
+    -
+      value: 'Ministère des Eaux et Forêts (Direction Générale des Ressources en Eau)'
+      format: plain_text
+  field_programme:
+    -
+      value: '15 min de présentation et 45 min de discussions'
+      format: basic_html
+  field_salle:
+    -
+      entity: ca1c17c1-89f3-49d6-b5d2-fa981e583f14

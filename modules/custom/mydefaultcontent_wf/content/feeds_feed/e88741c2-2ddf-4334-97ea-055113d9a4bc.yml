@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: feeds_feed
+  uuid: e88741c2-2ddf-4334-97ea-055113d9a4bc
+  bundle: migrate_agenda_en_
+default:
+  title:
+    -
+      value: 'Migrate feeds OTS (en)'
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1646247905
+  imported:
+    -
+      value: 1647484857
+  next:
+    -
+      value: -1
+  queued:
+    -
+      value: 0
+  source:
+    -
+      value: 'private://feeds/Copy of OTS -English Version.csv'
+  item_count:
+    -
+      value: 86

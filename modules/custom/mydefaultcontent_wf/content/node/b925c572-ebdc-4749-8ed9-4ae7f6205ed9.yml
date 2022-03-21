@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b925c572-ebdc-4749-8ed9-4ae7f6205ed9
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    7969c18d-e09d-41a9-b6c9-865b296debb8: taxonomy_term
+    386d5888-5212-4ce6-b720-9f1b14fe09a5: taxonomy_term
+    ad480116-93bc-43fd-8075-d5155de561b0: taxonomy_term
+    b7179152-1da3-4f93-b055-db272447ee3f: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Cost- Benefit Opportunities to enforce Environmental Health country Capacity building by African decision makers (institutionals - territories - NGOs) 
+        Call for intersectorial all to implementation environmental determinants of health in all public polic…
+  created:
+    -
+      value: 1647493847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cost-benefit-opportunities-enforce-environmental-health-country-capacity-building-african-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+
+        The impact of the environment on the health of individuals and communities is profound. Nowhere is this reality felt as strongly as on the African continent, where a large proportion of diseases are determined by environmental factors, and where the living conditions of communities (habitat, food, transport) make them extremely vulnerable to changes in the environment and climate.
+
+        Through the Libreville Agreements adopted in 2008, 47 African governments pledged to act in an integrated way on the environmental and societal determinants of human health and ecosystem integrity, adopting an environmental policy framework. & Health for Africa under the auspices of WHO and UNEP. Ten years after the signing of these historic agreements, progress has been made, but joint prevention actions remain largely insufficient in view of countries' needs. According to WHO, up to 40% of premature deaths in sub-Saharan Africa are due to environmental pollution (air, water, soil), making it one of the most affected regions in the world.
+
+        Beyond the international injunctions, the implementation of these joint programs requires capacities of action (infrastructures, skills) which are today insufficient or absent in most African countries. In this context, the recent publication of the Lancet-WHO Commission urges the governments of these countries to build their capacity for environmental health in planning processes in order to be able to (i) address the associated challenges and strategies, (ii) seek support from development agencies to (iii) design and implement large-scale joint programs and interventions.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493847
+      guid: ''
+      hash: b6504c2c7dfbf9b818fa305cd87d7130
+  field_code:
+    -
+      value: SS38
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 7969c18d-e09d-41a9-b6c9-865b296debb8
+    -
+      entity: 386d5888-5212-4ce6-b720-9f1b14fe09a5
+    -
+      entity: ad480116-93bc-43fd-8075-d5155de561b0
+    -
+      entity: b7179152-1da3-4f93-b055-db272447ee3f
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance'
+      format: basic_html
+  field_programme:
+    -
+      value: '3 x 10'' + 10'' Q&A + 5'' Take Home messages'
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

@@ -1,0 +1,179 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 824905fd-3a87-497b-84dc-386210e43cf6
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    cdc34610-6841-4f97-bc0c-eb00e3f6f226: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    78d88cb5-107c-4a8d-ae4e-165c4208e379: taxonomy_term
+    7745f892-7ca2-4ec8-8063-78f0a0cbc48a: taxonomy_term
+    5b26fc6a-5480-4565-aee6-1cb9ac5289c2: taxonomy_term
+    6af2f42d-fd0f-4c65-9836-c564738e5f3f: taxonomy_term
+    d655d0f9-4466-4afd-a3f4-36c8afc01056: taxonomy_term
+    6d2065c7-695f-4278-bc91-17dc5ef40e3d: taxonomy_term
+    603739db-8271-4a81-80ac-42df4efa6621: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''agroécologie en action pour rendre les eaux productives aux agriculteurs'
+  created:
+    -
+      value: 1647484949
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lagroecologie-en-action-pour-rendre-les-eaux-productives-aux-agriculteurs
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''objectif général est de donner aux petits exploitants agricoles les moyens d''agir grâce à des techniques agroécologiques afin de rendre l''accès aux eaux productives durable et équitable. Fournir les outils permettant de transformer les économies d''eau en une ressource productrice de richesse et diffuser des techniques agroécologiques améliorées en tant qu''outils de sauvegarde de l''eau et des sols au profit de la production agricole.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484949
+      guid: ''
+      hash: cd0d5d57bfbadee27f9483aaf146d26a
+  field_code:
+    -
+      value: '2E1'
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: cdc34610-6841-4f97-bc0c-eb00e3f6f226
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 78d88cb5-107c-4a8d-ae4e-165c4208e379
+    -
+      entity: 7745f892-7ca2-4ec8-8063-78f0a0cbc48a
+    -
+      entity: 5b26fc6a-5480-4565-aee6-1cb9ac5289c2
+    -
+      entity: 6af2f42d-fd0f-4c65-9836-c564738e5f3f
+    -
+      entity: d655d0f9-4466-4afd-a3f4-36c8afc01056
+    -
+      entity: 6d2065c7-695f-4278-bc91-17dc5ef40e3d
+    -
+      entity: 603739db-8271-4a81-80ac-42df4efa6621
+  field_organisateurs_text:
+    -
+      value: |
+        ORANGE Didier (IRD), 
+        DIALLO Hamet (GRET/DyTAES), 
+
+        IRD (French National research institute for sustainable development), French public research institution
+        DyTAES, Senegalese association on TAE (Agroecological transition) 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Santé & Territoires (CIRAD, ISRA, …)
+        IRD / CERAAS 
+        COSTEA (INRAe, AVSF, BRL ; Algérie, Sénégal, Cambodge)
+        INERA
+        IRD / COLAB
+        Up2Green
+        ISRA
+        ENDA-Pronat
+        IPAR
+        SOS Sahel
+        CICODEV
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "Objectif : Diffuser de meilleures techniques agroécologiques comme moyens techniques d'économie d'eau rentable et de sols rentables pour la production agricole.
+
+        Description et objectif : Dans les zones rurales, l'accès à l'eau est souvent difficile. L'amélioration de la productivité de l'eau est également un défi majeur. Les techniques agroécologiques permettent de rationaliser l'utilisation de l'eau pour une production verte, en utilisant des associations de plantes et/ou l'agroforesterie pour utiliser les services écosystémiques du sol (humidité du sol, sol vivant...).
+
+        Ce point traite de l'utilisation de la transition agroécologique pour économiser l'eau et les sols pour l'enrichissement des agriculteurs. Nous proposons 6 exemples :
+
+        - Hamet DIALLO (GRET et DyTAES, Sénégal) 
+        Des Plateformes Locales de l'Eau (PLE) comme "acteurs passerelles" pour une TAE qui sécurise durablement les usages de l'eau
+
+        - Rémi HEMERICK (SOS Sahel, Sénégal, Burkina Faso) et Henri GERARD (TERRE VERTE, Burkina Faso)
+        Paysage et TAE : le bocage sahélien 
+
+        - Katia ROESCH (COSTEA, AVSF, Algérie, Sénégal, Cambodge) 
+        Performances et conditions de développement de l'agroécologie dans les systèmes irrigués
+
+        - Amandine Adamczewski-Hertzog (Santé-Territoire, Sénégal, Bénin, Cambodge)
+        La santé, un levier de développement dans le cadre de la transition agro écologique
+
+        - Vincent Vadez (IRD, LAPSE, France / Sénégal)
+        Intensification des cultures pour augmenter l'efficacité de l'utilisation de l'eau
+
+        - Ivan Zang (COLAB, IRD-Bond'Innov-Makesense, France, Tunisie)
+        Exemple en Tunisie d'un programme d'intelligence collective et d'innovation pour la TAE (COLAB)
+
+        Un dépliant basé sur ces projets sera publié.
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Accueil et introduction [10']
+        - 6 introductions de 5 mn basées sur des exemples [30']
+        - Panel de discussion sur les questions soulevées dans l'assemblée [45']
+        - Messages clés et conclusion [5']
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Cette session se veut un plaidoyer en faveur de la transition agroécologique pour assurer une intensification durable de l'agriculture et la sécurité alimentaire et nutritionnelle en Afrique de l'Ouest, au regard des actions politiques concrètes suivantes : Plaider pour l'amélioration de la gouvernance mondiale et locale de l'eau en lien avec les structures traitant des questions d'alimentation et d'agriculture, par la création d'une structure intergouvernementale sur l'eau&l'alimentation dans le cadre de l'ONU et approuvée par les États membres.
+
+        Les résultats du suivi seront (1) de réduire la facture d'eau des populations rurales, (2) d'améliorer la productivité de l'eau, (3) d'enrichir les populations rurales en améliorant leurs conditions de vie, et (4) de redonner du pouvoir aux petits agriculteurs pour la production maraîchère destinée aux citadins.
+
+        Enfin, la session plaide pour l'amélioration de la gouvernance mondiale de l'eau en lien avec les structures traitant des questions d'alimentation et d'agriculture, par la création d'une structure intergouvernementale sur l'eau et l'alimentation dans le cadre de l'ONU et approuvée par les États membres.
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

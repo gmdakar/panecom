@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ec32aff9-6180-481c-81de-4db39ceca883
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    32af89df-8bf6-468d-beb2-e375a4374800: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    8d820030-9c54-46e9-bc6b-1c7a76d50905: taxonomy_term
+    18060609-7904-4ccf-b3ff-5fa3ffdd1755: taxonomy_term
+    4c010290-28c2-4cf7-92c4-38c42c7efe1f: taxonomy_term
+    e7bb9e89-9953-43cf-96a3-6bfdd441486a: taxonomy_term
+    d2be0b07-9ff2-41f0-a6b0-d58028ec3797: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Improving resilience and adaptation to climate change, crises and extreme water disasters through strategies, planning and social capacity building'
+  created:
+    -
+      value: 1647484832
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/improving-resilience-and-adaptation-climate-change-crises-and-extreme-water-disasters
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Water-related disasters, such as floods, droughts, and storm surges, cause huge human and economic losses and pose serious impediments to sustainable development efforts, and climate change is increasing the frequency and intensity of those disasters. The challenges lie in addressing increased risks and impacts of water-related disasters considering the uncertainty of climate change projection.
+
+        The session will share practical knowledge and experiences and highlight the discussion on adapative decision making, social capacity building, and increasing public awareness. Furthermore, the session will dive deep into how to develop effective, efficient and feasible strategies and plans to address water-related disasters considering climate change impacts, and how to enhance a broader range of stakeholders’ engagement and concereted efforts.
+
+        The outcomes of the discussion will accelerate the successful implementation of effective and efficient water-related disaster risk reduction and climate change adaptation, including Nationally Determined Contributions (NDCs) & National Adaptation Plans (NAPs). 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484832
+      guid: ''
+      hash: 66fb58b32082483a910aba3fd8486998
+  field_code:
+    -
+      value: 1F2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 32af89df-8bf6-468d-beb2-e375a4374800
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 8d820030-9c54-46e9-bc6b-1c7a76d50905
+    -
+      entity: 18060609-7904-4ccf-b3ff-5fa3ffdd1755
+    -
+      entity: 4c010290-28c2-4cf7-92c4-38c42c7efe1f
+    -
+      entity: e7bb9e89-9953-43cf-96a3-6bfdd441486a
+    -
+      entity: d2be0b07-9ff2-41f0-a6b0-d58028ec3797
+  field_other_organizers_text:
+    -
+      value: |-
+        •	INBO / RIOB:
+
+        •	UNCCD:
+
+        •	Ms. Caroline King-Okumu (representative of the The Borders Institute Africa, but here in her personal capacity)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        - Project of the Japan Water Forum “Planning and implementation of water-related disaster risk reduction/preparedness measures with a focus on climate change impacts.
+        - Project of AESN & CREDEL on Nature-based Solutions for flood prevention in Benin.
+        - Project of the International Sava River Basin Commission “Development of the climate adaptation strategy and basin-wide priority measures for the Sava River Basin”.
+        - Project of the Ministry of Agriculture of the Republic of Kazakhstan “Climate change adaptation and flood/drought management of the Aral Syrdarya Basin”.
+        - Project of the French Development Agency (AFD): “Fight against floods: support to the establishment of a national policy on integrated management of urban floods to reduce disaster risk” (Senegal)
+        - Project of the Secours Islamique France : "Sustainable solutions to floods and droughts in Pakistan”
+        - The UNCCD’s Intergovernmental Working Group on Drought
+        - Project of the Beninese Network of the World Youth Parliament for Water “Environment, Youth and Agenda 2063 (EYA)”
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Opening /JWF (3 min)
+        Keynote speech (tbd, 7 min)
+        Panel discussion, incl. Q&A (48 min)
+        Wrap-up and closing (5 min)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Pursuit and extension of the number of initiatives implemented to boost resilience and adaptative capacity to climate change, crises and extreme water disasters in above-mentioned international & national programs. 
+
+        The results of the discussion will be compiled as a recommendation from the session. They are expected to accelerate the successful implementation of effective and efficient strategies and plans of water-related DRR and climate change adaptation, including NDCs & NAPs.
+        Moreover, they will be input to the 4th Asia-Pacific Water Summit (Kumamoto, Japan, 23-24 April, 2022), which is a supporting event of UN Conference on the Mid-term review of the Water Action Decade 2018-2028 mentioned in the UN resolution (A/RES/75/212) .
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

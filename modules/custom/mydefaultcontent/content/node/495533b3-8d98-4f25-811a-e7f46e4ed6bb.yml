@@ -1,0 +1,157 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 495533b3-8d98-4f25-811a-e7f46e4ed6bb
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    876d99d6-a4cd-47e4-b216-237d50cb5b85: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    9cdc11d9-e9f3-46e6-833f-c7425e423ef3: taxonomy_term
+    2dea84cc-28f0-4a5f-9003-fa9d57f2f132: taxonomy_term
+    9597ceb5-8a03-4185-b9c5-625e75244654: taxonomy_term
+    1fb471a5-fe66-4ad3-8236-3108728b9067: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accelerating safely managed sanitation for health:  a road map for governance, finance, data, capacity and innovation'
+  created:
+    -
+      value: 1647484831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accelerating-safely-managed-sanitation-health-road-map-governance-finance-data-capacity-and
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The world is alarmingly off-track to deliver universal access to safe sanitation by 2030.  Rates of progress need to quadruple to achieve the SDG target and claim the myriad health, environmental and socio-economic benefits that come from safely managed sanitation. 
+        This thematic session with explore the five dimensions of the SDG6 global acceleration framework (GAF) with evidence, actions and successful cases set out in the State of the World Sanitation report.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484831
+      guid: ''
+      hash: 01b2c64b651c55288f67b522f1233d9c
+  field_code:
+    -
+      value: 1C3
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 876d99d6-a4cd-47e4-b216-237d50cb5b85
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 9cdc11d9-e9f3-46e6-833f-c7425e423ef3
+    -
+      entity: 2dea84cc-28f0-4a5f-9003-fa9d57f2f132
+    -
+      entity: 9597ceb5-8a03-4185-b9c5-625e75244654
+    -
+      entity: 1fb471a5-fe66-4ad3-8236-3108728b9067
+  field_organisateurs_text:
+    -
+      value: 'WHO, UNICEF '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'WHO, Action contre la Faim (ACF), UNC, Master of Public Health graduate at McMaster University, Turkish Water Institute (SUEN) , WATERAID, SEN’EAU, Croix-Rouge Française) plus other orgs most relevant'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        Project 5:  Global monitoring on WASH and WASH related burden of disease (SDG 6.1,6.2, 6.3 6A, 6B, 3.9)
+        Project 1:  Global Task Force (GTFCC) Cholera Control Road Map
+        Project X:  Global strategy and toolkit for WASH and Neglected tropical diseases in support of the NTD roadmap 2021-2030
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Keynote presentation – the State of the World’s Sanitation (WHO/UNICEF) (Project 5) (20mins) 
+
+        •	Reactions in person of by video message from stand out acceleration success stories (5mins each):
+        - Singapore
+        - India
+        - Nigeria or Senegal
+
+        Rapid framing presentations on sanitation related disease (10 mins each):
+
+        •	Burden of WASH related disease – WHO
+        •	Health sector collaboration to reduce water related disease – Cholera (GTFCC) and Neglected Tropical Diseases (NTDs) 
+
+        Panel discussion on the five Global Acceleration Framework elements (30mins)  
+
+        Moderator – Aaron Salzberg UNC (all speakers TBC)
+
+        •	Governance – regulating sanitation services 
+        - Peter Mutale, NAWASCO, Zambia or Yvonne Magawa ESAWAS
+         
+        •	Finance – the economic case and increasing finance for sanitation
+        - Guy Hutton, UNICEF or Catarina De Albuquerque, SWA 
+
+        •	Data – Data for decision making, targeting and course correction
+        - Rick Johnston WHO/UNCEF JMP and/or ACF on WASH severity classification or AMCOW on regional data through the Africs Sanitation Policy Guidelines
+
+        •	Capacity – sanitation workforce needs
+        - Awa Daigne, World Bank or Andres Hueso, WaterAid   
+
+        •	Innovation – identifying and responding to climate risks  
+        - Juliet Willets, University of Technology Sydney or XXX- University of Leeds or Water youth network
+
+        Closing remarks (5mins) 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Participants will have a strong understanding of the status of sanitation related disease, status of coverage of safely managed sanitation services now and the level of acceleration needed to reach SDG goals.  Participant will also understand the current status of policy and financing investment in sanitation and key acceleration needed to meet SDG6.2 structured around the five elements of the SDG6 GAF - governance, finance, data, capacity and innovation.  Participant will leave motivated by positive example of rapid acceleration from history and current '
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

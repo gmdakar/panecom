@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 567013f6-3faa-4171-898c-71a08429b3a2
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    1c0d6eaf-c04d-4dc7-8edd-a56e944fb157: taxonomy_term
+    f92dce8d-2c02-4f3c-b44a-d40e1ee62824: taxonomy_term
+    7c8648d7-7129-4ad9-b67f-f5c3c4f55392: taxonomy_term
+    307af519-e05c-46d7-90bd-40e9ff3fba55: taxonomy_term
+    61e95c76-ddde-4169-91ca-c611a5d573cd: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Territorialization of policies: water and agro- ecology at the service of rural development and the Agenda 2030'
+  created:
+    -
+      value: 1647493838
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/territorialization-policies-water-and-agro-ecology-service-rural-development-and-agenda-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Rural maldevelopment, rising climate problems, degradation of natural resources, water, food and socio-political insecurity... The 2020-2030 decade will be decisive (MDGs, climate action...). We need to change our way of thinking, we need to build differently.
+        Building differently means moving from not doing (neglecting the rural world) or "doing" (top-down, silo-based, technocratic actions and policies) to "doing with": with people, with nature and with territories. 
+        Providing answers that meet the challenges requires more living soil, more agronomy, more water and more mobilization and investment. These are central issues, political in the noble sense of the term, which require new long-term visions, systemic analyses and territorialized approaches. 
+        The special session follows two international meetings "on the road to Dakar", organized in October 2021 (7th edition of the seminar on water and food security in West Africa and the Mediterranean -SESAME- and the Parmenides Conference of Bari on the management of watersheds in the Mediterranean). Based on their conclusions, it aims to :
+        - to highlight the elements of long-term vision and, through concrete examples, the possible contents and scope of "building differently
+        - to propose the elements of policies implementing the levers of a transition at different territorial scales,
+        - to bring out political messages that will contribute to the success of the Forum and its high-level panels.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493838
+      guid: ''
+      hash: c80954615c9b2ffc244703f41fed155a
+  field_code:
+    -
+      value: SS02
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 1c0d6eaf-c04d-4dc7-8edd-a56e944fb157
+    -
+      entity: f92dce8d-2c02-4f3c-b44a-d40e1ee62824
+    -
+      entity: 7c8648d7-7129-4ad9-b67f-f5c3c4f55392
+    -
+      entity: 307af519-e05c-46d7-90bd-40e9ff3fba55
+    -
+      entity: 61e95c76-ddde-4169-91ca-c611a5d573cd
+  field_organisateurs_text:
+    -
+      value: 'General Council for Food, Agriculture and Rural Areas, Ministry of Agriculture and Food'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        9:00-9:15: Introduction. 
+        Welcome by M Aït Kadi, moderator of the session 
+        Synthesis by G Benoit of the main conclusions of the SESAME and Parmenides seminars
+
+        9:15-10:00: Examples of territorial projects and territorialization of policies
+        - Ibrahim Rissa Ixa. Water and security in the Aïr massif and the Agadez region, Niger
+        - Céline Hugodot. Water and agriculture project of the Gignac canal, France
+        - Tatiana Motta. Renaissance Program - Jacarei Alliance for Forest, Water and Population, Brazil 
+        - Ali Bety Territorialization of policies, water and rural development, Niger 
+        Discussion
+
+        10:00-10:25: Panel chaired by Alain Moulinier
+        Panelists: Akiça Bahri (SESAME 7 panel chair), Sylvain Berton, ROPPA, Miguel Polo, Faouzi Bekkaoui
+
+        10:25-10:30: Conclusions
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

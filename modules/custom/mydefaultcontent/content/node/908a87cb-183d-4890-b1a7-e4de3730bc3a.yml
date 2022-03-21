@@ -1,0 +1,155 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 908a87cb-183d-4890-b1a7-e4de3730bc3a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    84d24a91-d590-4fbd-ba02-b2dd03e676bc: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    41648b57-a739-4602-95e6-4d42dc4432d1: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    894368c1-3c3b-43c1-916d-57ea168c8946: taxonomy_term
+    ffc52057-fe91-403a-a966-7f331e853a2e: taxonomy_term
+    4502623a-0194-4b79-b1a6-7d94a7a87c59: taxonomy_term
+    1a74bbdb-adb7-4b84-8a7e-e6261d6c760c: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Les déficits en eau et les événements extrêmes augmentent- ils les migrations et les déplacements ?'
+  created:
+    -
+      value: 1647484950
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/les-deficits-en-eau-et-les-evenements-extremes-augmentent-ils-les-migrations-et-les
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Il est de plus en plus évident que la pénurie d''eau, les changements dans les régimes de précipitations et les événements météorologiques extrêmes, combinés aux vulnérabilités socioéconomiques, sont à l''origine de migrations et de déplacements.  En 2016, les catastrophes liées au climat et à l''eau ont été responsables du déplacement de 23,5 millions de personnes.  Il est essentiel de combler les lacunes en matière de connaissances en recueillant des statistiques, des données et des informations sur les migrations et leurs moteurs, afin de soutenir des politiques, des programmes et des investissements fondés sur des preuves pour lutter contre les migrations. Il n''existe pas de solution claire et simple, mais si le coût des réponses aux migrations est préoccupant pour les États, le coût de l''absence de décisions le dépassera certainement. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484950
+      guid: ''
+      hash: 69f656d9ddcc5c4dac76f9eed45b11c1
+  field_code:
+    -
+      value: 2F2
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 84d24a91-d590-4fbd-ba02-b2dd03e676bc
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 41648b57-a739-4602-95e6-4d42dc4432d1
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 894368c1-3c3b-43c1-916d-57ea168c8946
+    -
+      entity: ffc52057-fe91-403a-a966-7f331e853a2e
+    -
+      entity: 4502623a-0194-4b79-b1a6-7d94a7a87c59
+    -
+      entity: 1a74bbdb-adb7-4b84-8a7e-e6261d6c760c
+  field_organisateurs_text:
+    -
+      value: |
+        Ms. Patricia Mejias-Moreno, FAO,  
+        Ms. Nidhi Nagabhatla , UNU, 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        IOM
+        GWP
+        Italian Agency for Development Cooperation, 
+        Turkish Water Institute Caritas 
+        UN Habitat
+        Ziguinchor University 
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "- Traiter les liens entre les migrations et les conflits liés au climat et à l'eau pour renforcer la résilience des communautés dans le bassin du Congo.
+
+        - Le rôle de la migration comme stratégie d'adaptation au changement climatique dans la région du Proche-Orient et de l'Afrique du Nord. 
+
+        - Programme "Un million de citernes" en Afrique de l'Ouest"
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Accueil et introduction par les coordinateurs de la session et sondage des participants (5 min)
+
+
+        - Aperçu général des connaissances actuelles sur la migration et l'eau (10 min)
+         Présentation des données et informations disponibles au niveau mondial (OIM) (10 min)
+          Présentation des projections de migration climatique (TBC) (10 min)
+
+        - Perspectives régionales (Afrique du Nord et Moyen-Orient, Afrique, Asie centrale, Amérique latine et Caraïbes) - 30 min
+
+        Le rôle de la migration comme stratégie d'adaptation au changement climatique dans la région du Proche-Orient et de l'Afrique du Nord (FAO) 
+
+        UNU CRIS (Causalité et tendances régionales (Afrique) des déplacements dus à la crise de l'eau et du climat - accent mis sur les communautés pastorales, mesures tactiques pour une migration gérée - diplomatie climatique pour négocier des voies de migration organisées et ordonnées).
+
+        Autres régions (à déterminer)
+
+        - Discussion du panel d'experts sur les lacunes en matière de connaissances ( 20 min) 
+
+
+        - Session Q/A (15 min)"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Bref rapport de conclusion résumant les résultats et établissant un cadre pour combler les lacunes en matière de connaissances.'
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

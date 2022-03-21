@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d16f9e5a-557f-4371-aef1-d3b9c57f9288
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    6d2065c7-695f-4278-bc91-17dc5ef40e3d: taxonomy_term
+    9ab83c94-de55-46d2-892c-09ef7c943e14: taxonomy_term
+    83c2cc65-3f44-45a4-ae03-6711ccbdb92f: taxonomy_term
+    6de27f58-58cd-4d25-b179-846f1aaf40ac: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nexus Eau- Energie- Alimentation- Environnement'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/nexus-eau-energie-alimentation-environnement-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        L’objectif principal de la session est de promouvoir l’approche du Nexus Eau-Energie-Alimentation-Environnement pour une réponse durable aux besoins de développement. 
+        Il s’agira de manière spécifique: 
+        -	De favoriser une meilleure compréhension du concept nexus eau-Energie- alimentation- environnement pour le développement de synergies; 
+        -	De cartographier les relations et impacts mutuels entre ces différents secteurs;
+        -	De faire émerger des bonnes pratiques et des solutions innovantes pour rendre opérationnelle l’approche Nexus ; 
+        -	De définir les méthodes de coopération afin de maximiser les avantages du nexus.
+        Au terme de la session, les résultats suivants sont attendus:
+        -	Une bonne compréhension du l’approche et des enjeux du Nexus Eau-Energie- Alimentation- Environnement;
+        -	De bonnes pratiques et des solutions innovantes pour rendre opérationnelle l’approche Nexus sont partagées;
+        -	Les mécanismes et leviers pour favoriser une coopération entre les acteurs sont identifiés;
+        -	Des recommandations sont formulées à l’endroit des différentes parties prenantes.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: e1af44ab88775ad30b5f8cd84aab31cf
+  field_code:
+    -
+      value: HLP25
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 6d2065c7-695f-4278-bc91-17dc5ef40e3d
+    -
+      entity: 9ab83c94-de55-46d2-892c-09ef7c943e14
+    -
+      entity: 83c2cc65-3f44-45a4-ae03-6711ccbdb92f
+    -
+      entity: 6de27f58-58cd-4d25-b179-846f1aaf40ac
+  field_organisateurs_text:
+    -
+      value: 'Programme des Nations Unies pour le Développement'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Timing	Communication	Intervenants
+        9 :00 – 9 :10	Mots de bienvenus et présentations des objectifs de la session	: Représentant Résident du PNUD
+        9 :10 – 9 :20	Présentation introductive sur l’approche nexus et des enjeux relatifs au nexus eau-énergie-alimentation-environnement	Monsieur le Ministre Abdou Fall : Facilitateur 
+        9 :20 – 9 :30	Gestion des ressources en eau et défis climatiques : Niokhor Diouf /DGPRE
+        9 :30 – 9 : 40	Partage des bonnes pratiques au niveau international :  Expert (TBC)
+        9 :40 – 9 : 55	Comment rendre opérationnel nexus eau-énergie- alimentation-environnement ? partage de bonnes pratiques/ innovations
+        Questions/réponses	: Participants
+        9 :55 – 9 : 50	Synthèse : PNUD
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

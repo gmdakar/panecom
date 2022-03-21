@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6372763-660b-4c7d-bd9b-f6f6faf240f0
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    9d3c7bea-c0f6-437b-8901-13a8048c612e: taxonomy_term
+    4e32f637-bad5-4a58-a4e4-e4c87801a790: taxonomy_term
+    25b1fcb7-3eaf-4add-99ba-56a72ea2b923: taxonomy_term
+    831ee09a-791d-495d-b1a0-0ee78d85b9ab: taxonomy_term
+    627e94ed-31a9-443b-b27e-955ea1e9fe33: taxonomy_term
+    5a5cf319-d983-4c90-9019-398db6bbec96: taxonomy_term
+    a738737d-8d8b-45da-8a59-3f01fb8ad899: taxonomy_term
+    c794e8e2-b962-4e9f-8ad8-9063b3552302: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'A school of Eco health in Nogthie (Senegal)'
+  created:
+    -
+      value: 1647486046
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/school-eco-health-nogthie-senegal
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The project to build a School of Ecohealth was decided between the inhabitants of the village of Ngothie (Senegal) and an international team of researchers who propose to build sustainable and durable solutions to the current climatic challenges that lead to soil depletion and risk of famine in the coming years.  The objective of this program, over 5 years, is to set up a School of Ecohealth, based on a cooperative of research and collective actions of local eco-productive arrangements aiming at training in the safeguarding of water, seeds, medicinal plants through the development of agroecology and the safeguarding of ecological knowledge. The School wants to open an original third space of dialogue of the ecological knowledge of Senegal, those of Brazil and Europe to develop the collective health.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486046
+      guid: ''
+      hash: f65e5480fe263f27bf447b866954dc7b
+  field_code:
+    -
+      value: SE3
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Jacqueline Descarpentries, UMR CNRS LADYSS Paris 8, University of Paris 8 ( France), jacqueline.descarpentries@univ-paris8.fr, Babacar Diouf, Moussa Mbodji, Amadou Yade, UCAD Dakar ( Senegal), representatives of the village of Ngothie, Savino Wilson, Edmundo Gallo, Lorena Portela, Oswaldo Cruz Foundation, Rio de Janeiro (Brazil), Vaguihno Nascimento, OTTS, and Forum of Traditional Communities ( Brazil), Joao Nunès , CES, University of Coimbra; (Porugal) Farba Diouf, Clarissa Figueira, Alice Furtado, UMR CNRS LADYSS Paris 8, University of Paris 8 ( France)  '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 9d3c7bea-c0f6-437b-8901-13a8048c612e
+    -
+      entity: 4e32f637-bad5-4a58-a4e4-e4c87801a790
+    -
+      entity: 25b1fcb7-3eaf-4add-99ba-56a72ea2b923
+    -
+      entity: 831ee09a-791d-495d-b1a0-0ee78d85b9ab
+    -
+      entity: 627e94ed-31a9-443b-b27e-955ea1e9fe33
+    -
+      entity: 5a5cf319-d983-4c90-9019-398db6bbec96
+    -
+      entity: a738737d-8d8b-45da-8a59-3f01fb8ad899
+  field_organisateurs_text:
+    -
+      value: 'L'' Université Coopérative Internationale UMR CNRS LADYSS PARIS 8 Université Paris 8-Vincennes '
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        Proposed date: March 22, 22 afternoon.
+        Presentation of the global project of the Eco Health School Jacqueline Descarpentries and Clarissa Figuiera, UMR CNRS LADYSS Paris 8, University of Paris 8, Babacar Diouf UCAD of Dakar 
+        A territory made vulnerable by climate change: the representatives of the village of Ngothie and the contribution of geography: Alice Furtado, UMR CNRS LADYSS Paris 8
+        Responses to health and environmental vulnerabilities: Savino Wilson, Oswaldo Cruz Foundation Rio de Janeiro (Brazil), Lorena Portela, Moussa Mobdji (UCAD Dakar), 
+        Nghotie: a territory of learning through agroecology: Edmundo Gallo, Vaguihno Nascimento, OTTS, and Forum of Traditional Communities (Brazil), 
+        Safeguarding ecological knowledge: Joao Nunès, CES, University of Coimbra; (Portugal) Farba Diouf, UMR CNRS LADYSS Paris 8, University of Paris 8,
+        Conclusion of the session: A school of Ecohealth for a collective health.
+
+      format: plain_text
+  field_salle:
+    -
+      entity: c794e8e2-b962-4e9f-8ad8-9063b3552302

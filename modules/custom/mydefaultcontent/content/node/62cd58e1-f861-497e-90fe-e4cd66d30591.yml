@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62cd58e1-f861-497e-90fe-e4cd66d30591
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    8ddcbbfb-8482-4e08-988b-228355912471: taxonomy_term
+    908b02aa-89d3-4e52-b5c4-b7ed781de2b5: taxonomy_term
+    d7ae6ea2-9dd9-420c-a167-80633f17227f: taxonomy_term
+    ea2a014b-e3cc-410e-b50f-d03770f59cb0: taxonomy_term
+    ef1103e8-2a70-4e6d-802d-0fcc7720106f: taxonomy_term
+    345960d0-6db5-4bb1-a708-3b406ef52491: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '« Initiative pour l’Irrigation au sahel : Des solutions d''irrigation pour améliorer et accélérer les investissements dans l''eau agricole au Sahel et en Afrique de l’Ouest. »'
+  created:
+    -
+      value: 1647486184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/initiative-pour-lirrigation-au-sahel-des-solutions-dirrigation-pour-ameliorer-et-accelerer
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le programme ’Initiative pour l’irrigation au Sahel-(2iS) issu de l’ambition des chefs d’Etats du Sahel, traduite dans la Déclaration de Dakar sur l’irrigation en 2013 vise à accélérer le rythme des investissements pour atteindre 1 000 000 ha de superficies irriguées dans un horizon rapproché. Elle a été saluée par l’ensemble des parties prenantes, car elle correspond à l'ampleur des défis sociaux, économiques et environnementaux du Sahel.
+        Dans une présentation introductive, le CILSS mandaté par les pays, expliquera comment la « Déclaration de Dakar » sur l’irrigation a été traduite en programme régional d’investissements sur la base d’un document consensuel et critique sur la situation de la gestion de l’eau agricole au Sahel, le Cadre Stratégique pour l’Eau Agricole au Sahel (CSEAS). Le CSEAS élaboré par les acteurs de la formulation du Projet d’Appui Régional à l’Initiative pour l’Irrigation au Sahel (PARIIS) est un document synthétique d’orientation et de vision partagée définissant les principes directeurs pour la conduite des programmes d’irrigations au Sahel et en Afrique de l’Ouest. Il a posé des questions fondamentales sur les contraintes et les difficultés liées au développement de l’irrigation en zone sahélienne et en Afrique de l’Ouest. Le CSEAS est reconnu par les acteurs, comme une mémoire institutionnelle qui fournit une solide fondation structurelle pour les investissements actuels et futurs. 
+        A la lumière et sur la base de la mise en œuvre du PARIIS et des résultats actuellement obtenus dans les 6 pays et au niveau régional piloté par le CILSS,  la  session cherchera  à travers des points de vue croisés (Etats, Structures régionales techniques et politiques, Partenaires Financiers, Producteurs) à  interpeller  les décideurs et les acteurs de l’eau agricole sur les  questionnement suivants   :
+        1)	Les acteurs sont-ils capables d’opérer le changement de paradigme nécessaire et de mettre en œuvre la démarche transformationnelle nécessaire pour stimuler le développement de l'irrigation dans le Sahel ?
+        2)	Quelles sont les modalités pratiques pour renforcer l’engagement des producteurs qui sont placées au cœur de l’investissement dans cette initiative ?
+        3)	Quelles sont les priorités sur lesquelles, concentrer les efforts pour consolider les résultats sur le terrain de cette initiative fondée sur la solution d’irrigation ? 
+        4)	Quelles actions concrètes mettre en œuvre pour amplifier les efforts et accroitre les financements, en vue d’aller résolument vers les objectifs de la Déclaration de Dakar ?   
+
+        A cet effet, un focus sera fait sur le Projet d’Appui Régional à I’Initiative pour l’irrigation au Sahel (PARIIS) en cours de mise en œuvre et qui constitue un levier pour la concrétisation de ce programme ambitieux. L’ambition de ce projet étant de créer les conditions nécessaires de développement et de mise à l’échelle de solutions d’irrigation dans les pays du Sahel et de l’Afrique de l’Ouest. 
+        Les résultats du PARIIS qui seront présentés indiquent la nécessité de poursuivre et consolider le processus de documentation et de mise en place des modèles d’investissements viables, qui commencent à faire leurs preuves sur le terrain. Ce processus devra aboutir à une palette de “solutions d’irrigations” adaptées aux différents types de systèmes d’irrigations, pour améliorer les investissements actuels et futurs. L’ambition etant de créer un effet d’entrainement et d’aller à l’échelle, dans les pays du Sahel et de l’Afrique de l’Ouest. 
+        Le Panel constitue un moment de réflexion sur les questions essentielles évoquées. 
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486184
+      guid: ''
+      hash: 994c19c87aa8ec9a09dc4b0b0b2d688c
+  field_code:
+    -
+      value: SE19
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Modérateur  : Directeur de l’agriculture de la CEDEAO 
+
+        ?	Introduction au Panel : Modérateur 
+        ?	Présentation introductive sur 2iS et PARIIS :  Coordonnateur régional du PARIIS 
+
+        Panélistes : UEMOA, GWP/AO, Ministère de l’agriculture et de l'équipement rural du Sénégal, ROPPA , Banque Mondiale, CILSS 
+
+        1)	Des solutions d’irrigations adaptées, portées par les producteurs et appuyées par les  partenaires  pour des investissements viables : une des clés pour une transformation structurelle des politiques agricoles. (Panelistes : Ministre de l’agriculture et de l'équipement rural du Sénégal et SE CILSS) 
+        2)	Quelle stratégie de mobilisation coordonnée des producteurs et de la société civile dans le plaidoyer et la mise en œuvre des programmes d’investissements adaptés à leurs besoins (Paneliste : Président d’honneur du ROPPA- Mamadou Cissoko)
+        3)	 La mise en œuvre des projets/programmes régionaux : meilleure approche pour faciliter l’intégration régionale et l’extension des modèles d’investissements adaptés (Paneliste : CILSS/UEMOA/CEDEAO) 
+        4)	Les partenaires techniques et financiers s’engagent à accompagner les efforts des gouvernements et des organisations inter-gouvernementales dans l’innovation et l’accélération du rythme des investissements dans l’agriculture irriguée (Panéliste : Banque mondiale).   
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 8ddcbbfb-8482-4e08-988b-228355912471
+    -
+      entity: 908b02aa-89d3-4e52-b5c4-b7ed781de2b5
+    -
+      entity: d7ae6ea2-9dd9-420c-a167-80633f17227f
+    -
+      entity: ea2a014b-e3cc-410e-b50f-d03770f59cb0
+    -
+      entity: ef1103e8-2a70-4e6d-802d-0fcc7720106f
+  field_organisateurs_text:
+    -
+      value: 'CILSS/Projet d’Appui Régional à I’Initiative pour l’irrigation au Sahel (PARIIS) '
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        5 mn : Introduction au Thème 
+        10 mn : Présentation sur 2iS et PARIIS
+        25 mn : Panelistes (5 mn chacun)
+        15 mn : Echanges sur des questions d’intérêt
+        5 mn : Synthèse et clôture
+
+      format: basic_html
+  field_salle:
+    -
+      entity: 345960d0-6db5-4bb1-a708-3b406ef52491

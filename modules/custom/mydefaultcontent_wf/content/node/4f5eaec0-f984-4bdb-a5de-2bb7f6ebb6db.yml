@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4f5eaec0-f984-4bdb-a5de-2bb7f6ebb6db
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    9ac4d020-00c5-4c4e-a4e7-40209b4a378d: taxonomy_term
+    b455893c-022c-4dc9-bc18-a7fb16bef356: taxonomy_term
+    45550caa-e65a-4784-846f-65b0ea8983bd: taxonomy_term
+    c7c3e062-06a1-47b4-a194-722a2a3d6dbc: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''eau et l''adaptation au changement climatique'
+  created:
+    -
+      value: 1647484968
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leau-et-ladaptation-au-changement-climatique
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le changement climatique a des implications directes profondes sur la qualité et la quantité de l''eau, y compris les sécheresses et les inondations, et des implications indirectes, par exemple via l''impact des feux de forêt et des ouragans sur les ressources en eau de surface et souterraine. Cette session se concentrera sur l''adaptation du secteur de l''eau au changement climatique, en mettant l''accent sur les approches durables en Afrique, en Amérique latine et en Asie.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484968
+      guid: ''
+      hash: 6b13323aa0c56b39ce96e8225a23da81
+  field_code:
+    -
+      value: '4E5'
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 9ac4d020-00c5-4c4e-a4e7-40209b4a378d
+    -
+      entity: b455893c-022c-4dc9-bc18-a7fb16bef356
+    -
+      entity: 45550caa-e65a-4784-846f-65b0ea8983bd
+    -
+      entity: c7c3e062-06a1-47b4-a194-722a2a3d6dbc
+  field_organisateurs_text:
+    -
+      value: 'UNESCO IHP ; CODIA '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNESCO Harare; Universidade de Brasilia; IRD, Senegal; CAZALAC, Chile; NWA, Bahamas; CERSHI, Mexico'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "Des études de cas sur l'approche durable de l'adaptation au changement climatique en Afrique, en Amérique latine et en Asie.
+        * Professionnel expérimenté travaillant avec des groupes multipartites et plaidant pour le changement climatique.
+        * Contribution en partageant l'expérience des chercheurs sur les défis de l'eau en Afrique (accès à l'eau potable).
+        * Maire WINS - Water Innovation Networking for the SDGs among small and medium-sized cities".
+        (À CONFIRMER)"
+      format: plain_text
+  field_programme:
+    -
+      value: 'Débat et interaction avec le public'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'présentation, discussion et diffusion des principales bonnes pratiques de gouvernance visant à améliorer l''adaptation au changement climatique dans le secteur de l''eau.'
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

@@ -1,0 +1,148 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8b3fcfaa-20ff-49c3-91ae-9a56dd85d8dc
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0: taxonomy_term
+    17ba3d97-24bb-4e3a-b324-8737ae81bf68: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    719f5d9d-6862-4105-913f-0141856c5a2d: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    94369e34-bbae-4d5d-af7b-d3be67a7fb2e: taxonomy_term
+    ecdd4374-3837-4f69-af4c-ced96d909410: taxonomy_term
+    1f8ad20e-57b6-4282-b697-7e3b00f0dac5: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'ards water security in Africa: the Roundtable of African Mayors for Water Security'
+  created:
+    -
+      value: 1647484852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ards-water-security-africa-roundtable-african-mayors-water-security
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The COVID-19 pandemic has acted as a magnifying glass on pressing water and sanitation challenges in Africa, especially for the 56% of the urban population living in informal settlements, lacking access to proper hygiene conditions. Climate change, urbanisation and population growth will add further pressure on water resources. This session will aim at raising the profile of Mayors and City leaders in enhancing water security in Africa. Participants will discuss challenges and opportunities towards water security in Africa.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484852
+      guid: ''
+      hash: 486c790d954750e6ba26fa347ee9adaf
+  field_code:
+    -
+      value: 4B2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0
+    -
+      entity: 17ba3d97-24bb-4e3a-b324-8737ae81bf68
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 719f5d9d-6862-4105-913f-0141856c5a2d
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 94369e34-bbae-4d5d-af7b-d3be67a7fb2e
+    -
+      entity: ecdd4374-3837-4f69-af4c-ced96d909410
+    -
+      entity: 1f8ad20e-57b6-4282-b697-7e3b00f0dac5
+  field_organisateurs_text:
+    -
+      value: 'OECD Water Governance Initiative '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        African Development Bank - TBC
+        West African Development Bank - TBC
+        AFD - TBC
+        YICD - TBC
+        ICLEI Africa - TBC
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |
+        UCLG Africa Task Force
+        Race to resilience Initiative
+        OECD Water Governance Programme 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        The session will be moderated by the OECD and UCLG Africa and divided in 2 parts : 
+
+        Part 1. The Roundtable of African for Water Security: a new platform to achieve water security in Africa
+        •	Introductory remarks by national leaders, OECD and UCLGA (20 minutes)
+        •	Session 1. Raising African Mayors’ voices (40 minutes)
+        Moderated discussion amongst 5 mayors. 
+        •	Session 2. Supporting the Roundtable of African Mayors for Water security: a multi-stakeholder perspective  (30 minutes)
+        Moderated discussion with supporting partners to the Roundtable, including  development banks, private stakeholders and international organisations. 
+
+        Part 2. Defining the future of the Roundtable : towards a Roadmap for the Roundtable 
+        •	Session 1. Roundtable discussion (45 minutes)
+        The participants will be divided in groups chaired by one designated Mayor to discuss the roadmap. 
+        •	Session 2. Final Plenary panel discussion: building a consensual a roadmap (30 minutes).
+        The designated Mayors will report the results of the discussion back to plenary and will engage in an open discussion with the audience.
+        •	Conclusions by OECD and UCLGA (15 min)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •A final version of the three-year roadmap of the Roundtable of African Mayors for Water Security, towards the 10th World Water Forum. 
+        •A toolbox to replicate the format of the Roundtable in other regional contexts. 
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

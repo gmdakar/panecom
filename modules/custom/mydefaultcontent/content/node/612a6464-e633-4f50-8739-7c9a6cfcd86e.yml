@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 612a6464-e633-4f50-8739-7c9a6cfcd86e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    c2b64f9a-0cc8-4727-af17-425711bf67e5: taxonomy_term
+    b4be5197-5fe7-430d-afb4-424b9b759552: taxonomy_term
+    98f941d3-4ff4-4457-a1ac-5b95389eceea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stand d''hydraulique rurale'
+  created:
+    -
+      value: 1647486181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/stand-dhydraulique-rurale
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'échanger sur les thème du forom,  apporter une réponse à la problématique de l''AEP en milieu rural '
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486181
+      guid: ''
+      hash: 5208da61f0d4cd4861b48466273cbae7
+  field_code:
+    -
+      value: SE48
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'à definir'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: c2b64f9a-0cc8-4727-af17-425711bf67e5
+    -
+      entity: b4be5197-5fe7-430d-afb4-424b9b759552
+  field_organisateurs_text:
+    -
+      value: OFOR
+      format: plain_text
+  field_programme:
+    -
+      value: 'à definir'
+      format: basic_html
+  field_salle:
+    -
+      entity: 98f941d3-4ff4-4457-a1ac-5b95389eceea

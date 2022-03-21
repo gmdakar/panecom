@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8c5ac5e6-d977-48e9-9499-55c4c3d24b8e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    bb662260-4c1c-464e-8ee9-142f520f9822: taxonomy_term
+    5b26fc6a-5480-4565-aee6-1cb9ac5289c2: taxonomy_term
+    dfcc3a0d-c019-42a4-80b1-2a6067d7d56f: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Adaptation au climat et résilience des services d''eau et d''assainissement.'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/adaptation-au-climat-et-resilience-des-services-deau-et-dassainissement-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le panel cherche à répondre à la nécessité d'inclure l'adaptation au changement climatique dans la formulation des politiques publiques et des stratégies des gouvernements et des sociétés d'exploitation d'eau et d'assainissement.
+        La résilience des systèmes d'approvisionnement en eau commence à jouer un rôle fondamental dans la planification stratégique des responsables du secteur de l'assainissement afin de desservir en permanence les différents utilisateurs d'eau, notamment l'approvisionnement des habitants des zones urbaines et rurales.
+        L'assainissement joue un rôle important dans la réduction de l'impact de l'activité humaine sur l'environnement, une caractéristique qui devrait être mieux exploitée pour permettre le développement du secteur, en transformant la production de déchets en une source de ressources.
+        L'approche du sujet par les principaux opérateurs du secteur de l'eau et de l'assainissement dans le monde entier permet, outre l'échange d'expériences, de partager les stratégies, les méthodes et les pratiques de plusieurs entreprises d'assainissement.
+        Ainsi, l'objectif est, de manière globale, de réfléchir aux changements dans la manière d'agir des gouvernements et des fournisseurs de services d'assainissement de base.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: d3a718de6828606d5c8e2e62e0af1a01
+  field_code:
+    -
+      value: HLP13
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: bb662260-4c1c-464e-8ee9-142f520f9822
+    -
+      entity: 5b26fc6a-5480-4565-aee6-1cb9ac5289c2
+    -
+      entity: dfcc3a0d-c019-42a4-80b1-2a6067d7d56f
+  field_organisateurs_text:
+    -
+      value: 'SABESP - Companhia de Saneamento Básico do Estado de São Paulo'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        15 minutes pour chaque intervenant, et 15 minutes pour les questions et réponses.
+        ------------------------------------
+        '- Benedito Braga 
+        Chief Executive Officer of Sabesp (Brazil)
+        Mr. Braga has been our Chief Executive Officer and a member of our board of directors since January 2019. He has a degree in civil engineering from the School of Engineering of São Carlos of the University of São Paulo (Escola de Engenharia de São Carlos da Universidade de São Paulo – USP), a master’s degree in Hydrology from Stanford University, a master’s degree in Hydraulics from USP, and a PhD in Water Resources from Stanford University. He was Secretary of Sanitation and Water Resources of the State of São Paulo from January 2015 to May 2018 and was the Chairman of our Board of Directors from January 2015 to April 2018. Mr. Braga was a professor at the Polytechnic School of University of São Paulo from 1980 to 2019. He was Co-Chairman of the International Organizing Committee of the World Water Forum in Brasilia (2018), in Korea (2015) and Chairman of the Committee in France (2012). He is Honorary President of the World Water Council – WWC, of which he was the President of 2001 to 2009.
+        '- Ana Giros 
+        Senior Executive VP International, Infrastructure, Performance and R&D of SUEZ (França) 
+        Ana Giros is Senior Executive VP for SUEZ, world-wide leader in water and waste services for over 160 years in all 5 continents helping its customers to provide a more efficient and sustainable management of natural resources. She is member of SUEZ’s Executive Committee.
+        She is in charge of the International Division, managing the Group International growth plan and directly in charge of Africa, Middle East, Asia, Australia, Consulting and Industrial Key accounts. Previously she was CEO of Latin America Business Unit since 2016. She joined SUEZ in October 2015, before, she held various National and International positions at Alstom Transport beginning in 1997, becoming CEO of the Services Division in November 2009 and CEO of Alstom France in May 2014.
+        '- Nahason Muguna 
+        Managing Director, Nairobi Water and Sewerage Corporation (Kenya)
+        '- Armelle Perrin-Guinot
+        Sustainable Development Deputy Director, Veolia (France)
+        '- Nizar Baraka
+        Minister of Equipment and Water (Morocco)
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

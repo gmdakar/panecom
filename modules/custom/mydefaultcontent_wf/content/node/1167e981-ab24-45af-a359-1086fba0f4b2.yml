@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1167e981-ab24-45af-a359-1086fba0f4b2
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    0fcecde8-8792-4cdb-9692-6b6967ebc7d2: taxonomy_term
+    8a24bf24-a8a3-4170-a6be-645bd08cb717: taxonomy_term
+    c9449a45-ccd1-45ee-8513-c51a6113f56e: taxonomy_term
+    6cca0619-3717-4be5-b497-5c566fe55ae2: taxonomy_term
+    692a4d40-aad6-49e3-b1e4-14e99d2bbf9b: taxonomy_term
+    37a18238-4bd2-4599-83f2-2f30acfb20d4: taxonomy_term
+    8ebd9839-2dcc-4622-be92-167a652a3976: taxonomy_term
+    86f999bd-2602-400a-865f-04c38261c093: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Establishment of wastewater epidemiology studies for tracking COVID- 19 pandemic, extension of these studies to One –Health approach.'
+  created:
+    -
+      value: 1647493831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/establishment-wastewater-epidemiology-studies-tracking-covid-19-pandemic-extension-these-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The session provides an opportunity to highlight the importance of using wastewater surveillance to monitor SARS-CoV-2 along with the virus variants circulating in the population. 
+
+        Key objectives:
+        •	The main goal is to maximize the potential of Wastewater-based Epidemiology (WBE) to ensure One Health approach by monitoring other pathogens, human exposure to environmental contaminants, biomarkers and antimicrobial resistance.
+
+        Expected outcomes:
+        •	The session will develop a COVID-19 WBE unified platform for all COVID-19 groups and discuss how to establish cooperation with world-wide centers of communicable diseases (e.g., ECDC, CDC, NICD, SAMRC) and global and continental health initiatives (e.g., WHO, HERA) to develop an early warning alert mechanism in case of (re-) emergence of COVID-19 or possible future pandemics. 
+        •	The session will provide a platform for scientific disciplines, water associations, globally active water operators and major actors to develop world-wide capacity building activities especially for low- and middle-income countries. 
+        •	The outcomes of the session support the following Sustainable Development Goals; 2.4, 3.3, 3.D, 6.2, 6.3, 11.6, 14.1.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493831
+      guid: ''
+      hash: 9acc971574d7a4bd92d2e62adcf22ace
+  field_code:
+    -
+      value: HLP05
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 0fcecde8-8792-4cdb-9692-6b6967ebc7d2
+    -
+      entity: 8a24bf24-a8a3-4170-a6be-645bd08cb717
+    -
+      entity: c9449a45-ccd1-45ee-8513-c51a6113f56e
+    -
+      entity: 6cca0619-3717-4be5-b497-5c566fe55ae2
+    -
+      entity: 692a4d40-aad6-49e3-b1e4-14e99d2bbf9b
+    -
+      entity: 37a18238-4bd2-4599-83f2-2f30acfb20d4
+    -
+      entity: 8ebd9839-2dcc-4622-be92-167a652a3976
+    -
+      entity: 86f999bd-2602-400a-865f-04c38261c093
+  field_organisateurs_text:
+    -
+      value: 'Turkish Water Institute (SUEN)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        -	Opening by moderator (5’) 
+        -	
+        -	Opening Speech by LOÏC FAUCHON (5’) (To be invited) 
+
+        -	Short roundtable with the panelist (1’x 10 ) 
+        Each panelist will introduce himself/herself and initiatives 
+
+        -	1st question from the moderator Answers from 4 Panellists (3’x4)
+
+        -	2nd question from the moderator Answers from 4 Panellists (3’x4)
+
+        -	3rd question from the moderator Answers from 4 Panellists (3’x4)
+
+        -	Moderator asks the room for questions to speakers -Q&A (15’)
+
+        -	Closing comments from each panelist (1’x10)
+
+        -	Closing  by moderator (5’)
+
+        *Remote connections of the speakers will be allowed. 
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

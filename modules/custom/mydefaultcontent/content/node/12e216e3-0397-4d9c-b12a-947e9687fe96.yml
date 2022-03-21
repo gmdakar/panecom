@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 12e216e3-0397-4d9c-b12a-947e9687fe96
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    ea504108-c79f-4468-aabd-66824327f498: taxonomy_term
+    5fc35984-aaca-472b-b62c-4a43444a3a77: taxonomy_term
+    7dd1803c-de94-4c05-93b3-e662421ce95d: taxonomy_term
+    07a02233-42b3-4233-baa3-bbe97cc80a54: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water and adaptation to climate change'
+  created:
+    -
+      value: 1647484855
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-and-adaptation-climate-change
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Climate change has profund direct implications for water quality and quantity, including droughts and floods, and indirect implications, for instance via forest fires and hurricanes impact on surface and groundwater resources, This session will focus on water-sector adaptation to climate change, with an emphasis on sustainable approaches in Africa, Latin America and Asia.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484855
+      guid: ''
+      hash: ee00f0cdc8a973b9f96ee2f402eca9c9
+  field_code:
+    -
+      value: '4E5'
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: ea504108-c79f-4468-aabd-66824327f498
+    -
+      entity: 5fc35984-aaca-472b-b62c-4a43444a3a77
+    -
+      entity: 7dd1803c-de94-4c05-93b3-e662421ce95d
+    -
+      entity: 07a02233-42b3-4233-baa3-bbe97cc80a54
+  field_organisateurs_text:
+    -
+      value: 'UNESCO IHP ; CODIA '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNESCO Harare; Universidade de Brasilia; IRD, Senegal; CAZALAC, Chile; NWA, Bahamas; CERSHI, Mexico'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        * Case studies on sustainable approach to climate change adaptation from Africa, Latin America and Asia
+        * experienced professional working with multi-stakeholder groups and advocating for the climate change
+        * Contribution by sharing researcher experience on water challenges in Africa (access to drinking water)
+        * Mayor WINS – Water Innovation Networking for the SDGs among small and medium-sized cities
+        (TBC)
+      format: plain_text
+  field_programme:
+    -
+      value: 'Panel discussion and interaction with public'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'key governance good practices to improve water-related adaptation to climate change displayed, discussed and disseminated for uptake'
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

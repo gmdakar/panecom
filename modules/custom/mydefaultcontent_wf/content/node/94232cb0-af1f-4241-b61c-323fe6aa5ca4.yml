@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 94232cb0-af1f-4241-b61c-323fe6aa5ca4
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    0a45ef13-bb59-42c3-87f0-192f8a90a9c1: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    88fa2a62-eca6-47b0-9aa8-ef0686ae0564: taxonomy_term
+    9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Protect and restore ecosystems and forests, including coastal and marine impacts, and combat desertification'
+  created:
+    -
+      value: 1647486050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/protect-and-restore-ecosystems-and-forests-including-coastal-and-marine-impacts-and-combat
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This presentation aims to show the link between water availability and forest ecosystem functioning. In other words, we seek to explain how the deficit of water resources in forests could affect the mitigation capacity of forests to climate change. Indeed, trees and forests, in general, sequester greenhouse gases, particularly atmospheric CO2, and contribute to the fight against climate change. This important ability of forests remains functional thanks to the mechanism of photosynthesis which is strongly dependent on the availability of water. Ultimately, forests are qualified as carbon sinks insofar as they store millions of tons of carbon. According to the Intergovernmental Panel on Climate Change (IPCC), forest ecosystems remain the second largest carbon reservoir after the oceans.  They are so, remain so and would certainly remain so if the cycle and availability of water were not unbalanced or disturbed, hence the quintessence of the implementation of an effective policy of management and conservation of water resources in forest environments.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486050
+      guid: ''
+      hash: 43ed466cd1f133aeea068d7413c95b84
+  field_code:
+    -
+      value: SE40
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 0a45ef13-bb59-42c3-87f0-192f8a90a9c1
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 88fa2a62-eca6-47b0-9aa8-ef0686ae0564
+  field_organisateurs_text:
+    -
+      value: 'Direction des Eaux et Forêts Chasses et de la Conservation des Sols (DEFCCS) / Gouvernement'
+      format: basic_html
+  field_salle:
+    -
+      entity: 9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6

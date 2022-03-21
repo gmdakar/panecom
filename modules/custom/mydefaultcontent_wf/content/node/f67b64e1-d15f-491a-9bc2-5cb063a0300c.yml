@@ -1,0 +1,161 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f67b64e1-d15f-491a-9bc2-5cb063a0300c
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    f415a322-30e2-42ce-b810-ee351be60ae2: taxonomy_term
+    0d7080d9-e841-44f0-b1ba-f53ea99bb76b: taxonomy_term
+    1b168b68-e49d-4ba5-9b9b-1ad6d863e8da: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    97c8df82-32b4-47f8-91c8-56a178d715cd: taxonomy_term
+    d9d664de-b872-442e-909f-cc27beadad3f: taxonomy_term
+    8b91664b-52d7-468e-9b04-792ec0726194: taxonomy_term
+    3362bc73-3edf-4ad0-84d2-150d4efefba0: taxonomy_term
+    6efcdb1a-1cf7-47cb-834a-946cb22cbf89: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tools and Knowledge Management for ecosystem- based approaches to land and water management from source- to- sea'
+  created:
+    -
+      value: 1647484831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/tools-and-knowledge-management-ecosystem-based-approaches-land-and-water-management-source
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Ecosystem-based approaches to land, water coastal and marine resources management require information from many disciplines and actors, beyond conventional measures that address specific segments of the source-to-sea system and neglect linkages. Collecting (or modeling), analyzing, and communicating this information is vital for both monitoring (e.g., SDGs) and decision making, but the resources for data acquisition and knowledge management are insufficient, and data providers and decision makers are not working closely as they could. 
+        This session focuses on bridging these “gaps” by promoting: 1) modern methods and tools that provide or synthesize relevant data for ecosystem-based management and 2) networks to share experience and skill transfer to build capacity in decision-support. It will feature innovative approaches, such as using remote sensing as a complement to in-situ monitoring, and will also highlight examples from around the world where data is being transformed into knowledge and to help decision/policy makers better incorporate ecosystem protection into water resource management
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484831
+      guid: ''
+      hash: 39ab382f1c2f40ea528d4a3c2d4b2695
+  field_code:
+    -
+      value: 1D2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f415a322-30e2-42ce-b810-ee351be60ae2
+    -
+      entity: 0d7080d9-e841-44f0-b1ba-f53ea99bb76b
+    -
+      entity: 1b168b68-e49d-4ba5-9b9b-1ad6d863e8da
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 97c8df82-32b4-47f8-91c8-56a178d715cd
+    -
+      entity: d9d664de-b872-442e-909f-cc27beadad3f
+    -
+      entity: 8b91664b-52d7-468e-9b04-792ec0726194
+    -
+      entity: 3362bc73-3edf-4ad0-84d2-150d4efefba0
+    -
+      entity: 6efcdb1a-1cf7-47cb-834a-946cb22cbf89
+  field_organisateurs_text:
+    -
+      value: |-
+        Conservation International
+        Derek Vollmer
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Action Platform for Source-to-Sea Management, UN Food & Agriculture Organization (FAO), MAVA Foundation, Minsait, French Biodiversity Agency (OFB), Regional Partnership for the Conservation of the Coastal and Marine Zone (PRCM), Sahara and Sahel Observatory (OSS), Swedish International Water Institute (SIWI), Suez, Turkish Ministry of Agriculture & Forestry, The Nature Conservancy (TNC), UN Convention to Combat Desertification (UNCCD)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |
+        Project 2.1 – Digitising water resources for determination of water bodies and monitoring
+
+        Project 2.2 – Improving coastal and marine ecosystems, coastal aquifers and wetlands monitoring through the use of Innovative technologies
+
+        Project 2.3 – Building capacity for using the Freshwater Health Index (FHI) to support ecosystem-based management
+
+        Project 2.4 – Supporting countries in implementing proactive drought risk mitigation measures
+
+        Project 2.5 – Holistic ecosystem management from source to sea
+
+        Project 2.6 - Tools for Developing ecosystem- based NBS projects (WaterProof App and Water Funds Toolbox)
+
+        Project 2.7 – Global Agro-Ecological Zoning platform
+
+        Project 2.8 - Protecting biodiversity with the dragonfly zone
+
+        Project 2.9 - Oblysis solution for wastewater treatment plants
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Welcome and introduction (5 minutes)
+        Panel 1: (3 presentations of 5 minutes each + 10 min audience Q&A)
+        Panel 2: (4 presentations of 5 minutes each + 13 min audience Q&A)
+        Panel 3: (2 presentations of 5 minutes each + 7 min audience Q&A)
+        Closing “pitch” from each panelist (10 min)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -Master’s thesis on wetlands are funded and carried by laboratories or interdisciplinary research groups of universities
+
+        -A reliable database, to feed the controlled governance of marine and coastal wetlands in West Africa is established
+        -In person or virtual trainings on various tools will be held in multiple countries;
+        -Freshwater Health MOOC available online in late 2021;
+
+        -Partners of the Action Platform for Source-to-Sea Management implement project to pilot and develop source-to-sea best practices and these are captured in knowledge products that can be shared broadly through the Platform’s communication channels, trainings, webinars and at national, regional and international events
+
+        -Publish a compendium of case studies, increase awareness of current tools
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 067739cc-39dc-40e1-bb83-ce8429c4698e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    e028327c-f3fb-40d2-9cc4-781e7489329e: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    6657503e-ae6e-42e8-ad26-083b242f1a68: taxonomy_term
+    cbc99439-cedf-42da-b73f-b23e1f43eb33: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La coopération en langue portugaise dans le cadre de l’approvisionnement de l’eau et d’assainissement – perspectives techniques, sociales, environnementales et régulatoires'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-cooperation-en-langue-portugaise-dans-le-cadre-de-lapprovisionnement-de-leau-et-2
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session se propose de réfléchir au rôle de la coopération internationale dans la réalisation de l''ODD6 en prenant en considération des projets concrets existant dans les pays lusophones. Cette session abordera les perspectives techniques, sociales, environnementales et réglementaires de ces pays, en vue d''atteindre les ODD, en particulier l''ODD6.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: f0e72b668cdee5b0c779868bdb78194e
+  field_code:
+    -
+      value: SS51
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: e028327c-f3fb-40d2-9cc4-781e7489329e
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 6657503e-ae6e-42e8-ad26-083b242f1a68
+    -
+      entity: cbc99439-cedf-42da-b73f-b23e1f43eb33
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        " 1ère session
+        05 min - Introduction par le modérateur
+        12 min - Le cas de l'Angola
+        12 min - Le cas de la Guinée-Bissau
+        12 min - Le cas de Sao Tomé 
+
+        2ème session
+        05 min - Introduction par le modérateur
+        12 min - Le cas du Mozambique
+        12 min - Le cas du Cap Vert
+        12 min - Le cas du Brésil
+        05 min - Clôture de la session par le modérateur ".
+        -------------------------------
+
+        1ère session Modérateur : M. José Saldanha Matos, Président du Partenariat portugais de l'eau Intervenants : Directrice nationale de l'eau d'Angola (Elsa Ramos, DNA) Ministère des ressources naturelles et de l'énergie de Bissau-Guinée (Pedro Emanuel Fortunato da Silva, conseiller technique du ministre) Directeur général de la compagnie d'électricité et d'eau de Sao Tomé (Celestino Andrade, EMEA) 2ème session Modérateur : Mme Vera Eiró, Présidente de l'Autorité portugaise de régulation des services d'eau et de déchets Intervenants : Directeur du département de gestion des opérations de la FIPAG mozambicaine (Elídio Khossa, FIPAG) Président de l'ANAS du Cap Vert (Claudio Santos, Président ANAS) Président de l'Agence nationale de l'eau brésilienne, (Vitor Eduardo Saback, Directeur ANA) 
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

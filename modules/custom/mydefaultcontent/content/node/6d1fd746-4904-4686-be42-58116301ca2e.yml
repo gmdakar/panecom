@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6d1fd746-4904-4686-be42-58116301ca2e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    36787ed6-a88b-4573-80af-3441f57d58bc: taxonomy_term
+    9208b1dc-8ac8-4d33-b727-fb86668fb1ae: taxonomy_term
+    f59b26f0-002f-434f-a0a8-7583c3b8162b: taxonomy_term
+    50f64504-b677-4506-bd5d-4a5e9034aa6a: taxonomy_term
+    73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dialogue ministériel de haut niveau sur l’accès aux services d’eau et d’assainissement au Sahel'
+  created:
+    -
+      value: 1647486178
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/dialogue-ministeriel-de-haut-niveau-sur-lacces-aux-services-deau-et-dassainissement-au-sahel
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Objectifs :
+        (i)	Statuer sur les progrès réalisés en matière d’accès à l’eau et à l’assainissement dans les 5 pays membres du G5 Sahel;
+        (ii)	Présenter le niveau de mobilisation technique et financière de l’Alliance Sahel ;
+        (iii)	Entendre la vision de chaque Ministre pour accélérer la mobilisation pour le secteur.
+        Résultat attendu : feuilles de route pour les réformes sectorielles à mettre en œuvre en vue de relever les défis du secteur
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486178
+      guid: ''
+      hash: c5a0dc7c69def00aa6c39ebf95c9bb3d
+  field_code:
+    -
+      value: SE1
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Intervenants :
+        -	Adrien HAYE, Coordinateur de l’Alliance Sahel
+        -	Didier Allély, Organisation Mondiale de la Santé
+        -	Monsieur Osward CHANDA, Directeur du Dpt Eau et Assainissement, Banque africaine de Développement
+        -	Madame Clara de Sousa, Directrice des Opérations, Banque mondiale
+        -	Madame Céline Robert, Directrice de la Division Eau et Assainissement, Agence Française de Développement
+
+        Orateurs :
+        -	Son Excellence ADAMOU Mahaman, Ministre de l’Hydraulique et de l’Assainissement du Niger
+        -	Son Excellence Alio Abdoulaye Ibrahim, Ministre de l’Hydraulique Urbaine et Rurale du Tchad
+        -	Son Excellence Lamine Seydou Traore, Ministre des Mines, de l’Énergie et de l’Eau du Mali
+        -	Son Excellence Mohamed El Hassen BOUKHREISS, Ministre de l’Hydraulique et de l’Assainissement de Mauritanie
+        -	Monsieur Alassoun SORI, Secrétaire General du Ministère de l’Eau et de l’Assainissement, Burkina Faso
+        -	Monsieur l’Ambassadeur Eric Yemdaogo TIARE, Secrétaire exécutif du G5 Sahel
+        Modératrice : Catarina de Albuquerque, Présidente – Directrice Assainissement et Eau pour Tous (SWA)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 36787ed6-a88b-4573-80af-3441f57d58bc
+    -
+      entity: 9208b1dc-8ac8-4d33-b727-fb86668fb1ae
+    -
+      entity: f59b26f0-002f-434f-a0a8-7583c3b8162b
+    -
+      entity: 50f64504-b677-4506-bd5d-4a5e9034aa6a
+  field_organisateurs_text:
+    -
+      value: AFD
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        17:00 – 17:05 / Introduction
+        17:05 – 17:10 / État des lieux des services d’eau et d’assainissement au Sahel
+        17:10 – 17:30 / Le soutien de l’Alliance Sahel et de ses membres pour le secteur de l’eau et de l’assainissement (action globale et focus sur 3 projets emblématiques)
+        17:30 – 18:00 / Poursuivre les partenariats et aller de l’avant : les défis à relever en matière de réformes sectorielles. Dialogue avec les Ministres
+      format: basic_html
+  field_salle:
+    -
+      entity: 73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066

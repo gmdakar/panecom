@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8847fcd9-ceb9-42dd-8cdd-ff6ada9b02ff
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    b05102ca-6f71-4274-9d62-96ca2997fef8: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    f50ad155-9238-48f6-9353-7d6f3914a215: taxonomy_term
+    6ab61eea-936d-4d3d-9185-1a4f2d50860b: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Portuguese language cooperation in the framework of water supply and sanitation - political and institutional perspectives'
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/portuguese-language-cooperation-framework-water-supply-and-sanitation-political-and-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The Session intends to reflect on the role of international cooperation to the achievement of SDG6 taking into consideration concrete projects existing in Portuguese speaking countries. This session will try to identify the main successes achieved, but also the main challenges ahead. Shared experiences allow the diffusion of solutions to be adapted to each country’s reality.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: 2439f690d9c7f1a415748a8383e4f0e5
+  field_code:
+    -
+      value: HLP19
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: b05102ca-6f71-4274-9d62-96ca2997fef8
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: f50ad155-9238-48f6-9353-7d6f3914a215
+    -
+      entity: 6ab61eea-936d-4d3d-9185-1a4f2d50860b
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        10 min.
+        The role of Portuguese cooperation in the water and sanitation sector on the Portuguese-speaking countries.
+        20 min.
+        Intervention by the Minister of Energy and Water of Angola in his capacity as President of the Portuguese Speaking Countries Community.
+        30 min.
+        The role of the Brazilian cooperation in the water and sanitation sector on the Portuguese-speaking countries.
+        40 min.
+        Solutions within the Portuguese-speaking countries for the global challenges – intervention by Mr. Rui Godinho, Member of the Board and Bureau of the World Water Council.
+        50 min.
+        Solutions within the Portuguese-speaking countries for the global challenges-intervention by Mr. Jorge Werneck, Member of the Board and Bureau of the World Water Council.
+        1h10
+        Intervention by the Executive Secretary of the Community of Portuguese Speaking Countries.
+        1h30
+        Questions from the floor and debate.
+
+      format: plain_text
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

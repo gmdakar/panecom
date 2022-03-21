@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6b3aebe-79ed-46bf-b8b9-2fc2ad90d9df
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    0b4c0654-312e-4ebe-9391-e8292b44422e: taxonomy_term
+    0aa627fd-493c-444c-b513-97c6f7214f07: taxonomy_term
+    f8ee8383-23df-4bd0-bdb3-9e22b46b1711: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    516a1797-2885-4fc9-aad8-274cb7ab5f7b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Programme alimentaire mondial 
+        Journées au 9ème 
+        Forum mondial de l'eau
+  created:
+    -
+      value: 1647486186
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/programme-alimentaire-mondial-journees-au-9eme-forum-mondial-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La gestion durable des eaux souterraines, afin d''accroître la résilience climatique des communautés, représente une opportunité pour des investissements innovants et des choix de gestion qui peuvent également contribuer à l''amélioration des moyens d’existence des ménages et à la lutte contre la pauvreté parmi les communautés des zones arides. Depuis 2018, le programme alimentaire mondial met en œuvre un paquet intégré de résilience a travers les 5 pays du G5 sahel + Sénégal sous le financement du BMZ. La session a pour objectif de réunir les acteurs de la gestion intégrée des ressources en eaux au Sahel ainsi que les bailleurs de fonds et les décideurs afin de 1/présenter l’approche du PAM en matière de gestion des bassins versants et les résultats obtenus, 2/convaincre les décideurs des résultats probants de l’approche 2/mutualiser les efforts en explorant les possibilités de partenariats avec d’autres acteurs du secteur, 3/ explorer des pistes de financements innovants pour permettre la mise à l’échelle des bonnes pratiques et la ‘cross fertilisation’ des initiatives au sahel.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486186
+      guid: ''
+      hash: 7037e24e99e22ad4d3dd6fd0ad990f82
+  field_code:
+    -
+      value: SE50
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'M. Volli Carrucci, Director, Resilience and Food systems services, WFP – HQ . Mr. Jochen Flasbarth, Secretaire d’état du BMZ (TBC)  '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: 0b4c0654-312e-4ebe-9391-e8292b44422e
+    -
+      entity: 0aa627fd-493c-444c-b513-97c6f7214f07
+    -
+      entity: f8ee8383-23df-4bd0-bdb3-9e22b46b1711
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+  field_organisateurs_text:
+    -
+      value: |-
+        World Food 
+        Programme (WFP)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1.	Introduction (5 mins)
+        2.	Présentation du programme intégré de résilience pour le sahel & résultats (15 mins)
+        3.	Discussions (45 mins)
+        4.	Conclusions (10 mins)
+      format: basic_html
+  field_salle:
+    -
+      entity: 516a1797-2885-4fc9-aad8-274cb7ab5f7b

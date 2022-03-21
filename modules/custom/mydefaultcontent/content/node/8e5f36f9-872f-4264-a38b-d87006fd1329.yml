@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8e5f36f9-872f-4264-a38b-d87006fd1329
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    3be2476c-c508-4097-8f7f-0cb0584537d0: taxonomy_term
+    c5d718c3-913f-44a7-b239-cbc336ee448e: taxonomy_term
+    84ca9a8e-e1a1-4fba-a33c-98c7a364fe58: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    430c1039-3994-4550-98b4-775ee6024b3f: taxonomy_term
+    5eb35428-cf1d-443d-8cf2-2091350c9954: taxonomy_term
+    ae762c6c-a30b-4775-b010-f676332f7d52: taxonomy_term
+    6cfc6902-2176-41e0-8b6f-e02a7c773bd2: taxonomy_term
+    33c5ea71-803e-4dc0-94cb-b2fe373e5d1f: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La productivité de l''eau pour la sécurité alimentaire'
+  created:
+    -
+      value: 1647484946
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-productivite-de-leau-pour-la-securite-alimentaire
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''identification de solutions innovantes pour améliorer la productivité et l''efficacité de l''eau agricole comprend des technologies telles que la télédétection et l''ingénierie de la résilience, ainsi que de nouvelles approches sociales. Comment ces diverses solutions peuvent-elles être combinées pour améliorer la productivité de l''eau agricole et accroître la sécurité alimentaire ?'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484946
+      guid: ''
+      hash: 654eb96b7dc954cd874f5916fc1602cf
+  field_code:
+    -
+      value: 2D1
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3be2476c-c508-4097-8f7f-0cb0584537d0
+    -
+      entity: c5d718c3-913f-44a7-b239-cbc336ee448e
+    -
+      entity: 84ca9a8e-e1a1-4fba-a33c-98c7a364fe58
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 430c1039-3994-4550-98b4-775ee6024b3f
+    -
+      entity: 5eb35428-cf1d-443d-8cf2-2091350c9954
+    -
+      entity: ae762c6c-a30b-4775-b010-f676332f7d52
+    -
+      entity: 6cfc6902-2176-41e0-8b6f-e02a7c773bd2
+    -
+      entity: 33c5ea71-803e-4dc0-94cb-b2fe373e5d1f
+  field_organisateurs_text:
+    -
+      value: 'FAO (Ms Virginie Gillet, IHE Delft (Ms Marloes Mul) and IWMI (Ms Lisa Rebelo)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'MIRRA, Zimbabwe Department of Irrigation, Helvetas Swiss Intercooperation, AICS'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "1. "Productivité de l'eau par l'accès libre aux données dérivées de la télédétection (WaPOR)". Projet de la FAO
+        2. ""Renforcement de l'efficacité et de la productivité de l'eau agricole au niveau africain et mondial"" Projet FAO
+        3. ""Amélioration de la productivité de l'eau dans la pratique (WaterPIP)"" Projet de l'IHE Delft
+        4. ""Mieux connaître l'eau : vers un accès plus équitable et plus durable aux ressources naturelles" (KnoWat) Projet FAO
+        5. ""Réaliser une agriculture durable par l'adoption de solutions naturelles pour le sol et l'eau"". Projet MIRRA
+        6. ""Gestion adaptative de l'irrigation par l'apprentissage social et l'ingénierie de la résilience"" Projet du département de l'irrigation du Zimbabwe.
+        7. ""Une approche systémique 'Push-Pull-Policy' pour améliorer la productivité de l'eau et les moyens de subsistance des agriculteurs"" projet Helvetas Swiss Intercooperation.
+        8. ""Programme agricole italo-sénégalais"", Agence italienne de coopération pour le développement (AUCS)
+
+
+        Traduit avec www.DeepL.com/Translator (version gratuite)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Ouverture (5 min)
+        - Introduction à la productivité de l'eau et à l'efficience de l'eau (15 min)
+        - Exposés éclairants sur le terrain (4 min par projet, 40 min)
+        - Questions et réponses (20 min)
+        - Clôture (5 min)"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'The main outcomes of the session is to share applicable solutions, technologies or approaches, on improved agricultural water use to promote sustainable irrigated agriculture and ensure climate resilience for food security. The integration of water productivity and efficiency analysis supports water resources management at various geographical scales (from field to basin) and should systematically translate into development of capacities for farmers to policy-makers. This session links nicely with 2E sessions on water as a driver to rural communities, as well as the FAO proposed high level event showcasing how water should drive climate actions, being the main factor for climate resilience and mitigation, leading to COP 27.'
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

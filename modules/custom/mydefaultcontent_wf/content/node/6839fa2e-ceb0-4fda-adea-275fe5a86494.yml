@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6839fa2e-ceb0-4fda-adea-275fe5a86494
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    70c5b503-a4b4-42b7-bee4-5f2bb84b09dd: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    d2b7bf04-eda4-4f38-88fb-6307697af53d: taxonomy_term
+    260b2e52-0502-4577-b206-26bb07574078: taxonomy_term
+    1f1020a7-7f3f-4a53-97e2-e9764534d4b2: taxonomy_term
+    c78171eb-43a2-4655-b256-a9f53a387dad: taxonomy_term
+    e6a6417f-4001-4c8d-b8b0-886dcd271b07: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Implementation of water quality protection through sound governance, using an inclusive multi- stakeholder approach and knowledge- based policymaking'
+  created:
+    -
+      value: 1647484828
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/implementation-water-quality-protection-through-sound-governance-using-inclusive-multi
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Maintaining water quality is crucial for efficient water resources management. Improving water quality can be achieved by more balanced and multidisciplinary approach to the research, policy-making, and practices. Sound governance, using an inclusive multi-stakeholder approach and knowledge-based policymaking, is a key to improve water security. The Session will provide elements for a better understanding of how governance, partnerships, inclusiveness and strong policies can make a significant change in water quality.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484828
+      guid: ''
+      hash: 6746ea9be1c4e667984ffd70ecb520e8
+  field_code:
+    -
+      value: 1B2
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 70c5b503-a4b4-42b7-bee4-5f2bb84b09dd
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: d2b7bf04-eda4-4f38-88fb-6307697af53d
+    -
+      entity: 260b2e52-0502-4577-b206-26bb07574078
+    -
+      entity: 1f1020a7-7f3f-4a53-97e2-e9764534d4b2
+    -
+      entity: c78171eb-43a2-4655-b256-a9f53a387dad
+    -
+      entity: e6a6417f-4001-4c8d-b8b0-886dcd271b07
+  field_organisateurs_text:
+    -
+      value: 'Institute for Global Environmental Strategies (IGES) and International Water Resources Association (IWRA)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'AFD, Technical University of Cologne, Mayor associations of Gorgol, Université Pierre & Marie Curie – La Sorbonne, City of Paris, SIWI, and Municipality of Barreiro'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        - ‘DrinkPani’ : ‘Youth-led Participatory Sensing’ -YPS Model to enhance ‘Drinking Water Security’ (Technical University of Cologne, Germany)
+        - Exploring the challenge of reducing eutrophication of water bodies and launching a worldwide initiative to address it (AFD and Université Pierre & Marie Curie – La Sorbonne, France)
+        - Improving drinking water supply in the Senegal River basin (Mayor associations of Gorgol, Mauritania)
+        - Comparative approach of water quality in view of its bathability for the organization of Olympic Games in Dakar, Tokyo and Paris (City of Paris, France)
+        - Source to Sea approach (The Stockholm International Water Institute, Sweden)
+        - Reinforcing the resilience of water services to security risks (Municipality of Barreiro, Portugal)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        - Brief Introduction
+        - Presentations on projects (8 minutes each) 
+        1. ‘DrinkPani’ : ‘Youth-led Participatory Sensing’ -YPS Model to enhance ‘Drinking Water Security’ (Technical University of Cologne, Germany)
+        2. Exploring the challenge of reducing eutrophication of water bodies and launching a worldwide initiative to address it (AFD and Université Pierre & Marie Curie – La Sorbonne, France)
+        3. Improving drinking water supply in the Senegal River basin (Mayor associations of Gorgol, Mauritania)
+        4. Comparative approach of water quality in view of its bathability for the organization of Olympic Games in Dakar, Tokyo and Paris (City of Paris, France)
+        5. Source to Sea approach (SIWI)
+        - Q & A (15 min)
+        - Panel discussion (30 min)
+        1. Brief introduction of Reinforcing the resilience of water services to security risks (Municipality of Barreiro, Portugal)
+        2. Panel discussion (panelists = presenters)
+        How far are we to achieve targets set in SDG 6? Is it feasible?
+        - Wrap up
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        - The Session will provide elements for a better understanding on how governance, partnerships, inclusiveness and strong policies can have a significant impact on the quality of water;
+        - The Session will present regional gaps on the issue; and 
+        - The outcomes of Session will contribute to SDG6, particularly achieving Target 6.2, 6.3, and 6.b as well as SDG16, particularly Target 16.6 and 16.7.
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

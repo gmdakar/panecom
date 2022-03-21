@@ -1,0 +1,129 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e814f9a-9263-4680-a9d6-ee2246d28265
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    525b251e-b56e-4ece-ba7e-a4cd67dfe658: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    feca4fb0-7914-406d-a4e0-3fab193ec755: taxonomy_term
+    86e737a7-c8c4-45ed-85bb-fbb45c180520: taxonomy_term
+    9a2aa495-fa71-4314-85f5-677101c5c5e3: taxonomy_term
+    0df56327-3c64-463b-992a-dbfd9d658d91: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Session statutaire de l''Assemblée Générale Mondiale du RIOB'
+  created:
+    -
+      value: 1647486186
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/session-statutaire-de-lassemblee-generale-mondiale-du-riob
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+
+        1. Ouverture par M. Nizar Baraka, Ministre de l'Equipement et de l'Eau du Royaume du Maroc, Président du RIOB
+        2. Présentation du rapport d'activité 2019-2021
+        3. Prolongation de la présidence du Royaume du Maroc jusqu'à l'Assemblée générale de 2024.
+        4. Présentation du rapport budgétaire 2019-2021
+        5. Renouvellement du mandat du Commissaire aux Comptes du RIOB
+        6. Présentation de la candidature du pays hôte de l'assemblée générale de 2024.
+        7. Conclusions de la Présidence (Maroc) 
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486186
+      guid: ''
+      hash: 78322ef5d64a7a7fa0a6b52b617015dc
+  field_code:
+    -
+      value: SE5
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        1. M. Nizar Baraka, Ministre de l'Equipement et de l'Eau du Royaume du Maroc, Président du RIOB
+        2. Dr. Eric Tardieu, Secrétaire Général du RIOB
+        3. M. Manuel Sapiano, Directeur Général de l'Agence de l'Energie et de l'Eau, Président de l'Europe-RIOB à Malte
+        4. M. Ramiro Martinez Costa, Secrétaire du Réseau Méditerranéen des Organismes de Bassin (REMOB)
+        5. Mme Judith Enaw, Présidente du Réseau Africain des Organismes de Bassin (RAOB)
+        6. Mme Michéla Adin, Secrétaire du Réseau Nord Américain des Organismes de Bassin (ROBAN)
+        7. Mme Dinara Ziganshina, Secrétaire du Réseau des Organismes de Gestion de l'Eau d'Europe Orientale, du Caucase et d'Asie Centrale (EECCA-NWO)
+        8. M. Lupercio Ziroldo Antonio, Président, Réseau Latino Américain des Organismes de Bassin (RELOB)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 525b251e-b56e-4ece-ba7e-a4cd67dfe658
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+    -
+      entity: feca4fb0-7914-406d-a4e0-3fab193ec755
+    -
+      entity: 86e737a7-c8c4-45ed-85bb-fbb45c180520
+    -
+      entity: 9a2aa495-fa71-4314-85f5-677101c5c5e3
+  field_organisateurs_text:
+    -
+      value: 'International Network of Basin Organizations (INBO), International Non-Governmental Organisations (INGOs)'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1. Ouverture par M. Nizar Baraka, Ministre de l'Equipement et de l'Eau du Royaume du Maroc, Président du RIOB, 10 min
+        2. Présentation du rapport d'activité 2019-2021, 10 min.
+        3. Prolongation de la présidence du Royaume du Maroc jusqu'à l'Assemblée générale de 2024, 5 min.
+        4. Présentation du rapport budgétaire 2019-2021, 5 min
+        5. Renouvellement du mandat du Commissaire aux comptes du RIOB, 5 min.
+        6. Présentation de la candidature du pays hôte de l'assemblée générale de 2024, 5 min.
+        7. Q&R, échanges entre les participants, 15 min
+        8. Conclusions par la Présidence (Maroc), 5 min
+      format: basic_html
+  field_salle:
+    -
+      entity: 0df56327-3c64-463b-992a-dbfd9d658d91

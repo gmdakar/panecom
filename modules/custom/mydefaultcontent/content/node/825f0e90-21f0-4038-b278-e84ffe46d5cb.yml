@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 825f0e90-21f0-4038-b278-e84ffe46d5cb
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    710c3182-a600-44fd-b44c-8d7b281c7651: taxonomy_term
+    1ee86a84-76f8-425f-8f99-1e806160ac0a: taxonomy_term
+    277d72d3-af0d-465b-a5c3-dbf70c02b95a: taxonomy_term
+    3d1c1d11-dd79-4829-a735-91c2d0b79624: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Des réponses concrètes à la sécurité de l’eau'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/des-reponses-concretes-la-securite-de-leau-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Atteindre la sécurité de l'eau signifie garantir un approvisionnement minimal en eau pour les besoins humains et économiques. S'il s'agit de l'un des principaux objectifs à court terme dans le monde, les effets du changement climatique et la dégradation des sources d'eau naturelles font de la sécurité de l'eau un défi insurmontable à moyen et long terme.
+        Dans ce contexte, c'est en s'attaquant aux problèmes de la pénurie d'eau, de la pollution des masses d'eau, des effets néfastes des événements hydrométéorologiques extrêmes, des conflits croissants autour de l'eau et de la dégradation environnementale des rivières et des aquifères que l'on pourra relever les défis de la sécurité de l'eau. 
+        Face à ces défis, la promotion des ressources non conventionnelles, telles que le dessalement et la réutilisation, est essentielle pour relever ces défis, sans oublier les améliorations nécessaires des mécanismes de réglementation et de gouvernance, ainsi que des infrastructures d'eau correctement conçues, respectant les objectifs environnementaux et assurant leur maintenance. 
+        La session vise à présenter les principaux instruments permettant d'atteindre la sécurité de l'eau, en termes de gestion intégrée des ressources en eau, de développement et d'exploitation d'infrastructures compatibles avec l'environnement, de mécanismes financiers et d'incitations. pour une gestion durable de l'eau, ce qui accélérera la voie vers la réalisation de l'ODD 6.
+        La première partie est prévue pour faire une exposition du panorama mondial, tandis que dans la deuxième partie seront exposés des cas de pratiques concrètes qui peuvent servir d'inspiration à d'autres territoires. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 611bbad580506a77ea00552ec67186fe
+  field_code:
+    -
+      value: SS52
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 710c3182-a600-44fd-b44c-8d7b281c7651
+    -
+      entity: 1ee86a84-76f8-425f-8f99-1e806160ac0a
+    -
+      entity: 277d72d3-af0d-465b-a5c3-dbf70c02b95a
+    -
+      entity: 3d1c1d11-dd79-4829-a735-91c2d0b79624
+  field_organisateurs_text:
+    -
+      value: 'General Directorate of Water, Ministry of Ecological Transition and Demographic Challenge, Government of Spain'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        - Présentations et discours d'ouverture (30min) : AECID, UnWater ; UNESCO;DG Eau Espagne
+        '- Panel 1 : Facteurs nécessaires à la sécurité de l'eau et à la réalisation de l'ODD 6 (25 min) : Table ronde de solutions concrètes : FAO, OCDE, ANA-Brasil
+         
+        '- Pan
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 76afbd97-3078-4a2e-a0f3-ac038497beab
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    51501e7e-cf71-4111-b867-dd1a7bc67c5a: taxonomy_term
+    5da20229-c0a6-40b7-8ae2-f127f5baabd9: taxonomy_term
+    7fbff67b-6ab0-4d0a-bc36-5a9f3dd8a78d: taxonomy_term
+    5142b07e-20a7-4453-be4b-a912be37fdab: taxonomy_term
+    2acff629-771f-4c63-86ea-51a5f327305a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La sécurité de l''eau pour la santé et le développement : Quelles perspectives pour la qualité de l''eau des OMD aux ODD ?'
+  created:
+    -
+      value: 1647486182
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-securite-de-leau-pour-la-sante-et-le-developpement-quelles-perspectives-pour-la-qualite
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le continent africain reste confronté à des défis majeurs dans le secteur de l'eau, notamment en termes d'accès à l'eau potable et de contrôle de la qualité de l'eau. Malgré les progrès réalisés ces dernières années, 40% de la population d'Afrique subsaharienne n'a pas accès à l'eau potable. Le défi de la mise en œuvre des Objectifs de développement durable (ODD), notamment les ODD 6.1 et 6.3, inclut la qualité de l'eau. 
+        L'approche des partenariats entre opérateurs de l'eau (WOP) - qui promeut le renforcement des capacités et le partage des connaissances par le biais de partenariats entre pairs entre opérateurs de l'eau et de l'assainissement - s'est avérée être un moyen efficace d'aborder l'identification, les défis et l'amélioration des performances des opérateurs en vue de la réalisation des OMD.
+        L'AAE l'a donc adopté pour développer et mettre en œuvre des programmes de soutien aux acteurs de l'eau. Le programme AfriCap, financé par l'USAID, est l'un de ces programmes. Il comprend une composante de mentorat pour améliorer la capacité des laboratoires de qualité de l'eau en Afrique. 
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486182
+      guid: ''
+      hash: 9eccb4d358963c31cf23e045a1278b44
+  field_code:
+    -
+      value: SE37
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        i.	Président : Prof. Hamanth Kasan, AAE, 
+        ii.	Présentateur : Aw Saddat, SODECI, Côte d'Ivoire
+        iii. Modérateur : M. Abdoul Niang
+
+        PANELISTES
+        iv.	Mme Margaret Macauley, GWCL, Ghana
+        v.	Mme Aude Tapsoba, MERCK, Allemagne
+        vi.	M. Olivier Yameogo, ONEA, Burkina Faso
+        vii.	Prof. Yacouba Konaté, 2iE, Burkina Faso
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 51501e7e-cf71-4111-b867-dd1a7bc67c5a
+    -
+      entity: 5da20229-c0a6-40b7-8ae2-f127f5baabd9
+    -
+      entity: 7fbff67b-6ab0-4d0a-bc36-5a9f3dd8a78d
+    -
+      entity: 5142b07e-20a7-4453-be4b-a912be37fdab
+  field_organisateurs_text:
+    -
+      value: AAE
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Session d'ouverture : Président. 05 min
+        Introduction par le modérateur : 05 min
+        Présentation par le professeur Awa Saddat, SODECI, 10 min
+        Discussion de groupe : 35 min
+        Récapitulation/clôture par le président : 05 min
+      format: basic_html
+  field_salle:
+    -
+      entity: 2acff629-771f-4c63-86ea-51a5f327305a

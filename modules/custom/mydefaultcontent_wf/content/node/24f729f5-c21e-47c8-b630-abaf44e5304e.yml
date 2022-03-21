@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 24f729f5-c21e-47c8-b630-abaf44e5304e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    aa61e42f-985f-441c-a737-929601eeb241: taxonomy_term
+    59eed9e1-3b09-4dbe-9092-bc52f680b7fa: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    5ff908d0-3acf-4c4f-a978-bd91bc93b1f9: taxonomy_term
+    298f7d9d-f52f-464b-a4d4-536648126d7c: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Climate Change Adaptation and Mitigation for Water Security in OIC Member Countries'
+  created:
+    -
+      value: 1647493845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/climate-change-adaptation-and-mitigation-water-security-oic-member-countries-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Objectives : 
+        •	Share experiences and good practices in the design and implementation of shared-benefit projects (adaptation and mitigation) in the water sector, 
+        •	Promote the integrated management of water resources in the various economic sectors while taking into account climate change;
+        •	Identify and prioritize actions, projects and financing tools for ensuring water security and climate change adaptation and mitigation;
+        •	Identify Capacity needs of countries for achieving SDGs 6 and 13 through the implementation of water-related NDCs.
+
+        The session intends to answer the following questions: 
+        •	What are the financial instruments available to support OIC member countries in addressing their adaptation and mitigation challenges in the water sector?
+        •	How can development partners and research institutions work together to ensure that knowledge and capacities to address climate-related water stresses are met in OIC member countries?
+        •	How can countries adapt to and mitigate climate change while addressing key SDG related development challenges in the Food-Energy-Water nexus?
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493845
+      guid: ''
+      hash: 665b52c47285ba402099f475b5d6562f
+  field_code:
+    -
+      value: SS30
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: aa61e42f-985f-441c-a737-929601eeb241
+    -
+      entity: 59eed9e1-3b09-4dbe-9092-bc52f680b7fa
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 5ff908d0-3acf-4c4f-a978-bd91bc93b1f9
+    -
+      entity: 298f7d9d-f52f-464b-a4d4-536648126d7c
+  field_organisateurs_text:
+    -
+      value: 'Islamic Development Bank (IsDB)'
+      format: basic_html
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

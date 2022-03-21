@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 29149766-0885-4323-859d-3cd847707f25
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    68bee41c-0b50-43ab-b994-410cfd92fbb7: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    8593633f-ce60-4bf2-a521-fc061fd26f12: taxonomy_term
+    706b9073-a9bc-4b2c-aae6-86261d5de78d: taxonomy_term
+    a34a50cd-5289-49ee-aa2b-4d3d70f8c635: taxonomy_term
+    de1d0fbe-5ceb-44f3-9cc6-79129daf87b2: taxonomy_term
+    f02648df-0092-49b8-bd59-84df2ecfd5d5: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Technological options for sustainable water resources development'
+  created:
+    -
+      value: 1647484835
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/technological-options-sustainable-water-resources-development
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Prior to Drinking Water Supply projects’ implementation, diligence has to be given to the availability of water resource to sustain the demands, and the risks associated with technological options, with emphasis on different challenges (the hydrogeological constraints, the increasing number of pollutions’ sources of pollution, Climate changes, etc…). 
+        Knowledges and tools are being constructed to ensuring not only continuous safe drinking water services, but also environmental sustainability. 
+        During the session 2A3, different actors will share   knowledges, experiences, and technologies related to sustainable water resources development, particularly for rural areas. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484835
+      guid: ''
+      hash: b588eae26daec1e49a3eec2177fb554c
+  field_code:
+    -
+      value: 2A3
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 68bee41c-0b50-43ab-b994-410cfd92fbb7
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 8593633f-ce60-4bf2-a521-fc061fd26f12
+    -
+      entity: 706b9073-a9bc-4b2c-aae6-86261d5de78d
+    -
+      entity: a34a50cd-5289-49ee-aa2b-4d3d70f8c635
+    -
+      entity: de1d0fbe-5ceb-44f3-9cc6-79129daf87b2
+    -
+      entity: f02648df-0092-49b8-bd59-84df2ecfd5d5
+  field_organisateurs_text:
+    -
+      value: |-
+        1.	Earth Science Center
+        2.	Secours Islamique France
+        3.	E.T.E. Organisation commerciale
+        4.	Université ou institut de recherche
+        5.	WATALUX SA
+        6.	Clubs Jeunes IRD 
+        7.	SENDAS AC (member of FANMex)
+        8.	SOTRAD WATER
+        9.	Damaris Omufwoko
+
+        Session Coordonnators : 
+        Pacôme AHOKPOSSI 
+        Sylvain Migan 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        1.	Palestinian Water Authority
+        2.	Eurosafety Group
+        3.	SENDAS AC (member of FANMex)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        Project 1 – Supply of water filtration stations to communities that have access to contaminated water sources (Earth Science Center)
+        Project 2 – Improve water resources through the treatment of grey water for agriculture and domestic use (Secours Islamique France)
+        Project 3 – Izio: A project that aims to provide access to good quality water in rural areas through the use of solar energy. (IZIO: Ndeye Fatou)
+        Project 4 –Production of drinking water from air humidity using innovative technologies (ONEE)
+        Project 5 – Provision of water chlorination plants to the community suffering from contaminated water sources (IZIO: Ndeye Fatou)
+        Project 6 – high school and college students’ scientific studies on sustainable water development (Clubs Jeunes IRD)
+        Project 7- Supply of water chlorination stations to community that are suffering from contaminated water sources. (WATALUX)
+        Project 8 - Watershed conservation for water availability in Mexico (SENDAS AC (member of FANMex))
+        Project 9 - Implementation of Pump&Drink Units in Africa: Cases of Ivory Coast and DRC (SOTRAD WATER)
+        Project 10 - Improving citizen’s capacity to doing evidence-based advocacy and lobbing for sustainable services in the water sector (Damaris Omufwoko)
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Presentation + questions answering  : 60 minutes
+        Group’s discussion 30 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	share initiatives, knowledges, and tools to overcome challenges related to water resources development.
+        •	Follow-up links with events and initiatives after the Forum will be communicated during the various presentations.
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

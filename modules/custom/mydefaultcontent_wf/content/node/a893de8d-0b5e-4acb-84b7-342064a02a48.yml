@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a893de8d-0b5e-4acb-84b7-342064a02a48
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    a5f21175-4b3c-44e2-b61d-54f877b69c63: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    6aa35d78-7009-4f74-9715-b45cfbc4de1d: taxonomy_term
+    3468ad17-49c6-4fa8-bfa5-30d8dc1503b0: taxonomy_term
+    89cf5a5c-1a0f-4b64-a7f8-f86b9e66110b: taxonomy_term
+    49f57d85-ad0f-4773-bc74-26c82aa29294: taxonomy_term
+    db1bdfc7-842d-4985-846d-6f8dbcacf974: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''eau comme outil de coopération, de paix et de stabilité'
+  created:
+    -
+      value: 1647484953
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leau-comme-outil-de-cooperation-de-paix-et-de-stabilite
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session présentera des exemples sur le rôle de la coopération sur les eaux transfrontalières comme outil de paix. Les intervenants présenteront plusieurs outils et mécanismes de dialogue et de coopération sur les ressources en eau transfrontalières, ainsi que les leviers qu''ils peuvent apporter pour favoriser la stabilité et prévenir les tensions. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484953
+      guid: ''
+      hash: edfc6253e9242f385a019e84b8d22a1b
+  field_code:
+    -
+      value: '3B1 '
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a5f21175-4b3c-44e2-b61d-54f877b69c63
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 6aa35d78-7009-4f74-9715-b45cfbc4de1d
+    -
+      entity: 3468ad17-49c6-4fa8-bfa5-30d8dc1503b0
+    -
+      entity: 89cf5a5c-1a0f-4b64-a7f8-f86b9e66110b
+    -
+      entity: 49f57d85-ad0f-4773-bc74-26c82aa29294
+    -
+      entity: db1bdfc7-842d-4985-846d-6f8dbcacf974
+  field_organisateurs_text:
+    -
+      value: |-
+        GWH 
+        Turkish Water Institute-SUEN 
+        UNECE 
+        Ibrahim Abd El Al Foundation for Sustainable Development
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Swiss Agency for Development and Cooperation (SDC), OMVG, UNCDF'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Projet 1 - La paix bleue au Moyen-Orient : Collaboration régionale sur l'eau  
+        Projet 2 - Identification des zones sensibles aux conflits dans le bassin de l'Amazone
+        Projet 3 - Facilité de coopération sur les eaux partagées
+        Projet 4 - Blue Peace-OMVG 
+        Projet 5 - Approche de la source à la mer dans la gouvernance des eaux transfrontalières et des côtes et mers/océans adjacents
+        Projet 6 - Soutenir la diplomatie de l'eau par le partage des connaissances et la recherche au Moyen-Orient 
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Programme provisoire
+        Ouverture par le modérateur - M. Harry LIIV, (Président du Bureau de la Convention sur l'eau, Ministère de l'environnement de l'Estonie) 
+        Courte table ronde avec tous les panélistes : chaque panéliste explique son initiative - (5 minutes chacun, total 30 minutes)
+        Première question du modérateur : Comment le dialogue sur l'eau peut-il transformer le potentiel de tension en potentiel de coopération ? Réponse de l'UICN et du représentant des jeunes - (10')
+        Deuxième question : Comment une approche régionale de la coopération dans le domaine de l'eau peut-elle favoriser la stabilité dans une région ? Réponses de SUEN, du Ministère du Développement Régional du Brésil, du Centre de Diplomatie de l'Eau - (15')
+        Troisième question : Quels sont les outils innovants pour renforcer la coopération transfrontalière en matière d'eau pour la paix et la prévention des conflits ? Réponse de l'UNCDF et du GWP - (10')
+        Discussion - (15')
+        Messages finaux par les panélistes - (2 minutes chacun, total 14')
+        Conclusion par le modérateur - (5')
+        Total 90 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Cette session devrait contribuer aux efforts mondiaux visant à renforcer les liens entre les ODD6 et ODD16, ainsi que les ODD11 et 13.  Sur notre chemin commun vers la Conférence de haut niveau de la Décennie de l''eau de 2023, cette session devrait contribuer à former les messages adéquats pour mieux intégrer l''aspect eau et paix au sein de la Décennie de l''eau des Nations Unies. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

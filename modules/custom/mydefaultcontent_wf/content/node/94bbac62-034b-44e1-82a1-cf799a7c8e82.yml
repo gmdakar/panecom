@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 94bbac62-034b-44e1-82a1-cf799a7c8e82
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    e7b6ae95-b085-4832-9d6b-e2bbfd80334f: taxonomy_term
+    52f8945e-b4ec-4128-a4d5-ab112edda151: taxonomy_term
+    7acb0e17-5aed-4fde-bcfe-e51400b69703: taxonomy_term
+    c9d7c592-bd18-48aa-b403-e552dc485f5e: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Making invisible visible: Groundwater Catalogue for informed policy development and management interventions - UPDATE'
+  created:
+    -
+      value: 1647493838
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/making-invisible-visible-groundwater-catalogue-informed-policy-development-and-management-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The groundwater governance and management process involve identifying the required legal, regulatory, and institutional arrangements to establish public guardianship and collective responsibility for groundwater resources, and to introduce technical management measures with stakeholder integration and cross-sector coordination. Due to the diversity and complexity of water problems, it is often challenging to identify the role of groundwater and adequately incorporate it in the decision-making process. Moreover, policy makers and managers do not always have a sufficient overview of tools, measures and instruments that could be applied in specific and complex issues. 
+        This special session will be about strengthening interface science-policy-practice interface using newly developed Catalogue to facilitate this process.
+        The Catalogue on Groundwater Management is meant for a  better provision of information on groundwater management tools,  measures and instruments, encompassing a supply and demand, groundwater protection and  stakeholder participation. The catalogue will enable policy- and decisionmakers to better explore suitable solutions for complex groundwater issues, based on factsheets, case studies and references. 
+        Objective of the session is to actively involve groundwater policy- and decision makers in development and verification of the Catalogue.  This on-site, interactive session is necessary to attract future co-developers and users of the Catalogue. The outcome of the session will provide content necessary for the continuity  of the process. Eventually, the end-users will take ownership of the Catalogue and care for further improvements (similarly to Wikipedia).   
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493838
+      guid: ''
+      hash: 3b6a1052f577fb00bf1c0b2b20a8ac94
+  field_code:
+    -
+      value: SS04
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: e7b6ae95-b085-4832-9d6b-e2bbfd80334f
+    -
+      entity: 52f8945e-b4ec-4128-a4d5-ab112edda151
+    -
+      entity: 7acb0e17-5aed-4fde-bcfe-e51400b69703
+    -
+      entity: c9d7c592-bd18-48aa-b403-e552dc485f5e
+  field_organisateurs_text:
+    -
+      value: 'IGRAC  (Global Groundwater Centre of UNESCO)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening remarks (A. Aureli – science; EPA Repr. ) - 10min
+        •	Introduction to a Groundwater Catalogue (including  an example on coastal aquifers) - 15 min
+        •	Introduction to a panel discussion, panelists, objectives – 5 min
+        •	Panel Topics  30min - on: 
+        o	Societal & environmental issues and the role of groundwater in the Catalogue 
+        o	Management Measures /Demand-side, Supply-side Management, Quality Protection, Stakeholders participation
+        o	Further technical development of the Catalogue (priorities, e.g. user interface, content improvement, user involvement…), similar developments      
+        •	Questions from the audience (probably on-line)  - 15 min. 
+        •	Concluding and closing – 10min               
+             
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

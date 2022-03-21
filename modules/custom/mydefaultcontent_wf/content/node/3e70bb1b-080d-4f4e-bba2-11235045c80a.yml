@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3e70bb1b-080d-4f4e-bba2-11235045c80a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    f083a15d-2b3f-4dd2-b16b-9cf27900024e: taxonomy_term
+    042e46a0-12e9-47c6-86f6-296aa66b50e8: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financer un avenir sûr en matière d''eau : Les pistes à suivre'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financer-un-avenir-sur-en-matiere-deau-les-pistes-suivre-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Ce panel de haut niveau consacré au financement de l'eau contribuera à la préparation de la conférence des Nations unies sur l'eau de 2023. Il mettra en évidence les principales questions directrices qui peuvent contribuer à faire avancer le débat mondial sur l'économie et le financement de l'eau, qui sera exploré dans le cadre d'un examen majeur à venir qui sera préparé pour la conférence des Nations unies sur l'eau de 2023.
+
+        La session réunira des penseurs économiques de premier plan, des ministres et des dirigeants d'institutions financières et intergouvernementales. Le panel s'appuiera sur une large base d'expérience avec la Table ronde sur le financement de l'eau ainsi que sur les récents travaux analytiques sur le financement de l'eau de l'OCDE, de la Banque mondiale et du Conseil mondial de l'eau. Ces travaux comprennent le prochain rapport de synthèse de l'OCDE intitulé "Financer un avenir sûr pour l'eau", l'analyse du rôle des intermédiaires dans la mobilisation des financements, les financements mixtes pour l'eau dans des contextes nationaux spécifiques, les lignes directrices des investisseurs pour les solutions basées sur la nature, et les implications de la pandémie sur le financement de l'eau.   
+
+        Les questions clés à explorer sont les suivantes :
+        - Au-delà des approches économiques traditionnelles, quelles idées et perspectives peuvent inspirer de nouvelles orientations politiques, des financements et un engagement citoyen ?
+        - Quels sont les principaux leviers nécessaires pour mener une action transformationnelle sur le terrain ? 
+
+        L'un des résultats escomptés de la session est de redéfinir l'orientation des discussions mondiales sur le financement et l'économie de la sécurité de l'eau et de donner un élan aux approches financières significatives qui peuvent être mises en œuvre sur le terrain pour contribuer à la réalisation de l'ODD 6.
+
+        Le panel contribuera à la quatrième priorité thématique du Forum "Moyens et outils", A : Mobiliser des ressources financières supplémentaires et promouvoir des financements innovants."
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: ead7a6b9f8d9ce3a1886d4bbed4911d7
+  field_code:
+    -
+      value: HLP10
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: f083a15d-2b3f-4dd2-b16b-9cf27900024e
+    -
+      entity: 042e46a0-12e9-47c6-86f6-296aa66b50e8
+  field_organisateurs_text:
+    -
+      value: OECD
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Remarques d'ouverture (3-5' chacun)
+        - Sénégal ou CME
+        - Les Pays-Bas
+        Discussion de groupe (70') :
+        - Commencez par une déclaration introductive provocante de l'un des principaux auteurs de l'examen pour la conférence de 2023. Les panélistes réagiront à cette déclaration et se concentreront sur les déclarations innovantes, prospectives et perturbatrices (par exemple, pas plus de la même chose).
+        - Discussion interactive avec les panélistes ; possibilité de poser des questions et de faire des commentaires, si l'intérêt et le temps le permettent.
+        Remarques de clôture (3-5' chacun) :
+        - États-Unis  
+        - Indonésie ou Égypte 
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

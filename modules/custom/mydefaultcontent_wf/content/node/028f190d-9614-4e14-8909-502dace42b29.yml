@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 028f190d-9614-4e14-8909-502dace42b29
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    e3d5e7f4-1095-44ef-bf9b-e11e0290e982: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    d044f313-08da-4496-8492-2e52eb48f133: taxonomy_term
+    011cef86-30d5-4a5d-a3cc-b389c4a5f16a: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'REALIZING HUMAN RIGHTS TO WATER AND SANITATION'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/realizing-human-rights-water-and-sanitation-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Having access to safe drinking water and sanitation is central to living a life in dignity and upholding human rights. Yet billions of people still do not enjoy these fundamental rights.
+        The rights to water and sanitation require that these are available, accessible, safe, acceptable and affordable for all without discrimination. These elements are clearly interrelated. While access to water may be guaranteed in theory, in reality, if it is too expensive, people do not have access. Having a tap which delivers unsafe water does not improve one’s access. Human rights demand a holistic understanding of access to water and sanitation.
+        The rights to water and sanitation further require an explicit focus on the most disadvantaged and marginalized, as well as an emphasis on participation, empowerment, accountability and transparency.
+        The promotion of human rights to drinking water and sanitation is one of the priorities of the Spanish cooperation policy. For several decades, work has been going on in two ways: the international recognition of water and sanitation as human rights, and the effective realization of these rights. The Cooperation Fund for Water and Sanitation for Latin America and the Caribbean is one of Spain's most ambitious instruments in this field, since it was established with the aim of making the human rights to water and sanitation (DHAS) effective, prioritizing the most fragile countries and the most vulnerable populations.
+        This session will address success stories in achieving the human rights to safe drinking water and sanitation.
+        This session will address success stories in achieving the human rights to safe drinking water and sanitation.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: ec84fe9d4fc4a7de4fe45618018646ea
+  field_code:
+    -
+      value: SS50
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: e3d5e7f4-1095-44ef-bf9b-e11e0290e982
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: d044f313-08da-4496-8492-2e52eb48f133
+    -
+      entity: 011cef86-30d5-4a5d-a3cc-b389c4a5f16a
+  field_organisateurs_text:
+    -
+      value: |-
+        Agencia Española de Cooperación Internacional para el Desarrollo (AECID).
+         Agence de coopération au développement of SPAIN
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Table Ronde: REALIZING HUMAN RIGHTS TO WATER AND SANITATION
+        -	Spanish Ministry of Foreing Affairs, European Union and Coopetarion (MAUEC): Pilar Cancela, Secretaria de Estado (Viceminister): wellcome and introduction 10´
+        -	United Nations Special Rapporteur on the human rights to safe drinking water and sanitation: Pedro Arrojo 15´
+
+        -	NGOs: ONGAWA, Mar Rivero 10´
+        -	World Bank: Gustavo Setiel, Global Lead for Water Supply and Sanitation, Water Global Practice: 10´
+        -	Sanitation and Water for All: Catarina de Albuquerque (tbc): 10´
+        -	Private sector CEO water company (tbc): 10´ 
+
+        Panel discussions (including public participation): 25´
+         Moderators: AECID
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

@@ -1,0 +1,149 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f8581320-cdc1-4399-8d54-b270e20393c6
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    febf458e-5402-4020-9ab8-81e862013b82: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    c0b09bcf-f846-426a-b8f3-775e336b1ff6: taxonomy_term
+    d8a5f57a-0f06-4b18-8feb-54ace8cc7f22: taxonomy_term
+    c387af78-9181-47aa-9ad9-9f8c8d269ebb: taxonomy_term
+    2b9486ad-e4fa-4066-a13c-0fdd11b2834d: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Institutional basis for transboundary water cooperation, sustainability and peace'
+  created:
+    -
+      value: 1647484843
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/institutional-basis-transboundary-water-cooperation-sustainability-and-peace
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Effective transboundary water cooperation can only be achieved through a solid and coherent institutional framework. Adequate financing, public participation and transparency are some of the key building blocks that sustain transboundary water institutions. This session aims to explore the ways in which governance frameworks can help to provide sustainably financed institutions, foster cooperation and deliver shared benefits to water users across basins.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484843
+      guid: ''
+      hash: a37437f8a7f837f83fb67ea9cb981d87
+  field_code:
+    -
+      value: 3B3
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: febf458e-5402-4020-9ab8-81e862013b82
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: c0b09bcf-f846-426a-b8f3-775e336b1ff6
+    -
+      entity: d8a5f57a-0f06-4b18-8feb-54ace8cc7f22
+    -
+      entity: c387af78-9181-47aa-9ad9-9f8c8d269ebb
+    -
+      entity: 2b9486ad-e4fa-4066-a13c-0fdd11b2834d
+  field_organisateurs_text:
+    -
+      value: |-
+        IUCN
+        Mekong River Commission (MRC)
+        UNECE
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'IHE Delft, Ibrahim Abd El Al Foundation for Sustainable Development, UNESCO'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |+
+        Sharing the benefits from river basin management: from theory to practice (IUCN)
+        Youth for the Rhine: Exploring Sustainable Innovations in Transboundary River Basins (IHE Delft and others) 
+        Promoting youth/women centric transboundary water policies to unleash the potential of all social groups (Ibrahim Abd El Al Foundation for Sustainable Development and others) 
+        Development of a basin-wide strategy for the Mekong (MRC) 
+        The UNESCO BIOsphere and Heritage of Lake Chad (BIOPALT) project (UNESCO) 
+        Integrated Water and Territorial Planning in Border Cities
+        Share the river, share the future: jointly promote IWRM under the Lancang-Mekong water resources cooperation framework 
+        Facilitate the financing of transboundary water cooperation (UNECE) 
+
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Draft session schedule (expected times for presentations, panel discussions, etc.): 
+        Intro video for Dakar 2022 Initiative (5 minutes)
+
+        Introduction: welcome and overview of session (5 minutes)
+
+        Key note presentation: framing and giving the background for the two panel discussions (10 minutes)
+
+        Facilitated panel discussion: multiple levels of water governance deliver sustainable institutions (30 minutes incl. Q&A)
+
+        Questions for the panellists (or if preferred something more specific to their project): 
+        •	What are the key building blocks for sustainable institutions at the transboundary level?
+        •	How can governance structures work across scales and engage a diversity of stakeholders to deliver equitable water management? What is the role of institutions in this context?
+
+
+        Facilitated panel discussion: financing for sustainability (30 minutes incl. Q&A)
+        Questions for the panellists (or if preferred something more specific to their project):
+        •	How can we sustainably finance institutions to ensure continued capacity to deliver management of shared water resources to build cooperation? 
+         
+
+        Conclusions and closing (10 minutes)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: TBC
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

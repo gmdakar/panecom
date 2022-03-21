@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f33404a5-db43-4016-8fa5-3ec00be9343b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    a5459454-4a87-426a-adca-ff3188f3db7b: taxonomy_term
+    43d31217-a202-47f0-a352-fabb4622bb93: taxonomy_term
+    cabe40e4-f294-4a59-9e60-7e2de9678dcd: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tirer parti des plateformes de partage des connaissances'
+  created:
+    -
+      value: 1647484968
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/tirer-parti-des-plateformes-de-partage-des-connaissances
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Progresser dans le défi mondial de l''eau et tirer parti des plateformes de partage des connaissances '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484968
+      guid: ''
+      hash: 8d5652b70bf12a0c542094fd2b6f64ad
+  field_code:
+    -
+      value: '4E6'
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: a5459454-4a87-426a-adca-ff3188f3db7b
+    -
+      entity: 43d31217-a202-47f0-a352-fabb4622bb93
+    -
+      entity: cabe40e4-f294-4a59-9e60-7e2de9678dcd
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+  field_organisateurs_text:
+    -
+      value: 'BRGM '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Korean Ministry for environment, Pacific Institute (tbc), Solidarités NGO, UNESCO, Youth '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "* Une plateforme coopérative durable pour piloter ensemble la mise en œuvre de technologies innovantes et de politiques bien élaborées sur place (ministère coréen)
+        * le Water Action Hub, une plateforme de collaboration et de partage des connaissances pour les entreprises, les ONG, les agences et les fournisseurs de technologies (Pacific Institute - à confirmer)
+        * OCTOPUS : Outil collaboratif opérationnel des pratiques courantes en assainissement d'urgence (Solidarités).
+        * proposition d'indicateurs pour l'ODD 6 (UNESCO)
+        * Application mobile "freeing" pour collecter des données sur les défaillances des réseaux d'eau pour la gestion des actifs (Altereo).
+        * la voix des jeunes
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "1H - Présentations des différents outils / idées 
+        30 min - Discussion de groupe pour progresser vers une approche mondiale plus intégrative du partage des connaissances et des innovations. 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Trouver des solutions pour la conception d''une plateforme coopérative commune offrant des possibilités de solutions et de fournisseurs d''innovations fondées sur la science et la connaissance et axées sur la demande - adoption plus rapide des innovations par les acteurs.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

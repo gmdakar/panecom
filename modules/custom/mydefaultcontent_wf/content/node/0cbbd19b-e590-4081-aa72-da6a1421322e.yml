@@ -1,0 +1,152 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0cbbd19b-e590-4081-aa72-da6a1421322e
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    3dae8ae1-b8ef-41a1-a734-cc5186869e45: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    d19c8ec4-46b8-4ae3-bfff-57ac763b591d: taxonomy_term
+    53b1d7b5-49b5-4873-a5ba-8107b110640d: taxonomy_term
+    83776d3e-0978-4f6a-bc24-e77e880d8673: taxonomy_term
+    c6f17737-6c1f-4584-903d-2bbdb92d9197: taxonomy_term
+    b5ba7926-d78e-42a3-89d5-a05f2003c103: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Construire une gouvernance intersectorielle sans frontières à tous les niveaux'
+  created:
+    -
+      value: 1647484952
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/construire-une-gouvernance-intersectorielle-sans-frontieres-tous-les-niveaux
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Une gouvernance intersectorielle sans frontières à tous les niveaux, avec la présentation de manuels/guides, de leçons partagées et de méthodologies sur les processus de décision, la mise en œuvre, les bonnes pratiques et les méthodologies innovantes de la GIRE.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484952
+      guid: ''
+      hash: 0275772cce5248df26a0f2d286287410
+  field_code:
+    -
+      value: 3A1
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3dae8ae1-b8ef-41a1-a734-cc5186869e45
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: d19c8ec4-46b8-4ae3-bfff-57ac763b591d
+    -
+      entity: 53b1d7b5-49b5-4873-a5ba-8107b110640d
+    -
+      entity: 83776d3e-0978-4f6a-bc24-e77e880d8673
+    -
+      entity: c6f17737-6c1f-4584-903d-2bbdb92d9197
+    -
+      entity: b5ba7926-d78e-42a3-89d5-a05f2003c103
+  field_organisateurs_text:
+    -
+      value: |
+        Lead organization: Regulatory Agency for Water, Energy and Sanitation of the Federal District [ADASA, Brazil] - Gustavo Carneiro 
+        Co-organizers: International Network of Basin Organizations [INBO] - Edouard Boinet 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+
+        French National Committee IHP UNESCO, French Water Partnership FWE
+        CEO Water Mandate and Danone as member
+        Ministry for the Ecological Transition and the Demographic Challenge / Deputy Directorate for Water Planning [MITERD/DG Water, Spain]
+        International Lake Environment Committee Foundation [ILEC, Japan]
+        Inter-American Development Bank [IDB]
+        Seine-Normandy Water Agency [AESN]
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " Projet 1 - Renforcement des capacités via le dialogue ville-bassin : comment reconnecter les villes à leur bassin versant (présentation d'un nouveau guide avec des études de cas dans le monde entier). Europe : Paris, Afrique : Dakar, USA : San Fransisco, Amérique latine : Mexico City
+
+        Projet 3 - Processus et avantages de la sélection de la méthode appropriée pour prendre des décisions parmi toutes les parties prenantes - Sénégal - zones rurales
+        Projet 4 - Leçons tirées de l'initiative Corporate Water Stewardship sur la coopération pour la préservation des bassins versants - exemples en Asie
+        Projet 5 - Bonnes pratiques et approches innovantes incluant la participation publique, l'innovation et les politiques alignées sur les ODD (Brésil, Espagne, Japon)
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Introduction : 5 min par le maître de cérémonie - 
+        Discours de présentation (15 min) 
+        (à la fois sur le bassin de la Somone et sur les projets de coopération des Niayes)
+
+        Panel (40 min)
+        ? Leçons tirées de la gestion responsable de l'eau par les entreprises sur la coopération pour la préservation des bassins versants - accent mis sur l'Asie.
+        ? Intégration des ressources conventionnelles et non conventionnelles et processus d'allocation pour une utilisation efficace de l'eau en Espagne.
+        ? Politiques de gestion intégrée des ressources en eau alignées sur les ODD dans le district fédéral du Brésil.
+        ? Études de cas de gouvernance intersectorielle et multi-niveaux dans le cadre du programme de gouvernance de l'eau de l'OCDE.
+
+        Questions-réponses et discussions sur la construction d'une GIRE à plusieurs échelles : [15 min]
+        Première réaction du Parlement des jeunes pour l'eau en Amérique du Nord.
+        Clôture et messages clés - [5 min ]
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |2
+         - Guide/manuel comme outil de décision pour mettre en œuvre la GIRE au niveau de la ville
+        - Portefeuille d'expériences, de bonnes pratiques et de leçons apprises sur la promotion de la gouvernance intersectorielle de la GIRE à tous les niveaux.
+        - Implication et diffusion du thème, résultant en des impacts positifs sur l'eau et des bénéfices multiples avec sa mise en œuvre dans différents endroits à travers le monde.
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

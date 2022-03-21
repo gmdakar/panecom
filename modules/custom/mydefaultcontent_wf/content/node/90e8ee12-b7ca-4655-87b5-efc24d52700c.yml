@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 90e8ee12-b7ca-4655-87b5-efc24d52700c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    832c91a8-a07c-48c2-bc9e-8137ac75ddbb: taxonomy_term
+    d0359806-1ce5-4284-a9aa-fab07cf09879: taxonomy_term
+    81a80eba-d99a-4b15-b311-2fecddb3252e: taxonomy_term
+    07594690-d07a-4e97-a35f-8c2602c6602f: taxonomy_term
+    4097d8b8-aa15-49fb-8a45-8053f67127b0: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Initiative Dakar 2022 - Spotlight on WATER FOR RURAL DEVELOPMENT'
+  created:
+    -
+      value: 1647485813
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/initiative-dakar-2022-spotlight-water-rural-development-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L’« Initiative Dakar 2021 » vise durant la phase préparatoire du Forum, à sélectionner,  labelliser et vulgariser des projets nationaux, régionaux et internationaux pertinents, innovants, structurants et reproductibles, produisant des résultats à court terme, à impact durable autour des priorités du forum, et dont la finalité est de contribuer à l’accélération de l’atteinte des ODDs et plus particulièrement de l’ODD6.
+        L'Initiative Dakar 2022 constitue la matérialisation de la vision: « De l’engagement à la mise en œuvre d’actions concrètes sur le terrain »
+        Cette session permettra de présenter l'Initiative à travers sa genèse, son processus, ses résultats et son suivi. Elle explorera les projets labellisés en relation avec la priorité du Forum "Sécurité de l'Eau et de l'Assainissement"
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485813
+      guid: ''
+      hash: eee10057d9ac99e1bf459180607417eb
+  field_code:
+    -
+      value: SS22
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 832c91a8-a07c-48c2-bc9e-8137ac75ddbb
+    -
+      entity: d0359806-1ce5-4284-a9aa-fab07cf09879
+    -
+      entity: 81a80eba-d99a-4b15-b311-2fecddb3252e
+    -
+      entity: 07594690-d07a-4e97-a35f-8c2602c6602f
+    -
+      entity: 4097d8b8-aa15-49fb-8a45-8053f67127b0
+  field_organisateurs_text:
+    -
+      value: 'Secrétariat exécutif du 9ème Forum mondial de l''Eau'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Partie 1
+        Durée: 10 minutes - Introduction: 
+        Le modérateur introduira l'Initiative Dakar 2022 et présentera les résultats obtenus par rapport à la priorité indiquée. 
+
+        Partie 2
+        Durée: 7 minutes par projet + 5 minutes d'échanges
+        Présentation de  projets labellisés six (6) par les promoteurs suivie d'échanges
+
+        Partie 3
+        Durée: 8 minutes - Conclusion
+        Leçons apprises par le Modérateur. 
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

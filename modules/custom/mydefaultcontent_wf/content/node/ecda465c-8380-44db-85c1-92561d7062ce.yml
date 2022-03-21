@@ -1,0 +1,156 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ecda465c-8380-44db-85c1-92561d7062ce
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    2e814167-8d7c-49b2-82ae-acc09b16e6b1: taxonomy_term
+    f10dac31-10f2-4f79-9a51-5f4b08f99bfc: taxonomy_term
+    5f8e124f-1afb-4d93-bb26-b5db830a1ee7: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    43dc5d56-234b-4287-8899-c19c966c7226: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    a5f2e832-4961-4cf6-8bb0-4be209e3f405: taxonomy_term
+    feca4fb0-7914-406d-a4e0-3fab193ec755: taxonomy_term
+    2c59b153-3d63-40be-bba0-05108e29a71c: taxonomy_term
+    bbbcab4d-8235-4dc7-bac7-8176925bc2b2: taxonomy_term
+    a4fb2884-589e-4f82-83fd-7ec5df646d2e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Développer les capacités, améliorer la formation : le rôle de la coopération internationale'
+  created:
+    -
+      value: 1647484954
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developper-les-capacites-ameliorer-la-formation-le-role-de-la-cooperation-internationale
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "La coopération internationale investit des efforts et des ressources substantiels dans le secteur de l'eau, avec par exemple 9,3 milliards de dollars d'aide publique au développement alloués au secteur pour la seule année 2019 . 
+        Pourtant, les progrès dans la réalisation de l'Objectif de Développement Durable 6 dédié à l'eau restent limités : plus de la moitié de la population mondiale ne dispose toujours pas de services d'assainissement gérés de manière sûre, plus de 2 milliards de personnes n'ont toujours pas accès à une eau potable gérée de manière sûre et la gestion intégrée des ressources en eau (GIRE) reste très imparfaitement mise en œuvre (avec un score de 54% ).
+        Le renforcement des capacités des institutions et la formation professionnelle des ressources humaines du secteur de l'eau sont nécessaires pour combler les lacunes existantes et progresser vers la réalisation des ODD. En effet, les programmes et les investissements de la coopération internationale visent principalement les infrastructures nécessaires aux services d'eau et d'assainissement et à la gestion des ressources en eau, négligeant la nécessité de renforcer les institutions et les ressources humaines.
+        Cette session explorera comment la coopération internationale peut aider à stimuler le développement de capacités innovantes et la formation professionnelle pour améliorer la gestion de l'eau !
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484954
+      guid: ''
+      hash: 89ec5ba074ca985d70963d5f0528d2af
+  field_code:
+    -
+      value: 3C1
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2e814167-8d7c-49b2-82ae-acc09b16e6b1
+    -
+      entity: f10dac31-10f2-4f79-9a51-5f4b08f99bfc
+    -
+      entity: 5f8e124f-1afb-4d93-bb26-b5db830a1ee7
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 43dc5d56-234b-4287-8899-c19c966c7226
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: a5f2e832-4961-4cf6-8bb0-4be209e3f405
+    -
+      entity: feca4fb0-7914-406d-a4e0-3fab193ec755
+    -
+      entity: 2c59b153-3d63-40be-bba0-05108e29a71c
+    -
+      entity: bbbcab4d-8235-4dc7-bac7-8176925bc2b2
+  field_organisateurs_text:
+    -
+      value: 'Cap-Net UNDP'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        ICHARM
+
+        XR2LEAD
+
+        INBO Secretariat
+
+        UNESCO i-WSSMI
+
+        + (To Be Confirmed)- Palestinian Water Authority (PWA)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "- Cap-Net Le réseau mondial du PNUD pour le développement des capacités en matière de gestion durable de l'eau 
+        - Le développement d'une approche de diffusion des connaissances par l'UNESCO i-WSSM : Un renforcement des capacités sur l'eau piloté par le réseau 
+        - Projet XR2 LEAD visant à favoriser la collaboration par le biais d'une plateforme en ligne pour le renforcement des capacités (dans chaque pays et au niveau international) pour une gestion fiable, résiliente et durable de l'eau. 
+        - Projet de coopération intercommunale OMVS entre deux villes riveraines de la Mauritanie et du Sénégal (projet mis en œuvre avec l'appui de l'Agence de l'Eau Artois-Picardie)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "De 8 à 10 min max. pour chaque présentation.
+        Au moins 15 min pour les questions et réponses. 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Poursuite et extension du nombre d'initiatives mises en œuvre pour dynamiser le renforcement des capacités et la formation dans les programmes de coopération internationale :
+        - Le développement d'une approche de diffusion des connaissances par l'UNESCO i-WSSM : Un renforcement des capacités sur l'eau piloté par le réseau 
+        - Cap-Net : réseau mondial du PNUD pour le développement des capacités en matière de gestion durable de l'eau. 
+        - Projet XR2 LEAD visant à favoriser la collaboration par le biais d'une plateforme en ligne pour le renforcement des capacités (dans chaque pays et au niveau international) en matière de gestion fiable, résiliente et durable de l'eau.
+        - Projet de coopération intercommunale OMVS entre deux villes riveraines de la Mauritanie et du Sénégal (projet mis en œuvre avec l'appui de l'Agence de l'Eau Artois-Picardie
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: a4fb2884-589e-4f82-83fd-7ec5df646d2e

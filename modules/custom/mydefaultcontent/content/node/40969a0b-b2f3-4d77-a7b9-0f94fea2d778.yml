@@ -1,0 +1,150 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 40969a0b-b2f3-4d77-a7b9-0f94fea2d778
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    750ca47e-d528-485d-96b0-9216771e9c63: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    7e438598-ee3a-4d7d-a6a4-6af1308d8659: taxonomy_term
+    35611cfa-113e-4f2a-84bc-d58b151523e0: taxonomy_term
+    c69c71ab-61d0-4b1f-b3d3-a94da4334afa: taxonomy_term
+    a93483ec-bb38-4f6f-afab-3e847d196d18: taxonomy_term
+    a5efb8d9-93ab-4475-a686-6aadce350d2f: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Améliorer la résilience et l''adaptation au changement climatique, aux crises et aux catastrophes hydriques extrêmes par le biais de stratégies, de la planification et du renforcement des capacités sociales'
+  created:
+    -
+      value: 1647484942
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ameliorer-la-resilience-et-ladaptation-au-changement-climatique-aux-crises-et-aux
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Les catastrophes liées à l'eau, telles que les inondations, les sécheresses et les ondes de tempête, provoquent d'énormes pertes humaines et économiques et entravent sérieusement les efforts de développement durable, et le changement climatique augmente la fréquence et l'intensité de ces catastrophes. Le changement climatique augmente la fréquence et l'intensité de ces catastrophes. Les défis consistent à faire face à l'augmentation des risques et des impacts des catastrophes liées à l'eau en tenant compte de l'incertitude des projections du changement climatique.
+
+        Cette session permettra de partager des connaissances et des expériences pratiques et de mettre en avant la discussion sur la prise de décision adaptative, le renforcement des capacités sociales et la sensibilisation du public. En outre, la session se penchera sur la manière de développer des stratégies et des plans efficaces, efficients et réalisables pour faire face aux catastrophes liées à l'eau en tenant compte des impacts du changement climatique, et sur la manière de renforcer l'engagement et les efforts concrets d'un plus grand nombre de parties prenantes.
+
+        Les résultats de la discussion permettront d'accélérer la mise en œuvre efficace et efficiente de la réduction des risques de catastrophes liées à l'eau et de l'adaptation au changement climatique, y compris les contributions déterminées au niveau national (CDN) et les plans nationaux d'adaptation (PNA). "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484942
+      guid: ''
+      hash: ea17bc921fc35e47ae9bf92f51a00ff3
+  field_code:
+    -
+      value: 1F2
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 750ca47e-d528-485d-96b0-9216771e9c63
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 7e438598-ee3a-4d7d-a6a4-6af1308d8659
+    -
+      entity: 35611cfa-113e-4f2a-84bc-d58b151523e0
+    -
+      entity: c69c71ab-61d0-4b1f-b3d3-a94da4334afa
+    -
+      entity: a93483ec-bb38-4f6f-afab-3e847d196d18
+    -
+      entity: a5efb8d9-93ab-4475-a686-6aadce350d2f
+  field_organisateurs_text:
+    -
+      value: |-
+        Japan Water Forum (JWF)
+        Mr. Shigenori ASAI, 
+        Ms. Reiko Yoshii, 
+        *Please be advised that JWF may be unable to lead due to the uncertainty of the COVID-19 situation and travel regulations in coming months if a hybrid format session (with a virtual platform) is unavailable.
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	INBO / RIOB:
+
+        •	UNCCD:
+
+        •	Ms. Caroline King-Okumu (representative of the The Borders Institute Africa, but here in her personal capacity)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        "- Projet du Forum japonais de l'eau "Planification et mise en œuvre de mesures de réduction des risques de catastrophes liées à l'eau/préparation en mettant l'accent sur les impacts du changement climatique.
+        - Projet de l'AESN et du CREDEL sur les solutions basées sur la nature pour la prévention des inondations au Bénin.
+        - Projet de la Commission Internationale du Bassin de la Sava "Développement de la stratégie d'adaptation au climat et des mesures prioritaires à l'échelle du bassin pour le bassin de la Sava".
+        - Projet du Ministère de l'Agriculture de la République du Kazakhstan "Adaptation au changement climatique et gestion des inondations et des sécheresses dans le bassin de l'Aral Syrdarya".
+        - Projet de l'Agence française de développement (AFD) : "Lutte contre les inondations : appui à la mise en place d'une politique nationale de gestion intégrée des inondations urbaines pour réduire les risques de catastrophes" (Sénégal).
+        - Projet du Secours Islamique France : ""Solutions durables aux inondations et aux sécheresses au Pakistan"".
+        - Groupe de travail intergouvernemental sur la sécheresse de la CCD
+        - Projet du Réseau béninois du Parlement mondial des jeunes pour l'eau "Environnement, jeunesse et Agenda 2063 (EYA)".
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Ouverture /JWF (3 min)
+        Discours d'ouverture (à confirmer, 7 min)
+        Discussion de groupe, y compris Q&R (48 min)
+        Récapitulation et clôture (5 min) "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Poursuite et extension du nombre d'initiatives mises en œuvre pour renforcer la résilience et la capacité d'adaptation au changement climatique, aux crises et aux catastrophes hydriques extrêmes dans les programmes internationaux et nationaux susmentionnés. 
+
+        Les résultats de la discussion seront compilés sous forme de recommandation de la session. Ils devraient accélérer la mise en œuvre de stratégies et de plans efficaces et efficients de RRC liée à l'eau et d'adaptation au changement climatique, y compris les CDN et les PAN.
+        En outre, ils contribueront au 4ème Sommet de l'eau Asie-Pacifique (Kumamoto, Japon, 23-24 avril 2022), qui est un événement de soutien de la Conférence des Nations Unies sur l'examen à mi-parcours de la Décennie d'action pour l'eau 2018-2028 mentionnée dans la résolution des Nations Unies (A/RES/75/212)."
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 169a2137-b429-4719-9ba7-e6748c69f2f6
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    560362aa-7062-4eb9-9d54-7d93caf2cee8: taxonomy_term
+    cd2145ab-8edf-43a7-bcb7-59d09490a3b8: taxonomy_term
+    bdd30a4a-c047-4601-8cef-948a0fe4f50c: taxonomy_term
+    218d9e44-4154-4760-a12b-b4fb5a4da95b: taxonomy_term
+    d06cdb29-ac56-4be9-8c9b-e1821775dec0: taxonomy_term
+    3cc0a20b-67b6-40f8-ae00-0ba43ce1993f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gender in rural sanitation policies, programs and projects'
+  created:
+    -
+      value: 1647486040
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gender-rural-sanitation-policies-programs-and-projects
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The session is conceived as a space for exchange between participants on the gender approach and its integration in rural sanitation policies, projects and programs. 
+        The first step will be to present the subject and the issues it covers, to discuss the gender approach (from its institutionalization to its operationalization), and its inclusion in sanitation projects, while encouraging discussion among participants and input from the floor. A focus will be put on the Management of Menstrual Hygiene and the design of public facilities that are sensitive to it.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486040
+      guid: ''
+      hash: a09dfe4ca40fcfff61603a24535836fc
+  field_code:
+    -
+      value: SE27
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panelists/Speakers: DA/DEEG/USAID ACCES/ENABEL/UN WOMEN
+         Expected moderator: Gender TC/MEA 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 560362aa-7062-4eb9-9d54-7d93caf2cee8
+    -
+      entity: cd2145ab-8edf-43a7-bcb7-59d09490a3b8
+    -
+      entity: bdd30a4a-c047-4601-8cef-948a0fe4f50c
+    -
+      entity: 218d9e44-4154-4760-a12b-b4fb5a4da95b
+    -
+      entity: d06cdb29-ac56-4be9-8c9b-e1821775dec0
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Introduction/Context
+        5 - 10 min.	Introductory film
+        10 - 20 min.	Brainstorming with the audience on the question The Gender Approach: From Institutionalization to Operationalization of Gender at MEA 
+        20 - 40 min.	Presentations (10' each) 
+        DA: The case of public utilities
+        DA: Targeting vulnerable households in sanitation projects  
+        40 - 50 min.	Discussion of the presentations 
+        50 - 60 min.	Key messages and conclusion
+      format: plain_text
+  field_salle:
+    -
+      entity: 3cc0a20b-67b6-40f8-ae00-0ba43ce1993f

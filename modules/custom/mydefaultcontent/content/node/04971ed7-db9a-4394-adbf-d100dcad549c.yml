@@ -1,0 +1,76 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 04971ed7-db9a-4394-adbf-d100dcad549c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Utilisation des eaux non conventionnelles et des terres marginales pour la sécurité alimentaire'
+  created:
+    -
+      value: 1647485818
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/utilisation-des-eaux-non-conventionnelles-et-des-terres-marginales-pour-la-securite-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485818
+      guid: ''
+      hash: 8dabcba0fccc967b24c443e72d634659
+  field_code:
+    -
+      value: SS55
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_organisateurs_text:
+    -
+      value: 'Secrétariat exécutif du 9ème Forum mondial de l''Eau'
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

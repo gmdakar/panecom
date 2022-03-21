@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5c3738c-62e8-48e1-acb8-447406a5f4dc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    3db45c7d-7912-4084-8b46-c951f0124f81: taxonomy_term
+    d9b4ec04-71e8-41b0-b01b-88983d76f70b: taxonomy_term
+    3af4f93b-31fb-4da2-b867-f928bc243fa8: taxonomy_term
+    73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Table ronde pour la mobilisation des fonds pour le financement des ouvrages d''alimentation en eau potable au Mali'
+  created:
+    -
+      value: 1647486182
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/table-ronde-pour-la-mobilisation-des-fonds-pour-le-financement-des-ouvrages-dalimentation-en
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Cette table ronde vise à réunir les partenaires techniques et financiers du secteur de l’eau autour des besoins d’investissements du Mali en matière d’eau potable.
+        L’objectif principal de la table ronde est de mobiliser des fonds pour assurer l’approvisionnement correct et durable en eau potable des localités du Mali.
+        Elle permettra de présenter les besoins d’investissements, d’identifier les partenaires potentiels et d’obtenir des engagements de financements.
+        La table ronde pourra éventuellement répondre à certaines préoccupations des partenaires notamment celles liées aux questions sécuritaires, aux financements durables du secteur en période de crise multidimensionnelle (COVID 19 ; Socio-politique...).
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486182
+      guid: ''
+      hash: e1d3e54b4770804577cecf01578f3b86
+  field_code:
+    -
+      value: SE31
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Bakary COULIBALY / Directeur Général
+        Modibo TRAORE / Directeur de la Planification et des Investissements
+        Namory KEITA / Directeur du Contrôle de l'Exploitation
+        Koen Maathuis / Regional Manager West Africa / World Waternet
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: 3db45c7d-7912-4084-8b46-c951f0124f81
+    -
+      entity: d9b4ec04-71e8-41b0-b01b-88983d76f70b
+    -
+      entity: 3af4f93b-31fb-4da2-b867-f928bc243fa8
+  field_organisateurs_text:
+    -
+      value: SOMAPEP-SA
+      format: plain_text
+  field_salle:
+    -
+      entity: 73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066

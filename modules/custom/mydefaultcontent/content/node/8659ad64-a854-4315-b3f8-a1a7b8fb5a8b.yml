@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8659ad64-a854-4315-b3f8-a1a7b8fb5a8b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    1947b835-64d3-4167-824c-71a80ccb9305: taxonomy_term
+    e7105ce9-9f11-450b-b9e5-02703fca78ba: taxonomy_term
+    ae762c6c-a30b-4775-b010-f676332f7d52: taxonomy_term
+    bd18e7ca-c583-402a-930b-c750f5f63b0a: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Questions transversales dans les domaines thématiques'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/questions-transversales-dans-les-domaines-thematiques-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session se penche sur les solutions transversales qui traversent les domaines thématiques et génèrent un dialogue multidisciplinaire entre les domaines disciplinaires autour de l''eau. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: b3d975ca40f2f46def49981623db4c0f
+  field_code:
+    -
+      value: SS11
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 1947b835-64d3-4167-824c-71a80ccb9305
+    -
+      entity: e7105ce9-9f11-450b-b9e5-02703fca78ba
+    -
+      entity: ae762c6c-a30b-4775-b010-f676332f7d52
+    -
+      entity: bd18e7ca-c583-402a-930b-c750f5f63b0a
+  field_organisateurs_text:
+    -
+      value: WWC
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        vue d'ensemble - 5 min
+        brèves interventions des co-présidents - 30 min  
+        discussion modérée - 30 min 
+        résumé et voie à suivre - 15 min 
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

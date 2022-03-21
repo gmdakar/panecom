@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2e9bba2-9be3-4a90-8cc0-9049c9b2a167
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    15c3330c-f7c1-4f50-a3a0-d7ac485aadcc: taxonomy_term
+    87e7b19c-04e0-490d-ac3f-761fc63a9496: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    8fe680eb-17b7-40ef-816d-21f4ec1d4ba4: taxonomy_term
+    9ab8810f-b379-4451-83c9-2783339df0d1: taxonomy_term
+    6d1c3eed-6747-4ef2-a59a-e1d1b73310d2: taxonomy_term
+    0ecff523-1b78-40a3-b6b5-d62040e29b5b: taxonomy_term
+    f3c8a506-197d-4279-ac8a-658777a2c17e: taxonomy_term
+    fdd0ef94-1438-417a-92b0-6ebe9009f07a: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rejoignez l’initiative internationale et collective One Sustainable Health (OSH)'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/rejoignez-linitiative-internationale-et-collective-one-sustainable-health-osh-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le Forum SST est une initiative internationale et collective qui vise à produire des recommandations concrètes, fondées sur des données probantes, en vue de la mise en œuvre opérationnelle d''une approche intégrée "One Sustainable Health". Ces recommandations seront formulées par les 6 groupes de travail internationaux et synthétisées dans une déclaration One Sustainable Health qui sera publiée lors du Sommet mondial de la santé en octobre 2022 à Berlin. Cette déclaration fournira des lignes directrices pour les programmes opérationnels et les politiques publiques des États, des agences internationales, des entreprises, des ONG et des fondations.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: 5b776ea2113b11d98165aeed459f1b03
+  field_code:
+    -
+      value: SS37
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 15c3330c-f7c1-4f50-a3a0-d7ac485aadcc
+    -
+      entity: 87e7b19c-04e0-490d-ac3f-761fc63a9496
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 8fe680eb-17b7-40ef-816d-21f4ec1d4ba4
+    -
+      entity: 9ab8810f-b379-4451-83c9-2783339df0d1
+    -
+      entity: 6d1c3eed-6747-4ef2-a59a-e1d1b73310d2
+    -
+      entity: 0ecff523-1b78-40a3-b6b5-d62040e29b5b
+    -
+      entity: f3c8a506-197d-4279-ac8a-658777a2c17e
+    -
+      entity: fdd0ef94-1438-417a-92b0-6ebe9009f07a
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance'
+      format: basic_html
+  field_programme:
+    -
+      value: '3 fois des sessions de 10 minutes et 15 minutes de questions/réponses / messages à emporter '
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

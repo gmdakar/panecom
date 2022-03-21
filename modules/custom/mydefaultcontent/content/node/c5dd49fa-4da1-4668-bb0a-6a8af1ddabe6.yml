@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c5dd49fa-4da1-4668-bb0a-6a8af1ddabe6
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    4f25c62b-ad8d-458b-991d-76af70150feb: taxonomy_term
+    4a74a23f-033b-498a-937d-201b9b78849b: taxonomy_term
+    45a2da9d-8d87-4ebe-a43e-b137fb67f06c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Storm Water Management in West Africa – Global Thinking for Local Solutions'
+  created:
+    -
+      value: 1647486049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/storm-water-management-west-africa-global-thinking-local-solutions
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The long-time partnership between GWP and AfWA has been particularly
+        deepened through the implementation of our joint project, the German African
+        Partnership for Water and Sanitation (GAPWAS), in 2019.
+        Through a knowledge transfer between German and African experts and the
+        presentation of innovative technologies, this session aims at identifying solution
+        strategies that can contribute to better management of storm water events in
+        West Africa.
+        With climate change, the challenge of storm water management has become a
+        global one that will grow and increasingly affect both of our continents in the
+        coming years. Therefore, the networking and exchange of experience between
+        German and African experts from the water and sanitation sector as well as civil
+        society organizations and political decision-makers will lay the foundation for
+        sustainable and long-term cooperation in the field of storm water management.
+        By involving local authorities, the political importance of storm water
+        management will be communicated, with the goal to support effective
+        prevention and control of flood damage in West Africa by corresponding political
+        agendas.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486049
+      guid: ''
+      hash: 27dc79da2f567d5f22ed402107a692fa
+  field_code:
+    -
+      value: SE34
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Mayor of Dakar; Sylvain Usher, Executive Director African Water Association; Dr. Paul Engelke, Managing Director Kleine Solutions; Manuel Krauß, Research Institute for Water, Technical University of Aachen; Dirk Wittenberg, Senior Vice President WILO SE; Julia Braune, Executive Director German Water Partnership e.V.'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 4f25c62b-ad8d-458b-991d-76af70150feb
+    -
+      entity: 4a74a23f-033b-498a-937d-201b9b78849b
+  field_organisateurs_text:
+    -
+      value: 'German Water Partnership e.V.'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        5 min: Opening Keynote (Mayor of Dakar)
+        10 min: Challenges African regions are
+        facing during heavy rain seasons,
+        requirements for adapted storm
+        water management as well as
+        acquired knowledge and success
+        stories (Sylvain Usher)
+        10 min: Identification of potential risk areas
+        and recommended actions to
+        minimize economic and ecological
+        damages from storm water in West
+        Africa (Dr. Paul Engelke)
+        10 min: Best Practice sharing and
+        presentations of lessons learned
+        from the development of a flood
+        forecast for the German-Ghanian
+        project RAIN in Accra (Manuel Krauß)
+        10 min: Presentation of special pumps and
+        components for efficient flood
+        control (Direk Wittenberg)
+        15 min: Moderated discussion with the audience (Julia Braune)
+      format: plain_text
+  field_salle:
+    -
+      entity: 45a2da9d-8d87-4ebe-a43e-b137fb67f06c

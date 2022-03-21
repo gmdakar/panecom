@@ -1,0 +1,152 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02a1bb6a-5445-4ff0-a918-da4f87e455ac
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    68bee41c-0b50-43ab-b994-410cfd92fbb7: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    09c6abff-93da-453a-86ad-77ec8f0e3d23: taxonomy_term
+    184cbd1d-66ff-4f59-ae20-53435ef9159f: taxonomy_term
+    623348b6-9442-4585-b4ad-9f6246e71abc: taxonomy_term
+    b2abe6d2-dff8-41e3-9422-e71fe7e15b65: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Service delivery models for rural water supply'
+  created:
+    -
+      value: 1647484835
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/service-delivery-models-rural-water-supply
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '8 out of 10 people without access to even a basic water supply live in rural areas. Overcoming this challenge means adopting new ways of working and attracting the necessary investment to expand and sustain rural water services. There are invest-ready service models but what is needed is a new generation of rural water professionals to make them work, and investors and governments to support them. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484835
+      guid: ''
+      hash: 1a5a8c0dfbfbd889547768e1959f2e56
+  field_code:
+    -
+      value: 2A4
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 68bee41c-0b50-43ab-b994-410cfd92fbb7
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+    -
+      entity: 09c6abff-93da-453a-86ad-77ec8f0e3d23
+    -
+      entity: 184cbd1d-66ff-4f59-ae20-53435ef9159f
+    -
+      entity: 623348b6-9442-4585-b4ad-9f6246e71abc
+    -
+      entity: b2abe6d2-dff8-41e3-9422-e71fe7e15b65
+  field_organisateurs_text:
+    -
+      value: 'Rural Water Supply Network (RWSN)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Aguaconsult, Aquaya Institute, Skat Foundation'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        (1)"Evaluation of rural drilling management by associations, Locales Villageoises au Sénégal” by Mr Mamadou DIAGNE.
+        (2) “The 100 Million Initiative” by Mr Duncan McNicholl, Uptime Consortium
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        PART 1: Introduction, setting the scene (15 minutes)
+        o	Historical perspective on rural water supply and community-based management
+        o	Service delivery models (video presentation)
+
+        PART 2: Speaker presentations (45 minutes)
+        Presentations 
+        o	Senegal: community resistance to privatization of borehole management
+        o	Madagascar: public-private partnerships and urban-rural synergies 
+        o	Program to extend and improve the performance and resilience of the drinking water service in the northern provinces of Morocco
+        o	Uptime: results-based financing 
+        o	Q&A from the audience
+
+        PART 3: Panel discussion (30 minutes)
+        Panelists will be the four presenters + Mr. Teodoro Estrela, General Director of Water in Spain. 
+
+        PART 3a: how to integrate water safety in the professionalization journey? (10 minutes) 
+
+        o	Video presentation by Aquaya presenting one approach for professionalizing water quality monitoring (Water Quality Assurance Fund in Ghana)
+        o	Ends with a question to all presenters: “in the service delivery models that you presented, what would it look like to explicitly incorporate water quality monitoring?”
+        o	15 minutes discussion
+
+        PART 3b: how to achieve professionalization at scale? (10 minutes)
+        o	Question to all presenters: “in the service delivery models that you presented what type of external support was provided? By whom? What would the challenges be in scaling up this support in each context” 
+
+        o	Wrap up
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Expected outcomes, impacts, and follow-up linkages with events and initiatives after the Forum	The session will inform the ongoing efforts by RWSN and partners to:
+        1.	Mobilise political awareness and support for rural water supply professionalization and viable alternatives to community-managed water points.
+        2.	Identify evidence gaps for further research (by the new USAID-funded REAL-Water Programme and others)
+        3.	Strengthen the 100 Million Initiative to scale-up performance based contracting for better quality rural water service delivery.
+        4.	Support the other projects presented to find new partners to expand their innovations and share lessons learned.
+      format: basic_html
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

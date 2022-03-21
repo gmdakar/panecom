@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6395afa1-62c2-4d7b-9675-520a7a7d0052
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    d81392f1-0fad-4565-940e-4713d66fa652: taxonomy_term
+    23955562-2917-4066-837d-6757639bdc88: taxonomy_term
+    d035efe7-d81b-46ad-8b00-d472b1a9249d: taxonomy_term
+    8bebec76-183f-43e0-ab70-43bfaa6626f8: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    0afc3eec-4d09-4bde-b7d1-f0086005516b: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gestion intelligente de l''eau neutre en carbone pour la résilience climatique'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gestion-intelligente-de-leau-neutre-en-carbone-pour-la-resilience-climatique-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Cette session organisée par le Forum coréen de l'eau et le ministère de l'environnement de la République de Corée permettra de partager les dernières solutions en matière de gestion intelligente de l'eau, neutre en carbone, et fournira le cadre et l'orientation de la coopération et du partenariat régionaux visant à renforcer la résilience climatique et à atteindre le développement durable.
+
+        La discussion sur le statut et les tendances de la gestion intelligente de l'eau, avec un accent particulier sur les technologies innovantes pour réduire les émissions de carbone, fournira des implications utiles dans la conception de meilleures solutions pour l'eau. La bonne gouvernance et les politiques sont d'autres facteurs clés de la gestion intelligente de l'eau neutre en carbone, facilitant la coopération entre les différents secteurs de manière à maximiser les synergies pour la résilience climatique. Le financement et la législation appropriés, qui sont essentiels à la mise en œuvre de solutions innovantes dans le domaine de l'eau, seront également un sujet important à aborder lors de cette session. 
+
+        Les ordres du jour ont été élaborés en tenant compte du lien étroit qui existe entre le thème du 9e FME et ses priorités axées sur la "coopération" et les "moyens et outils". La mise en place d'une coopération régionale pour la gestion de l'eau est essentielle pour collecter et diffuser les solutions et expériences en matière d'eau parmi les diverses parties prenantes du secteur de l'eau. L'adaptation de technologies appropriées, la bonne gouvernance et les politiques sont les domaines de prédilection des moyens et outils. 
+
+        Objectif :
+         o Promouvoir les actions visant à développer des solutions pour l'eau qui contribuent à la neutralité carbone.
+         o Renforcer la coopération et le partenariat pour atteindre l'objectif commun de la neutralité carbone. 
+             gestion de l'eau neutre en carbone 
+         o Combler le fossé des connaissances en matière de gestion de l'eau et de changement climatique entre les secteurs privé et public, ainsi qu'entre les secteurs public et privé. 
+            et le changement climatique entre les secteurs public et privé, ainsi qu'entre les différents groupes sociaux et groupes d'âge.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 13000b5859b2542a3df0ada1231a8d08
+  field_code:
+    -
+      value: SS16
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: d81392f1-0fad-4565-940e-4713d66fa652
+    -
+      entity: 23955562-2917-4066-837d-6757639bdc88
+    -
+      entity: d035efe7-d81b-46ad-8b00-d472b1a9249d
+    -
+      entity: 8bebec76-183f-43e0-ab70-43bfaa6626f8
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 0afc3eec-4d09-4bde-b7d1-f0086005516b
+  field_organisateurs_text:
+    -
+      value: 'The Korea Water Forum(NGO, Civil Society Organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "? Ouverture et introduction(5min)
+        	
+        ? Remarques d'ouverture(3min)
+
+        ? Discussion en groupe (60min, 20min par ordre du jour)
+          (Ordre du jour I) Solutions pour la résilience climatique grâce à des technologies innovantes neutres en carbone 
+           carbone neutre
+          (Agenda II) Politiques et gouvernance pour une gestion de l'eau neutre en carbone pour atteindre la 
+           la résilience climatique
+          (Ordre du jour III) Coopération régionale et partenariat pour la résilience climatique dans la gestion de l'eau. 
+           gestion de l'eau
+
+        ? Discussion modérée (20min) 
+           : Délégations mondiales de jeunes
+
+        ? Clôture : Récapitulation du modérateur(2min)
+
+        "
+      format: plain_text
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

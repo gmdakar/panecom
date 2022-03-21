@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4ffc1e92-61c9-4541-a40b-eedda258daa4
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    84ccae66-2688-4cc2-bf3f-de5911c58660: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le MAER se rend au 9ème Forum mondial de l''eau, Thème : La productivité de l''eau au cœur du développement rural'
+  created:
+    -
+      value: 1647486190
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-maer-se-rend-au-9eme-forum-mondial-de-leau-theme-la-productivite-de-leau-au-coeur-du
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Conformément aux orientations du PRACAS qui est le volet agricole du PSE, du PNIASAN, de la LPSDA, du PAP2A et du PASAD, le principal défi du secteur agricole est de construire une agriculture compétitive, diversifiée et durable, pour lutter contre la pauvreté et atteindre la sécurité alimentaire et nutritionnelle des populations. L’objectif est de montrer le niveau de la maitrise de l’eau productive au Sénégal en coordonnant la participation et en renforçant la visibilité du MAER. Il s’agira plus spécifique de débattre sur les sous-thèmes suivant : Quelles stratégies pour la promotion d’un réseau hydrographique national et l’approvisionnement durable du pays en eau productive ? La sécurisation du foncière pour favoriser le développement rural ; La valorisation des terres aménagées, des eaux de surface et des eaux souterraines ; Mécaniser pour valoriser l’eau productive pour une agriculture diversifiée, productive, compétitive et durable.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486190
+      guid: ''
+      hash: 4cd6524f54adc28f42c330e40347bdd0
+  field_code:
+    -
+      value: SE52
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'DBRLA, SAED, SODAGRI, DMER et les autres structures du Ministère '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Agriculture and Rural Equipment of Senegal (MAER)'
+      format: plain_text
+  field_programme:
+    -
+      value: 'Les présentations : 2 heure (chaque présentation est de 15min), Clôture : 15min.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 84ccae66-2688-4cc2-bf3f-de5911c58660

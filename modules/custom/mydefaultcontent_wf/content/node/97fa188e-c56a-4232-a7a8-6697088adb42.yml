@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 97fa188e-c56a-4232-a7a8-6697088adb42
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    d522ce84-7762-40db-ab1a-851e95b55785: taxonomy_term
+    ae762c6c-a30b-4775-b010-f676332f7d52: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La carte de l''eau pour la COP27'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-carte-de-leau-pour-la-cop27-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session se concentrera sur l''engagement politique d''inclure clairement l''eau dans les négociations de la COP27 et de reconnaître son rôle central et sa contribution à l''adaptation et à l''atténuation du changement climatique mondial. L''un des principaux objectifs de la session est de rapprocher les connaissances et les avancées scientifiques en matière de gestion de l''eau de la formulation des politiques publiques et de la prise de décision. Outre le partage des connaissances, l''ambition est d''établir un engagement politique, par la présence d''autorités nationales et internationales de haut niveau, ainsi que d''agences de développement et de la communauté scientifique, soulignant l''importance d''une reconnaissance à long terme de la contribution spécifique de la gestion des ressources en eau aux processus climatiques. La session permettra également de discuter de la nécessité de créer des feuilles de route et des plans d''action, capables d''influencer les agendas politiques des différents pays sur des aspects tels que la sécurité alimentaire, la propriété et le contrôle de l''eau, avec un accent particulier sur l''approche "One Health".'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: 7d7480683c4f8ee2f5f785d52ceeeaca
+  field_code:
+    -
+      value: HLP08
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: d522ce84-7762-40db-ab1a-851e95b55785
+    -
+      entity: ae762c6c-a30b-4775-b010-f676332f7d52
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Modération par Sasha Koo-Oshima, Directeur adjoint de la Division des terres et des eaux de la FAO
+        - Bienvenue et introduction (3-5') par M. Li Lifeng, Directeur de la Division des terres et des eaux de la FAO.
+        - Discours-programme de Jennifer Sara, directrice mondiale de la pratique globale de l'eau du Groupe de la Banque mondiale (8')
+        - Panel de haut niveau sur le thème de l'eau pour la COP 27 (35') :
+               o Bahreïn, Ministre de l'eau (à confirmer)
+               o Indonésie, Président du G20 (orateur à confirmer)
+               o M. Barron Orr, scientifique en chef de l'UNCCD (à confirmer)
+               o Mme Ismahane Elouafi, Scientifique en chef de la FAO
+               o M. Giovanni Muñoz, BEI
+        - Messages clés et conclusion (5') par Jean-Marc Faures (FAO)"
+      format: plain_text
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 77f0304f-2ae5-4e85-ad34-c0dfca2048da
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    4b667a95-3cbe-4202-8fdd-ce66dbdbdb13: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    275149ee-f834-4949-a812-3ae65928d253: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La sécurité de l''eau en Amérique latine et dans les Caraïbes (ALC) : Finance et gouvernance'
+  created:
+    -
+      value: 1647486181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-securite-de-leau-en-amerique-latine-et-dans-les-caraibes-alc-finance-et-gouvernance
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Avec l''impératif que le 9ème Forum mondial de l''eau jette un pont entre les acteurs et entre les régions, sans négliger les caractéristiques géopolitiques et culturelles de chaque région, le CAF, en coordination avec la présidence et le secrétariat du CME, a réalisé la Conférence sur la finance et la gouvernance de l''eau en Amérique latine et dans les Caraïbes (ALC) : Vers Dakar 2022. Au cours de cette session, la vision de l''Amérique latine et des Caraïbes en matière d''eau, recueillie lors de la conférence, sera partagée, ainsi que les défis et opportunités régionaux. Différentes parties prenantes de l''ALC échangeront sur la feuille de route nécessaire pour atteindre la sécurité de l''eau dans la région.  '
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486181
+      guid: ''
+      hash: ec83a7cfb704db7172f1939a7b7b9cfa
+  field_code:
+    -
+      value: SE6
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Julián Suárez Migliozzi, CAF
+        Ángel Cárdenas, directeur du développement urbain, CAF
+
+        Panneau
+        - Adrián Peña, ministre de l'environnement, Uruguay.
+        - Jorge Werneck, directeur, Agência Reguladora de Águas, Energia e Saneamento Básico do Distrito Federal (ADASA), Brésil
+        - Malena Galmarini, présidente de l'Asociación Latinoamericana de Operadores de Agua y Saneamiento (ALOAS) et présidente de Agua y Saneamientos Argentinos S.A. (AYSA), Argentine. (AYSA), Argentine.
+        - Alexandra Moreira L., secrétaire générale, Organisation du traité de coopération amazonienne (ACTO)
+        - Pedro Maranhão, secrétaire national à l'assainissement, Brésil
+        - Carmelo Valda, vice-ministre de l'eau, Bolivie.
+
+        Modérateur : Franz Rojas, CAF
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 4b667a95-3cbe-4202-8fdd-ce66dbdbdb13
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+  field_organisateurs_text:
+    -
+      value: 'CAF - Development Bank of Latin America -'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Ouverture (5 mins) : Ángel Cárdenas, Directeur du développement urbain, CAF
+        Orateur principal (10 mins) : Julián Suárez Migliozzi, CAF
+        Panel (40 mins) : comme indiqué ci-dessus
+        Clôture (5 mins) : Ángel Cárdenas, Directeur du développement urbain, CAF
+      format: basic_html
+  field_salle:
+    -
+      entity: 275149ee-f834-4949-a812-3ae65928d253

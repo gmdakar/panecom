@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: de1e1759-2cb5-4b1f-a544-59b01b046e93
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    c62cf685-5d75-4bdf-938a-c26cec5893ba: taxonomy_term
+    37240045-52f4-45dc-b874-96f618bebcb9: taxonomy_term
+    9597ceb5-8a03-4185-b9c5-625e75244654: taxonomy_term
+    a921b59e-82d5-43b4-bbdc-56632dfd74d7: taxonomy_term
+    4e201dcb-8979-4dbe-bac8-a49496c48acb: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water and Climate Coalition Leaders - Recipe for Successful Adaptation'
+  created:
+    -
+      value: 1647493830
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-and-climate-coalition-leaders-recipe-successful-adaptation-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Climate change is exacerbating both water scarcity and water-related hazards, as rising temperatures disrupt precipitation patterns and the entire water cycle. It is estimated that 80% of the impacts of climate change are felt through water and the crisis will only intensify in the future. 
+
+        At the United Nations Climate Change Conference, COP26, the Water and Climate Coalition Leaders issued an urgent and united call for integrated water and climate action to replace the existing fragmented and crisis-driven approach. 
+
+        In this session, the Water and Climate Coalition Leaders will provide strategic guidance on integrating the water and climate agendas (incl. the UN 2030 Agenda, the Sendai Framework, the Paris Agreement and Africa's 2063 Agenda), to maximize synergies in designing and implementing actions to achieve SDGs 6 and 13. 
+
+        They will further present and discuss with the audience the following six tangible outcomes to be proposed at the 2023 UN Water Decade Conference: 
+
+        · A globally connected water observing system 
+        · A new financing rationale that considers societal benefit and ecological sustainability in water and climate development 
+        · An explicit river basin cooperation framework for assessing and sharing benefits of water-climate adaptation and mitigation activities 
+        · An agreed open access process and platform that takes stock of climate and water related activites
+        · An International Year of Glacier Preservation in 2025 and an international mechanism to facilitate the access to accurate and timely information on cryosphere
+        · A methodology and process to catalyze real change on the ground
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493830
+      guid: ''
+      hash: 815c196edea804a08e149e06f2ac8477
+  field_code:
+    -
+      value: HLP04
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: c62cf685-5d75-4bdf-938a-c26cec5893ba
+    -
+      entity: 37240045-52f4-45dc-b874-96f618bebcb9
+    -
+      entity: 9597ceb5-8a03-4185-b9c5-625e75244654
+    -
+      entity: a921b59e-82d5-43b4-bbdc-56632dfd74d7
+    -
+      entity: 4e201dcb-8979-4dbe-bac8-a49496c48acb
+  field_organisateurs_text:
+    -
+      value: 'World Meteorological Organization'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        During the event, WWF participants will have the opportunity to engage with the Water and Climate Leaders in two panel discussions. 
+
+        Opening (10 min)
+        Setting the scene – Mr. Gilbert Houngbo, Chair UN-Water; President IFAD
+
+        Panel discussion (40 min)
+        •	Integrating adaptation in the national level policy development – Mr. Komi Sélom Klassou, Past Prime Minister, Republic of Togo
+        •	Transboundary collaboration as a tool for adaptation – Dr. Mohamed Abdel Aty, Minister of Water Resources and Irrigation, Egypt
+        •	Case example – Mr. Abdelkébir Zahoud, Past State Secretary for Water and Environment, Kingdom of Morocco
+        •	Integrating water and climate agendas and the role of data – Mr. Howard Bamsey, Chair Global Water Partnership
+        •	Innovation and private sectors role in adaptation – Mr. Matthias Berninger, SVP Public Affairs & Sustainability BAYER
+        •	Youth participation and inclusion in the policy development – Mrs. Lindsey Blodgétt, Former President, World Youth Parliament for Water 
+
+        Q&A (5 min)
+
+        Closing (5 min)
+        Johannes Cullmann, Director Water and Cryosphere, WMO
+
+        Moderator of the panel discussions: Johannes Cullmann, Director Water and Cryosphere, WMO
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

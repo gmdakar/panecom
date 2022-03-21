@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 491fbe9a-e183-45ef-b10d-6aa590337441
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    fc7fa897-7d23-4d93-8cc4-04ee95868fba: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    603739db-8271-4a81-80ac-42df4efa6621: taxonomy_term
+    c4104d35-0554-42af-8e4d-74138cbe4029: taxonomy_term
+    6f6ec599-3706-4cb4-8982-aeafc8d98815: taxonomy_term
+    7debf7b5-df49-41ac-8876-93fc4813dd30: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accélérer l''assainissement géré en toute sécurité pour la santé : une feuille de route pour la gouvernance, les finances, les données, les capacités et l''innovation'
+  created:
+    -
+      value: 1647484939
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accelerer-lassainissement-gere-en-toute-securite-pour-la-sante-une-feuille-de-route-pour-la
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Il est alarmant de constater que le monde n'est pas sur la bonne voie pour assurer l'accès universel à un assainissement sûr d'ici 2030.  Les taux de progression doivent quadrupler pour atteindre la cible de l'ODD et profiter des innombrables avantages sanitaires, environnementaux et socio-économiques qui découlent d'un assainissement géré en toute sécurité. 
+        Cette session thématique explorera les cinq dimensions du cadre mondial d'accélération (GAF) de l'ODD6 à l'aide de preuves, d'actions et de cas de réussite présentés dans le rapport sur l'état de l'assainissement dans le monde.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484939
+      guid: ''
+      hash: e12e9d95ae32d92c971ffe737c8759e8
+  field_code:
+    -
+      value: 1C3
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: fc7fa897-7d23-4d93-8cc4-04ee95868fba
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: 603739db-8271-4a81-80ac-42df4efa6621
+    -
+      entity: c4104d35-0554-42af-8e4d-74138cbe4029
+    -
+      entity: 6f6ec599-3706-4cb4-8982-aeafc8d98815
+    -
+      entity: 7debf7b5-df49-41ac-8876-93fc4813dd30
+  field_organisateurs_text:
+    -
+      value: 'WHO, UNICEF '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'WHO, Action contre la Faim (ACF), UNC, Master of Public Health graduate at McMaster University, Turkish Water Institute (SUEN) , WATERAID, SEN’EAU, Croix-Rouge Française) plus other orgs most relevant'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        Projet 5 : Suivi mondial du programme WASH et de la charge de morbidité liée à WASH (ODD 6.1, 6.2, 6.3, 6A, 6B, 3.9)
+        Projet 1 : Feuille de route pour la lutte contre le choléra du Groupe de travail mondial (GTFCC)
+        Projet X : Stratégie mondiale et boîte à outils pour WASH et les maladies tropicales négligées en soutien à la feuille de route NTD 2021-2030
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Présentation principale - l'état de l'assainissement dans le monde (OMS/UNICEF) (Projet 5) (20mins) 
+
+        - Réactions en personne ou par message vidéo d'exemples de réussite en matière d'accélération (5 minutes chacun) :
+        - Singapour
+        - Singapour, Inde
+        - Nigeria ou Sénégal
+
+        Présentations rapides sur les maladies liées à l'assainissement (10 minutes chacune) :
+
+        - Charge des maladies liées à l'eau et à l'assainissement - OMS
+        - Collaboration du secteur de la santé pour réduire les maladies liées à l'eau - Choléra (GTFCC) et maladies tropicales négligées (NTDs) 
+
+        Discussion en groupe sur les cinq éléments du Cadre mondial d'accélération (30 minutes)  
+
+        Modérateur - Aaron Salzberg UNC (tous les intervenants sont à confirmer)
+
+        - Gouvernance - réguler les services d'assainissement 
+        - Peter Mutale, NAWASCO, Zambie ou Yvonne Magawa ESAWAS
+         
+        - Finance - le cas économique et l'augmentation du financement de l'assainissement
+        - Guy Hutton, UNICEF ou Catarina De Albuquerque, SWA 
+
+        - Données - Données pour la prise de décision, le ciblage et la correction de trajectoire
+        - Rick Johnston OMS/UNCEF JMP et/ou ACF sur la classification de la sévérité de WASH ou AMCOW sur les données régionales à travers les lignes directrices de la politique africaine de l'assainissement.
+
+        - Capacité - besoins en personnel pour l'assainissement
+        - Awa Daigne, Banque mondiale ou Andres Hueso, WaterAid   
+
+        - Innovation - identifier et répondre aux risques climatiques  
+        - Juliet Willets, Université de Technologie de Sydney ou XXX- Université de Leeds ou Réseau des jeunes de l'eau.
+
+        Remarques de clôture (5 minutes) 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Les participants auront une bonne compréhension de l''état des maladies liées à l''assainissement, de l''état de la couverture des services d''assainissement gérés en toute sécurité actuellement et du niveau d''accélération nécessaire pour atteindre les objectifs des ODD.  Les participants comprendront également l''état actuel des investissements politiques et financiers dans l''assainissement et l''accélération clé nécessaire pour atteindre l''ODD6.2, structurée autour des cinq éléments du GAF de l''ODD6 - gouvernance, finance, données, capacité et innovation.  Les participants repartiront motivés par des exemples positifs d''accélération rapide tirés de l''histoire et de l''actualité. '
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

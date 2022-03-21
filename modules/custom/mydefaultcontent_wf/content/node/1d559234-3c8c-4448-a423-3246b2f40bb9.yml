@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1d559234-3c8c-4448-a423-3246b2f40bb9
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    f4b199b0-017e-434e-8b96-7c9de71f434f: taxonomy_term
+    ad08d99c-28c6-43bb-adad-faed5864b6cb: taxonomy_term
+    8fc60dbe-e0e4-439e-8e46-88ea82153d22: taxonomy_term
+    d505fe02-b047-4944-a3bf-1209835388a8: taxonomy_term
+    e1427a6a-6c15-4b74-85d4-16e4dc08be42: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Interfaith religious visions and motivations for water and sanitation action'
+  created:
+    -
+      value: 1647493850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/interfaith-religious-visions-and-motivations-water-and-sanitation-action-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The session cuts across priority 1: Water security and Sanitation (human rights to water and sanitation) and priority 3: Cooperation (strengthen dialogue and partnerships…)
+
+        The session intends to fit within the following themes:
+        human rights access to watsan, access for all, relations between ethics and water & sanitation services and interfaith collaboration/dialogue.
+
+        Objectives
+
+        •	Show the connections between faith, religious, spiritual values and water, sanitation and hygiene.
+        •	Call to increased interfaith dialogue in educating and engaging on water security issues.
+        •	Underscore that religious values and traditions can be a motivation for commitment, solidarity, responsibility and for caring for water
+        •	Call to action to promote  interfaith dialogue and engagement on water, sanitation and hygiene 
+
+
+        Expected Results
+
+        •	Demonstrate the role of religions in support of:
+        o	 individual/collective practices to ensure equitable access and preserve, use water resources;
+        o	social cohesion and peace around water resources;
+        o	good governance, equity and service provision for vulnerable populations.
+
+
+        •	Obtain commitments to address risks of exclusions in policies and practices that promote water and sanitation services, also considering privatization of services
+        •	Share good practices in translating religious values into practice to support water and sanitation
+        •	Showcase that some religious and faith-based organizations can be valuable partners for administrations, implementing agencies and the broader civil society
+        •	Organize an Interfaith action in Dakar (to symbolize dialogue and collaboration), as a follow up to the session or in parallel to engage local populations, not present at the forum, on the session themes
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493850
+      guid: ''
+      hash: 32b455b17de889f1ff3a83a09983f96b
+  field_code:
+    -
+      value: SS46
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: f4b199b0-017e-434e-8b96-7c9de71f434f
+    -
+      entity: ad08d99c-28c6-43bb-adad-faed5864b6cb
+    -
+      entity: 8fc60dbe-e0e4-439e-8e46-88ea82153d22
+    -
+      entity: d505fe02-b047-4944-a3bf-1209835388a8
+    -
+      entity: e1427a6a-6c15-4b74-85d4-16e4dc08be42
+  field_organisateurs_text:
+    -
+      value: 'CARITAS Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: 'We do not know - a slot is supposed to be provided by the Executive Secretariat of the 9th WWF'
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

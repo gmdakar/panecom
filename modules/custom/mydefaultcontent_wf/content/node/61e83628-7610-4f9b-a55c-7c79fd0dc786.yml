@@ -1,0 +1,165 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61e83628-7610-4f9b-a55c-7c79fd0dc786
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    3be2476c-c508-4097-8f7f-0cb0584537d0: taxonomy_term
+    c5d718c3-913f-44a7-b239-cbc336ee448e: taxonomy_term
+    84ca9a8e-e1a1-4fba-a33c-98c7a364fe58: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    a9746039-1dde-40ab-9e14-b24a4a3bc929: taxonomy_term
+    23955562-2917-4066-837d-6757639bdc88: taxonomy_term
+    cf223301-5e63-4e02-bd75-3aa61edc6658: taxonomy_term
+    c2be7926-c90b-415f-997c-4d5948d47cfa: taxonomy_term
+    a3872c13-797f-4350-9d39-ebf1ebd95f12: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''eau pour la résilience climatique de l''agriculture'
+  created:
+    -
+      value: 1647484949
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leau-pour-la-resilience-climatique-de-lagriculture
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "L'objectif général de cette session est de contribuer à renforcer la résilience climatique de l'agriculture par la mise à l'échelle de solutions innovantes et intégrées de gestion de l'eau. Les messages clés sont les suivants :
+        - Pas d'eau implique pas de nourriture, quand l'eau est gaspillée, la nourriture est gaspillée et quand l'eau est rare, la nourriture est rare. Cela implique donc que la résolution des problèmes liés à la pénurie d'eau et à la productivité de l'eau est cruciale pour la transformation des systèmes alimentaires dans les pays en développement. 
+        - Si l'on veut s'attaquer au système alimentaire, il faut trouver des solutions sociotechniques inclusives pour la gestion de l'eau dans l'agriculture afin de renforcer la résilience au changement climatique.
+        - L'utilisation durable de l'eau est renforcée par l'intégration de tous les acteurs, y compris les agriculteurs, les gouvernements, le secteur privé et la population générale, dans les secteurs interdépendants de l'eau, de l'alimentation, de l'énergie et de l'environnement.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484949
+      guid: ''
+      hash: 4e7fefd424a0f25f8a18a8032ceac1ff
+  field_code:
+    -
+      value: 2D5
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3be2476c-c508-4097-8f7f-0cb0584537d0
+    -
+      entity: c5d718c3-913f-44a7-b239-cbc336ee448e
+    -
+      entity: 84ca9a8e-e1a1-4fba-a33c-98c7a364fe58
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: a9746039-1dde-40ab-9e14-b24a4a3bc929
+    -
+      entity: 23955562-2917-4066-837d-6757639bdc88
+    -
+      entity: cf223301-5e63-4e02-bd75-3aa61edc6658
+    -
+      entity: c2be7926-c90b-415f-997c-4d5948d47cfa
+    -
+      entity: a3872c13-797f-4350-9d39-ebf1ebd95f12
+  field_organisateurs_text:
+    -
+      value: |
+        IWMI: Dr. Mark Smith, Dr. Olufunke Cofie and Dr. Sander Zwart 
+        FAO: Mr Riccardo Biancalani and Mr. Ruhiza Boroto
+        Government of Senegal: Ministry of agriculture and rural development
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        University of Nebraska
+        AFD
+        UNOPS
+        AICS
+        African Union Commission
+        USAID
+        The World Bank
+        Strategic partners of the listed projects
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "1. le cadre mondial sur la pénurie d'eau en agriculture (WASAG Contact : 
+        Ruhiza.Boroto@fao.org) : 
+        2.	Initiative de surveillance intégrée de l'ONU-Eau pour l'ODD 6.4"" (FAO) : importance du flux environnemental pour une agriculture résistante au climat. (Contact :
+        Riccardo.Biancalani@fao.org) 
+        3.	Accélération des impacts de la recherche climatique du CGIAR pour l'Afrique (AICCRA) (IWMI Amarnath Giriraj : A.Giriraj@cgiar.org)
+        4.	Laboratoire d'Innovation pour l'Irrigation à Petite Echelle : Solutions d'irrigation à petite échelle pour soutenir le développement de l'irrigation par les agriculteurs (IWMI, Thai Minh : T.Minh@cgiar.org) 
+        5.	Investir dans l'irrigation durable dirigée par les agriculteurs pour un développement économique rural résilient (DWFGI : Peter McCornick : pmccornick@nebraska.edu)
+        6.	Le MENA Regional Innovation Hub (RIH) pour l'eau et l'énergie pour l'alimentation dans la région MENA (IWMI, Nisreen Lahham ; N.Lahham@cgiar.org) 
+        7.	ReWater MENA : Une réutilisation plus importante et plus sûre de l'eau au Moyen-Orient et en Afrique du Nord"". (IWMI : Mateo-Sagasta, Javier : J.Mateo-Sagasta@cgiar.org) 
+        8.	Projet eau et sécurité alimentaire à Gaza - utilisation des eaux usées traitées pour recharger les nappes phréatiques (AFD : Mme Céline Robert, robertc@afd.fr ; Quentin Ballin, ballinq@afd.fr)
+        9.	COVID-19 et la crise de l'eau en Egypte : générer des preuves pour des innovations transformatrices de genre "" (IWMI : Deepa Joshi deepa.joshi@cgiar.org) 
+        10.	 Le programme d'entrepreneuriat de l'eau du CMI sur l'eau et le changement climatique dans la région méditerranéenne ( CMI/ UNOPS : igasmi@cmi.unops.org ; bmorenododson@cmi.unops.org ; ctsakas@cmi.unops.org ; cgourraud@cmi.unops.org
+        11.	La maîtrise de l'eau au Sénégal (FAO et Ministère sénégalais de l'agriculture) FAO Sénégal :  Eugene.Rurangwa@fao.org)
+
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " 5 Min : Remarques d'ouverture et introduction de la session - Modérateur
+        18 min : Ignite Talk (présentation) par 3 présentateurs sur les projets 1-3 :  
+        - 10 min : Premier panel réagissant à la présentation (une personne de la FAO, de l'IWMI et du Sénégal - co-animateurs de la session) 
+        - 30 min Présentation des études de cas (Projets 4, 5, 6, 7 &8) 
+        - 10 min : Deuxième panel de discussion sur l'inclusivité (accent sur le genre et la jeunesse) : (projets Nos 9 & 10 
+        - 15 min : Discussion plénière pour saisir les actions recommandées - 15 mins
+        - 2min : Clôture 
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Les actions recommandées sont consignées dans un dossier et largement diffusées par les réseaux de participants. '
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

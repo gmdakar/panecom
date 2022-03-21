@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8549fd43-edae-45d8-bafd-69f036baa511
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    c3f54489-534a-4c6f-aa7f-bc5c368ea0dc: taxonomy_term
+    7d1ca13d-4f2c-495b-9322-ce585147b299: taxonomy_term
+    2985bfb6-f171-4758-92c2-803ee3bd9266: taxonomy_term
+    942a80dc-9cdf-43f7-ac70-acb712786037: taxonomy_term
+    2e42f5b5-38b0-4f52-830d-0525da205647: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Awareness and capacity building of actors for the development of the sanitation market in rural areas'
+  created:
+    -
+      value: 1647486049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/awareness-and-capacity-building-actors-development-sanitation-market-rural-areas
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session is designed as a space for exchange between participants on approaches to sensitizing rural households to sanitation issues and on sanitation marketing. 
+        It will present the subject and the issues it covers, and discuss the evolution of the PAPTAC, from its genesis to the expanded approach.) The Marketing of Sanitation will also be the subject of exchanges, and the experiences developed by different actors will be analyzed by the participants.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486049
+      guid: ''
+      hash: d9f30d40e776f114d83532a66006639b
+  field_code:
+    -
+      value: SE28
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panelists/Speakers : DA/UNICEF/USAID ACCES/GSF: ATPC/CLTS
+        Expected moderator: UNICEF SENEGAL 
+        Panelists/Speakers : DA/GRET/USAID ACCES/: Marketing Sanitation
+        Expected moderator: CPCS/MEA SENEGAL 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: c3f54489-534a-4c6f-aa7f-bc5c368ea0dc
+    -
+      entity: 7d1ca13d-4f2c-495b-9322-ce585147b299
+    -
+      entity: 2985bfb6-f171-4758-92c2-803ee3bd9266
+    -
+      entity: 942a80dc-9cdf-43f7-ac70-acb712786037
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Introduction/Context
+        5 - 10 min.	Introductory film
+        10 - 20 min.	Brainstorming with the audience on the question: Sanitation marketing: a lever to boost access to sanitation in Senegal?   
+        20 - 40 min.	Presentations (10' each) 
+        UNICEF: Original PAPTAC - Expanded PAPTAC 
+        DA: Sanitation Marketing: Lessons Learned from Pilot Projects 
+        40 - 50 min.	Discussion of presentations 
+        50 - 60 min.	Key messages and conclusion
+      format: plain_text
+  field_salle:
+    -
+      entity: 2e42f5b5-38b0-4f52-830d-0525da205647

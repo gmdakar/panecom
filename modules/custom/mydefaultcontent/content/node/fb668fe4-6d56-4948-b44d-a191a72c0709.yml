@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fb668fe4-6d56-4948-b44d-a191a72c0709
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    64335fd4-a0dd-4028-a4f6-02a34bcd28bb: taxonomy_term
+    c6c0caf0-ded8-4b8f-b110-38cc054eb4aa: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dialogue ville- bassin : guide méthodologique RIOB- IWA sur les villes connectées à leur bassin'
+  created:
+    -
+      value: 1647486181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/dialogue-ville-bassin-guide-methodologique-riob-iwa-sur-les-villes-connectees-leur-bassin
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La majorité de la population mondiale vit dans les villes et près de 6 milliards de personnes vivront dans des zones urbaines d'ici 2050. Cette croissance crée de nombreux défis pour rendre les villes durables et nécessite une intelligence et une action collectives pour la sécurité de l'eau et de l'environnement. La croissance urbaine peut être une opportunité pour le développement économique, mais les ressources naturelles étant limitées, elle constitue également une menace pour la qualité de vie.
+
+        L'accent est déjà mis sur les villes durables par le biais de cadres tels que les principes pour des villes soucieuses de l'eau, qui soulignent la nécessité d'optimiser les coûts, la résilience des ressources en eau, la conservation de la biodiversité, etc. Cela inclut des actions de collaboration visant à concilier le cycle de l'eau en milieu urbain avec le cycle de l'eau au sens large, qui comprend les bassins fluviaux et lacustres et les aquifères dont dépendent les villes pour leurs ressources en eau. Toutes les parties prenantes doivent être impliquées dans l'identification et la mise en œuvre de solutions appropriées et durables pour une gouvernance efficace des villes-bassins.
+
+        L'Association Internationale de l'Eau (IWA) et le Réseau International des Organismes de Bassin (RIOB) sont en train de concevoir un manuel, un outil d'aide à la décision pour renforcer la connexion et l'intégration de la ville avec son bassin hydrographique. Ce manuel s'appuie sur l'Agenda d'action pour les villes connectées par bassin qui reflète les problèmes actuels et potentiels entre les villes et leurs bassins et la façon de les traiter en identifiant les moteurs de l'action (par exemple, quels sont les risques ?), et les voies de solution possibles.  A travers des études de cas pratiques, des témoignages et des recommandations, le manuel illustrera comment "l'acteur urbain" peut et doit jouer un rôle actif dans la protection des ressources en eau et dans la reconnexion des bassins à leurs villes.
+
+        Au cours de cet événement, le RIOB et l'IWA souligneront l'ambition du manuel qui s'adresse à la fois aux décideurs politiques et aux techniciens, et qui vise également à sensibiliser la société civile et les groupes environnementaux.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486181
+      guid: ''
+      hash: 27578f3bdfdddf4cea578bc10de976bc
+  field_code:
+    -
+      value: SE8
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Eric TARDIEU, Secrétaire Général du RIOB
+        Porteurs de projets des "histoires de bassin" (TBC)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 64335fd4-a0dd-4028-a4f6-02a34bcd28bb
+  field_organisateurs_text:
+    -
+      value: 'International Office for Water - NGO'
+      format: plain_text
+  field_programme:
+    -
+      value: 'En progrès'
+      format: basic_html
+  field_salle:
+    -
+      entity: c6c0caf0-ded8-4b8f-b110-38cc054eb4aa

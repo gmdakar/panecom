@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 392fc7a9-5258-4cdb-9ae8-44870a83ff2d
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    a921b59e-82d5-43b4-bbdc-56632dfd74d7: taxonomy_term
+    e3e7f644-c7ef-4546-81fd-518f78540561: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financing a water secure future: Ways forward'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financing-water-secure-future-ways-forward-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This High Level Panel focused on financing water will contribute to the preparation of the UN 2023 Water Conference. It will highlight key guiding questions that can contribute to advancing the global discussion on water economics and financing that will be explored in a major forthcoming review to be prepared for the UN 2023 Water Conference.
+
+        The session will engage leading economic thinkers, government ministers, and leaders of financial and intergovernmental institutions. The panel will draw on a broad foundation of experience with the Roundtable on Financing Water as well as recent analytical work on financing water from the OECD, the World Bank and the World Water Council. This work includes the forthcoming OECD synthesis report Financing a water secure future, analysis of the role of intermediaries to mobilise finance, blended finance for water in specific country contexts, investors’ guidelines for nature-based solutions, and the implications of the pandemic on financing water.   
+
+        Key questions to be explored include:
+        •	Going beyond traditional economic approaches, what insights and perspectives can inspire new policy orientations, financing and citizen engagement?
+        •	What key levers are required to drive transformational action on the ground? 
+
+        An expected outcome of the session is to recast the orientation of global discussions on the financing and economics of water security and give impetus to meaningful financing approaches that can be implemented on the ground to contribute to the achievement of SDG 6.
+
+        The panel will contribute to the Forum’s fourth thematic priority ‘Means and Tools’, A: Mobilise additional financial resources and promote innovative funding.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: f053889821f2529bc509db7579cf92ea
+  field_code:
+    -
+      value: HLP10
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: a921b59e-82d5-43b4-bbdc-56632dfd74d7
+    -
+      entity: e3e7f644-c7ef-4546-81fd-518f78540561
+  field_organisateurs_text:
+    -
+      value: OECD
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Opening remarks (3-5’ each)
+        •	Senegal or WWC
+        •	The Netherlands
+        Panel discussion (70’):
+        •	Begin with a provocative introductory statement from the one of the lead authors of the Review for the 2023 Conference. Panellist will react to this and focus on innovative, forward-looking and disruptive statements (e.g. not more of the same).
+        •	Interactive discussion with the panellists; may open the floor for questions, comments, if interest and time allows
+        Closing remarks (3-5’ each):
+        •	United States  
+        •	Indonesia or Egypt 
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

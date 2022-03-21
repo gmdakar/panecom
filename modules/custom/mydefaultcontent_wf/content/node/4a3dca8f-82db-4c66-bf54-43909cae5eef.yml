@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a3dca8f-82db-4c66-bf54-43909cae5eef
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    d014791d-c85c-4b99-ae31-36daa109d3ee: taxonomy_term
+    8da38c00-f4c1-436c-9332-8677675ea16d: taxonomy_term
+    6b1e8bf7-e9d2-4de8-97a0-3768c1b92a05: taxonomy_term
+    1149714b-409b-412d-8f35-f3d43fbc2f41: taxonomy_term
+    67aee449-f23f-4b09-b1ef-e06c7472eabe: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'BRIDGING THE GOVERNANCE AND FINANCE GAPS IN THE WASH SECTOR'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/bridging-governance-and-finance-gaps-wash-sector-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'USAID’s Water, Sanitation and Hygiene Finance (WASH-FIN) program has been implemented since 2016 with the objective of closing financing gaps to achieve universal access to water and sanitation services through sustainable and creditworthy business models, increased public funding, and expanded market finance for infrastructure investment. The program has so far helped raise over USD 68.4 million in 8 countries in Africa and Asia, showing that it is possible to leverage private financing to the sector. However, USD 68 million is a drop in the bucket compared to the USD 114 billion per year that is estimated to be needed to bridge the sector financing gap. Using examples from the Philippines, Cambodia, and Kenya, this session will frame the WASH finance gap as a governance challenge focusing on the lack of clarity in sector actor roles and responsibilities, particularly within sectors undergoing decentralization/devolution processes. Using examples from Senegal, Mozambique and South Africa, the session will also showcase how technical assistance programs like WASH-FIN can help address water sector governance challenges to enable both the framework and financing mechanisms needed to crowd-in new sources of financing for both public and private WASH service providers. This interactive session is targeted at WASH practitioners managing and regulating water utilities, government decision makers, financiers, and academics.  By the end of the session, participants will have developed an appreciation of key sector governance challenges and how they may be addressed to enable increased access to non-traditional financing to public and private WASH service providers.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: c86cd9a7dd6623366dd086bda8033af8
+  field_code:
+    -
+      value: SS53
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: d014791d-c85c-4b99-ae31-36daa109d3ee
+    -
+      entity: 8da38c00-f4c1-436c-9332-8677675ea16d
+    -
+      entity: 6b1e8bf7-e9d2-4de8-97a0-3768c1b92a05
+    -
+      entity: 1149714b-409b-412d-8f35-f3d43fbc2f41
+    -
+      entity: 67aee449-f23f-4b09-b1ef-e06c7472eabe
+  field_organisateurs_text:
+    -
+      value: 'USAID''s WASH-FIN'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Time	Activity	Presenters/Panelists
+        13:30-13:35	Welcome remarks, housekeeping and session introduction-Alyssa Boyer, Chief 
+                                of Party, USAID’s WASH-FIN
+        13:35-13:10	Keynote Address:  Importance of Governance in Financing the WASH Sector	 
+                               TBD, USAID
+        13:10-13:15	Participant Live Polling-Barbara Kazimbaya Senkwe, USAID’s WASH-FIN
+        13:15-13:25	Presentation- Defining the WASH Finance Gap as a Governance Issue: USAID’s 
+                               Experience- Jeff Goldberg, Acting Global Water Coordinator, USAID
+        13:25 – 13:40 Interview on Innovative Financing Mechanisms 
+        	           1. The PARC Program, a Financing Facility for the Renewal of Exhauster Trucks 
+                          for Sanitation Service Providers in Senegal - Mariama KA, Senior Investment 
+                         Manager, Delegation Generale a l’Entreprenariat Rapide des Femmes et des 
+                         Jeunes (DER), Senegal
+                           2. The INCA, Municipal Debt Fund which blends local and international funding to 
+                           provide an additional infrastructure financing option for local municipalities and 
+                           investors in South Africa – Shiva Makokoto, Executive Director and Deputy CEO 
+                           at RBN Fund Managers, UK.
+        Interviewer: Steve Sena, Deputy Chief of Party, USAID’s WASH-FIN
+
+        13:40-14:10	Panel Discussion- Strengthening the Enabling Environment to Crowd-in 
+                              Financing to the Sector
+        	              1. Eng. Peter Njaggah, Director of Regulation and Compliance, Water Services 
+                              Regulatory Board (WASREB), Kenya
+                           2.Lim Minh, Executive Director, Cambodia Water Supply Association, Cambodia
+                           3. Ababacar Mbaye, Executive Director, ONAS, Senegal
+
+        Moderator: Barbara Kazimbaya Senkwe, Senior WASH Governance Advisor, USAID’s WASH-FIN
+        14:10-14:25	Open Q&A session with panelists and audience
+                        	Moderator: Barbara Kazimbaya Senkwe, Senior WASH Governance Advisor, 
+                               USAID’s WASH-FIN
+        14:25 – 14:30 Conclusion and Wrap-up, Alyssa Boyer, Chief of Party, USAID’s WASH-FIN
+      format: plain_text
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

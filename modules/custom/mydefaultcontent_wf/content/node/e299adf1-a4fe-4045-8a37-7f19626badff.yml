@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e299adf1-a4fe-4045-8a37-7f19626badff
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    a0051b30-d45b-467c-b4d7-552063f55d87: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    98d8ff3d-bb7a-4900-a28b-ac96f8d13114: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        World Food Program 
+        Journeys to the 9th 
+        World Water Forum
+  created:
+    -
+      value: 1647486048
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/world-food-program-journeys-9th-world-water-forum
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Sustainable groundwater management to increase community climate resilience represents an opportunity for innovative investments and management choices that can also contribute to improved household livelihoods and poverty reduction among dryland communities. Since 2018, the World Food Program has been implementing an integrated resilience package across the 5 G5 sahel countries + Senegal under BMZ funding. The session aims to bring together stakeholders in integrated water resources management in the Sahel as well as donors and policy makers to 1/present the WFP''s approach to watershed management and the results achieved, 2/convince policy makers of the successful results of the approach, 2/mutualize efforts by exploring opportunities for partnerships with other actors in the sector, 3/explore avenues for innovative financing to enable the scaling up of good practices and the ''cross-fertilization'' of initiatives in the Sahel.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486048
+      guid: ''
+      hash: 6cb2adc08f9dfba47283bfd29bdcfaa8
+  field_code:
+    -
+      value: SE50
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Mr. Volli Carrucci, Director, Resilience and Food systems services, WFP - HQ . Mr. Jochen Flasbarth, State Secretary of BMZ (TBC)  '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: a0051b30-d45b-467c-b4d7-552063f55d87
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+  field_organisateurs_text:
+    -
+      value: |-
+        World Food 
+        Programme (WFP)
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1.	Introduction (5 mins)
+        2.	Presentation of the Integrated Resilience Program for the Sahel & Results (15 mins)
+        3.	Discussion (45 mins)
+        4.	Conclusions (10 mins)
+      format: plain_text
+  field_salle:
+    -
+      entity: 98d8ff3d-bb7a-4900-a28b-ac96f8d13114

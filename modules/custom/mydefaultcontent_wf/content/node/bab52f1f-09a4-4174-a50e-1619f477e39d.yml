@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bab52f1f-09a4-4174-a50e-1619f477e39d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    b455893c-022c-4dc9-bc18-a7fb16bef356: taxonomy_term
+    b9229aaf-8ecc-4078-9140-8767105bfd87: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    50a7df7d-9cda-4b05-864e-c9610ab0c2ed: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Une nouvelle approche pour la gestion des risques hydroclimatiques.'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/une-nouvelle-approche-pour-la-gestion-des-risques-hydroclimatiques-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les inondations et les sécheresses sont parmi les conséquences les plus tangibles et les plus dévastatrices de la crise climatique. La Banque mondiale, Deltares et le Programme associé pour la gestion des inondations (APFM) et le Programme de gestion intégrée de la sécheresse (IDMP) de l''Organisation météorologique mondiale se sont associés pour explorer plus avant et rendre opérationnel le potentiel d''exploitation des synergies dans la gestion des inondations et de la sécheresse. Cette session introduira une nouvelle perspective pour la gestion combinée des inondations et de la sécheresse, présentera l''application de cette nouvelle perspective sur une étude de cas et décrira l''effort en cours pour rendre opérationnelle cette nouvelle perspective afin d''aider les gouvernements à faire face aux risques d''inondation et de sécheresse de manière combinée. Nous espérons que cette nouvelle approche inspirera et guidera les gouvernements afin de réduire le lourd tribut payé aux inondations et à la sécheresse et qu''elle constituera un moyen essentiel de renforcer l''adaptation et la résilience. Les participants quitteront l''événement avec les messages suivants : i) les synergies et les opportunités liées à la gestion des inondations et de la sécheresse ; ii) un exemple concret de l''application de cette nouvelle perspective ; iii) un cadre d''action clair ; et iv) l''identification des acteurs clés et une collaboration possible dans ce domaine en pleine évolution. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: ae070bdd49e486ff6d4631ebf002239a
+  field_code:
+    -
+      value: SS32
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: b455893c-022c-4dc9-bc18-a7fb16bef356
+    -
+      entity: b9229aaf-8ecc-4078-9140-8767105bfd87
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 50a7df7d-9cda-4b05-864e-c9610ab0c2ed
+  field_organisateurs_text:
+    -
+      value: 'Deltares/World Bank'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Remarques d'ouverture et présentation des intervenants (3min)
+        - Cadre de réponse EPIC et méthodologie d'évaluation (15min)
+        - Application de l'EPIC aux Pays-Bas, étude de cas (15min)
+        - Q&R pour les sessions précédentes (5min)
+        - Panel de 3-4 intervenants répondant aux questions préparées (20min) - Jennifer Sara (Banque Mondiale), Dario Soto-Abril (GWP), Dr. Mohamed Abdel Attey (Ministère de l'Eau Egypte)
+        - Remarques de clôture (2min)"
+      format: plain_text
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

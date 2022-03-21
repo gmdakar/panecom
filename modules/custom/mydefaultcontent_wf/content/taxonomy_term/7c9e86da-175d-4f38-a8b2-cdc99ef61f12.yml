@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  bundle: horaires
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '17.30 to 18.30'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /horaires/agenda/1730-1830
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647486038

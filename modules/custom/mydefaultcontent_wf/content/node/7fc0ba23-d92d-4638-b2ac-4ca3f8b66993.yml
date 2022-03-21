@@ -1,0 +1,186 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7fc0ba23-d92d-4638-b2ac-4ca3f8b66993
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    c56c102f-8ab0-47b1-938c-33521517f1bb: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    e3d5e7f4-1095-44ef-bf9b-e11e0290e982: taxonomy_term
+    36446627-6fdb-40be-9f24-209c57685599: taxonomy_term
+    c49237c9-9227-4df8-9127-ac752591d9d6: taxonomy_term
+    1dbabd0a-33db-4c31-8422-3a87d9f2b026: taxonomy_term
+    3bc3826f-d709-40bd-b032-1945346712f8: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Human Right to Water: Idealism to Implementation'
+  created:
+    -
+      value: 1647484827
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/human-right-water-idealism-implementation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The Human Right to Water is a critical component of the international rights framework, and is a necessary component of the advancement of human society and development. Coming on the heels of the 10th anniversary of the UN General Assembly''s adoption of Resolution 64/292''s explicit right to water and with the 20th anniversary of the Committee on Economic, Social and Cultural Rights'' General Comment 15 recognizing the human right to water coming later this year, this panel asks: where are we now and where are we going? This wide-reaching panel will bring together voices from the forefront of these efforts, showing how the law, education, journalism, technology, and development can help drive the next two decades of action.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484827
+      guid: ''
+      hash: 0a304ff667122d6d78990c097c0765e1
+  field_code:
+    -
+      value: 1A2
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c56c102f-8ab0-47b1-938c-33521517f1bb
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: e3d5e7f4-1095-44ef-bf9b-e11e0290e982
+    -
+      entity: 36446627-6fdb-40be-9f24-209c57685599
+    -
+      entity: c49237c9-9227-4df8-9127-ac752591d9d6
+    -
+      entity: 1dbabd0a-33db-4c31-8422-3a87d9f2b026
+    -
+      entity: 3bc3826f-d709-40bd-b032-1945346712f8
+  field_organisateurs_text:
+    -
+      value: 'The Center for Water Security and Cooperation; RECOJAC '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UN Special Rapporteur for the Human Right to Water and Sanitation; RECOJAC; Center for Water Security and Cooperation; Sanitation and Water for All; The United Nations; The United Nations Office of the High Commissioner for Human Rights--West Africa; Camide; H3A; Water for Life Cameroon; Lydec.'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |
+        Project One: Project to increase access to basic services in informal settlements in peri-urban and rural Casablanca
+        Organization: Lydec
+
+        Project Two: Innovative Approaches to providing basic services
+        Organization: H3A
+
+        Project Three: Building Respect for Water through Kids Wealth at School in Yaounde (KWESY)
+        Organization: Water for Life Cameroon
+
+        Project Four: Access to water: an essential human right for peace and development (youth voice)
+        Organization: Camide (Mali)
+
+        Project Five: Presentation of Ongoing Projects
+        Organization: UN High Commissioner for Human Rights-West Africa Office 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Part I. Introduction (2 minutes)
+        1. Welcome and Presentation of the Session; Acknowledgment of Consultative Group and Observance of All Protocols (2 minutes)
+
+        Part II. Global Growth of the Human Right to Water (49 minutes)
+        2. Introduction of Special Rapporteur for Water and Sanitation (1 minutes)
+
+        3. H.E. the Special Rapporteur Pedro Arrojo-Agudo ("Key challenges for the future achievement of the Human Right to Water") (10 minutes)
+
+        4. Introduction of Panelists (2 minutes)
+
+        5. Panelist: Anjani Kapoor, Sanitation and Water for All Presentation on the Reissuance of the Handbook on Achieving the HR2W&S (9 minutes)
+
+        6. Panelist: Luke Wilson, Deputy Director of The Center for Water Security and Cooperation 
+        Title: Improving Legal Frameworks for HR2W: The next decade (9 minutes)
+
+        7. Panelist: Joseph Moukoue of RECOJAC 
+        Title: Activating Journalists: Accountability and Education on HR2W through Responsible Reporting (9 minutes)
+
+        8. Panelist: Representative of the United Nations
+        Title: The UN Human Rights Approach: Charting a Course to Meet the SDGs (9 minutes)
+
+        Part III. Projects Implementing the HR2W (37 minutes)
+        9. Presentation of Projects Implementing the HR2W (2 minutes)
+
+        Project One: Project to increase access to basic services in informal settlements in peri-urban and rural Casablanca (7 minutes)
+        Organization: Lydec
+        Proposed Speaker: Saadia Zouheir, INDH-INMAE Project Manager
+
+        Project Two: Innovative Approaches to providing basic services (7 minutes)
+        Organization: H3A
+        Proposed Speaker: Godwill Babalao, CEO H3A
+
+        Project Three: Building Respect for Water through Kids Wealth at School in Yaounde (KWESY) (7 minutes)
+        Organization: Water for Life Cameroon
+        Proposed Speaker: Pierre Alain Biboum
+
+        Project Four: Access to water: an essential human right for peace and development
+        (7 minutes)
+        Organization: Camide (Mali)
+        Proposed Speaker: Safiatou Traoré
+
+        Project Five: Presentation of Ongoing Projects (7 minutes)
+        Organization: UN High Commissioner for Human Rights-West Africa Office 
+        Proposed Speaker: Yaye Ba, UNHCHR
+
+        Part IV. Conclusions (2 minutes)
+        10. Thematic Summation & Concluding Remarks (2 minutes)
+
+        Total Time: 90 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        We believe that the session can be a springboard for fundamental changes in governance for the sector, and can provide a roadmap for organizations, governments, citizens and journalists to better harmonize and protect water and water access in their countries.  Building off of the past and creating a vision for the future will also demand a great deal of education, advocacy, technology, law, journalism and other efforts before and after the Forum, and we will be developing follow-on partnerships to deliver this during the period. 
+
+        The Forum is a chance to harness great hope, a reemerging world looking to solve problems, and a population who knows—now more than ever—how important water is. By staking a clear claim and setting a clear path for water, we believe that we can set the course for water for the next two decades.
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

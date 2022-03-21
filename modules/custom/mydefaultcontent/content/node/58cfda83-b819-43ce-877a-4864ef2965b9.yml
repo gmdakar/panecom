@@ -1,0 +1,194 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 58cfda83-b819-43ce-877a-4864ef2965b9
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    2dec85e3-f75b-4b4b-a669-efd06cf82370: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    706b9073-a9bc-4b2c-aae6-86261d5de78d: taxonomy_term
+    307af519-e05c-46d7-90bd-40e9ff3fba55: taxonomy_term
+    2d95dbdf-e134-4a52-9270-d9c89ffa749d: taxonomy_term
+    7f938ab1-9710-4e75-a49c-4969de7ebfa2: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Sanitation innovations for rural development: which innovation and technologies should we invest in today? 
+        Innover dans le secteur de l’assainissement en faveur du développement rural : sur quelles innovations et technologies miser aujourd’hui ?
+  created:
+    -
+      value: 1647484836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sanitation-innovations-rural-development-which-innovation-and-technologies-should-we-invest
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Almost 1 in 2 people globally do not have access to adequate sanitation, can’t safely evacuate or reuse wastewater. The situation in rural settings for the most vulnerable people is even more critical, 2 third of the people globally lacking access to basic sanitation living in rural areas. 
+        Innovating in sanitation chain is a necessity. A necessity to prevent public health issues, environment pollution, to preserve water resources, developing the production of non-conventional water and promote rural development. 
+        What solutions are there today? What role for what type of actor to promote and implement those sanitation innovation? 
+
+        Quasiment 1 personne sur 2 dans le monde n’a pas accès à un assainissement adapté, ne peut évacuer ou réutiliser de façon sûre ses eaux usées. La situation en milieu rural pour les populations vulnérables est particulièrement préoccupante, les deux tiers des personnes n’ayant pas accès à des services de base vivant en zone rurale. 
+        Innover sur la filière de l’assainissement est une nécessité. Une nécessité pour prévenir les dangers sur la santé publique, l’environnement, pour préserver les ressources en eau, développer la production d’eau non conventionnelle et favoriser le développement rural. 
+        Quelles solutions existent aujourd’hui ? Quels rôles pour quels acteurs pour promouvoir et mettre en œuvre ces innovations dans la filière assainissement ?  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484836
+      guid: ''
+      hash: aa2fb3b7d95d49f782bcd570f62d8023
+  field_code:
+    -
+      value: 2B2
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2dec85e3-f75b-4b4b-a669-efd06cf82370
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 706b9073-a9bc-4b2c-aae6-86261d5de78d
+    -
+      entity: 307af519-e05c-46d7-90bd-40e9ff3fba55
+    -
+      entity: 2d95dbdf-e134-4a52-9270-d9c89ffa749d
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 706b9073-a9bc-4b2c-aae6-86261d5de78d
+    -
+      entity: 7f938ab1-9710-4e75-a49c-4969de7ebfa2
+  field_organisateurs_text:
+    -
+      value: |+
+        Secours Islamique France 
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        -	INRAE 
+        -	Association des Jeunes Professionnels de l’Eau et de l’Assainissement du Sénégal (AJPEAS)  
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        Project 1: Developing wastewater recycling to improve access to water and food security (innovation solution in Gaza for vulnerable farmers)
+        Développer le recyclage des eaux usées pour améliorer l’accès à l’eau et la sécurité alimentaire (solution innovante pour les cultivateurs vulnérables de Gaza)
+        Secours Islamique France (Laura Le Floch, lefloch@secours-islamique.org) 
+
+        Projet 2: Nature based solutions for sanitation: French system of vertical flow treatment wetland adaptation to tropical climate
+        Solutions fondées sur la nature pour l’assainissement : adaptation des filtres plantés de roseaux au climat tropical
+        INRAE & OFB (Rémi Latune, remi.lombard-latune@inrae.fr)
+
+        Projet 3 TBC Projet accès reuse, centrée sur l’approche multi-barrières de l’OMS 
+        Ps-Eau – INRAE (Rémi Latune, remi.lombard-latune@inrae.fr ; Christophe Le Jallé le-jalle@pseau.org )
+
+        Project 4 TBC: Valorization of organic waste by vermicomposting
+        Valorisation des déchets organiques par lombricompostage
+        All about WASH Cameroon (Mrs. Ines Kouayim Tomfeu, itomfeu@gmail.com)
+
+        Project 5 TBC: a) Implement adequate mechanisms or services to improve the community living conditions in terms of hygiene and sanitation b) Focus on wastewater treatment for reuse c) Solid waste Treatment and recovery 
+        Association des Jeunes Professionnels de l’Eau et de l’Assainissement du Sénégal (AJPEAS) (Soda Maréme FALL, fallsodamareme@gmail.com) 
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        0	-	5	min.	Introduction/Context
+        5	-	10	min.	Introduction movie
+        10	-	50	min.	Round table discussion with panellists (presentation of techniques, innovations and projects) 
+        50	-	70	min.	Discussion in small groups about key challenges, opportunities and key recommendations 
+        70		85	min.	Synthesis of the round table discussions 
+        85	-	90	min.	Conclusion
+
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	50	min.	Table ronde avec les panélistes (présentation de techniques, innovations, projets)
+        50	-	70	min.	Discussion en petits groupes sur les principaux challenges, opportunités et recommandation clés
+        70		80	min.	Retour des discussions des tables rondes 
+        85	-	90	min.	Conclusion
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        The session will organise plenary presentations to showcase techniques and innovations, and will organise working groups to feed, in the most participatory way, the high level sessions of the forum and the thematic conclusion round-tables. 
+        Indeed, the participants will have to: 
+        -	Identify challenges and opportunities for rural sanitation innovation (political, technical, financial, governance challenges and opportunities)
+        -	Identify the key recommendations to support innovative solutions and their implementation. These recommendations will be send to the high level sessions of the forum and the thematic conclusion round-tables. 
+        follow-up linkages
+        -	Dissemination of the conclusions and recommendations to the various stakeholders through the network of the partners involved in the session 
+        -	Dissemination of findings to regional networks of different stakeholders (e.g. for Africa: AMCOW, UCLGA, ANEW, AfWA)
+        -	Follow-up of the preparatory process for the United Nations Water Conference in 2023 to ensure that these issues are taken into account in the debates (follow-up to be conducted via the Forum's global recommendations and via the governments)
+
+
+        La session comprendra des présentations plénières des techniques et innovations, et comprendra des travaux de groupe pour alimenter de manière la plus participative possible les travaux de sessions de haut niveau du forum et les tables-rondes thématiques de clôture. 
+        Les participants seront en effet amenés à : 
+        -	Identifier des défis et des opportunités pour l’innovation de l’assainissement en milieu rural (en termes politiques, techniques, financiers, de gouvernance)
+        -	Identifier les recommandations clés pour permettre appuyer la mise en œuvre des solutions existantes et favoriser l’émergence de nouvelles solutions et transmettre nos recommandations aux high level panels du FME et aux tables-ronde thématiques de clôture. 
+        Liens de suivi
+        -	Diffusion des conclusions et recommandation à l’attention des différentes parties prenantes au travers des réseaux des partenaires à la session
+        -	Diffusion des conclusions vers les réseaux régionaux des différents acteurs (p. ex. pour l’Afrique : AMCOW, CGLUA, ANEW, AfWA)
+        -	Suivi du processus préparatoire à la conférence des Nations unies sur l’eau en 2023 pour veiller à la prise en compte de ces enjeux dans les débats (suivi à conduire via les recommandations global du Forum et via les gouvernements)
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

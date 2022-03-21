@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd01d84e-f46e-42b6-abc4-0c3b0d75c999
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    bfda8ee2-a53b-41e5-9d31-1e04548b9576: taxonomy_term
+    93d6679e-f8bf-4897-b8f7-913aaa90a645: taxonomy_term
+    942aaf04-f3c4-4d30-998f-04dbe7c8ff33: taxonomy_term
+    8f3de4c7-f8a3-40ea-b0c3-6a363bf98e62: taxonomy_term
+    bc1b3e7d-0838-4b43-aef6-a36411aa56a1: taxonomy_term
+    67fd810a-a1c6-49a0-b80d-e42fd29d5b10: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le Genre dans les politiques, programmes et projets d''assainissement en zone rurale'
+  created:
+    -
+      value: 1647486180
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-genre-dans-les-politiques-programmes-et-projets-dassainissement-en-zone-rurale
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        La session est conçue comme un espace d’échange entre les participants sur l’approche Genre et son intégration dans les politiques, projets et programmes d’assainissement en milieu rural. 
+        Il s’agira dans un premier temps de présenter le sujet et les enjeux qu’il recouvre, d’échanger sur l’approche Genre, (de son institutionnalisation à son opérationnalisation), et sa prise en compte dans les projets d’assainissement, tout en favorisant les débats entre les participants et les apports de la salle. Un focus sera ainsi mis sur la Gestion de l’Hygiène Menstruelle et la conception des édicules publics qui y sont sensibles.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486180
+      guid: ''
+      hash: 66c9eabf8c5aca4bc518aa2f04917ab1
+  field_code:
+    -
+      value: SE27
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panélistes / intervenants : DA/DEEG/USAID ACCES/ENABEL/ONU FEMMES
+         Modérateur attendu : CT Genre/MEA 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: bfda8ee2-a53b-41e5-9d31-1e04548b9576
+    -
+      entity: 93d6679e-f8bf-4897-b8f7-913aaa90a645
+    -
+      entity: 942aaf04-f3c4-4d30-998f-04dbe7c8ff33
+    -
+      entity: 8f3de4c7-f8a3-40ea-b0c3-6a363bf98e62
+    -
+      entity: bc1b3e7d-0838-4b43-aef6-a36411aa56a1
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	20	min.	Brainstorming avec la salle sur la question     L’approche Genre : De l'institutionnalisation à l'opérationnalisation du genre au MEA 
+        20	-	40	min.	Présentations (10’ chacune) 
+        DA : Cas des Edicules Publics
+        DA : le ciblage des ménages vulnérables dans les projets d’assainissement  
+        40	-	50	min.	Débat sur les présentation 
+        50	-	60	min.	Messages clés et conclusion
+      format: basic_html
+  field_salle:
+    -
+      entity: 67fd810a-a1c6-49a0-b80d-e42fd29d5b10

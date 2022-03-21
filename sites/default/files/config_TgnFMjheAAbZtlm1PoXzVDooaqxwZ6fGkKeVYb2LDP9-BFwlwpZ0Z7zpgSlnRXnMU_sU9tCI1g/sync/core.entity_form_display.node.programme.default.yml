@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.programme.field_code
     - field.field.node.programme.field_date
     - field.field.node.programme.field_duree
+    - field.field.node.programme.field_expected_speakers
     - field.field.node.programme.field_groupes_d_actions
     - field.field.node.programme.field_horaire
     - field.field.node.programme.field_legende
@@ -100,6 +101,30 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_expected_speakers:
+    type: text_textarea
+    weight: 27
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        61e54c74-1f49-4896-8236-0f1f9ec3ea00:
+          entity_type: node
+          bundle: programme
+          dependee: field_legende
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 2
+            value: ''
+            values: 'Side event SE'
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
   field_groupes_d_actions:
     type: options_buttons
     weight: 11

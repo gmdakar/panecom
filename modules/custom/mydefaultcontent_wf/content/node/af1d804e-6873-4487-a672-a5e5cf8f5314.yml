@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: af1d804e-6873-4487-a672-a5e5cf8f5314
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    397eeaf1-88f3-4d8e-96a5-8daa93f42c05: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    f0c8ff83-ac44-4fd9-bfad-ee970b9ac327: taxonomy_term
+    3743cb0d-ea58-4f30-bd88-75b3cb34f833: taxonomy_term
+    6b9ef8a1-770f-45b2-bec8-a7994786caa9: taxonomy_term
+    5c0a3621-2336-4e5c-8f44-380de8fbdfee: taxonomy_term
+    c04ccb62-a0f3-44ee-bc02-16b000a7f0f5: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Provinding water information to decision makers at national, regional levls and to water users at local level'
+  created:
+    -
+      value: 1647484843
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/provinding-water-information-decision-makers-national-regional-levls-and-water-users-local
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Implementation of Integrated water resources management - a process connecting environment preservation and improvement of social and economic conditions of communities at all levels - requests to relay on sciences based knowledge and information. Information plays a key role to involve local stakeholders in participative approach , and also at national level to take decision. Information and Communication technologies, Remote sensing, water monitoring of watersheds, networking bringing scientific outcomes to stakeholders, toolbox…. All these are crucial to improve and strengthen IWRM at all levels. Various projects of implemented studies will be shared in two parts in the frame of this session, one dedicated to Stakeholders inclusion to IWRM at all levels, and the second one from international network on hydrology to technical information as well as from remote sensing to modeling and forecasting. Solutions are implemented in various countries around the world, the panelists come from NGOs, INGs, Ministry, Water Agency and academic institutions.v'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484843
+      guid: ''
+      hash: 2420afd01467c39c92bb7193a3adc222
+  field_code:
+    -
+      value: '3A4 '
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 397eeaf1-88f3-4d8e-96a5-8daa93f42c05
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: f0c8ff83-ac44-4fd9-bfad-ee970b9ac327
+    -
+      entity: 3743cb0d-ea58-4f30-bd88-75b3cb34f833
+    -
+      entity: 6b9ef8a1-770f-45b2-bec8-a7994786caa9
+    -
+      entity: 5c0a3621-2336-4e5c-8f44-380de8fbdfee
+    -
+      entity: c04ccb62-a0f3-44ee-bc02-16b000a7f0f5
+  field_organisateurs_text:
+    -
+      value: |
+        CNFrance IHP UNESCO/PFE-FWP 
+        INBO/RIOB 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'FAO, GWP, Gret, ADASA Brazil, FRIEND IHP, French Water Partnership,CNES, OIEAU, IRD, BRLi,  AFD, BRGM, Water Youth Network'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Project 0 – Water and agriculture information systems for IWRM – FAO tools to collect, analyse and disseminate data on water and agriculture + stakeholders involvement in data collection and analysis at national and local level in SDG 6.4 monitoring, examples in Africa & Asia 
+        Project 1 - IWRM Action Hub 2.0 – 90 tools + 2500 cases studies -GWP -global – focus in Asia and Africa
+        Project 2 – stakeholders participative approach on water resources monitoring at local scale, benefits in terms of knowledge for IWRM – Senegal – Niayes area
+        Project 3 – Benefits of open access water resources information to IWRM in Brasil
+        Project 4 – Use international networks to define research priorities for development and disseminate results to stakeholders - Africa 
+        Project 5 – Combining spatial data with modeling to supplement in situ hydrometeorological information –Latin America (Brasil)
+        Project 6 – From water information data towards water resource forecasting – France –
+        Water Youth Network contribution
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Introduction of session by moderator master of ceremony – 5’
+
+        Part 1 – Stakeholders inclusion to IWRM at all levels – [25 min]
+        FAO – Water and agriculture information systems for IWRM – FAO tools to involve stakeholders in data collection, analysis, examples in Asia and Africa
+
+        GWP – IWRM Action Hub 2.0 – 90 tools + 2500 case studies – focus on Asia
+
+        Benefits related to selection by stakeholders of voting system and knowledge production/sharing to facilitate decision-making in water resources management: feedback from GIREL project (for Integrated water resources management at local level) - Niayes area, Senegal
+
+        Benefits of open access water resources information to IWRM in Brazil – Federal district - ADASA
+
+        Exchange Round table with panelists and audience – 15’
+
+        Part 2 – From international network on hydrology to technical information as well from remote sensing to modeling and forecasting water resources – [25  min]
+
+        Use international networks to define research priorities for development and disseminate results to stakeholders – Africa – IRD/FRIEND Water Africa PHI UNESCO, IAHS
+
+        Combining spatial data with modeling to supplement in situ hydrometeorological information –BIO PLATEAU Project (Brazil, France, Suriname) [State of Amapá in Brazil, Ministry of Public Works of Suriname, European Commission, Territorial Collectivity of French Guyana, ODE - Guyana, CNES, OiEau)
+
+        From water information data towards water resource forecasting – France Exploring the conditions for a successful DSS towards better integrated water resources management.(BRGM/PFE)
+
+        Exploring the conditions for a successful DSS towards better integrated water resources management. (IWA/Water Youth Network)
+
+        Exchange Round table with panelists and audience – 15’
+
+        Closing and 3 key messages from the session– 5’
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Expected outcomes / impacts : key message to integrate and implement new tools and approaches to allow participative approach of local stakeholders, and build on shared best practices on monitoring, modeling to make decision at various levels (national, regional, local). 
+        Follow up linkages with events and initiatives after the Forum: at International conference Groundwater and SDGs challenges Paris May 2022 with a special focus on aquifer knowledge at all scale, regional and transboundary, as well as multidisciplinary approaches for IWRM and SDGs, at International Assembly of IAHS Montpellier May 2022 with hydrological monitoring and FRIEND initiatives, and others. 
+      format: basic_html
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

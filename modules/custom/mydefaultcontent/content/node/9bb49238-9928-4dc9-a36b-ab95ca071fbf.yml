@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9bb49238-9928-4dc9-a36b-ab95ca071fbf
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    bc568127-5ad8-4f2f-9ede-158f659260df: taxonomy_term
+    61c4f0e8-a3cb-401a-9411-106fac14c97b: taxonomy_term
+    144b4b31-d61c-4574-8a86-435805dc8491: taxonomy_term
+    827d69fb-6abd-45fb-a8e0-7bda68cb3f78: taxonomy_term
+    e44ba83e-5a00-407c-a278-a6132d159c1b: taxonomy_term
+    108e2b5f-f918-4ece-a995-bf5afeed0e2a: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financement de la paix bleue : L''initiative de financement de la paix bleue - Comment investir dans la paix par l''eau'
+  created:
+    -
+      value: 1647485801
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financement-de-la-paix-bleue-linitiative-de-financement-de-la-paix-bleue-comment-investir-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        En 2017, le Groupe mondial de haut niveau sur l'eau et la paix a lancé son rapport "Une question de survie" avec des recommandations sur la manière de promouvoir l'eau en tant qu'instrument de coopération et de paix, notamment par le biais de financements innovants pour la coopération dans le domaine de l'eau. Lors de la 9e session (2021) de la réunion des parties à la Convention sur l'eau de 1992, la Commission économique des Nations unies pour l'Europe (CEE-ONU) a lancé la publication intitulée "Funding and Financing transboundary water cooperation and basin development" (Financement de la coopération en matière d'eau transfrontalière et du développement des bassins), présentant également des initiatives de financement innovantes, notamment l'initiative de financement de la paix bleue.  Créée conjointement par les organismes de bassin, la Direction suisse du développement et de la coopération (DDC), le Fonds d'équipement des Nations unies (FENU) en tant que principale agence de mise en œuvre et d'autres parties prenantes, l'initiative de financement Blue Peace combine des financements publics et privés pour développer et mettre en œuvre des plans directeurs et d'investissement conjoints transfrontaliers. Elle favorisera l'accès aux capitaux publics et privés pour les organisations transfrontalières (par exemple, les organismes de bassins fluviaux (OBF)). L'objectif principal de ce panel de haut niveau (HLP) sera de lancer l'initiative de financement de la paix bleue, en montrant comment des mécanismes de financement innovants peuvent transformer l'eau en un instrument pour des cadres de coopération transfrontaliers, multisectoriels et intergénérationnels, menant à des sociétés pacifiques et des économies circulaires. 
+        Résultats : Il fournira une nouvelle incitation financière aux pays et aux secteurs pour coopérer et établir des accords politiques sur la gestion durable des ressources partagées, en réduisant les risques et les conflits sociaux, politiques, économiques et environnementaux. Dans le même temps, il modifiera la perception de l'eau par le secteur financier, non pas comme un secteur distinct, mais comme un point d'entrée pour des opportunités d'investissement à impact multisectoriel et régional.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485801
+      guid: ''
+      hash: bc69f9056390adad53063bcee80fa3d7
+  field_code:
+    -
+      value: HLP02
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: bc568127-5ad8-4f2f-9ede-158f659260df
+    -
+      entity: 61c4f0e8-a3cb-401a-9411-106fac14c97b
+    -
+      entity: 144b4b31-d61c-4574-8a86-435805dc8491
+    -
+      entity: 827d69fb-6abd-45fb-a8e0-7bda68cb3f78
+    -
+      entity: e44ba83e-5a00-407c-a278-a6132d159c1b
+    -
+      entity: 108e2b5f-f918-4ece-a995-bf5afeed0e2a
+  field_organisateurs_text:
+    -
+      value: 'United Nations Capital Development Fund (UNCDF)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Session d'ouverture :
+        '- Ouverture et modération : Mme Preeti Sinha, Directrice exécutive, Fonds d'équipement des Nations Unies (FENU) - 5'.
+        '- Discours d'ouverture :  Mme Amina Mohammed, Secrétaire générale adjointe de l'ONU - 5'.
+        '- Lancement de l'initiative de financement Blue Peace : David Jackson, Directeur Local Transformative Finance Practice (LTFP), FENU - 5'
+
+        Interventions du panel : 
+        '- Défis et opportunités du financement des projets d'eau transfrontaliers : Haut-Commissaire, Elhadj Lansana Fofana ou Secrétaire général Ababacar Ndao, Organisation pour le développement du bassin du fleuve Gambie (OMVG) - 5'
+        '- Point de vue d'un Etat souverain sur le financement de la coopération en matière d'eau transfrontalière : S.E. M. Njie, Ministre des Finances et des Affaires économiques, Gambie - le point de vue d'un Etat souverain - 5'.
+        '- Le point de vue d'un Etat souverain sur le financement de la coopération en matière d'eau transfrontalière : S.E. M. M. Bessler, Secrétaire d'Etat, Suisse - le point de vue d'un Etat souverain - 5'.
+        '- Genèse de l'initiative Blue Peace Finance : Dr. Danilo Türk, Ancien Président de la République de Slovénie et Président du Panel Mondial de Haut Niveau sur l'Eau et la Paix - 5'
+
+        Débat d'experts : 
+        '- Perspective du secteur financier : Panélistes et représentants du secteur financier - 30'.
+        '- Questions et réponses - 15'.
+
+        Séance de clôture :
+        '- Résumé et remarques de clôture (FENU et/ou OMVG) - 10'. 
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

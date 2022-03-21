@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02b3de9e-25af-485b-963b-fe51a4a1b2e5
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    a33ee1ab-a30b-413b-94e9-354442bbf850: taxonomy_term
+    6e0de9cc-9459-4a89-946b-c33631cfcfaa: taxonomy_term
+    9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Shared Water in Africa 
+        and Middle East: 
+        Regional Cooperation to 
+        defuse tensions and 
+        share prosperity
+  created:
+    -
+      value: 1647486041
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/shared-water-africa-and-middle-east-regional-cooperation-defuse-tensions-and-share
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        After decades of gloomy foresights and discourse on water wars and conflicts, it turns out that water wars are more a media narrative than a possible future in transboundary waters. Connecting nations socio-economic’ joint interests through cross borders development mega-projects is a leeway to shared prosperity. Water in shared basins is a real development connector. It takes political will to make the nations upstream and downstream real shareholders in dialogue and cooperation aligned with WWF9 motto, water for peace and development. It starts with re-centering the debate by valuing the benefits of cooperation on shared rivers benefits while defusing roots causes of tension and de-politicizing (or at least by reducing the politicization) of the discourse on shared water.  
+        The present session is a remarkable opportunity to showcase three lab cases to illustrate the potential of regional development cooperation in transboundary water: The navigation project feasibility from source to sea in the Nile River and the energy security across borders in Senegal River Basin and in Central Asia.   
+
+        Objectives : 
+        •	Sharing experiences on the potential of development cooperation in transboundary rivers in concrete examples. 
+        •	Identify the keys framework conditions for successful joint projects, in navigation and energy security, in 3 shared basins in Africa and Asia  
+        •	Debate on drivers of success in shared economic development and lessons learned from the three experiences.
+        •	Elaborate a set of guiding principles to turn risks of tension into cooperation opportunities and shift from water rights to shared right to development and prosperity.
+        •	Assess the limitations and potential benefits of hydro-diplomacy in trust building between upstream and downstream nations 
+
+        The session intends to answer the following questions: 
+        •	What should come first, political will or economic benefits in order to turn risks of tensions into opportunities for regional development?
+        •	What are the key drivers of success in making water a connector between nations in the three basins? 
+        •	What principles could guide countries to opt for joint large projects instead of disagreement on water shares.
+        Expected outcomes:
+        •	Global understanding of shared water as a driver of socio-economic development, peace and cooperation between upstream and downstream countries
+        •	Set the key principles guiding regional economic cooperation in shared basins
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486041
+      guid: ''
+      hash: d5a7cb2dfb5048afb55cc64404fc3bd8
+  field_code:
+    -
+      value: SE47
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        ?	Moderator Ambassdor Shahira Wahbi LAS 
+        Speakers/Panelists
+        ?	Dr Khaled AbuZeid CEDARE Egypt; 
+        ?	Dr. Tahani Sleet  MoWRI Egypt
+        ?	CAREC (Regional Environment Centre for Central Asia) (TBC)
+        ?	SADC (TBC)
+        ?	ORMVAS Senegal (Mr. Madioudiou) Senegal 
+        Discussants :
+        ?	HE Mahdi Rachid AL Hamadani Minister of Water Resources in Iraq
+        ?	HE Minister Eng. Mazen Ghoneim Palestinian Water Authority 
+        ?	Former Minister Dr. Hussein El Atfy AWC (TBC)
+        ?	ACSAD-DG Mr. Naser Eddin Obaid 
+        Dr. Emad Adly Network of Civil Society Organizations RAED
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: a33ee1ab-a30b-413b-94e9-354442bbf850
+    -
+      entity: 6e0de9cc-9459-4a89-946b-c33631cfcfaa
+  field_organisateurs_text:
+    -
+      value: 'League of Arab States'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening remarks & Introuction of the session and speakers by the Moderator (5 mn)
+        •	Presentation by Dr. Kheled AbuZeid (CEDARE): Water availability at the basin level : River Basin (10 mn)
+        •	Experience of 3 basins in regional development around shared water resources (3 x 10 mn)
+        •	High Level  feedback from discussants 10 mn): 
+        •	Q and A (5 mn)
+      format: plain_text
+  field_salle:
+    -
+      entity: 9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6

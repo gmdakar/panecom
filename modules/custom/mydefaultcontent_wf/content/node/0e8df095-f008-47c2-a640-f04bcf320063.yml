@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0e8df095-f008-47c2-a640-f04bcf320063
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    750ca47e-d528-485d-96b0-9216771e9c63: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    894368c1-3c3b-43c1-916d-57ea168c8946: taxonomy_term
+    bf8b1cbb-0510-47d4-b2c8-86e814c556ae: taxonomy_term
+    c6faf71c-3275-444d-a62f-c6f66c7552a8: taxonomy_term
+    cffe9444-f91f-4cdc-921f-4cf5b3e5e268: taxonomy_term
+    46662424-410e-4071-b9df-a3afd660ae9c: taxonomy_term
+    76264f1d-92de-4853-82c9-6576a9f9cdbd: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Renforcer la résilience grâce à des solutions basées sur les données et les connaissances : Identification, surveillance, alerte précoce et évaluation des risques liés à l''eau.'
+  created:
+    -
+      value: 1647484942
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/renforcer-la-resilience-grace-des-solutions-basees-sur-les-donnees-et-les-connaissances
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session vise à partager les meilleures pratiques, les technologies et les stratégies visionnaires de pays et de régions apparentés en matière de renforcement de la résilience aux catastrophes liées à l''eau, et à mettre l''accent sur la manière dont les décisions, les approches ou les produits basés sur les données et les connaissances peuvent mieux aborder la question.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484942
+      guid: ''
+      hash: d081bd60c410fb07b03576dffe90f557
+  field_code:
+    -
+      value: 1F3
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 750ca47e-d528-485d-96b0-9216771e9c63
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 894368c1-3c3b-43c1-916d-57ea168c8946
+    -
+      entity: bf8b1cbb-0510-47d4-b2c8-86e814c556ae
+    -
+      entity: c6faf71c-3275-444d-a62f-c6f66c7552a8
+    -
+      entity: cffe9444-f91f-4cdc-921f-4cf5b3e5e268
+    -
+      entity: 46662424-410e-4071-b9df-a3afd660ae9c
+    -
+      entity: 76264f1d-92de-4853-82c9-6576a9f9cdbd
+  field_organisateurs_text:
+    -
+      value: |
+        China Institute of Water Resources and Hydropower Research (IWHR)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	Japan Water Forum
+
+        •	INBO / RIOB
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        " Projet 1. Projet de l'Organisation météorologique mondiale (OMM) "Initiative mondiale sur les données relatives à l'eau (WWDI) : Renforcement des capacités des services météorologiques et hydrologiques nationaux pour renforcer la résilience et l'adaptation au changement climatique ".
+        Projet 2. Projet du Système euro-méditerranéen d'information sur le savoir-faire dans le secteur de l'eau (SEMIDE) de la "Plate-forme méditerranéenne de connaissances sur l'eau pour l'adaptation au changement climatique".
+        Projet 3. Projet de la Commission Internationale du Congo-Ubangui-Sangha (CICOS) :  "Surveillance innovante des ressources en eau par les satellites d'observation de la Terre pour l'adaptation au changement climatique dans le bassin du fleuve Congo".
+        Projet 4. Projet de l'Office International de l'Eau (OiEau) "AfriAlliance : Boosting knowledge through matchmaking research & innovation needs and solutions for preparedness to climate change in Africa".
+        Projet 5. Projet de l'Institut chinois de recherche sur les ressources en eau et l'hydroélectricité (IWHR) : "Projet de prévention et de contrôle des catastrophes dues aux crues éclair en Chine".
+        Projet 6. Projet SUEZ : "COVID 19- City watch : Anticiper et suivre la circulation du virus COV2 du SRAS".
+        Projet 7. Projet du Secrétariat du siège de la politique du cycle de l'eau, Secrétariat du Cabinet, Japon : "Développement de la méthode d'évaluation du risque de pénurie d'eau locale et des effets de la gestion des ressources en eau", recommandé par le Forum japonais de l'eau".
+      format: plain_text
+  field_programme:
+    -
+      value: '6 présentations de 10 minutes chacune, une table ronde de 20 minutes, 10 minutes pour l''ouverture et la conclusion.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Améliorer la collecte, la gestion et le traitement des données pour en faire des connaissances exploitables qui peuvent éclairer les décisions liées à l'adaptation au changement climatique ". Par exemple :
+        1. Encourager une étude et une enquête globales sur les conditions naturelles, sociales et économiques des zones sujettes aux risques liés à l'eau. 
+        2. Encourager l'équipement des zones vulnérables avec des dispositifs d'alerte précoce et établir un système de défense communautaire. 
+        3. Promouvoir l'application des données et des connaissances dans l'établissement d'un système de surveillance et de prévision des catastrophes. 
+        4. Mettre en place des systèmes de mesures non structurelles (par exemple, un système de surveillance des catastrophes liées à l'eau et d'alerte précoce, l'amélioration de la gestion, l'élaboration de politiques, de lois et de règlements, l'amélioration du sauvetage et de l'assurance en cas de catastrophe) pour atténuer les risques de catastrophes liées à l'eau. 
+        5. Améliorer les échanges internationaux sur les meilleures pratiques, les technologies avancées et les stratégies visionnaires en matière de renforcement de la résilience aux catastrophes liées à l'eau. 
+        6. Développement des sciences citoyennes, qui présentent le double avantage de recueillir des données et de sensibiliser aux questions liées à l'eau et au climat. 
+        7. Développement des connaissances pour améliorer la gestion des ressources en eau de la source à la mer, notamment pour anticiper les risques potentiels tels que les sécheresses, les inondations, l'élévation du niveau de la mer. "
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

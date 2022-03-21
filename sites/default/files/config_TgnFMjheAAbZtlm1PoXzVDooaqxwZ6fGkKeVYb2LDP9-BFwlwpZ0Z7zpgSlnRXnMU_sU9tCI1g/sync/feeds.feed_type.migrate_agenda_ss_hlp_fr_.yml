@@ -1,0 +1,634 @@
+uuid: 3b1aa57e-2082-4e8f-98f6-e3de862c0e45
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.programme.title
+    - field.field.node.programme.body
+    - field.field.node.programme.field_code
+    - field.field.node.programme.field_date
+    - field.field.node.programme.field_duree
+    - field.field.node.programme.field_horaire
+    - field.field.node.programme.field_legende
+    - field.field.node.programme.field_mot_s_cle_s_
+    - field.field.node.programme.field_organisateurs_text
+    - field.field.node.programme.field_programme
+    - field.field.node.programme.field_salle
+    - node.type.programme
+  module:
+    - feeds_tamper
+    - node
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      a8c4eca8-68f2-4e97-ad77-bacb326449ea:
+        find: .
+        replace: ''
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: a8c4eca8-68f2-4e97-ad77-bacb326449ea
+        plugin: find_replace
+        source: keywords
+        weight: -7
+        label: 'Find replace (.)'
+      a3cad37b-20a6-49fb-98cb-4b377d46b742:
+        find: '"'
+        replace: ''
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: a3cad37b-20a6-49fb-98cb-4b377d46b742
+        plugin: find_replace
+        source: keywords
+        weight: -4
+        label: 'Find replace (")'
+      b70e4bf0-ea5b-4c11-b252-f32cf0c07ee3:
+        find: '1.'
+        replace: ''
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: b70e4bf0-ea5b-4c11-b252-f32cf0c07ee3
+        plugin: find_replace
+        source: keywords
+        weight: -6
+        label: 'Find replace (1.)'
+      e034de5f-46bd-46e4-a22c-bb100c4c0a29:
+        find: ;
+        replace: '|'
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: e034de5f-46bd-46e4-a22c-bb100c4c0a29
+        plugin: find_replace
+        source: keywords
+        weight: -2
+        label: 'Find replace (; by  |)'
+      22b84acf-f282-4c1f-b29b-acc71162035a:
+        character: ' '
+        side: trim
+        uuid: 22b84acf-f282-4c1f-b29b-acc71162035a
+        plugin: trim
+        source: keywords
+        weight: 6
+        label: 'Characters to trim'
+      80225ab3-7b55-424c-b512-923d378500cc:
+        separator: '|'
+        limit: null
+        uuid: 80225ab3-7b55-424c-b512-923d378500cc
+        plugin: explode
+        source: keywords
+        weight: 5
+        label: 'Explode (|)'
+      4f272d95-1dec-4c79-98be-22fed824c4c0:
+        find: •
+        replace: ''
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: 4f272d95-1dec-4c79-98be-22fed824c4c0
+        plugin: find_replace
+        source: keywords
+        weight: -5
+        label: 'Find replace (•)'
+      9539b685-d861-4c54-8360-0568e5e30868:
+        words: "•\r\n\""
+        word_boundaries: false
+        exact: false
+        case_sensitive: false
+        invert: true
+        word_list:
+          - •
+          - '"'
+        regex: false
+        function: mb_stripos
+        uuid: 9539b685-d861-4c54-8360-0568e5e30868
+        plugin: keyword_filter
+        source: keywords
+        weight: 2
+        label: 'Keyword filter (• ")'
+      ce533258-71c7-4a64-88ea-784e5fb4f438:
+        find: '/([0-9]\))/'
+        replace: ''
+        limit: null
+        uuid: ce533258-71c7-4a64-88ea-784e5fb4f438
+        plugin: find_replace_regex
+        source: keywords
+        weight: -9
+        label: 'Find replace REGEX ([\d\+\)])'
+      6cd4f072-cf52-482a-93ff-cd347579104d:
+        find: ','
+        replace: '|'
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: 6cd4f072-cf52-482a-93ff-cd347579104d
+        plugin: find_replace
+        source: keywords
+        weight: -3
+        label: 'Find replace (, by  |)'
+      7ea2947c-2bef-4a5c-9883-9c74a0f24d30:
+        find: /\n/
+        replace: '|'
+        limit: null
+        uuid: 7ea2947c-2bef-4a5c-9883-9c74a0f24d30
+        plugin: find_replace_regex
+        source: keywords
+        weight: -1
+        label: 'Find replace REGEX (new line by |)'
+      67f8f18c-154d-49ea-a55a-69c5cc1dc434:
+        find: '/([0-9]\.)/'
+        replace: ''
+        limit: null
+        uuid: 67f8f18c-154d-49ea-a55a-69c5cc1dc434
+        plugin: find_replace_regex
+        source: keywords
+        weight: -8
+        label: 'Find replace REGEX (/([0-9]\.)/)'
+      5f1597c2-3374-4ea9-abf9-9ca1b7418dfc:
+        uuid: 5f1597c2-3374-4ea9-abf9-9ca1b7418dfc
+        plugin: convert_encoding
+        source: keywords
+        weight: -10
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      e9168e37-4279-44d2-9515-ab13fe95548d:
+        find: /-\t/
+        replace: '|'
+        limit: null
+        uuid: e9168e37-4279-44d2-9515-ab13fe95548d
+        plugin: find_replace_regex
+        source: keywords
+        weight: 0
+        label: 'Find replace REGEX (/-\t/)'
+      99114ff6-23a3-4cb0-af1f-8890a72cbf6a:
+        find: /\t/
+        replace: '|'
+        limit: null
+        uuid: 99114ff6-23a3-4cb0-af1f-8890a72cbf6a
+        plugin: find_replace_regex
+        source: keywords
+        weight: 1
+        label: 'Find replace REGEX (/\t/)'
+      0ae1d4d4-9318-4300-b30f-5e9fb3885108:
+        find: '- '
+        replace: ''
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: 0ae1d4d4-9318-4300-b30f-5e9fb3885108
+        plugin: find_replace
+        source: keywords
+        weight: 7
+        label: 'Find replace (- and space)'
+      b096d57e-c362-48b7-b3bc-537bada3d28d:
+        find: /
+        replace: '|'
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: b096d57e-c362-48b7-b3bc-537bada3d28d
+        plugin: find_replace
+        source: keywords
+        weight: 3
+        label: 'Find replace ( /  by |)'
+      8c59eb6f-da05-420d-8a4d-e3595c56df32:
+        find: ' - '
+        replace: '|'
+        case_sensitive: false
+        word_boundaries: false
+        whole: false
+        uuid: 8c59eb6f-da05-420d-8a4d-e3595c56df32
+        plugin: find_replace
+        source: keywords
+        weight: 4
+        label: 'Find replace (space - space by |)'
+      e77f0f66-367d-4f40-a829-889fc28ed1e6:
+        operation: ucfirst
+        uuid: e77f0f66-367d-4f40-a829-889fc28ed1e6
+        plugin: convert_case
+        source: keywords
+        weight: 8
+        label: 'Convert case'
+      4c298189-b240-4e38-8376-11989802e2b2:
+        uuid: 4c298189-b240-4e38-8376-11989802e2b2
+        plugin: convert_encoding
+        source: type_of_session2
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      0aff064e-b2a7-472e-a0ae-7d24be0a8756:
+        uuid: 0aff064e-b2a7-472e-a0ae-7d24be0a8756
+        plugin: convert_encoding
+        source: titre
+        weight: -10
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      5bbd0793-4e67-401f-bf16-9c64de6bd3eb:
+        uuid: 5bbd0793-4e67-401f-bf16-9c64de6bd3eb
+        plugin: convert_encoding
+        source: horaire
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      189d47b3-1979-4d45-93ae-4488b291f1c6:
+        uuid: 189d47b3-1979-4d45-93ae-4488b291f1c6
+        plugin: convert_encoding
+        source: salle
+        weight: -10
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      b8811496-a454-4dcc-9da2-c884d9c3f26f:
+        find: '/(.*)(\sde\s)(.*)/'
+        replace: $1
+        limit: null
+        uuid: b8811496-a454-4dcc-9da2-c884d9c3f26f
+        plugin: find_replace_regex
+        source: date
+        weight: -9
+        label: 'Find replace REGEX (de)'
+      b2a32fa9-180b-47d6-9a35-58fc4c365fe3:
+        uuid: b2a32fa9-180b-47d6-9a35-58fc4c365fe3
+        plugin: convert_encoding
+        source: date
+        weight: -10
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      d7ef4657-adab-4a2e-9197-a7ef9ae083ac:
+        character: ''
+        side: trim
+        uuid: d7ef4657-adab-4a2e-9197-a7ef9ae083ac
+        plugin: trim
+        source: date
+        weight: -8
+        label: 'Characters to trim'
+      9e3c72b6-d475-4795-9555-538f291fbd5a:
+        find: '/(.*)(\sde\s)(.*)/'
+        replace: $3
+        limit: null
+        uuid: 9e3c72b6-d475-4795-9555-538f291fbd5a
+        plugin: find_replace_regex
+        source: horaire
+        weight: 1
+        label: 'Find replace REGEX (de)'
+      b538fa2d-a525-4397-b66a-aff1a2e1eee7:
+        character: ''
+        side: trim
+        uuid: b538fa2d-a525-4397-b66a-aff1a2e1eee7
+        plugin: trim
+        source: horaire
+        weight: 2
+        label: 'Characters to trim'
+      db0c8124-3caf-45bb-9fc6-f511b5341015:
+        uuid: db0c8124-3caf-45bb-9fc6-f511b5341015
+        plugin: convert_encoding
+        source: session_schedule
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      6dd2e99c-5c92-42c1-896f-28ebb580bc0c:
+        uuid: 6dd2e99c-5c92-42c1-896f-28ebb580bc0c
+        plugin: convert_encoding
+        source: session_summary
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      5c1c8ba0-e274-4c70-8d91-3d2900b200ce:
+        uuid: 5c1c8ba0-e274-4c70-8d91-3d2900b200ce
+        plugin: convert_encoding
+        source: duration_of_the_session
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+      4ab9e359-0bb3-4f9f-97f2-973a3f1308b0:
+        find: '/((Lundi )(.*))/i'
+        replace: 'JOUR1 - $0'
+        limit: null
+        uuid: 4ab9e359-0bb3-4f9f-97f2-973a3f1308b0
+        plugin: find_replace_regex
+        source: date
+        weight: -7
+        label: 'Find replace REGEX (add DAYN)'
+      748b59c9-7ac6-494d-9bc8-423a22653542:
+        find: '/((Mardi )(.*))/i'
+        replace: 'JOUR2 - $0'
+        limit: null
+        uuid: 748b59c9-7ac6-494d-9bc8-423a22653542
+        plugin: find_replace_regex
+        source: date
+        weight: -6
+        label: 'Find replace REGEX (add DAYN)'
+      a2d66e51-95a5-43e5-9438-cea597398bc3:
+        find: '/((Mercredi )(.*))/i'
+        replace: 'JOUR3 - $0'
+        limit: null
+        uuid: a2d66e51-95a5-43e5-9438-cea597398bc3
+        plugin: find_replace_regex
+        source: date
+        weight: -5
+        label: 'Find replace REGEX (add DAYN)'
+      2f6d77c3-ac2e-4511-94a8-8e283b3bfc37:
+        find: '/((Jeudi )(.*))/i'
+        replace: 'JOUR4 - $0'
+        limit: null
+        uuid: 2f6d77c3-ac2e-4511-94a8-8e283b3bfc37
+        plugin: find_replace_regex
+        source: date
+        weight: -4
+        label: 'Find replace REGEX (add DAYN)'
+      8034bff1-82cc-46e3-a5f0-163305bc0be6:
+        find: '/((Vendredi )(.*))/i'
+        replace: 'JOUR5 - $1'
+        limit: null
+        uuid: 8034bff1-82cc-46e3-a5f0-163305bc0be6
+        plugin: find_replace_regex
+        source: date
+        weight: -3
+        label: 'Find replace REGEX (add DAYN)'
+      a0daedf4-d79a-44f6-bd24-7794137f5cb2:
+        find: '(^([0-9]\.))'
+        replace: 0$1
+        limit: null
+        uuid: a0daedf4-d79a-44f6-bd24-7794137f5cb2
+        plugin: find_replace_regex
+        source: horaire
+        weight: 3
+        label: 'Find replace REGEX (0X.)'
+      5e4b6b5a-d5b7-459f-9cdf-2b283a767a30:
+        find: '/(- ?)/'
+        replace: '- '
+        limit: null
+        uuid: 5e4b6b5a-d5b7-459f-9cdf-2b283a767a30
+        plugin: find_replace_regex
+        source: titre
+        weight: -8
+        label: 'Find replace REGEX (-\s\?)'
+      d1bdcd45-017b-4538-a9e1-79748e0bf68b:
+        character: ''
+        side: trim
+        uuid: d1bdcd45-017b-4538-a9e1-79748e0bf68b
+        plugin: trim
+        source: titre
+        weight: -9
+        label: 'Characters to trim'
+      ae443abd-1bce-4d88-99c6-259fa81d9b2d:
+        find: '/(\?[^ ])/'
+        replace: $1
+        limit: null
+        uuid: ae443abd-1bce-4d88-99c6-259fa81d9b2d
+        plugin: find_replace_regex
+        source: titre
+        weight: -7
+        label: 'Find replace REGEX (\?(.*))'
+      2fa44764-407c-4f4c-91f2-71456f5ca965:
+        find: '/([0-9])( à )/'
+        replace: $1H$2
+        limit: null
+        uuid: 2fa44764-407c-4f4c-91f2-71456f5ca965
+        plugin: find_replace_regex
+        source: horaire
+        weight: 4
+        label: 'Find replace REGEX (([0-9])( à ))'
+      a3bd9ece-cdd6-4f44-a7ad-f6e0649efb50:
+        find: /(H)/
+        replace: ''
+        limit: null
+        uuid: a3bd9ece-cdd6-4f44-a7ad-f6e0649efb50
+        plugin: find_replace_regex
+        source: horaire
+        weight: 5
+        label: 'Find replace REGEX (/H/)'
+      f521f975-b899-4543-9514-02e2e96cdc27:
+        num_char: 255
+        ellipses: true
+        wordsafe: false
+        uuid: f521f975-b899-4543-9514-02e2e96cdc27
+        plugin: truncate_text
+        source: titre
+        weight: -6
+        label: Truncate
+      31c8f864-ec80-48e7-bf61-ba0b0b7871af:
+        uuid: 31c8f864-ec80-48e7-bf61-ba0b0b7871af
+        plugin: convert_encoding
+        source: organisateurs
+        weight: 0
+        label: 'Convert text encoding'
+        input_encoding: Windows-1252
+        output_encoding: UTF-8
+        mode: //IGNORE
+label: 'Migrate Agenda SS-HLP(fr)'
+id: migrate_agenda_ss_hlp_fr_
+description: ''
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: '|'
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: programme
+  langcode: fr
+  insert_new: 1
+  update_existing: 0
+  update_non_existent: _delete
+  skip_hash_check: true
+  authorize: true
+  expire: -1
+  owner_feed_author: true
+  owner_id: 0
+custom_sources:
+  code:
+    value: 'Session code'
+    label: 'Session code'
+    machine_name: code
+    type: csv
+  titre:
+    value: 'Titre de la session'
+    label: 'Titre de la session'
+    machine_name: titre
+    type: csv
+  date:
+    value: 'Date et heure de la session'
+    label: 'Date et heure de la session (date)'
+    machine_name: date
+    type: csv
+  horaire:
+    value: 'Date et heure de la session2'
+    label: 'Date et heure de la session (horaire)'
+    machine_name: horaire
+    type: csv
+  language:
+    value: Language
+    label: Language
+    machine_name: language
+    type: csv
+  guid:
+    value: Guid
+    label: Guid
+    machine_name: guid
+    type: csv
+  url:
+    value: Url
+    label: Url
+    machine_name: url
+    type: csv
+  nid:
+    value: Nid
+    label: Nid
+    machine_name: nid
+    type: csv
+  salle:
+    value: Salle
+    label: Salle
+    machine_name: salle
+    type: csv
+  keywords:
+    value: 'Mots cles'
+    label: 'Mots cles'
+    machine_name: keywords
+    type: csv
+  '':
+    value: 'Type de session'
+    label: 'Type de session'
+    machine_name: ''
+    type: csv
+  type_of_session2:
+    value: 'Type de session'
+    label: 'Type de session'
+    machine_name: type_of_session2
+    type: csv
+  session_schedule:
+    value: 'Programme de la session'
+    label: 'Programme de la session'
+    machine_name: session_schedule
+    type: csv
+  session_summary:
+    value: 'Description de la session'
+    label: 'Description de la session'
+    machine_name: session_summary
+    type: csv
+  duration_of_the_session:
+    value: 'Duree de la session'
+    label: 'Duree de la session'
+    machine_name: duration_of_the_session
+    type: csv
+  convening_organizations_and_session_coordinators:
+    value: 'Organisations participantes - coordinateurs de session'
+    label: 'Organisations participantes - coordinateurs de session'
+    machine_name: convening_organizations_and_session_coordinators
+    type: csv
+  organisateurs:
+    value: Organisateurs
+    label: Organisateurs
+    machine_name: organisateurs
+    type: csv
+mappings:
+  -
+    target: field_code
+    map:
+      value: code
+    settings:
+      language: ''
+    unique: {  }
+  -
+    target: title
+    map:
+      value: titre
+    settings:
+      language: ''
+    unique: {  }
+  -
+    target: field_date
+    map:
+      target_id: date
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_horaire
+    map:
+      target_id: horaire
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_salle
+    map:
+      target_id: salle
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_mot_s_cle_s_
+    map:
+      target_id: keywords
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_legende
+    map:
+      target_id: type_of_session2
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_programme
+    map:
+      value: session_schedule
+    settings:
+      language: null
+      format: plain_text
+  -
+    target: body
+    map:
+      value: session_summary
+      summary: ''
+    settings:
+      language: ''
+      format: basic_html
+  -
+    target: field_duree
+    map:
+      value: duration_of_the_session
+    settings:
+      language: ''
+    unique: {  }
+  -
+    target: field_organisateurs_text
+    map:
+      value: organisateurs
+    settings:
+      language: ''
+      format: basic_html

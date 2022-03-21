@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 73b8f141-c4db-4a02-b233-9bf28d91b5f3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    7cba17b8-d938-490e-adc7-f742e4a620ec: taxonomy_term
+    7e1e97db-8a03-44de-92b5-65b682a98b2e: taxonomy_term
+    48cbf495-5001-4a65-84cc-672e5a2ac703: taxonomy_term
+    54b449e2-97de-4144-be0f-c0d1a1443701: taxonomy_term
+    6db6ab6c-d274-441f-8cf8-d6530b981cf8: taxonomy_term
+    4b81008c-e795-4f8c-90b6-6e35a006a6e3: taxonomy_term
+    d63793ed-6aac-4b8b-b840-6b76532cdd1e: taxonomy_term
+    7d524359-4619-4cb8-a180-a965056a9360: taxonomy_term
+    69a932dd-b09c-43bf-b90d-ec840f10e185: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mise en place d''études épidémiologiques sur les eaux usées pour le suivi de la pandémie de COVID- 19, extension de ces études à l''approche One - Health.'
+  created:
+    -
+      value: 1647485801
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/mise-en-place-detudes-epidemiologiques-sur-les-eaux-usees-pour-le-suivi-de-la-pandemie-de-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Cette session est l'occasion de souligner l'importance d'utiliser la surveillance des eaux usées pour surveiller le SRAS-CoV-2 ainsi que les variantes du virus circulant dans la population. 
+
+        Objectifs principaux :
+        - L'objectif principal est de maximiser le potentiel de l'épidémiologie basée sur les eaux usées (WBE) pour garantir l'approche One Health en surveillant d'autres pathogènes, l'exposition humaine aux contaminants environnementaux, les biomarqueurs et la résistance aux antimicrobiens.
+
+        Résultats escomptés :
+        - La session développera une plateforme unifiée d'EMOH COVID-19 pour tous les groupes COVID-19 et discutera de la manière d'établir une coopération avec les centres mondiaux de maladies transmissibles (par exemple, ECDC, CDC, NICD, SAMRC) et les initiatives sanitaires mondiales et continentales (par exemple, OMS, HERA) afin de développer un mécanisme d'alerte précoce en cas de (ré)émergence de COVID-19 ou d'éventuelles pandémies futures. 
+        - La session fournira une plateforme pour les disciplines scientifiques, les associations de l'eau, les opérateurs de l'eau actifs au niveau mondial et les principaux acteurs pour développer des activités de renforcement des capacités au niveau mondial, en particulier pour les pays à revenu faible et intermédiaire. 
+        - Les résultats de la session soutiennent les objectifs de développement durable suivants : 2.4, 3.3, 3.D, 6.2, 6.3, 11.6, 14.1.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485801
+      guid: ''
+      hash: b8de6a622562c0629e7122decd6b64ed
+  field_code:
+    -
+      value: HLP05
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 7cba17b8-d938-490e-adc7-f742e4a620ec
+    -
+      entity: 7e1e97db-8a03-44de-92b5-65b682a98b2e
+    -
+      entity: 48cbf495-5001-4a65-84cc-672e5a2ac703
+    -
+      entity: 54b449e2-97de-4144-be0f-c0d1a1443701
+    -
+      entity: 6db6ab6c-d274-441f-8cf8-d6530b981cf8
+    -
+      entity: 4b81008c-e795-4f8c-90b6-6e35a006a6e3
+    -
+      entity: d63793ed-6aac-4b8b-b840-6b76532cdd1e
+    -
+      entity: 7d524359-4619-4cb8-a180-a965056a9360
+    -
+      entity: 69a932dd-b09c-43bf-b90d-ec840f10e185
+  field_organisateurs_text:
+    -
+      value: 'Turkish Water Institute (SUEN)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Ouverture par le modérateur (5') 
+        -	
+        - Discours d'ouverture par LOÏC FAUCHON (5') (A inviter) 
+
+        - Courte table ronde avec les panélistes (1'x 10 ) 
+        Chaque panéliste se présentera et prendra des initiatives. 
+
+        - 1ère question du modérateur Réponses des 4 panélistes (3'x4)
+
+        - 2ème question du modérateur Réponses de 4 panélistes (3'x4)
+
+        - 3ème question du modérateur Réponses de 4 panélistes (3'x4)
+
+        - Le modérateur demande à la salle de poser des questions aux intervenants -Q&A (15')
+
+        - Commentaires de clôture de chaque panéliste (1'x10)
+
+        - Clôture par le modérateur (5')
+
+        *Les connexions à distance des intervenants seront autorisées. "
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

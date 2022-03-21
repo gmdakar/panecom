@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 682fdced-d453-4d2d-936b-ca3d6adc032d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    f44e9c3a-a561-4c61-ad8e-03ce60aa6840: taxonomy_term
+    3e2dd10f-d7c2-41b1-8418-e6042f542dc8: taxonomy_term
+    06fee4e0-0f75-4e29-aeb1-a5083e9fcd46: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    3b54acf9-82a3-41b7-a2cc-776ede2259a5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Protéger et restaurer les écosystèmes et les forêts, y compris les impacts côtiers et marins, et lutter contre désertification'
+  created:
+    -
+      value: 1647486189
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/proteger-et-restaurer-les-ecosystemes-et-les-forets-y-compris-les-impacts-cotiers-et-marins
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette présentation vise à montrer le lien entre la disponibilité de l’eau et le fonctionnement des écosystèmes forestiers. En d’autres termes, nous cherchons à expliciter en quoi le déficit de ressources hydriques en milieu forestier pourrait affecter la capacité d’atténuation des forêts au changement climatique. En effet, les arbres et les forêts, en général, séquestrent des gaz à effet de serre, du CO2 atmosphérique en particulier et, contribuent à la lutte contre le changement climatique. Cette aptitude importante des forêts reste fonctionnelle grâce au mécanisme de la photosynthèse qui est fortement dépendante à la disponibilité de l’eau. En définitive, les forêts sont qualifiées de puits de carbone dans la mesure où elles en stockent des millions de tonnes. D’après le Groupe d’Experts Intergouvernemental sur l’évolution du climat (GIEC), les écosystèmes forestiers restent le deuxième réservoir de carbone après les océans.  Elles le sont ainsi, le restent et le resteraient certainement au cas où le cycle et la disponibilité de l’eau ne seraient pas déséquilibrés ou perturbés d’où toute la quintessence de la mise en œuvre d’une politique efficace de gestion et de conservation des ressources hydriques en milieux forestiers.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486189
+      guid: ''
+      hash: 1ee0bcf8546f45e00b3fb33fb32aedcb
+  field_code:
+    -
+      value: SE40
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: Intervenants
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: f44e9c3a-a561-4c61-ad8e-03ce60aa6840
+    -
+      entity: 3e2dd10f-d7c2-41b1-8418-e6042f542dc8
+    -
+      entity: 06fee4e0-0f75-4e29-aeb1-a5083e9fcd46
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+  field_organisateurs_text:
+    -
+      value: 'Direction des Eaux et Forêts Chasses et de la Conservation des Sols (DEFCCS) / Gouvernement'
+      format: plain_text
+  field_salle:
+    -
+      entity: 3b54acf9-82a3-41b7-a2cc-776ede2259a5

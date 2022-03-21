@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1a08b8b3-df87-4940-8b73-c14aec509e57
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    6a660919-9404-406f-afb9-b9f12e4cbd04: taxonomy_term
+    3eb9cb41-fa21-450e-84b3-197e3c6332a1: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    144b4b31-d61c-4574-8a86-435805dc8491: taxonomy_term
+    b8d60e6a-df64-4abb-81af-29c5119d3044: taxonomy_term
+    823f5fdf-bb8a-4b24-bb4b-64f4f1573856: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dialogue de haut niveau sur l''intégration de l''action climatique dans le secteur de l''eau'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/dialogue-de-haut-niveau-sur-lintegration-de-laction-climatique-dans-le-secteur-de-leau-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        " Objectifs : 
+        - Partager les expériences, les stratégies et les instruments financiers disponibles pour faire face aux défis climatiques et à la sécurité de l'eau dans le secteur de l'eau ;
+        - Présenter les politiques, stratégies et plans des gouvernements traitant des questions nationales et transfrontalières liées à l'environnement, au climat et au développement qui affectent le secteur de l'eau ;
+        - Illustrer comment les BMD et les pays collaborent pour intégrer les mesures d'adaptation et d'atténuation du climat dans la planification du développement national, y compris dans le secteur de l'eau.
+
+        La session vise à répondre aux questions suivantes : 
+        - Quels sont les instruments financiers disponibles pour aider les pays membres de l'OCI à relever leurs défis d'adaptation et d'atténuation dans le secteur de l'eau ?
+        - Comment les partenaires du développement peuvent-ils soutenir les gouvernements aux niveaux régional, national et local pour faire face aux stress hydriques liés au climat dans les pays membres de l'OCI ?
+        - Comment les pays peuvent-ils s'adapter au changement climatique et l'atténuer tout en relevant les principaux défis de développement liés aux ODD dans le cadre du lien entre alimentation, énergie et eau ?
+
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: 65b541e79ac5afe1ba606b6670bafb5c
+  field_code:
+    -
+      value: HLP23
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 6a660919-9404-406f-afb9-b9f12e4cbd04
+    -
+      entity: 3eb9cb41-fa21-450e-84b3-197e3c6332a1
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 144b4b31-d61c-4574-8a86-435805dc8491
+    -
+      entity: b8d60e6a-df64-4abb-81af-29c5119d3044
+  field_organisateurs_text:
+    -
+      value: 'Islamic Development Bank (IsDB), Multilateral Development Bank '
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        " L'événement comprendra un panel de haut niveau informé par un rapport sur la situation et les défis de l'eau dans le monde islamique.
+        Il sera modéré par la BIsD. 
+        Après les remarques d'ouverture et la présentation, le modérateur posera des questions de cadrage et présentera chaque panéliste.
+        Proposition de programme :
+        - Remarques d'ouverture : BIsD, ICESCO, AIIB (15 mn)
+        - Présentation des résultats du rapport de l'OCI : La situation de l'eau et les défis dans le monde islamique, par le Dr Mazhar Hussain : Centre de recherche statistique, économique et sociale et de formation pour le monde islamique - SESRIC - Turquie (15 mn).
+
+        - Table ronde de haut niveau (50 millions d'euros) : Les panélistes proposés sont des responsables de la BIsD, de l'ISESCO et de l'AIIB, ainsi que des ministres chargés de l'eau ou du changement climatique.
+        "
+      format: plain_text
+  field_salle:
+    -
+      entity: 823f5fdf-bb8a-4b24-bb4b-64f4f1573856

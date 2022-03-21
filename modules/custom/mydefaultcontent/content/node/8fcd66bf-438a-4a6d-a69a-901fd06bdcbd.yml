@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8fcd66bf-438a-4a6d-a69a-901fd06bdcbd
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    a44690a4-9b47-4377-b177-96395284027a: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    4f482289-8823-489a-af58-5d12cf18dbb5: taxonomy_term
+    ac518d48-bdfd-4e49-92e9-826b91426469: taxonomy_term
+    98d8ff3d-bb7a-4900-a28b-ac96f8d13114: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'STANDARDIZATION IN THE SANITATION SECTOR'
+  created:
+    -
+      value: 1647486048
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/standardization-sanitation-sector
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Within the framework of the 9th World Water Forum, the Senegalese Association for Standardization in collaboration with its technical and financial partners, wishes to organize a side-event. The theme of this event will be: "Standardization in the sanitation sector".
+        This side-event will address issues related to national and international standards existing or to be implemented and the sharing of Senegal's experience in the standardization of the sanitation sub-sector.
+        Thus, this exhibition aims to raise awareness of standards, to better show their importance in the sector and to promote their appropriation by stakeholders and their use in the regulation and national public policies.
+        It will be a moment of exchange and sharing between ASN and its partners TUV-SUD, ANSI and the Bill and Melinda Gate Foundation and also of information for all the actors of sanitation throughout the world.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486048
+      guid: ''
+      hash: 1612a9d0308e58905321bbc72a10953a
+  field_code:
+    -
+      value: SE11
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Attiya Sayyed - Project Consultant, International Development- ANSI
+        Sun Kim - Senior Program Officer BMGF
+        Mr. Omar Sene, Director of Sanitation
+        Mr. Doulaye Kone- Deputy Director at Bill & Melinda Gates Foundation
+        Mr Ibra Sow- President of the Pan African Association of Autonomous Sanitation 
+        Association des Acteurs de l'Assainissement Autonome (APAA).
+        Mr. Alioune Ndoye-Mayor of the City of Cayar
+        Mr Abdourahmane Ndione, Chief Executive of Association Senegalaise de Normalisation
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: a44690a4-9b47-4377-b177-96395284027a
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 4f482289-8823-489a-af58-5d12cf18dbb5
+    -
+      entity: ac518d48-bdfd-4e49-92e9-826b91426469
+  field_organisateurs_text:
+    -
+      value: 'Association Sénégalaise de Normailisation'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening remarks: 3 minutes
+        ASN presentation by Abdourahmane Ndione: 10 minutes
+        ANSI presentation by Marianela Sanders: 10 minutes
+        Presentation of TUV SUD by Leslie McDermott: 10 minutes
+        Moderated panel discussion with six experts: 15 minutes
+        Question and answer session: 10 minutes
+        Wrap-up and closing: 3 minutes
+      format: plain_text
+  field_salle:
+    -
+      entity: 98d8ff3d-bb7a-4900-a28b-ac96f8d13114

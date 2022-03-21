@@ -1,0 +1,152 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 34d0a16e-57ad-4bbf-93b2-cae288f0ed61
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    f5027879-1314-4a29-ab0e-b322c29970d4: taxonomy_term
+    2f77574c-d83d-462b-b34d-c666f9ebabbc: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    25dabc56-1bcc-4caf-b992-6f362e3a6fcc: taxonomy_term
+    30be91ec-7e05-4d34-85eb-561280b45374: taxonomy_term
+    d6d91c19-bb42-45f7-9348-0fd8eb9a0659: taxonomy_term
+    4c35b819-788a-4586-bb79-6e418728445f: taxonomy_term
+    0cf7902e-7c73-494b-b32d-f510ea71e46a: taxonomy_term
+    a4fb2884-589e-4f82-83fd-7ec5df646d2e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Des plates- formes multipartites efficaces au niveau local pour la fourniture de services d''assainissement universels et inclusifs à l''échelle de la ville.'
+  created:
+    -
+      value: 1647484965
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/des-plates-formes-multipartites-efficaces-au-niveau-local-pour-la-fourniture-de-services
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Mise en place d'une plateforme multipartite au niveau local pour : 
+        L'engagement des parties prenantes 
+        La planification, la mise en œuvre et le suivi du CWIS
+        La collecte de fonds, l'allocation budgétaire, la responsabilité et l'intégrité dans les services WASH.  
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484965
+      guid: ''
+      hash: b10580aaabb03eb41b20fe289370b9b3
+  field_code:
+    -
+      value: 4D2
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f5027879-1314-4a29-ab0e-b322c29970d4
+    -
+      entity: 2f77574c-d83d-462b-b34d-c666f9ebabbc
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 25dabc56-1bcc-4caf-b992-6f362e3a6fcc
+    -
+      entity: 30be91ec-7e05-4d34-85eb-561280b45374
+    -
+      entity: d6d91c19-bb42-45f7-9348-0fd8eb9a0659
+    -
+      entity: 4c35b819-788a-4586-bb79-6e418728445f
+    -
+      entity: 0cf7902e-7c73-494b-b32d-f510ea71e46a
+  field_organisateurs_text:
+    -
+      value: |
+        AfWA
+        Speak Up Africa
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        -	Global network of cities and local, regional, and metropolitan governments and their associations (UCLG)
+        -	Worldwide network of French-speaking local elected officials and their associations (AIMF)
+        -	Water Integrity Network (WIN)
+        -	Speak Up Africa
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Établir et soutenir l''opérationnalisation d''une plateforme mondiale de gouvernements locaux pour la mise en œuvre de l''ODD 6 du développement durable en mettant l''accent sur l''assainissement inclusif.'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- 01h30-02h00 : Inscription des participants
+        - 02h00-02h05 : Discours d'ouverture - AAE
+        - 02h00-02h05 : Remarques d'ouverture - TBD
+        - 02h05-02h10 : La situation de la gestion des questions d'assainissement par les municipalités 
+                en Afrique francophone - Conseil local
+        - 02h10-02h15 : La situation de la gestion des questions d'assainissement par les municipalités en Afrique anglophone - Maire 
+        - Discuter des défis et des solutions - Panel de discussion avec les maires
+        - 03h10-03h15 : Bilan de l'engagement des maires pris lors du premier forum des maires tenu à Bamako dans le cadre du congrès de l'AAE - AAE
+        - 03h15-03h25 : Appel du Cap 2019 : Construire un réseau actif, impactant et structuré de, par et pour les maires. Amplifier une voix régionale unie pour les villes et leurs résidents. Renforcer la coopération entre les représentants des villes - Speack up africa
+        - 03h25-03h30 : Remarques de clôture- Maire
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- Mobilisation et engagement des parties prenantes vers 
+        - Signature de la déclaration des autorités locales africaines sur le CWIS 
+        - Suivi de la mise en œuvre par l'AAE
+        - Organisation d'événements de renforcement des capacités et d'échange d'expériences pour les parties prenantes des autorités locales."
+      format: basic_html
+  field_salle:
+    -
+      entity: a4fb2884-589e-4f82-83fd-7ec5df646d2e

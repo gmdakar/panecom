@@ -1,0 +1,155 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 696915bf-5421-4120-89a5-26c60d614046
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    da7a0fb1-7dcc-4444-a84d-09b3f47280d5: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    44f34aba-e220-43d3-a592-e1db9d8e3c10: taxonomy_term
+    5bc82936-a732-4c67-8e8d-f2f4b2c8b7d8: taxonomy_term
+    8155cddd-a606-409b-ad93-88e56a6e0f75: taxonomy_term
+    a8798172-9dc8-4fc0-a5b2-4d0b5796411b: taxonomy_term
+    ca12cc92-add9-40cb-8d32-d098a96bd38d: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financing instruments for paradigm shift in Africa water finance'
+  created:
+    -
+      value: 1647484850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financing-instruments-paradigm-shift-africa-water-finance
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session discuss traditional as well as innovative financing instruments for the water sector in Africa in view of  lessons learned globally. During the session a handbook on available financing instruments for the Africa region will be released and through a panel discussion between world experts and regional pioneers the most important principles for innovative and climate finance, will be elucidated. This will include a discussion on the potential of partnerships and coalitions and the role of multiple players: NGO''s, public development banks and others. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484850
+      guid: ''
+      hash: 8f8c54a17cc3f5033f9422c25a1ad508
+  field_code:
+    -
+      value: 4A4
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: da7a0fb1-7dcc-4444-a84d-09b3f47280d5
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 44f34aba-e220-43d3-a592-e1db9d8e3c10
+    -
+      entity: 5bc82936-a732-4c67-8e8d-f2f4b2c8b7d8
+    -
+      entity: 8155cddd-a606-409b-ad93-88e56a6e0f75
+    -
+      entity: a8798172-9dc8-4fc0-a5b2-4d0b5796411b
+    -
+      entity: ca12cc92-add9-40cb-8d32-d098a96bd38d
+  field_organisateurs_text:
+    -
+      value: |
+        AfDB, NOW Partners
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        AFD
+        Waterpreneurs 
+        Solidarite International 
+        Africa Climate Mobility Initiative
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        Handbook for financing water security in Africa
+        Africa Climate Mobility Initiative
+        Finance in Common (?)/ AFD initiative 
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Agenda	
+        Opening words about the session objectives and the handbook	AFDB (High level) - 10 min
+
+        Keynote: Setting the stage: Africa main challenges and opportunities	Keynote speaker (High level) - to be decided - 10 min
+        Handbook presentation 	AFDB (to be named) - 30 min
+        Brief introduction and presentation of main principles/ findings	
+        AFDB client - talking on a specific example	5 min
+        	
+        Panel discussion - creating the African innovative finance ecosystem ( & rules of the game )	Firestarters -of 2,5  minutes each (role from a specific angle) and then followed by open discussion and audience questions (questions to be discussed with co-convenors to make they can mention their points)
+         in reaction to the handbook presentationg around the following key topics:
+        	
+        Local project preparation / investment planning capacity - to shape nexus/ multi-sectoral and bankable projects that leverage the power of PPP 	AWF-TBN
+
+        Africa Climate Mobility Initiative - Blended Finance principles for water investments, partnerships and Coaliation	Africa Climate Mobility /TBN
+
+        National Public Banks (Finance in Common)	AFD/ TBN
+
+        Markets / finance for SMEs 	Waterpreneurs / TBN
+
+        Humanitarian NGO's 	Solidarite International / TBN
+        Strategic investment pathways for African cities 	OECD/ TBN
+
+        Summary of session takeaways & closing	TBN
+
+        Moderators: Debjyoty Mukherjee (Part -1) and Monica A. Altamirano (Part 2)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Enhance knowledge among key region  stakeholders on the available and emerging financial instruments for water 
+        Elucidate innovative and climate finance principles for water security in Africa
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

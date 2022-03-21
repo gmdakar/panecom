@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 139d4ff6-67f9-489a-aac5-eb8005720cca
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    c88fa5bf-2455-4c2a-82c1-a7de68fb13e9: taxonomy_term
+    afe1b005-c39a-4e8c-bbed-3f71935c97fd: taxonomy_term
+    ec3c8a94-fa12-4dff-ac03-e397f1074956: taxonomy_term
+    b385a194-af34-4b4b-a8ad-68e0ab785de1: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    32025a4d-59ee-4ce5-be0b-95fe83014b55: taxonomy_term
+    ed667b42-038e-4301-8660-3c41039c4c47: taxonomy_term
+    5fffc8b8-63c6-463c-9de9-741e155cc4b8: taxonomy_term
+    a713d2c7-188d-49c8-9edd-79d673326f2c: taxonomy_term
+    aa5cf723-c78d-494e-a788-2aca96230f6c: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water Productivity for Food Security'
+  created:
+    -
+      value: 1647484837
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-productivity-food-security
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Identifying innovative solutions to improve agricultural water productivity and efficiency include technologies such as remote sensing and include resilience engineering, as well as new social approaches. How these diverse solutions can be combined to improve agricultural water productivity and increase food security?'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484837
+      guid: ''
+      hash: 6633a9f2ff48476d29f70aa11cf8795f
+  field_code:
+    -
+      value: 2D1
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c88fa5bf-2455-4c2a-82c1-a7de68fb13e9
+    -
+      entity: afe1b005-c39a-4e8c-bbed-3f71935c97fd
+    -
+      entity: ec3c8a94-fa12-4dff-ac03-e397f1074956
+    -
+      entity: b385a194-af34-4b4b-a8ad-68e0ab785de1
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 32025a4d-59ee-4ce5-be0b-95fe83014b55
+    -
+      entity: ed667b42-038e-4301-8660-3c41039c4c47
+    -
+      entity: 5fffc8b8-63c6-463c-9de9-741e155cc4b8
+    -
+      entity: a713d2c7-188d-49c8-9edd-79d673326f2c
+    -
+      entity: aa5cf723-c78d-494e-a788-2aca96230f6c
+  field_organisateurs_text:
+    -
+      value: 'FAO, IHE Delft and IWMI '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Helvetas Swiss Intercooperation, AICS, Spanish government'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        1. "Water Productivity through Open-access of Remotely sensed derived data (WaPOR)" FAO project
+        2. “Strengthening Agricultural Water Efficiency and Productivity on the African and Global Level” FAO project
+        3. "Water Productivity Improvement in Practice (WaterPIP)" IHE Delft Project
+        4. "Knowing water better: towards fairer and more sustainable access to natural resources” (KnoWat) FAO project
+        5. "A 'Push-Pull-Policy' systems approach to improve water productivity and farmers livelihoods" Helvetas Swiss Intercooperation project
+        6. "Italo-Senegalese Agricultural Program", Italian Agency for Development Cooperation (AUCS)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        -        Opening (5 min)
+        -        Keynote introduction to water productivity and water efficiency (15 min)
+        -        On the field lightening talks (4 min by project, 40 min)
+        -        Q&A (20 min)
+        -        Closing (5 min)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'The main outcomes of the session is to share applicable solutions, technologies or approaches, on improved agricultural water use to promote sustainable irrigated agriculture and ensure climate resilience for food security. The integration of water productivity and efficiency analysis supports water resources management at various geographical scales (from field to basin) and should systematically translate into development of capacities for farmers to policy-makers. This session links nicely with 2E sessions on water as a driver to rural communities, as well as the FAO proposed high level event showcasing how water should drive climate actions, being the main factor for climate resilience and mitigation, leading to COP 27.'
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

@@ -1,0 +1,143 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02ff79f4-5e65-4da7-af26-67e8bff951df
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    84d24a91-d590-4fbd-ba02-b2dd03e676bc: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    0a5abee8-6cf2-459a-aa44-e86bc562799f: taxonomy_term
+    ee5df261-e118-4b92-b070-43ae4bf9ced0: taxonomy_term
+    e7105ce9-9f11-450b-b9e5-02703fca78ba: taxonomy_term
+    d522ce84-7762-40db-ab1a-851e95b55785: taxonomy_term
+    41648b57-a739-4602-95e6-4d42dc4432d1: taxonomy_term
+    a4fb2884-589e-4f82-83fd-7ec5df646d2e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Vers l''action : maximiser l''inclusion des jeunes, des migrants et des femmes dans le développement rural et atténuer les causes profondes de la migration liées à l''eau.'
+  created:
+    -
+      value: 1647484952
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/vers-laction-maximiser-linclusion-des-jeunes-des-migrants-et-des-femmes-dans-le
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "L'objectif principal de la session 2F3 est de promouvoir les expériences/initiatives de gestion des ressources en eau dans les zones rurales, mises en œuvre dans des contextes climatiques caractérisés par une fréquente pénurie d'eau, cause possible de phénomènes migratoires, tant internes (du rural vers l'urbain) que vers les pays voisins.
+
+        Les expériences/initiatives présentées, financées et/ou mises en œuvre par des organisations gouvernementales (Agence italienne de coopération au développement, AICS), les Nations Unies (Organisation des Nations Unies pour l'alimentation et l'agriculture, FAO), l'OCDE et des organisations non gouvernementales (entre autres, Caritas et AFEMAC), permettent de se familiariser avec les activités sur le terrain et avec les principaux acteurs impliqués.
+
+        Un accent particulier des expériences/initiatives est mis sur l'inclusion des jeunes, des migrants potentiels et des femmes dans les activités d'agriculture et de développement rural, avec une attention particulière portée à la gestion de l'eau agricole.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484952
+      guid: ''
+      hash: 653a89b643565193030aa5ee6921f40f
+  field_code:
+    -
+      value: 2F3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 84d24a91-d590-4fbd-ba02-b2dd03e676bc
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 0a5abee8-6cf2-459a-aa44-e86bc562799f
+    -
+      entity: ee5df261-e118-4b92-b070-43ae4bf9ced0
+    -
+      entity: e7105ce9-9f11-450b-b9e5-02703fca78ba
+    -
+      entity: d522ce84-7762-40db-ab1a-851e95b55785
+    -
+      entity: 41648b57-a739-4602-95e6-4d42dc4432d1
+  field_organisateurs_text:
+    -
+      value: |
+        1.	SESSION COORDINATOR/CONVENER: Italy, AICS, Mr. Paolo Enrico Sertoli 
+        2.	SESSION CO-CONVENER: FAO, (FAO represenative to be confirmed)
+        3.	AICS, Regional Office Addis Abeba, Ms. Isabella Lucaferri and Ms. Elena Lovat 
+        4.	OECD, Ms. Melissa Kerim 
+        5.	AFEMAC, Ms. Fouzia Delaite 
+        6.	DRC, Ministry of Mines, Mr.Isaac Penda Haliza 
+        7.	Caritas Senegal, Mr. Paul Diouf 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'University of Ziguinchor; other organizations and stakeholders connected to the FAO initiative could be included in the session'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "1. Italie, AICS : "Programme de résilience à la sécheresse et de moyens de subsistance durables" ;
+        2.	FAO : "Un million de réservoirs pour le Sahel" ;
+        3.	OCDE : "Les femmes dans la prise de décision concernant l'eau" ;
+        4.	AFEMAC : "Agroécologie, gestion intégrée des ressources en eau et diaspora" ;
+        5.	RDC, Ministère des Mines : "Le dérèglement climatique et la qualité/quantité des ressources en eau comme facteurs de l'exode rural" ;
+        6.	Caritas Sénégal : " Faciliter l'accès à l'eau pour une sécurité alimentaire et nutritionnelle durable " ; (TBC).
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Temps prévu pour les présentations : 60 minutes (5/6 présentations, 10/12 minutes chacune) ;
+        - Discussion de groupe et questions-réponses : 30 minutes
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'L''ambition de la session 2F3 est de stimuler la création d''une communauté de pratique qui pourrait formuler des indications pour identifier les initiatives (en particulier dans les zones arides et semi-arides) qui pourraient avoir un impact positif sur l''atténuation des causes profondes de la migration liée à l''eau dans les zones rurales. En même temps, il faut souligner l''importance d''identifier une source d''énergie fiable qui peut améliorer/renforcer la durabilité/la fiabilité d''un système d''approvisionnement en eau.'
+      format: basic_html
+  field_salle:
+    -
+      entity: a4fb2884-589e-4f82-83fd-7ec5df646d2e

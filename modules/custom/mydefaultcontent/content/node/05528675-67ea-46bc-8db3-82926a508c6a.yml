@@ -1,0 +1,216 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 05528675-67ea-46bc-8db3-82926a508c6a
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    9fc07054-726a-4c97-9a45-70c4a8aa7dd5: taxonomy_term
+    a08812b7-62d4-4e51-baf7-8c40ef0490ad: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bda986fa-d43f-4dcc-bd07-c61f47cbb167: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    5d1aec2e-4aca-4d35-90b9-657de6840205: taxonomy_term
+    89aa3dac-1b03-4c4c-8a7c-c38e49896711: taxonomy_term
+    68afd798-50ad-4ce4-8db6-fe48baedd5f5: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Youth voices: cultivating our next generation leadership to strengthen governance, water, and health outcomes'
+  created:
+    -
+      value: 1647484854
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/youth-voices-cultivating-our-next-generation-leadership-strengthen-governance-water-and
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Conversations on water issues are often dominated by water sector, water experts and specialised civil society organisations. Our session aims to change this.  We need to hear new voices.  With young leaders emerging all over of the planet in business, media, technology, civil society, and governments, if they turn their leadership to water, it would be a powerful way of approaching, understanding problem and addressing causes of inequalities. We want to help the water community by bring in new leaders in an exciting way.  The session will bring together key Water leaders with the ability to influence significant change with youth organisation and leaders and civil society organisations. An alliance of today’s and tomorrow’s leaders will create a breakthrough, catalyzed by the World Water Forum in Dakar. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484854
+      guid: ''
+      hash: 8bf09eb21bf85a5e5be257fb1058676c
+  field_code:
+    -
+      value: '4D1 '
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 9fc07054-726a-4c97-9a45-70c4a8aa7dd5
+    -
+      entity: a08812b7-62d4-4e51-baf7-8c40ef0490ad
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bda986fa-d43f-4dcc-bd07-c61f47cbb167
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 5d1aec2e-4aca-4d35-90b9-657de6840205
+    -
+      entity: 89aa3dac-1b03-4c4c-8a7c-c38e49896711
+    -
+      entity: 68afd798-50ad-4ce4-8db6-fe48baedd5f5
+  field_organisateurs_text:
+    -
+      value: 'WaterAid, Citizens Alliance '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Posceas, '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: 'Cleans Water, Clean Hands , Save lives program (watersheds)'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        13:30-13:35
+        5 mins
+         	Guests arrive for registration and refreshments 
+
+        Play video to kick things off.
+        	 Welcome + list of presence
+        13:35-13:45
+        10 mins
+         	Opening session
+        Welcome from Mariame Dem, Special Projects Director, WaterAid (moderator)
+        Mariame introduces the session and structure
+         
+        Play film: compilation of video messages from youth around the world
+         	Outline the exciting opportunity of youth leadership for WASH, and the challenges that the sector faces
+          
+        Present the objectives of the session 
+         
+        13:45-14:00
+        15 mins	Keynote speakers 1 & 2
+        Mariame introduces:
+
+        •	Dr Fatimatou Sall, President, AYPWS (Association of Young Professionals in Water and Sanitation of Senegal) 
+        (5mins remarks)
+
+
+        •	Mr. Pedro Arrojo-Agudo, Special Rapporteur on the human rights to safe drinking water and sanitation 
+        (5mins remarks)
+        	
+
+
+        Dr Sall – why I care about WASH, and what our organisation does. A call to action to all workshop participants to share their ideas, their energy.
+
+        Mr Arrojo-Agudo – water and sanitation as human rights – what that means, and the role of citizens, especially young people, in demanding services and holding governments to account.
+
+        14:00-14:20
+        20mins	Testing the waters – youth ideas
+        Mariame introduces the session and key questions for small group discussion
+
+         Discussion in groups.	
+        To hear your ideas.
+
+        Questions for discussion :
+        •	What inspires you about WASH ?
+        •	What actions are needed to ensure everyone has clean water and sanitation ?
+        •	What roles can young people play ?
+
+        14:20-14:35
+        15mins 	Keynote speakers 3 & 4 
+        Mariame introduces:
+
+        •	Dr Kathryn Nwajiaku, Director of Politics & Governance Programme, Overseas Development Institute (ODI) 
+        (5min remarks)
+
+
+        •	Marième Soda Ndiaye, Youngest Senegalese MP, Youth Delegate for Africa and the Middle East on the World Water Council Board  (confirmed) 
+
+
+
+        •	Mr Henk Ovink, Special Envoy for International Water Affairs, Government of The Netherlands
+        (5mins remarks)
+        	
+
+
+        Dr Nwajiaku – what are the inequalities in WASH access, how do they arise and what can governments, the private sector, international donors – and young people – do about it?
+
+        Marieme  could cover how can young people improve water governance? (she can based on her MP role – policies development, budget ,
+
+        Mr Ovink – why WASH matters – to health, education, gender equality, economic growth and climate resilience. Why we need your (youth) leadership.
+        14:35-14:50
+        15mins 	Youth voices
+        Mariame facilitates questions and discussion
+
+        •	What ideas did you talk about in your groups?
+        •	What inspired you most from the speakers?
+        •	What is your call to action for leaders here at WWF?	  
+        To hear your voices.
+        14:50-15:00
+        10mins	Youth call to action
+        Mariame closing remarks, calling for all participants to engage in the ‘Clean Water. Clean Hands. Save Lives’ programme.
+
+        Invite participants to sign up to the ‘Clean Water. Clean Hands. Save Lives’ manifesto which will be launched during WWF and shared with leaders.
+
+        Thanks to all speakers. 
+
+        Play video
+        	Secure commitments from participants, leaders, youth and experts to contribute to the “Clean Water. Clean hands. Save lives” programme by signing the Manifesto
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |+
+        Excepted outcome of the sessions
+
+        -	Produce a draft manifesto to young leaders around the world, signed by participants in the session, that is distributed by the entire group as a call to participate in the programme under the WWF umbrella.
+        -	Develop the simplest and most compelling message to galvanise young leaders around the world to persuade them that water should be at the center of their thinking, their citizenship, and their leadership.
+        -	Gain a commitment from participants to a pilot this programme in at least one watershed in Africa.
+
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: aa40488f-8e60-4f04-8541-fffb41f6dda3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    a158c288-5fb5-46a1-9a6c-5167d414a574: taxonomy_term
+    4f5ea8fb-532f-4b79-99f5-b7ba666c3fef: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    851717e5-3ef2-4dc1-b498-37735d9008df: taxonomy_term
+    81e23f59-7c48-4be9-ba1c-0b12406eaf04: taxonomy_term
+    1c858513-8324-45b5-a2d4-5995c1e96293: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promouvoir le développement de clés de répartition pour partager la charge des investissements, ainsi que les multiples bénéfices attendus des barrages à usages multiples.'
+  created:
+    -
+      value: 1647484957
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promouvoir-le-developpement-de-cles-de-repartition-pour-partager-la-charge-des
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''objectif est de partager des recommandations pour maximiser les avantages économiques des barrages polyvalents (production, navigation et consommation) et de présenter différentes options de financement en fonction de chaque projet. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484957
+      guid: ''
+      hash: 69905c6a3d6989bf1cd6712d04cd2202
+  field_code:
+    -
+      value: 3D2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a158c288-5fb5-46a1-9a6c-5167d414a574
+    -
+      entity: 4f5ea8fb-532f-4b79-99f5-b7ba666c3fef
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 851717e5-3ef2-4dc1-b498-37735d9008df
+    -
+      entity: 81e23f59-7c48-4be9-ba1c-0b12406eaf04
+    -
+      entity: 1c858513-8324-45b5-a2d4-5995c1e96293
+  field_organisateurs_text:
+    -
+      value: 'ORGANISATION POUR LA MISE EN VALEUR DU FLEUVE SENEGAL (OMVS) '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        •	to be confirmed GEF (Global Environmental Facility), 
+        •	World Bank, 
+        •	Danube
+        •	ITAIPU
+        •	International Hydroelectric Association (IHA))
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "- Modèles économiques durables pour le financement, l'exploitation et la maintenance des barrages à usages multiples. Application de l'économie circulaire aux infrastructures hydrauliques
+        - Modèle de répartition des coûts et des charges pour les ouvrages communs de l'OMVS.
+         "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        - 1 orateur principal - 15 minutes
+        '- 3 orateurs - 15 minutes chacun
+        '- Discussion en groupe dirigée par un modérateur de la session - 25 minutes
+        '- Conclusion de la session - 2 à 5 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- Identifier les principales dispositions à prendre en compte lors de la planification ou de l'exploitation d'un barrage transfrontalier à usages multiples. 
+        - Partager les expériences réussies des modèles utilisés dans un contexte de travaux communs avec partage des bénéfices.
+        - Soulever des recommandations au IXe Forum mondial de l'eau pour maximiser les avantages multiples des barrages polyvalents avec une approche de durabilité.
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

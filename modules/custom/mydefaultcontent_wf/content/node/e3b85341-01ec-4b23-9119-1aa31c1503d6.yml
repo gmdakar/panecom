@@ -1,0 +1,144 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e3b85341-01ec-4b23-9119-1aa31c1503d6
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    8af8cc94-2ec3-4258-92bb-92465a1f3bc0: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    72a14f2c-0a3a-4c02-b42a-38d76a41bc8f: taxonomy_term
+    d6d91c19-bb42-45f7-9348-0fd8eb9a0659: taxonomy_term
+    83a9a451-fc8c-4e16-9ab4-ae36143d73ad: taxonomy_term
+    17add517-fb2b-4fe7-a6f0-fe88e7521fbe: taxonomy_term
+    6d0ba58b-12a4-4622-acfc-0a0308cffda9: taxonomy_term
+    605cc74f-fad4-4bb7-be36-c12e045b04fc: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Plateformes de cartographie et de suivi des données sur les installations d''approvisionnement en eau potable'
+  created:
+    -
+      value: 1647484944
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/plateformes-de-cartographie-et-de-suivi-des-donnees-sur-les-installations-dapprovisionnement
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'optimisation du suivi (i) de l'aménagement et de l'exploitation du patrimoine hydraulique et (ii) de la gestion du service public d'eau potable (SEPA), implique un contrôle détaillé et dynamique du patrimoine et une capacité à suivre et contrôler les données d'exploitation du patrimoine.  
+        Les technologies de l'information et de la communication (TIC) offrent de nombreuses opportunités pour mettre en place des outils adaptés, inclusifs et participatifs.  
+        L'opérationnalisation de ces outils contribue à améliorer non seulement la transparence et la responsabilité politique mais aussi la performance (technique, recouvrement, etc.), en vue de rassurer les partenaires financiers et d'encourager les partenariats public-privé pour un développement durable du service public de l'eau. 
+        La session 2A2 servira de cadre pour partager des études de cas opérationnelles sur le contrôle des actifs et le suivi du service public de l'eau en milieu rural, à différents niveaux (local, national, régional). 
+        Les principaux critères de succès des études de cas seront discutés à la lumière des difficultés fréquentes et communes du contrôle du développement et de l'exploitation des actifs d'eau en milieu rural.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484944
+      guid: ''
+      hash: 126baf62fef1cab802f48eb2909e5369
+  field_code:
+    -
+      value: 2A2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8af8cc94-2ec3-4258-92bb-92465a1f3bc0
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 72a14f2c-0a3a-4c02-b42a-38d76a41bc8f
+    -
+      entity: d6d91c19-bb42-45f7-9348-0fd8eb9a0659
+    -
+      entity: 83a9a451-fc8c-4e16-9ab4-ae36143d73ad
+    -
+      entity: 17add517-fb2b-4fe7-a6f0-fe88e7521fbe
+    -
+      entity: 6d0ba58b-12a4-4622-acfc-0a0308cffda9
+    -
+      entity: 605cc74f-fad4-4bb7-be36-c12e045b04fc
+  field_organisateurs_text:
+    -
+      value: |-
+        1- Agence nationale d'approvisionnement en eau potable (ANAEPMR)
+        2- Cantaro Azul (Redes del agua- México)
+        3- Service national d'approvisionnement en eau (SNAPE)
+
+        Coordinateurs de la session : 
+        Sylvain Migan  
+        Pacôme AHOKPOSSI 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        1-	Rural Water Supply Network (RWSN)
+        2-	Global Water Challenge
+        3-	MANOBI Africa
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        Projet 1 - eTransformer le secteur de l'approvisionnement en eau en milieu rural : Cas du Bénin (ANAEPMR)
+        Projet 2 - Gestion numérique de la planification des études techniques et du contrôle de la construction des systèmes d'eau potable au Bénin (ANAEPMR)
+        Projet 3 - Responsabilisation de la qualité de l'eau dans les écoles sur une plateforme numérique. (Cantaro Azul (Redes del agua- México)
+        Projet 4 - Création d'une application pour cartographier tous les ouvrages d'eau potable en milieu rural (SNAPE)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Présentations + Q&R : 45 minutes
+        Discussions en groupe et en plénière : 45 minutes"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: "Démontrer et stimuler la compilation et la disponibilité d'informations indicatives sur les caractéristiques, la gestion et le fonctionnement des installations rurales d'approvisionnement en eau.\r\nDes liens de suivi vers des événements et des initiatives après le Forum seront communiqués lors des différentes présentations."
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

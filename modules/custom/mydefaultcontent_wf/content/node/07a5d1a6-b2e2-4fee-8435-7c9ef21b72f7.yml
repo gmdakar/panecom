@@ -1,0 +1,152 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 07a5d1a6-b2e2-4fee-8435-7c9ef21b72f7
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    72d8dc9e-4272-47fc-939e-49904bf277b2: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    e5cff376-c3a1-43a6-8c85-b055217c8e74: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science and innovation for enhancing governance and management of transboundary aquifers and IWRM'
+  created:
+    -
+      value: 1647484854
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/science-and-innovation-enhancing-governance-and-management-transboundary-aquifers-and-iwrm
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This session will bring evidence of the necessity to embed scientific knowledge and innovative solutions into governance mechanisms.  
+
+        In Africa, the governance of several transboundary aquifers was enhanced through the application of innovative approaches to legal settings.  
+
+        The session will call for a strong political will and commitment from decision makers to support science in the UN Global Accelerator Framework for SDG 6. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484854
+      guid: ''
+      hash: 4ccd9a01c59d82fc2f83bded891f40e7
+  field_code:
+    -
+      value: '4E1'
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 72d8dc9e-4272-47fc-939e-49904bf277b2
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: e5cff376-c3a1-43a6-8c85-b055217c8e74
+  field_organisateurs_text:
+    -
+      value: 'UNESCO-IHP  '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        •	Agence française de développement (AFD)
+        •	The Nature Conservancy (TNC)
+        •	BGR
+        •	OSS
+        •	INBO
+        •	European Commission
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        •	Experience with LCBC, ABN and OSS, three regional and transboundary projects in Africa. 
+        •	Enhancing management and governance of Transboundary Aquifers in Northern Africa (ITTAS)
+        •	A mission-oriented approach to solve water related challenges and create societal impacts 
+        •	Investing in nature-based solutions – focus on groundwater-dependent ecosystems 
+        •	Towards conjunctive management and concerted governance of transboundary aquifer water resources 
+        •	Promoting youth-led Initiatives in Water Governance
+        •	Transboundary Aquifer Governance (Stampriet / Guarani)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Presentations of the project
+        Panel discussion
+        Q&A
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Promote acceleration of investments in science for policy making. Call for sharing information transparently within and between sectors and across borders to effectively inform decision-making processes, including by drawing on coherent data and information systems, innovation and multi-stakeholder engagement and through policy advice and technical assistance. Look at innovative approaches and tools that can have great potential to support water monitoring and groundwater resources assessments.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

@@ -1,0 +1,161 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fb8df4b5-1dfa-416f-ac2d-fab46207795a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    69c0088a-55ad-4080-b817-1ec8c97b18c8: taxonomy_term
+    54190694-0fdb-469b-8a38-ef3e07d69714: taxonomy_term
+    33b3130e-8508-4ef1-af61-8114f0dacec8: taxonomy_term
+    8b8a66c1-be65-4383-9dc1-95cf9bf96050: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'PIR - Facilitateurs politiques, institutionnels et réglementaires : l''ingrédient clé pour atteindre l''ODD6'
+  created:
+    -
+      value: 1647484963
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/pir-facilitateurs-politiques-institutionnels-et-reglementaires-lingredient-cle-pour
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Il est plus crucial que jamais de s''attaquer aux aspects politiques, institutionnels et réglementaires de la fourniture de services d''eau et d''assainissement. Pourquoi ? La RIP est un catalyseur essentiel d''autres leviers - tels que le financement, les infrastructures et les solutions techniques - pour atteindre l''ODD6. En se concentrant sur une approche intégrée, le PIR peut aider à relever les défis systémiques de la durabilité, tels que le changement climatique et les crises et chocs à court terme.   Cette session se concentrera sur la façon dont le PIR peut être un catalyseur de solutions financières et techniques et renforcer leur impact pour de meilleurs services.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484963
+      guid: ''
+      hash: 56890f76e73a99170bf075ffac2bcb2b
+  field_code:
+    -
+      value: 4A9
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 69c0088a-55ad-4080-b817-1ec8c97b18c8
+    -
+      entity: 54190694-0fdb-469b-8a38-ef3e07d69714
+    -
+      entity: 33b3130e-8508-4ef1-af61-8114f0dacec8
+    -
+      entity: 8b8a66c1-be65-4383-9dc1-95cf9bf96050
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+  field_organisateurs_text:
+    -
+      value: |-
+        CAF (Latin America Development Bank) 
+         World Bank
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        The Organisation for Economic Co-operation and Development (OECD-OCDE)
+        CRA Comisión de Regulación de Agua Potable y Saneamiento Básico
+        Agência Nacional de Águas e Saneamento Básico (ANA) Brazil
+        The Eastern and Southern Africa Water and Sanitation (ESAWAS) Regulators Association
+        Asociación de Entes Reguladores de Agua Potable y Saneamiento de las Américas (ADERASA)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Outil du cadre PIR, Groupe de la Banque mondiale'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1.	(10 min.) Accueil par les hôtes  
+        Les hôtes souhaitent la bienvenue aux organisateurs, aux participants et aux invités, en décrivant les grandes lignes de la session pour l'auditoire et en présentant certains des principaux enseignements et messages issus de leur travail.
+        - Dambudzo Muzenda, spécialiste principal de l'eau et de l'assainissement, Water Global Practice, Banque mondiale.
+        - Franz Rojas-Ortuste, coordinateur de l'agenda de l'eau à la CAF (Banque de développement d'Amérique latine).
+
+        2.	(75 mins.) Panel : Zoom-in PIR en tant que catalyseur
+        Les hôtes se joignent aux invités de haut niveau pour zoomer sur la façon dont le PIR peut être un catalyseur de solutions financières et techniques et renforcer leur impact sur le secteur de l'eau et de l'assainissement. Les discussions sont structurées autour de 3 questions principales :
+
+        (25 mins) Q 1 - Politiques : Alors que de nombreux pays ont développé des politiques, des plans et des législations en matière d'E&A, la mise en œuvre reste un défi majeur. Quels sont les principaux obstacles à la mise en œuvre de politiques et de réglementations solides ?
+
+        (25 mins) Q 2 - Institutions : Les contraintes de capacité auxquelles sont confrontées les institutions de l'eau - en particulier les autorités locales et les services publics - sont bien documentées. Quels types d'incitations, de modèles ou de pratiques sont nécessaires pour relever ce défi de longue date ?
+
+        (25 mins) Q 3 - Réglementation : La réglementation peut être très efficace pour encourager l'amélioration des résultats du secteur. Mais la réglementation a sans doute été sous-évaluée ou sous-utilisée. Êtes-vous d'accord ? Comment la réglementation peut-elle mieux fonctionner pour faire avancer le programme E&A ?
+
+        Panélistes
+        - Kelvin Chitumbo, directeur du Conseil national de l'approvisionnement en eau et de l'assainissement (NWASCO), Zambie.
+        - Amadou Diallo, coordinateur de l'UIP pour le projet d'approvisionnement en eau en milieu rural au Sénégal et haut fonctionnaire au sein du gouvernement sénégalais.
+        - Malena Galmarini, présidente de Agua y Saneamientos Argentinos (AySA), Argentine, et de l'Asociación Latinoamericana de Operadores de Agua y Sanemiento (ALOAS).
+        - Dr Teodoro Estrela Monreal, directeur général de l'eau, Secretaría de Estado de Medio Ambiente, Ministerio para la Transición Ecológica y el Reto Demográfico, Espagne. 
+        - Dr Oriana Romano, chef d'unité, Gouvernance de l'eau et économie circulaire dans les villes au Centre de l'OCDE pour l'entrepreneuriat, les PME, les villes et les régions.
+
+        3.	(5 mins.) Remarques de clôture pour synthétiser les messages clés et les implications pour l'avenir du PIR
+        Gustavo Saltiel, responsable mondial de l'approvisionnement en eau et de l'assainissement, pratique mondiale de l'eau, Banque mondiale.
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Résultats
+        1.	Présenter les expériences existantes du point de vue des principales parties prenantes sur la façon dont le PIR peut être un catalyseur de solutions financières et techniques et renforcer leur impact sur l'E&A.
+        2.	Encourager le dialogue sur les politiques, en tenant compte de l'impact du contexte local.
+        3.	Partager les bonnes pratiques et contribuer à l'amélioration des incitations qui aident les institutions du secteur de l'eau et de l'assainissement à renforcer leurs capacités, leur planification et leur gestion des données. 
+        4.	Identifier les champions et promouvoir de nouveaux partenariats qui soutiennent le rôle des régulateurs dans l'incitation à des résultats positifs pour le secteur.
+
+        Suivi des liens avec les événements et les initiatives après le Forum
+        1.	SIWI Stockholm Semaine mondiale de l'eau 2022
+        2.	Forum international des régulateurs de l'eau de l'IWA à Copenhague lors du Congrès mondial de l'eau 2022.
+        3.	VIII et Xème Forum mondial de l'eau 
+        4.	Conférence sur le financement et la gouvernance de l'eau dans la région ALC. Nov 2021"
+      format: basic_html
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

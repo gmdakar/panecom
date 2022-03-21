@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7367122c-7557-4b16-8af2-4639b12a7c27
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    8742e946-c9d7-4163-b70b-27f15cbd7ad8: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    07a02233-42b3-4233-baa3-bbe97cc80a54: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    21054272-5eaa-4faf-972a-7a3ff99c73b8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water Issues and Priorities in the Implementation of the Great Green Wall'
+  created:
+    -
+      value: 1647486040
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-issues-and-priorities-implementation-great-green-wall
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The Sahel is characterized by drastic climatic conditions, recurrent droughts, land degradation, poverty, malnutrition, forced migrations. The Great Green Wall Initiative was created in response to this contact with the vision of restoring the viability of the natural capital and productive systems of the Sahelian lands and transforming them into areas of economic prosperity that are perfectly integrated into the economic fabric of the countries. The Initiative integrates the three paradigms of Restoration / Development / Security. The major challenge is the control of water resources, which necessarily implies more efficient management of this vital resource, a limiting factor in any development. The GGW countries are above the water stress threshold. A study made by the OSS in 2021 indicates that the water potential is significant with regard to the surface area of each aquifer system but is little mobilized and under-exploited. This issue deserves a high-level debate in order to obtain significant guidance as it is a key issue. The main objectives of the Side Event are to discuss the water issue in the Sahelian region and in particular in the context of the GGW. The panelists, who are high-level international experts, will address the key issues related to this resource for the Sahel and will outline the best perspectives in terms of its strategic importance, control and management, mechanisms for mobilizing potential financial resources, and possible improvements to national policies.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486040
+      guid: ''
+      hash: 9fc135e3f7e08e0d09eae90d225e8d9a
+  field_code:
+    -
+      value: SE30
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'As an indication, Prof. Boubacar Barry of the 9thFME, Nabil Ben Khatra Executive Secretary of the OSS, Dr. Abdelkader Dodo of the OSS, Geoffroy Citegeste of Birdlife international, '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+    -
+      entity: 8742e946-c9d7-4163-b70b-27f15cbd7ad8
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+    -
+      entity: 07a02233-42b3-4233-baa3-bbe97cc80a54
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+  field_organisateurs_text:
+    -
+      value: 'Agence Panafricaine de la Grande Muraille Verte'
+      format: basic_html
+  field_salle:
+    -
+      entity: 21054272-5eaa-4faf-972a-7a3ff99c73b8

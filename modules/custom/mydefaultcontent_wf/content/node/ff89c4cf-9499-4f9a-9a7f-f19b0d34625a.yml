@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ff89c4cf-9499-4f9a-9a7f-f19b0d34625a
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    47ce1136-5b61-42be-92b5-a63c7eb1c8a3: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    61e95c76-ddde-4169-91ca-c611a5d573cd: taxonomy_term
+    87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c: taxonomy_term
+    9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water and Sanitation in the Green PSE'
+  created:
+    -
+      value: 1647486045
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-and-sanitation-green-pse
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The Green PES program has identified six sectors as priorities after a participatory and transparent analysis process, including the Water and Sanitation sector. 
+        The session will discuss (i) the objectives of the Green PES for the water and sanitation sector in a circular economy perspective, (ii) the public policies to be put in place, (iii) the experiences capitalized in other countries and (iv) the investment opportunities to achieve the Green PES objectives for the sector. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486045
+      guid: ''
+      hash: 453a0d65b41f58cedc7f80e44ca2a003
+  field_code:
+    -
+      value: SE22
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Moderator: Aïda Diongue-Niang; Panelists: Khalil Rahmane Ndiaye (Bureau Opérationel de Suivi-Plan Sénégal Émergent, Responsable du pôle de structuration ou son DG); Gatta Soulé Ba (Ministère de l''Eau et de l''Assainissement, Cellule de Planification, de Coordination et de Suivi des Programmes, Environnementaliste ou son Directeur) Abdou Aziz Diedhiou (The Agricultural Bank, Head of the Studies and Strategy Department, Environment and Climate Focal Point or its Director); '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 47ce1136-5b61-42be-92b5-a63c7eb1c8a3
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 61e95c76-ddde-4169-91ca-c611a5d573cd
+    -
+      entity: 87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c
+  field_organisateurs_text:
+    -
+      value: 'Global Green Growth Institute, International, intergovernmental organization'
+      format: basic_html
+  field_salle:
+    -
+      entity: 9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6

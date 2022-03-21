@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ebc8b425-8167-4cf5-9cc1-ee9fe45bf043
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    5d1aec2e-4aca-4d35-90b9-657de6840205: taxonomy_term
+    30f8c1b6-9bf3-4282-b534-4e6271d719ea: taxonomy_term
+    fcbe6d2f-7d3d-4130-b451-5247bd208d2f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Exchange between transboundary aquifers on three continents'
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/exchange-between-transboundary-aquifers-three-continents-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The African Ministers responsible for water critically examining the global water situation and its implication for Africa in 2002 adopted the "Abuja Ministerial Declaration on Water – a key to Sustainable Development in Africa". This declaration established the African Ministers’ Council on Water (AMCOW). AMCOW is an intergovernmental institution of the African Union. The vision of AMCOW is an Africa where there is an equitable and sustainable use and management of water resources for poverty alleviation, socio-economic development, regional co-operation and the environment. In April 2022, AMCOW will be 20 years since its establishment. In view of this, the Secretariat with guidance from the Governing Council planned a number of activities to commemorate the 20th anniversary on the margins of the 9th World Water Forum in Senegal. These anniversary events include AMCOW@20 High Level Roundtable with continental and global leaders of the water and sanitation sector. Others are the AMCOW@20 awards and appreciation ceremony, and a high-level presidential luncheon. These events are being hosted by H E President Macky Sall, in his capacity as one of the first Vice Presidents of AMCOW. Other co-hosts are the World Water Forum; and Chair of the African Union. 
+        The objective of this Roundtable is for sector leaders to discuss and chart a strategic direction for transitioning the unfinished business of the Africa Water Vision into a post-2025 action framework aligned to Agenda 2063 and the SDGs. This platform also presents an opportunity to celebrate the contributions of all stakeholders to AMCOW’s journey to date.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: 4c309defc2182e66ffb563c495342975
+  field_code:
+    -
+      value: HLP22
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 5d1aec2e-4aca-4d35-90b9-657de6840205
+    -
+      entity: 30f8c1b6-9bf3-4282-b534-4e6271d719ea
+  field_organisateurs_text:
+    -
+      value: 'African Ministers'' Council on Water (AMCO)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        •	Introduction of dignitaries and Opening Ceremony (30 minutes)
+        •	High Level Roundtable discussions (60 minutes)
+        •	AMCOW@20 Awards and Goodwill messages (60 minutes)
+        •	Keynote addresses (30 minutes)
+        •	High-level luncheon, networking and cultural entertainment (90)
+
+      format: plain_text
+  field_salle:
+    -
+      entity: fcbe6d2f-7d3d-4130-b451-5247bd208d2f

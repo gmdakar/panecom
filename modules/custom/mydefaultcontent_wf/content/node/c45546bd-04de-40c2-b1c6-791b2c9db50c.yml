@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c45546bd-04de-40c2-b1c6-791b2c9db50c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3dae8ae1-b8ef-41a1-a734-cc5186869e45: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    26cfb264-cf14-43d1-b84d-f5af2f4fd7ba: taxonomy_term
+    857ec47e-6ed4-4635-955d-14b26ecc94f9: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financer notre avenir : mécanismes de financement partagés pour la gestion des ressources en eau partagées'
+  created:
+    -
+      value: 1647484952
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financer-notre-avenir-mecanismes-de-financement-partages-pour-la-gestion-des-ressources-en
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session donne un aperçu de la manière dont les pays financent la protection de leurs ressources en eau (rivières, lacs, eaux souterraines) à partir de sources de financement multiples. La session partagera des expériences spécifiques dans les mécanismes de financement nationaux et sous-nationaux d''Afrique de l''Est et de l''Ouest et d''Amérique latine. Les participants seront encouragés à partager leurs expériences en matière de financement au cours de la session de discussion afin d''améliorer la compréhension commune.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484952
+      guid: ''
+      hash: c4bd48af8356861007fdf117c41616ab
+  field_code:
+    -
+      value: '3A3 '
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3dae8ae1-b8ef-41a1-a734-cc5186869e45
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+    -
+      entity: 26cfb264-cf14-43d1-b84d-f5af2f4fd7ba
+    -
+      entity: 857ec47e-6ed4-4635-955d-14b26ecc94f9
+  field_organisateurs_text:
+    -
+      value: |
+        GWP: Armand Houanye and Colin Herron 
+        UNEP-DHI – Per Bøgelund Hansen and Paul Glennie 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'World Bank (tbc)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "- Projet 1 : OMVS : Financement de la GIRE et des avantages sociaux connexes au niveau transfrontalier 
+        - Projet 2 : Burkina Faso : Système de revenu national 
+        - Projet 3 : ADASA/Brésil : Utilisateur/pollueur-payeur / Paiement pour les services environnementaux 
+        - Projet 4 : Danone : Repenser le continuum d'investissement de la GIRE pour accélérer l'échelle et l'impact des projets en Indonésie. 
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Ouverture & maître de cérémonie (GWP) : 5 minutes
+        - Keynote (PNUE) : Situation mondiale des besoins de financement pour la GIRE (basée sur le rapport de l'ODD 6.5.1) (10 mins)
+        - Présentations du panel (voir ci-dessus) (5 minutes chacune, 25 minutes au total) :
+        Les principes de l'utilisateur-payeur / pollueur-payeur et le paiement des services environnementaux pour assurer la sécurité de l'eau et les pratiques agricoles durables dans les bassins de conflit d'eau.
+        Mobilisation des ressources financières pour la GIRE auprès des usagers de l'eau au Burkina Faso.
+        Le financement de la GIRE à l'échelle du bassin du Sénégal.
+        Repenser le continuum d'investissement de la GIRE pour accélérer l'échelle et l'impact des projets.
+
+        - Réponse du panel (Banque mondiale, à confirmer) (5 minutes) : La perspective d'un donateur sur la discussion du panel. 
+        - Discussion animée (35 minutes)
+        - Conclusions (10 minutes) : réflexions sur le financement de la GIRE du point de vue d'un gouvernement national et appel à l'action pour financer la GIRE afin d'atteindre les ODD liés à l'eau.
+
+
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Messages clés relatifs au financement de la GIRE sur la base de l''échange des leçons apprises, document de synthèse à utiliser comme contribution au prochain cycle de rapports sur l''ODD 6.5.1.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

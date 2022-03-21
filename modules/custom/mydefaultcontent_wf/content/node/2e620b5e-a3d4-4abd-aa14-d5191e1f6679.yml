@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e620b5e-a3d4-4abd-aa14-d5191e1f6679
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    1b3024e6-c3d1-4627-87ce-d03978e23cd2: taxonomy_term
+    c3906942-1267-4177-b922-4cecaaf50200: taxonomy_term
+    fbb3eb5b-a888-488b-8418-83fb7662b085: taxonomy_term
+    e33d6d82-cfb8-4512-ae1f-718fdd89516d: taxonomy_term
+    6ca5cd3c-e042-4ddf-b355-e4ea56aafa14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'High Level Ministerial Dialogue on Access to Water and Sanitation Services in the Sahel'
+  created:
+    -
+      value: 1647486038
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/high-level-ministerial-dialogue-access-water-and-sanitation-services-sahel
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Objectives:
+        (i) To report on the progress made in access to water and sanitation in the 5 G5 Sahel member countries;
+        (ii) Present the level of technical and financial mobilization of the Sahel Alliance;
+        (iii) Hear the vision of each Minister to accelerate mobilization for the sector.
+        Expected outcome: roadmaps for sector reforms to be implemented in order to meet the challenges of the sector
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486038
+      guid: ''
+      hash: bb26f6faf72f088993898a4aeedeb992
+  field_code:
+    -
+      value: SE1
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Speakers :
+        - Adrien HAYE, Coordinator of the Sahel Alliance
+        - Didier Allély, World Health Organization
+        - Mr. Osward CHANDA, Director of the Water and Sanitation Department, African Development Bank
+        - Ms. Clara de Sousa, Director of Operations, World Bank
+        - Ms. Céline Robert, Director of the Water and Sanitation Division, Agence Française de Développement
+
+        Speakers :
+        - His Excellency ADAMOU Mahaman, Minister of Water and Sanitation of Niger
+        - His Excellency Alio Abdoulaye Ibrahim, Minister of Urban and Rural Hydraulics of Chad
+        - His Excellency Lamine Seydou Traore, Minister of Mines, Energy and Water of Mali
+        - His Excellency Mohamed El Hassen BOUKHREISS, Minister of Water and Sanitation of Mauritania
+        - Mr. Alassoun SORI, Secretary General of the Ministry of Water and Sanitation, Burkina Faso
+        - Ambassador Eric Yemdaogo TIARE, Executive Secretary of G5 Sahel
+        Moderator: Catarina de Albuquerque, President - Director Sanitation and Water for All (SWA)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 1b3024e6-c3d1-4627-87ce-d03978e23cd2
+    -
+      entity: c3906942-1267-4177-b922-4cecaaf50200
+    -
+      entity: fbb3eb5b-a888-488b-8418-83fb7662b085
+    -
+      entity: e33d6d82-cfb8-4512-ae1f-718fdd89516d
+  field_organisateurs_text:
+    -
+      value: AFD
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        17:00 - 17:05 / Introduction
+        17:05 - 17:10 / State of play of water and sanitation services in the Sahel
+        17:10 - 17:30 / The support of the Sahel Alliance and its members for the water and sanitation sector (global action and focus on 3 emblematic projects)
+        17:30 - 18:00 / Continuing partnerships and moving forward: challenges for sector reforms Dialogue with the Ministers
+      format: plain_text
+  field_salle:
+    -
+      entity: 6ca5cd3c-e042-4ddf-b355-e4ea56aafa14

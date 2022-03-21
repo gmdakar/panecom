@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: be0a653f-bd7b-4e1f-a874-f6e9168d5f9c
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    b2abe6d2-dff8-41e3-9422-e71fe7e15b65: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    2e42f5b5-38b0-4f52-830d-0525da205647: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water Security in Latin America and the Caribbean (LAC): Finance and Governance'
+  created:
+    -
+      value: 1647486041
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-security-latin-america-and-caribbean-lac-finance-and-governance
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'With the imperative that the 9th World Water Forum will bridge between the stakeholders and between regions, without neglecting the geopolitical and cultural characteristics of each region, CAF, in coordination with the presidency and the secretariat of the WWC, carried out the Conference on Finance and Water Governance in Latin America and the Caribbean (LAC): Towards Dakar 2022. In this session will be shared the vision of LAC in terms of water gathered from the conference, concerning regional challenges and opportunities. Different stakeholders from LAC will exchange about the roadmap needed to achieve water security in the region.  '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486041
+      guid: ''
+      hash: 07dd4634257580fd8d333ccaae606b36
+  field_code:
+    -
+      value: SE6
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Julián Suárez Migliozzi, CAF
+        Ángel Cárdenas, Manager of Urban Development, CAF
+
+        Panel
+        •	Adrián Peña, Minister of Environment, Uruguay.
+        •	Jorge Werneck,  Director, Agência Reguladora de Águas, Energia e Saneamento Básico do Distrito Federal (ADASA), Brazil
+        •	Malena Galmarini, President, Asociación Latinoamericana de Operadores de Agua y Saneamiento (ALOAS) and President  Agua y Saneamientos Argentinos S.A. (AYSA), Argentina.
+        •	Alexandra Moreira      L., Secretary General, Amazon Cooperation Treaty Organization (ACTO)
+        •	Pedro Maranhão, National Secretary of Sanitation, Brazil
+        •	Carmelo Valda, Vice Minister of Water, Bolivia.
+
+        Moderator:  Franz Rojas, CAF
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: b2abe6d2-dff8-41e3-9422-e71fe7e15b65
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+  field_organisateurs_text:
+    -
+      value: 'CAF - Development Bank of Latin America -'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening (5 mins): Ángel Cárdenas, Urban Development Manager, CAF
+        Keynote Speaker (10 mins): Julián Suárez Migliozzi, CAF
+        Panel (40 mins): as indicated above
+        Closing (5 mins): Ángel Cárdenas, Manager of Urban Development, CAF
+      format: plain_text
+  field_salle:
+    -
+      entity: 2e42f5b5-38b0-4f52-830d-0525da205647

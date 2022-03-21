@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f0c6f5d-d519-48ff-89b0-834139c0319c
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    3ce42b7f-558d-4ff4-94ca-b82ab01941ad: taxonomy_term
+    4a064c0e-97db-468c-b917-92e5d1218314: taxonomy_term
+    4a33722d-d56c-4dd7-92ab-003bf02930b0: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Building a shared understanding of water- security linkages in the Sahel'
+  created:
+    -
+      value: 1647493839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/building-shared-understanding-water-security-linkages-sahel-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The session will bring together stakeholders from both water and security sectors and scientists working on analyzing water-security linkages, with the objective of sharing insights and identifying next steps in actions to tackle water-related security risks based on a shared understanding of water-security linkages. With examples from ongoing work in Mali, Niger and Chad.
+
+        The session will start with an overview of potential links between water and security through different regions of the world. It will afterwards focus on how participative methods such as group model building can help stakeholders to develop a shared understanding of water-security linkages. Doing so, the session will share lessons from ongoing work in Mali, Niger and Chad and through the first steps of the projects. The session will afterwards explore how the shared understanding of the water-security linkages could support in designing effective policy responses to water insecurity related conflict risks. It will also discuss how to replicate this work in other areas where water and security may be interlinked. The audience will be asked to actively contribute with their experience and engage in the discussion. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493839
+      guid: ''
+      hash: a76787d656751467332a96502fba4980
+  field_code:
+    -
+      value: SS07
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 3ce42b7f-558d-4ff4-94ca-b82ab01941ad
+    -
+      entity: 4a064c0e-97db-468c-b917-92e5d1218314
+    -
+      entity: 4a33722d-d56c-4dd7-92ab-003bf02930b0
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+  field_organisateurs_text:
+    -
+      value: 'Deltares (Research institute)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        5min – Welcome and Opening words 
+        10min – Keynote on the link between water and security
+        20min - Building a shared understanding of water-security linkages: the case of Mali, Niger and Chad
+        Presentation of the main steps and lessons-learned from the ongoing work, by the local partners
+        15min – Towards designing effective policy responses to water insecurity related conflict risks (panel discussion)
+        10min - Concluding remarks
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

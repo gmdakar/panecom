@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 20bc49d9-c855-448e-9e2a-9ad31cc49ae4
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0: taxonomy_term
+    17ba3d97-24bb-4e3a-b324-8737ae81bf68: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    90ca13f5-0ae9-4a99-a198-efbf0ba44741: taxonomy_term
+    6da6a7f7-adea-4d24-b449-915909efd978: taxonomy_term
+    807522af-7b2f-4059-b7bf-256b2e4b1389: taxonomy_term
+    96594acc-1482-4a84-8067-850db745eccf: taxonomy_term
+    1f8ad20e-57b6-4282-b697-7e3b00f0dac5: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The role of the localized information system in water management and planning'
+  created:
+    -
+      value: 1647484852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/role-localized-information-system-water-management-and-planning
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        "Access to information on the state and evolution of water resources and their uses is an imperative need and a major challenge to establish an inclusive governance framework that takes into account in a structured manner the different links of integrated water management.
+
+        In view of the crucial importance of data, good governance of water resources therefore requires a strengthening of capacities to access and process water data in collaboration with local stakeholders, in order to generate information and services that meet the requirements of inclusive planning.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484852
+      guid: ''
+      hash: 552aee1c13ee4384bbf536c323ca377f
+  field_code:
+    -
+      value: 4B3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0
+    -
+      entity: 17ba3d97-24bb-4e3a-b324-8737ae81bf68
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 90ca13f5-0ae9-4a99-a198-efbf0ba44741
+    -
+      entity: 6da6a7f7-adea-4d24-b449-915909efd978
+    -
+      entity: 807522af-7b2f-4059-b7bf-256b2e4b1389
+    -
+      entity: 96594acc-1482-4a84-8067-850db745eccf
+    -
+      entity: 1f8ad20e-57b6-4282-b697-7e3b00f0dac5
+  field_organisateurs_text:
+    -
+      value: 'UCLG Africa (with the support of UCLG World)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        EU - ADB - FVC - OECD - World Water Council - WRI - World Bank
+        UNESCO Jakarta (TBC)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        Race to resilience 
+        African Mayors' Roundtable for Water Security Initiative
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Introduction (10 mn)
+
+        Part 1: "The role of the localized information system in water management and planning" (30 mn)  
+        - Panel of experts and international organizations (representative of international institutions (EU - ADB - World Water Council - OECD - World Bank -WRI). 
+        - Discussion on the institutional and regulatory framework needed to facilitate access, processing and valorisation of data in the water sector at the local level.
+
+        Part 2: Structured multi-level dialogue to facilitate access, processing and valorisation of water data at the local level (30 mn)
+        - Panel composed of national representatives and mayors representing the African, Latin American and Asian regions.
+        - Discussion on existing cooperation mechanisms to facilitate the flow of data between the different levels of governance and to strengthen the capacity of local governments to process and analyze these data. 
+
+        Question and answer session and conclusion (20mn)
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |2-
+         A report outlining the results of the session will be produced and disseminated after the forum to the various participants.
+         Links with partners, universities will be established in order to continue the work on the "race towards water resilience" initiative.
+         Strengthen the structured dialogue between the national and local levels regarding the monitoring system.N77
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

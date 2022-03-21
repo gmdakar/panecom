@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 42d03a3a-4c33-4932-958a-080541a12ed1
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    8a214ba5-2a01-460b-b5f8-bca6bb57f823: taxonomy_term
+    6a8b191c-8a78-48e0-b9c7-3374595af8a3: taxonomy_term
+    0b4c0654-312e-4ebe-9391-e8292b44422e: taxonomy_term
+    19d469c9-3bdf-4d8d-86d6-225bbf91f601: taxonomy_term
+    67fd810a-a1c6-49a0-b80d-e42fd29d5b10: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Pénurie d''eau et problèmes liés à l''eau : un dialogue avec les voix des jeunes du Sahel'
+  created:
+    -
+      value: 1647486185
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/penurie-deau-et-problemes-lies-leau-un-dialogue-avec-les-voix-des-jeunes-du-sahel
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'En accord avec l''ambition du WWF, le bureau régional de l''UNICEF pour l''Afrique de l''Ouest et du Centre propose un dialogue entre les jeunes du Sahel, qui sont profondément touchés par les problèmes d''eau, et les décideurs politiques, dans le cadre du 9ème Forum mondial de l''eau. Ce dialogue pourrait être l''un des panels du 3ème jour sur l''eau et le climat ou du 4ème jour sur l''eau, l''assainissement et le genre.A partir de 2021, l''UNICEF a réussi à engager les jeunes des 10 pays du Sahel dans des débats publics inclusifs sur les questions clés affectant la région. S''inscrivant dans la stratégie mondiale et régionale de l''UNICEF pour la participation des jeunes, le premier débat public en ligne du 20 novembre 2021 a porté sur le changement climatique.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486185
+      guid: ''
+      hash: 562e9212b15fba85e6e96ed9c8ee57c9
+  field_code:
+    -
+      value: SE23
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: '5 jeunes du Sahel ; 2 ministres des pays du Sahel ; 1 célébrité et/ou ambassadeur de bonne volonté pour soutenir l''initiative.'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 8a214ba5-2a01-460b-b5f8-bca6bb57f823
+    -
+      entity: 6a8b191c-8a78-48e0-b9c7-3374595af8a3
+    -
+      entity: 0b4c0654-312e-4ebe-9391-e8292b44422e
+    -
+      entity: 19d469c9-3bdf-4d8d-86d6-225bbf91f601
+  field_organisateurs_text:
+    -
+      value: UNICEF
+      format: plain_text
+  field_programme:
+    -
+      value: 'Format: débat public d''une heure en 2 partie (les problèmes, les solutions)'
+      format: basic_html
+  field_salle:
+    -
+      entity: 67fd810a-a1c6-49a0-b80d-e42fd29d5b10

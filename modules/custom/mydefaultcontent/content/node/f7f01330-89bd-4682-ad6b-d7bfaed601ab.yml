@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f7f01330-89bd-4682-ad6b-d7bfaed601ab
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    23e07ec3-6166-4095-8da7-5812487a2bd3: taxonomy_term
+    f5602501-1836-434a-9d05-490e5ea22f1e: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    2871d8fc-1bca-48a6-9d39-cfcaa9bcccce: taxonomy_term
+    3cc0a20b-67b6-40f8-ae00-0ba43ce1993f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water scarcity and water issues: a dialogue with the Young people’s voices from the Sahel'
+  created:
+    -
+      value: 1647486045
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-scarcity-and-water-issues-dialogue-young-peoples-voices-sahel
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Aligned with the ambition of the WWF, UNICEF RO for West and Central Africa propose t a dialogue between young people from the Sahel, who are deeply affected by water issues and policy makers, as part of the 9th World Water Forum.This dialogue could be one of the panels on Day 3 o water and climate or Day 4 on water, sanitation and gender.From 2021, UNICEF has successfully engaged young people of the 10 countries in the Sahel  in inclusive public debates on key issues affecting the region. Fitting in with UNICEF''s global and regional strategy for youth participation, the first public online debate on 20th November 2021 focused on climate change.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486045
+      guid: ''
+      hash: 3270f207ebc756bce8ea135856ff1cf5
+  field_code:
+    -
+      value: SE23
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: '5 Young people from the Sahel; 2 Ministers from Sahelian countries; 1 celebrity  and/or Goodwill Ambassador to support the initiative'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 23e07ec3-6166-4095-8da7-5812487a2bd3
+    -
+      entity: f5602501-1836-434a-9d05-490e5ea22f1e
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+    -
+      entity: 2871d8fc-1bca-48a6-9d39-cfcaa9bcccce
+  field_organisateurs_text:
+    -
+      value: UNICEF
+      format: basic_html
+  field_programme:
+    -
+      value: 'Format: one hour public debate in 2 parts (problems, solutions)'
+      format: plain_text
+  field_salle:
+    -
+      entity: 3cc0a20b-67b6-40f8-ae00-0ba43ce1993f

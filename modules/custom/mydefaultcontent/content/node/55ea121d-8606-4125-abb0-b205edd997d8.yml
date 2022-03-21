@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 55ea121d-8606-4125-abb0-b205edd997d8
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    5b26fc6a-5480-4565-aee6-1cb9ac5289c2: taxonomy_term
+    375defd4-eb3c-4886-9baa-6c1447e955ea: taxonomy_term
+    c22c9dca-7912-461c-bcb6-90ab85ba82cb: taxonomy_term
+    5a5a371c-3873-453e-b491-cb4fc509aba2: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Approche de la sécurité de l’eau : une solution clé pour une mise en œuvre réussie de la GIRE au- delà de l’ère des ODD'
+  created:
+    -
+      value: 1647485813
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/approche-de-la-securite-de-leau-une-solution-cle-pour-une-mise-en-oeuvre-reussie-de-la-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'objectif de ce panel est de permettre aux participants de discuter des défis et des enjeux liés à la sécurité de l'eau au Sénégal et de formuler des recommandations concrètes pour une meilleure intégration de l'approche de la sécurité de l'eau dans les politiques, stratégies et programmes. Le panel présentera :
+        - Les défis et les enjeux liés à la sécurité de l'eau au Sénégal ;
+        - Les enjeux de la gouvernance de la RE et de la politique sectorielle pour une bonne GIRE ;
+        - Le cadre organisationnel et juridique de la GIRE pour une bonne mise en œuvre de la sécurité de l'eau ;
+        - L'économie circulaire de l'eau comme facteur de développement économique (agriculture, industrie...) ;
+        - Le développement des infrastructures pour une gestion durable des ressources en eau ;
+        - La qualité de l'eau comme facteur important de préservation de la santé des populations ;
+        - La gestion des conflits liés à l'eau par des accords internes et transfrontaliers sur la gestion des ressources en eau ;
+        - Le principe du contribuable payeur comme moyen de générer des ressources pour équilibrer ce sous-secteur ;
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485813
+      guid: ''
+      hash: 0292ca50dc79b95ad0b2e0b5e04aa4a9
+  field_code:
+    -
+      value: SS25
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 5b26fc6a-5480-4565-aee6-1cb9ac5289c2
+    -
+      entity: 375defd4-eb3c-4886-9baa-6c1447e955ea
+    -
+      entity: c22c9dca-7912-461c-bcb6-90ab85ba82cb
+    -
+      entity: 5a5a371c-3873-453e-b491-cb4fc509aba2
+  field_organisateurs_text:
+    -
+      value: 'Direction de la Gestion et de la Planification des Ressources en Eau - Ministère de l''Eau et de l''Assainissement du Sénégal'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Présentation des panélistes
+        5 - 10 min.	Exposé introductif du modérateur
+        10 - 50 min.	Présentation des projets
+        50 - 60 min.	Questions/Réponses du modérateur et des panélistes
+        60 - 85 min.	Réactions du public et réponses des panélistes 
+        85 - 90 min.	Conclusion et messages clés du modérateur 
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

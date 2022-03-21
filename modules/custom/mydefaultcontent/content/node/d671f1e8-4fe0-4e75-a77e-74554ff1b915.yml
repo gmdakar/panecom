@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d671f1e8-4fe0-4e75-a77e-74554ff1b915
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    7703a706-3b7e-4e4e-815e-3180d18eb521: taxonomy_term
+    d9b4ec04-71e8-41b0-b01b-88983d76f70b: taxonomy_term
+    06285d7a-4dfd-4f69-b794-6effeb6d2525: taxonomy_term
+    53d39f61-12f3-40d8-b421-04330ce2e077: taxonomy_term
+    32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8: taxonomy_term
+    73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La surveillance et la gestion des proliférations de cyanobactéries dans les plans d''eau Africains'
+  created:
+    -
+      value: 1647486184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-surveillance-et-la-gestion-des-proliferations-de-cyanobacteries-dans-les-plans-deau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Les proliférations de cyanobactéries qui résultent de la dégradation de la qualité de l’eau (eutrophisation) dans les lacs et réservoirs constituent un danger pour la santé humaine et impactent de multiples usages de l’eau, notamment la production d’eau potable. Dans les pays du nord qui sont confrontés depuis plus de 40 ans à ces proliférations, une surveillance de ces microorganismes a été mise en place et des actions ont été engagées pour (i) limiter les dangers pour les populations humaines et (ii) lutter contre ces phénomènes. En Afrique sub-saharienne,  cette problématique est encore largement ignorée par les gestionnaires et les utilisateurs des plans d’eau En partant des résultats d’un programme international de recherche (WaSAf) ayant porté sur trois plans d’eau africains utilisés pour alimenter de grandes agglomérations (Abidjan, Dakar et Kampala), le side event proposé aura comme objectif, de susciter le dialogue et les échanges entre scientifiques, gestionnaires et décideurs sur les causes et conséquences des proliférations de cyanobactéries et sur la surveillance et la gestion de ces phénomènes. Il reposera sur deux tables rondes qui seront introduites par de cours exposés réalisés par les chercheurs-es impliqués-es dans Wasaf, avant de donner la parole à l’assistance. La première de ces tables rondes portera sur la vulnérabilité des plans d’eau aux proliférations de cyanobactéries et sur la mise en place de programmes de surveillance des cyanobactéries et la seconde s’intéressera à la gestion des dangers associés à ces phénomènes et à la lutte contre les proliférations de cyanobactéries. '
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486184
+      guid: ''
+      hash: 3e018b6121f7516a20ffdb7834a1bd36
+  field_code:
+    -
+      value: SE17
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Intervenants: Cécile Bernard (MNHN Paris, France), Catherine Quiblier (Université de Paris, France), Youssoupha Tall (IRD Sénégal), Mark Olokotum (Nafirri, Ouganda), Modérateurs : Marc Trousselier (CNRS Montpellier) & JF Humbert (INRAE, France)'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 7703a706-3b7e-4e4e-815e-3180d18eb521
+    -
+      entity: d9b4ec04-71e8-41b0-b01b-88983d76f70b
+    -
+      entity: 06285d7a-4dfd-4f69-b794-6effeb6d2525
+    -
+      entity: 53d39f61-12f3-40d8-b421-04330ce2e077
+    -
+      entity: 32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8
+  field_organisateurs_text:
+    -
+      value: 'INRAE (Institut de Recherche Public) avec le soutien de l''AFD'
+      format: plain_text
+  field_programme:
+    -
+      value: 'Deux tables rondes de 30 min. Dans chaque table ronde, deux exposés introductifs de 5 min chacun puis 20 min de discussion.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 73a9b7b2-8f21-42a5-b3ce-38a3b1f5f066

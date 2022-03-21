@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0c8e9639-bb2e-442a-b1bc-ee0b77908958
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    457c1e95-a18c-44b3-8228-d73aac117634: taxonomy_term
+    3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae: taxonomy_term
+    d4d2fdab-051c-4aaf-b23c-7b055980caa3: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    8557a668-3c9f-4fa7-9f06-98c6140ebb9f: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    48847531-1428-46d2-99b6-17962cec6b49: taxonomy_term
+    1bc310ab-0296-49e5-8354-e8d68fbdcb9b: taxonomy_term
+    c04816a6-d394-451b-85f8-f9a910e62660: taxonomy_term
+    8dc6d001-5f83-4c0e-9851-40774df80651: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Developing capacities, improving training: the role of international cooperation'
+  created:
+    -
+      value: 1647484844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developing-capacities-improving-training-role-international-cooperation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        International cooperation invests substantial efforts and resources in the water sector, with for instance 9.3 billion dollars in Official Development Assistance allocated to the sector for 2019 alone . 
+        Yet, the progress in achieving the Sustainable Development Goal 6 dedicated to water remains limited: more than half of the world's population still does not have safely managed sanitation services, more than 2 billion people still do not have access to safely-managed drinking water and Integrated Water Resources Management (IWRM) remains very imperfectly implemented (with a score of 54% ).
+        Capacity development of institutions and vocational training of the water sector human resources is required to bridge existing gaps and progress towards achieving the SDGs. Indeed, international cooperation programs and investments primarily target the infrastructure necessary for water and sanitation services and water resource management, neglecting the need to strengthen instutions and human resources.
+        This session will explore how international cooperation can help to boost innovative capacity development  and vocational training to improve water management!
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484844
+      guid: ''
+      hash: 27312afdf987350d6064c9ab8550fbca
+  field_code:
+    -
+      value: 3C1
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 457c1e95-a18c-44b3-8228-d73aac117634
+    -
+      entity: 3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae
+    -
+      entity: d4d2fdab-051c-4aaf-b23c-7b055980caa3
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 8557a668-3c9f-4fa7-9f06-98c6140ebb9f
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 48847531-1428-46d2-99b6-17962cec6b49
+    -
+      entity: 1bc310ab-0296-49e5-8354-e8d68fbdcb9b
+    -
+      entity: c04816a6-d394-451b-85f8-f9a910e62660
+    -
+      entity: 8dc6d001-5f83-4c0e-9851-40774df80651
+  field_organisateurs_text:
+    -
+      value: 'Cap-Net UNDP'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        ICHARM
+
+        XR2LEAD
+
+        INBO Secretariat
+
+        UNESCO i-WSSMI
+
+        + (To Be Confirmed)- Palestinian Water Authority (PWA)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        - Cap-Net UNDP’s global network for capacity development in sustainable water management 
+        - UNESCO i-WSSM’s Development of a Knowledge Dissemination Approach: A network-Driven Capacity Building on Water 
+        - XR2 LEAD project to Foster collaboration through an online platform for Building Capacity (within each Country and Internationally) for Reliable, Resilient and Sustainable Water Management 
+        - OMVS intermunicipalities cooperation project between two riparian cities of Mauritania and Senegal (project implemented with the support of the Artois-Picardy Water Agency
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        From 8 to 10 min max. for each presentation.
+        At least 15 min for questions & answers. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Pursuit and extension of the number of initiatives implemented to boost capacity building and training in international cooperation programs:
+        - UNESCO i-WSSM’s Development of a Knowledge Dissemination Approach: A network-Driven Capacity Building on Water 
+        - Cap-Net UNDP’s global network for capacity development in sustainable water management 
+        - XR2 LEAD project to Foster collaboration through an online platform for Building Capacity (within each Country and Internationally) for Reliable, Resilient and Sustainable Water Management
+        - OMVS intermunicipalities cooperation project between two riparian cities of Mauritania and Senegal (project implemented with the support of the Artois-Picardy Water Agency
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

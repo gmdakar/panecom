@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a9ec69a0-457e-438c-9c33-b3f9bda6ff92
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    6a920cf2-b13d-4577-9e12-aebc246bbf1e: taxonomy_term
+    13fb6df4-3568-4097-8fdf-253dac490f7a: taxonomy_term
+    834bc9a2-7e74-4700-a594-c9e88033da37: taxonomy_term
+    bf3e4ccc-f906-40ac-9b79-38ab38f971af: taxonomy_term
+    2e42f5b5-38b0-4f52-830d-0525da205647: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Roundtable: The role of European cultural institutes in sustainable development'
+  created:
+    -
+      value: 1647486045
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/roundtable-role-european-cultural-institutes-sustainable-development
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        EUNIC Senegal, the network of European institutes involved in cultural cooperation, wishes to question the role that its various members can have in sustainable development.
+
+        Aware of its capacity to raise awareness and carry out strong actions, EUNIC Senegal wishes to strengthen its impact and question its practices because cultural institutions and the art and culture sectors have a role to play in sustainable development. What is this role and how can the cultural sector contribute to sustainable development?
+
+        These questions will be addressed during a roundtable discussion that will bring together experts and will open up avenues of reflection and propose concrete actions to act in favor of a cultural policy aware of the challenges related to the environment. 
+
+        EUNIC Senegal has already begun this process, accompanying three environmental organizations: Association Zéro Déchet, ENDA Pronat and the Ethnobotanical Garden of Hann and Fandène by proposing to them to reflect on how culture can be a lever and a tool in their work. These organizations will be present and will share their experiences and thoughts on this issue.
+
+        The main objectives are to:
+
+        To show the important role that art and culture can play in terms of raising awareness of the objectives of sustainable development.
+
+        Engage in an open discussion on what cultural institutions can and should do to contribute to the fight against climate change.
+
+        To discuss the role of art and culture in sustainable development.
+         
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486045
+      guid: ''
+      hash: 257f8ac4a39adc5f713dea0f2ac4d1a3
+  field_code:
+    -
+      value: SE46
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: tbd
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 6a920cf2-b13d-4577-9e12-aebc246bbf1e
+    -
+      entity: 13fb6df4-3568-4097-8fdf-253dac490f7a
+    -
+      entity: 834bc9a2-7e74-4700-a594-c9e88033da37
+    -
+      entity: bf3e4ccc-f906-40ac-9b79-38ab38f971af
+  field_organisateurs_text:
+    -
+      value: 'EUNIC Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: tbd
+      format: plain_text
+  field_salle:
+    -
+      entity: 2e42f5b5-38b0-4f52-830d-0525da205647

@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 71c4f3fc-00eb-4280-b9f8-2bfb01fff324
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    4f8bc67e-0687-48b7-96bb-5f89af1d6194: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    5d7aa32e-ddb7-470e-a8cb-9e15161cf217: taxonomy_term
+    2ef1e747-5eec-4dee-b63c-6510ff9ec3d2: taxonomy_term
+    9b1b0a8b-76bd-4da6-a6e6-d0813e5b8ec2: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Bref aperçu des plantes envahissantes au Sénégal'
+  created:
+    -
+      value: 1647484941
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/bref-apercu-des-plantes-envahissantes-au-senegal
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Faire un inventaire des plantes invasives au Sénégal : évolution de la colonisation, situation actuelle, lutte (sous toutes ses formes), valorisation et perspectives. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484941
+      guid: ''
+      hash: dc85fbcc80528e4492dc9028b8ce0ce5
+  field_code:
+    -
+      value: '1E1'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 4f8bc67e-0687-48b7-96bb-5f89af1d6194
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 5d7aa32e-ddb7-470e-a8cb-9e15161cf217
+    -
+      entity: 2ef1e747-5eec-4dee-b63c-6510ff9ec3d2
+    -
+      entity: 9b1b0a8b-76bd-4da6-a6e6-d0813e5b8ec2
+  field_organisateurs_text:
+    -
+      value: |-
+        Ibrahima Thiam 
+        Pape Mawade Wade :
+        Innovation Environnement et Developpement Durable (IE2D) – Contact : Racine KANE 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'IUCN - Association Intervillageoise du Ndiael (AIV) - Ramsar Convention -- Direction de l''Environnement et des établissements Classés - Convention sur la Biodiversité - OMVS - Ministère de l''eau et l''assainissement '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: 'Projet 1- Evaluation de la lutte (mécanique, biologique et chimique) contre les plantes aquatiques envahissantes dans différentes régions du monde et diffusion des bonnes pratiques'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Ouverture de la session
+        Présentation sur les zones humides 
+        Projection du film documentaire sur TYPHA
+        Intervention des différents acteurs 
+        Discussions 
+        Fin de la séance"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Les parties prenantes sont informées de la situation et disposent d'une base de connaissances adéquate sur les espèces envahissantes dans le monde.
+        Les capacités de lutte contre les plantes envahissantes sont accrues.
+        Les décideurs sont informés pour la définition de politiques appropriées dans le domaine de la lutte contre les plantes envahissantes ou leur renforcement.
+        Les meilleures pratiques sont promues et diffusées.
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

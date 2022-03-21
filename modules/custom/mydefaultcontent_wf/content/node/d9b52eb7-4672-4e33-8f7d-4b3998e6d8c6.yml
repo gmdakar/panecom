@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d9b52eb7-4672-4e33-8f7d-4b3998e6d8c6
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    25645543-60d8-436d-a2ef-728e3111f1e1: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    7c2aca21-4f54-42ce-9684-546cb0e2485e: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    685b4ab1-a223-44b6-b6b7-4770f8fcb7f9: taxonomy_term
+    fcd8d90a-0d7e-4aea-b935-f696355bfecd: taxonomy_term
+    c794e8e2-b962-4e9f-8ad8-9063b3552302: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'PRACTICAL RESPONSES OF SONES TO THE DEMAND FOR DRINKING WATER IN DAKAR, NEW URBAN AREAS, AND INLAND CENTERS'
+  created:
+    -
+      value: 1647486041
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/practical-responses-sones-demand-drinking-water-dakar-new-urban-areas-and-inland-centers
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        OBJECTIVES : 
+        The session devoted to Practical Responses to Water Demand has the following purposes:
+        - outline the key elements of the evolution of the leasing contract ;
+        - provide an understanding of the drinking water supply situation at the development stage of the hydraulic projects to be outlined;
+        - share the technical responses to the demand for drinking water in the Dakar area, including the new urban areas well as the inland centers ;
+        - introduce the financial model of the sector and the innovative financing methods that have allowed the realization of a significant investment program, maintaining the economic equilibrium of the industry with acceptable rates ;
+        - explain the project management model used by SONES for the State ;
+        - show the improvement of the living conditions of the communities and their involvement in the participatory processes ;
+        - show the assumption of responsibility for equitable access to water service by all population segments living throughout the national territory.
+
+        EXPECTED RESULTS : 
+        The sharing of responses aims to achieve the following results :
+        - the critical elements of the evolution of the leasing contract are shared;
+        - the relevant technical solutions are shared;
+        - the sector's financial model and innovative financing methods are outlined;
+        - the governance model of the projects is accepted;
+        - the social impact of the projects is acknowledged;
+        - the technical solutions are replicable for the benefit of other communities.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486041
+      guid: ''
+      hash: 8124d72a0d0f319fb752adb897cff86a
+  field_code:
+    -
+      value: SE4
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Introduction: 
+        Mr Charles FALL, Managing Director of SONES
+        Speakers: 
+        Mr. Charles FALL, Managing Director of SONES
+        Mr El hadji Ada NDAO, Works Manager of SONES
+        Moderators :
+        Mr. Matar FALL, Water and Sanitation Expert, former World Bank executive
+        Mr Cheikh FALL, former Managing Director of SONES
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 25645543-60d8-436d-a2ef-728e3111f1e1
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: 7c2aca21-4f54-42ce-9684-546cb0e2485e
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: 685b4ab1-a223-44b6-b6b7-4770f8fcb7f9
+    -
+      entity: fcd8d90a-0d7e-4aea-b935-f696355bfecd
+  field_organisateurs_text:
+    -
+      value: 'SOCIETE NATIONALE DES EAUX DU SENEGAL (SONES)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        MODERATOR 1: 5 minutes
+        INTRODUCTION: 10 minutes
+        PRESENTATION: 10 minutes
+        MODERATOR 2: 5 minutes
+        MODERATOR 2 : 5 minutes
+        GROUP DISCUSSIONS: 15 minutes
+        RESPONSES AND OUTCOME: 10 minutes
+
+      format: plain_text
+  field_salle:
+    -
+      entity: c794e8e2-b962-4e9f-8ad8-9063b3552302

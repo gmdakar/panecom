@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6533eec-41dd-4c51-855e-2d541afa4c4b
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    8e8173a9-bed3-4d6a-be3a-1fa17a06b143: taxonomy_term
+    dddba1f3-7dc0-4fc0-8f30-41e4d5bca1fa: taxonomy_term
+    4764c117-cbc8-4483-a8cd-fa14f4769b35: taxonomy_term
+    21f72138-7332-4e99-96bf-b26afa9e0838: taxonomy_term
+    59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'MEETING / NETWORKING OF OCCITANIA- SENEGAL ACTORS'
+  created:
+    -
+      value: 1647486038
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/meeting-networking-occitania-senegal-actors
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The Occitanie Region is present in Dakar both on the business side with its attractiveness agency and its Aquavalley competence pole, but also on the political level with its Vice-President in charge of water resources. It also has many cooperations with actors / NGOs that will be present. The side-events aims at gathering and networking the "Occitanie family" present in Dakar. Format: exchange + cocktail'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486038
+      guid: ''
+      hash: c96ba3ece4f1b78bf8713566663f9a6a
+  field_code:
+    -
+      value: SE13
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'To be finalized : Jean-Louis CAZAUBON - Vice President and others to be finalized.'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 8e8173a9-bed3-4d6a-be3a-1fa17a06b143
+    -
+      entity: dddba1f3-7dc0-4fc0-8f30-41e4d5bca1fa
+    -
+      entity: 4764c117-cbc8-4483-a8cd-fa14f4769b35
+    -
+      entity: 21f72138-7332-4e99-96bf-b26afa9e0838
+  field_organisateurs_text:
+    -
+      value: 'REGION OCCITANIE'
+      format: basic_html
+  field_salle:
+    -
+      entity: 59b3d8f9-81b9-418a-8bdc-4ab52c7fcf33

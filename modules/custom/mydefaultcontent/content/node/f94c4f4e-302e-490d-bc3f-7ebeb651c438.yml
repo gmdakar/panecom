@@ -1,0 +1,182 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f94c4f4e-302e-490d-bc3f-7ebeb651c438
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    4fca3b45-ba83-4b73-8309-7ef17568364e: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    277d72d3-af0d-465b-a5c3-dbf70c02b95a: taxonomy_term
+    eefb6bbe-2647-4872-8599-39a3c0b4f26f: taxonomy_term
+    93ce1b11-c6db-433a-8657-f0884e6f09b6: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    d92bb211-45d9-441c-90d9-8b37e060021a: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Appliquer des solutions fondées sur la nature, notamment des infrastructures vertes, pour améliorer la qualité de l''eau et les ressources en eau.'
+  created:
+    -
+      value: 1647484938
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/appliquer-des-solutions-fondees-sur-la-nature-notamment-des-infrastructures-vertes-pour
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        - La nécessité de trouver des solutions pour gérer les ressources en eau est évidente et forte du contexte local au contexte mondial, ce qui est vital pour relever les nouveaux défis en matière de sécurité de l'eau causés par la croissance démographique et le changement climatique. 
+
+        '- Les solutions fondées sur la nature peuvent jouer un rôle important dans l'amélioration de l'approvisionnement et de la qualité de l'eau et dans la réduction de l'impact des catastrophes naturelles. L'infrastructure "verte", par opposition à l'infrastructure "grise" traditionnelle, se concentre sur la préservation des fonctions des écosystèmes, tant naturels que construits, et sur le génie environnemental plutôt que sur le génie civil pour améliorer la qualité de l'eau. 
+
+        '- Les projets rassemblés dans le cadre de l'action 3 se concentreront sur les solutions fondées sur la nature et les infrastructures vertes : comment elles peuvent améliorer la qualité de l'eau et des ressources. L'action 3 montrera à bien des égards l'impact que ces solutions peuvent avoir sur la gestion des projets, tant pour le traitement des eaux usées que pour les écosystèmes
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484938
+      guid: ''
+      hash: 307507d2c9ab7a703e1fb10d3abd82bf
+  field_code:
+    -
+      value: 1B3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 4fca3b45-ba83-4b73-8309-7ef17568364e
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 277d72d3-af0d-465b-a5c3-dbf70c02b95a
+    -
+      entity: eefb6bbe-2647-4872-8599-39a3c0b4f26f
+    -
+      entity: 93ce1b11-c6db-433a-8657-f0884e6f09b6
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: d92bb211-45d9-441c-90d9-8b37e060021a
+  field_organisateurs_text:
+    -
+      value: 'International Water Resources Association (IWRA) and Technical University of Cologne, Germany'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        ?	GWOPA/UN-Habitat
+        ?	UNESCO IHP
+        ?	AFD
+        ?	AJPEAS, Sénégal
+        ?	Ministry of Economy, Palestine
+        ?	OECD
+        ?	Suez
+        ?	World Youth Parliament for Water
+        ?	Youth for the Rhine
+        ?	drinkPani
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |
+        1.    Projet 3.2 - AFD - France : Mettre en œuvre des solutions locales fondées sur la nature pour le traitement des eaux usées domestiques (Maroc)
+
+        2.    AJPEAS (Insertion des jeunes) - Sénégal : Traitement et valorisation des boues de vidange et des eaux usées pour la protection des zones humides à Niayes, Dakar
+
+        3. Vidéo Pitch : GWOPA/UN-Habitat- Le pouvoir des partenariats entre pairs pour faire progresser les services d'eau et d'assainissement résilients.
+
+        4.	Suez - Etude de cas sur le travail dans le sud de la France pour recharger les nappes phréatiques côtières afin d'éviter l'intrusion d'eau salée.
+
+        5.	OCDE - Expériences sur l'économie circulaire et les solutions basées sur la nature - Une étude de cas de l'approche NBS - Gouvernance de l'eau au Pérou.
+
+        6.	Projet 3.4 - Ministère de l'économie de Palestine - Élimination du nitrate de l'eau potable à l'aide de biofiltres.
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Accueil et introduction (environ 10 minutes)
+
+        1.	Présentations des projets proposés :
+
+        Environ 7/8 minutes de présentation pour chaque projet (max. 15 min.) 
+
+        a.	AFD - France : Mettre en œuvre des solutions locales basées sur la nature pour le traitement des eaux usées domestiques (Maroc).
+
+        c.	AJPEAS (Inclusion des jeunes) - Sénégal : Traitement et valorisation des boues de vidange et des eaux usées pour la protection des zones humides à Niayes, Dakar.
+
+        Information vidéo/Pitch (8 minutes) : GWOPA/UN-Habitat- Le pouvoir des partenariats entre pairs pour faire progresser les services d'eau et d'assainissement résilients.
+
+        Q/A collectivement après le premier tour - 15 minutes 
+
+
+        2.	Discussion en panel (suivie d'une table ronde si possible avec l'espace et les ressources disponibles)
+
+        Brève présentation des projets par les panélistes (5 minutes chacun - 15 minutes maximum)
+
+        a.	Suez - Etude de cas sur le travail dans le sud de la France pour recharger les nappes phréatiques côtières afin d'éviter l'intrusion d'eau salée.
+
+        b.	OCDE - Expériences sur l'économie circulaire et les solutions basées sur la nature - Une étude de cas de l'approche NBS- Gouvernance de l'eau au Pérou
+
+        c.	Ministère de l'économie de Palestine - Élimination du nitrate de l'eau potable à l'aide de biofiltres.
+
+        Animer une table ronde sur les défis, les opportunités et la contribution au SDG6, en relation avec les projets et les suggestions des facilitateurs (20 minutes).
+
+        Clôture de la session par un court résumé/réflexion/remarques (environ 7 minutes) 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- Les projets réunis dans le cadre de cette session se concentreront sur les solutions basées sur la nature et les infrastructures vertes : comment elles peuvent améliorer la qualité de l'eau et des ressources. 
+        - Ainsi, ils montreront à bien des égards l'impact que ces solutions peuvent avoir sur la gestion des projets, que ce soit pour le traitement des eaux usées ou pour les écosystèmes avec des preuves et des possibilités d'interaction.
+
+        - Pour réfléchir aux expériences, aux apprentissages, aux réalisations et aux nouvelles initiatives possibles, le rapport (y compris le format vidéo si possible) et la note d'orientation politique seront alimentés et serviront de base.
+        - Ensuite, les possibilités de partenariats de projets entre les organisations/parties prenantes seront renforcées, de la planification à la mise en œuvre sur le terrain. 
+
+        - Les résultats de la session contribueront au SDG6, en particulier à la réalisation des cibles 6.2, 6.3, et 6.b, y compris le lien avec le SDG13.
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

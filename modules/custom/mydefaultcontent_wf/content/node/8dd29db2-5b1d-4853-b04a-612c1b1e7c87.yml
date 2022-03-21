@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8dd29db2-5b1d-4853-b04a-612c1b1e7c87
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    8ca82bb1-47bf-4bc0-aab7-971cf974dc47: taxonomy_term
+    1eb2c56b-50e7-4649-b657-9c0b84aec14b: taxonomy_term
+    404cfc3b-adec-4b6c-8ae6-2869e3b243fe: taxonomy_term
+    6aa35d78-7009-4f74-9715-b45cfbc4de1d: taxonomy_term
+    1461c1ea-b04f-4bdb-b749-6cb3484dbf48: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Protection de l''eau et des infrastructures hydrauliques pendant les conflits armés'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/protection-de-leau-et-des-infrastructures-hydrauliques-pendant-les-conflits-armes-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Ce panel est une étape importante pour assurer une meilleure protection de l'eau et des infrastructures d'eau, avant, pendant et après les conflits armés. Avec le soutien de la Confédération suisse, le Geneva Water Hub vous invite à contribuer à la discussion à l'occasion du 9ème Forum mondial de l'eau à Dakar.
+        Environ deux milliards de personnes vivent dans des zones affectées par des conflits armés, où la destruction des infrastructures d'eau est de plus en plus fréquente. Comme le détaillent les rapports du CICR sur les services urbains et de l'UNICEF sur l'eau sous le feu, les conséquences sur les communautés les plus vulnérables sont graves. Lorsque les services d'eau et d'assainissement sont interrompus, les maladies d'origine hydrique et les épidémies prolifèrent. Pour faire progresser la protection de ces communautés, le Hub Eau de Genève a développé la Liste de principes de Genève sur la protection des infrastructures de l'eau. Si l'objectif principal de ce document est la clarification des normes du droit international humanitaire applicables aux infrastructures de l'eau, les Principes de Genève visent également à renforcer la coopération sur les installations situées sur des ressources en eau transfrontalières en temps de paix et la protection des droits de l'homme à l'eau et à l'assainissement en tout temps. Ce panel de haut niveau sera une occasion unique d'explorer les liens intersectoriels entre l'ODD 6 sur l'eau et l'assainissement et l'ODD 16 sur la paix. 
+
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: 769e1243b90d2b8d2d7f43977aa460c1
+  field_code:
+    -
+      value: HLP07
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 8ca82bb1-47bf-4bc0-aab7-971cf974dc47
+    -
+      entity: 1eb2c56b-50e7-4649-b657-9c0b84aec14b
+    -
+      entity: 404cfc3b-adec-4b6c-8ae6-2869e3b243fe
+    -
+      entity: 6aa35d78-7009-4f74-9715-b45cfbc4de1d
+    -
+      entity: 1461c1ea-b04f-4bdb-b749-6cb3484dbf48
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub / Think tank, Center of the University of Geneva'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Ouverture : Ministre de l'Eau et de l'Assainissement du Sénégal, S.E. Serigne Mbaye Thiam (à confirmer) - 5
+        Keynote 1 : Exemples de la Slovénie - Ministre des Affaires étrangères de la République de Slovénie, S.E. Anže Logar (tbc) - 5
+        Keynote 2 : Exemples d'Irak - Ministre des ressources en eau d'Irak, S.E. Mahdi Rashid Al Hamdani (confirmé) - 5
+
+        Discussion de groupe : Comment les initiatives politiques peuvent-elles aider à protéger l'eau dans les conflits armés ?  40'
+        Vice-Président du CICR, S.E. Gilles Carbonnier (à confirmer) - Les défis de la protection de l'eau et des infrastructures de l'eau dans le secteur humanitaire : une vue pratique.  
+        Directrice générale de l'UNICEF, S.E. Catherine M. Russell (à confirmer) - L'agenda "Water Under Fire" et les défis liés à sa mise en œuvre sur le terrain. 
+        Mark Zeitoun (confirmé) - La liste de principes de Genève sur la protection des infrastructures de l'eau et ses implications politiques. 
+
+        Modération & mots de conclusion (points d'action / prochaines étapes) : Ministère des Affaires Etrangères de la Suisse, Département Fédéral des Affaires Etrangères de la Suisse, S.E. Manuel Bessler, Secrétaire d'Etat, Délégué du Conseil Fédéral à l'Aide Humanitaire (confirmé)-5'.
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

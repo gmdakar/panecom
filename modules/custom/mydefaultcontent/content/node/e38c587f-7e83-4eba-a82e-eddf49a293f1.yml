@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e38c587f-7e83-4eba-a82e-eddf49a293f1
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    2cabe501-6ba0-4ef3-8563-c7100d456cf7: taxonomy_term
+    902d4006-f5b2-4613-ba97-88405b4a1e84: taxonomy_term
+    8e10f105-8e80-41f2-86b4-7755bb2d5cc3: taxonomy_term
+    a6f719fc-8533-4cae-9803-5271e7a6083b: taxonomy_term
+    edfdf1bb-ac51-4d15-a296-5a4ae7843879: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'COMBLER LES LACUNES EN MATIÈRE DE GOUVERNANCE ET DE FINANCEMENT DANS LE SECTEUR DE L’ASSAINISSEMENT'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/combler-les-lacunes-en-matiere-de-gouvernance-et-de-financement-dans-le-secteur-de-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le programme de financement de l''eau, de l''assainissement et de l''hygiène (WASH-FIN) de l''USAID est mis en œuvre depuis 2016 avec l''objectif de combler les lacunes de financement pour atteindre l''accès universel aux services d''eau et d''assainissement grâce à des modèles commerciaux durables et solvables, à l''augmentation des financements publics et à l''élargissement du financement du marché pour les investissements dans les infrastructures. Le programme a jusqu''à présent permis de lever plus de 68,4 millions USD dans 8 pays d''Afrique et d''Asie, montrant qu''il est possible de mobiliser des financements privés vers le secteur. Cependant, 68 millions de dollars ne représentent qu''une goutte d''eau par rapport aux 114 milliards de dollars par an qui sont estimés nécessaires pour combler le déficit de financement du secteur. En s''appuyant sur des exemples des Philippines, du Cambodge et du Kenya, cette session présentera le déficit de financement du secteur WASH comme un défi de gouvernance, en mettant l''accent sur le manque de clarté des rôles et des responsabilités des acteurs du secteur, en particulier dans les secteurs soumis à des processus de décentralisation/dévolution. En utilisant des exemples du Sénégal, du Mozambique et de l''Afrique du Sud, la session montrera également comment les programmes d''assistance technique comme WASH-FIN peuvent aider à relever les défis de la gouvernance du secteur de l''eau pour permettre à la fois le cadre et les mécanismes de financement nécessaires pour attirer de nouvelles sources de financement pour les fournisseurs de services WASH publics et privés. Cette session interactive s''adresse aux praticiens du secteur de l''eau et de l''assainissement qui gèrent et réglementent les services d''eau, aux décideurs gouvernementaux, aux financiers et aux universitaires.  A la fin de la session, les participants auront développé une appréciation des défis clés de la gouvernance du secteur et de la façon dont ils peuvent être abordés pour permettre un accès accru aux financements non traditionnels pour les fournisseurs de services AEPHA publics et privés.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 1153ba4d3f880810e4a4a2b3ea79a57f
+  field_code:
+    -
+      value: SS53
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 2cabe501-6ba0-4ef3-8563-c7100d456cf7
+    -
+      entity: 902d4006-f5b2-4613-ba97-88405b4a1e84
+    -
+      entity: 8e10f105-8e80-41f2-86b4-7755bb2d5cc3
+    -
+      entity: a6f719fc-8533-4cae-9803-5271e7a6083b
+    -
+      entity: edfdf1bb-ac51-4d15-a296-5a4ae7843879
+  field_organisateurs_text:
+    -
+      value: 'USAID''s WASH-FIN'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Heure Activité Présentateurs/Panélistes
+        13:30-13:35 Remarques de bienvenue, gestion interne et introduction de la session - Alyssa Boyer, Chef de parti 
+                                chef de partie, WASH-FIN de l'USAID
+        13:35-13:10 Discours principal :  L'importance de la gouvernance dans le financement du secteur WASH	 
+                               TBD, USAID
+        13:10-13:15 Sondage en direct des participants-Barbara Kazimbaya Senkwe, USAID's WASH-FIN
+        13:15-13:25 Présentation- Définir le déficit de financement WASH comme une question de gouvernance : L'expérience de l'USAID 
+                               expérience de l'USAID- Jeff Goldberg, Coordinateur mondial de l'eau par intérim, USAID
+        13:25 - 13:40 Interview sur les mécanismes de financement innovants 
+        	           1. Le programme PARC, une facilité de financement pour le renouvellement des camions dépoussiéreurs pour les prestataires de services d'assainissement au Sénégal. 
+                          pour les prestataires de services d'assainissement au Sénégal - Mariama KA, Directrice des investissements 
+                         d'investissement, Délégation Générale à l'Entreprenariat Rapide des Femmes et des Jeunes (DER), Sénégal. 
+                         Jeunes (DER), Sénégal
+                           2. L'INCA, Fonds de la dette municipale, qui combine des financements locaux et internationaux pour offrir une option supplémentaire de financement des infrastructures aux collectivités locales. 
+                           international afin d'offrir une option supplémentaire de financement des infrastructures aux municipalités locales et aux investisseurs en Afrique du Sud. 
+                           investisseurs en Afrique du Sud - Shiva Makokoto, directrice exécutive et directrice générale adjointe 
+                           chez RBN Fund Managers, Royaume-Uni.
+        Interviewer : Steve Sena, chef de partie adjoint, WASH-FIN de l'USAID.
+
+        13:40-14:10 Panel de discussion - Renforcer l'environnement favorable au financement du secteur par les crowdsurfers 
+                              financement du secteur
+        	              1. Eng. Peter Njaggah, Directeur de la régulation et de la conformité, Conseil de régulation des services d'eau (WASREB). 
+                              Regulatory Board (WASREB), Kenya
+                           2.Lim Minh, Directeur exécutif, Cambodia Water Supply Association, Cambodge
+                           3. Ababacar Mbaye, Directeur exécutif, ONAS, Sénégal
+
+        Modérateur : Barbara Kazimbaya Senkwe, Conseillère principale en gouvernance WASH, USAID's WASH-FIN
+        14:10-14:25 Session ouverte de questions-réponses avec les panélistes et le public
+                        	Modératrice : Barbara Kazimbaya Senkwe, conseillère principale en gouvernance WASH, 
+                               WASH-FIN de l'USAID
+        14:25 - 14:30 Conclusion et récapitulation, Alyssa Boyer, Chef de partie, USAID's WASH-FIN
+      format: plain_text
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

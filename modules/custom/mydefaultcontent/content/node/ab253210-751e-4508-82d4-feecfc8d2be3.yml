@@ -1,0 +1,152 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ab253210-751e-4508-82d4-feecfc8d2be3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    58c6182e-722b-44ed-a294-2b43d3169f10: taxonomy_term
+    bf45135d-e97c-4a01-b7be-53b6c85bf385: taxonomy_term
+    9d1df899-f49d-4557-ab46-73fcb9becde2: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    751d0778-98fb-4005-9c0e-447dd931ea98: taxonomy_term
+    144b4b31-d61c-4574-8a86-435805dc8491: taxonomy_term
+    21918554-b69f-48b5-a3aa-ab78de1ec4fc: taxonomy_term
+    ddfdb807-cac0-4e6d-b91b-d79358663f8a: taxonomy_term
+    81a17cba-74a6-415a-9a36-aae42719a43d: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tirer parti de financements innovants pour renforcer la coopération Nord- Sud, Sud- Sud et triangulaire dans le domaine de l''eau.'
+  created:
+    -
+      value: 1647484959
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/tirer-parti-de-financements-innovants-pour-renforcer-la-cooperation-nord-sud-sud-sud-et
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Opportunités clés grâce à des mécanismes de financement innovants pour mettre en œuvre la coopération Nord-Sud, Sud-Sud et triangulaire dans le domaine de l''eau afin d''améliorer l''accès à l''eau et à l''assainissement pour tous.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484959
+      guid: ''
+      hash: 340082f7de220f5dfb150a618caeffae
+  field_code:
+    -
+      value: '3E4'
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 58c6182e-722b-44ed-a294-2b43d3169f10
+    -
+      entity: bf45135d-e97c-4a01-b7be-53b6c85bf385
+    -
+      entity: 9d1df899-f49d-4557-ab46-73fcb9becde2
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 751d0778-98fb-4005-9c0e-447dd931ea98
+    -
+      entity: 144b4b31-d61c-4574-8a86-435805dc8491
+    -
+      entity: 21918554-b69f-48b5-a3aa-ab78de1ec4fc
+    -
+      entity: ddfdb807-cac0-4e6d-b91b-d79358663f8a
+    -
+      entity: 81a17cba-74a6-415a-9a36-aae42719a43d
+  field_organisateurs_text:
+    -
+      value: |
+        Office National de l’Electricité et de l’Eau Potable– ONEE (Morocco)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        Agence de l'Eau Adour-Garonne 
+        World Bank Group
+        Islamic Development Bank
+        Ministère de l'Urbanisme, de l'Habitat et de l'Aménagement du Territoire de la République de Guinée
+        African Development Bank
+        Autorité du Bassin de la Volta 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " Projet 1 : " Mécanisme de financement innovant " Reverse Linkage " de la BIsD : Office National de l'Electricité et de l'Eau Potable- ONEE (Maroc) appui technique au projet d'assainissement de Conakry en Guinée."
+        Projet 2 : la " coopération 1% " française comme outil clé pour les projets WASH, et l'intégration avec d'autres secteurs (déchets solides, énergie).
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Ouverture (5 min)
+        Discours d'ouverture (10 min)
+        Discussion en groupe (20 min) 
+        Discussion entre les panélistes : questions complémentaires (20 min)
+        Questions et réponses avec le public (30 min)
+        Conclusion"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " - Présenter des projets de coopération dans le domaine de l'eau réussis dans le monde entier (réalisés ou en cours) et plaider pour leur passage à l'échelle grâce à des mécanismes de financement innovants.
+        - Partager l'expérience française de la loi Oudin-Santini (" 1% de coopération "), qui autorise les collectivités locales, les syndicats d'eau et les agences de l'eau à consacrer jusqu'à 1% de leurs recettes à la coopération internationale dans le domaine de l'eau et de l'assainissement.
+        - Partager l'expérience de l'ONEE (Maroc) avec le mécanisme de financement innovant Reverse Linkage de la BIsD pour fournir un appui technique aux acteurs guinéens dans le domaine de l'assainissement, 
+
+        Impacts attendus :
+        - Reproduire des projets de coopération réussis dans des contextes internationaux notamment parmi les pays en développement, en tenant compte de leurs spécificités,
+        - Augmenter l'utilisation de la loi française Oudin-Santini (" 1% de coopération "). 
+        - Attirer de nouvelles ressources financières pour la coopération internationale dans le domaine de l'eau, y compris des fonds climatiques pour soutenir les activités de renforcement des capacités, 
+        - Améliorer l'accès à l'eau et à l'assainissement pour atteindre les cibles de l'ODD 6 (6.1 Eau potable, 6.2 Assainissement et hygiène, 6.5.2 Coopération transfrontalière dans le domaine de l'eau, 6.A Soutien à l'eau et à l'assainissement, etc,)
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

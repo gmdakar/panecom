@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d81a9ff4-fcb6-4210-b497-62989f0fd891
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    4fca3b45-ba83-4b73-8309-7ef17568364e: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    45482ea6-5bbc-41c2-8588-7fbd5355ded0: taxonomy_term
+    8e60c11a-3fcf-4b55-936f-b00776960a8f: taxonomy_term
+    4eabc251-0439-434b-8244-66420b0e6d9e: taxonomy_term
+    d2fbcd57-21bb-4762-9510-8520d9963466: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mise en œuvre de la protection de la qualité de l''eau par le biais d''une gouvernance saine, en utilisant une approche multipartite inclusive et une élaboration des politiques fondée sur la connaissance.'
+  created:
+    -
+      value: 1647484937
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/mise-en-oeuvre-de-la-protection-de-la-qualite-de-leau-par-le-biais-dune-gouvernance-saine-en
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Le maintien de la qualité de l''eau est crucial pour une gestion efficace des ressources en eau. L''amélioration de la qualité de l''eau peut être obtenue par une approche plus équilibrée et multidisciplinaire de la recherche, de l''élaboration des politiques et des pratiques. Une gouvernance saine, utilisant une approche multipartite inclusive et une élaboration des politiques basée sur la connaissance, est une clé pour améliorer la sécurité de l''eau. La session fournira des éléments permettant de mieux comprendre comment la gouvernance, les partenariats, l''inclusion et les politiques fortes peuvent apporter un changement significatif dans la qualité de l''eau.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484937
+      guid: ''
+      hash: f450e906f832b78932301f082ce1487f
+  field_code:
+    -
+      value: 1B2
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 4fca3b45-ba83-4b73-8309-7ef17568364e
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 45482ea6-5bbc-41c2-8588-7fbd5355ded0
+    -
+      entity: 8e60c11a-3fcf-4b55-936f-b00776960a8f
+    -
+      entity: 4eabc251-0439-434b-8244-66420b0e6d9e
+    -
+      entity: d2fbcd57-21bb-4762-9510-8520d9963466
+  field_organisateurs_text:
+    -
+      value: 'Institute for Global Environmental Strategies (IGES): Mr. Pham Ngoc Bao and International Water Resources Association (IWRA): Mr. Ignacio Deregibus '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'AFD, Technical University of Cologne, Mayor associations of Gorgol, Université Pierre & Marie Curie – La Sorbonne, City of Paris, SIWI, and Municipality of Barreiro'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        DrinkPani" : Modèle YPS (Youth-led Participatory Sensing) pour améliorer la sécurité de l'eau potable (Université technique de Cologne, Allemagne).
+        - Explorer le défi de la réduction de l'eutrophisation des masses d'eau et lancer une initiative mondiale pour y faire face (AFD et Université Pierre & Marie Curie - La Sorbonne, France)
+        - Améliorer l'approvisionnement en eau potable dans le bassin du fleuve Sénégal (Associations des maires du Gorgol, Mauritanie)
+        - Approche comparative de la qualité de l'eau en vue de sa baignabilité pour l'organisation des Jeux Olympiques à Dakar, Tokyo et Paris (Ville de Paris, France)
+        - Approche de la source à la mer (Institut international de l'eau de Stockholm, Suède)
+        - Renforcer la résilience des services d'eau face aux risques de sécurité (Municipalité de Barreiro, Portugal)"
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " - Brève introduction
+        - Présentations des projets (8 minutes chacune) 
+        1. DrinkPani" : "Youth-led Participatory Sensing" - Modèle YPS pour améliorer la sécurité de l'eau potable (Université technique de Cologne, Allemagne).
+        2. Explorer le défi de la réduction de l'eutrophisation des masses d'eau et lancer une initiative mondiale pour y faire face (AFD et Université Pierre & Marie Curie - La Sorbonne, France)
+        3. Améliorer l'approvisionnement en eau potable dans le bassin du fleuve Sénégal (Associations des maires du Gorgol, Mauritanie)
+        4. Approche comparative de la qualité de l'eau en vue de sa baignabilité pour l'organisation des Jeux Olympiques à Dakar, Tokyo et Paris (Ville de Paris, France)
+        5. Approche de la source à la mer (SIWI)
+        - Questions et réponses (15 min)
+        - Discussion de groupe (30 min)
+        1. Brève introduction de Reinforcing the resilience of water services to security risks (Municipalité de Barreiro, Portugal)
+        2. Panel de discussion (panélistes = présentateurs)
+        Dans quelle mesure pouvons-nous atteindre les objectifs fixés par l'ODD 6 ? Est-ce faisable ?
+        - Synthèse".
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- La session fournira des éléments permettant de mieux comprendre comment la gouvernance, les partenariats, l'inclusion et les politiques fortes peuvent avoir un impact significatif sur la qualité de l'eau ;
+        - La session présentera les lacunes régionales sur la question ; et 
+        - Les résultats de la session contribueront au SDG6, en particulier à la réalisation des cibles 6.2, 6.3 et 6.b, ainsi qu'au SDG16, en particulier aux cibles 16.6 et 16.7"
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

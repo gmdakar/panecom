@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ae433a56-896c-41c2-a948-a34ebad95618
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    43979c9b-8464-4dfa-94cb-0b507b7ccd57: taxonomy_term
+    a9f679ed-eaee-432a-ac70-a6dc602819c5: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    67c9a8cc-8969-4d0d-9953-b7d426a15868: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Wetlands: A Vital Artery for a Secure Sahel'
+  created:
+    -
+      value: 1647493850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/wetlands-vital-artery-secure-sahel-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Les zones humides jouent un rôle important dans la sécurité de l’eau, la résilience des communautés, la réduction des risques climatiques et la sécurité humaine. Les gouvernements Africains s’engagent pour leur sauvegarde à travers des plans et politiques nationaux et internationaux comme la Grande Muraille Verte et la Convention des Nations Unies sur la Lutte Contre la Désertification.
+        Blue Lifelines in a Secure Sahel (l’Artère Vitale pour un Sahel Sécurisé) est une initiative transformative à long terme qui vise restaurer les zones humides afin d’améliorer la sécurité et de renforcer la résilience des communautés rurales. L’initiative est portée par un consortium croissant de partenaires internationaux et Africains.   
+        La question principale pour la session est : Comment les acteurs-clés visent à renforcer la sauvegarde et la restauration des zones humides afin de profiter plus de tous ses rôles constructifs dans un contexte de plus en plus affecté par le changement climatique? 
+        Objectifs: 
+        -	Montrer l’engagement Africain de haut niveau de sauvegarde des zones humides pour la sécurité de l’eau, la résilience, la réduction des risques climatiques et la sécurité humaine; 
+        -	Explorer les mécanismes nécessaires pour relever les défis relatifs à la sauvegarde et à l’utilisation durable des zones humides africaines ; 
+        -	Inciter les décideurs à donner aux zones humides un rôle plus important dans les stratégies de haut niveau concernant le changement climatique, l'eau et la sécurité ;
+        -	Mobiliser les partenaires techniques et financiers autour divers rôles des zones humides (entre autres sauvegarde et restauration).
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493850
+      guid: ''
+      hash: d998e0054db508bf626dba67db4d00a4
+  field_code:
+    -
+      value: SS45
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 43979c9b-8464-4dfa-94cb-0b507b7ccd57
+    -
+      entity: a9f679ed-eaee-432a-ac70-a6dc602819c5
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+    -
+      entity: 67c9a8cc-8969-4d0d-9953-b7d426a15868
+  field_organisateurs_text:
+    -
+      value: 'Wetlands International '
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        •	Introduction (5mn) 
+        •	Slam: zones humides, résilience, sécurité (5min)
+        •	Présentation de BLISS (5 mn), Ms Julie Mulonga de Wetlands International 
+        •	Actions des ministères dans la GIRE, la sécurité climatique, la paix, en relation avec les zones humides:
+        o	Exposé du ministère Malien de l’Energie et de l’Eau (10 min)  
+        o	Exposé du Ministère Kenyan de l’eau (10 min)
+        o	Enjeu des Zones humides au niveau régional: Coordinateur GGW (10 mn) 
+        •	Action des acteurs globaux pour soutenir le rôle des zones humides relatif à la paix, climat et sécurité:  Son Excellence Ambassadeur de l’Allemagne au Sénégal (5 min)
+        •	Directeur Régional, Global Centre for Adaptation (5 mn)
+        •	Discussion de Haute Niveau (20 min)
+        •	Questions & réponses (10 min)
+        •	Remerciement du Modérateur (MC) et clôture (5mn) 
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

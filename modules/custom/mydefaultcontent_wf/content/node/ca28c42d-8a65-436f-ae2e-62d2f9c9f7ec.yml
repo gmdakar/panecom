@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ca28c42d-8a65-436f-ae2e-62d2f9c9f7ec
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    e8cedaa1-e727-46e7-a786-8d630028536a: taxonomy_term
+    13bb1757-648b-4d5f-b98d-737033729dcf: taxonomy_term
+    66d54c3f-b521-4e1e-88c2-1fa05b747fe4: taxonomy_term
+    37a18238-4bd2-4599-83f2-2f30acfb20d4: taxonomy_term
+    ed667b42-038e-4301-8660-3c41039c4c47: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Role of Scientific Research in maximizing Water- Use Efficiency, and Wastewater Reuse'
+  created:
+    -
+      value: 1647493842
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/role-scientific-research-maximizing-water-use-efficiency-and-wastewater-reuse-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The reuse of wastewater has become an increasing trend over time as it’s one of the main non-conventional water resources.  Moreover, maximizing freshwater use efficiently is needed to cope with water scarcity.
+        This session presents mitigating measures to the increased water stress over the years in the countries suffering arid conditions with limited freshwater resources. Egypt is pursuing to keep the SDGs in its water strategy, hence, the National Water Research Center (NWRC) of Egypt addresses the relevant research topics that are intended to maximize the benefit from each drop of water. 
+        Several research outcomes are planned to be presented in the session. The research projects that are going to be presented are focused on the UN-SDG targets which address wastewater treatment and safe reuse, and increase water-use efficiency.
+        The NWRC research facilities, capabilities, and innovation are going to be highlighted. Then in line with the NWRC research for wastewater reuse as a potential water resource, the NWRC’s researchers developed an affordable compact technique for the treatment of wastewater. The outflow from the treatment process shows a very good quality of water that might be reused for broad uses.
+        The long experience of the NWRC in water quality monitoring networks towards the reuse drainage water along with safe-water reuse is going to be presented. Considering the concept that each water drop is counted, the rainwater harvesting techniques that used in Egypt. Finally, the safety management of hydraulic structures for efficient water management is going to be presented focusing on the Egyptian Experience.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493842
+      guid: ''
+      hash: c90f93de2f4c11a744f53edce8cf0bb7
+  field_code:
+    -
+      value: SS18
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: e8cedaa1-e727-46e7-a786-8d630028536a
+    -
+      entity: 13bb1757-648b-4d5f-b98d-737033729dcf
+    -
+      entity: 66d54c3f-b521-4e1e-88c2-1fa05b747fe4
+    -
+      entity: 37a18238-4bd2-4599-83f2-2f30acfb20d4
+    -
+      entity: ed667b42-038e-4301-8660-3c41039c4c47
+  field_organisateurs_text:
+    -
+      value: 'National Water Research Center of Egypt'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Session schedule 
+        The session aims at increasing the awareness of the water-stress situations that some African countries are facing due to the limitation of in-land freshwater resources and. The session is also paving the road for cooperation under the African agenda 2063. 
+        This session presents mitigating measures to the increased water stress over the years in the countries suffering arid conditions with limited freshwater resources. Egypt is pursuing to keep the SDGs in its water strategy. Hence, the National Water Research Center (NWRC) of Egypt addresses the relevant research topics that are intended to maximize the benefit from each drop of water. 
+        A number of research institutes under the NWRC are going to present their experience facing water stress. The total duration of the session is 90 min. The list of presentations is as follows:
+
+        	Title	Speaker
+        1.	Introduction to NWRC	Prof. Khaled Abdel Hai (President of NWRC)
+        2.	“Low-Cost Innovative Wastewater Treatment”	Prof. Salwa Abou Ella (Vice-president of NWRC)
+        3.	“Water Quality Monitoring to Support Drainage Water Reuse (case study in Egypt)”	Dr. Aiman El Saadi
+        4.	“Rainwater harvesting (Case studies from Egypt)”	Prof. Gamal Kotb / Dr. Islam El Zayed
+        5. 	“Safety management of hydraulic structure (Egypt Experience)”	Prof. Eehab Khalil
+      format: plain_text
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

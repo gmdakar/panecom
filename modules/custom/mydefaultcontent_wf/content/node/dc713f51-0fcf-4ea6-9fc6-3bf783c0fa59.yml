@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dc713f51-0fcf-4ea6-9fc6-3bf783c0fa59
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    aba9ae98-bdfe-416e-a0ea-a16d25a84c3e: taxonomy_term
+    439a9a82-43c9-4f32-9945-bee2be0e27a9: taxonomy_term
+    667a2142-299e-43cb-ad36-c66b6e8c4913: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    90f17512-0c1d-4962-b168-c66f818abb60: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Making water a factor of peace and development in West and Central Africa, evolution and perspectives of the Pôle Eau Dakar initiative.'
+  created:
+    -
+      value: 1647493845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/making-water-factor-peace-and-development-west-and-central-africa-evolution-and-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session aims first to address the Water-Peace-Security nexus in the West and Central African context. Also, it aims to present the main achievements of the DEP initiative since its official launch in 2019; the session will serve as an opportunity to exchange on the main future strategic orientations of the DEP in terms of think tank on the water-peace-development nexus. To this end, the session will aim to explore the possibilities of setting up the follow-up mechanism of the WEF recommendations in concert with the Dakar Water Forum Secretariat.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493845
+      guid: ''
+      hash: 2a334a52998c557643a37ce421b8dad3
+  field_code:
+    -
+      value: SS28
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: aba9ae98-bdfe-416e-a0ea-a16d25a84c3e
+    -
+      entity: 439a9a82-43c9-4f32-9945-bee2be0e27a9
+    -
+      entity: 667a2142-299e-43cb-ad36-c66b6e8c4913
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 90f17512-0c1d-4962-b168-c66f818abb60
+  field_organisateurs_text:
+    -
+      value: 'Directorate of Management and Planning and Water Resources Management (DGPRE) - Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        The special session will consist of two panels during which the speakers will share their thoughts on the selected themes which are 
+        3.	Panel 1: Water-Peace-Security: Regional Issues, Local Challenges 
+        4.	Panel 2: Evolution and perspectives of the Pôle Eau Dakar 
+        Each session will last 25 minutes followed by a short synthesis and discussion session (10 minutes). 
+        The session will be opened by an introductory word to present the general framework of the session and to introduce the different panelists (10mn). A closing note of the session will be planned in order to make the general synthesis of the session (10mn). The session will focus on the evolution and achievements of the initiative as well as the main strategic directions for the future. 
+        A provisional detailed agenda is as follows: 
+
+        Time and Topics
+        10:30 - 10:45: Installation of guests and panelists
+        By the PED coordination
+
+        10:45 - 10:55: Opening remarks and presentation of panelists (1 and 2)
+        Opening remarks by the Minister of Water and Sanitation of Senegal (5 mn)
+        Word of presentation of the panelists, by Mr. Niokhor Ndour, DGPRE- Coordinator of the Pôle Eau Dakar initiative (5mn).
+
+        10:55 - 11:20: Panel 1: Water-Peace-Security: Regional issues, local challenges (25mn)
+        11:20 - 11:30: Synthesis - Panel 1 discussions (10mn)
+
+        11:30 - 11:55 : Panel 2 : Evolution and perspectives of the Pôle Eau Dakar (25mn)
+        11h55 - 12h05 : Synthesis - Discussions Panel 2 (10mn)
+
+        12h05 - 12h15 : Conclusion and closing (10mn)
+        By the Executive Secretary of the 9th WWF / Strategic partners: Representative of the Geneva Water Hub and of the Swiss cooperation (SDC) to be determined ;
+
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

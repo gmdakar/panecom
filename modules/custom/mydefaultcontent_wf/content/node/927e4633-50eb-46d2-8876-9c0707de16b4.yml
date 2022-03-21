@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 927e4633-50eb-46d2-8876-9c0707de16b4
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    457c1e95-a18c-44b3-8228-d73aac117634: taxonomy_term
+    3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae: taxonomy_term
+    d4d2fdab-051c-4aaf-b23c-7b055980caa3: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    c575a295-6c0d-4304-85a9-cbecc47279a4: taxonomy_term
+    5141044c-3d69-4deb-b5db-b981e1358c75: taxonomy_term
+    1bc310ab-0296-49e5-8354-e8d68fbdcb9b: taxonomy_term
+    0d03ea13-0480-42db-9470-3091f7ce1347: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Decentralization of solidarity: 
+        engaging regional and local authorities to complement interstate cooperation
+  created:
+    -
+      value: 1647484845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/decentralization-solidarity-engaging-regional-and-local-authorities-complement-interstate
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The present value of the additional investments needed until 2030 to achieve the Sustainable Development Goal of achieving universal and equitable access to safe and affordable drinking water for all is approximately 2 trillion USD.
+
+        Spoiler alert: national budget and Official Development Aid dedicated to water won’t cut it.
+
+        Therefore, a special attention should be given to the complementary sources of financing that represent decentralized solidarity on water and sanitation programs.
+
+        Decentralized solidarity encourage local and regional authorities to engage in international cooperation, exchange experiences and best practices, but also provide to counterpart in needs financial support, technical expertise, logistical assistance, supply of equipment and training. 
+
+        This session will explore how decentralized cooperation can provide additional resources for the achievement of the water-related Sustainable Development Goals!
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484845
+      guid: ''
+      hash: 4de8811cb90e8cd14ed6882cf936fdd6
+  field_code:
+    -
+      value: 3C3
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 457c1e95-a18c-44b3-8228-d73aac117634
+    -
+      entity: 3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae
+    -
+      entity: d4d2fdab-051c-4aaf-b23c-7b055980caa3
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: c575a295-6c0d-4304-85a9-cbecc47279a4
+    -
+      entity: 5141044c-3d69-4deb-b5db-b981e1358c75
+    -
+      entity: 1bc310ab-0296-49e5-8354-e8d68fbdcb9b
+    -
+      entity: 0d03ea13-0480-42db-9470-3091f7ce1347
+  field_organisateurs_text:
+    -
+      value: 'Secretariat of the International Network of Basin Organizations INBO'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        ICHARM, International Centre for Water Hazard 
+        + (To Be Confirmed) pS-Eau
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        - The community project of the Regional Council of Nouakchott (Mauritania) for Access to Water and Sanitation
+        - Project of decentralized cooperation for the integrated water resources management of the Paraiba do Sul basin (Brazil)
+        - SIAAP’s decentralized cooperation projects: "the protection of wetlands in the Niayes in Dakar", the "sanitation project in crisis and fragile areas in the Sahel" and "Zero discharge in the Congo River".
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        From 8 to 10 min max. for each presentation.
+        At least 15 min for questions & answers. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Pursuit and extension of the number of initiatives implemented to boost capacity building and training in international cooperation programs, including:
+        - The community project of the Regional Council of Nouakchott (Mauritania) for Access to Water and Sanitation
+        - Project of decentralized cooperation for the integrated water resources management of the Paraiba do Sul basin (Brazil)
+        - SIAAP’s decentralized cooperation projects: "the protection of wetlands in the Niayes in Dakar", the "sanitation project in crisis and fragile areas in the Sahel" and "Zero discharge in the Congo River".
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

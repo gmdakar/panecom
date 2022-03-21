@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 571c74d3-00c9-4228-897d-0f60ec75bfad
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    aa61e42f-985f-441c-a737-929601eeb241: taxonomy_term
+    ba33ce9f-171f-4b3a-b06d-06b95bbb9619: taxonomy_term
+    6a8fd2df-8f3b-4406-b488-700845ace357: taxonomy_term
+    1012a0db-5b40-420a-bd49-00a6ef3703ed: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Concrete answers to water security'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/concrete-answers-water-security-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Achieving water security means ensuring a minimum water supply for human and economic needs. Being this as one of the main short-term objectives in the world, the impacts of climate change and the degradation of natural water sources make water security an insurmountable challenge in the medium and long term.
+        In this context, addressing the problems of water scarcity, pollution of water bodies, adverse effects of extreme hydrometeorological events, growing conflicts over water and environmental degradation of rivers and aquifers will address the challenges of achieving water security. 
+        In the face of such challenges, the promotion of unconventional resources, such as desalination and reuse, is essential to meet these challenges, not to mention the necessary improvements in regulatory and governance mechanisms, as well as properly designed water infrastructure, respecting environmental objectives and ensuring their maintenance. 
+        The session aims to present the main instruments for achieving water security, in terms of integrated water resources management, development and operation of environmentally compatible infrastructure, financial mechanisms and incentives. for sustainable water management, which will accelerate the path towards achieving SDG 6.
+        The first part is planned to make an exhibition of the world panorama, while in the second part will be exposed cases of concrete practices that can serve as inspiration to other territories. 
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: 9b018854a735b7a8c15925a3f0e8c198
+  field_code:
+    -
+      value: SS52
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: aa61e42f-985f-441c-a737-929601eeb241
+    -
+      entity: ba33ce9f-171f-4b3a-b06d-06b95bbb9619
+    -
+      entity: 6a8fd2df-8f3b-4406-b488-700845ace357
+    -
+      entity: 1012a0db-5b40-420a-bd49-00a6ef3703ed
+  field_organisateurs_text:
+    -
+      value: 'General Directorate of Water, Ministry of Ecological Transition and Demographic Challenge, Government of Spain'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        •	Presentations and keynote speech (30min): AECID, UnWater; UNESCO;DG Water Spain
+        •	Panel 1: Enablers needed for water security and the achievement of SDG 6 (25 min): Roundtable of concrete solutions: FAO, OCDE, ANA-Brasil
+         
+        •	 Panel 2: investments needed for water security (25min): Roundtable of application cases: CAF, WB; Med Country; ICEX
+
+        •	Main conclusions (10min): DG Water Spain
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

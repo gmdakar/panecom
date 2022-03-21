@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 89c3a131-7b81-43df-a905-c0df572d06a7
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    a6f719fc-8533-4cae-9803-5271e7a6083b: taxonomy_term
+    36858f9e-d0e3-4036-a71a-4a4ae7b1ffca: taxonomy_term
+    56318f8f-009f-4161-9000-f522b4589b12: taxonomy_term
+    8e10f105-8e80-41f2-86b4-7755bb2d5cc3: taxonomy_term
+    0afc3eec-4d09-4bde-b7d1-f0086005516b: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rôle des opérateurs privés dans la mise en œuvre de l’objectif 6 des ODD'
+  created:
+    -
+      value: 1647485815
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/role-des-operateurs-prives-dans-la-mise-en-oeuvre-de-lobjectif-6-des-odd-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'objectif principal de la session sera de présenter l'AAE en mettant l'accent sur sa contribution à l'autonomisation des opérateurs privés et publics africains dans le domaine de l'eau, de l'assainissement et de l'hygiène pour mieux atteindre l'objectif du développement durable (SDG 6).
+
+        La session sera structurée en trois parties :
+        1.	Remarques introductives sur l'AAE et les différents présentateurs par M. Sylvain Usher, le directeur exécutif de l'AAE, qui modérera la session (15 minutes).
+        2.	Présentation de la stratégie de l'AAE en matière d'appui aux opérateurs de l'eau et de l'assainissement : Dr. Eng. Simeon Kenfack, Directeur du programme de l'AAE
+        3.	Un groupe de discussion avec quatre panélistes pour (60 min)
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485815
+      guid: ''
+      hash: 226d4e57cb43f029c1ffe7e79ae1bad0
+  field_code:
+    -
+      value: SS41
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: a6f719fc-8533-4cae-9803-5271e7a6083b
+    -
+      entity: 36858f9e-d0e3-4036-a71a-4a4ae7b1ffca
+    -
+      entity: 56318f8f-009f-4161-9000-f522b4589b12
+    -
+      entity: 8e10f105-8e80-41f2-86b4-7755bb2d5cc3
+    -
+      entity: 0afc3eec-4d09-4bde-b7d1-f0086005516b
+  field_organisateurs_text:
+    -
+      value: 'Association Africaine de l''Eau'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1.	Remarques introductives sur le thème de la session et les différents intervenants/panélistes par le modérateur (10 minutes)
+        2.	Présentation de l'AAE et de sa stratégie de soutien à l'inclusion des opérateurs privés et de divers groupes d'acteurs dans le secteur de l'eau et de l'assainissement dans l'AAE : Dr. Eng. Simeon Kenfack, Directeur du programme de l'AAE (15 min)
+        3.	Une discussion de groupe pour (65 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

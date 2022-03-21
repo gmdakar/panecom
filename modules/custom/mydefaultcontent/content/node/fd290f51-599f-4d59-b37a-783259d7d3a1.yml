@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd290f51-599f-4d59-b37a-783259d7d3a1
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    febf458e-5402-4020-9ab8-81e862013b82: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    9b86988b-5a30-48d7-b126-d1f7357598b3: taxonomy_term
+    ba543343-e1e9-4998-a1f2-8d5e96136013: taxonomy_term
+    667a2142-299e-43cb-ad36-c66b6e8c4913: taxonomy_term
+    aa62c371-6190-480b-9960-bd00d4d3a3b8: taxonomy_term
+    52ace728-6493-4a6f-b7be-8fca1102ebba: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water as a tool for cooperation, peace, and stability'
+  created:
+    -
+      value: 1647484843
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-tool-cooperation-peace-and-stability
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session will showcase examples on the role of transboundary water cooperation as a tool for peace. The speakers will present several tools and mechanisms for dialogue and cooperation over transboundary water resources, and the levers they can bring to foster stability and prevent tensions. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484843
+      guid: ''
+      hash: ecd826978486a4189ace0b1902b32dd3
+  field_code:
+    -
+      value: '3B1 '
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: febf458e-5402-4020-9ab8-81e862013b82
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 9b86988b-5a30-48d7-b126-d1f7357598b3
+    -
+      entity: ba543343-e1e9-4998-a1f2-8d5e96136013
+    -
+      entity: 667a2142-299e-43cb-ad36-c66b6e8c4913
+    -
+      entity: aa62c371-6190-480b-9960-bd00d4d3a3b8
+    -
+      entity: 52ace728-6493-4a6f-b7be-8fca1102ebba
+  field_organisateurs_text:
+    -
+      value: |-
+        GWH 
+        Turkish Water Institute-SUEN 
+        UNECE 
+        Ibrahim Abd El Al Foundation for Sustainable Development
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Swiss Agency for Development and Cooperation (SDC), OMVG, UNCDF'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1 – Blue Peace in the Middle East: Regional collaboration on water  
+        Project 2 – Identifying conflict-sensitive areas at the Amazon Basin
+        Project 3 - Shared Waters Cooperation Facility
+        Project 4 - Blue Peace-OMVG 
+        Project 5 - Source to Sea approach in governance of transboundary waters and adjacent coast and seas/oceans
+        Project 6 - Supporting water diplomacy through knowledge sharing and research in the Middle East 
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Tentative programme
+        Opening by moderator – Mr. Harry LIIV, (Chair of the Bureau of the Water Convention, Ministry of the Environment of Estonia) 
+        Short roundtable with all panellists: each panellist explains its initiative - (5 minutes each, total 30 minutes)
+        First question from the moderator: How can water dialogue transform potential of tension into cooperation potential? Answer from IUCN and youth representative – (10’)
+        Second question: How can regional approach to water cooperation foster stability in a region? Answers from SUEN, Ministry of Regional Development Brazil,  Water Diplomacy Center – (15’)
+        Third questions: What are innovative tools to reinforce transboundary water cooperation for peace and conflict prevention? Answer from  UNCDF and GWP – (10’)
+        Discussion - (15')
+        Final messages by the panellists – (2 minutes each, total 14’)
+        Conclusion by the moderator – (5’)
+        Total 90 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'This session should contribute to the global efforts to reinforce the linkages between SDG6 and SDG16, as well as SDG 11 and 13.  On our common road towards the 2023 High-Level Water Decade Conference, this session should contribute to form the adequate messages for better integrating the water and peace aspect within the UN Water Decade. '
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

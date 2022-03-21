@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e56de015-02f0-42a6-98f8-236ef4cdb7dd
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    b4dc8e25-639b-4621-b997-e39e23e8514c: taxonomy_term
+    2f0c886d-f3eb-457e-af4f-02ada1ec2ddd: taxonomy_term
+    a40bab6e-b7d1-48cc-9f8c-3bd1b735affb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '2023 UN Conference: Water, a cross- sectoral issue'
+  created:
+    -
+      value: 1647486048
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/2023-un-conference-water-cross-sectoral-issue
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Water is a cross-cutting issue. The 20 targets of the 2030 Agenda related to water illustrate this transversality: target 4 of the MDG 1 on poverty, target 3 of the MDG 3 on health, target a of the MDG 4 on education...  The 9th World Water Forum will bring together the international water community and its conclusions will feed the debates of the next major international event: the United Nations Conference of March 2023 devoted to the mid-term review of the implementation of the goals of the International Decade of Action on "Water and Sustainable Development", the first conference on water of this magnitude organized at the United Nations since 1977. 
+        Two other events will be dedicated to the 2023 conference during the Forum: a high-level panel organized by the two co-organizing countries: the Netherlands and Tajikistan; and a session organized by Germany to report on the 'Water Dialogues for Results' held in Bonn in July 2021.
+        This side-event will give voice to other sectors than water: agriculture, health, land use and environment (energy and industrial sectors to be confirmed), in order to decompartmentalize the debates, to identify the challenges related to water for these other sectors and to encourage these other communities of expertise to take part in the preparation of the 2023 conference. The side-event will benefit from the presence in Dakar of high-level representatives in these fields.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486048
+      guid: ''
+      hash: 6b1da938176ee91f9fb88025dde3289b
+  field_code:
+    -
+      value: SE38
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        H.E. Bérengère Abba, Secretary of State to the Minister of Ecological Transition, in charge of Biodiversity, France (confirmed)
+        H.E. Akiça Bahri, former Minister of Agriculture of Tunisia (confirmed)
+        H.E. Ousmane Gaoual Diallo, Minister of Urbanism, Housing and Land Management of Guinea (confirmed)
+        Prof. Serge Morand, Ecologist and Parasitologist at the CNRS (Centre national de la recherche scientifique) (confirmed)
+        Mr. Henk Ovink, Special Envoy on Water of the Dutch Government (tbc)
+        Mr. Serigne Mbaye Thiam, Minister of Water and Sanitation of Senegal (tbc)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: b4dc8e25-639b-4621-b997-e39e23e8514c
+    -
+      entity: 2f0c886d-f3eb-457e-af4f-02ada1ec2ddd
+  field_organisateurs_text:
+    -
+      value: 'Ministère français de l''Europe et des affaires étrangères'
+      format: basic_html
+  field_salle:
+    -
+      entity: a40bab6e-b7d1-48cc-9f8c-3bd1b735affb

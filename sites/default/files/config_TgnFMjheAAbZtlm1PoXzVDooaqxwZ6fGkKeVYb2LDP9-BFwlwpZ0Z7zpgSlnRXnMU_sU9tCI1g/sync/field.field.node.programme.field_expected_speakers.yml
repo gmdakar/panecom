@@ -1,0 +1,21 @@
+uuid: fcbf8663-1b70-426b-8aee-df7b4d2443d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expected_speakers
+    - node.type.programme
+  module:
+    - text
+id: node.programme.field_expected_speakers
+field_name: field_expected_speakers
+entity_type: node
+bundle: programme
+label: 'Intervenants attendus'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 834d2c1c-4d11-412f-8fbf-1b95f7ab78c3
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    da7a0fb1-7dcc-4444-a84d-09b3f47280d5: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    c4554f61-31de-4a20-bf02-f799784de619: taxonomy_term
+    1a8835d5-ea32-43cc-a76d-a7c170a7a336: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Platform for Dialogue on Financing Water'
+  created:
+    -
+      value: 1647484851
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/platform-dialogue-financing-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session seeks to engage to the voices of rural communities, youth, mayors and other local actors, as well as the financial sector in order to include their perspectives into the dialogue on financing water.  
+
+        These shared perspectives can help shape and influence global initiatives, including the Roundtable on Financing Water and the OECD Global Observatory on Financing Water Supply, Sanitation and Water Security
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484851
+      guid: ''
+      hash: ae9e251564e13821c6876a13e6b1bc9e
+  field_code:
+    -
+      value: 4A7
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: da7a0fb1-7dcc-4444-a84d-09b3f47280d5
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: 87e4f3e4-ada5-4a4a-9249-43d71d4eaf4c
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: c4554f61-31de-4a20-bf02-f799784de619
+    -
+      entity: 1a8835d5-ea32-43cc-a76d-a7c170a7a336
+  field_organisateurs_text:
+    -
+      value: 'OECD '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        World Bank
+        Solidarites Intl.
+        US Dept of Agriculture
+        UN Capital Development Fund
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: 'Roundtable on Financing Water'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Opening remarks (5’)
+        •	OECD
+        3 Rounds of moderated interactive discussion (25’ each)
+        1.	Who are the key voices and perspectives that can bring value to dialogues on financing water and sanitation, but may be overlooked or not usually engaged?
+        2.	Share inspiring practices to identify, connect and engage with these actors at local, national, or global levels
+        3.	How can we effectively bring these insights and perspectives into ongoing global initiatives, such as the Roundtable on Financing Water, the OECD Global Observatory and the UN Water Conference in 2023, among others? 
+        Closing remarks (10’)
+        •	Key take away’s and actions to move forward
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Key insights on who are important (and often missing) voices that need to be reflected in global dialogues on financing water and sanitation to provide a broader range of perspectives.
+
+        Examples of practical ways to identify, connect and engage a broader range of perspectives to ensure they can contribute to broader global initiatives, including the Roundtable on Financing Water, the OECD Global Observatory on Financing Water Supply, Sanitation and Water Security and the UN Water Conference in 2023.
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

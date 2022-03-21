@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5fa5709e-f035-4beb-95d5-1d746593fe1e
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    a37dd5e7-f54b-49e3-814b-28c6a16f69e5: taxonomy_term
+    7cb29a1b-c60d-41f6-956c-2ce4eaa5d1f3: taxonomy_term
+    2b9486ad-e4fa-4066-a13c-0fdd11b2834d: taxonomy_term
+    fff520a3-f405-4d97-bbbc-13409abebd03: taxonomy_term
+    c794e8e2-b962-4e9f-8ad8-9063b3552302: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water security for health and development: What Insights for water quality from MDGs to the SDGs?'
+  created:
+    -
+      value: 1647486044
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/water-security-health-and-development-what-insights-water-quality-mdgs-sdgs?'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The African continent continues to be faced to major challenges in the water sector, particularly in terms of access to safe drinking water and water quality monitoring. Despite progress in recent years, 40% of the population of sub-Saharan Africa does not have access to safe drinking water. The challenge of implementing the Sustainable Development Goals (SDGs), particularly SDG 6.1 and 6.3, includes water quality. 
+        The Water Operators' Partnerships (WOP) approach - which promotes capacity building and knowledge sharing through peer-to-peer partnerships between water and sanitation operators has shown to be an effective way to address identification, of challenges and improving operator performance towards the MDGs.
+        AfWA has thus adopt this to develop and implement programs to support water stakeholders. The AfriCap program funded by USAID is one of these which comprises a component addressing mentorship to improve capacity of water quality laboratories in Africa. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486044
+      guid: ''
+      hash: ccdbd852826b1f54e16915a760cc9d3b
+  field_code:
+    -
+      value: SE37
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        i.	Chair: Prof. Hamanth Kasan, AfWA, 
+        ii.	Presenter: Aw Saddat, SODECI, Cote d’Ivoire
+        iii. Moderator: Mr Abdoul Niang
+
+        PANELISTS
+        iv.	Mrs Margaret Macauley, GWCL, Ghana
+        v.	Mme Aude Tapsoba, MERCK, Germany
+        vi.	Mr Olivier Yameogo, ONEA, Burkina Faso
+        vii.	Prof. Yacouba Konaté, 2iE, Burkina Faso
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: a37dd5e7-f54b-49e3-814b-28c6a16f69e5
+    -
+      entity: 7cb29a1b-c60d-41f6-956c-2ce4eaa5d1f3
+    -
+      entity: 2b9486ad-e4fa-4066-a13c-0fdd11b2834d
+    -
+      entity: fff520a3-f405-4d97-bbbc-13409abebd03
+  field_organisateurs_text:
+    -
+      value: AAE
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening session: Chair. 05 min
+        Introduction by the Moderator: 05 min
+        Presentation by Prof. Awa Saddat, SODECI, 10 min
+        Panel discussion: 35 min
+        Wrap up/closing by the chair : 05 min
+      format: plain_text
+  field_salle:
+    -
+      entity: c794e8e2-b962-4e9f-8ad8-9063b3552302

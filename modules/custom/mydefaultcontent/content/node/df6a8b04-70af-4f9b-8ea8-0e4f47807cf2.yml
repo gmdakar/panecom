@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: df6a8b04-70af-4f9b-8ea8-0e4f47807cf2
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    c164f449-0138-44f1-8d6e-83f78fbb1a7a: taxonomy_term
+    d6a6ec90-0896-4416-a9cc-6cd6aa6902b9: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    34811afd-95fb-46f8-9285-a6dfdce098c8: taxonomy_term
+    6f6ec599-3706-4cb4-8982-aeafc8d98815: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Résultats du rapport sur la politique mondiale de l''eau 2021 : A l''écoute des leaders nationaux de l''eau'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/resultats-du-rapport-sur-la-politique-mondiale-de-leau-2021-lecoute-des-leaders-nationaux-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Un panel de ministres discutera des résultats du Rapport mondial sur les politiques de l'eau 2021 et de sa pertinence pour leur travail, des sujets du rapport 2023 (qui sera annoncé lors de cet événement) et de la manière de maximiser la participation et la valeur de la prochaine enquête sur les leaders de l'eau.  La session comprendra également un bref aperçu des conclusions du rapport et une présentation par un haut fonctionnaire des Nations Unies sur la façon dont le rapport soutiendra la mise en œuvre du cadre d'accélération mondiale de l'ODD 6.
+
+        Le Rapport mondial sur les politiques de l'eau 2021 est une première mondiale : il s'agit d'une enquête exhaustive qui révèle les défis de la gestion de l'eau auxquels sont confrontés les ministres, les hauts fonctionnaires et les autres leaders nationaux de l'eau dans 88 pays, représentant une population combinée de plus de 6 milliards de personnes.
+        Parmi leurs nombreux messages, les leaders nationaux de l'eau disent :
+        - Les plus grands risques liés à l'eau auxquels leurs pays sont confrontés sont le changement climatique et les pressions associées sur l'approvisionnement en eau, ainsi que l'aggravation des inondations et des sécheresses.
+        - Les plus grands défis auxquels ils sont confrontés sont l'intégration et la priorisation des questions liées à l'eau au sein des gouvernements. Les problèmes administratifs liés à la fragmentation des institutions de l'eau sont tout aussi préoccupants, sinon plus, que des facteurs tels que la résistance du public aux réformes.
+        - COVID-19 n'a pas beaucoup affecté la priorité des services d'eau et d'assainissement.
+        - Les objectifs de développement durable relatifs à l'eau sont "difficiles" ou "impossibles" pour beaucoup, les problèmes de gouvernance et le manque de financement en étant les principales raisons.
+        - Alors que de nombreux responsables nationaux de l'eau considèrent que les eaux souterraines sont essentielles à l'approvisionnement futur en eau de leur pays, ils sont beaucoup moins nombreux à considérer que leurs eaux souterraines sont utilisées de manière durable.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: 52b0cb7af1073b3745e229be303803ef
+  field_code:
+    -
+      value: HLP14
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: c164f449-0138-44f1-8d6e-83f78fbb1a7a
+    -
+      entity: d6a6ec90-0896-4416-a9cc-6cd6aa6902b9
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+    -
+      entity: 34811afd-95fb-46f8-9285-a6dfdce098c8
+    -
+      entity: 6f6ec599-3706-4cb4-8982-aeafc8d98815
+  field_organisateurs_text:
+    -
+      value: 'Water Policy Group'
+      format: basic_html
+  field_programme:
+    -
+      value: '30 minutes keynotes. 30 minutes panel. 30 minutes audience engagement. '
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

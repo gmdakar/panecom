@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f75d94fd-fad1-404b-b220-e62d35756165
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    fc7fa897-7d23-4d93-8cc4-04ee95868fba: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    603739db-8271-4a81-80ac-42df4efa6621: taxonomy_term
+    c389d669-4868-42a3-950e-146d6bb75d89: taxonomy_term
+    22100d39-5f81-49fa-9c37-3909927bd1cd: taxonomy_term
+    edfdf1bb-ac51-4d15-a296-5a4ae7843879: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Renforcer la résilience systémique face aux futures épidémies - le rôle de l''hygiène'
+  created:
+    -
+      value: 1647484938
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/renforcer-la-resilience-systemique-face-aux-futures-epidemies-le-role-de-lhygiene
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''eau, l''assainissement et l''hygiène (WASH) sont essentiels à la fourniture de soins de santé sûrs et de qualité. Pourtant, dans le monde, un établissement de soins de santé sur quatre ne dispose pas de services d''eau de base, ce qui expose plus de 1,8 milliard de personnes à des risques d''infection. Cette session décrira le rôle de l''eau, de l''assainissement et de l''hygiène dans le système de soins de santé et fournira une plate-forme aux membres de la communauté pour discuter des actions qui doivent être prioritaires afin d''aider les pays à fournir des services d''eau, d''assainissement et d''hygiène résilients au climat dans tous les établissements de soins de santé. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484938
+      guid: ''
+      hash: 79d8c02d09d5273982d95e44c249fc32
+  field_code:
+    -
+      value: 1C1
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: fc7fa897-7d23-4d93-8cc4-04ee95868fba
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 603739db-8271-4a81-80ac-42df4efa6621
+    -
+      entity: c389d669-4868-42a3-950e-146d6bb75d89
+    -
+      entity: 22100d39-5f81-49fa-9c37-3909927bd1cd
+    -
+      entity: edfdf1bb-ac51-4d15-a296-5a4ae7843879
+  field_organisateurs_text:
+    -
+      value: 'WHO, UNICEF'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'WaterAid, LSHTM '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: 'HH4A, WASH ‘Em, GTFCC Cholera Control Roadmap, GOARN/Global RCCE network?'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1.	Remarques d'ouverture - Maria Neira, OMS 
+        2.	Présentation des messages clés et des appels à l'action lancés dans le rapport de l'OMS et de l'UNICEF sur l'état de l'hygiène des mains dans le monde - Kelly-Ann Naylor, UNICEF  
+        3.	Panel de 3 à 5 représentants du gouvernement et de la société civile pour présenter des exemples des cinq principaux "accélérateurs" identifiés dans le rapport et qui sous-tendent le cadre mondial d'accélération de l'ONU-Eau pour l'OMD 6. Les panélistes seront invités par un président à faire des interventions de 5 minutes pour partager leurs expériences d'amélioration de la gouvernance, du financement, des capacités, des données et des informations ou de l'innovation pour améliorer l'hygiène des mains :
+        a.	Sur la GOUVERNANCE - Directeur adjoint de la santé environnementale pour l'Afrique du Sud (à confirmer). Décrivant comment la politique nationale de lavage des mains du pays, élaborée en 2015, énonce clairement les rôles des institutions gouvernementales dans la promotion du lavage des mains et la fourniture de services, et a été déterminante pour permettre au pays de monter sans heurts un effort de réponse à grande échelle au COVID-19.
+        b.	Sur les finances - représentant du gouvernement éthiopien. Décrire les efforts récents pour développer une feuille de route nationale chiffrée pour l'hygiène des mains et les plans pour la financer. 
+        c.	CAPACITÉ - Représentation du centre d'hygiène WASH 'Em/COVID-19 - décrivant les besoins en capacité des utilisateurs de services, la manière dont ils ont été satisfaits pendant la pandémie et les leçons que nous pouvons tirer pour les futures réponses aux épidémies.
+        d.	Sur ... - Représentation du GTFCC. Parler de l'expérience de la mise en œuvre de la feuille de route du GTFCC dans les pays. 
+        e.	Sur l'INNOVATION - Représentant du gouvernement de l'Indonésie. Décrivant le système de surveillance innovant COVID-19 de l'Indonésie, développé par le gouvernement avec le soutien de l'UNICEF, il a suivi le respect du mandat national "3M" de port de masques, de distance sociale et de pratique de l'hygiène des mains dans les écoles, les centres commerciaux, les mosquées et les stations de transport. Le système était remarquable par son ampleur. Initialement dirigé par le bureau du président, il a mobilisé l'armée, des OSC et des célébrités, et a été administré par des volontaires, formés via WhatsApp, utilisant des smartphones pour collecter les données. Plutôt que d'être rémunérés, les volontaires étaient récompensés par du crédit de téléphonie mobile. Le système a fourni une source de données fiable, basée sur une observation structurée, plutôt que sur des déclarations personnelles moins précises.
+        4.	Discussion guidée en plénière 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Cette session fait partie d''une série de sessions qui se tiendront au cours de la période 2020-2022 et qui ont pour but de mettre en lumière le rôle essentiel de l''hygiène des mains dans la prévention et le contrôle des épidémies et, plus largement, en tant que pierre angulaire de la santé publique. En partageant les expériences et les leçons des pays, le résultat souhaité est une discussion stimulante sur les opportunités et les défis à venir. Ceux-ci alimenteront le Sommet sur l''hygiène de mai 2022 à Singapour, où les donateurs seront particulièrement mobilisés, mais aussi le processus dirigé par l''OMS pour renforcer le cadre normatif de l''hygiène des mains grâce à de nouvelles directives sur l''hygiène des mains dans le cadre communautaire.'
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

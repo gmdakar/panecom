@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 408f6c6a-9875-4da2-9e82-192872ea382d
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    95776b2a-0089-4188-857c-5a26c7b90f5c: taxonomy_term
+    bbeb169b-df82-4a20-9f63-eb962d221fcb: taxonomy_term
+    5b10a122-b96b-4ff5-93d6-5d50b0c4ed0b: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    b2abe6d2-dff8-41e3-9422-e71fe7e15b65: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Policy Dialogues in Water- Scarce Countries for Achieving SDGs: Towards the UN Conference on the Midterm Comprehensive Review of the Water Action Decade'
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/policy-dialogues-water-scarce-countries-achieving-sdgs-towards-un-conference-midterm-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The Egyptian Ministry of Water Resources and Irrigation (MWRI) organized the second H.L. Segment in a series of international meetings to develop water scare countries' messages to be submitted to the U.N. Conference on the Midterm Comprehensive Review of the Water Action Decade, March 2023. Regional and International partners support the roadmap for the Policy dialogues in water-scarce countries to achieve SDGs. The issues raised during the high-level segment of Cairo Water Week 2021 (CWW2021) will be discussed in a series of regional events starting from the 9th WWF Dakar 2022, in cooperation with relevant organizations and partners. The Main Conclusions of the CWW2021 high-level segment comprised focused five main items including (1) Water Scarcity and Accessibility; (2) Water & Climate Cooperation; (3) Finance: Challenges vs. Opportunities; (4) Innovation tools for sustainable water management and (5) Transboundary Cooperation: Opportunities and Challenges. These discussions seek to turn the tide on cross-sectoral implementation of the water-related goals and targets of the 2030 Agenda for Sustainable Development. 
+
+        The purpose of the session is to collect the messages of water-scarce countries to cope with the United Nations General Assembly Resolutions, proclaiming the period 2018 to 2028. The International Decade for Action: Water for Sustainable Development UNGA Resolution 73/226 Decides to convene, in New York, from 22 to 24 March 2023, the United Nations Conference on the Midterm Comprehensive Review of “Water for Sustainable Development.” Furthermore, UNGA resolution 75/212 indicates that the Midterm Review Conference shall be preceded by regional and global preparatory meetings and informed by existing water-related discussions at the regional and international levels.
+        Integrated Water Resources Management acknowledges that water needs to be managed as a system – where water system boundaries often do not correlate with political or administrative boundaries. Therefore, integrated solutions are required to achieve good governance and increase water use efficiency and sustainability, followed by practical and coordinated cross-sectoral implementation. Such actions would enhance achieving the zero-hunger goal and significantly contribute to other goals.
+
+        Egypt attaches great importance to the UN Decade for Action on Water and Sustainable Development (2018-2028) and the UN Mid-term Review conference in 2023, the first UN Conference on Water since 1977. This importance emanates from the indispensability of water to human life, as human beings have no source but water for life, food, and agriculture. In addition, water plays a significant role in sustainable development and regional integration, among other things. Therefore, the lead-up to the 2023 Conference, the Conference itself, and its follow-up is crucial in building political momentum towards achieving SDG 6 and other water-related goals and targets. In this context, the Government of the Arab Republic of Egypt included Cairo Water Week’s two sessions of October 2021 and November 2022 and other relevant international events, including the 9th WWF, within the framework of the preparatory meetings towards the 2023 Mid-term Review Conference, to contribute to building consensus ahead of the Conference and providing substantive inputs.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: be283e05ac5250aa6cbdf7c0272b6a37
+  field_code:
+    -
+      value: HLP17
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 95776b2a-0089-4188-857c-5a26c7b90f5c
+    -
+      entity: bbeb169b-df82-4a20-9f63-eb962d221fcb
+    -
+      entity: 5b10a122-b96b-4ff5-93d6-5d50b0c4ed0b
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: b2abe6d2-dff8-41e3-9422-e71fe7e15b65
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+  field_organisateurs_text:
+    -
+      value: |
+        Head of Planning Sector
+        Executive Director, Cairo Water Week Permanent Secretariat
+        Ministry of Water Resources and Irrigation
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Opening remarks: (15 min)
+        o	H.E Dr. Mohamed Abdel-Aty, Minister of Water Resources and Irrigation, Egypt
+        o	Mr. Loïc Fauchon, President of World Water Council.
+        Panel discussions :(75 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

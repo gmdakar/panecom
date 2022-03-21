@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3590c291-1c88-4d66-bebc-cde6c649a506
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    4cb04dfc-c6c2-4eb9-930a-3a6d8e32d79b: taxonomy_term
+    ff0c9a53-2ab9-4a7c-992f-d8bb714a7013: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Coopération des pays d’Asie centrale pour assurer la sécurité de l’eau dans le contexte du changement climatique'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cooperation-des-pays-dasie-centrale-pour-assurer-la-securite-de-leau-dans-le-contexte-du-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'Asie centrale est une vaste région enclavée d'Asie. La région comprend la République du Kazakhstan, la République kirghize, la République du Tadjikistan, le Turkménistan et la République d'Ouzbékistan. Selon les dernières estimations des Nations unies, la population actuelle de l'Asie centrale s'élève à plus de 75,1 millions de personnes, soit environ 1 % de la population totale de la planète. 
+        La région est confrontée à une crise écologique sans précédent : l'assèchement de la mer d'Aral. Pendant plusieurs décennies, une partie importante de la mer d'Aral, qui était un système écologique en plein essor, s'est transformée en un désert - l'Aralkum. Les ressources en eau de la région sont essentiellement transfrontalières et constituent la base pour assurer la sécurité alimentaire, énergétique et écologique, ainsi que le développement socio-économique durable des pays.
+        Cependant, la sécurité de l'eau dans la région, en raison d'un certain nombre de facteurs, est elle-même très menacée. Les défis les plus importants dans ce contexte sont l'impact du changement climatique et la croissance démographique.
+        Le changement climatique entraîne une fonte plus intense des glaciers, qui sont les principales sources des ressources en eau de la région. Ce problème, combiné à la croissance démographique, crée une situation très difficile dans la région. Par exemple, si dans les années 1960 la sécurité de l'eau par habitant dans la région était de 8,4 mille m3 / an, aujourd'hui cet indicateur a diminué de 4 fois - à moins de 2,0 mille m3 / an. Entre-temps, cette tendance se poursuit et d'ici 2040, la région sera en déficit hydrique, ayant chuté en termes de sécurité de l'eau à 1,0 mille m3 par personne.
+        L'objectif principal de la session est de présenter une vision et une position unies de la région d'Asie centrale en accord avec les priorités du 9ème WWF et les questions les plus importantes pour l'Asie centrale, d'attirer l'attention de la communauté mondiale, des partenaires internationaux du développement, des universités, de la société civile et du secteur privé sur les problèmes du bassin de la mer d'Aral et leurs solutions, de démontrer la politique et la pratique de la région sur la résolution des questions hydro-écologiques, les questions socio-économiques, les programmes et stratégies adoptés dans la région, y compris le Programme d'action pour l'assistance aux pays du bassin de la mer d'Aral, 2021-2030 (ASBP-4) et le Programme environnemental régional pour le développement durable en Asie centrale (REP4SD-CA) contribuant au développement socio-économique, à la réalisation de l'eau, de l'énergie, de la sécurité écologique et alimentaire dans la région d'Asie centrale.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: f9eb5f71bca201ea72c936399824e2d4
+  field_code:
+    -
+      value: SS31
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 4cb04dfc-c6c2-4eb9-930a-3a6d8e32d79b
+    -
+      entity: ff0c9a53-2ab9-4a7c-992f-d8bb714a7013
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+  field_organisateurs_text:
+    -
+      value: 'Executive Committee of the International Fund for Saving the Aral Sea '
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "5 min.	Ouverture
+        Discours de bienvenue par le Président de la CE IFAS (Président de la session)
+        10 min.	Discours principal sur l'Asie centrale
+        40 min. 1er tour de table avec la participation des ministres et des responsables des ministères et agences de l'eau et de l'écologie des pays d'Asie centrale.
+        30 min. 2ème tour de table avec la participation des pays donateurs, des partenaires de développement et d'autres parties intéressées.
+        5 min.	Synthèse des résultats de la session "
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

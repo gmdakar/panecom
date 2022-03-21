@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62b8614f-5e01-42d9-bc97-85b37108bec5
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    b76c7fee-4da5-44a0-b1f5-cfc520323e41: taxonomy_term
+    a4e6da03-a47d-4c3b-a279-ceb50d0f9070: taxonomy_term
+    59480431-33a4-4c48-8941-ea1bb6b0e250: taxonomy_term
+    6ca5cd3c-e042-4ddf-b355-e4ea56aafa14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Halam.Bi: a pilot environmental platform in West Africa, deployed in the Dakar region'
+  created:
+    -
+      value: 1647486049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/halambi-pilot-environmental-platform-west-africa-deployed-dakar-region
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Halam-Bi.sn ("environment" in Wolof) aims to provide a unique digital platform allowing city officials to manage in a dynamic, enlightened and collaborative way, the environmental issues (air-water-noise) posed on their territory. To know, inform, collaborate and collect the feelings of its fellow citizens, such are the objectives of Halam-Bi.sn'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486049
+      guid: ''
+      hash: 1797cf01ec566b39c61cc11e221508a7
+  field_code:
+    -
+      value: SE33
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'DEEC/CGQA/NUMTECH/CREOCEAN/SOMEI/Ambiciti '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: b76c7fee-4da5-44a0-b1f5-cfc520323e41
+    -
+      entity: a4e6da03-a47d-4c3b-a279-ceb50d0f9070
+    -
+      entity: 59480431-33a4-4c48-8941-ea1bb6b0e250
+  field_organisateurs_text:
+    -
+      value: 'Direction de l''Environnement et des Etablissements classés / Administration'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1 - Presentation of the platform and its aspects 
+
+        2 - Questions about its deployment and use
+
+         
+      format: plain_text
+  field_salle:
+    -
+      entity: 6ca5cd3c-e042-4ddf-b355-e4ea56aafa14

@@ -1,0 +1,156 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6db2a314-31aa-4259-bfcc-ddd231f91ddc
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    cf5b8ffe-84b4-44a2-a85a-7c29d693f500: taxonomy_term
+    bb99bddb-c288-4dab-828f-0c3cceaab29e: taxonomy_term
+    8d3abda0-2762-4725-84c9-9a9a1df36562: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'International High- Level Panel for Water Investments in Africa: Unlocking Finance for Climate- Resilient Water Projects'
+  created:
+    -
+      value: 1647493830
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/international-high-level-panel-water-investments-africa-unlocking-finance-climate-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        On 12 August 2021, AMCOW, in collaboration with the UNDP, UNICEF, AUDA-NEPAD, AfDB, GCA, and GWP launched a partnership to convene an International High-Level Panel on Water Investment for Africa. 
+
+        On 8 September 2021, the Executive Committee of AMCOW commended the effort of the convenors and formally adopted a Decision for the inauguration of the Panel.  
+
+        The objective of the Panel is to develop a high-level action-forcing report and investment plan for the 2023 UN Conference and African Union Heads of States with a clear pathway recommendation for African countries on how to mobilize US$30 billion/year towards the water investment gap in Africa, which is estimated at US$45-US$54 billion/year. 
+
+        The HLP event will communicate how the panel can accelerate the transformation required to scale up finance for water security in Africa and showcase ambitious initiatives to accelerate climate-resilient water investments in Africa – such as the?Continental Africa Water Investment Programme (AIP) whose goal is to leverage US$ 30 billion in climate-resilient water investments?by 2030; as well as the Africa Adaptation Acceleration Program (AAAP) that aims to mobilise $25 billion by 2025 and galvanise climate resilient actions through a triple win approach to address the impacts of Covid-19, climate change and the economy. 
+
+        Event objectives:
+
+        1.	Introduce the International High-Level Panel on Water Investments for Africa and explore perspectives for  accelerating scaled-up finance for water investments
+        2.	Introduce the convenors for the International High-Level Panel on Water Investments and showcase new and ongoing climate resilient water related initiatives to mobilise investments and finance
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493830
+      guid: ''
+      hash: a81a834bf1cd6294c7f351c54ec8c20f
+  field_code:
+    -
+      value: HLP03
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: cf5b8ffe-84b4-44a2-a85a-7c29d693f500
+    -
+      entity: bb99bddb-c288-4dab-828f-0c3cceaab29e
+    -
+      entity: 8d3abda0-2762-4725-84c9-9a9a1df36562
+  field_organisateurs_text:
+    -
+      value: 'Global Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Depending on the confirmed speakers, the proposed session agenda is as follows:
+         
+        5 min 	Mr Henk Ovink-Special Envoy for International Water Affairs, Kingdom of The Netherlands
+        •	Welcome, introduction, objective of the international High-Level Panel on Water Investments for Africa
+
+        10 mins   	H.E. President Jakaya Kikwete, Former President of Tanzania, Chair-GWPSA-Africa Coordination 
+
+        •	What change needs to take place in order to create conditions for increased investments and financing for climate-resilient water investments in Africa 
+
+        5 mins  H.E Dr. Ibrahim Mayaki, CEO, African Union Development Agency (AUDA-NEPAD) 
+         
+        •	On 7 February 2021, the Assembly of the African Union Heads of State and Government adopted the Continental Africa Water Investment Programme (AIP) to accelerate transboundary water investments in Africa. What are the opportunities for the High-Level Panel to mobilise finance PIDA water projects?
+
+        5 mins	Hon. Carl Hermann Gustav Schlettwein, President: AMCOW
+
+        •	On 8 September 2021, the Executive Committee of AMCOW adopted a decision for the establishment of an International High-Level Panel for Africa.  How will this panel benefit Africa’s efforts to mobilise investments for water security?
+
+        5 mins  	Senior representative from GCF 
+
+        •	Water-focused projects make up for almost half of adaptation climate financing but becausefinancing for mitigation far outweighs adaptation financing, total climate financing flows directed at water initiatives amount to less than 3%. How can we change this? 
+
+        5 mins 	Prof. Dr. Patrick V. Verkooijen, CEO: GCA 
+
+        •	On 6 September 2021, together with Ban Ki-moon, 8th UN Secretary General, GCA Board Chair, Kristalina Georgieva- Managing Director of the International Monetary Fund, you convened over fifty global leaders to accelerate adaptation imperative for COP 26. What were the key messages from the leaders and how can the High-Level Panel leverage this to mobilise finance for water  adaptation?
+
+        5 mins	Dr. Pradeep Kurukulasuriya, Executive Coordinator and Director: UNDP
+
+        •	UNDP’s climate resilience portfolio in Africa is over US$1.2 billion. How can the Panel leverage the UNDP portfolio to mobilise finance at scale for water related adaptation in Africa.
+
+        5 mins	Ms. Kelly Ann Naylor, Director, Water Sanitation Hygiene: UNICEF
+
+        •	UNICEF, in association with the Global Water Partnership (GWP), developed the Strategic Framework for WASH Climate-Resilient Development. The framework has been used by over 80 countries. How can the High-Level Panel leverage this to scale up investments for climate resilience WASH in Africa?
+
+        5 mins  	Dario Soto-Abril, CEO: Global Water Partnership 
+
+        •	Global Water Partnership is actively supporting the AIP goal of leveraging US$ 30 billion/year in climate-resilient water investments?in Africa by 2030 and creating 5million jobs. Why does the AIP offer new hope for Africa and what are the opportunities within it for the global north? 
+
+        5 mins 	Osward Chanda, Ag Director, Water and Sanitation, African Development Bank
+        •	The Board of Directors of the African Development Bank Group has recently approved a new water policy, prioritizing water security and the transformation of water assets to foster sustainable, green and inclusive economic growth in regional member countries. How can countries and the High Level Panel leverage this policy to and mobilise investments at scale?
+
+        3 mins	Short Video interlude/presentation
+
+        25 mins	Facilitated discussion with audience
+
+        5 mins	Summary of key messages, road map for the international High-Level Panel on Water Investments 
+        •	Alex Simalabwi, Executive Secretary, GWPSA-Africa, Head Joint Secretariat for the Panel 
+
+        2 mins 	Moderator thanks the speakers, concludes and closes the event
+        •	Henk WJ Ovink-Special Envoy for International Water Affairs, Kingdom of The Netherlands
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

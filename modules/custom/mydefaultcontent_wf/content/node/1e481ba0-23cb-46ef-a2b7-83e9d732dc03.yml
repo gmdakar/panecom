@@ -1,0 +1,156 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1e481ba0-23cb-46ef-a2b7-83e9d732dc03
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    3dae8ae1-b8ef-41a1-a734-cc5186869e45: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    58a744d4-53a7-412f-937a-55f59e4ae123: taxonomy_term
+    2a054cf3-5bae-4736-b20f-8da916c891c6: taxonomy_term
+    1804388d-695d-40ad-b88e-54f80f71eabc: taxonomy_term
+    e32f3ad7-9c42-4357-aa4a-27fd0c85e055: taxonomy_term
+    f59d3f36-b74e-4c35-b030-d84867cbfe01: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fournir des informations sur l''eau aux décideurs aux niveaux national et régional et aux utilisateurs de l''eau au niveau local.'
+  created:
+    -
+      value: 1647484953
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/fournir-des-informations-sur-leau-aux-decideurs-aux-niveaux-national-et-regional-et-aux
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La mise en œuvre de la gestion intégrée des ressources en eau - un processus qui relie la préservation de l''environnement et l''amélioration des conditions sociales et économiques des communautés à tous les niveaux - demande de s''appuyer sur des connaissances et des informations scientifiques. L''information joue un rôle clé pour impliquer les acteurs locaux dans une approche participative, et également au niveau national pour prendre des décisions. Les technologies de l''information et de la communication, la télédétection, la surveillance de l''eau dans les bassins versants, la mise en réseau des résultats scientifiques pour les parties prenantes, la boîte à outils ..... Tous ces éléments sont essentiels pour améliorer et renforcer la gestion intégrée des ressources en eau à tous les niveaux. Divers projets d''études mises en œuvre seront partagés en deux parties dans le cadre de cette session, l''une consacrée à l''inclusion des parties prenantes dans la GIRE à tous les niveaux, et la seconde du réseau international sur l''hydrologie aux informations techniques ainsi que de la télédétection à la modélisation et aux prévisions. Les solutions sont mises en œuvre dans différents pays du monde, les panélistes viennent d''ONG, d''ING, de ministères, d''agences de l''eau et d''institutions académiques. v'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484953
+      guid: ''
+      hash: 7b6c427aa4446ae44edfba71b3810fc4
+  field_code:
+    -
+      value: '3A4 '
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3dae8ae1-b8ef-41a1-a734-cc5186869e45
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 58a744d4-53a7-412f-937a-55f59e4ae123
+    -
+      entity: 2a054cf3-5bae-4736-b20f-8da916c891c6
+    -
+      entity: 1804388d-695d-40ad-b88e-54f80f71eabc
+    -
+      entity: e32f3ad7-9c42-4357-aa4a-27fd0c85e055
+    -
+      entity: f59d3f36-b74e-4c35-b030-d84867cbfe01
+  field_organisateurs_text:
+    -
+      value: |-
+        CNFrance IHP UNESCO/PFE-FWP 
+        INBO/RIOB 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'FAO, GWP, Gret, ADASA Brazil, FRIEND IHP, French Water Partnership,CNES, OIEAU, IRD, BRLi,  AFD, BRGM, Water Youth Network'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        Projet 0 - Systèmes d'information sur l'eau et l'agriculture pour la GIRE - outils de la FAO pour collecter, analyser et diffuser des données sur l'eau et l'agriculture + participation des parties prenantes à la collecte et à l'analyse des données aux niveaux national et local pour le suivi de l'ODD 6.4, exemples en Afrique et en Asie. 
+        Projet 1 - IWRM Action Hub 2.0 - 90 outils + 2500 études de cas -GWP -global - focus en Asie et Afrique
+        Projet 2 - Approche participative des parties prenantes sur la surveillance des ressources en eau à l'échelle locale, avantages en termes de connaissances pour la GIRE - Sénégal - région des Niayes.
+        Projet 3 - Bénéfices de l'accès libre aux informations sur les ressources en eau pour la GIRE au Brésil
+        Projet 4 - Utiliser les réseaux internationaux pour définir les priorités de recherche pour le développement et diffuser les résultats aux parties prenantes - Afrique 
+        Projet 5 - Combiner les données spatiales avec la modélisation pour compléter les informations hydrométéorologiques in situ -Amérique latine (Brésil)
+        Projet 6 - Des données d'information sur l'eau vers la prévision des ressources en eau - France
+        Contribution du Réseau des jeunes pour l'eau
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Introduction de la session par le modérateur maître de cérémonie - 5'
+
+        Partie 1 - L'inclusion des parties prenantes à la GIRE à tous les niveaux - [25 min]
+        FAO - Systèmes d'information sur l'eau et l'agriculture pour la GIRE - Outils de la FAO pour impliquer les parties prenantes dans la collecte et l'analyse des données, exemples en Asie et en Afrique.
+
+        GWP - IWRM Action Hub 2.0 - 90 outils + 2500 études de cas - accent sur l'Asie.
+
+        Avantages liés à la sélection par les parties prenantes d'un système de vote et à la production/partage de connaissances pour faciliter la prise de décision dans la gestion des ressources en eau : retour d'expérience du projet GIREL (pour la gestion intégrée des ressources en eau au niveau local) - zone des Niayes, Sénégal.
+
+        Avantages de l'accès libre aux informations sur les ressources en eau pour la GIRE au Brésil - District fédéral - ADASA
+
+        Table ronde d'échange avec les panélistes et l'audience - 15
+
+        Partie 2 - Du réseau international sur l'hydrologie à l'information technique, ainsi que de la télédétection à la modélisation et à la prévision des ressources en eau - [25 min].
+
+        Utiliser les réseaux internationaux pour définir les priorités de recherche pour le développement et diffuser les résultats aux parties prenantes - Afrique - IRD/FRIEND Water Africa PHI UNESCO, IAHS
+
+        Combinaison de données spatiales et de modélisation pour compléter les informations hydrométéorologiques in situ - Projet BIO PLATEAU (Brésil, France, Suriname) [Etat d'Amapá au Brésil, Ministère des Travaux Publics du Suriname, Commission Européenne, Collectivité Territoriale de Guyane, ODE - Guyane, CNES, OiEau].
+
+        Des données d'information sur l'eau vers la prévision des ressources en eau - France Exploration des conditions de réussite d'un SAD pour une meilleure gestion intégrée des ressources en eau (BRGM/PFE)
+
+        Explorer les conditions de réussite d'un DSS pour une meilleure gestion intégrée des ressources en eau. (IWA/Water Youth Network)
+
+        Table ronde d'échange avec les panélistes et l'audience - 15
+
+        Clôture et 3 messages clés de la session - 5'.
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Suivi des liens avec les événements et initiatives après le Forum : à la conférence internationale Groundwater and SDGs challenges Paris mai 2022 avec un accent particulier sur la connaissance des aquifères à toutes les échelles, régionales et transfrontalières, ainsi que sur les approches multidisciplinaires pour la GIRE et les SDG, à l''Assemblée internationale de l''AISH Montpellier mai 2022 avec le suivi hydrologique et les initiatives FRIEND, et autres. '
+      format: basic_html
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

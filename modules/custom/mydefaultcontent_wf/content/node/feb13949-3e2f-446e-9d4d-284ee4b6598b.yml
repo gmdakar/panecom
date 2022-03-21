@@ -1,0 +1,159 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: feb13949-3e2f-446e-9d4d-284ee4b6598b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    8af8cc94-2ec3-4258-92bb-92465a1f3bc0: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    d684d138-2303-4df3-8f34-ad2b7f09cc85: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    1863c5c9-bc9f-42f8-acc4-be9f3a44c759: taxonomy_term
+    c4c29906-a874-4cfd-ace0-3776763791e4: taxonomy_term
+    559b1699-79be-4e17-8fe2-23ae9f18ed91: taxonomy_term
+    a4fb2884-589e-4f82-83fd-7ec5df646d2e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gouvernance pour l''eau potable en milieu rural'
+  created:
+    -
+      value: 1647484944
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gouvernance-pour-leau-potable-en-milieu-rural
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Partage d''expériences et recommandations de propositions politiques pour renforcer l''impact des actions en faveur de l''accès universel à l''eau potable dans les zones rurales.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484944
+      guid: ''
+      hash: 3df51f631e9bc43d024c6c6ad9beb34a
+  field_code:
+    -
+      value: 2A1
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8af8cc94-2ec3-4258-92bb-92465a1f3bc0
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: d684d138-2303-4df3-8f34-ad2b7f09cc85
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: 1863c5c9-bc9f-42f8-acc4-be9f3a44c759
+    -
+      entity: c4c29906-a874-4cfd-ace0-3776763791e4
+    -
+      entity: 559b1699-79be-4e17-8fe2-23ae9f18ed91
+  field_organisateurs_text:
+    -
+      value: |-
+        •	Arya Drillers : 
+        •	Alliance pour la Maîtrise de l'Eau etde l'Energie : 
+        •	Secours Islamique France : 
+        •	E.T.E. Organisation commerciale : 
+        •	Partenariat National de l’Eau du Bénin : 
+        •	Butterfly Effect and FANSASIA : 
+        •	Métropole Européenne de Lille :  
+        •	K-Water : 
+        •	ISW (International Secretariat for Water):  
+        •	ISW Central Asia: 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	E.T.E., 
+        •	CDCD66, 
+        •	Municipality of Rufisque-Est,
+        •	Solidarity Water Europe,
+        •	Water Coalition France
+        •	Agence de l’EAU Rhône-Méditerranée-Corse, 
+        •	Région Occitanie, 
+        •	Mairie de St Laurent de la Salanque,
+        •	ACTED
+        •	Tarakijot
+        •	Autres
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        " - Projet 1. Impliquer la communauté locale pour une eau sûre, abordable et durable pour tous - Etude de cas Sonamling Tibetan Settlement, Lakadh India. Présenté par Ritesh ARYA de Arya Drillers.
+        - Projet 2. Initiative du Dialogue Multi-Acteurs pour la Gouvernance de l'eau dans la Région de l'Ouest (FR), présenté par Beaudelin DONGMO NGUEGANG, de l'Alliance pour la Maîtrise de l'Eau etde l'Energie.
+        - Projet 3. Opérationnalisation de l'approche basée sur les droits humains dans le secteur de l'eau et de l'assainissement, présenté par Laura Le Floch, du Secours Islamique France.
+        - Projet 4. Participation des communautés locales à une eau durable, sûre et abordable pour tous, présenté par Didier GINESTET de E.T.E., Michel BARTHES du CDCD66, et Idrissa THIAW de la commune de Rufisque-Est.
+        - Projet 5. Appui aux associations locales de consommateurs d'eau potable pour assurer la veille citoyenne sur l'accès à l'eau potable dans les communes rurales du Bénin, présenté par André Corsini Gilbert ZOGO, du Partenariat National de l'Eau du Bénin.
+        - L'approvisionnement en eau en milieu rural dans les pays en développement, par Snehalatha Mekala, représentant l'Effet Papillon et le FANSASIA (Fresh Action Network Asia).
+        - L'expérience des projets MEL en matière d'approvisionnement en eau en milieu rural et de gouvernance, présentée par Anne-Lise PIOTROWSKI, de la Métropole Européenne de Lille ; et,
+        - L'expérience des projets de gestion des ressources en eau et d'approvisionnement en eau en milieu rural, présentée par Jong Han RHEE de K-Water (Korean Water).
+        - Rural Water Supply and Sanitation in Central Asia, présenté par Nekbakht Orzu de ISW-ACTED-Tarakijot, "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "La session sera modérée par l'ISW et le Butterfly Effect Network, et sera divisée en 2 parties : 
+
+        Partie I :
+        - 5 minutes pour l'introduction
+        - 7,5 minutes pour l'orateur = 60 minutes,
+
+        Partie II :
+        - 15 minutes de questions du public
+        - Conclusions = 5 minutes"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: '"- Un document contenant des recommandations politiques pour les décideurs politiques et les organisations de la société civile."'
+      format: basic_html
+  field_salle:
+    -
+      entity: a4fb2884-589e-4f82-83fd-7ec5df646d2e

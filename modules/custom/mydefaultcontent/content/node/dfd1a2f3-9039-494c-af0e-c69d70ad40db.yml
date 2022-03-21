@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dfd1a2f3-9039-494c-af0e-c69d70ad40db
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    3984bef4-48d2-4bae-817f-98e2078e1986: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    ea742bd0-dbd6-4d13-8479-54b0d0c7a689: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    e2173fb7-16cd-4afe-81bd-c519b7e9b60f: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    4d1f41a9-9e72-401f-bc9e-81487dd3e470: taxonomy_term
+    add68972-d2f6-436f-847b-19eb08048de4: taxonomy_term
+    2acff629-771f-4c63-86ea-51a5f327305a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'RÉPONSES PRATIQUES DE SONES À LA DEMANDE D''EAU POTABLE À DAKAR, DANS LES NOUVELLES ZONES URBAINES ET DANS LES CENTRES INTÉRIEURS'
+  created:
+    -
+      value: 1647486181
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/reponses-pratiques-de-sones-la-demande-deau-potable-dakar-dans-les-nouvelles-zones-urbaines
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        OBJECTIFS : 
+        La session consacrée aux réponses pratiques à la demande en eau a les objectifs suivants :
+        - d'exposer les éléments clés de l'évolution du contrat d'affermage ;
+        - permettre de comprendre la situation de l'alimentation en eau potable au stade du développement des projets hydrauliques qui seront exposés ;
+        - partager les réponses techniques à la demande en eau potable dans la région de Dakar, y compris les nouvelles zones urbaines ainsi que les centres intérieurs ;
+        - présenter le modèle financier du secteur et les méthodes de financement innovantes qui ont permis la réalisation d'un programme d'investissement important, en maintenant l'équilibre économique du secteur avec des taux acceptables ;
+        - expliquer le modèle de gestion de projet utilisé par la SONES pour l'Etat ;
+        - montrer l'amélioration des conditions de vie des communautés et leur implication dans les processus participatifs ;
+        - montrer la prise en charge de l'accès équitable au service de l'eau par toutes les couches de la population vivant sur l'ensemble du territoire national.
+
+        RÉSULTATS ATTENDUS : 
+        Le partage des réponses vise à atteindre les résultats suivants :
+        - les éléments critiques de l'évolution du contrat d'affermage sont partagés ;
+        - les solutions techniques pertinentes sont partagées ;
+        - le modèle financier du secteur et les modes de financement innovants sont exposés ;
+        - le modèle de gouvernance des projets est accepté
+        - l'impact social des projets est reconnu ;
+        - les solutions techniques sont reproductibles au profit d'autres communautés.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486181
+      guid: ''
+      hash: f76fbb29173a1fee8843aac4cd09c1e5
+  field_code:
+    -
+      value: SE4
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Introduction : 
+        M. Charles FALL, directeur général de SONES
+        Intervenants : 
+        M. Charles FALL, Directeur Général de la SONES
+        M. El hadji Ada NDAO, Directeur des Travaux de SONES
+        Modérateurs :
+        M. Matar FALL, Expert en eau et assainissement, ancien cadre de la Banque Mondiale
+        M. Cheikh FALL, ancien Directeur Général de la SONES
+      format: plain_text
+  field_horaire:
+    -
+      entity: 3984bef4-48d2-4bae-817f-98e2078e1986
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: ea742bd0-dbd6-4d13-8479-54b0d0c7a689
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: e2173fb7-16cd-4afe-81bd-c519b7e9b60f
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: 4d1f41a9-9e72-401f-bc9e-81487dd3e470
+    -
+      entity: add68972-d2f6-436f-847b-19eb08048de4
+  field_organisateurs_text:
+    -
+      value: 'SOCIETE NATIONALE DES EAUX DU SENEGAL (SONES)'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        MODERATEUR 1 : 5 minutes
+        INTRODUCTION : 10 minutes
+        PRÉSENTATION : 10 minutes
+        MODERATEUR 2 : 5 minutes
+        MODERATEUR 2 : 5 minutes
+        DISCUSSIONS DE GROUPE : 15 minutes
+        RÉPONSES ET RÉSULTATS : 10 minutes
+      format: basic_html
+  field_salle:
+    -
+      entity: 2acff629-771f-4c63-86ea-51a5f327305a

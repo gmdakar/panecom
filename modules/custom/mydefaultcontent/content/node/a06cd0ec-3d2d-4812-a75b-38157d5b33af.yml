@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a06cd0ec-3d2d-4812-a75b-38157d5b33af
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    d3776f5d-6e2b-4f57-ac8c-909e13cad058: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    ff4c2eef-4d76-40e2-bc02-b651f515390e: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le financement mixte de l''eau pour accélérer la conformité aux ODD : les clés du succès'
+  created:
+    -
+      value: 1647484960
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-financement-mixte-de-leau-pour-accelerer-la-conformite-aux-odd-les-cles-du-succes
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Il est nécessaire d''augmenter le financement de l''eau, en particulier dans les pays émergents et en développement. Le financement mixte peut jouer un rôle important à cet égard. Cette session met en lumière les principaux attributs qui sont généralement associés à des projets de financement mixte réussis dans le secteur de l''eau, en faisant la distinction entre les systèmes de réseau sous la responsabilité des services de l''eau et les systèmes hors réseau, tout en cherchant à identifier comment les différents acteurs peuvent contribuer à l''expansion du financement mixte dans le secteur. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484960
+      guid: ''
+      hash: 9659dbfa0ab9f63247e43d5ef0efa4a0
+  field_code:
+    -
+      value: 4A2
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: d3776f5d-6e2b-4f57-ac8c-909e13cad058
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: ff4c2eef-4d76-40e2-bc02-b651f515390e
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+  field_organisateurs_text:
+    -
+      value: "CAF\_and Aqua for All"
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'World Bank, UN Capital Development Fund, OECD'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'à ajouter'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Ouverture (5 min) : Représentant du Conseil mondial de l'eau (CME)
+        Orateur principal 1 (10 min) : Alex Money, consultant WWC, présente : Caractéristiques communes des projets de financement mixte réussis
+        Conférencier principal 2 (10 min) : Directeur d'Aqua for All
+        Panel (60 min) : i)MDB/CAF ; ii) Gouvernement ; iii) Banque privée/ Sidian Bank ; iv) ONG internationale et/ou investisseur privé.
+        Clôture (5 min) : A déterminer
+         
+        Modérateur : hôte/co-hôte ".
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Diffuser un travail d''analyse parrainé par le Conseil mondial de l''eau.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

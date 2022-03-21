@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 87218675-13e6-4a88-ac7e-a0d91c94c39b
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    b5445a8a-9317-4ffd-b7b8-cd561f7d826a: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    5fdb85fd-19ef-42bb-8e2a-24484ef8f471: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Climate Adaptation and Resilience in Water and Sanitation Services.'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/climate-adaptation-and-resilience-water-and-sanitation-services-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The panel seeks to address the need to include adaptation to climate change in the formulation of public policies and strategies by governments and water and sewage operating companies.
+        The resilience of water supply systems play a fundamental role in the strategic planning of those responsible for the sanitation sector to permanently serve the various water users, especially the supply for inhabitants of urban and rural areas where the resources are no longer available in abundance
+        The water and sanitation sector plays an important role in reducing the impact of human activity on the environment, a characteristic that should be better exploited to enable the sector's development, for example, transforming the generation of waste and the sewage into new resources, and enabling cleaner rivers and water bodies. In adition, how to serve thousands of people who live in irregular settlements and end up polluting rivers and water supply sources? Many water and sewage operating companies have been implementing unconventional measures to help adresss the problem.
+        Therefore, Adaptation, Risk mitigation, Redundance, Reuse and Safe Environment are topics approached by major water and sewage operators worldwide nowadays and this panel will allow, theexchange of experiences, the opportunity to share strategies, methods, and practices by several sanitation companies.
+        Thus, the aim is, in a global way, to reflect on changes in the way in which governments and providers of basic sanitation services act and mainly help decision makers and public authorities to implement public policies concerning the approached topics.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: e7a1bcc4afc78146a0c5449c40749335
+  field_code:
+    -
+      value: HLP13
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: b5445a8a-9317-4ffd-b7b8-cd561f7d826a
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+    -
+      entity: 5fdb85fd-19ef-42bb-8e2a-24484ef8f471
+  field_organisateurs_text:
+    -
+      value: 'SABESP - Companhia de Saneamento Básico do Estado de São Paulo'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        15 minutes each speaker, and 15 for questions and answers.
+
+        '- Benedito Braga 
+        Chief Executive Officer of Sabesp (Brazil)
+        Mr. Braga has been our Chief Executive Officer and a member of our board of directors since January 2019. He has a degree in civil engineering from the School of Engineering of São Carlos of the University of São Paulo (Escola de Engenharia de São Carlos da Universidade de São Paulo – USP), a master’s degree in Hydrology from Stanford University, a master’s degree in Hydraulics from USP, and a PhD in Water Resources from Stanford University. He was Secretary of Sanitation and Water Resources of the State of São Paulo from January 2015 to May 2018 and was the Chairman of our Board of Directors from January 2015 to April 2018. Mr. Braga was a professor at the Polytechnic School of University of São Paulo from 1980 to 2019. He was Co-Chairman of the International Organizing Committee of the World Water Forum in Brasilia (2018), in Korea (2015) and Chairman of the Committee in France (2012). He is Honorary President of the World Water Council – WWC, of which he was the President of 2001 to 2009.
+        '- Ana Giros 
+        Senior Executive VP International, Infrastructure, Performance and R&D of SUEZ (França) 
+        Ana Giros is Senior Executive VP for SUEZ, world-wide leader in water and waste services for over 160 years in all 5 continents helping its customers to provide a more efficient and sustainable management of natural resources. She is member of SUEZ’s Executive Committee.
+        She is in charge of the International Division, managing the Group International growth plan and directly in charge of Africa, Middle East, Asia, Australia, Consulting and Industrial Key accounts. Previously she was CEO of Latin America Business Unit since 2016. She joined SUEZ in October 2015, before, she held various National and International positions at Alstom Transport beginning in 1997, becoming CEO of the Services Division in November 2009 and CEO of Alstom France in May 2014.
+        '- Nahason Muguna 
+        Managing Director, Nairobi Water and Sewerage Corporation (Kenya)
+        '- Armelle Perrin-Guinot
+        Sustainable Development Deputy Director, Veolia (France)
+        '- Nizar Baraka
+        Minister of Equipment and Water (Morocco)
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

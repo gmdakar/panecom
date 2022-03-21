@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 03dad2cf-318a-4020-b830-fcf70a360a45
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    37c4e077-184d-4128-b72c-759483b96786: taxonomy_term
+    97823212-eaad-463e-bac5-59ecd30d2978: taxonomy_term
+    b88dfe32-fb9b-41d9-aeea-b63d2b899e82: taxonomy_term
+    d6a6ec90-0896-4416-a9cc-6cd6aa6902b9: taxonomy_term
+    65aecb02-cbea-455c-996e-a55602ac4d3a: taxonomy_term
+    b45f3a6b-a022-4ed4-a4fa-4520abf16d5b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Faire le lien entre SDG 6 et SDG 14 - naviguer de Dakar à Lisbonne'
+  created:
+    -
+      value: 1647486184
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/faire-le-lien-entre-sdg-6-et-sdg-14-naviguer-de-dakar-lisbonne
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Panel de discussion sur le prochain symposium de haut niveau sur l''eau "Bridging SDG6 and SDG 14" qui aura lieu pendant la conférence des Nations Unies sur les océans, à Lisbonne (27 juin) et la façon dont ce symposium peut contribuer à la route vers la conférence des Nations Unies sur l''eau de 2023, en mettant les communautés d''eau douce et d''eau salée en relation.'
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486184
+      guid: ''
+      hash: 32b3c70756ec099bb93180beb0abbfde
+  field_code:
+    -
+      value: SE7
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Secrétaire général du ministère de l'environnement et de l'action climatique
+        Président du Conseil d'administration de l'Agence portugaise de l'environnement
+        Représentant du ministère portugais des affaires étrangères/ambassade du Portugal à Dakar
+        Représentant de l'ONU-Eau
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 37c4e077-184d-4128-b72c-759483b96786
+    -
+      entity: 97823212-eaad-463e-bac5-59ecd30d2978
+    -
+      entity: b88dfe32-fb9b-41d9-aeea-b63d2b899e82
+    -
+      entity: d6a6ec90-0896-4416-a9cc-6cd6aa6902b9
+    -
+      entity: 65aecb02-cbea-455c-996e-a55602ac4d3a
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: plain_text
+  field_salle:
+    -
+      entity: b45f3a6b-a022-4ed4-a4fa-4520abf16d5b

@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3d33b94a-99f1-4a58-bcf0-271cb6b8e034
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    3dae8ae1-b8ef-41a1-a734-cc5186869e45: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    71714443-aa69-4cb0-a623-6f9997a6e4b9: taxonomy_term
+    ad6f4164-eec2-4ec2-977c-006807bd5f1a: taxonomy_term
+    d2098f56-b69b-4edd-b18d-61dcb4df2a9e: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Développement des capacités pour la conception et la mise en œuvre de plans de développement pour la GIRE'
+  created:
+    -
+      value: 1647484952
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developpement-des-capacites-pour-la-conception-et-la-mise-en-oeuvre-de-plans-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "Cette session vise à partager des expériences, des techniques et des outils méthodologiques pour le renforcement des capacités dans la conception et la mise en œuvre de la GIRE à tous les niveaux. A cette fin, plusieurs initiatives issues de contextes différents - tant du Sud que du Nord - et menées par une variété d'acteurs seront présentées. S'agissant d'une session participative, le public sera également invité à prendre part aux échanges afin d'alimenter les réflexions liées aux initiatives présentées.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484952
+      guid: ''
+      hash: daa5968a6b3d5231ac95a65463a1d265
+  field_code:
+    -
+      value: 3A2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3dae8ae1-b8ef-41a1-a734-cc5186869e45
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 71714443-aa69-4cb0-a623-6f9997a6e4b9
+    -
+      entity: ad6f4164-eec2-4ec2-977c-006807bd5f1a
+    -
+      entity: d2098f56-b69b-4edd-b18d-61dcb4df2a9e
+  field_organisateurs_text:
+    -
+      value: |
+        Session coordinators / lead organisation : Valérian Juillet, Emmanuel Durand and Hamet Diallo from the NGO Gret (Professionnels du développement solidaire). A member of the Senegalese DGPRE (Direction de la gestion et de la planification des ressources en eau) will certainly also be involved. 
+
+        Co-organisers of the session : Edouard Boinet of INBO (International network of basin organisations)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        Project 1 – GRET (NGO Professionnels du développement solidaire) and DGPRE of Senegal (Direction de la gestion et de la planification des ressources en eau);
+        Project 2 – CIRAD (Centre de coopération internationale en recherche agronomique pour le développement) ;
+
+        Project 4 – AERMC (Agence de l’eau Rhône-Méditerranée-Corse) and the French water partnership; 
+        Project 5 – IRD (Institut de recherche pour le développement), University of Montpellier and the French national committee of UNESCO IHP 
+        Intergovernmental Coordinating Committee for the la Plata River (CIC) 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "Projet 1 - Méthodologies sur mesure de partage de l'eau - équité, facilitation à l'échelle locale du bassin versant (Sénégal)
+        Projet 2 - Jeu de société d'arène virtuelle pour prendre des décisions, pour réguler l'allocation des eaux souterraines avec les parties prenantes - expliquer les règles, montrer comment cela fonctionne et les avantages (Sénégal)
+
+        Projet 4 - GIRE et solutions basées sur la nature : Restauration de rivière et agriculture durable dans le bassin versant du lac Itasy (Madagascar)
+        Projet 5 - ICIREWARD Centre français de l'UNESCO basé à Montpellier (France)
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Ouverture & maître de cérémonie " (5 min).
+        ? M. Alain Bernard, directeur pour l'Afrique, l'Asie et l'Amérique, 
+        Responsable des projets GIRE, Office international de l'eau (OiEau).
+
+        Intervenant principal (10 min)
+        ? M. Thierry-Emmanuel Ratovoniania, directeur général technique, ministère de l'Eau, de l'Assainissement et de l'Hygiène, Madagascar : conception et mise en œuvre du plan de gestion du bassin du lac Itasy - Madagascar (à confirmer).
+
+        Panel (45 min)
+        Modéré par :
+        ? M. Hamet Diallo, chef de projet en gestion intégrée des ressources en eau pour l'ONG GRET.
+        Panélistes :
+        ? M. Ngor Maurice Sarr, Chargé de recherche et d'animation, GRET : Expérimentation d'une méthodologie de facilitation participative qui interroge le partage des ressources en eau entre usagers/territoires : retour d'expérience du projet GIREL (pour Gestion intégrée des ressources en eau au niveau local) - Sénégal.
+        ? M. Etienne Delay, Chercheur, CIRAD : Aperçu d'un " serious game " favorisant l'identification par les acteurs des règles collectives de gestion des ressources en eau liées aux usages agricoles : cas du jeu de société " F'eau Djëm " - Sénégal.
+        ? M. Juan Carlos Alurralde, Secrétaire général, Comité intergouvernemental de coordination du fleuve de la Plata (CIC) : (A déterminer/confirmer).
+        ? Mme Oula Amrouni, chercheuse du réseau MEDFRIEND de l'UNESCO,  
+        et à l'Institut national des sciences et technologies de la mer, Tunisie : Renforcement des capacités pour soutenir les acteurs de l'eau, notamment au niveau international dans le cadre du Centre international UNESCO ICIREWARD (à confirmer).
+
+        Questions et réponses (20 min) 
+
+        Conclusion (10 min) Mme Catherine Baron, Chercheur LEREPS/Sciences Po Toulouse France
+
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Document de synthèse rassemblant différentes expériences, bonnes pratiques et leçons apprises sur le partage des ressources en eau entre territoires et usagers (solutions politiques), ainsi que sur la mobilisation du système SFN (solutions techniques).  '
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

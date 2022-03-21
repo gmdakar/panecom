@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0bd573f5-1739-4438-86be-a21cd7d6e7bc
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    f03d05cf-38d7-490e-913a-d54386847fcd: taxonomy_term
+    86704406-d5c5-40b4-969a-b3fc9edb4de1: taxonomy_term
+    ba879a4d-313d-41a4-ab9a-e84afc5deb1e: taxonomy_term
+    6ed0dc6d-9f83-4815-9e9c-5e7fb4f5862b: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    486ba5ea-abd6-43a9-92dc-017af2088547: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Faire progresser l’Afrique - Partenariats de l’UE dans le domaine de l’eau'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/faire-progresser-lafrique-partenariats-de-lue-dans-le-domaine-de-leau-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'Afrique a connu des changements fondamentaux au cours de la dernière décennie, ce qui a alimenté une demande croissante en eau et des secteurs interconnectés qui sous-tendent le développement humain, la sécurité alimentaire, l'accès à l'énergie, le bien-être environnemental et l'action climatique.  S'appuyant sur la vision du partenariat UE-Afrique "Vers une stratégie globale avec l'Afrique", cette session spéciale fait suite au sommet Union européenne - Union africaine (17-18 février 2022). 
+
+        La vision UE-Afrique souligne que les partenariats à venir seront fondés sur l'intérêt mutuel et sur des modèles de croissance verte s'articulant autour de cinq grands domaines : "la transition verte et l'accès à l'énergie", "la transformation numérique", "la croissance et les emplois durables", "la paix et la gouvernance", et "la migration et la mobilité". 
+
+        À travers tous ces partenariats, l'eau joue un rôle vital pour la vie, la santé, l'alimentation, la biodiversité, le climat, la résilience sociétale, l'économie et le commerce. Cependant, l'eau continue d'être considérée comme l'un des secteurs les plus importants pour la croissance de l'Afrique, mais elle est toujours confrontée à un manque d'investissements et à un manque d'attention politique.
+
+        Partant de ce constat, l'"Agenda 2063 de l'Union africaine : L'Afrique que nous voulons", la sécurité de l'eau constitue l'une des priorités recherchées par l'agenda et a le potentiel de débloquer de plus grands progrès en termes de bénéfices humains directs, de bénéfices économiques et de bénéfices environnementaux. Cette position a été réaffirmée en 2021 avec les résolutions multipartites de Windhoek de l'AMCOW appelant à accélérer la sécurité de l'eau et l'accès à un assainissement et une hygiène gérés en toute sécurité en Afrique. 
+
+        La session présentera le rôle central joué par l'eau dans l'avancement des partenariats stratégiques entre l'UE et l'Afrique pour relever les défis émergents et faire converger les priorités et les intérêts communs grâce à l'eau.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: a9f45c04e1d7a38792b9311f9953f680
+  field_code:
+    -
+      value: SS48
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: f03d05cf-38d7-490e-913a-d54386847fcd
+    -
+      entity: 86704406-d5c5-40b4-969a-b3fc9edb4de1
+    -
+      entity: ba879a4d-313d-41a4-ab9a-e84afc5deb1e
+    -
+      entity: 6ed0dc6d-9f83-4815-9e9c-5e7fb4f5862b
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+  field_organisateurs_text:
+    -
+      value: 'European Commission (DG INTPA) / African Ministers'' Council on Water (AMCOW)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        - 2 minutes : Accueil par le modérateur de la session, présentation des panélistes (4 panélistes) et description/objectifs du panel et des discussions.
+        '- 5 minutes : Discours vidéo de bienvenue par la Commissaire Jutta Urpilainen - DG INTPA
+        '- 5 minutes 
+      format: plain_text
+  field_salle:
+    -
+      entity: 486ba5ea-abd6-43a9-92dc-017af2088547

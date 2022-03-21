@@ -1890,6 +1890,7 @@ display:
           admin_label: 'field_salle : Taxonomy term'
           plugin_id: standard
           required: true
+      use_ajax: false
       group_by: false
       header:
         area:

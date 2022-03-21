@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd59554f-5235-414c-8834-bd0509501a19
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    457c1e95-a18c-44b3-8228-d73aac117634: taxonomy_term
+    3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae: taxonomy_term
+    d4d2fdab-051c-4aaf-b23c-7b055980caa3: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bfde2d1a-ca12-4bfc-b3e5-ac84730238f6: taxonomy_term
+    e7dcb7b4-0ba7-4747-9026-c0cc46fd971c: taxonomy_term
+    161ba3df-c2bb-4d5a-927f-5af022299a53: taxonomy_term
+    40485c2a-ec23-4a4e-8e5a-173e6378f362: taxonomy_term
+    51790e8a-1071-4beb-b052-8ae68b3531d5: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Develop experience sharing on water resources management to address chronic water scarcity and water- related disasters (including floods and droughts)'
+  created:
+    -
+      value: 1647484844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/develop-experience-sharing-water-resources-management-address-chronic-water-scarcity-and
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Due to the drastic changes of soci-economy (population growth, urbanizations, etc.) and the increasing severity of the mpact of climate change (watere extremes), the adequate water resources management has been put of great importance in many parts of the world.
+        In addition, water-related disaster risk reduction against floods and droughts is also becoming urgent issues to be tackled with to achieve the sustanable and resilient society of the future.
+        In order to address the integrated water resources management and the water-related disaster risk reduction, especially under the constrained situation of COVID-19 panddemic and its post era, this session tries to highlight some good examples and case studies as well as the lessons learnt for the improvement of the water resoureces management and water-related disasters risk reduction around the world, and deliver the key messages for the achievement  of SDGs, Sendai Framework DRR, and Paris Agreement toward 2030.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484844
+      guid: ''
+      hash: 17c9e408f4b632694d2b816b5de956c0
+  field_code:
+    -
+      value: 3C2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 457c1e95-a18c-44b3-8228-d73aac117634
+    -
+      entity: 3ef4cce2-98c0-46d0-aa47-cd2bc1e067ae
+    -
+      entity: d4d2fdab-051c-4aaf-b23c-7b055980caa3
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bfde2d1a-ca12-4bfc-b3e5-ac84730238f6
+    -
+      entity: e7dcb7b4-0ba7-4747-9026-c0cc46fd971c
+    -
+      entity: 161ba3df-c2bb-4d5a-927f-5af022299a53
+    -
+      entity: 40485c2a-ec23-4a4e-8e5a-173e6378f362
+    -
+      entity: 51790e8a-1071-4beb-b052-8ae68b3531d5
+  field_organisateurs_text:
+    -
+      value: 'ICHARM International Centre for Water Hazard and Risk Management'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |+
+        UNINTA (University Center INTA, Sobral-CE):
+        UNESCO i-WSSM (UNESCO International Centre for Water Security and Sustainable Management)
+        PWA (Palestinian Water Authority)
+
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        -	ICHARM International Flood Initiative (IFI), UNESCO West Africa Projects (WaDiRe)
+        -	UNINTA
+        -	UNESCO i-WSSM
+        -	PSA 
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        From 8 to 10 min max. for each presentation.
+        At least 15 min for questions & answers
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Pursuit and extension of the number of initiatives on international cooperation programs.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

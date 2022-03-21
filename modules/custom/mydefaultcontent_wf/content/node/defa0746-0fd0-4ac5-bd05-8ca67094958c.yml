@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: defa0746-0fd0-4ac5-bd05-8ca67094958c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    58c6182e-722b-44ed-a294-2b43d3169f10: taxonomy_term
+    bf45135d-e97c-4a01-b7be-53b6c85bf385: taxonomy_term
+    9d1df899-f49d-4557-ab46-73fcb9becde2: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    189f81b3-1e6d-47c3-a24b-b0352088caa1: taxonomy_term
+    86107ef9-0e4f-4dfa-a3b9-eb884d2d1010: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    a5bb19f7-ea23-42de-bacc-3847dbdcc52b: taxonomy_term
+    40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Satellites et gestion des ressources en eau, vers une révolution ?'
+  created:
+    -
+      value: 1647484957
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/satellites-et-gestion-des-ressources-en-eau-vers-une-revolution-?'
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "L'adaptation au changement climatique nécessite une solide connaissance de ses impacts, notamment sur les ressources en eau et les écosystèmes associés : nous ne pouvons pas gérer ce que nous ne connaissons pas. 
+        La constellation actuelle Sentinel / Copernicus, la prochaine mission SWOT et TRISHNA peuvent être combinées pour construire des connaissances concernant les précipitations, le débit et l'évaporation. Plus généralement, les données satellitaires "multi-capteurs" peuvent être mobilisées, car ces données sont essentielles pour la gestion des ressources en eau et l'adaptation au changement climatique. 
+        Les systèmes d'information hydrométéorologiques peuvent intégrer à la fois les données issues des réseaux classiques de surveillance in situ et les données altimétriques satellitaires."
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484957
+      guid: ''
+      hash: 097975eb05384344d4c60a394ceff6ee
+  field_code:
+    -
+      value: '3E1'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 58c6182e-722b-44ed-a294-2b43d3169f10
+    -
+      entity: bf45135d-e97c-4a01-b7be-53b6c85bf385
+    -
+      entity: 9d1df899-f49d-4557-ab46-73fcb9becde2
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+    -
+      entity: 189f81b3-1e6d-47c3-a24b-b0352088caa1
+    -
+      entity: 86107ef9-0e4f-4dfa-a3b9-eb884d2d1010
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: a5bb19f7-ea23-42de-bacc-3847dbdcc52b
+  field_organisateurs_text:
+    -
+      value: |
+        International Office for Water (OiEau) - French Centre National d’Etudes Spatiales (CNES)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        International Commission of the Congo-Ubangi-Sangha River Basin (CICOS), National Research Institute for Sustainable Development (IRD),  Organization for the Development of the Senegal River (OMVS), Adour-Garonne Water Agency (AEAG) 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: "1. renforcer l'utilisation des données satellitaires pour la surveillance des ressources en eau\r\n2.\tSurveillance innovante des ressources en eau grâce aux satellites d'observation de la Terre pour l'adaptation au changement climatique dans 4 bassins fluviaux transfrontaliers africains : - Sénégal, Congo, Mékong, Amazone, Niger et, Lac Tchad.... \r\n3.\tPartage de l'eau et de la biodiversité sur le bouclier guyanais, par la création d'un observatoire transfrontalier.\r\n4.\t Mise en commun des observations satellitaires pour l'innovation des services dans le bassin du fleuve Sénégal (MOSIS) - Renforcer la résilience des communautés vulnérables au climat dans le bassin du fleuve Sénégal à l'aide d'un système d'alerte précoce multi-aléa et améliorer la capacité d'adaptation.\r\n5.\tDiffusion du manuel du RIOB sur les systèmes d'information sur l'eau (continuité de Brasilia à Dakar)."
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Proposition de programme :
+        - Discours d'ouverture : CNES
+        - Présentations (8 min. max. pour chaque présentation)
+        - 2 tables rondes : Les panélistes proposés sont des représentants de différents projets " hydro--spatiaux ". 
+        Discussion
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- Renforcement des systèmes d'information hydrologique des différentes institutions, des organismes de bassin et de leurs États membres, y compris les données provenant des stations de surveillance virtuelles et in situ. 
+        - Développement d'applications qui améliorent les systèmes d'information sur l'eau pour la préservation de la biodiversité et les utilisations de l'eau, le suivi et l'adaptation au changement climatique. Cette composante développera des services en aval : modèles de prévision, dynamique des zones inondées et des zones humides, modèles d'allocation pour la planification stratégique, qualité de l'eau, etc. Des applications spécifiques seront consacrées au suivi des grands barrages (hydroélectricité / irrigation) et des surfaces en eau à l'aide de données satellitaires.
+        - Renforcement des capacités nationales et régionales, capitalisation de systèmes d'information à long terme pour les décideurs et les utilisateurs. Le renforcement des capacités sera organisé pour répondre à un objectif principal : l'appropriation par les pays et les organismes de bassin de l'innovation technique apportée par le projet, avec la communauté scientifique et de recherche."
+      format: basic_html
+  field_salle:
+    -
+      entity: 40945cf3-a7c2-4d64-a91a-9edeb8d4ae8c

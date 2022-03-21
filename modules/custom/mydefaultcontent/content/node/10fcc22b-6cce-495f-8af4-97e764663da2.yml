@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10fcc22b-6cce-495f-8af4-97e764663da2
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    12dad574-f7e8-4d99-b1bb-9c3243a10292: taxonomy_term
+    81f5eddc-6a25-4d23-8f99-efaea8cfc47b: taxonomy_term
+    77259a49-68f9-484a-8a9f-0e31b94f0d9f: taxonomy_term
+    9b86988b-5a30-48d7-b126-d1f7357598b3: taxonomy_term
+    619aba30-8529-4a06-abfa-97d4e9bcf93f: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Protection of Water and Water Infrastructure Before, During and After Armed Conflict'
+  created:
+    -
+      value: 1647493831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/protection-water-and-water-infrastructure-during-and-after-armed-conflict-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        This panel is an important milestone for ensuring better protection of water and water infrastructure, before, during and after armed conflicts. With the support of the Swiss Confederation, the Geneva Water Hub invites you to contribute to the discussion on the occasion of the 9th World Water Forum in Dakar.
+        About two billion people live in areas affected by armed conflicts, where destruction of water infrastructure is increasingly common. As detailed in the ICRC’s Urban Services and UNICEF’s Water Under Fire reports, the consequence on the most vulnerable communities is severe. When water and sanitation services are disrupted water-borne diseases and epidemics proliferate. To advance the protection of these communities, the Geneva Water Hub has developed the Geneva List of Principles on the Protection of Water Infrastructure. While the main focus of this document is the clarification of norms of international humanitarian law applicable to water infrastructure,   the Geneva Principles also aim at enhancing cooperation on installations located on transboundary water resources in peace time and the protection of the human rights to water and sanitation at all times. This High-Level Panel will provide a unique opportunity to explore cross-sectoral linkages between the SDG 6 on water and sanitation and SDG 16 on peace. 
+
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493831
+      guid: ''
+      hash: c7ac615a6e4afa7cb7cc53ece5788be0
+  field_code:
+    -
+      value: HLP07
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 12dad574-f7e8-4d99-b1bb-9c3243a10292
+    -
+      entity: 81f5eddc-6a25-4d23-8f99-efaea8cfc47b
+    -
+      entity: 77259a49-68f9-484a-8a9f-0e31b94f0d9f
+    -
+      entity: 9b86988b-5a30-48d7-b126-d1f7357598b3
+    -
+      entity: 619aba30-8529-4a06-abfa-97d4e9bcf93f
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub / Think tank, Center of the University of Geneva'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Opening: Minister of Water and Sanitation of Senegal, H.E. Serigne Mbaye Thiam (tbc) – 5’
+        Keynote 1: Examples from Slovenia - Minister of Foreign Affairs of the Republic of Slovenia, H.E. Anže Logar (tbc) – 5’
+        Keynote 2: Examples from Iraq - Minister of Water Resources of Iraq, H.E. Mahdi Rashid Al Hamdani (confirmed) - 5’
+
+        Panel discussion: How policy initiatives can help in protecting water in armed conflicts?  40’
+        Vice-President of the ICRC, H.E. Gilles Carbonnier (tbc) – Challenges on the protection of water and water infrastructures in the humanitarian sector: a practical view  
+        Executive Director of UNICEF, H.E. Catherine M. Russell (tbc) – The Water Under Fire agenda and the challenges related to its implementation on the ground 
+        Director the Geneva Water Hub, Prof. Mark Zeitoun (confirmed) – The Geneva List of Principles on the Protection of Water Infrastructure and its political and policy implications 
+
+        Moderation & Concluding words (action points / next steps): Ministry of Foreign Affairs of Switzerland, Federal Department of Foreign Affairs of Switzerland, H.E. Manuel Bessler, State Secretary, Delegate of the Federal Council for Humanitarian Aid (confirmed)-5’
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

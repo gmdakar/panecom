@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15dddbad-017b-4a2e-96e0-15914be72658
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    67aee449-f23f-4b09-b1ef-e06c7472eabe: taxonomy_term
+    6a22f700-b972-4f9c-9706-e3a1bee96f14: taxonomy_term
+    af1d2598-0261-437c-850c-44ccbfa5fa66: taxonomy_term
+    975f8ae2-0255-40f2-9610-d9daee50be9f: taxonomy_term
+    d6cb5e0f-e88c-4af4-8395-f1f48f779ffe: taxonomy_term
+    8b3e862d-dfcc-49e8-a2f5-63c113cdc0d2: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Enhance global collaboration in the field of WASH in response to the COVID- 19 pandemic'
+  created:
+    -
+      value: 1647493839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/enhance-global-collaboration-field-wash-response-covid-19-pandemic-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Develop a global  cooperation among governments (local authorities/mayors, parliamentarians, ministers, heads of governments/state), intergovernmental, bilateral and multilateral organizations, financial institutions and non-governmental organizations, water professionals, scientists, policy and decision makers, representatives of water-related sectors and draw  attention for  protection, prevention and preparation in water and wastewater management and services during pandemic situation to ensure access to safe water, to establish a platform encouraging WASH related entrepreneurial and operable capacity building activities, dissemination of WBE activities for urban settings especially in non-sewered low-income countries.
+         Expected outcomes:
+        •	Allow combining the power of irrelevant parties to achieve WASH activities even under pandemic situations, 
+        •	Be prepared for possible future pandemics considering WASH requirements in low and middle income countries, especially in non-sewered areas
+        •	Dissemination of WASH requirements under pandemic situations
+        •	Increasing interest from financial funding agencies, scientific disciplines, water associations, globally active water operators and major actors to develop capacity building activities especially for training of specialists and setting-up infrastructure (e.g., labs) and logistics of WBE activities.
+        •	The outcomes of the session support the following Sustainable Development Goals;  1.A, 6.1, 6.A, 7.A, 9.1, 9.5, 17.7
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493839
+      guid: ''
+      hash: 093d8497e2575841d3f0a2934a7bd445
+  field_code:
+    -
+      value: SS05
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 67aee449-f23f-4b09-b1ef-e06c7472eabe
+    -
+      entity: 6a22f700-b972-4f9c-9706-e3a1bee96f14
+    -
+      entity: af1d2598-0261-437c-850c-44ccbfa5fa66
+    -
+      entity: 975f8ae2-0255-40f2-9610-d9daee50be9f
+    -
+      entity: d6cb5e0f-e88c-4af4-8395-f1f48f779ffe
+    -
+      entity: 8b3e862d-dfcc-49e8-a2f5-63c113cdc0d2
+  field_organisateurs_text:
+    -
+      value: 'Turkish Water Institute (SUEN)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        -	Opening by moderator (5’) 
+
+        -	Presentations and QA at the end of each presentation  (6x10’+5x3’=75’)
+
+        -	Closing  by moderator (5’)
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

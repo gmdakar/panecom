@@ -1,0 +1,176 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7aa242b8-3771-4a16-8f3d-67e2df1b8d13
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    bba0b245-7baf-4915-9d4d-1630ee331b9b: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    94e592ce-0962-44d5-a42c-6c50c511ee4d: taxonomy_term
+    12f85d60-272c-4832-b594-b7d21384c4a5: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    e2bb6d22-5a38-47a0-adf4-fbc8b815cdb4: taxonomy_term
+    7f8f6c47-4630-4d4a-ad40-198b84b322b7: taxonomy_term
+    3743781f-3979-4226-aec8-abed192376f3: taxonomy_term
+    734496f5-4c38-4d13-909d-7ab19d789138: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Agroecology in action to make productive waters for farmers'
+  created:
+    -
+      value: 1647484839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/agroecology-action-make-productive-waters-farmers
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The overall objective is to empower smallholder farmers through agroecological techniques to make access to productive waters sustainable and equitable. Provide the tools to turn saving water into a wealth-producing resource and disseminate improved agroecological techniques as tools to safeguard water and soils to benefit agricultural production.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484839
+      guid: ''
+      hash: 2e4db6c85517baadbee119f2f47a0ce2
+  field_code:
+    -
+      value: '2E1'
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: bba0b245-7baf-4915-9d4d-1630ee331b9b
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 94e592ce-0962-44d5-a42c-6c50c511ee4d
+    -
+      entity: 12f85d60-272c-4832-b594-b7d21384c4a5
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+    -
+      entity: e2bb6d22-5a38-47a0-adf4-fbc8b815cdb4
+    -
+      entity: 7f8f6c47-4630-4d4a-ad40-198b84b322b7
+    -
+      entity: 3743781f-3979-4226-aec8-abed192376f3
+    -
+      entity: 734496f5-4c38-4d13-909d-7ab19d789138
+  field_organisateurs_text:
+    -
+      value: |-
+        IRD
+        GRET/DyTAES
+
+        IRD 
+        DyTAES
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Santé & Territoires (CIRAD, ISRA, …)
+        IRD / CERAAS 
+        COSTEA (INRAe, AVSF, BRL ; Algérie, Sénégal, Cambodge)
+        INERA
+        IRD / COLAB
+        Up2Green
+        ISRA
+        ENDA-Pronat
+        IPAR
+        SOS Sahel
+        CICODEV
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        Objective : Disseminate better agroecological techniques as technical means of saving profitable water and profitable soils for agricultural production.
+
+        Description and purpose : In rural areas, access to water is often difficult. Also improving the productivity of water is a major challenge. Agroecological techniques make it possible to rationalize the use of water for green production, using plant associations and / or agroforestry to use soil ecosystem services (soil moisture, soil living…).
+
+        This item is dealing with the use of the agroecological transition to save water and soil for farmers’ enrichment. We propose 6 examples:
+
+        -	Hamet DIALLO (GRET et DyTAES, Sénégal) 
+        Des Plateformes Locales de l’Eau (PLE) comme “acteurs passerelles” pour une TAE qui sécurise durablement les usages  de l’eau
+
+        -	Rémi HEMERICK (SOS Sahel, Sénégal, Burkina Faso) et Henri GERARD (TERRE VERTE, Burkina Faso)
+        Paysage et TAE : le bocage sahélien 
+
+        -	Katia ROESCH (COSTEA, AVSF, Algérie, Sénégal, Cambodge) 
+        Performances et conditions de développement de l’agroécologie dans les systèmes irrigués
+
+        -	Amandine Adamczewski-Hertzog (Santé-Territoire, Sénégal, Bénin, Cambodge)
+        La santé, un levier de développement dans le cadre de la transition agro écologique
+
+        -	Vincent Vadez (IRD, LAPSE, France / Sénégal)
+        Crop intensification to increase the Water Use Efficiency
+
+        -	Ivan Zang (COLAB, IRD-Bond’Innov-Makesense, France, Tunisie)
+        Exemple en Tunisie d’un programme d’intelligence collective et d’innovation pour la TAE (COLAB)
+
+        A leaflet based on these projects will be published.
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        -      Welcome and introduction [10’]
+        -	6 introductions of 5 mn based on examples [30’]
+        -	Discussion Panel on questions raised in the assembly [45’]
+        -	Key messages and Conclusion [5’]
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        This session is intended to be an advocacy for the agroecological transition to ensure sustainable intensification of agriculture and food and nutritional security in West Africa, in respect of the following concrete political actions : Advocate for the improvement of global and local water governance in conjunction with structures dealing with food and agriculture issues, through the creation of an intergovernmental structure on Water&Food as part of the UN and approved by Member States.
+
+        The follow-up outcomes will be to (1) reduce the water bill for rural populations, (2) improve the water productivity, (3) enrich rural populations by improving their living conditions, and (4) give power back to small farmers for market gardening production for urbanites.
+
+        At last, the session advocates for the improvement of global water governance in conjunction with structures dealing with food and agriculture issues, through the creation of an intergovernmental structure on Water&Food as part of the UN and approved by Member States.
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

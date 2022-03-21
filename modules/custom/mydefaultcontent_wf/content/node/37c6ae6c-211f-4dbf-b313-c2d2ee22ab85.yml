@@ -1,0 +1,144 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 37c6ae6c-211f-4dbf-b313-c2d2ee22ab85
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0b073729-8858-4017-8170-e60ce0ca01f1: taxonomy_term
+    e30413f9-8e70-4d55-8223-eb454165649a: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    fa271646-e223-46d1-a3c4-78b1e1f0382d: taxonomy_term
+    6399e6f0-7e39-4f30-9b10-2396632b5f9a: taxonomy_term
+    46662424-410e-4071-b9df-a3afd660ae9c: taxonomy_term
+    4e99e97e-75d5-4ca2-955e-e4bb3eb3c1f4: taxonomy_term
+    2aa61004-6d94-43e5-b814-041e53df1c0b: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le rôle du système d''information localisé dans la gestion et la planification de l''eau'
+  created:
+    -
+      value: 1647484964
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-role-du-systeme-dinformation-localise-dans-la-gestion-et-la-planification-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "L'accès à l'information sur l'état et l'évolution des ressources en eau et de leurs usages est un besoin impératif et un défi majeur pour établir un cadre de gouvernance inclusif qui prenne en compte de manière structurée les différents maillons de la gestion intégrée de l'eau.
+
+        Compte tenu de l'importance cruciale des données, la bonne gouvernance des ressources en eau nécessite donc un renforcement des capacités d'accès et de traitement des données sur l'eau, en collaboration avec les acteurs locaux, afin de générer des informations et des services répondant aux exigences d'une planification inclusive.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484964
+      guid: ''
+      hash: 1b7691796a8bb35da51708be7a4e9b99
+  field_code:
+    -
+      value: 4B3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0b073729-8858-4017-8170-e60ce0ca01f1
+    -
+      entity: e30413f9-8e70-4d55-8223-eb454165649a
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: fa271646-e223-46d1-a3c4-78b1e1f0382d
+    -
+      entity: 6399e6f0-7e39-4f30-9b10-2396632b5f9a
+    -
+      entity: 46662424-410e-4071-b9df-a3afd660ae9c
+    -
+      entity: 4e99e97e-75d5-4ca2-955e-e4bb3eb3c1f4
+    -
+      entity: 2aa61004-6d94-43e5-b814-041e53df1c0b
+  field_organisateurs_text:
+    -
+      value: 'UCLG Africa (with the support of UCLG World)'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        EU - ADB - FVC - OECD - World Water Council - WRI - World Bank
+        UNESCO Jakarta (TBC)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: "Course à la résilience \r\nTable ronde des maires africains pour l'initiative sur la sécurité de l'eau "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Introduction (10 mn)
+
+        Partie 1 : " Le rôle du système d'information localisé dans la gestion et la planification de l'eau " (30 mn)  
+        - Panel d'experts et d'organisations internationales (représentants d'institutions internationales (UE - BAD - Conseil mondial de l'eau - OCDE - Banque mondiale - WRI). 
+        - Discussion sur le cadre institutionnel et réglementaire nécessaire pour faciliter l'accès, le traitement et la valorisation des données dans le secteur de l'eau au niveau local.
+
+        Partie 2 : Dialogue structuré à plusieurs niveaux pour faciliter l'accès, le traitement et la valorisation des données sur l'eau au niveau local (30 mn)
+        - Panel composé de représentants nationaux et de maires représentant les régions d'Afrique, d'Amérique latine et d'Asie.
+        - Discussion sur les mécanismes de coopération existants pour faciliter le flux de données entre les différents niveaux de gouvernance et pour renforcer la capacité des gouvernements locaux à traiter et analyser ces données. 
+
+        Session de questions-réponses et conclusion (20mn)
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        " Un rapport présentant les résultats de la session sera produit et diffusé après le forum aux différents participants.
+         Des liens avec des partenaires, des universités seront établis afin de poursuivre le travail sur l'initiative ""race towards water resilience"".
+         Renforcer le dialogue structuré entre le niveau national et le niveau local concernant le système de surveillance.N77"
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

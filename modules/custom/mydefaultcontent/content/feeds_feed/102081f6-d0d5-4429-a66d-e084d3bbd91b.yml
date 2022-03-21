@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: feeds_feed
+  uuid: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+  bundle: migrate_agenda_SE_fr_
+default:
+  title:
+    -
+      value: 'Migrate feeds SE (fr)'
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1647476536
+  imported:
+    -
+      value: 1647486191
+  next:
+    -
+      value: -1
+  queued:
+    -
+      value: 0
+  source:
+    -
+      value: 'private://feeds/SE (FR) - Copy_2.csv'
+  item_count:
+    -
+      value: 43

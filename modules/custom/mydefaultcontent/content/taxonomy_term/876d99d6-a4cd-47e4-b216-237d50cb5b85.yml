@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 876d99d6-a4cd-47e4-b216-237d50cb5b85
+  bundle: groupe_d_actions
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '1C  Reduce water-related illness and deaths'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647484829

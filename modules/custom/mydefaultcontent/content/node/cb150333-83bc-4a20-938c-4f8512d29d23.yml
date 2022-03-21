@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cb150333-83bc-4a20-938c-4f8512d29d23
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    32025a4d-59ee-4ce5-be0b-95fe83014b55: taxonomy_term
+    9d3c7bea-c0f6-437b-8901-13a8048c612e: taxonomy_term
+    bec0b989-d597-4220-90a0-c4dabae950f4: taxonomy_term
+    9cdc11d9-e9f3-46e6-833f-c7425e423ef3: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Systems Approach to Deliver Water to People proposal'
+  created:
+    -
+      value: 1647493834
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/systems-approach-deliver-water-people-proposal-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Building on IWRM, the WWC IWRM/transversality Task Force is working on a new vision of water management with the aim to have an impact on the delivery of SDGs, identify the barriers to scale up, and provide a systemic vision and clear directions towards equity in allocation of water across sectoral needs through dialogue and tradeoffs discussions with stakeholders (local communities, public and private sectors, academia, and governing bodies, etc.). Exploring the interlinkages between water, energy, food, health, and education will help in achieving synergies between these sectors. The vision will include consideration for alternative sources (recycling, treatment, re-use), water use efficiency, water governance and transboundary water. The session goals are: 
+        1.	Present a preliminary vision Systems Approach to Deliver Water to People
+        2.	Solicit feedback from the broad water community on the vision 
+        The outcomes of the session will be captured in an updated vison for water delivery to people.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493834
+      guid: ''
+      hash: 5f0102a3ebfe7e39be21bde62b854b5d
+  field_code:
+    -
+      value: HLP16
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: 32025a4d-59ee-4ce5-be0b-95fe83014b55
+    -
+      entity: 9d3c7bea-c0f6-437b-8901-13a8048c612e
+    -
+      entity: bec0b989-d597-4220-90a0-c4dabae950f4
+    -
+      entity: 9d3c7bea-c0f6-437b-8901-13a8048c612e
+    -
+      entity: 9cdc11d9-e9f3-46e6-833f-c7425e423ef3
+  field_organisateurs_text:
+    -
+      value: 'Texas A&M University'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Session overview / introduction: (5 min) co-organizers
+        Panelist interventions (7 min each, 4-6 panelists) 
+        Moderated discussion (30 min) 
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

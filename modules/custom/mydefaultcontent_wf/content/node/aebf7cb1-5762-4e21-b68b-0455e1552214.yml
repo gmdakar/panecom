@@ -1,0 +1,163 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: aebf7cb1-5762-4e21-b68b-0455e1552214
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    ef5ece3c-e9f9-4225-9a00-98d665973a05: taxonomy_term
+    8531babb-04b6-478b-8cdf-deea4275c883: taxonomy_term
+    62cff3b5-39b9-4da3-80ce-515e173bb7fb: taxonomy_term
+    3ba94a1b-28e0-4b0d-8e59-86283fd0ab5a: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    87315f29-2f77-492f-9269-09594202ca37: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    566296d2-8687-4dae-b1d4-64a28f9003de: taxonomy_term
+    80607e02-3130-4cbb-aa58-2bb4da39b225: taxonomy_term
+    5cfb188d-0ca8-41a7-931d-9dd2484e81cd: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Applying the right technologies for sustainable and at- scale WASH in Institutions'
+  created:
+    -
+      value: 1647484837
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/applying-right-technologies-sustainable-and-scale-wash-institutions
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Although many technology options for WASH services have been adopted in institutional settings such as schools, health care facilities and public spaces, new technologies are emerging that require validation and need to be assessed against national norms, if these exist. This session aims to stimulate a conversation about emerging technology options and considerations for WASH services in specific geographic/climate contexts and offer guiding actions on how best to support governments to embrace appropriate, sustainable technologies for institutional settings.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484837
+      guid: ''
+      hash: 31aef6c16920268fdab0b8da65c9b535
+  field_code:
+    -
+      value: 2C3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: ef5ece3c-e9f9-4225-9a00-98d665973a05
+    -
+      entity: 8531babb-04b6-478b-8cdf-deea4275c883
+    -
+      entity: 62cff3b5-39b9-4da3-80ce-515e173bb7fb
+    -
+      entity: 3ba94a1b-28e0-4b0d-8e59-86283fd0ab5a
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 87315f29-2f77-492f-9269-09594202ca37
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+    -
+      entity: 566296d2-8687-4dae-b1d4-64a28f9003de
+    -
+      entity: 80607e02-3130-4cbb-aa58-2bb4da39b225
+    -
+      entity: 5cfb188d-0ca8-41a7-931d-9dd2484e81cd
+  field_organisateurs_text:
+    -
+      value: 'Swiss Agency for Development and Cooperation, Helvetas, Terre des hommes, World Vision, Skat Foundation, University of Applied Sciences and Arts Northwestern Switzerland, Swiss Federal Institute for Aquatic Science and Technology'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Project submitted by Swiss Water & Sanitation Consortium '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: 'Government of Mali, Swiss Water & Sanitation Consortium, UNICEF, GIZ, Millennium Water Alliance, '
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        1)	Welcome and Framing presentations (25 min): 
+        a.	Emerging Technologies- Understanding the need and planning for climate-smart Technologies Technologies émergentes…..; Jose Gesti Canuto, UNICEF - 7 min
+        b.	Integrating emerging technologies for WASH in public institutions (Reference to Technology Applicability Framework /Technology Introduction Process ) Intégration des technologies émergentes pour l'eau, l'assainissement et l'hygiène dans les institutions publiques (référence au cadre d'applicabilité de la technologie / processus d'introduction de la technologie) - GIZ - 10 min
+        c.	Concept for country-level e-compendiums for approved technologies for WASH in Institutions Concept pour des e-compendiums au niveau national pour les technologies approuvées pour le WASH dans les institutions - Moussa Ag Hamma, Ministry of Health, Government of Mali- 7 min
+
+        2)	World Café:  4 groups (2 French, 2 English) 45 minutes
+
+        Introduction (5 minutes) 
+        The World Café process will be foused on two key themes: 1. Emerging Technologies and 2. Applicability and Approval Processes
+        Le processus du World Café sera axé sur deux thèmes clés : 1. les technologies émergentes et 2. les processus d'application et d'approbation. Applicabilité et processus d'approbation
+
+        Group work in four “cafés”- Participants switch after 20 minutes and build on the work of the other group. (40 minutes)
+        Travail en groupe dans quatre "cafés" - Les participants changent après 20 minutes et s'appuient sur le travail de l'autre groupe. (40 minutes)
+
+        Cafés 1 & 2
+        Emerging / Technologies / Emergentes
+        Key / Questions / clées:
+        -	What are some examples of emerging technology options to achieve basic WASH services in public institutions in your countries? Quels sont les exemples d'options technologiques émergentes pour réaliser des services WASH de base dans les institutions publiques dans vos pays ?
+        -	About this, what are the main challenges in your country? A ce sujet, quels sont les principaux défis dans votre pays ?
+        -	What are some of the latest promising climate-smart technologies for WASH in schools or health care facilities that you have seen or heard about? Quelles sont les dernières technologies prometteuses pour l'eau, l'assainissement et l'hygiène dans les écoles ou les établissements de soins de santé que vous avez vues ou dont vous avez entendu parler ?
+        -	
+        Cafés 3 et 4 
+        Applicability & Approval / Applicabilité et approbation
+        Key / Questions / clés: 
+        -	What are some examples of technology validation and introduction processes that work? Quels sont les exemples de processus de validation et d'introduction de technologies qui fonctionnent ?
+        -	How were they initiated? Comment ont-ils été initiés ?
+        -	What are best practices for having new technologies approved as part of national standards for WASH in schools / health care facilities? Quelles sont les meilleures pratiques pour faire approuver les nouvelles technologies dans le cadre des normes nationales pour le programme WASH dans les écoles / établissements de santé ?
+
+        3)	In plenary / Feedback / en plénière 
+        While still seated in cafés, plenary sharing on key questions Tout en restant assis dans les cafés, partage en plénière sur les questions clés
+        10 minutes: 2 minutes per café
+
+        4)	Closing remarks / Remarques de clôture 
+        (Simon Zbinden, Swiss Agency for Development and Cooperation)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Participants leave the session with ideas and inspiration about emerging technologies for WASH in institutions and processes for validating their applicability. Their inputs and experiences leads to a concept for country-level technology approval processes and e-compendiums and inspire potential for such collaboration.  '
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

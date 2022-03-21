@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 296ded26-4232-4f3e-b535-32e443e4c90e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    b05102ca-6f71-4274-9d62-96ca2997fef8: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    f50ad155-9238-48f6-9353-7d6f3914a215: taxonomy_term
+    6ab61eea-936d-4d3d-9185-1a4f2d50860b: taxonomy_term
+    6880a147-1a16-4a34-996b-6d733232cae3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Portuguese language cooperation in water supply and sanitation - technical, social, environmental and regulatory perspectives'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/portuguese-language-cooperation-water-supply-and-sanitation-technical-social-environmental-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The Session intends to reflect on the role of international cooperation to the achievement of SDG6 taking into consideration concrete projects existing in Portuguese speaking countries. This session will address the technical, social, environmental, and regulatory perspectives of these countries, with a view to achieving the SDGs, in particular the SDG6.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: 70d00e937d90fc41e711dacc508d1727
+  field_code:
+    -
+      value: SS51
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: b05102ca-6f71-4274-9d62-96ca2997fef8
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: f50ad155-9238-48f6-9353-7d6f3914a215
+    -
+      entity: 6ab61eea-936d-4d3d-9185-1a4f2d50860b
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1st session
+        05 min – Introduction by moderator
+        12 min – The case of Angola
+        12 min – The case of Guinea-Bissau
+        12 min – The case of Sao Tome 
+
+        2nd session
+        05 min – Introduction by moderator
+        12 min – The case of Mozambique
+        12 min – The case of Cape Verde
+        12 min – The case of Brazil
+        05 min – Close of the session by moderator
+      format: plain_text
+  field_salle:
+    -
+      entity: 6880a147-1a16-4a34-996b-6d733232cae3

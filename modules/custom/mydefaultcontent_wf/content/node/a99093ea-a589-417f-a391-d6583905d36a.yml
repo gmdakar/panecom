@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a99093ea-a589-417f-a391-d6583905d36a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    3a3ab175-a356-49e1-84cf-efea8e3b8eea: taxonomy_term
+    7d524359-4619-4cb8-a180-a965056a9360: taxonomy_term
+    d4d9be67-7d33-4496-9347-66963e58aaca: taxonomy_term
+    0d07098d-7b35-4250-8044-1a204dbfb8b5: taxonomy_term
+    32ac56ba-ee63-4088-8852-99b50b8fe9ab: taxonomy_term
+    3fb384e8-41df-4c19-8db4-dab4587dc686: taxonomy_term
+    c803894d-395d-4f55-9343-c067f88da371: taxonomy_term
+    5be4fea0-9bf0-4073-9736-dafb7d4c9c52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'One Water One Health / Opportunité coûts- avantages de fusionner l’approche One Health du cycle de l’eau en intégrant les risques humains et écosystémiques aux mélanges chimiques et aux expositions chimiques de l’eau'
+  created:
+    -
+      value: 1647485815
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/one-water-one-health-opportunite-couts-avantages-de-fusionner-lapproche-one-health-du-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Les professionnels de l'eau doivent de plus en plus s'attaquer à la pollution par les substances chimiques émergentes (CEC), notamment aux effets des faibles doses et des mélanges sur les indicateurs précoces de la voie toxique, qui ne peuvent être évalués par les méthodes analytiques traditionnelles basées sur les substances. 
+        Les outils de surveillance basés sur l'effet (EBM) (également connus sous le nom de bioessais), démontrés dans des projets internationaux à grande échelle, peuvent maintenant fournir une meilleure détection et un meilleur biocaptage du mode d'action toxique précoce déclenché par des mélanges d'EDC ou de DBP, même à de faibles doses d'exposition. L'EBM dans la planification de la sécurité de l'eau (WSP) peut maintenant être appliquée à différentes parties du secteur de l'eau : de la source au robinet, mais aussi par exemple dans les stations d'épuration des eaux usées, et dans les programmes de réutilisation de l'eau. 
+
+        Les gouvernements et les institutions telles que l'OMS et l'UE sont fortement incités à revoir les cadres de gestion de la qualité de l'eau dans divers domaines politiques et à intégrer les plans de sécurité de l'eau de l'OMS.
+
+        En favorisant l'interaction entre les opérateurs et les décideurs du monde entier, le projet de validation de principe (POC) 2018-2022 vise à accroître les connaissances et à stimuler l'échange et la mise en œuvre de ces stratégies de surveillance/diagnostic innovantes, plus protectrices, prédictives et rentables pour mieux piloter les processus de traitement de l'eau et les options d'abaissement afin de mieux protéger la santé humaine et des écosystèmes en ce qui concerne les mélanges chimiques dans l'eau.
+
+        Ce projet POC vise à démontrer un cadre innovant d'évaluation de la qualité et de la sécurité de l'eau dans un cadre pratique, et à soutenir les experts de l'eau dans la mise en œuvre de l'EBM dans des programmes de surveillance intégratifs et rentables pour détecter les problèmes émergents de qualité de l'eau. Des conseils d'utilisation seront fournis aux opérateurs et/ou aux autorités locales sur la sélection des bioessais, l'interprétation des données des bioessais, la mise en place d'une aide à la décision pour les pratiques d'exploitation sur la mise à niveau/amélioration de la chaîne d'approvisionnement. 
+
+        En outre, une sélection d'études de cas démonstratives dans plus de 15 pays, comprenant plus de 40 systèmes/usines de traitement de l'eau conventionnels et alternatifs, démontrera la mise en œuvre d'une combinaison d'EBM dans les plans de sécurité de l'eau pour évaluer l'efficacité des étapes de traitement. En fin de compte, cela conduit à une mise en œuvre plus efficace de la gestion axée sur les résultats dans les plans de sécurité de l'eau dans le secteur mondial de l'eau.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485815
+      guid: ''
+      hash: a68c7b236200d4ffc2ebe1fb8992fd08
+  field_code:
+    -
+      value: SS39
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 3a3ab175-a356-49e1-84cf-efea8e3b8eea
+    -
+      entity: 7d524359-4619-4cb8-a180-a965056a9360
+    -
+      entity: d4d9be67-7d33-4496-9347-66963e58aaca
+    -
+      entity: 0d07098d-7b35-4250-8044-1a204dbfb8b5
+    -
+      entity: 32ac56ba-ee63-4088-8852-99b50b8fe9ab
+    -
+      entity: 3fb384e8-41df-4c19-8db4-dab4587dc686
+    -
+      entity: c803894d-395d-4f55-9343-c067f88da371
+  field_organisateurs_text:
+    -
+      value: 'One Environmental Health - Intelligence & Governance '
+      format: basic_html
+  field_programme:
+    -
+      value: '3 x 10'' + 10'' Q&A + 5'' Take Home messages'
+      format: plain_text
+  field_salle:
+    -
+      entity: 5be4fea0-9bf0-4073-9736-dafb7d4c9c52

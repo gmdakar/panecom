@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6a0ec66d-a3b5-41cb-bc4f-5161fde6884d
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    817bf412-b3d8-4176-86c7-2df63d72cfc8: taxonomy_term
+    83f449bc-c1bd-480e-ba81-d475a1817c2c: taxonomy_term
+    8e60c11a-3fcf-4b55-936f-b00776960a8f: taxonomy_term
+    fa631d9a-51eb-4de3-bc9d-0c521df73d9b: taxonomy_term
+    d335ba3b-4dd3-4899-a302-4936691b3630: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Plate- forme de dialogue sur le financement de l''eau'
+  created:
+    -
+      value: 1647484963
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/plate-forme-de-dialogue-sur-le-financement-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "La session vise à faire entendre la voix des communautés rurales, des jeunes, des maires et d'autres acteurs locaux, ainsi que du secteur financier, afin d'inclure leurs perspectives dans le dialogue sur le financement de l'eau.  
+
+        Ces perspectives partagées peuvent contribuer à façonner et à influencer les initiatives mondiales, notamment la Table ronde sur le financement de l'eau et l'Observatoire mondial de l'OCDE sur le financement de l'approvisionnement en eau, de l'assainissement et de la sécurité de l'eau. "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484963
+      guid: ''
+      hash: 5ef1e8aa8400bedd0deaef64a7f927a7
+  field_code:
+    -
+      value: 4A7
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+    -
+      entity: 817bf412-b3d8-4176-86c7-2df63d72cfc8
+    -
+      entity: 83f449bc-c1bd-480e-ba81-d475a1817c2c
+    -
+      entity: 8e60c11a-3fcf-4b55-936f-b00776960a8f
+    -
+      entity: fa631d9a-51eb-4de3-bc9d-0c521df73d9b
+  field_organisateurs_text:
+    -
+      value: 'OECD '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        World Bank
+        Solidarites Intl.
+        US Dept of Agriculture
+        UN Capital Development Fund
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'Table ronde sur le financement de l''eau'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Remarques d'ouverture (5')
+        - OCDE
+        3 tours de discussion interactive avec modérateur (25' chacun)
+        1.	Quelles sont les voix et les perspectives clés qui peuvent apporter de la valeur aux dialogues sur le financement de l'eau et de l'assainissement, mais qui peuvent être négligées ou ne pas être habituellement engagées ?
+        2.	Partager des pratiques inspirantes pour identifier, connecter et s'engager avec ces acteurs au niveau local, national ou mondial.
+        3.	Comment pouvons-nous apporter efficacement ces idées et perspectives dans les initiatives mondiales en cours, telles que la Table ronde sur le financement de l'eau, l'Observatoire mondial de l'OCDE et la Conférence des Nations Unies sur l'eau en 2023, entre autres ? 
+        Remarques de clôture (10')
+        - Principales conclusions et actions pour aller de l'avant.
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "Des idées clés sur les voix importantes (et souvent manquantes) qui doivent être reflétées dans les dialogues mondiaux sur le financement de l'eau et de l'assainissement afin de fournir un plus large éventail de perspectives.
+
+        Des exemples de moyens pratiques pour identifier, connecter et engager un plus large éventail de perspectives afin de s'assurer qu'elles puissent contribuer à des initiatives mondiales plus larges, notamment la Table ronde sur le financement de l'eau, l'Observatoire mondial de l'OCDE sur le financement de l'approvisionnement en eau, de l'assainissement et de la sécurité de l'eau et la Conférence des Nations unies sur l'eau en 2023."
+      format: basic_html
+  field_salle:
+    -
+      entity: d335ba3b-4dd3-4899-a302-4936691b3630

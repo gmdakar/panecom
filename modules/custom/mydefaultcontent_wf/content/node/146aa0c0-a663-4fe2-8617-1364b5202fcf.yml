@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 146aa0c0-a663-4fe2-8617-1364b5202fcf
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    97c8a523-eba7-4673-8f25-2f12390a7165: taxonomy_term
+    6c2a4067-50d3-4399-9037-283d909c93bc: taxonomy_term
+    def7b890-46c5-4a39-b107-097791593faf: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Leveraging knowledge sharing platforms'
+  created:
+    -
+      value: 1647484856
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/leveraging-knowledge-sharing-platforms
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Progressing on the World Water Challenge and Leveraging Knowledge Sharing Platforms '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484856
+      guid: ''
+      hash: c905f2815247dd01469906e480e8edb0
+  field_code:
+    -
+      value: '4E6'
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 97c8a523-eba7-4673-8f25-2f12390a7165
+    -
+      entity: 6c2a4067-50d3-4399-9037-283d909c93bc
+    -
+      entity: def7b890-46c5-4a39-b107-097791593faf
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+  field_organisateurs_text:
+    -
+      value: 'BRGM '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Korean Ministry for environment, Pacific Institute (tbc), Solidarités NGO, UNESCO, Youth '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |
+        * Sustainable co-operative platform to drive implementation of innovative technologies and well-developed policies together on-site (Korean Ministry)
+        * the Water Action Hub, a collaboration and knowledge-sharing platform for companies, NGOs, agencies, and technology providers (Pacific Institute - tbc)
+        * OCTOPUS : Operational Collaborative Tool of Ongoing Practices in Urgent Sanitation (Solidarités)
+        * proposal of indicators for the SDG 6 (UNESCO)
+        * “freeing” mobile application to collect water network failure data for asset management (Altereo)
+        * the voice of the Youth
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        1H - Presentations of the different tools / ideas 
+        30 min – Panel discussion to progress towards a more integrative worldwide approach of sharing knowledge and innovations 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Finding solutions for designing a joint cooperative platform providing opportunities for demand-driven science and knowledge-based solutions and innovation providers -quicker uptake of innovations by actors'
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

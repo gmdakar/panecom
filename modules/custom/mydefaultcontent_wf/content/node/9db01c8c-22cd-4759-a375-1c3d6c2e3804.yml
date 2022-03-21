@@ -1,0 +1,121 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9db01c8c-22cd-4759-a375-1c3d6c2e3804
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    28bf8821-9b0d-4595-b838-c5fda67c226f: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    aff1d655-db15-4ead-9b75-778898daa569: taxonomy_term
+    13443a68-8094-4b23-9042-af006b2be8f0: taxonomy_term
+    516a1797-2885-4fc9-aad8-274cb7ab5f7b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'NORMALISATION DANS LE SECTEUR DE L’ASSAINISSEMENT'
+  created:
+    -
+      value: 1647486187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/normalisation-dans-le-secteur-de-lassainissement
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Dans le cadre du 9e Forum Mondial de l’Eau, l’association Sénégalaise de Normalisation en collaboration avec ses partenaires techniques et financiers, désire organiser un side-event. Ce dernier portera sur le thème : « La normalisation dans le secteur de l’assainissement».
+        Ce Side-event abordera les questions relatives aux normes nationales et internationales existantes ou à mettre en place et le partage de l’expérience du Sénégal dans la normalisation du sous-secteur de l'assainissement.
+        Ainsi, cette exposition a pour objectifs  de faire connaitre les normes, de mieux montrer leur importance dans le secteur et de promouvoir leur appropriation par les acteurs et leur utilisation dans la règlementation et les politiques publiques nationales.
+        Il sera un moment d’échanges et de partage entre l’ASN et ses partenaires TUV-SUD, ANSI et la Fondation Bill and Melinda Gate et aussi d’information pour tous les acteurs de l’assainissement à travers le monde.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486187
+      guid: ''
+      hash: 79ba6d81b22913491a181957bd486dfb
+  field_code:
+    -
+      value: SE11
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Attiya Sayyed - Project Consultant, International Development- ANSI
+        Sun Kim- Senior Program Officer BMGF
+        Mr Omar Sene, Directeur de l'Assainissement
+        Mr Doulaye Kone- Deputy Director at Bill & Melinda Gates Foundation
+        Mr Ibra Sow- President de l'Association Panafricaine des Acteurs de 
+        l'Assainissement Autonome (APAA).
+        Mr Alioune Ndoye-Maire de la Ville de Cayar
+        Mr Abdourahmane Ndione, Chiief Executive of Association Senegalaise de Normalisation
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 28bf8821-9b0d-4595-b838-c5fda67c226f
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: aff1d655-db15-4ead-9b75-778898daa569
+    -
+      entity: 13443a68-8094-4b23-9042-af006b2be8f0
+  field_organisateurs_text:
+    -
+      value: 'Association Sénégalaise de Normailisation'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Allocution d'ouverture : 3 minutes
+        Présentation de ASN par Abdourahmane Ndione : 10 minutes
+        Présentation de ANSI par Marianela Sanders : 10 minutes
+        Présentation de TUV SUD par Leslie McDermott : 10 minutes
+        Table ronde modérée avec six experts : 15 minutes
+        Séance de questions et réponses : 10 minutes
+        Récapitulation et clôture : 3 minutes
+      format: basic_html
+  field_salle:
+    -
+      entity: 516a1797-2885-4fc9-aad8-274cb7ab5f7b

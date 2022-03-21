@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 67bb4a91-1397-4f07-b274-f2fc1bc3526f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    a2e2d6ec-024c-4adf-b394-8dc79a54127a: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    332bb6df-fab6-43cf-9544-6dce11234aae: taxonomy_term
+    02bee0f5-0163-46eb-a699-dd5f12899bfd: taxonomy_term
+    6de27f58-58cd-4d25-b179-846f1aaf40ac: taxonomy_term
+    84322d21-5b6e-4b43-a75a-0d436a049fa2: taxonomy_term
+    0afc3eec-4d09-4bde-b7d1-f0086005516b: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''accès à l''eau potable et à l''assainissement de l''urgence au développement en situation de crise.'
+  created:
+    -
+      value: 1647484935
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lacces-leau-potable-et-lassainissement-de-lurgence-au-developpement-en-situation-de-crise
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Dans les situations de crise (conflit, catastrophe, épidémie), de plus en plus longues et complexes, il est nécessaire de lier la réponse humanitaire d''urgence à une réponse plus durable dès que le contexte le permet. Ce processus, appelé Nexus Humanitaire-Développement, nécessite une bonne analyse de la situation, une réponse pertinente définie avec la population et une capacité de suivi dans le temps. Le Nexus implique une coopération avec plusieurs types d''acteurs nationaux et internationaux, complémentaires les uns des autres, dont les populations et leurs représentants dans le cadre des OMD eau, assainissement et hygiène notamment. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484935
+      guid: ''
+      hash: 8ce23c11f327f25967f38f468c8b70a4
+  field_code:
+    -
+      value: 1A1
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a2e2d6ec-024c-4adf-b394-8dc79a54127a
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 332bb6df-fab6-43cf-9544-6dce11234aae
+    -
+      entity: 02bee0f5-0163-46eb-a699-dd5f12899bfd
+    -
+      entity: 6de27f58-58cd-4d25-b179-846f1aaf40ac
+    -
+      entity: 84322d21-5b6e-4b43-a75a-0d436a049fa2
+    -
+      entity: 0afc3eec-4d09-4bde-b7d1-f0086005516b
+  field_organisateurs_text:
+    -
+      value: 'Alain Boinet, Baptiste Lecuyot, Allassane Traoré'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Solidarités International (Alain Boinet, Baptiste Lecuyot, Allassane Traoré, Cristal), Epidémliogue RDC (Didier Bompangue Nkoko), ACF (Braem), CICR (Guillaume PierreHumbert), Cluster Wash Burkina Faso (Martina Rama)Un Samedi au Village (Perpétue Adité) Office National de l''Eau- ONEA (Ousma Pitroipa), Commission Européenne-DG ECHO (Luc Soenen), Agence Suisse pour le Développement et la Coopération-SDC (Marc André Bunzli), '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: 'La session sera basée sur des projets humanitaires et un important projet en cours de type Nexus pour les populations déplacées de force au Burkina Faso en raison de l''insécurité. Le projet a une durée de 2 ans et un budget de 3,8 millions d''euros. '
+      format: plain_text
+  field_programme:
+    -
+      value: 'Introduction modérateur 3 mn, vidéo 5 mn, état des lieux des crises et chiffres clés par rapport à l''OMD 6 5mn, eau et santé 5 mn, réponse d''urgence 5 mn, nexus Burkina Faso 10 mn, questions-réponses et débat avec le public 15mn, table ronde sur le financement 5mn, coordination des acteurs 5mn, questions-réponses et débat avec le public 15mn. Conclusion et messages politiques 5 mn. '
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Renforcement des liens avec la coordination eau-assainissement-hygiène de Dakar pour l''Afrique de l''Ouest et du Centre, avec le Global Wash Cluster et l''UNICEF, avec la feuille de route Wash, le projet Nexus Burkina Faso, avec le Partenariat français pour l''eau (PFE), la Coalition pour l''eau en vue de la Conférence des Nations unies sur l''eau en 2023. Contacts avec les collectivités locales et les entreprises présentes pour nouer des partenariats. Contact avec les médias et diffusion du 8ème Baromètre 2022 de l''eau, de l''hygiène et de l''assainissement publié par Solidarités International. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

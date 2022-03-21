@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b76991a-adf2-422e-a169-87089045a6dd
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    6757d9c4-2323-4c59-b3f9-d5cec821f00b: taxonomy_term
+    35ead728-1bd5-4bcc-9aea-cf51fdd79bb9: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    1c530cbc-7c5d-4738-aebf-901beabd1380: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mediterranean solutions from the 4th Mediterranean Water Forum, Malta, Dec 2021'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/mediterranean-solutions-4th-mediterranean-water-forum-malta-dec-2021-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The 4th Mediterranean Water Forum, held in Malta in December 2021, was a platform for exchanging and consolidating know-how and experiences in the field of water in the Mediterranean. It identified effective responses to ensure water security. This theme is of crucial importance for the Mediterranean where demographic changes, socio-economic challenges and the effects of climate change are constantly threatening water security. The Mediterranean process will attempt.
+        Based on the exchange of experiences during the Malta forum, best practices and technologies developed were identified to be presented as answers to the challenges related to water security in the region and beyond including
+        a) Water solutions inspired by regenerative nature with innovative operating models. 
+        b) A water efficiency monitoring tool, providing an audit and improvement of the hydraulic performance of water supply systems
+        c) Reconciliation of industrial growth with the preservation of water resources through the implementation of a "Circular Economy" program based on a strategy of optimizing consumption and the use of non-conventional waters 
+        d) Methodological guide for a technical assistance approach to perimeters irrigated by treated wastewater
+        e) World Observatory of non-conventional water resources and associated renewable energies whose aim is to complement the work of institutions by bringing research and application experiences to a wider audience.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: 0911ac12b37ad3943031d4e29b0b5bb5
+  field_code:
+    -
+      value: SS12
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 6757d9c4-2323-4c59-b3f9-d5cec821f00b
+    -
+      entity: 35ead728-1bd5-4bcc-9aea-cf51fdd79bb9
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: 1c530cbc-7c5d-4738-aebf-901beabd1380
+  field_organisateurs_text:
+    -
+      value: 'MEDITERRANEAN WATER INSTITUTE'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        13:30- 13:35 Welcome by Mr. Alain Meyssonnier, President of the Mediterranean Water Institute (IME)
+        13:35-13:40 Introductory remarks by Mr. Almotaz Abadi, Director General at the Secretariat of the Union for the Mediterranean (UfM)
+        13:40-13:50 Review of the 4th Mediterranean Water Forum in Malta by Mr. Alain Meyssonnier (EMI) and Mr. Almotaz Abadi (UfM)
+        13:50-14:20 Innovative solutions from the Malta Forum :
+        - Zineb Benjelloun, OCP Morocco, "Water challenges seen by an industrialist".
+        - Maha Alsalehi, EMWIS, "HYDROSA Project
+        - Michel Nalbandian, Eaux de Marseille Maroc, "Audit and improvement of the hydraulic performance of drinking water supply systems
+        - Octavi Quintana, PRIMA "International Cooperation" (tbc)
+        - Representative AECID, "Financing the water sector" (tbc)
+        14:20-14:35 Discussion (Q/R)
+        14:35-14:45 Synthesis of the Mediterranean session by Ms. Charafat Afailal, former Minister in charge of water in the Moroccan Government
+        14:45-14:50 Conclusion by Mr. Moez Allaoui, Director of the National Company of Exploitation and Distribution of Water of Tunisia (SONEDE)
+        14:50-15:00 Closing remarks by Mr. Loïc Fauchon, President of the World Water Council (WWC)
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

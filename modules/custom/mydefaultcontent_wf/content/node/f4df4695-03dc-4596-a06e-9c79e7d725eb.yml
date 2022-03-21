@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f4df4695-03dc-4596-a06e-9c79e7d725eb
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    7d3301b9-a963-418c-a43f-c01d52767e52: taxonomy_term
+    48b6c7ef-10d4-4e35-bfc8-b10cecedbf01: taxonomy_term
+    8a2b9cdb-0c69-45b5-96a8-50f1178f4b90: taxonomy_term
+    a74fb44e-add8-4382-8622-6fd43dfded87: taxonomy_term
+    694f84c0-56ee-425c-8d22-e76e9ea0fdea: taxonomy_term
+    2418a05f-c3b3-4fbe-828a-74b66c5149d0: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Global Observatory on Water and Peace, and its regional partner the Pole Eau Dakar'
+  created:
+    -
+      value: 1647493836
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/global-observatory-water-and-peace-and-its-regional-partner-pole-eau-dakar-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The Special session on the Global Observatory for Water and Peace will facilitate dialogue between politicians, diplomats, actors from the water as well as from the peace and security sector, and will present the Pole Eau Dakar- the West-African regional partner to the Global Observatory for Water and Peace. 
+
+        Guiding questions:
+         - How the development of a network of like-minded actors that put the emphasis on neutrality, multilateralism and science-policy interface like the GOWP can contribute to the Water and Peace agenda?
+         - What are the developments to date globally, regionally and nationally in terms of endorsing and using the potential of water for better cooperation ?
+        - How can the safe space assist in bridging different perspectives of a water related tension and in the use of water for peacebuilding? 
+        - How can bottom-up approaches be better integrated into the water and peace dialogue and how can the GOWP contribute to strengthen this approach?
+        - How the PED will assure the follow-up – in particular in Africa-  of the major initiatives in Dakar22 , and  report these developments to the 2023 UN water conference.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493836
+      guid: ''
+      hash: 8bff3403109e913e4ffc5e44dd397ac4
+  field_code:
+    -
+      value: HLP27
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 7d3301b9-a963-418c-a43f-c01d52767e52
+    -
+      entity: 48b6c7ef-10d4-4e35-bfc8-b10cecedbf01
+    -
+      entity: 8a2b9cdb-0c69-45b5-96a8-50f1178f4b90
+    -
+      entity: a74fb44e-add8-4382-8622-6fd43dfded87
+    -
+      entity: 694f84c0-56ee-425c-8d22-e76e9ea0fdea
+    -
+      entity: 2418a05f-c3b3-4fbe-828a-74b66c5149d0
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub '
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        The session starts with an opening by Dr. Danilo Türk, former President of Slovenia and Chair of the Global High-Level Panel on Water and Peace (3’), and an intervention by the Senegal Minister of Water and Sanitation, Mr. Serigne Mbaye Thiam (3’)
+
+        It is directly followed by a video (5’) on the Global Observatory for Water and Peace and its report. 
+
+        A first High-Level Panel roundtable among the four panels, and representatives of Spain, Finland and Switzerland will be moderated by Dr. Danilo Turk as chairman of the Global High Level Panel on Water and Peace to share their reflections on the pertinence of the GOWP to their work, and how its report could be of use to them, as all jointly prepare for the 2023 UN conference, and beyond to meet the challenges of the 21st century on transboundary waters  (30’)
+         - Representative of High-Level Panel on Water (4’)
+         - Representative of Water and Climate Coalition (4’)
+        -  Representative of the High-Level Panel on Water and Disasters (4’)
+        - Spain (4’)
+         - Finland (4’)
+        - Switzerland (4’)
+        - Representative of the African Ministers’ Council on Water (AMCOW) (4’)
+
+        The transition to the second panel will be through the introduction of  GWH director of the Symphony “Voices of the People, Way of Peace / Voix du Fleuve, Voie de la Paix”, a musical piece composed along the Senegal River to promote the voice of riparian populations. (7’)
+
+        The project is led together with OMVS leaders, musical personalities and experts in water management and climate change adaptation, focusing on listening to local populations and creating local jobs to strengthen peace in the basin. 
+
+        The second part of the session will focus on the Pole Eau Dakar, the west-African regional partner to the GOWP and an initiative set up by the Ministry of Water and Sanitation.  The session will be opened by a presentation of the Pole Eau Dakar  video or PowerPoint)  (7’)
+
+        Following the presentation, the GWH will moderate a second panel including decision makers, youth and civil society representatives. The moderator will invite the panelists to share their reflections regarding the potential for PED, to jointly follow up on the implementation of the Forum recommendations, given its structure and vision, and role as a regional partner of the GOWP, using the analytic and diplomatic skills of its global partners. 
+        -	High Commissioner of the OMVS (3’)
+        -	High Commissioner of the OMVG (3’)
+        -	Executive Secretary of the Forum  (3’)
+        -	Representative of Senegal Ministry of ECOWAS (3’)
+        -      Representative of civil society, Mr. Jean Bosco (3’)
+        -      Youth Representative (3’)
+        - Representative of the universities and researchers (3’)
+
+        Conclusions will be made by the moderator, GWH (5’) , and Minister Thiam (2’)
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

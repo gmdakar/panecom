@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 07882c0b-cf72-4b44-ac50-cd50138eb821
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    9dde80db-bf2c-430d-8e95-9d7484015c12: taxonomy_term
+    b6b7eaa2-6ab2-4324-a61a-cbe35405c210: taxonomy_term
+    8557a668-3c9f-4fa7-9f06-98c6140ebb9f: taxonomy_term
+    f69fd84f-6b22-4bc7-a2b9-71701bfe9397: taxonomy_term
+    cc0e7399-fd9a-44f8-b966-8506f8083c8f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Developing local actors’ capacity for water knowledge and experience'
+  created:
+    -
+      value: 1647484855
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developing-local-actors-capacity-water-knowledge-and-experience
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session focuses on examples of platforms and practices fostering the exchange of experiences and knowledge among local actors, and with the support of experts. Those include current initiatives related to water education, citizen science, local knowledge systems and water information centres, both online and physical.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484855
+      guid: ''
+      hash: 29222d189c7aa7de797ea06aabf946f7
+  field_code:
+    -
+      value: '4E4'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 9dde80db-bf2c-430d-8e95-9d7484015c12
+    -
+      entity: b6b7eaa2-6ab2-4324-a61a-cbe35405c210
+    -
+      entity: 8557a668-3c9f-4fa7-9f06-98c6140ebb9f
+    -
+      entity: f69fd84f-6b22-4bc7-a2b9-71701bfe9397
+  field_organisateurs_text:
+    -
+      value: 'UNESCO IHP '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Regional Centre for Training and Water Studies of Arid and Semi-Arid Zones (RCTWS), Egypt and Research Institute for Humanity and Nature (RIHN), Japan [to be confirmed] '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |
+        - Science - Education - Policy dialogue, to update and reform Africa's water sector
+        - Training in Dakar for the professional positions on Water, Hygiene & Sanitation project manager for humanitarian actions
+        - Humanitarian Water, Sanitation and Hygiene (WaSH) Master Degree at the German Jordanian University (GJU), Amman, Jordan
+        - Regional award of Water studies
+      format: plain_text
+  field_programme:
+    -
+      value: '3x15 min talks (2 on platform examples, 1 on citizen science), followed by discussion panel and interaction with public'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Possible means for achieving the World Water Challenge as foreseen, identification of contributers, expanded partnerships for participative capacity development actions '
+      format: basic_html
+  field_salle:
+    -
+      entity: cc0e7399-fd9a-44f8-b966-8506f8083c8f

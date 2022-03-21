@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3cb09b5a-c38e-4953-abee-5128c4fbf645
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    41db9d80-d1a0-441e-bdd0-60a59f90e226: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    21054272-5eaa-4faf-972a-7a3ff99c73b8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'MAER Journeys to the 9th World Water Forum, Theme: Water productivity at the heart of rural development'
+  created:
+    -
+      value: 1647486050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/maer-journeys-9th-world-water-forum-theme-water-productivity-heart-rural-development
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'In accordance with the orientations of the PRACAS which is the agricultural component of the PSE, the PNIASAN, the LPSDA, the PAP2A and the PASAD, the main challenge of the agricultural sector is to build a competitive, diversified and sustainable agriculture, to fight against poverty and to reach food and nutritional security of the populations. The objective is to show the level of productive water management in Senegal by coordinating the participation and strengthening the visibility of MAER. More specifically, the following sub-themes will be discussed Which strategies for the promotion of a national hydrographic network and the sustainable supply of productive water in the country? The securing of land to promote rural development; The development of developed land, surface water and groundwater; Mechanization to develop productive water for a diversified, productive, competitive and sustainable agriculture.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486050
+      guid: ''
+      hash: 0861346f1bf69ec9b41100494dcbecc7
+  field_code:
+    -
+      value: SE52
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'DBRLA, SAED, SODAGRI, DMER and other structures of the Ministry '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 41db9d80-d1a0-441e-bdd0-60a59f90e226
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Agriculture and Rural Equipment of Senegal (MAER)'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Presentations: 2 hours (each presentation is 15min), Closing: 15min'
+      format: plain_text
+  field_salle:
+    -
+      entity: 21054272-5eaa-4faf-972a-7a3ff99c73b8

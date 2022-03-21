@@ -1,0 +1,137 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b8393b9-e929-424d-b615-0a64f9930e78
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    c88fa5bf-2455-4c2a-82c1-a7de68fb13e9: taxonomy_term
+    afe1b005-c39a-4e8c-bbed-3f71935c97fd: taxonomy_term
+    ec3c8a94-fa12-4dff-ac03-e397f1074956: taxonomy_term
+    b385a194-af34-4b4b-a8ad-68e0ab785de1: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    cfe38ce0-cd5c-4053-b681-f13d64091b4a: taxonomy_term
+    ba0ecf66-909c-438c-ac78-7eea7c66a8b9: taxonomy_term
+    033f666e-ef60-46ea-8946-434ba9fca43c: taxonomy_term
+    ed735131-fb7c-4781-a97a-1b1789aef33b: taxonomy_term
+    7f8f6c47-4630-4d4a-ad40-198b84b322b7: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Improvement of the quality of agricultural products by taking into account the sustainable development through the control of water'
+  created:
+    -
+      value: 1647484837
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/improvement-quality-agricultural-products-taking-account-sustainable-development-through
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Diffuse pollution and food losses are increasingly frequent and have a negative impact on the reduction of poverty and hunger in our countries. Their reduction will contribute to the improvement of producers'' income, to the contribution to food security and to the creation of employment.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484837
+      guid: ''
+      hash: 3fef0cc462d639f8f43da42deb683bc2
+  field_code:
+    -
+      value: 2D3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c88fa5bf-2455-4c2a-82c1-a7de68fb13e9
+    -
+      entity: afe1b005-c39a-4e8c-bbed-3f71935c97fd
+    -
+      entity: ec3c8a94-fa12-4dff-ac03-e397f1074956
+    -
+      entity: b385a194-af34-4b4b-a8ad-68e0ab785de1
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: cfe38ce0-cd5c-4053-b681-f13d64091b4a
+    -
+      entity: ba0ecf66-909c-438c-ac78-7eea7c66a8b9
+    -
+      entity: 033f666e-ef60-46ea-8946-434ba9fca43c
+    -
+      entity: ed735131-fb7c-4781-a97a-1b1789aef33b
+    -
+      entity: 7f8f6c47-4630-4d4a-ad40-198b84b322b7
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Agriculture and Rural Equipment of Senegal'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'DGPRE_Ministry of Water and Sanitation, DPV_Ministry of Agriculture and Rural Equipment'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        Project 1: Mapping of water quality in the groundnut basin
+        Project 2: Innovative Regional Fruit Fly Management System in West Africa - SyRIMAO
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        15 minutes for the presentation of each project
+        Discussion: 30 minutes 
+        Discussion on the contributions: 30 minutes 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Expected results: Provision of innovative decision support tools for the reduction of diffuse pollution and food losses
+        Impacts and follow-up links with events: Taking into account climate change in agriculture for the preservation of natural resources
+        Post-Forum initiatives: Scaling up successful experiences in various environments, seeking funding.
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

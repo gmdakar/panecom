@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 376fa2d3-4864-49b5-bb44-35dfb53ebd0d
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    397eeaf1-88f3-4d8e-96a5-8daa93f42c05: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    5185e8b8-5ce4-4610-882d-a0e7ae05e716: taxonomy_term
+    04ad6be6-6053-4c91-81b9-fac75d48a497: taxonomy_term
+    fa900420-5caf-4250-b6be-43dd1fdf2a6e: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financing our future: shared funding mechanisms for managing shared water resources'
+  created:
+    -
+      value: 1647484841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financing-our-future-shared-funding-mechanisms-managing-shared-water-resources
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session provides an overview of how countries are financing the protection of their water resources (river, lakes, groundwater) from multiple funding sources. The session will share specific experiences in national and sub-national financing mechanisms from East and West Africa and Latin America. Participants will be encouraged to share their experiences related to fimancing during the discussion session to enhance the common understanding.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484841
+      guid: ''
+      hash: c79548d97c461c4a457932f0f565deca
+  field_code:
+    -
+      value: '3A3 '
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 397eeaf1-88f3-4d8e-96a5-8daa93f42c05
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: 5185e8b8-5ce4-4610-882d-a0e7ae05e716
+    -
+      entity: 04ad6be6-6053-4c91-81b9-fac75d48a497
+    -
+      entity: fa900420-5caf-4250-b6be-43dd1fdf2a6e
+  field_organisateurs_text:
+    -
+      value: |
+        GWP 
+        UNEP-DHI 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'World Bank (tbc)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        -	Project 1: OMVS: Funding IWRM and related social benefits at the transboundary level 
+        -	Project 2: Burkina Faso: National revenue system 
+        -	Project 3 : ADASA/Brazil: User/polluter pays / Payment for Environmental Services 
+        -	Project 4: Danone: Rethinking the IWRM continuum of investment to accelerate project scale and impact in Indonesia 
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        •	Opening & master of ceremony (GWP): 5 minutes
+        •	Keynote (UNEP): Global status of funding requirements for IWRM (based on SDG 6.5.1 reporting) (10 mins)
+        •	Panel presentations (see above) (5 mins each, total 25 mins):
+        User Pays / Polluter Pays principles and Payment for Environmental Services for ensuring water security and sustainable agricultural practices in water conflict basins.
+        Mobilizing financial resources for IWRM from water users in Burkina Faso.
+        financing of IWRM at the scale of the Senegal basin
+        Rethinking the IWRM continuum of investment to accelerate project scale and impact.
+
+        •	Panel response (World Bank, tbc) (5 minutes): A donor perspective on the panel discussion. 
+        •	Facilitated discussion (35 mins)
+        •	Conclusions (10 mins): reflections on funding IWRM from a national government perspective and call to action for funding IWRM to achieve the water-related SDGs.
+
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Key messages related to financing of IWRM based on exchange of lessons learned, summary document to be used as input for the next round of reporting on SDG 6.5.1'
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

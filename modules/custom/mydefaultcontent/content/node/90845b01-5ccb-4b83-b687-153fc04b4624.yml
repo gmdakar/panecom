@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 90845b01-5ccb-4b83-b687-153fc04b4624
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    a158c288-5fb5-46a1-9a6c-5167d414a574: taxonomy_term
+    4f5ea8fb-532f-4b79-99f5-b7ba666c3fef: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    3cabe026-79f8-45f9-a07c-92197d79d416: taxonomy_term
+    710c3182-a600-44fd-b44c-8d7b281c7651: taxonomy_term
+    bd18e7ca-c583-402a-930b-c750f5f63b0a: taxonomy_term
+    a5459454-4a87-426a-adca-ff3188f3db7b: taxonomy_term
+    894368c1-3c3b-43c1-916d-57ea168c8946: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Coopération transfrontalière, défis, enjeux et vision : l''exemple du RAOB'
+  created:
+    -
+      value: 1647484957
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cooperation-transfrontaliere-defis-enjeux-et-vision-lexemple-du-raob
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le rôle clé des infrastructures hydriques polyvalentes (IEP) dans le développement socio-économique et leur contribution à la sécurité de l'eau, de l'alimentation et de l'énergie, entre autres aspects essentiels.
+        -Le dialogue et la consultation sont essentiels pour le succès, la gestion des conflits potentiels et la durabilité des projets d'IPFM.
+        -L'importance de l'analyse des limitations, des externalités et des risques dans le processus de planification stratégique pour entreprendre une IPMM.
+         
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484957
+      guid: ''
+      hash: 9de0e7e36f37036f70759bc43fbe1b43
+  field_code:
+    -
+      value: 3D1
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a158c288-5fb5-46a1-9a6c-5167d414a574
+    -
+      entity: 4f5ea8fb-532f-4b79-99f5-b7ba666c3fef
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 3cabe026-79f8-45f9-a07c-92197d79d416
+    -
+      entity: 710c3182-a600-44fd-b44c-8d7b281c7651
+    -
+      entity: bd18e7ca-c583-402a-930b-c750f5f63b0a
+    -
+      entity: a5459454-4a87-426a-adca-ff3188f3db7b
+    -
+      entity: 894368c1-3c3b-43c1-916d-57ea168c8946
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+  field_organisateurs_text:
+    -
+      value: '  ANBO, OMVS, AMCOW, NBI, INBO,     ZRA, OMVG'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	AMCOW 
+        •	PIDA/AFDB
+        •	INBO
+               ZRA (Zambezi River Authority)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'Programme de développement régional durable pour les infrastructures transfrontalières liées à l''eau, défis actuels et futurs, stratégie commune '
+      format: plain_text
+  field_programme:
+    -
+      value: '"- 1 Conférencier principal - 15 minutes - 3 Conférenciers - 15 minutes chacun - Discussion en panel menée par un modérateur de session - 25 minutes - Conclusion de la session de 2 à 5 minutes"'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: '"- Présenter les défis et les réponses pour garantir les services d''eau, les tarifs abordables, la satisfaction des clients dans le contexte de la croissance démographique et du changement climatique. - Partager un ensemble de lignes directrices et d''outils d''évaluation utilisés par les développeurs, les opérateurs et les financiers pour augmenter la performance de durabilité des outils de coopération sur le continent - Mettre l''accent sur les nouveaux défis et l''approche adaptative qui doivent être promus avec les partenaires et les membres."'
+      format: basic_html
+  field_salle:
+    -
+      entity: fb92c633-9171-4bb7-a5e5-6e7cdc3c7d9a

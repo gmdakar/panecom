@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e7afc253-30ae-4ce1-8849-8c4e6807269a
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    ec737af9-8eac-4ec9-b650-0b465e3e403d: taxonomy_term
+    a81ab489-0c84-4754-a5aa-495e07a3d099: taxonomy_term
+    76854d15-c274-4e3c-a16e-8226c3e0226d: taxonomy_term
+    84efa82a-c112-4e1f-aa0b-56fc60d6e8dc: taxonomy_term
+    5f95a59d-0d53-46f4-bd1c-b4c5328105cf: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le Développement rural  pour renforcer la résilience face aux changements globaux'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-developpement-rural-pour-renforcer-la-resilience-face-aux-changements-globaux-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La raréfaction des ressources   en eau  est un phénomène qui s’intensifie de plus en plus sous l’effet, de la forte pression sur l’eau et le changement du climat impactant  principalement, les communautés rurales les plus vulnérables. Ces dernières sont dépendantes de la ressource hydrique dans leurs activités socio économiques. 
+        De plus, les besoins réels de la population rurale vulnérable ne sont pas réellement pris en compte et suffisamment représentés, lors de la prise de décision concernant les projets d’investissement hydro-agricoles et de développement des territoires. 
+        Aussi, cette session thématique spéciale a pour objectif, de mettre l’accent sur la nécessité d’assurer un développement rural tenant compte des besoins réels des populations  vulnérables, souvent incapables de faire face aux changements globaux. 
+        Elle permettra également :
+        ?	De présenter les programmes et les stratégies sectorielles du Maroc visant le renforcement de la résilience des populations face aux aléas du climat  (le programme d’Approvisionnement en eau potable et d’irrigation 2020-2027,  la stratégie Génération Green 2020-2030, plan national d’aménagement des bassins versants, INDH……)
+        ?	De mettre l’accent sur la nécessité d’améliorer la gestion de l’eau à l’échelle locale, afin de contribuer au renforcement de la résilience de la population rurale, améliorer leurs conditions de vie et réduire leur niveau de pauvreté.
+        ?	De présenter de bonnes pratiques de conservation de l’eau et des sols
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 67969c755a924c98c91a67bff738d927
+  field_code:
+    -
+      value: SS15
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: ec737af9-8eac-4ec9-b650-0b465e3e403d
+    -
+      entity: a81ab489-0c84-4754-a5aa-495e07a3d099
+    -
+      entity: 76854d15-c274-4e3c-a16e-8226c3e0226d
+    -
+      entity: 84efa82a-c112-4e1f-aa0b-56fc60d6e8dc
+    -
+      entity: 5f95a59d-0d53-46f4-bd1c-b4c5328105cf
+  field_organisateurs_text:
+    -
+      value: 'Ministère de l''Equipement et de l''Eau/Direction Générale de l’Eau '
+      format: basic_html
+  field_programme:
+    -
+      value: 'Programme en cours d''élaboration en coordination avec les partenaires   '
+      format: plain_text
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

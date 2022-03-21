@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: feeds_feed
+  uuid: 590abb12-cc22-44f2-a5b4-1d78f716a332
+  bundle: migrate_agenda_fr_
+default:
+  title:
+    -
+      value: 'Migrate feeds OTS (fr)'
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1646830371
+  imported:
+    -
+      value: 1647484969
+  next:
+    -
+      value: -1
+  queued:
+    -
+      value: 0
+  source:
+    -
+      value: 'private://feeds/Copy of OTS - French Version_19.csv'
+  item_count:
+    -
+      value: 86

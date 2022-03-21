@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a1fbf6f6-c766-4941-948a-5104de377367
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    9b5568cb-023a-45ef-a067-d3692404d21f: taxonomy_term
+    5d8ced2b-9ea8-40e5-a6a6-7d9bf9a43707: taxonomy_term
+    b0aa1605-d8a8-4642-a8a4-f0d058ad6663: taxonomy_term
+    79eb5ca7-949d-491e-8033-2711a959e68e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'From Bonn to Dakar – Accelerating Cross- sectoral SDG 6 Implementation Towards 2030'
+  created:
+    -
+      value: 1647486050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/bonn-dakar-accelerating-cross-sectoral-sdg-6-implementation-towards-2030
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session will bring together key stakeholders of the different groups able to accelerate action: governments, multilateral organizations, UN system and MGoS. The Bonn Key Messages and Recommendations and their development during the Water Dialogues will be briefly presented and outlined how they fit into the Dakar Declaration. A discussion will allow to exchange on the necessary changes to implement cross-sectoral action and engage with other sectors, and to identify priority fields of action up to 2023 and 2030. An outlook towards the next official preparatory conference, the Asia-Pacific Water Summit in April in Kumamoto, will conclude the session.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486050
+      guid: ''
+      hash: 53d0e10432283c2dfa6505ee92d823dc
+  field_code:
+    -
+      value: SE43
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Speakers (tbc): Rashid Mbaziira (AMCOW ES), Abdoulaye Sène (Co-President of the 9th World Water Forum International steering committee, Senegal), Kenzo Hiroki (Representative Asia-Pacific Water Summit), Kobie Brand (ICLEI), Francis Daniel Bougaire (Water Coordination and Partnerships Division Manager, AFDB), Frank Rutabingwa (UN ECA, responsible for UN-Water Regional Level Coordination), Arlette Soudan-Nonault (Minister for Environment, Sustainable Development and the Congo Basin; Republic of Congo);
+        Moderator: tbc
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 9b5568cb-023a-45ef-a067-d3692404d21f
+    -
+      entity: 5d8ced2b-9ea8-40e5-a6a6-7d9bf9a43707
+    -
+      entity: b0aa1605-d8a8-4642-a8a4-f0d058ad6663
+  field_organisateurs_text:
+    -
+      value: 'GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        - Welcome by Moderator - 3 min
+        '- Recap: Bonn Water Dialogues (Explainer video incl. graphic recordings) - 5 min
+        '- Introduction from Bonn to Dakar and onwards – Where do we stand? (5 min)
+        --> Overview: Bonn Water Dialogues and resulting Key Messages and Recommendations
+        --> Vision towards 2023 Water Conference
+        '- Taking up the Bonn Key Messages (5 min)
+        --> Key points from the Bonn Dialogues for Dakar Declaration
+        --> Role of WWF Dakar as official preparatory conference for Mid-Term Review 2023 
+        '- Moderated high-level round-table with participants from all stakeholder groups (30-32 min)
+        --> Possible questions: What is needed to accelerate best cross-sectoral practices in countries and globally?; What should be the 3 priorities to make decisive progress until 2023?; Whats needs to change in the approach to accelerating action towards 2030 in your constituence? In others?
+        '- Outlook – 2023 and beyond: From accelerated action to relevant impact (5 min)
+        '- Concluding remarks (5 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 79eb5ca7-949d-491e-8033-2711a959e68e

@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f68888d7-0ec7-47f1-aea1-129e62e7433a
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    da7a0fb1-7dcc-4444-a84d-09b3f47280d5: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    fb94b11c-5f76-44b6-8e7f-7b8e9287b0f9: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    40e3dd07-2c94-4f2d-9e75-027d3b492457: taxonomy_term
+    ec5696dd-c983-4e15-9a19-cbfd5f789dfc: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Blended Water Finance to Accelerate SDG Compliance: keys for success'
+  created:
+    -
+      value: 1647484850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/blended-water-finance-accelerate-sdg-compliance-keys-success
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Scaling up water financing is needed, especially in emerging and developing countries. Blended Finance can play an important role in that matter. This session sheds light on the main attributes that are commonly associated with successful Blended Finance projects in the water sector, distinguishing between grid systems under scope of water utilities and off grid ones, while looking to identify how the different actors can contribute to scale it up in the sector. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484850
+      guid: ''
+      hash: 161fa00fb6efeb3114dd34bb8467c034
+  field_code:
+    -
+      value: 4A2
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: da7a0fb1-7dcc-4444-a84d-09b3f47280d5
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: fb94b11c-5f76-44b6-8e7f-7b8e9287b0f9
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: 40e3dd07-2c94-4f2d-9e75-027d3b492457
+    -
+      entity: ec5696dd-c983-4e15-9a19-cbfd5f789dfc
+  field_organisateurs_text:
+    -
+      value: "CAF\_and Aqua for All"
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'World Bank, UN Capital Development Fund, OECD'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: 'To be determined'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Opening (5 min): World Water Council (WWC) Representative
+        Keynote speaker 1 (10 min): Alex Money, consultant WWC, presents: Common Features of Successful Blended Finance Projects
+        Keynote speaker 2 (10 min): Director Aqua for All
+        Panel (60 min):  i)MDB/CAF; ii) Government; iii) Private Bank/ Sidian Bank; iv) International NGO and/or Private Investor
+        Closing (5 min): To be determined
+         
+        Moderator: host/co-host
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Disseminate an analytic piece of work sponsored by the WWC'
+      format: basic_html
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

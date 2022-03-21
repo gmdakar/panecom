@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.programme.field_code
     - field.field.node.programme.field_date
     - field.field.node.programme.field_duree
+    - field.field.node.programme.field_expected_speakers
     - field.field.node.programme.field_groupes_d_actions
     - field.field.node.programme.field_horaire
     - field.field.node.programme.field_legende
@@ -56,6 +57,7 @@ hidden:
   field_code: true
   field_date: true
   field_duree: true
+  field_expected_speakers: true
   field_groupes_d_actions: true
   field_horaire: true
   field_legende: true

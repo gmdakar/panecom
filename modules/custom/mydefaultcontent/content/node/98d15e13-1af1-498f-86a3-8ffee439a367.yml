@@ -1,0 +1,175 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 98d15e13-1af1-498f-86a3-8ffee439a367
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    70c5b503-a4b4-42b7-bee4-5f2bb84b09dd: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    d8cc5071-d877-4631-83a7-188478ac2b91: taxonomy_term
+    d714e2d2-27b9-4b8e-931f-0cd31c20469f: taxonomy_term
+    7c2aca21-4f54-42ce-9684-546cb0e2485e: taxonomy_term
+    b4b99a5f-e33b-476b-aaff-653722468f07: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Responses to have compliant sanitation systems that meet the needs of users and compliance with standards'
+  created:
+    -
+      value: 1647484829
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/responses-have-compliant-sanitation-systems-meet-needs-users-and-compliance-standards
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The response to meeting the need for sanitation systems is limited by their adaptability and may not meet environmental sustainability requirements. Many solutions are being shared around the world to address this situation, despite the intensity of the advocacy. Communities are eager to see, at long last, this conundrum properly addressed. During this World Water Forum, several answers including, among others expected at this World Water Forum, the best technologies responding to the site constraints will be made available by the world''s experts.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484829
+      guid: ''
+      hash: 761d503b19a661050642bd3a4f77736b
+  field_code:
+    -
+      value: 1B4
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 70c5b503-a4b4-42b7-bee4-5f2bb84b09dd
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: d8cc5071-d877-4631-83a7-188478ac2b91
+    -
+      entity: d714e2d2-27b9-4b8e-931f-0cd31c20469f
+    -
+      entity: 7c2aca21-4f54-42ce-9684-546cb0e2485e
+    -
+      entity: b4b99a5f-e33b-476b-aaff-653722468f07
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+  field_other_organizers_text:
+    -
+      value: 'African Water and Sanitation Association (AAEA) - German Water Partnership (GWP) - AMCAOW - Bill and Melinda Gate Foundation - AFD '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |
+        Coordonnateur de la session, 
+        Dr Papa Samba DIOP, CT/DG ONAS – Président du Conseil Scientifique et Technique de l’association africaine de l’eau et de l’assainissement (AAEA) papsambadiop@gmail.com 
+        1.	Le conférencier principal ou Keynote speaker en la personne de Mme Daniel Pedi, FBMG (anglophone, Etats Unis) Danielle.Pedi@gatesfoundation.org
+        2.	Le modérateur en la personne de Dr Dennis MWANZA, Chief of Party, Gender Aware Sustainable WASH 
+                        dennis.mwanza@dt-global.com
+        •	Les conférenciers porteurs de projets :
+        1.	M. Eric Judenne 
+        eric.judenne@suez.com ;
+        2.	Dr. Papa Samba Diop
+        papsambadiop@gmail.com;
+        3.	Monsieur Cheikh Mor Mbacké
+        cheikh.mbacke@txh2o.ca
+        4.	Mouhamadou GUEYE
+        mouhamadou.gueye@onas.sn
+
+        •	Les rapporteurs
+        1)	Dr. André NGUESSAN
+        Directeur chargé de la planification ONAD de Cote d’ivoire
+        nguessandre@yahoo.fr
+        a.nguessan@onad.ci
+        2)	Dr. Christine FAYE 
+        christineyafe@gmail.com
+        3)	PhD Lungi ZUMA
+        Directrice, Ethekwini municipality
+        Lungi uma@durban.gov.za
+        LUNGIZWA.Zuma@durban.gov.za
+
+        •	Les experts de divers horizons ont été invités selon les contacts disponibles et plusieurs ont déjà procédé à leur inscription
+        •	Les participants potentiels :
+        •	Dr Doulaye Koné ;
+        •	Dr Moustapha Sène
+        •	Mr Mouhamadou Gueye
+        •	Mme Géraldine Lopmo
+        •	Pr Yacouba Konatè
+        •	Pr Kourfia Diawara
+        •	Mme Maïmouna Dione
+        •	Mme Merry Diop
+        •	Dr Malal Touré
+        •	Phd Teddy Gordon
+        •	Dr Siméon Kenfack
+        •	Dr Mbaye Mbéguéré
+        •	Mr Jawad Jillali
+        •	Mr Abdrahmane Dembélé
+        •	Mr Mamadou Doumbia
+        •	Pr Maady Cissé
+        •	Mme Yacine Djigo
+        •	Mr Theophane Boutrolle
+        •	Madame OUATTARA née KABORE Fatoumata 
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        The timing of the session is as follows:
+        - Opening by the coordinator of the organization of the thematic session and reminder of some rules, in 5 minutes;
+        - Presentation of the general theme 1. B4 the KEYNOTE SPEAKER and it will be established the link with the key messages established by the speakers through the projects carried, for a duration of 5 mn;
+        - Presentation of the relevant projects selected at the end of the work of the Forum Groups (including those of the contributors) and of the labelled projects related to the theme for a total duration of 20 minutes;
+        - Remarks on these projects and the theme by the moderator for 5 minutes. The moderator will pose some questions to frame the interventions;
+        - Interactive discussions with the experts and all the participants under the guidance of the moderator, for a duration of 45 minutes;
+        - Synthesis by the Keynote speaker, in 5 minutes, of the discussions and key points to remember in order to provide answers to the various concerns raised in order to provide a basis for writing the reports;
+        - Closing by the coordinator of the organization of the thematic session, in 5 minutes.
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        The reports should be well written in a balanced style to better inform the discussions and commitments of policy and funding partners. To this end, the scientific pole could propose a dedicated template that will facilitate the synthesis work of the pilot groups and others.
+        This is an interesting prerequisite to ensure the follow-up of the impact of the responses on the major decisions that will be taken on the one hand and the follow-up of their implementation after the forum by the dedicated team and the civil forum organizations.
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

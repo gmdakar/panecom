@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f8114eb-e275-4975-9c60-903d3f22148f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    2f851822-1957-40d0-b11a-97082ab9c2ee: taxonomy_term
+    50860541-8eee-45b2-8ba0-9167ce149df0: taxonomy_term
+    9bf634e7-c424-493e-88d8-37ee821af86c: taxonomy_term
+    96c8be48-9f98-4e1f-8d0b-bdc572eb7d41: taxonomy_term
+    520f6bc4-66c9-4117-8428-ccbe2653fe53: taxonomy_term
+    26851f79-88dd-4a0c-b281-e82dd634e10a: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Observatoire mondial de l’eau et de la paix, et son partenaire régional le Pôle Eau Dakar'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/observatoire-mondial-de-leau-et-de-la-paix-et-son-partenaire-regional-le-pole-eau-dakar-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La session spéciale sur l'Observatoire mondial de l'eau et de la paix facilitera le dialogue entre les politiciens, les diplomates, les acteurs du secteur de l'eau ainsi que de la paix et de la sécurité, et présentera le Pôle Eau Dakar - le partenaire régional ouest-africain de l'Observatoire mondial de l'eau et de la paix. 
+
+        Questions directrices :
+         - Comment le développement d'un réseau d'acteurs partageant les mêmes idées et mettant l'accent sur la neutralité, le multilatéralisme et l'interface science-politique comme le GOWP peut contribuer à l'agenda Eau et Paix ?
+         - Quels sont les développements à ce jour au niveau mondial, régional et national en termes d'approbation et d'utilisation du potentiel de l'eau pour une meilleure coopération ?
+        - Comment l'espace sécurisé peut-il aider à rapprocher les différentes perspectives d'une tension liée à l'eau et à l'utilisation de l'eau pour la consolidation de la paix ? 
+        - Comment les approches ascendantes peuvent-elles être mieux intégrées dans le dialogue sur l'eau et la paix et comment le PED peut-il contribuer à renforcer cette approche ?
+        - Comment le PED assurera le suivi - en particulier en Afrique - des principales initiatives de Dakar22, et rendra compte de ces développements à la conférence des Nations Unies sur l'eau de 2023.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: dfa44141f0bb49b0be88d07ec546379f
+  field_code:
+    -
+      value: HLP27
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 2f851822-1957-40d0-b11a-97082ab9c2ee
+    -
+      entity: 50860541-8eee-45b2-8ba0-9167ce149df0
+    -
+      entity: 9bf634e7-c424-493e-88d8-37ee821af86c
+    -
+      entity: 96c8be48-9f98-4e1f-8d0b-bdc572eb7d41
+    -
+      entity: 520f6bc4-66c9-4117-8428-ccbe2653fe53
+    -
+      entity: 26851f79-88dd-4a0c-b281-e82dd634e10a
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub '
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        La session commence par une ouverture par le Dr. Danilo Türk, ancien Président de la Slovénie et Président du Panel mondial de haut niveau sur l'eau et la paix (3'), et une intervention du Ministre de l'eau et de l'assainissement du Sénégal, M. Serigne Mbaye Thiam (3').
+
+        Elle est directement suivie d'une vidéo (5') sur l'Observatoire mondial de l'eau et de la paix et son rapport. 
+
+        Une première table ronde du Panel de haut niveau entre les quatre panels et les représentants de l'Espagne, de la Finlande et de la Suisse sera modérée par le Dr. Danilo Turk, président du Panel mondial de haut niveau sur l'eau et la paix, afin de partager leurs réflexions sur la pertinence du GOWP pour leur travail et sur la manière dont son rapport pourrait leur être utile, alors que tous se préparent conjointement à la conférence de l'ONU de 2023 et au-delà pour relever les défis du 21ème siècle sur les eaux transfrontalières (30').
+         - Représentant du Groupe de haut niveau sur l'eau (4')
+         - Représentant de la Coalition Eau et Climat (4')
+        - Représentant du Groupe de haut niveau sur l'eau et les catastrophes (4')
+        - Espagne (4')
+         - Finlande (4')
+        - Suisse (4')
+        - Représentant du Conseil des ministres africains de l'eau (AMCOW) (4')
+
+        La transition vers le deuxième panel se fera par l'introduction du directeur de GWH de la symphonie "Voix du Fleuve, Voie de la Paix / Voices of the People, Way of Peace", une pièce musicale composée le long du fleuve Sénégal pour promouvoir la voix des populations riveraines. (7')
+
+        Le projet est mené conjointement avec les dirigeants de l'OMVS, des personnalités musicales et des experts en gestion de l'eau et en adaptation au changement climatique. Il est axé sur l'écoute des populations locales et la création d'emplois locaux pour renforcer la paix dans le bassin. 
+
+        La deuxième partie de la session se concentrera sur le Pôle Eau Dakar, le partenaire régional ouest-africain du GOWP et une initiative mise en place par le Ministère de l'eau et de l'assainissement.  La session sera ouverte par une présentation de la vidéo ou du PowerPoint de Pole Eau Dakar (7').
+
+        Après la présentation, la GWH modérera un deuxième panel comprenant des décideurs, des jeunes et des représentants de la société civile. Le modérateur invitera les panélistes à partager leurs réflexions concernant le potentiel du PED, à suivre conjointement la mise en œuvre des recommandations du Forum, étant donné sa structure et sa vision, et son rôle en tant que partenaire régional du GOWP, en utilisant les compétences analytiques et diplomatiques de ses partenaires mondiaux. 
+        - Haut Commissaire de l'OMVS (3')
+        - Haut Commissaire de l'OMVG (3')
+        - Secrétaire exécutif du Forum (3')
+        - Représentant du ministère sénégalais de la CEDEAO (3')
+        - Représentant de la société civile, M. Jean Bosco (3')
+        - Représentant des jeunes (3')
+        - Représentant des universités et des chercheurs (3')
+
+        Les conclusions seront faites par le modérateur, GWH (5'), et le Ministre Thiam (2').
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

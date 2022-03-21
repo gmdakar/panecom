@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 25f06c8e-8bad-4a3d-9b37-3176236cdf6a
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    139cae80-e5c7-4e45-9563-73267f5de43a: taxonomy_term
+    5fffc8b8-63c6-463c-9de9-741e155cc4b8: taxonomy_term
+    831ee09a-791d-495d-b1a0-0ee78d85b9ab: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mainstreaming agroecology in irrigated agriculture'
+  created:
+    -
+      value: 1647493847
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/mainstreaming-agroecology-irrigated-agriculture-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session intends to feature the effects of agroecology in irrigation schemes seeking to redesign food systems while preserving on the diversity of ecosystems. It will also present specific responses to water scarcity in the context of marginal lands and climate change. Favoring sustainability of natural resources and governance, protection of smallholder farmers and food security and line with the "One Water, One Health approach", agroecology optimizes mutually beneficial interactions between plants, animals, humans and the environment. The session will seek to showcase possible implementation of agroecology in irrigated food systems and explore the productive performances of practical examples.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493847
+      guid: ''
+      hash: 00d65882e217ac96e65d16c3570cac60
+  field_code:
+    -
+      value: SS35
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 139cae80-e5c7-4e45-9563-73267f5de43a
+    -
+      entity: 5fffc8b8-63c6-463c-9de9-741e155cc4b8
+    -
+      entity: 831ee09a-791d-495d-b1a0-0ee78d85b9ab
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        -	Welcome and introduction [5’]
+        -	Keynote presentation on “How to reconcile agroecology and irrigated agriculture” by Mr Li Lifeng [15’]
+        -	Discussion Panel on questions raised in the presentation [30’]:
+                o	Didier Orange, IRD
+                o	Sami BOUARFA, INRAE
+                o	Caroline LEJARS, Cirad
+                o	Ndjido Kane, ISRA-CERAAS
+                o	Ms Dionysia Angeliki Lyra, ICBA
+                o	Ms Alice Colson (AFD) (tbc)
+        -	Q&A [30’]
+        -	Key messages and Conclusion (5’)
+
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

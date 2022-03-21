@@ -1,0 +1,177 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dc06e924-3047-49c8-816e-886d23275b7d
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    bba0b245-7baf-4915-9d4d-1630ee331b9b: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    be8843ae-3c38-4e0e-b2df-2b40c616a237: taxonomy_term
+    12f85d60-272c-4832-b594-b7d21384c4a5: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    12273875-06e5-4836-ad24-3c16f44808e2: taxonomy_term
+    7f8f6c47-4630-4d4a-ad40-198b84b322b7: taxonomy_term
+    3743781f-3979-4226-aec8-abed192376f3: taxonomy_term
+    734496f5-4c38-4d13-909d-7ab19d789138: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New paradigms to make productive waters for farmers'
+  created:
+    -
+      value: 1647484840
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/new-paradigms-make-productive-waters-farmers
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The overall objective is to empower smallholder farmers through new paradigms to save water by using dirty rainwaters, domestic wastewaters or saline waters. These actual abandoned waters could be used to make equitable the access to productive waters. This session will provide tools to turn saving waters into a wealth-producing resource. Reasoned access to rainwater and wastewater represents a major innovative economic asset to empower small agriculture in rural and peri-urban systems.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484840
+      guid: ''
+      hash: eb9df3a63005575bdc09b3b056b2035a
+  field_code:
+    -
+      value: '2E2'
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: bba0b245-7baf-4915-9d4d-1630ee331b9b
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: be8843ae-3c38-4e0e-b2df-2b40c616a237
+    -
+      entity: 12f85d60-272c-4832-b594-b7d21384c4a5
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+    -
+      entity: 12273875-06e5-4836-ad24-3c16f44808e2
+    -
+      entity: 7f8f6c47-4630-4d4a-ad40-198b84b322b7
+    -
+      entity: 3743781f-3979-4226-aec8-abed192376f3
+    -
+      entity: 734496f5-4c38-4d13-909d-7ab19d789138
+  field_organisateurs_text:
+    -
+      value: |+
+        IRD 
+
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |+
+        Secours Islamique Français (SIF)
+        LATEU (IFAN, UCAD)
+        Solidarity Foundation University of Barcelona (FSUB)
+        INRAe
+        ADED (Geneva, Switzerland)
+        MASCARA (France, Sénégal)
+        CORAIL DEVELOPPEMENT (Lyon, France): Alain Tidière 
+        AMETEN (Grenoble, France): Ludovic Le Contellec, Khalid Alami 
+        SUEZ International: Mohamed Nadah, Flabia Mestre, Alejandra Suarez Aller 
+        FiltrePlante: Michaël Orange
+        UN-HCR : Pierre-Yves Rochat, Marc-André BUNZLI 
+        Young International: Oscar Alejandro Luna Alvarez 
+        INOWASIA (Erasmus+): Ignasi Rodriguez-Roda, Antonina Torrens,Magali Gérino, Didier Orange, Coco Gonzalez (PI INOWASIA) 
+        EPURTEK: Dan Tam Costa 
+        FiltrePlante: Michaël Orange
+        ENDA-Pronat (DyTAES): Jean-Michel Sene, Laure Brun-Diallo 
+
+
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |
+        A leaflet to resume all the projects included (from speakers and panelists) will be printed. At least, here the list of projects from the 5 invited speakers :
+
+        -	Laura Le Floch (SIF, France: Gaza)
+        Improving water resource management for domestic and agricultural use through wastewater recycling in Gaza
+        Amélioration de la gestion des ressources en eau pour l’usage domestique et agricole à travers le recyclage des eaux usées à Gaza
+
+        -	Pascal Breil (INRAe, France: Egypt)
+        Wastewater reuse and rainfall harvesting in peri-urban area of arid countries to recover smallholder food crop production (Alexandria city, Egypt)
+
+        -	Michaël Orange (TPE FiltrePlante, Sénégal) et Pierre-Yves Rochat (UN-HCR, Sénégal)
+        Assainissement durable et réutilisation des eaux usées pour la création d'espaces verts dans les camps de réfugiés
+
+        -	Rémi Lombard-Latune (INRAe, France)
+        Participatory approach for implementing the multi-barriers approach promoted by WHO
+
+        -	Maxime Therrillion (MASCARA, France: Sénégal)
+        Technologie OSMOSUN, dessalement 100% solaire pour l’irrigation
+
+        -	Mohamed Nadah (SUEZ International, France)
+        Smart Village : développer un environnement socio-économique durable pour les populations rurales
+      format: plain_text
+  field_programme:
+    -
+      value: 'It’s planned to share the discussion around 6 introductions of 5 mn each fixing the technical or thematic framework. We have currently 5 examples. '
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        This session is intended to be an advocacy for the paradigm change on water saving actions to ensure sustainable intensification of agriculture and food and nutritional security in West Africa. 
+
+        The key political message is : Empower smallholder farmers through new wastewater and rainwater use paradigms to facilitate sustainable and equitable the access to productive waters and reduce withdrawals from the water table for irrigation needs and improve the environmental factors, in respect of the following concrete political actions : 
+
+        1. Advocate for the improvement of global and local water governance in conjunction with structures dealing with food and agriculture issues, through the creation of an intergovernmental structure on Water&Food as part of the UN and approved by Member States.
+
+        2. Accelerate actions for autonomous sanitation and recovery and reuse of domestic wastewater and dirty rainwater to protect water resources at local level for more and better productive waters and green production.
+
+        3. These may include: Adjusting duties/taxes on relevant saving water technologies and practices; Incorporating training on sustainable technologies and practices for saving water use into agricultural curricular; Widely promoting, with extension and demonstrations, the use of sustainable saving water technologies and practices through innovative education in the universities (Problem Based Learning #PBL, Living Lab #LL, Nature Based Solutions #NBS); Providing ‘smart subsidies’ to increase the uptake and use of relevant smallholder saving water technologies and practices; Providing ‘loan guarantees’ to financial institutions that finance smallholder saving water technologies; Creating new policy frameworks and/or institutions that promote, monitor and/or regulate the sustainable use of local water resources, etc.
+
+        4. Introduce country level policies, education, structures and funding that promote the widespread up-take and use of saving water technologies that enable smallholders to sustainably use dirty surface waters and saline waters to irrigate their farms and increase their year-round yields and incomes. 
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

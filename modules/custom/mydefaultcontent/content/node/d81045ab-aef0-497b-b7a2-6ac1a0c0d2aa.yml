@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d81045ab-aef0-497b-b7a2-6ac1a0c0d2aa
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    6c68a3b4-f2e7-4930-be9c-1ab6b096f015: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    d902a536-b39a-4686-95d2-c5c467738fe5: taxonomy_term
+    cd27c7d3-55f3-4df9-bab2-f3945c64c63e: taxonomy_term
+    9bd8ce9c-fca8-40b0-aa80-d95066e4e46b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'When do Waste and Water together preserve the environment?'
+  created:
+    -
+      value: 1647486049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/when-do-waste-and-water-together-preserve-environment?'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Responsible consumption, micropollutants in the sea and in wastewater, plastic pollution, the congestion of sewage systems, the prospects for co-treatment: so many problems and solutions that show how water and waste management are linked. 
+        The complicity between these two essential services, which MDGs 6, 11, 12 and 17 make it possible to stage in megacities and elsewhere, deserves to be told by the actors and experts.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486049
+      guid: ''
+      hash: da239010135898e48fb9ae4c749d5a64
+  field_code:
+    -
+      value: SE12
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Pierre Hirtzberger Président de l''ASTEE + Siaap '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 6c68a3b4-f2e7-4930-be9c-1ab6b096f015
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: d902a536-b39a-4686-95d2-c5c467738fe5
+    -
+      entity: cd27c7d3-55f3-4df9-bab2-f3945c64c63e
+  field_organisateurs_text:
+    -
+      value: 'Syctom Agence métropolitaine de gestion des déchets www.syctom-paris.fr '
+      format: basic_html
+  field_programme:
+    -
+      value: TBD
+      format: plain_text
+  field_salle:
+    -
+      entity: 9bd8ce9c-fca8-40b0-aa80-d95066e4e46b

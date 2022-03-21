@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 057950c4-3975-4ca8-91b8-acf1f3e0f087
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    35d78c60-dbfa-437c-a37d-68a24f6b31da: taxonomy_term
+    f46c3420-de03-488e-bea8-36428c9b83c5: taxonomy_term
+    6d406653-d8a2-4cc7-a1d3-b6b55ae63152: taxonomy_term
+    cb3fa019-8b38-4af2-aa0b-95ea66c50053: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Joining forces to prevent the reversal of the SDG`s in Fragile, Conflict, and Violence affected settings'
+  created:
+    -
+      value: 1647493845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/joining-forces-prevent-reversal-sdgs-fragile-conflict-and-violence-affected-settings-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The objective of this session is twofold.
+         
+        The first objective is to highlight the benefits of innovative partnerships for protecting, maintaining and/or strengthening water and sanitation services during crises with concrete examples of successful actions. 
+
+        The second will be to encourage a dialogue between the public and a representative sample of the diversity of actors present in crises context, in order to collectively identify solutions to foster multi-stakeholder responses for the protection and maintenance of WASH services in crisis contexts. 
+
+        Indeed, although examples of unusual alliances of actors have proven their worth, humanitarian interventions are still too often led by traditional humanitarian aid actors with too little involvement of local actors such as civil society, private sector, water utilities, academia or state institutions and municipalities.
+
+        This session will also be an opportunity to challenge the audience on the fact that the SDG constitute a valid and relevant framework for humanitarian action. At the beginning of 2022, more than 274 million people are dependent on humanitarian aid, but how could we ensure universal access to water and sanitation services (SDG 6) if this goal does not apply in crisis?
+
+        Thus, after a first high-level panel that will introduce the benefits of multi-actor alliances in crises, concrete examples of successful and impactful multi-actor alliances will be presented. This will be followed by an interactive session between the audience and a second panel. The session will conclude with the identification of actions that promote multi-actor approaches and strong partnerships in crisis context.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493845
+      guid: ''
+      hash: 72909564654ab8f2d1a301341a701f60
+  field_code:
+    -
+      value: SS34
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: 35d78c60-dbfa-437c-a37d-68a24f6b31da
+    -
+      entity: f46c3420-de03-488e-bea8-36428c9b83c5
+    -
+      entity: 6d406653-d8a2-4cc7-a1d3-b6b55ae63152
+    -
+      entity: cb3fa019-8b38-4af2-aa0b-95ea66c50053
+  field_organisateurs_text:
+    -
+      value: 'Swiss Agency for Development and Cooperation (international cooperation agency of the Swiss Confederation)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening of the session (5'): short movie "The benefits of Localisation by the Syrian Arab Red Crescent" https://www.youtube.com/watch?v=X-skRl3sc24  
+        First high level panel (15'): introduction session - 3 minutes of keynote messages per panelist
+        Exemples of successful concrete actions (30'):
+        - Presentation of The WASH Road Map (6')
+        - Presentation of the WASH Gap Analysis 2021 (4') + Setting the research agenda (interactive session) (8')
+        - Presentation of the main findings of the report "Joining forces to secure water and sanitation in protracted crises" by ICRC and WB (12')
+        Second Panel (35')
+        Wrap-up (5')
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

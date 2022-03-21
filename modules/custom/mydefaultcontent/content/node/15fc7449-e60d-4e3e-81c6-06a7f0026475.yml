@@ -1,0 +1,172 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15fc7449-e60d-4e3e-81c6-06a7f0026475
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6f62f872-ce34-44ba-ab5e-9c11f32544eb: taxonomy_term
+    b86868f4-14ae-4840-ac79-f9e70f02b689: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    cb402515-3edb-4b05-b3c6-73117ffeca39: taxonomy_term
+    6fe1ae77-fcb8-439d-b654-10bd1bb80c62: taxonomy_term
+    992da430-1ce3-4a86-9b58-a636350551f5: taxonomy_term
+    a68fc779-0a69-4bf5-9169-5fc71940ef7a: taxonomy_term
+    1b964383-a327-4b9a-b669-1d18d5ef6092: taxonomy_term
+    a62e9e4b-0214-4a4e-9d20-06922cf9ec91: taxonomy_term
+    b880e33b-c500-465a-8696-aff87f7cdc46: taxonomy_term
+    254d3572-5c3a-42d3-8fb2-991d52ee375d: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '?Localiser le partenariat multi- acteurs pour une gestion durable, résiliente et inclusive des ressources en eau en Afrique et en Asie.'
+  created:
+    -
+      value: 1647484960
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/?localiser-le-partenariat-multi-acteurs-pour-une-gestion-durable-resiliente-et-inclusive-des'
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        "En tant que synthèse des diverses mesures et recommandations, il est nécessaire de renforcer les quatre piliers suivants : 
+        La science et la technologie : pour accélérer la mise en œuvre des politiques et les processus de suivi ;
+        Gouvernance : améliorer la gouvernance, les cadres institutionnels et juridiques et leur application aux niveaux régional, national et infranational. Cela comprend l'amélioration de la sensibilisation sectorielle sur les liens entre l'eau et le développement économique afin d'accélérer la réforme des secteurs de l'eau en encourageant la consultation et la participation significative des différentes parties prenantes pour la co-conception et la co-implémentation d'une législation, d'une réglementation et de dispositions institutionnelles équitables grâce à l'autonomisation des communautés ; 
+        Instruments financiers et économiques : assurer la diversification des revenus économiques pour investir dans la sécurité de l'eau et créer des opportunités d'emploi ;
+        le renforcement des capacités et le genre : pour renforcer les capacités et intégrer le genre de manière transversale dans les secteurs et les régions.
+
+        Le leadership politique doit être renforcé par des recherches et des analyses rigoureuses sur les initiatives régionales en cours qui mesurent et suivent la progression des indices de sécurité de l'eau dans tous les pays de la région.
+
+        L'importance du développement d'une culture sensible à l'eau par le biais de l'éducation à tous les niveaux - formelle et informelle - doit être reconnue et faire l'objet d'investissements dans le développement de politiques et de ressources financières, y compris les mesures visant à renforcer la participation des femmes aux postes de direction dans le secteur de l'eau.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484960
+      guid: ''
+      hash: 481052200b32e3c2d1db852cdf734f62
+  field_code:
+    -
+      value: 3F2
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 6f62f872-ce34-44ba-ab5e-9c11f32544eb
+    -
+      entity: b86868f4-14ae-4840-ac79-f9e70f02b689
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: cb402515-3edb-4b05-b3c6-73117ffeca39
+    -
+      entity: 6fe1ae77-fcb8-439d-b654-10bd1bb80c62
+    -
+      entity: 992da430-1ce3-4a86-9b58-a636350551f5
+    -
+      entity: a68fc779-0a69-4bf5-9169-5fc71940ef7a
+    -
+      entity: 1b964383-a327-4b9a-b669-1d18d5ef6092
+    -
+      entity: a62e9e4b-0214-4a4e-9d20-06922cf9ec91
+    -
+      entity: b880e33b-c500-465a-8696-aff87f7cdc46
+    -
+      entity: 254d3572-5c3a-42d3-8fb2-991d52ee375d
+  field_organisateurs_text:
+    -
+      value: 'Japan Water Forum/ Asia-Pacific Water Forum '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        Asia Pacific Water Forum
+        GWP Pan Africa and Asia team 
+        Asian Development Bank 
+        International Water Centre
+        OECD
+        Executive Committee, International Fund for Saving the Aral Sea (EC-IFAS)
+        India Water Foundation
+        Association of mayors of the Senegal river basin
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        " Projet 1 - Investir dans la sécurité durable de l'eau?
+        Projet 2 - Renforcer la résilience pour tous avec le mouvement mené par les jeunes 
+        Projet 3 - Dialogue politique pour promouvoir un processus participatif multi-acteurs pour une gestion durable, inclusive et résiliente des bassins.? 
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        " Aperçu de la session (3 minutes)
+
+        La gouvernance de l'eau en Afrique et en Asie (10 minutes)
+        OCDE
+
+        Présentation par deux représentants des hauts fonctionnaires des pays d'Afrique et d'Asie, respectivement, de leur gouvernance de l'eau et de leur architecture institutionnelle en vue de la réalisation des ODD liés à l'eau et de la gestion durable, inclusive et résiliente des ressources en eau (10 minutes - 20 minutes chacun).
+
+        Discussion entre les parties prenantes (60 minutes)
+
+        Synthèse (5 minutes)
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        d'identifier les différentes attentes et objectifs (politiques ou opérationnels) 
+        mobiliser la recherche et les outils techniques de la science citoyenne pour améliorer la pratique de la participation et de la collaboration du public dans la recherche scientifique universitaire afin d'accroître les connaissances scientifiques utilisables pour une gestion durable, résiliente et inclusive des ressources en eau??? 
+        promouvoir un engagement significatif des jeunes pour une collaboration intergénérationnelle en vue d'une gestion durable des bassins.
+
+        Lien de suivi et événements après le Forum 
+        4ème Sommet de l'eau Asie-Pacifique, 23-24 avril 2022
+        Initiatives de l'OCDE en matière de gouvernance de l'eau, etc.  
+      format: basic_html
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

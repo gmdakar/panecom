@@ -1,0 +1,170 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 09ffa737-edd3-4764-86a7-e515c6eaebf6
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    cdc34610-6841-4f97-bc0c-eb00e3f6f226: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    c2be7926-c90b-415f-997c-4d5948d47cfa: taxonomy_term
+    7745f892-7ca2-4ec8-8063-78f0a0cbc48a: taxonomy_term
+    15c6c45c-3127-47c0-9ff5-fedcff2cb548: taxonomy_term
+    efefd731-020d-4cb7-9804-dca495a08e84: taxonomy_term
+    863ee882-4413-4b4a-885f-057ba3034d2c: taxonomy_term
+    986c379f-8188-4667-9742-cdfab1871354: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le rôle des femmes dans la gestion de l''irrigation'
+  created:
+    -
+      value: 1647484950
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-role-des-femmes-dans-la-gestion-de-lirrigation
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'L''objectif global est d''autonomiser les petits exploitants agricoles par une meilleure implication des groupes de femmes dans les systèmes d''irrigation et la gestion de l''eau. La session documentera les défis auxquels sont confrontés les producteurs ruraux et les femmes en termes d''accès et de contrôle de l''eau d''irrigation pour la durabilité des activités agricoles et de la culture maraîchère.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484950
+      guid: ''
+      hash: af29f5f6205229c0564b329206b068f7
+  field_code:
+    -
+      value: '2E4'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: cdc34610-6841-4f97-bc0c-eb00e3f6f226
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: c2be7926-c90b-415f-997c-4d5948d47cfa
+    -
+      entity: 7745f892-7ca2-4ec8-8063-78f0a0cbc48a
+    -
+      entity: 15c6c45c-3127-47c0-9ff5-fedcff2cb548
+    -
+      entity: efefd731-020d-4cb7-9804-dca495a08e84
+    -
+      entity: 863ee882-4413-4b4a-885f-057ba3034d2c
+    -
+      entity: 986c379f-8188-4667-9742-cdfab1871354
+  field_organisateurs_text:
+    -
+      value: |-
+        IPAR, Sénégal,  Laure Tall, 
+        ENDA-Pronat, Sénégal, Pauline Ndiaye,
+        IRD, France, Didier Orange, 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        CICODEV
+        Veolia
+        ESF (Electriciens Sans Frontières
+        UGB
+        Université du Cape, Afrique du Sud
+        FAO:
+        COSTEA (INRAe, AVSF, BRL ; Algérie, Sénégal, Cambodge)
+        SIF
+        Women for Water
+        Youth People
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        "Un dépliant reprenant tous les projets inclus (des intervenants et des panélistes) sera imprimé. Au moins, voici la liste des projets des 6 orateurs invités :
+
+        - Laure Tall (IPAR, Sénégal : Guinée, Sénégal)
+        La transition énergétique pour l'autonomisation économique des femmes à travers la chaîne de valeur horticole dans un contexte post-Covid en Guinée et au Sénégal
+
+        - Mamadou Mballo (CICODEV, Sénégal : Sénégal)
+        Irrigation pour le maraîchage : le projet AMOPAR
+
+        - Pauline Ndiaye (ENDA-Pronat, Sénégal : Sénégal)
+        De l'eau et du solaire pour le bien-être et le développement des communautés rurales
+
+        - Jean Comby (ESF, France : Burkina Faso, Bénin, Togo)
+        SISAM, solution d'irrigation solaire améliorée
+
+        - Armelle Perrin-Guinot (Veolia, France : Niger)
+        Le projet Oasis, pour soutenir l'intégration économique des femmes par l'entrepreneuriat
+
+        - Mariet Verhoef-Cohen (WfWP : Kenya)
+        Femmes, eau et leadership
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "- Accueil et introduction [10']
+        - 6 introductions de 5 mn basées sur des exemples [30']
+        - Panel de discussion sur les questions soulevées dans l'assemblée [45']
+        - Messages clés et conclusion [5']
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Cette session plaidera pour soutenir l'intégration économique des femmes par le biais de l'entrepreneuriat et pour les sensibiliser, ainsi qu'un public plus large, aux questions liées aux activités liées à l'eau pour le développement durable, la conservation des ressources naturelles et la culture maraîchère. 
+
+        Le message politique clé sera le suivant : Renforcer l'autonomie des petits exploitants agricoles en ASS en soutenant des groupes de femmes dans des projets d'irrigation pour la culture maraîchère, grâce aux actions concrètes suivantes :
+
+        1. Introduire des politiques, une éducation, des structures et un financement au niveau national qui favorisent l'adoption et l'utilisation à grande échelle de technologies adaptées permettant aux petites exploitantes d'utiliser durablement la technologie d'irrigation pour le maraîchage et d'augmenter leurs rendements et leurs revenus tout au long de l'année. 
+
+        2. Il peut s'agir d'actions de soutien et de programmes nationaux pour l'implication des femmes dans la gestion de l'irrigation pour le maraîchage. Cela pourrait se faire par : Ajuster les droits/taxes sur les technologies d'eau/irrigation pertinentes ; Intégrer dans les programmes d'enseignement agricole des formations dédiées aux groupes de femmes sur l'agriculture irriguée durable et l'utilisation de l'eau ; Promouvoir largement, par la vulgarisation et les démonstrations, l'utilisation de technologies et de pratiques durables d'irrigation et de conservation de l'eau ; etc. 
+
+        3. Plaider pour l'amélioration de la gouvernance mondiale et locale de l'eau en conjonction avec les structures traitant des questions d'alimentation et d'agriculture, par la création d'une structure intergouvernementale sur l'eau et l'alimentation dans le cadre de l'ONU et approuvée par les États membres, afin de souligner le rôle des groupes de femmes dans la gestion de l'irrigation pour le maraîchage.
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

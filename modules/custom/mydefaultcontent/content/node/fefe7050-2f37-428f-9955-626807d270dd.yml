@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fefe7050-2f37-428f-9955-626807d270dd
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    64e403c0-346f-4a59-a483-36fb262d8a6e: taxonomy_term
+    71daeb16-c9f1-4934-8450-9e16c9cb1849: taxonomy_term
+    9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Aquaculture in Senegal: opportunities and challenges'
+  created:
+    -
+      value: 1647486044
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/aquaculture-senegal-opportunities-and-challenges
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        As objectives :
+        - to demonstrate the aquaculture potential in Senegal ;
+        - to attract potential investors;
+        - to show the socio-economic impact of aquaculture, its place in the improvement of food security, the creation of employment and income;
+        - to make visible the role of aquaculture in the conservation of biodiversity in the face of climate change;
+
+        In terms of expected results:
+        - the aquaculture potential of Senegal is highlighted;
+        - investors are attracted;
+        - the socio-economic impact of aquaculture, namely its role in food security and job creation, is understood by the public;
+        - the role of aquaculture in the conservation of biodiversity in the face of climate change is understood;
+        - To draw inspiration from the Senegalese model to promote the development of aquaculture in the sub-region;
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486044
+      guid: ''
+      hash: 215672bd7d7fa329bbb20f74eed4eac9
+  field_code:
+    -
+      value: SE45
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'speaker : Dr Tening SENE, Director General of ANA'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 64e403c0-346f-4a59-a483-36fb262d8a6e
+    -
+      entity: 71daeb16-c9f1-4934-8450-9e16c9cb1849
+  field_organisateurs_text:
+    -
+      value: 'AGENCE NATIONALE DE L''AQUACULTURE (ANA)'
+      format: basic_html
+  field_programme:
+    -
+      value: '20 minutes presentation and 40 minutes discussion'
+      format: plain_text
+  field_salle:
+    -
+      entity: 9f7cd0bd-46a4-4870-b9c6-0ac1e024f0c6

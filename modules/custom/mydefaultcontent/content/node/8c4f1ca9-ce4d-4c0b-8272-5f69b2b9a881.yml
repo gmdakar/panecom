@@ -1,0 +1,128 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8c4f1ca9-ce4d-4c0b-8272-5f69b2b9a881
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    06e10617-2c05-4267-8d84-f5f26d096e40: taxonomy_term
+    90763710-2ca5-4e82-9be8-3e342a11f30e: taxonomy_term
+    edf5b041-d69e-44d4-8d42-56be19d48ef2: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    13d5c1ac-0de3-4332-990c-b9e982f9b7ff: taxonomy_term
+    79c09ed7-afba-45ae-8d1c-cee5bf0d1c50: taxonomy_term
+    43dc5d56-234b-4287-8899-c19c966c7226: taxonomy_term
+    6bab3630-333f-4aea-8473-411f3cefd0f2: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Développer les capacités des acteurs locaux en matière de connaissance et d''expérience de l''eau'
+  created:
+    -
+      value: 1647484967
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developper-les-capacites-des-acteurs-locaux-en-matiere-de-connaissance-et-dexperience-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session se concentre sur des exemples de plateformes et de pratiques favorisant l''échange d''expériences et de connaissances entre acteurs locaux, et avec le soutien d''experts. Il s''agit notamment d''initiatives actuelles liées à l''éducation à l''eau, à la science citoyenne, aux systèmes de connaissances locales et aux centres d''information sur l''eau, tant en ligne que physiques.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484967
+      guid: ''
+      hash: 7ee641d33442ab7432e50d01c307ee52
+  field_code:
+    -
+      value: '4E4'
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 06e10617-2c05-4267-8d84-f5f26d096e40
+    -
+      entity: 90763710-2ca5-4e82-9be8-3e342a11f30e
+    -
+      entity: edf5b041-d69e-44d4-8d42-56be19d48ef2
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 13d5c1ac-0de3-4332-990c-b9e982f9b7ff
+    -
+      entity: 79c09ed7-afba-45ae-8d1c-cee5bf0d1c50
+    -
+      entity: 43dc5d56-234b-4287-8899-c19c966c7226
+    -
+      entity: 6bab3630-333f-4aea-8473-411f3cefd0f2
+  field_organisateurs_text:
+    -
+      value: 'UNESCO IHP '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Regional Centre for Training and Water Studies of Arid and Semi-Arid Zones (RCTWS), Egypt and Research Institute for Humanity and Nature (RIHN), Japan [to be confirmed] '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "- Science - Education - Dialogue politique, pour mettre à jour et réformer le secteur de l'eau en Afrique
+        - Formation à Dakar pour les postes professionnels de chef de projet Eau, Hygiène & Assainissement pour les actions humanitaires
+        - Master humanitaire en eau, hygiène et assainissement (WaSH) à l'Université germano-jordanienne (GJU), Amman, Jordanie
+        - Prix régional des études sur l'eau
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: '3 exposés de 15 minutes (2 sur des exemples de plateformes, 1 sur la science citoyenne), suivis d''un panel de discussion et d''une interaction avec le public.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Moyens possibles pour réaliser le défi mondial de l''eau tel qu''il est prévu, identification des contributeurs, partenariats élargis pour des actions participatives de développement des capacités. '
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

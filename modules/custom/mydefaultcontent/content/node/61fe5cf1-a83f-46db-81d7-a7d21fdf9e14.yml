@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61fe5cf1-a83f-46db-81d7-a7d21fdf9e14
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    2acc5287-44fc-4512-9d04-531a3b37c87a: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    a34ddb3a-8f21-48d3-9506-ff4cce7d847a: taxonomy_term
+    21f72138-7332-4e99-96bf-b26afa9e0838: taxonomy_term
+    de191058-0b33-4cef-b593-d1db05e158cc: taxonomy_term
+    1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Brief overview of invasive plants in Senegal'
+  created:
+    -
+      value: 1647484832
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/brief-overview-invasive-plants-senegal
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'To make an inventory of invasive plants in Senegal: evolution of colonization, current situation, fight (in all forms), valorization and perspectives. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484832
+      guid: ''
+      hash: 60eb74d302a62aacdb97a3157a13530d
+  field_code:
+    -
+      value: '1E1'
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2acc5287-44fc-4512-9d04-531a3b37c87a
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: a34ddb3a-8f21-48d3-9506-ff4cce7d847a
+    -
+      entity: 21f72138-7332-4e99-96bf-b26afa9e0838
+    -
+      entity: de191058-0b33-4cef-b593-d1db05e158cc
+  field_organisateurs_text:
+    -
+      value: 'Innovation Environnement et Developpement Durable (IE2D) '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'IUCN - Association Intervillageoise du Ndiael (AIV) - Ramsar Convention -- Direction de l''Environnement et des établissements Classés - Convention sur la Biodiversité - OMVS - Ministère de l''eau et l''assainissement '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: 'Project 1- Assessment of the control (mechanical, biological and chemical) of invasive aquatic plants in different regions of the world and dissemination of good practices'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        Opening of the session
+        Presentation on Wetlands 
+        Screening of the documentary film on TYPHA
+        Intervention of the different stakeholders 
+        Discussions 
+        End of the session
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Stakeholders are informed of the status and have an adequate knowledge base on invasive species worldwide.
+        Capacities to control invasive plants are increased.
+        Decision-makers are informed for the definition of appropriate policies in the field of invasive plant control or their reinforcement.
+        Best practices are promoted and disseminated.
+      format: basic_html
+  field_salle:
+    -
+      entity: 1c07472d-caf2-4ff1-9bc4-4a3e5ccc52f4

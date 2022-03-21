@@ -1,0 +1,198 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da738343-78d9-459e-9a1d-abe142c8c5e1
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    2dec85e3-f75b-4b4b-a669-efd06cf82370: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b: taxonomy_term
+    637ac725-98f8-4b9b-8fea-5a991ad68c54: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    d5710de5-2d22-495c-ad32-daaadd9728d7: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Participatory governance for sanitation and hygiene for rural development
+        /
+        Gouvernance participative pour l'assainissement et l'hygiène en milieu rural
+  created:
+    -
+      value: 1647484835
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/participatory-governance-sanitation-and-hygiene-rural-development-gouvernance-participative
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The precariousness of hygiene and sanitation services in rural areas around the world, especially in low- and middle-income countries, is striking, especially in Africa where 77% of the population lacks basic sanitation. The implementation of participatory governance is key to meeting this challenge and considering the whole sanitation chain. The approach allows to associate all stakeholders (users, communities, government services, technical and financial partners etc.) to contribute to the elaboration of national strategies, to translate these strategies into concrete actions at the local level by responding to the best expectations and the context considered, but also to ensure the necessary monitoring of the service implemented and how it meets the expectations of users. It is also an opportunity to recall the roles and responsibilities of key players at all levels but above all to appreciate the level of involvement of each party.
+        This session will allow to share successful experiences and to draw lessons for their consideration by the greatest number.
+        /
+        La précarité des services d’hygiène et d’assainissement en milieu rural dans le monde surtout dans les pays à faible et moyen revenu est saisissante, tout particulièrement en Afrique où 77% de la population n’a pas d’assainissement basique. La mise en place d’une gouvernance participative est clé pour relever ce défi et considérer l’ensemble de la filière assainissement. La démarche permet ainsi d’associer l’ensemble des parties prenantes (usagers, collectivités, services de l’Etat, partenaires techniques et financiers etc.) pour contribuer à l’élaboration des stratégies nationales, pour traduire ces stratégies en actions concrètes au niveau local en répondant au mieux attentes et au contexte considéré, mais aussi pour assurer le nécessaire suivi du service mis en place et comment il répond aux attentes des usagers. C`est aussi l`occasion de rappelerles rôles et responsabilités des acteurs clé à tous les niveaux mais surtout apprécier le niveau d`implication de chaque partie .
+        Cette session permettra de partager les expériences réussies, les outils et méthodes mis en œuvre et d’en tirer des leçons pour leur prise en compte par le plus grand nombre.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484835
+      guid: ''
+      hash: babd1877b77967b1ff75724a2453f728
+  field_code:
+    -
+      value: 2B1
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 2dec85e3-f75b-4b4b-a669-efd06cf82370
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 50d0b5fd-ce0a-4300-96d3-f5b3823e8f9b
+    -
+      entity: 637ac725-98f8-4b9b-8fea-5a991ad68c54
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: d5710de5-2d22-495c-ad32-daaadd9728d7
+  field_organisateurs_text:
+    -
+      value: |
+        Programme Solidarité Eau - pS-Eau
+        Water and Sanitation for Africa
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        India Water Foundation 
+        CONGAD/RADI 
+        ART-PESOUNG 
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |+
+        Project 1 - Integrated approach for empowering local communities towards ecology, water body conservation, sanitation and hygiene through awareness enhancing campaign by use of environment friendly technologies
+        Projet 1 - Approche intégrée pour l'autonomisation des communautés locales en matière d'écologie, de conservation des masses d'eau, d'assainissement et d'hygiène, par le biais de campagnes de sensibilisation et de l'utilisation de technologies respectueuses de l'environnement.
+        India Water Foundation (Dr Arvind Kumar, drarvindsv1@gmail.com)
+
+        Project 2 - Develop an approach to develop a comprehensive sanitation system in small towns in Sub-Saharan Africa with a focus on Senegal
+        Projet 2 - Proposer une approche pour développer une filière d’assainissement complète dans les petites villes d’Afrique sub-saharienne avec un focus sur le Sénégal
+        Programme Solidarité Eau - pS-Eau, (Christophe Le Jallé, le-jalle@pseau.org)
+
+        Project 3 - Participation of local authorities in the design, financing and implementation of rural hygiene and sanitation interventions
+        Projet 3 - Participation des CT à l’élaboration, au financement et à la mise en œuvre des interventions en matière d’hygiène et d’assainissement  en milieu rural
+        CONGAD/RADI (Mamour NGALANE, mngalane@hotmail.com)
+
+        Project 4 - "PESOUNG for all" - Establishment of adequate rural sanitation and hygiene services for all. The example of the municipality of Pambal, region of Thiès, department of Tivaouane in Sénégal 
+        Projet 4 - "PESOUNG pour tous" - Mise en place de services d'assainissement et d'hygiène adéquats pour tous en milieu r rural. L’exemple de la commune de Pambal, région de Thiès, département de Tivaouane, Sénégal.
+        ART-PESOUNG (Joséphine Tine)
+
+        Project 5 – AICHA Program: Implementation of a multistakeholder framework for water and sanitation in the Saint-Louis region and development of sanitation marketing
+        Projet 5 – Programme AICHA : Mise en place d’un cadre de concertation pour l’eau et l’assainissement dans la région de Saint-Louis et développement du Marketing de l’Assainissement
+        Service régional de l’assainissement de Saint-Louis
+        GRET
+
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        0	-	5	min.	Introduction/Context
+        5	-	10	min.	Introduction movie
+        10	-	40	min.	Round table discussion with actors involved in rural sanitation projects (papers presenting briefly each of the projects will also be shared with the participants)
+        40	-	50	min.	Discussion in small groups on practices of each one
+        50		60	min.	Synthesis in a few key words of the round table discussions + visualization on screen
+        60	-	85	min.	Round table discussion with representatives of various stakeholder groups concerned with sanitation development in rural areas and rural towns (State sanitation department, local authority, users/Civil society, sanitation operator, young professional, researcher) 
+        85	-	90	min.	Conclusion
+        /
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	40	min.	Table ronde avec des acteurs impliqués dans des projets d’assainissement en milieu rural (des supports papiers présentant succinctement chacun des projets seront également partagés avec les participants)
+        40	-	50	min.	Discussion en petits groupes sur les pratiques des uns et des autres 
+        50		60	min.	Retour en quelques mots clés des discussions des tables rondes + visualisation sur écran
+        60	-	85	min.	Table ronde avec les représentants des divers groupes d’acteurs concernés par le développement de l’assainissement dans les zones rurales et bourgs ruraux (Service régional ou national d’assainissement, collectivité locale, usagers/Société civile, operateur d’assainissement, jeune professionnel, chercheur)
+        85	-	90	min.	Conclusion
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        Expected outcomes
+        -	Highlighting the interest of participatory governance
+        -	Sharing approaches implemented
+        -	Identify challenges and opportunities for implementation of participatory governance
+        -	Precisions on the role of each stakeholders in the governance of the sanitation service in rural areas and rural towns
+
+        Impacts
+        -	Consideration of issues to be taken into account to improve governance for the development of sanitation services in rural areas and in rural towns
+
+        follow-up linkages
+        -	Dissemination of the conclusions and recommendations to the various stakeholders through the network of the partners involved in the session 
+        -	Dissemination of findings to regional networks of different stakeholders (e.g. for Africa: AMCOW, UCLGA, ANEW, AfWA)
+        -	Follow-up of the preparatory process for the United Nations Water Conference in 2023 to ensure that these issues are taken into account in the debates (follow-up to be conducted via the Forum's global recommendations and via the governments)
+        /
+        /
+        Résultats attendus
+        -	Mise en évidence l'intérêt de la gouvernance participative
+        -	Partage de démarches mise en œuvre
+        -	Identification des défis et opportunités pour la mise en œuvre de la gouvernance participative
+        -	Précisions sur le rôle de chaque acteur dans la gouvernance du service d'assainissement en milieu rural et bourgs ruraux
+
+        Impacts
+        Prise en compte des enjeux à prendre en compte pour améliorer la gouvernance pour le développement des services d’assainissement en milieu rural et dans les bourgs ruraux
+
+        Liens de suivi
+        -	Diffusion des conclusions et recommandation à l’attention des différentes parties prenantes au travers des réseaux des partenaires à la session
+        -	Diffusion des conclusions vers les réseaux régionaux des différents acteurs (p. ex. pour l’Afrique : AMCOW, CGLUA, ANEW, AfWA)
+        -	Suivi du processus préparatoire à la conférence des Nations unies sur l’eau en 2023 pour veiller à la prise en compte de ces enjeux dans les débats (suivi à conduire via les recommandations global du Forum et via les gouvernements)
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

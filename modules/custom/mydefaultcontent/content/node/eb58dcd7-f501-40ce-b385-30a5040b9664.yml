@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eb58dcd7-f501-40ce-b385-30a5040b9664
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    edfdf1bb-ac51-4d15-a296-5a4ae7843879: taxonomy_term
+    9cf5c2b6-c078-4fea-a25f-da3bfea47332: taxonomy_term
+    a39a0acf-5729-4e8d-a207-d3d940d422e2: taxonomy_term
+    230b45b1-3289-4fa6-b392-482412c17379: taxonomy_term
+    9f885ec7-0a0e-48e4-a8f2-554958007155: taxonomy_term
+    b036c8eb-e403-4dbd-ac26-d1613c067750: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Renforcer la collaboration mondiale dans le domaine de l''eau, de l''assainissement et de l''hygiène en réponse à la pandémie de COVID- 19.'
+  created:
+    -
+      value: 1647485809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/renforcer-la-collaboration-mondiale-dans-le-domaine-de-leau-de-lassainissement-et-de-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Développer une coopération globale entre les gouvernements (autorités locales/maires, parlementaires, ministres, chefs de gouvernement/d'état), les organisations intergouvernementales, bilatérales et multilatérales, les institutions financières et les organisations non gouvernementales, les professionnels de l'eau, les scientifiques, les décideurs et les représentants des secteurs liés à l'eau et attirer l'attention sur la protection, d'attirer l'attention sur la protection, la prévention et la préparation à la gestion et aux services de l'eau et des eaux usées en cas de pandémie afin de garantir l'accès à l'eau potable, d'établir une plateforme encourageant les activités de renforcement des capacités entrepreneuriales et opérationnelles liées à l'eau, à l'assainissement et à l'hygiène, et de diffuser les activités de l'EMOA dans les environnements urbains, en particulier dans les pays à faible revenu non desservis.
+         Résultats escomptés :
+        - Permettre de combiner le pouvoir des parties non pertinentes pour réaliser des activités WASH même dans des situations de pandémie, 
+        - Se préparer à d'éventuelles pandémies futures en tenant compte des besoins en matière d'eau, d'assainissement et d'hygiène dans les pays à faible et moyen revenu, en particulier dans les zones non desservies.
+        - Diffusion des besoins WASH en situation de pandémie
+        - Intérêt croissant des agences de financement, des disciplines scientifiques, des associations de l'eau, des opérateurs de l'eau actifs au niveau mondial et des principaux acteurs pour développer des activités de renforcement des capacités, en particulier pour la formation de spécialistes et la mise en place d'infrastructures (par exemple, des laboratoires) et de la logistique des activités WBE.
+        - Les résultats de la session soutiennent les objectifs de développement durable suivants : 1.A, 6.1, 6.A, 7.A, 9.1, 9.5 et 17.7.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485809
+      guid: ''
+      hash: c1a8f0cd41bda049a1d596fb620a0a01
+  field_code:
+    -
+      value: SS05
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: edfdf1bb-ac51-4d15-a296-5a4ae7843879
+    -
+      entity: 9cf5c2b6-c078-4fea-a25f-da3bfea47332
+    -
+      entity: a39a0acf-5729-4e8d-a207-d3d940d422e2
+    -
+      entity: 230b45b1-3289-4fa6-b392-482412c17379
+    -
+      entity: 9f885ec7-0a0e-48e4-a8f2-554958007155
+    -
+      entity: b036c8eb-e403-4dbd-ac26-d1613c067750
+  field_organisateurs_text:
+    -
+      value: 'Turkish Water Institute (SUEN)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Ouverture par le modérateur (5') 
+
+        - Présentations et QA à la fin de chaque présentation (6x10'+5x3'=75')
+
+        - Clôture par le modérateur (5')"
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

@@ -1,0 +1,150 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1946a651-95ce-4dea-93c2-801bd7faa274
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    397eeaf1-88f3-4d8e-96a5-8daa93f42c05: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    40506a87-e226-4b08-b811-c4986c18d9f6: taxonomy_term
+    e65d6227-3cd5-45cb-a5ac-af4902b96301: taxonomy_term
+    3122e677-3f2d-4071-aab0-8a125dc230ad: taxonomy_term
+    8f9c06a6-774a-4802-b593-df9e1fa2cb35: taxonomy_term
+    a39a6a44-0792-4827-87f5-2ded4e611cce: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Building a cross- sectoral governance without boundaries at all levels'
+  created:
+    -
+      value: 1647484841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/building-cross-sectoral-governance-without-boundaries-all-levels
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cross sectoral governance without boundaries at all levels, with the presentation of handbooks/guidebooks, shared lessons, and methodologies about decision processes, implementation, good practices, and innovative methodologies of IWRM.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484841
+      guid: ''
+      hash: f2f5accb0123b8ef042e3328ecf76f37
+  field_code:
+    -
+      value: 3A1
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 397eeaf1-88f3-4d8e-96a5-8daa93f42c05
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 40506a87-e226-4b08-b811-c4986c18d9f6
+    -
+      entity: e65d6227-3cd5-45cb-a5ac-af4902b96301
+    -
+      entity: 3122e677-3f2d-4071-aab0-8a125dc230ad
+    -
+      entity: 8f9c06a6-774a-4802-b593-df9e1fa2cb35
+    -
+      entity: a39a6a44-0792-4827-87f5-2ded4e611cce
+  field_organisateurs_text:
+    -
+      value: |-
+        Regulatory Agency for Water, Energy and Sanitation of the Federal District [ADASA, Brazil]  
+        International Network of Basin Organizations [INBO] 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+
+        French National Committee IHP UNESCO, French Water Partnership FWE
+        CEO Water Mandate and Danone as member
+        Ministry for the Ecological Transition and the Demographic Challenge / Deputy Directorate for Water Planning [MITERD/DG Water, Spain]
+        International Lake Environment Committee Foundation [ILEC, Japan]
+        Inter-American Development Bank [IDB]
+        Seine-Normandy Water Agency [AESN]
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1 – Capacity building via city basins dialogue: how to reconnect cities to their watershed (showcase of new guidebook with case studies around the world). Europe Paris, Africa Dakar, USA: San Fransisco, Latin America: Mexico City
+
+        Project 3 – Processes and benefits of selecting the appropriate method to take decision among all stakeholders – Senegal – rural areas
+        Project 4 – Lessons from Corporate Water Stewardship on cooperation for watershed preservation – examples in Asia
+        Project 5 – Good practices and innovative approaches including public participation, innovation, and SDG-aligned policies (Brazil, Spain, Japan)
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Introduction: 5 min by master of ceremony – 
+        Key note speech (15 min) 
+        (both on the Somone basin and Niayes cooperation projects)
+
+        Panel (40 min)
+        ?	Lessons from Corporate Water Stewardship on cooperation for watershed preservation – focus on Asia.
+        ?	 Integration of conventional and non-conventional resources and allocation processes for an efficient water use in Spain.
+        ?	SDG-aligned IWRM policies in the Federal District of Brazil.
+        ?	Case studies of cross-sectoral and multi-level governance under the OECD Water Governance Programme.
+
+        Q&A and discussions on the construction of a multi-scale IWRM: [15 min]
+        First reaction Youth Water Parliament North America
+        Closing and Key messages – [5 min ]
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	Guidebook/handbook as a decision-making tool to implement IWRM at the city level
+        •	Portfolio of experiences, good practices, and lessons learned on promoting cross-sectoral IWRM governance at all levels
+        •	Involvement and dissemination of the theme, resulting in water positive impacts and multi benefits with its implementation in different places throughout the world.
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

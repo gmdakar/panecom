@@ -1,0 +1,161 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 44eb40af-0a17-4c97-9a5a-d03fa31af4c4
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    c88fa5bf-2455-4c2a-82c1-a7de68fb13e9: taxonomy_term
+    afe1b005-c39a-4e8c-bbed-3f71935c97fd: taxonomy_term
+    ec3c8a94-fa12-4dff-ac03-e397f1074956: taxonomy_term
+    b385a194-af34-4b4b-a8ad-68e0ab785de1: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    e8cedaa1-e727-46e7-a786-8d630028536a: taxonomy_term
+    faa33d05-2dc0-4d70-a0f9-de32cbd5e712: taxonomy_term
+    cfdd449b-7006-4e4f-b23a-efdec46ad595: taxonomy_term
+    139cae80-e5c7-4e45-9563-73267f5de43a: taxonomy_term
+    c0146d44-9baf-447c-b072-95d64e0e0531: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water for agricultural climate resilience'
+  created:
+    -
+      value: 1647484839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-agricultural-climate-resilience
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The overall goal of this session is to present and discuss opportunities and approaches to enhance agricultural climate resilience through the scaling of innovative and integrated water management solutions in developing countries. 
+
+        The emerging key messages are:
+        '-	Climate change is water change. Therefore, application of integrated water management solutions at different scales is very important for building climate resilience in smallholder farming system in dry areas.
+        '-	No water implies no food. This implies therefore resolving issues around water scarcity and water productivity is crucial for transforming food systems in developing countries 
+        '-	Inclusive socio technical agricultural water management solutions are necessary to build resilience to climate change.   
+        '-	Sustainable water use in agriculture is enhanced by the integration of all actors including farmers, governments, the private sector and the general population across interlinked sectors of water, food, energy and environment
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484839
+      guid: ''
+      hash: f049b5b53ccc2980027342a60ee1a33d
+  field_code:
+    -
+      value: 2D5
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c88fa5bf-2455-4c2a-82c1-a7de68fb13e9
+    -
+      entity: afe1b005-c39a-4e8c-bbed-3f71935c97fd
+    -
+      entity: ec3c8a94-fa12-4dff-ac03-e397f1074956
+    -
+      entity: b385a194-af34-4b4b-a8ad-68e0ab785de1
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: e8cedaa1-e727-46e7-a786-8d630028536a
+    -
+      entity: faa33d05-2dc0-4d70-a0f9-de32cbd5e712
+    -
+      entity: cfdd449b-7006-4e4f-b23a-efdec46ad595
+    -
+      entity: 139cae80-e5c7-4e45-9563-73267f5de43a
+    -
+      entity: c0146d44-9baf-447c-b072-95d64e0e0531
+  field_organisateurs_text:
+    -
+      value: |
+        IWMI
+        FAO
+        Government of Senegal: Ministry of agriculture and rural development
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        University of Nebraska
+        AFD
+        UNOPS-CIM
+        AICS
+        African Union Commission
+        The World Bank
+        Strategic partners of the listed projects
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+
+        1.	UN-Water Integrated Monitoring Initiative for SDG 6.4" (FAO): importance of environmental flow for a climate resilient agriculture. (Contact:
+        Riccardo.Biancalani@fao.org) 
+        2.	AICCRA- Climate crisis is a water crisis: Accelerating adaptation solutions for building resilience in developing countries (IWMI) 
+        3.	Supporting business ecosystems for sustainable farmer-led irrigation (Daugherty Water for Food Global Institute, DWFI)
+        4.	Scaling Ecological Sustainable Agricultural Water Management solutions for smallholders in the Sahel. (IWMI and Wetlands International) 
+        5.	Water and food security project in Gaza – use of treated wastewater to recharge groundwater (French Development Agency, AFD): 
+        6.	COVID-19 and Egypt’s water crisis: generating evidence for gender transformative innovations (CGIAR Gender Platform)
+        7.	The CMI water entrepreneurship programme on Water and Climate Change in the Mediterranean Region (Center for Mediterranean Integration CMI/ UNOPS
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        •	5 Min: Opening: Introduction of the session and Speakers: Moderator
+        •	20 min: Ignite Talk of  2 overview presentation (projects 1-2):  
+        •	15 min: First Panel Discussion  
+        •	30 min: Presentation of 5 Case studies (Projects 3-7); 5 minutes each.
+        •	10 min: Second Panel discussion focusing on supporting national adaptation and mitigation actions 
+        •	10 min: Concluding plenary insights; recommended actions and Closure 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Recommended actions  captured as a Brief  and widely disseminated through participants networks '
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

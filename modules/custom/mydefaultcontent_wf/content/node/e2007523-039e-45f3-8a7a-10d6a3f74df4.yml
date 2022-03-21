@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e2007523-039e-45f3-8a7a-10d6a3f74df4
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    a01055aa-5657-4401-ad12-64c89d534551: taxonomy_term
+    4d6e0f20-352e-4718-a5da-8f495d1c7bdc: taxonomy_term
+    3881afb1-7f44-49e0-8cd8-abf7675b230f: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    9383576d-15e5-4244-93fe-71465b6f2a9e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Initiative Dakar 2022 - Spotlight on COOPERATION'
+  created:
+    -
+      value: 1647493844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/initiative-dakar-2022-spotlight-cooperation-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The "Dakar 2021 Initiative" aims, during the preparatory phase of the Forum, to select, label and popularize relevant, innovative, structuring and replicable national, regional and international projects, producing short-term results with a sustainable impact around the Forum's priorities, and whose purpose is to contribute to the acceleration of the achievement of the SDGs, and more particularly of SDG6.
+        The Dakar 2022 Initiative is the materialization of the vision: "From commitment to implementation of concrete actions on the ground".
+        This session will present the Initiative through its genesis, its process, its results and its follow-up. It will explore the labeled projects in relation to the Forum's priority "Water and Sanitation Security".
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493844
+      guid: ''
+      hash: 440a127740a5bd7af3c998f9c49e885f
+  field_code:
+    -
+      value: SS23
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: a01055aa-5657-4401-ad12-64c89d534551
+    -
+      entity: 4d6e0f20-352e-4718-a5da-8f495d1c7bdc
+    -
+      entity: 3881afb1-7f44-49e0-8cd8-abf7675b230f
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+  field_organisateurs_text:
+    -
+      value: 'Executive Secretariat of the 9th World Water Forum'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Part 1'
+      format: plain_text
+  field_salle:
+    -
+      entity: 9383576d-15e5-4244-93fe-71465b6f2a9e

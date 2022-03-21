@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c16d7bfc-0776-4825-9d70-1a96b73abd87
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    68bee41c-0b50-43ab-b994-410cfd92fbb7: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    d3c1936a-2639-4e19-a6ba-65e9b4363e22: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    a88bac15-39c2-4a41-b53d-03ff554081b6: taxonomy_term
+    8e75ce15-fadf-4f48-bd69-626c6ddc61a8: taxonomy_term
+    18d11a6b-afaa-497e-8100-7fa0fa7651fa: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Governance for Rural Drinking Water'
+  created:
+    -
+      value: 1647484833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/governance-rural-drinking-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Sharing experiences and policy proposals recommendations to strengthen the impact of actions towards universal access to safe drinking water in rural areas.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484833
+      guid: ''
+      hash: e70367b79adab72661aef7b7d0e7947c
+  field_code:
+    -
+      value: 2A1
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 68bee41c-0b50-43ab-b994-410cfd92fbb7
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: d3c1936a-2639-4e19-a6ba-65e9b4363e22
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: a88bac15-39c2-4a41-b53d-03ff554081b6
+    -
+      entity: 8e75ce15-fadf-4f48-bd69-626c6ddc61a8
+    -
+      entity: 18d11a6b-afaa-497e-8100-7fa0fa7651fa
+  field_organisateurs_text:
+    -
+      value: |-
+        Alliance pour la Maîtrise de l'Eau etde l'Energie 
+        Secours Islamique France 
+        E.T.E. Organisation commerciale 
+        Partenariat National de l’Eau du Bénin :
+        Butterfly Effect and FANSASIA 
+        Métropole Européenne de Lille 
+        K-Water :
+        ISW  
+        ISW Central Asia
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	E.T.E., 
+        •	CDCD66, 
+        •	Municipality of Rufisque-Est,
+        •	Solidarity Water Europe,
+        •	Water Coalition France
+        •	Agence de l’EAU Rhône-Méditerranée-Corse, 
+        •	Région Occitanie, 
+        •	Mairie de St Laurent de la Salanque,
+        •	ACTED
+        •	Tarakijot
+        •	Autres
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water for Rural Development'
+  field_pro:
+    -
+      value: |-
+        •	Project 1. Involving local community for safe affordable sustainable water por all –Case Study Sonamling Tibetan Settlement, Lakadh India. Presented by	Ritesh ARYA from Arya Drillers.
+        •	Project 2. Initiative du Dialogue Multi-Acteurs pour la Gouvernance de l’eau dans la Région de l’Ouest (FR), presented by Beaudelin DONGMO NGUEGANG, from Alliance pour la Maîtrise de l'Eau etde l'Energie.
+        •	Project 3. Operationalization of the human rights-based approach in the water and sanitation sector, presented by Laura Le Floch, from Secours Islamique France.
+        •	Project 4. Local Community Participation in Sustainable, Safe, and Affordable Water for All, presented by Didier GINESTET from E.T.E., Michel BARTHES from CDCD66, and Idrissa THIAW from the municipality of Rufisque-Est.
+        •	Project 5. Support for local associations of drinking water consumers to ensure citizens’ watch over access to drinking water in rural municipalities of Benin, presented by André Corsini Gilbert ZOGO, from Partenariat National de l’Eau du Bénin.
+        •	Rural Water Supply in Developing countries, by Snehalatha Mekala, representing the Butterfly Effect and the FANSASIA (Fresh Action Network Asia).
+        •	MEL projects’ experience in rural water supply and governance, presented by Anne-Lise PIOTROWSKI from the European Metropolis of Lille; and,
+        •	Water resources management and rural water supply projects’ experience presented by Jong Han RHEE from K-Water (Korean Water).
+        •	Rural Water Supply and Sanitation in Central Asia, presented by Nekbakht Orzu from ISW-ACTED-Tarakijot, 
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        The session will be moderated by ISW and the Butterfly Effect Network, and divided in 2 parts: 
+
+        Part I:
+        •	5 minutes for introduction
+        •	7,5 minutes for speaker = 60 minutes,
+
+        Part II:
+        •	15 minutes questions from the audience
+        •	Conclusions = 5 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: "•\tA paper with policy recommendations for policy-makers and civil society organizations."
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

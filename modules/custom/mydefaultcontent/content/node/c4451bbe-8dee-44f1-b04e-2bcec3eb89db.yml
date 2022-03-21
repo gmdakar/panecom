@@ -1,0 +1,147 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c4451bbe-8dee-44f1-b04e-2bcec3eb89db
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    f415a322-30e2-42ce-b810-ee351be60ae2: taxonomy_term
+    0d7080d9-e841-44f0-b1ba-f53ea99bb76b: taxonomy_term
+    1b168b68-e49d-4ba5-9b9b-1ad6d863e8da: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    354c9790-3de9-40d3-a370-638bee89c54e: taxonomy_term
+    6a8fd2df-8f3b-4406-b488-700845ace357: taxonomy_term
+    c9f22a40-5633-4575-9390-bdfc7f1773d1: taxonomy_term
+    a829bb92-e697-40c5-878f-d12584b59ed5: taxonomy_term
+    ee0ac829-faa7-4494-9bbd-d84ee06f4aad: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ecosystem Based Approaches to Combating Water Scarcity'
+  created:
+    -
+      value: 1647484831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ecosystem-based-approaches-combating-water-scarcity
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session will be dedicated to sharing lessons on successful Naturel based Solutions with potential for scaling up that positively impacts both marine and terrestrial water resources. The session brings together scientists and researchers with potential supporters in government and development to find ways of effecting needed action for domestic and industrial water and food security, as well as ensuring climate adaptation.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484831
+      guid: ''
+      hash: 445a14afab020c2005ce616157dff3b7
+  field_code:
+    -
+      value: 1D3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: f415a322-30e2-42ce-b810-ee351be60ae2
+    -
+      entity: 0d7080d9-e841-44f0-b1ba-f53ea99bb76b
+    -
+      entity: 1b168b68-e49d-4ba5-9b9b-1ad6d863e8da
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 354c9790-3de9-40d3-a370-638bee89c54e
+    -
+      entity: 6a8fd2df-8f3b-4406-b488-700845ace357
+    -
+      entity: c9f22a40-5633-4575-9390-bdfc7f1773d1
+    -
+      entity: a829bb92-e697-40c5-878f-d12584b59ed5
+    -
+      entity: ee0ac829-faa7-4494-9bbd-d84ee06f4aad
+  field_organisateurs_text:
+    -
+      value: |
+        The Nature Conservancy,
+        Nairobi City Water & Sewerage Company, 
+        Catholic Relief Services (CRS) Senegal 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'O2S, UNCCD, PRCM, Wetlands International, Abidjan Convention, WIACO, CRRC, AFWA, WASREB, Nairobi City Water and Sewerage Co., AFD, IWA, City of Cape Town, AGWA, Stanford Nat Cap, AUDA-NEPAD, Athi Water Works Development Agency.'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        Project 1: Marine and Coastal Protected Areas, Mitigation Tool Toward Global Climate Changes
+        Project 2: Mangrove and Resilience of Western Africa Communities
+        Project 3: Water Funds are an Approach for Watersheds Resilience
+        Project 4: NbS for Urban Water and Sanitation 
+        Project 5 Ecosystem Based Approaches to Combating Water Scarcity
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        Welcoming and Session Introduction: 5 minutes. By Mbaruku Vyakweli Governor and WWC Special Envoy for ESA region.
+        Keynote: 10 minutes. By Hon Mayor Yvonne Aki-Sawyerr. Freetown, Sierra Leone
+        Part 1. Nature Based Solutions for Marine Ecosystems Conservation
+        Project 1: 7 minutes
+        Project 2: 7 minutes
+        Panel Discussion: 15 minutes
+        Part 2. Nature Based Solutions for Resilient Watersheds
+        Keynote: 10 minutes. By Mr Eddy Njoroge. President of International Standards Organization (ISO)
+        Project 3: 7 minutes
+        Project 4: 7 minutes
+        Project 5: 7 minutes
+        Q& A: 10 minutes
+        Closing Remarks: 5 minutes. By Anta Gueye-James, Country Representative, Catholic Relief Services (CRS) Senegal. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'The expected result is increased awareness on how to identify specific ecosystem services that support water security, how to identify the cost/benefits of managing these systems for water security outcomes, and how to structure delivery through collective action. The outcomes will also buttress the resolution in Nairobi 2020 Pre-WWF congress on the need for Africa Source Water Protection Partnership involving governments, municipalities, utilities, private sector and civil society.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

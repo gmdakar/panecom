@@ -1,0 +1,19 @@
+uuid: 5a69d467-be61-4447-b0ab-36dabf1eb32b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_expected_speakers
+field_name: field_expected_speakers
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 70b92425-cec5-4d99-8da1-f38f39ca63ad
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    d30074cb-da8b-4974-b634-a933dd11efb5: taxonomy_term
+    218ca2fe-abed-4f90-a7fc-fb0b5ac22a57: taxonomy_term
+    f17878a1-d5f1-4761-9d5e-cfeedf08794e: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Panel international de haut niveau pour les investissements dans le secteur de l''eau en Afrique : Débloquer des financements pour des projets d''eau résilients au climat'
+  created:
+    -
+      value: 1647485801
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/panel-international-de-haut-niveau-pour-les-investissements-dans-le-secteur-de-leau-en-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "Le 12 août 2021, AMCOW, en collaboration avec le PNUD, l'UNICEF, l'AUDA-NEPAD, la BAD, la GCA et le GWP, a lancé un partenariat pour organiser un Panel international de haut niveau sur l'investissement dans l'eau en Afrique. \r\n\r\nLe 8 septembre 2021, le Comité exécutif de l'AMCOW a salué les efforts des organisateurs et a officiellement adopté une décision pour l'inauguration du Panel.  \r\n\r\nL'objectif du Panel est d'élaborer un rapport et un plan d'investissement de haut niveau pour la Conférence des Nations Unies de 2023 et les chefs d'État de l'Union africaine, avec une recommandation claire pour les pays africains sur la façon de mobiliser 30 milliards de dollars par an pour combler le déficit d'investissement dans l'eau en Afrique, qui est estimé à 45-54 milliards de dollars par an. \r\n\r\nL'événement HLP communiquera sur la manière dont le panel peut accélérer la transformation requise pour augmenter le financement de la sécurité de l'eau en Afrique et présentera des initiatives ambitieuses pour accélérer les investissements dans l'eau résiliente au climat en Afrique - comme le Programme continental d'investissement dans l'eau en Afrique (AIP) dont l'objectif est de mobiliser 30 milliards de dollars d'investissements dans l'eau résiliente au climat d'ici 2030 ; ainsi que le Programme d'accélération de l'adaptation en Afrique (AAAP) qui vise à mobiliser 25 milliards de dollars d'ici 2025 et à galvaniser les actions résilientes au climat par le biais d'une approche à triple gain pour faire face aux impacts de Covid-19, du changement climatique et de l'économie. \r\n\r\nObjectifs de l'événement :\r\n\r\n1.\tPrésenter le Panel international de haut niveau sur les investissements dans le secteur de l'eau en Afrique et explorer les perspectives pour accélérer le financement à grande échelle des investissements dans le secteur de l'eau.\r\n2.\tPrésenter les organisateurs du Panel international de haut niveau sur les investissements dans le secteur de l'eau et présenter les initiatives nouvelles et en cours liées à l'eau et résilientes au climat afin de mobiliser des investissements et des financements.\r\n"
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485801
+      guid: ''
+      hash: 2df03fbeb5fae2d2d3f2c728fde91b0d
+  field_code:
+    -
+      value: HLP03
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: d30074cb-da8b-4974-b634-a933dd11efb5
+    -
+      entity: 218ca2fe-abed-4f90-a7fc-fb0b5ac22a57
+    -
+      entity: f17878a1-d5f1-4761-9d5e-cfeedf08794e
+  field_organisateurs_text:
+    -
+      value: 'Global Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: "En fonction des orateurs confirmés, l'ordre du jour proposé pour la session est le suivant :\r\n \r\n5 min M. Henk Ovink - Envoyé spécial pour les affaires internationales de l'eau, Royaume des Pays-Bas\r\n- Bienvenue, introduction, objectif du Panel international de haut niveau sur les investissements dans le secteur de l'eau en Afrique.\r\n\r\n10 mins S.E. le Président Jakaya Kikwete, ancien Président de la Tanzanie, Président de la Coordination Afrique du GWPSA. \r\n\r\n- Quel changement doit avoir lieu pour créer les conditions d'une augmentation des investissements et du financement des investissements dans l'eau résiliente au climat en Afrique ? \r\n\r\n5 mins S.E. Dr. Ibrahim Mayaki, PDG, Agence de développement de l'Union africaine (AUDA-NEPAD) \r\n \r\n- Le 7 février 2021, l'Assemblée des chefs d'État et de gouvernement de l'Union africaine a adopté le Programme continental d'investissement dans l'eau en Afrique (PIA) afin d'accélérer les investissements dans l'eau transfrontalière en Afrique. Quelles sont les opportunités pour le Panel de Haut Niveau de mobiliser des financements pour les projets d'eau du PIDA ?\r\n\r\n5 mins Hon. Carl Hermann Gustav Schlettwein, Président : AMCOW\r\n\r\n- Le 8 septembre 2021, le Comité exécutif de l'AMCOW a adopté une décision pour la création d'un Panel international de haut niveau pour l'Afrique.  Comment ce panel bénéficiera-t-il aux efforts de l'Afrique pour mobiliser des investissements pour la sécurité de l'eau ?\r\n\r\n5 mins Représentant senior du GCF \r\n\r\n- Les projets axés sur l'eau représentent près de la moitié du financement de l'adaptation au changement climatique, mais comme le financement de l'atténuation dépasse de loin celui de l'adaptation, le total des flux de financement du changement climatique destinés aux initiatives dans le domaine de l'eau s'élève à moins de 3 %. Comment pouvons-nous changer cela ? \r\n\r\n5 mins Prof. Dr. Patrick V. Verkooijen, CEO : GCA \r\n\r\n- Le 6 septembre 2021, avec Ban Ki-moon, 8ème Secrétaire Général des Nations Unies, le Président du Conseil d'Administration de la GCA, Kristalina Georgieva- Directrice Générale du Fonds Monétaire International, vous avez réuni plus de cinquante leaders mondiaux pour accélérer l'impératif d'adaptation pour la COP 26. Quels ont été les messages clés des dirigeants et comment le Groupe de haut niveau peut-il en tirer parti pour mobiliser des fonds pour l'adaptation de l'eau ?\r\n\r\n5 mins Dr. Pradeep Kurukulasuriya, Coordinateur exécutif et Directeur : PNUD\r\n\r\n- Le portefeuille de résilience climatique du PNUD en Afrique s'élève à plus de 1,2 milliard de dollars US. Comment le Panel peut-il tirer parti du portefeuille du PNUD pour mobiliser des financements à grande échelle pour l'adaptation liée à l'eau en Afrique ?\r\n\r\n5 mins Mme Kelly Ann Naylor, Directrice, Eau Assainissement Hygiène : UNICEF\r\n\r\n- L'UNICEF, en association avec le Partenariat mondial pour l'eau (GWP), a développé le Cadre stratégique pour un développement résilient au climat dans le domaine de l'eau, de l'assainissement et de l'hygiène. Ce cadre a été utilisé par plus de 80 pays. Comment le Panel de haut niveau peut-il en tirer parti pour augmenter les investissements en faveur d'un développement WASH résilient au climat en Afrique ?\r\n\r\n5 mins Dario Soto-Abril, PDG : Global Water Partnership \r\n\r\n- Global Water Partnership soutient activement l'objectif du PIA de mobiliser 30 milliards de dollars par an d'investissements dans le domaine de l'eau résiliente au climat en Afrique d'ici 2030 et de créer 5 millions d'emplois. Pourquoi le PIA offre-t-il un nouvel espoir pour l'Afrique et quelles sont les opportunités qu'il offre pour le Nord ? \r\n\r\n5 mins Osward Chanda, Directeur Ag, Eau et Assainissement, Banque Africaine de Développement\r\n- Le Conseil d'administration du Groupe de la Banque africaine de développement a récemment approuvé une nouvelle politique de l'eau, donnant la priorité à la sécurité de l'eau et à la transformation des actifs hydriques pour favoriser une croissance économique durable, verte et inclusive dans les pays membres régionaux. Comment les pays et le Panel de haut niveau peuvent-ils tirer parti de cette politique et mobiliser des investissements à grande échelle ?\r\n\r\n3 mins Court interlude vidéo/présentation\r\n\r\n25 minutes Discussion avec l'auditoire\r\n\r\n5 minutes Résumé des messages clés, feuille de route pour le Panel international de haut niveau sur les investissements dans le secteur de l'eau. \r\n- Alex Simalabwi, Secrétaire exécutif, GWPSA-Afrique, Chef du Secrétariat conjoint du Panel \r\n\r\n2 mins Le modérateur remercie les intervenants, conclut et clôture l'événement\r\n- Henk WJ Ovink-Envoyé spécial pour les affaires internationales de l'eau, Royaume des Pays-Bas\r\n"
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

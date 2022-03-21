@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: be357e63-83e7-4f0f-97e9-0c6bf8080f01
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    4eff5f95-67a5-433e-ba6e-48ced37e5ca9: taxonomy_term
+    1fa009c7-100c-4b4d-80ec-af37199175dc: taxonomy_term
+    fbf91abd-7759-45a2-bee2-6092fe88bf7a: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    2e42f5b5-38b0-4f52-830d-0525da205647: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Cooperation 
+        framework and 
+        approach for 
+        integrated 
+        management and 
+        restoration of shared 
+        water resources and 
+        their associated 
+        ecosystems
+  created:
+    -
+      value: 1647486048
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/cooperation-framework-and-approach-integrated-management-and-restoration-shared-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        This session will address the issue of integrated natural resource management, with a focus on shared transboundary groundwater and its interaction with surface water. Relevant results obtained in the context of land restoration will be highlighted. It will also comprehensively address the challenges of integrating ecosystem accounting into countries' planning processes.
+        It will bring together representatives of basin organizations working in these areas, national or regional cooperation and/or development agencies and national partners.
+        The specific objectives are : 
+        - The exchange of good practices for sustainable water resources management between the partner institutions;
+        - The promotion of concerted management of shared transboundary ground and surface water resources and their associated ecosystems, and the dissemination of best practices;
+        - Raising awareness among African countries on the importance of internalizing the costs and benefits of biodiversity conservation and sustainable use of ecosystems;
+        - The promotion of methodological approaches and tools developed for land restoration;
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486048
+      guid: ''
+      hash: e7519e857249e427bc9f83ac71c0d78a
+  field_code:
+    -
+      value: SE51
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        - Modérateur (M. Nabil BEN KHATRA SE/OSS)
+        '- Panelists :
+        1.	Mrs. Astrid Hillers (GEF)
+        2.	Mme Alice Aureli (UNESCO)
+        3.	M. Abderahim Birème Hamid (ABN)
+        4.	M. Ahmed Diane SEMEGA (OMVS)
+        5.	M. Abakar Zougoulou (APGMV)
+        6.	M. Abdel Kader Dodo (OSS)
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 4eff5f95-67a5-433e-ba6e-48ced37e5ca9
+    -
+      entity: 1fa009c7-100c-4b4d-80ec-af37199175dc
+    -
+      entity: fbf91abd-7759-45a2-bee2-6092fe88bf7a
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+  field_organisateurs_text:
+    -
+      value: |-
+        Sahara and Sahel 
+        Observatory (OSS)
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        - Welcome speech : 5mn
+        '- Introductory presentation : 10mns (OSS)
+        '- Thematic sub-session n°1 : in the form of a debate animated by Questions & Answers with 4 speakers : 20mns
+        '- Thematic sub-sessions n°2 : in the form of a debate animated by Questions and Answers with 2 speakers : 10mns
+        '- Closing " conclusion and lessons learned " by each panelist (10 min)
+      format: plain_text
+  field_salle:
+    -
+      entity: 2e42f5b5-38b0-4f52-830d-0525da205647

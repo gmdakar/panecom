@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0685e130-e16b-42b7-91f8-13436f5979ee
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    6fe3969f-8a94-44d5-9c35-68206b81ae81: taxonomy_term
+    344bd90d-fe35-4d7d-965d-9ec51b08ec38: taxonomy_term
+    bcd39120-5605-4fa6-8c05-4c1da4405b17: taxonomy_term
+    e7105ce9-9f11-450b-b9e5-02703fca78ba: taxonomy_term
+    4c215789-9acb-4eab-b34e-8eb848cec870: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Territorialisation des politiques : l''eau et l''agro- écologie au service du développement rural et de l''Agenda 2030'
+  created:
+    -
+      value: 1647485807
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/territorialisation-des-politiques-leau-et-lagro-ecologie-au-service-du-developpement-rural-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Mal-développement rural, montée des problèmes climatiques, dégradation des ressources naturelles, insécurités hydriques, alimentaires et socio-politiques... La décennie 2020-2030 va être décisive (ODD, action climatique...). Des ruptures s'imposent: il nous faut changer notre façon de penser, il nous faut construire autrement.
+        Ce construire autrement, c'est passer du non-faire (le délaissement du monde rural) ou du "faire" (des actions et des politiques descendantes, en silos, technicistes) au "faire avec" : avec les hommes, avec la nature et avec les territoires. 
+        Apporter des réponses à la hauteur des enjeux nécessite plus de sols vivants, plus d'agronomie, plus d'eau et plus de mobilisations et d'investissements. Il s'agit de sujets centraux, politiques au sens noble du terme, qui exigent de nouvelles visions de long terme, des analyses systémiques et des approches territorialisées. 
+        La session spéciale fait suite à deux rencontres internationales "sur la route de Dakar", organisées en octobre 2021 (7e édition du séminaire sur l'eau et la sécurité alimentaire en Afrique de l'ouest et en Méditerranée -SESAME- et conférence Parmenides de Bari sur la gestion des bassins versants en Méditerranée). S'appuyant sur leurs conclusions, elle a pour objectifs de :
+        - mettre en lumière des élément de vision à long terme, et, par des exemples concrets, les contenus et les portées possibles du "construire autrement"
+        - proposer les éléments de politiques mettant en oeuvre les leviers d'une transition à différentes échelles territoriales,
+        - faire émerger des messages de portée politique qui contribueront à la réussite du Forum et de ses panels de haut niveau.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485807
+      guid: ''
+      hash: df9b6e4a40f375c8315099679e7a8c18
+  field_code:
+    -
+      value: SS02
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 6fe3969f-8a94-44d5-9c35-68206b81ae81
+    -
+      entity: 344bd90d-fe35-4d7d-965d-9ec51b08ec38
+    -
+      entity: bcd39120-5605-4fa6-8c05-4c1da4405b17
+    -
+      entity: e7105ce9-9f11-450b-b9e5-02703fca78ba
+    -
+      entity: 4c215789-9acb-4eab-b34e-8eb848cec870
+  field_organisateurs_text:
+    -
+      value: 'Conseil Général de l''Alimentation, de l''Agriculture et des Espaces Ruraux, Ministère de l''agriculture et de l''alimentation'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        9h00-9h15 : Introduction. 
+        Accueil par M Aït Kadi, modérateur de la session 
+        Synthèse par G Benoit des principales conclusions des séminaires SESAME et Parmenides
+
+        9h15-10h00 : Exemples de projets de territoires et de territorialisation des politiques
+        - Ibrahim Rissa Ixa. Eau et sécurité dans le massif de l'Aïr et la région d'Agadez, Niger
+        - Céline Hugodot. Projet de territoire eau et agriculture du canal de Gignac, France
+        - Tatiana Motta. Programme renaissance - Alliance Jacarei pour la forêt, l'eau et la population, Brésil 
+        - Ali Bety Territorialisation des politiques, eau et développement rural, Niger 
+        Discussion
+
+        10h00-10h25 : Panel présidé par Alain Moulinier
+        Panélistes : Akiça Bahri (présidente du panel du SESAME 7), Sylvain Berton, ROPPA,  Miguel Polo, Faouzi Bekkaoui
+
+        10h25-10h30 : Conclusions
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

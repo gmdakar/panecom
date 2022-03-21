@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 96b4598f-6a0b-4205-950a-c76890db70cb
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    b4a56853-e6c4-4c93-9f9e-721fb202a4ca: taxonomy_term
+    0091cf96-2d7d-42a0-a0dd-17ca8ebd08ac: taxonomy_term
+    e041f7ad-faf5-45ae-b237-f0fde2814aac: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    21054272-5eaa-4faf-972a-7a3ff99c73b8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Presentation of the document Country of Côte d''Ivoire'
+  created:
+    -
+      value: 1647486044
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/presentation-document-country-cote-divoire
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        In a context of scarcity, degradation and conflicts around the water resource, appropriate solutions must be found for humanity. Through this session, Côte d'Ivoire intends to show its contribution to this process of finding solutions through its experience in the field and its expectations. 
+        The country document, without ignoring sub-regional and continental realities, presents an overview of water resources in Côte d'Ivoire and outlines the National Plan for Integrated Water Resources Management (PLANGIRE) which is currently being updated.
+        Moreover, the internal capacity of mobilization of financial resources being below the needs of financing of the National Action Plan of Integrated Water Resources Management (PLANGIRE), the World Water Forum is an opportunity to be seized in order to demonstrate that Côte d'Ivoire is a useful reference for all the Development Partners wishing to accompany it in its ambitious program of operationalization of the IWRM
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486044
+      guid: ''
+      hash: 9bd60cb22b6c7e4fb26797b2a803e65d
+  field_code:
+    -
+      value: SE42
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Ministre des Eaux et Forêt
+        Ministre de l'Hydraulique
+        Ministre de l'Assainissement
+        Directeur Général des Ressources en Eau
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: b4a56853-e6c4-4c93-9f9e-721fb202a4ca
+    -
+      entity: 0091cf96-2d7d-42a0-a0dd-17ca8ebd08ac
+    -
+      entity: e041f7ad-faf5-45ae-b237-f0fde2814aac
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+  field_organisateurs_text:
+    -
+      value: 'Ministère des Eaux et Forêts (Direction Générale des Ressources en Eau)'
+      format: basic_html
+  field_programme:
+    -
+      value: '15 min presentation and 45 min discussion'
+      format: plain_text
+  field_salle:
+    -
+      entity: 21054272-5eaa-4faf-972a-7a3ff99c73b8

@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd91bf09-e882-4417-aa7d-1b5a047a10c3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    d40d8c57-eddf-44be-87e7-62b3ef373cdd: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    ae762c6c-a30b-4775-b010-f676332f7d52: taxonomy_term
+    d522ce84-7762-40db-ab1a-851e95b55785: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'État des ressources en terres et en eau pour l''alimentation et l''agriculture dans le monde 2021 (SOLAW 2021)'
+  created:
+    -
+      value: 1647485804
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/etat-des-ressources-en-terres-et-en-eau-pour-lalimentation-et-lagriculture-dans-le-monde-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "Les ressources en eau, en terre et en sol sont les sources de la vie, sans lesquelles il n'y a pas d'agriculture. Avec 98% des aliments consommés produits sur les terres/sols et l'impact immédiat et visible de la sécheresse sur la production agricole, le bon état de ces ressources naturelles cruciales devrait être la priorité de tous. En 2011, la FAO a publié son premier rapport complet sur l'état des ressources mondiales en terres et en eau pour l'alimentation et l'agriculture (SOLAW 2011). Cette nouvelle édition du SOLAW met à jour l'état antérieur des ressources, examine les tendances et explore les nouveaux processus mondiaux émergents.\r\nL'objectif de la session est de sensibiliser à l'état des ressources en terres et en eau et de fournir des profils de haut niveau avec des données clés pour relever les défis de l'utilisation durable et de la gouvernance de ces ressources naturelles, de leur plus grande intégration dans les systèmes alimentaires et du changement climatique."
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485804
+      guid: ''
+      hash: 086dfb82ca79f90b82fc7f8ba6e16152
+  field_code:
+    -
+      value: HLP09
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: d40d8c57-eddf-44be-87e7-62b3ef373cdd
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: ae762c6c-a30b-4775-b010-f676332f7d52
+    -
+      entity: d522ce84-7762-40db-ab1a-851e95b55785
+  field_organisateurs_text:
+    -
+      value: 'FAO (International organization)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "- Bienvenue et introduction (5')
+        - Animation vidéo sur "L'état des ressources mondiales en terres et en eau pour l'alimentation et l'agriculture 2021" (5')
+        - Discours-programme "Présentation de la SOLAW 2021 : principales conclusions et recommandations" par M. Lifeng Li, directeur de la Division des terres et des eaux de l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) (15')
+        - Panel de haut niveau sur la dynamique de la sauvegarde des terres et des eaux (30') modéré par Sasha Koo-Oshima, Directeur adjoint de la Division des terres et des eaux :
+               o M. Gilbert F. Houngbo, Président du Fonds international pour le développement agricole et Président de l'ONU-Eau.
+               o S.E. Mariam Almheiri, Ministre du changement climatique et de l'environnement, EAU
+               o M. Moussa Baldé, Ministère de l'Agriculture et de l'Equipement Rural (MAER) du Sénégal (tbc)
+               o Mme Akissa Bahri, ministre de l'agriculture de la Tunisie, comité consultatif indépendant de SOLAW
+               o M. Pieter Waalewijn, spécialiste principal de la gestion des ressources en eau et de l'irrigation, Banque mondiale (Banque mondiale)
+        - Messages clés et conclusion (5') par Sasha Koo-Oshima"
+      format: plain_text
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

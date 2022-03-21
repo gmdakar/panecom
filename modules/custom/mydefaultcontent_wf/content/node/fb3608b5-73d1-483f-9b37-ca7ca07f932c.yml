@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fb3608b5-73d1-483f-9b37-ca7ca07f932c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    b41b80f9-fa71-4465-9b2b-0ba7f9686fd5: taxonomy_term
+    b94718ab-7033-4365-a491-da95fcb30b61: taxonomy_term
+    046dbeca-0e1d-44e7-82b0-658ed6c2b3b6: taxonomy_term
+    8e174917-915e-4bf7-8aff-853e76eaf1c1: taxonomy_term
+    2f028a85-c75e-4d2e-964f-2182d1e9e12b: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Made in Germany - Qu''est- ce qui se cache derrière la promesse de qualité ? Les technologies allemandes innovantes en matière d''eau et d''assainissement et approches de qualification pour assurer la durabilité des investissements.'
+  created:
+    -
+      value: 1647485815
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/made-germany-quest-ce-qui-se-cache-derriere-la-promesse-de-qualite-?-les-technologies-0'
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le secteur privé est un acteur majeur de l'innovation et du développement de solutions fondées sur la connaissance et axées sur la demande dans le secteur de l'eau et de l'assainissement. Les entreprises allemandes du secteur de l'eau et de l'assainissement ont reconnu que les facteurs clés qui garantissent leur viabilité à long terme et la durabilité de leurs investissements sont des employés possédant exactement les bonnes qualifications ainsi que des connaissances et des compétences spécifiques au secteur. C'est pourquoi le secteur privé investit en permanence dans la formation des jeunes. L'accès à l'enseignement technique dans le secteur de l'eau et de l'assainissement constitue un levier important pour améliorer et garantir la qualité de l'approvisionnement en eau et de l'évacuation des eaux usées de manière durable. En présentant des technologies innovantes dans le domaine de l'eau et de l'assainissement et en les reliant aux meilleures pratiques en matière d'éducation et de développement des capacités, la session contribue aux principaux axes thématiques du WWF, notamment dans le groupe d'action "accroître l'efficacité et la gestion durable de l'eau par la science, la technologie, l'innovation et l'éducation".
+
+        Résultats attendus
+        - Fournir un aperçu du rôle du secteur privé allemand dans le développement de solutions innovantes axées sur la demande dans le secteur de l'eau et de l'assainissement et présenter certaines des dernières technologies innovantes.
+        - Présenter les meilleures pratiques et les programmes actuels en matière d'éducation et de formation professionnelle, car il s'agit de facteurs de réussite essentiels pour un développement futur de la gestion durable de l'eau et de l'assainissement. Ceci sera fait en décrivant les activités des différentes parties prenantes telles que le secteur privé, les organismes gouvernementaux et les instituts d'enseignement. 
+        - Renforcer la coopération euro-africaine dans le domaine de l'éducation et de la formation professionnelle dans le secteur de l'eau et de l'assainissement.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485815
+      guid: ''
+      hash: e937585f1da946a497146bb66405f847
+  field_code:
+    -
+      value: SS43
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: b41b80f9-fa71-4465-9b2b-0ba7f9686fd5
+    -
+      entity: b94718ab-7033-4365-a491-da95fcb30b61
+    -
+      entity: 046dbeca-0e1d-44e7-82b0-658ed6c2b3b6
+    -
+      entity: 8e174917-915e-4bf7-8aff-853e76eaf1c1
+    -
+      entity: 2f028a85-c75e-4d2e-964f-2182d1e9e12b
+  field_organisateurs_text:
+    -
+      value: 'German Mittelstand BVMW, German Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Accueil et introduction
+
+        5' Le Mittelstand allemand et son rôle dans la formation professionnelle, Andreas Jahn, Membre du Conseil d'administration du BVMW
+        5' Aperçu du secteur allemand de l'eau et de l'assainissement et des approches de qualification, Julia Braune, Directrice générale de German Water Partnership  
+
+        Le secteur privé allemand : Technologies innovantes et approches de qualification
+
+        8' Meilleure pratique - Systèmes de dessalement d'eau solaire : Leçons de Zanzibar à l'est pour la ville de Tuba à l'ouest, Dr. Hamed Beheshti, PDG de Boreal Light GmbH
+        8' Best Practice - Technologies de fuite d'eau et approches de qualification, Michael Kersting, Business Development chez Hermann Sewerin GmbH
+        8' Best Practice - Technologies de traitement des eaux usées et approches de qualification, Felix-Meyer-Horn, Directeur Général Afrique du Nord chez Aerzener Maschinenfabrik GmbH
+        8' Meilleure pratique - De l'eau potable propre grâce à l'élimination des fluorures au Lac Baringo, Kenya, Johannes Muenz, Ingénieur commercial chez Harbauer 
+        8' Quel type de compétences sont nécessaires pour assurer la durabilité technique des investissements ; Dr. Stephan Kunz, Chef du programme pays de la GIZ au Sénégal dans le cadre de l'Initiative spéciale sur la formation et la création d'emplois
+
+        Programmes et initiatives actuels dans le domaine du renforcement des capacités et de la formation professionnelle dans le secteur de l'eau et de l'assainissement 
+
+        10' Programmes du gouvernement allemand promouvant la formation professionnelle dans le secteur de l'eau et de l'assainissement dans le monde entier, Claudia Pragua, Chef de la Division Eau, Assainissement et Hygiène au Ministère fédéral allemand de la Coopération économique et du Développement (BMZ)
+        10' Présentation de la nouvelle Académie africaine de l'eau et de l'assainissement (AWASA) en Ouganda, un projet de partenariat financé par le BMZ entre le GWP et l'Association africaine de l'eau, Dr. Rose Kaggwa, Directrice des services commerciaux et scientifiques au NWSC, Directrice de l'IREC
+
+        Q+A et clôture 
+
+        15' Discussion ouverte / Q+A, Andreas Jahn, Membre du conseil d'administration du BVMW et audience
+        5' Résumé et clôture, Julia Braune, Directrice générale du Partenariat allemand pour l'eau.  
+          
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

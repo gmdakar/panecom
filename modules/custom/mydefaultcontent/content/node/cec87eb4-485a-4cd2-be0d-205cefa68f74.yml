@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cec87eb4-485a-4cd2-be0d-205cefa68f74
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    b3cd2a58-107f-4a82-80ed-184648b9f123: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    61d878bc-5542-4ca2-8a01-97f982cf4673: taxonomy_term
+    d392610e-20ad-4670-9563-87367ec6cb50: taxonomy_term
+    dcd94e30-bb45-4dae-b995-dd81e186c333: taxonomy_term
+    e8aca36f-cb5c-4145-8f14-225129aaf755: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'FAIRE RÉALITÉ les DROITS HUMAINS  À L’EAU ET L’ASSAINISSEMENT” /REALIZING HUMAN RIGHTS TO WATER AND SANITATION (SS50: 24th March)'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/faire-realite-les-droits-humains-leau-et-lassainissement-realizing-human-rights-water-and-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'accès à l'eau potable et à l'assainissement est essentiel pour vivre dans la dignité et faire respecter les droits de l'homme. Pourtant, des milliards de personnes ne bénéficient toujours pas de ces droits fondamentaux.
+        Les droits à l'eau et à l'assainissement exigent que ceux-ci soient disponibles, accessibles, sûrs, acceptables et abordables pour tous, sans discrimination. Ces éléments sont clairement interdépendants. Si l'accès à l'eau peut être garanti en théorie, en réalité, si l'eau est trop chère, les gens n'y ont pas accès. Le fait d'avoir un robinet qui délivre une eau insalubre n'améliore pas l'accès à l'eau. Les droits de l'homme exigent une compréhension holistique de l'accès à l'eau et à l'assainissement.
+        Les droits à l'eau et à l'assainissement exigent en outre que l'on se concentre explicitement sur les personnes les plus défavorisées et marginalisées, et que l'on mette l'accent sur la participation, l'autonomisation, la responsabilité et la transparence.
+        La promotion des droits de l'homme à l'eau potable et à l'assainissement est l'une des priorités de la politique de coopération espagnole. Depuis plusieurs décennies, un double travail est mené : la reconnaissance internationale de l'eau et de l'assainissement comme des droits de l'homme, et la réalisation effective de ces droits. Le Fonds de coopération pour l'eau et l'assainissement pour l'Amérique latine et les Caraïbes est l'un des instruments les plus ambitieux de l'Espagne dans ce domaine, puisqu'il a été créé dans le but de rendre effectifs les droits de l'homme à l'eau et à l'assainissement (DHAS), en donnant la priorité aux pays les plus fragiles et aux populations les plus vulnérables.
+        Cette session abordera des exemples de réussite dans la réalisation des droits de l'homme à l'eau potable et à l'assainissement.
+        Cette session abordera des exemples de réussites dans la réalisation des droits de l'homme à l'eau potable et à l'assainissement.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: dfe098b6e509a1ac96c75d6024d36351
+  field_code:
+    -
+      value: SS50
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: b3cd2a58-107f-4a82-80ed-184648b9f123
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 61d878bc-5542-4ca2-8a01-97f982cf4673
+    -
+      entity: d392610e-20ad-4670-9563-87367ec6cb50
+    -
+      entity: dcd94e30-bb45-4dae-b995-dd81e186c333
+  field_organisateurs_text:
+    -
+      value: |-
+        Agencia Española de Cooperación Internacional para el Desarrollo (AECID).
+         Agence de coopération au développement of SPAIN
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Table Ronde : RÉALISER LES DROITS DE L'HOMME À L'EAU ET À L'ASSAINISSEMENT
+        - Ministère espagnol des Affaires étrangères, de l'Union européenne et de la Coopération (MAUEC) : Pilar Cancela, Secretaria de Estado (Viceminister) : bienvenue et introduction 10' :.
+        - Rapporteur spécial des Nations Unies sur les droits de l'homme à l'eau potable et à l'assainissement : Pedro Arrojo 15'
+
+        - ONG : ONGAWA, Mar Rivero 10'
+        - Banque Mondiale : Gustavo Setiel, Global Lead for Water Supply and Sanitation, Water Global Practice : 10'
+        - Assainissement et eau pour tous : Catarina de Albuquerque (tbc) : 10'
+        - PDG d'une société de distribution d'eau du secteur privé (à confirmer) : 10'. 
+
+        Débats d'experts (y compris la participation du public) : 25'.
+         Modérateurs : AECID
+      format: plain_text
+  field_salle:
+    -
+      entity: e8aca36f-cb5c-4145-8f14-225129aaf755

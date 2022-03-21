@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3d4f0021-7936-41d8-beef-93b500c51b07
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    cb4a3b25-3ed9-451a-bdde-c7b2b677a076: taxonomy_term
+    b0d42949-d684-49f4-931e-6d08fdb6b644: taxonomy_term
+    f41a8bde-3f6f-4765-96e7-cd4d07690042: taxonomy_term
+    17050329-d939-40bd-95db-79cee9f4a3c2: taxonomy_term
+    28da8579-ceaf-4d03-86b0-498006805d13: taxonomy_term
+    e8aca36f-cb5c-4145-8f14-225129aaf755: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Unir nos forces pour empêcher le renversement des ODD dans les contextes touchés par la fragilité, les conflits et la violence'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/unir-nos-forces-pour-empecher-le-renversement-des-odd-dans-les-contextes-touches-par-la-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'objectif de cette session est double.
+         
+        Le premier objectif est de mettre en évidence les avantages des partenariats innovants pour la protection, le maintien et/ou le renforcement des services d'eau et d'assainissement pendant les crises, avec des exemples concrets d'actions réussies. 
+
+        Le second sera d'encourager un dialogue entre le public et un échantillon représentatif de la diversité des acteurs présents en contexte de crise, afin d'identifier collectivement des solutions pour favoriser des réponses multi-acteurs pour la protection et le maintien des services WASH en contexte de crise. 
+
+        En effet, bien que des exemples d'alliances inhabituelles d'acteurs aient fait leurs preuves, les interventions humanitaires sont encore trop souvent menées par les acteurs traditionnels de l'aide humanitaire avec une implication trop faible des acteurs locaux tels que la société civile, le secteur privé, les services d'eau, le monde universitaire ou les institutions étatiques et les municipalités.
+
+        Cette session sera également l'occasion d'interpeller l'audience sur le fait que les ODD constituent un cadre valable et pertinent pour l'action humanitaire. Début 2022, plus de 274 millions de personnes dépendent de l'aide humanitaire, mais comment assurer l'accès universel aux services d'eau et d'assainissement (ODD 6) si cet objectif ne s'applique pas en cas de crise ?
+
+        Ainsi, après un premier panel de haut niveau qui présentera les avantages des alliances multi-acteurs dans les crises, des exemples concrets d'alliances multi-acteurs réussies et ayant un impact seront présentés. Cette présentation sera suivie d'une session interactive entre le public et un deuxième panel. La session se terminera par l'identification d'actions qui favorisent les approches multi-acteurs et les partenariats solides dans un contexte de crise.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: 33c4098cd89546072d6d5ed7915b2a66
+  field_code:
+    -
+      value: SS34
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: cb4a3b25-3ed9-451a-bdde-c7b2b677a076
+    -
+      entity: b0d42949-d684-49f4-931e-6d08fdb6b644
+    -
+      entity: f41a8bde-3f6f-4765-96e7-cd4d07690042
+    -
+      entity: 17050329-d939-40bd-95db-79cee9f4a3c2
+    -
+      entity: 28da8579-ceaf-4d03-86b0-498006805d13
+  field_organisateurs_text:
+    -
+      value: 'Swiss Agency for Development and Cooperation (international cooperation agency of the Swiss Confederation)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        "Ouverture de la session (5') : court-métrage "Les avantages de la localisation par le Croissant-Rouge arabe syrien" https://www.youtube.com/watch?v=X-skRl3sc24  
+        Premier panel de haut niveau (15') : session d'introduction - 3 minutes de messages clés par panéliste
+        Exemples d'actions concrètes réussies (30') :
+        - Présentation de la feuille de route WASH (6')
+        - Présentation de l'analyse des écarts WASH 2021 (4') + Définition du programme de recherche (session interactive) (8')
+        - Présentation des principales conclusions du rapport "Joining forces to secure water and sanitation in protracted crises" par le CICR et la BM (12')
+        Deuxième panel (35')
+        Synthèse (5')"
+      format: plain_text
+  field_salle:
+    -
+      entity: e8aca36f-cb5c-4145-8f14-225129aaf755

@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9c26bb0f-1fe9-4d3f-824c-5d9847d19b60
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    9f418cc7-8730-4662-b929-e6a77125e160: taxonomy_term
+    3f6ecb92-9fdc-431b-a66b-ca3aaa02167c: taxonomy_term
+    f2fb7fe9-c8bf-4567-b6ba-c834226d95ca: taxonomy_term
+    c5d89b50-3970-47eb-ab80-1d1c152022be: taxonomy_term
+    d4292c2d-a006-4bfd-91bb-791173f61cdf: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Améliorer la gouvernance de l''eau : de la connaissance à l''action'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/ameliorer-la-gouvernance-de-leau-de-la-connaissance-laction-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Cette session a pour but d'explorer des moyens innovants de générer et de partager des connaissances pratiques sur la gestion intégrée des ressources en eau (GIRE) entre un large éventail de parties prenantes à travers les secteurs et les échelles. Elle mettra en lumière des solutions concrètes en matière d'eau et de climat apportées par différents groupes qui se sont avérées durables dans les pays et les secteurs où elles ont été mises en œuvre (par exemple, en matière de sécurité alimentaire, d'inclusion sociale, de coopération transfrontalière, etc.) ). De manière interactive, elle disséquera certains de ces cas pour permettre aux participants de parvenir à des conclusions et des recommandations communes. 
+
+        La session marquera également le lancement mondial de la boîte à outils GWP : IWRM Action Hub qui, en plus d'offrir la sélection la plus complète au monde de ressources de connaissances sur la GIRE (90 outils, 250 études de cas et 2500 ressources), servira également de centre de connexion pour les professionnels de l'eau qui pourront se connecter et échanger dans les communautés de pratique hébergées dans l'ActionHub. Les participants auront l'occasion d'améliorer leurs connaissances grâce à des conseils pratiques et des activités concrètes au sein de nos différentes communautés.  
+
+        Le GWP et l'OMM lanceront également conjointement un nouveau défi/concours pour des solutions innovantes de la connaissance à l'action (K2A) contribuant à l'adaptation au climat et à l'atténuation de ses effets, qui seront directement soumises et présentées sur l'IWRM ActionHub. Plutôt que de se concentrer sur les approches technologiques et scientifiques, ces solutions doivent clairement mettre en évidence la façon dont elles favorisent le changement systémique pour devenir plus sûrs en matière d'eau et de climat.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 548da2e9854819bc70d2e59d4e16d248
+  field_code:
+    -
+      value: SS14
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 9f418cc7-8730-4662-b929-e6a77125e160
+    -
+      entity: 3f6ecb92-9fdc-431b-a66b-ca3aaa02167c
+    -
+      entity: f2fb7fe9-c8bf-4567-b6ba-c834226d95ca
+    -
+      entity: c5d89b50-3970-47eb-ab80-1d1c152022be
+    -
+      entity: d4292c2d-a006-4bfd-91bb-791173f61cdf
+  field_organisateurs_text:
+    -
+      value: 'Global Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Partie 1 : De la connaissance à l'action 
+        Présentations d'initiatives créatives et de solutions innovantes - 15 min (5 présentations x 3 min chacune) 
+        Discussion en cercle avec les présentateurs - 15 min 
+
+        Partie 2 : Pourquoi des communautés de pratique ? 
+        Partage d'expérience et exercice pratique : Communautés de pratique du centre d'action de la GIRE - 20 min (4 communautés de pratique x 5 min chacune)  
+        Ce qui fait une bonne communauté de pratique : Réflexions - 10 min 
+
+        Partie 3 : Lancement du concours 
+        Préparer le terrain - 5 min 
+        Exercice de co-création avec les participants : identification des domaines prioritaires pour le concours en utilisant le cadre d'action du 9ème Forum mondial de l'eau - 20 min 
+        Lancement officiel du concours innovant Knowledge to Action (K2A) - 5 min 
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

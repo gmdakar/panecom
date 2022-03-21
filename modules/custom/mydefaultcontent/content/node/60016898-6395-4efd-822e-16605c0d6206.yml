@@ -1,0 +1,139 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 60016898-6395-4efd-822e-16605c0d6206
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    a158c288-5fb5-46a1-9a6c-5167d414a574: taxonomy_term
+    4f5ea8fb-532f-4b79-99f5-b7ba666c3fef: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    97e8042c-d0f9-45bf-b81a-c03af22d2f8c: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    851717e5-3ef2-4dc1-b498-37735d9008df: taxonomy_term
+    ff7e0d09-ec59-41fb-925d-02614ffe9c9b: taxonomy_term
+    4a8f3b0d-524c-43d6-bc00-12542b6cb496: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '?Adaptation des modèles de gestion des barrages polyvalents, pour tenir compte des nouveaux défis (changement climatique, nouveaux usages de l''eau, vieillissement des infrastructures, etc.)'
+  created:
+    -
+      value: 1647484957
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/?adaptation-des-modeles-de-gestion-des-barrages-polyvalents-pour-tenir-compte-des-nouveaux'
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette section vise à examiner comment les barrages à usages multiples s''adaptent aux changements causés par le changement climatique et la pression croissante des différentes utilisations de l''eau. Cela implique des discussions sur la façon dont différentes approches de gestion, y compris les stratégies d''adaptation, les instruments disponibles (normes) et d''autres mécanismes peuvent contribuer à répondre aux demandes futures en matière de sécurité énergétique, de durabilité et de résilience des infrastructures polyvalentes et de sécurité de l''eau.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484957
+      guid: ''
+      hash: 2bd50300c5f4eb9c34f11244ebc119f2
+  field_code:
+    -
+      value: 3D3
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a158c288-5fb5-46a1-9a6c-5167d414a574
+    -
+      entity: 4f5ea8fb-532f-4b79-99f5-b7ba666c3fef
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 97e8042c-d0f9-45bf-b81a-c03af22d2f8c
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 851717e5-3ef2-4dc1-b498-37735d9008df
+    -
+      entity: ff7e0d09-ec59-41fb-925d-02614ffe9c9b
+    -
+      entity: 4a8f3b0d-524c-43d6-bc00-12542b6cb496
+  field_organisateurs_text:
+    -
+      value: 'ITAIPU BINACIONAL'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        ANBO (African Network of Basin Organizations)
+        IHA (International Hydropower Association)
+        ITAIPU
+        SANEPAR
+        Ministry for the Ecological Transition and the Demographic Challenge of Spain
+        Spanish National Committee for Large Dams (SPANCOLD)
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: 'Coopération technique pour la mise en œuvre de systèmes d''assainissement durables visant à améliorer la qualité de l''eau pour les usages multiples du réservoir et de l''ITAIPU. '
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1 orateur principal - 10 minutes
+        Courte vidéo - 5 minutes
+        3 orateurs - 12 minutes chacun
+        Discussion en groupe dirigée par un modérateur de la session - 30 minutes
+        Conclusion de la session - 2 à 5 minutes
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "L'un des résultats attendus de cette session est de promouvoir les discussions sur des questions cruciales telles que le rôle actuel et futur des infrastructures à usages multiples face aux défis posés par le changement climatique et la demande croissante de ressources en eau. Parmi celles-ci :
+        -Comprendre comment les barrages jouent un rôle important dans l'atténuation du changement climatique.
+        -Montrer l'écart significatif entre ce qui est prévu, en cours d'exécution et projeté pour la production d'énergie en conformité avec les objectifs mondiaux (accord de Paris / Net-zero),
+        - Promouvoir des solutions/expériences pratiques sur les avantages du traitement des eaux usées dans les barrages polyvalents et leurs multiples utilisations de l'eau, et montrer des cas pratiques avec un potentiel de réplication, en particulier pour les petites villes peu incitées à mettre en œuvre des infrastructures sanitaires.
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

@@ -1,0 +1,135 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d5ae2761-4a5d-46d4-ba5e-b1d65a7db6c8
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    9fc07054-726a-4c97-9a45-70c4a8aa7dd5: taxonomy_term
+    a08812b7-62d4-4e51-baf7-8c40ef0490ad: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    df91f145-b089-4297-aaaf-637c7811ad12: taxonomy_term
+    191255d5-8180-416c-9f6d-a3f4c6a5b5db: taxonomy_term
+    670fb6f8-6ae6-4bbc-a297-349089953c7e: taxonomy_term
+    4105ab62-e2df-41d5-8f9e-2600f780d2f4: taxonomy_term
+    593930c7-1321-4b8b-b9f4-a05c186b6ebd: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Launch of the Parliamentarian’s Handbook on the Human Right to Water and sanitation'
+  created:
+    -
+      value: 1647484854
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/launch-parliamentarians-handbook-human-right-water-and-sanitation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        There is a growing consensus of the importance of the role of parliaments in the realization of WASH goals, and this role involves parliamentary engagement with CSOs. However to date, the relationship between these two parties have been largely uncoordinated. 
+        This matter calls for the development of a set of principles and guidelines, to assist parliamentarians globally to devise appropriate structures, mechanisms and practices for engaging with CSOs in order to improve their ability to discharge their important accountability and oversight obligations and responsibilities in WASH. 
+        The session builds upon the Parliamentarian Manifesto of the 8th WWF, which emphasized the role of parliamentarians and the rights to water. This sessions however notes that success towards achieving SDG 6 must be inclusive, participatory and transparent. It must also take the voices of the citizenry into account.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484854
+      guid: ''
+      hash: e059b32ff22b11ab6ead0a8a350de8df
+  field_code:
+    -
+      value: 4D3
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 9fc07054-726a-4c97-9a45-70c4a8aa7dd5
+    -
+      entity: a08812b7-62d4-4e51-baf7-8c40ef0490ad
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: df91f145-b089-4297-aaaf-637c7811ad12
+    -
+      entity: 191255d5-8180-416c-9f6d-a3f4c6a5b5db
+    -
+      entity: 670fb6f8-6ae6-4bbc-a297-349089953c7e
+    -
+      entity: 4105ab62-e2df-41d5-8f9e-2600f780d2f4
+    -
+      entity: 593930c7-1321-4b8b-b9f4-a05c186b6ebd
+  field_organisateurs_text:
+    -
+      value: |
+        Water Integrity Network 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'To Be Confirmed '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: 'Not Applicable '
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        25 Minutes presentations
+        30 Minutes Panel discussions
+        25 Minutes Dialogues (Q&A/ Interventions)
+        5 Minutes Summary/way forward and closure 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        The following results are expected from the session are:
+        1.	Policy direction and strategic recommendations for the improvement of dialogues between Parliaments and CSOs in order to improve Parliamentary oversight of water and sanitation delivery.
+        2.	Increased awareness of the potential for engagement between Parliamentarians and CSOs to improve accountability in the water and sanitation sector
+        3.	Distribution of the guidebook to Parliaments and CSO in the WASH Sector .
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

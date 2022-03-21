@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a5246b45-5d60-4441-a011-91cc46c64f2b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    e028327c-f3fb-40d2-9cc4-781e7489329e: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    6657503e-ae6e-42e8-ad26-083b242f1a68: taxonomy_term
+    cbc99439-cedf-42da-b73f-b23e1f43eb33: taxonomy_term
+    9237bbef-725c-4c86-909c-8804356f0987: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La coopération en langue portugaise dans le cadre de l’approvisionnement de l’eau et d’assainissement – perspectives politiques et institutionnelles'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-cooperation-en-langue-portugaise-dans-le-cadre-de-lapprovisionnement-de-leau-et-1
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La session se propose de réfléchir au rôle de la coopération internationale dans la réalisation de l''ODD6 en prenant en considération les projets concrets existant dans les pays lusophones. Cette session tentera d''identifier les principaux succès obtenus, mais aussi les principaux défis à venir. Le partage d''expériences permet la diffusion de solutions adaptées à la réalité de chaque pays.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: ad33d0e440c25789d25af1f1892bb250
+  field_code:
+    -
+      value: HLP19
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: e028327c-f3fb-40d2-9cc4-781e7489329e
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 6657503e-ae6e-42e8-ad26-083b242f1a68
+    -
+      entity: cbc99439-cedf-42da-b73f-b23e1f43eb33
+  field_organisateurs_text:
+    -
+      value: 'Ministry of Environment and Climate Action of Portugal'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        10 min.
+        Le rôle de la coopération portugaise dans le secteur de l'eau et de l'assainissement sur les pays lusophones.
+        20 min.
+        Intervention du Ministre de l'Energie et de l'Eau de l'Angola en sa qualité de Président de la Communauté des Pays de Langue Portugaise.
+        30 min.
+        Le rôle de la coopération brésilienne dans le secteur de l'eau et de l'assainissement sur les pays lusophones.
+        40 min.
+        Solutions des pays lusophones aux défis mondiaux - intervention de M. Rui Godinho, membre du conseil d'administration et du bureau du Conseil mondial de l'eau.
+        50 min.
+        Solutions aux défis mondiaux dans les pays lusophones - intervention de M. Jorge Werneck, membre du conseil d'administration et du bureau du Conseil mondial de l'eau.
+        1h10
+        Intervention du Secrétaire exécutif de la Communauté des pays de langue portugaise.
+        1h30
+        Questions de l'auditoire et débat.
+      format: plain_text
+  field_salle:
+    -
+      entity: 9237bbef-725c-4c86-909c-8804356f0987

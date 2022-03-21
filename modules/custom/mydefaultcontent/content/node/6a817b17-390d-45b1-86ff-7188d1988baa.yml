@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6a817b17-390d-45b1-86ff-7188d1988baa
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    640f1490-da7f-457a-af1d-a6f5d70543ce: taxonomy_term
+    ee6a4fb1-f45e-4651-934f-76d6d9c9e164: taxonomy_term
+    aa7ad392-4074-470d-8f7a-855d3409b8a9: taxonomy_term
+    c0b09bcf-f846-426a-b8f3-775e336b1ff6: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innovative Financing for Water Security'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/innovative-financing-water-security-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Despite the progress made in recent years, more than 2 billion people in the world still lack access to water safely managed, and almost half of the world population do not have access to safe sanitation. The Covid-19 pandemic has evidenced even more the imperative need for such basic services and the insufficiency of funds committed to that matter. Finance is a decisive mean to increase Water Security and to provide water services to all. This session aims to shedding light on how to boost financing to the sector, by gathering decision-makers and influential leaders from different background and regions, to discuss and envision ways for achieving Water Security.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: 4c44fcc1c73c524bd887b6e1808bb0a1
+  field_code:
+    -
+      value: HLP15
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 640f1490-da7f-457a-af1d-a6f5d70543ce
+    -
+      entity: ee6a4fb1-f45e-4651-934f-76d6d9c9e164
+    -
+      entity: aa7ad392-4074-470d-8f7a-855d3409b8a9
+    -
+      entity: c0b09bcf-f846-426a-b8f3-775e336b1ff6
+  field_organisateurs_text:
+    -
+      value: 'CAF - development bank of Latin America'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Opening:  Marie-Laure Vercambre, member of the Task Force on Finance-WWC (10 min) (physically).
+
+        Keynote speaker: Loic Fauchon, President of the World Water Council (15 min) (physically).
+
+        High Level Panel: 5 panelists as described above (60 min).
+
+        Closing: Andrea Erickson, member of the Task Force on Finance-WWC (5 min) (physically).
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

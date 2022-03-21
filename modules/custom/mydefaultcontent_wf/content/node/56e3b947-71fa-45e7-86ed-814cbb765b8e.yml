@@ -1,0 +1,127 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56e3b947-71fa-45e7-86ed-814cbb765b8e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    15ae9a08-3715-417f-893e-ffcfaa2aa4ff: taxonomy_term
+    f4679195-e338-40df-a50f-65c0273ab5db: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    a6ae35bb-b38e-41b8-b6c3-cca08ce8eb0b: taxonomy_term
+    6a246f33-73df-425b-ae68-8d01a4d08d9e: taxonomy_term
+    a45622a1-d2b7-46d9-8cf4-4a270331ed95: taxonomy_term
+    83820c57-cb4c-4201-b9d0-ddd57225d0c8: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Accurately assess the impacts of its projects, policies or strategies on the 17 SDGs with the Water4allSDGs application'
+  created:
+    -
+      value: 1647493838
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/accurately-assess-impacts-its-projects-policies-or-strategies-17-sdgs-water4allsdgs-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session will present the application used by the Dakar 2022 Jury to evaluate the contributions of water projects to all 17 SDGs and will conclude with it being made available online for free use by all water stakeholders worldwide. 
+        The Dakar Forum is a key moment to promote sustainable development and facilitate the achievement of the ambitions of the 2030 Agenda and its 17 SDGs.  Its thematic program is structured according to the SDGs. However, few actors use them in an operational way because their apparent complexity puts them off. This special session will bring the SDGs to life for participants by showing them how to easily assess the impacts of water projects, policies and strategies on the SDGs. Users from different parts of the world and of different types will share their experiences and thus talk about the SDGs in a concrete way.
+        The objectives of the session are to make the SDGs more concrete to water actors, to show the relevance of the Water4allSDGs application to use them in an operational way and to launch its free online availability worldwide on the websites of the 3 organizations hosting the session.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493838
+      guid: ''
+      hash: 11297e46117ff3836a7650c16b7fb2fa
+  field_code:
+    -
+      value: SS03
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 15ae9a08-3715-417f-893e-ffcfaa2aa4ff
+    -
+      entity: f4679195-e338-40df-a50f-65c0273ab5db
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: a6ae35bb-b38e-41b8-b6c3-cca08ce8eb0b
+    -
+      entity: 6a246f33-73df-425b-ae68-8d01a4d08d9e
+    -
+      entity: a45622a1-d2b7-46d9-8cf4-4a270331ed95
+    -
+      entity: 83820c57-cb4c-4201-b9d0-ddd57225d0c8
+  field_organisateurs_text:
+    -
+      value: 'French Water Partnership with World Water Council and Dakar Forum Secretariat'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        5 mn: presentation of the special session and its progress
+
+        10 mn: do the actions and policies really contribute to the SDGs?
+                    Reminder of the 2030 Agenda and the statistical monitoring of the 232 indicators]
+                    Need to reduce perceptions of complexity and vagueness]
+                    Water4allSDGs: a method to easily assess impact on the SDGs
+
+        20 min: presentation of the Water4allSDGs web application
+                   Demonstration of use
+                   Presentation of the types of results on an example
+
+        20 min: international panel of users who have experienced the application
+                   Feedback, suggestions for improvement
+
+        25 mn: debate with the audience
+
+        5 mn: ceremony to put the bilingual application online with a playful presentation
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

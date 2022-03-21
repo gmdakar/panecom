@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6800efa3-e44e-4015-b6b5-97c3b0224586
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    24679275-ff04-4b3e-b634-e0ca980a2e72: taxonomy_term
+    e3e7f644-c7ef-4546-81fd-518f78540561: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Road to the UN 2023 Water Conference'
+  created:
+    -
+      value: 1647493831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/road-un-2023-water-conference-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Tajikistan and the Netherlands will co-host the UN 2023 Water Conference and they are committed to make it a watershed moment for the entire world. Aline with this commitment, they jointly with Senegal organize the high-level session on the UN 2023 Water Conference in the framework of the 9th World Water Forum to attract more attention and promote stakeholder’s engagement in the preparatory process and the Conference itself.
+
+        The High-Level Session on UN 2023 Water Conference is a showcase and interactive event on good examples of international cooperation on water management. The most important measures towards a sustainable future are to be taken within the water sector. There is a good opportunity to showcase examples and discuss steps needed to replicate, scale and learn from these examples towards the UN 2023 Water Conference.
+
+        Since the UN 2023 Water Conference is the 2nd ever and the 1st after almost 50 years conference convened by the UN expectation of the global community from it is very high. It envisaged to be a watershed moment for all around the world. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493831
+      guid: ''
+      hash: 0dbee543caebeb0dc76778fb48f46b31
+  field_code:
+    -
+      value: HLP06
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 24679275-ff04-4b3e-b634-e0ca980a2e72
+    -
+      entity: e3e7f644-c7ef-4546-81fd-518f78540561
+  field_organisateurs_text:
+    -
+      value: 'Republic of Tajikistan, The Kingdom of the Netherlands, Senegal'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        XX:30-XX:35	Introduction to the side event
+        Moderator
+        Sulton Rahimzoda
+        Chairman of the Executive Committee of the International Fund for saving the Aral Sea, Special Envoy of the President of Tajikistan to the High-Level Panel on Water and Climate 
+         
+        XX:35-XX:50	Opening remarks by co-organizers (5 minutes each)
+        •	High-level representative of the Government of the Republic of Tajikistan
+        •	Mr. Mark Habers, (TBC) Minister of Infrastructure and Watermanagement of the Kingdon of the Netherlands
+        •	High-level representative of the Government of the Republic of Senegal
+
+        XX:50-XX:05	Presentation on UN 2023 Water Conference
+        Representative of UNDESA/UN-Water (tbc)
+
+        XX:05-XX:40	High-Level Segment (High-level representatives)
+        1)	National ministries;
+        2)	Regional and local authorities;
+        3)	Intergovernmental organizations;
+        4)	Private sector;
+        5)	Etc.
+
+        XX:40-XX:15	Expert Panel Discussion
+        1)	Financial Institutions; 
+        2)	NGOs;
+        3)	Private sector;
+        4)	Major groups;
+        5)	Scitific community/academic institutions.
+
+        XX:15-XX:25	Questions and answers
+
+        XX:25-XX:30	Summary and conclusion
+        Henk Ovink,
+        Special Envoy for International Water Affairs of the Kingdom of the Netherlands
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

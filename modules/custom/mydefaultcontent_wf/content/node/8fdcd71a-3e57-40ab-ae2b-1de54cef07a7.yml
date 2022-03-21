@@ -1,0 +1,149 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8fdcd71a-3e57-40ab-ae2b-1de54cef07a7
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    3be2476c-c508-4097-8f7f-0cb0584537d0: taxonomy_term
+    c5d718c3-913f-44a7-b239-cbc336ee448e: taxonomy_term
+    84ca9a8e-e1a1-4fba-a33c-98c7a364fe58: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    309648a4-a539-4bf2-9f8d-55dce64fac90: taxonomy_term
+    c3065acc-8cb2-453e-8af5-74d237c39dcf: taxonomy_term
+    b0d438a2-37be-4d76-81c4-b70b32261cad: taxonomy_term
+    561274c0-7ea7-427e-8856-fb03b6800e02: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gestion intelligente de l''eau'
+  created:
+    -
+      value: 1647484948
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/gestion-intelligente-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La gestion de l''eau peut être plus efficace et plus scientifique en augmentant l''efficacité et la précision de la gestion de l''eau basée sur la technologie TIC et en partageant les informations sur la gestion de l''eau en établissant un système intelligent qui peut prévoir, surveiller et contrôler l''approvisionnement en eau agricole. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484948
+      guid: ''
+      hash: 8abf2fc4a1b2ebe27f52fd4d5e652634
+  field_code:
+    -
+      value: 2D4
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 3be2476c-c508-4097-8f7f-0cb0584537d0
+    -
+      entity: c5d718c3-913f-44a7-b239-cbc336ee448e
+    -
+      entity: 84ca9a8e-e1a1-4fba-a33c-98c7a364fe58
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 309648a4-a539-4bf2-9f8d-55dce64fac90
+    -
+      entity: c3065acc-8cb2-453e-8af5-74d237c39dcf
+    -
+      entity: b0d438a2-37be-4d76-81c4-b70b32261cad
+  field_organisateurs_text:
+    -
+      value: |-
+        1- Mr. Saeed Nairizi (ICID)
+        2-Alireza Salamat (ICID)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        1- Iranian National committee on Irrigation and Drainage (IRNCID)
+        2- Khuzestan Water and Power Authority (KWPA)
+        3- Agricultural Research Education and Extension Organization (AREEO), Agricultural Engineering Research Institute (AERI)
+        4- Islamic Azad University, Ahvaz Branch, Ahvaz, Iran.
+        5-Water Governance and Circular Economy Cities, Urban Policies, and Sustainable Development Division Centre for Entrepreneurship, SMEs, Regions and Cities (OECD)
+        6- Korean Water (K-Water)- Asian Water Council
+        7- Enabel Belgian development Agency
+        8- Organisation for Economic Co-operation and Development (OECD)
+        9- International Water Management Institute (IWMI)
+        10- China National Committee on Irrigation and Drainage (CNCID)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |
+        1- Système multivarié de surveillance de la sécheresse (MDMS) en temps quasi réel au niveau national basé sur la gestion intelligente de l'eau (SMW) pour soutenir la gestion intégrée des ressources en eau (IWRM) et les pratiques agricoles durables.
+        2- Système intelligent d'aide à la décision (SDSS) basé sur l'approche de l'agriculture intelligente face au climat (CSA) pour assurer une perte d'eau minimale et une productivité plus élevée en se concentrant sur la durabilité de la région (étude de cas du bassin d'Urmia).
+        3- Intégration de la gestion intelligente de l'eau pour améliorer la résilience et la productivité de l'eau à plusieurs échelles.
+        4- Conception et mise en œuvre de l'"Observatoire de l'eau et de l'énergie du Khuzestan" en tant que projet pilote de l'"Iran National Water Center".
+        "Centre national de l'eau en Iran
+        5- Forces, faiblesses, opportunités et menaces pour établir une gestion intelligente de l'eau dans le KWPA.
+        6- Problèmes de l'utilisation transfrontalière des ressources en eau en Russie.
+        7- Défis dans la mise en œuvre de la GDS du point de vue des services d'eau, cas en Corée.
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "0-5' Introduction par les présidents de séance
+        5-65' Six présentations de 10 minutes chacune
+        65- 85' Discussions et questions-réponses
+        85-90' Conclusion : 5 minutes
+
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "1- Promouvoir et échanger des connaissances actualisées sur les technologies de gestion intelligente de l'eau.
+        2- Mettre en évidence l'importance des pratiques de gestion intelligente de l'eau
+        3- Mettre en réseau les entités concernées".
+      format: basic_html
+  field_salle:
+    -
+      entity: 561274c0-7ea7-427e-8856-fb03b6800e02

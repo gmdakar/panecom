@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 547a3bcd-c2ef-4cb3-a9a2-18578792bdb3
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    a9746039-1dde-40ab-9e14-b24a4a3bc929: taxonomy_term
+    55ae15b4-2619-45b4-9be4-a3a3d57d0b7b: taxonomy_term
+    0a5abee8-6cf2-459a-aa44-e86bc562799f: taxonomy_term
+    d63793ed-6aac-4b8b-b840-6b76532cdd1e: taxonomy_term
+    5eb35428-cf1d-443d-8cf2-2091350c9954: taxonomy_term
+    ff545297-d73d-495f-be72-4bc3267f58ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le rôle de la recherche scientifique pour maximiser l''efficacité de l''utilisation de l''eau et la réutilisation des eaux usées'
+  created:
+    -
+      value: 1647485811
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/le-role-de-la-recherche-scientifique-pour-maximiser-lefficacite-de-lutilisation-de-leau-et-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La réutilisation des eaux usées est devenue une tendance croissante au fil du temps, car il s'agit de l'une des principales ressources en eau non conventionnelles.  En outre, il est nécessaire de maximiser l'utilisation efficace de l'eau douce pour faire face à la pénurie d'eau.
+        Cette session présente des mesures d'atténuation du stress hydrique accru au fil des ans dans les pays souffrant de conditions arides avec des ressources en eau douce limitées. L'Égypte s'efforce de tenir compte des objectifs du Millénaire pour le développement dans sa stratégie de l'eau. Le Centre national de recherche sur l'eau (NWRC) de l'Égypte aborde donc les sujets de recherche pertinents qui visent à maximiser les avantages de chaque goutte d'eau. 
+        Plusieurs résultats de recherche devraient être présentés lors de la session. Les projets de recherche qui seront présentés sont axés sur les objectifs de l'UN-SDG qui concernent le traitement des eaux usées et la réutilisation sûre, et l'augmentation de l'efficacité de l'utilisation de l'eau.
+        Les installations de recherche, les capacités et l'innovation du CNRF seront mises en évidence. Ensuite, dans la lignée de la recherche du CNRF sur la réutilisation des eaux usées comme ressource potentielle en eau, les chercheurs du CNRF ont développé une technique compacte abordable pour le traitement des eaux usées. Le flux sortant du processus de traitement montre une très bonne qualité d'eau qui pourrait être réutilisée pour de larges usages.
+        La longue expérience du CNRF en matière de réseaux de surveillance de la qualité de l'eau en vue de la réutilisation de l'eau de drainage et de la réutilisation sûre de l'eau sera présentée. Considérant le concept selon lequel chaque goutte d'eau est comptée, les techniques de collecte des eaux de pluie utilisées en Egypte. Enfin, la gestion de la sécurité des structures hydrauliques pour une gestion efficace de l'eau sera présentée en se concentrant sur l'expérience égyptienne.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485811
+      guid: ''
+      hash: 7bdf7b42a44cc6a4e6d46accb62c0b67
+  field_code:
+    -
+      value: SS18
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: a9746039-1dde-40ab-9e14-b24a4a3bc929
+    -
+      entity: 55ae15b4-2619-45b4-9be4-a3a3d57d0b7b
+    -
+      entity: 0a5abee8-6cf2-459a-aa44-e86bc562799f
+    -
+      entity: d63793ed-6aac-4b8b-b840-6b76532cdd1e
+    -
+      entity: 5eb35428-cf1d-443d-8cf2-2091350c9954
+  field_organisateurs_text:
+    -
+      value: 'National Water Research Center'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Programme de la session 
+        La session vise à accroître la sensibilisation aux situations de stress hydrique auxquelles certains pays africains sont confrontés en raison de la limitation des ressources en eau douce à l'intérieur des terres. La session ouvre également la voie à la coopération dans le cadre de l'agenda africain 2063. 
+        Cette session présente des mesures d'atténuation du stress hydrique croissant au fil des ans dans les pays souffrant de conditions arides avec des ressources en eau douce limitées. L'Égypte s'efforce de tenir compte des objectifs du Millénaire pour le développement dans sa stratégie de l'eau. Par conséquent, le Centre national de recherche sur l'eau (NWRC) de l'Égypte aborde les sujets de recherche pertinents qui visent à maximiser le bénéfice de chaque goutte d'eau. 
+        Un certain nombre d'instituts de recherche relevant du NWRC vont présenter leur expérience face au stress hydrique. La durée totale de la session est de 90 minutes. La liste des présentations est la suivante :
+
+        	Titre Orateur
+        1.	Introduction au NWRC Prof. Khaled Abdel Hai (Président du NWRC)
+        2.	2. "Traitement innovant à faible coût des eaux usées" Prof. Salwa Abou Ella (Vice-président du CNRF)
+        3.	"Surveillance de la qualité de l'eau pour soutenir la réutilisation des eaux de drainage (étude de cas en Egypte)"	Dr. Aiman El Saadi
+        4.	"Récupération des eaux de pluie (études de cas en Egypte)" Prof. Gamal Kotb / Dr. Islam El Zayed
+        5. 	"Gestion de la sécurité des structures hydrauliques (Expérience en Egypte)" Prof. Eehab Khalil
+      format: plain_text
+  field_salle:
+    -
+      entity: ff545297-d73d-495f-be72-4bc3267f58ea

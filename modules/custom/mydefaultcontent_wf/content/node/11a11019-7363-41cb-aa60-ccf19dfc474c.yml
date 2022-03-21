@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 11a11019-7363-41cb-aa60-ccf19dfc474c
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    706b9073-a9bc-4b2c-aae6-86261d5de78d: taxonomy_term
+    0f71fbcd-1b55-428a-980e-3f551c8c68ef: taxonomy_term
+    f5e0c3c7-e5a0-47cd-955f-4ccc504f3895: taxonomy_term
+    af3f1a34-715b-4e39-a7b9-d727e4737aff: taxonomy_term
+    ca12cc92-add9-40cb-8d32-d098a96bd38d: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Made in Germany - What’s behind the quality promise? Innovative German water and sanitation technologies and qualification approaches to ensure sustainability of investments'
+  created:
+    -
+      value: 1647493848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/made-germany-whats-behind-quality-promise?-innovative-german-water-and-sanitation-0'
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        The private sector is a major player in driving innovation and developing demand-driven knowledge-based solutions in the water and sanitation sector. German companies within the water and sanitation sector have recognized that the key factors which ensure their long-term viability and sustainability of investments are employees with exactly the right qualifications as well as sector-specific knowledge and skills. For this reason, the private sector is continuously investing in training young people. Access to technical education in the water and sanitation sector provides important leverage for improving and securing the quality of water supply and wastewater disposal in a sustainable way. By portraying innovative water and sanitation technologies and linking them to best practices in education and capacity development, the session contributes to the WWF’s major thematic focuses, especially in the action group on “increasing water efficiency and sustainable management through science, technology, innovation and education”.
+
+        Expected results
+        - Providing an overview of the German private sector role in developing demand-driven innovative solutions in the water and sanitation sector and portraying some of the latest innovative technologies
+        - Showing best practices and current programs in education and vocational training as these are critical success factors for a future-oriented development of sustainable water and sanitation management. This will be done by portraying the activities of different stakeholders such as the private sector, government bodies and educational institutes 
+        - Strengthening European-African cooperation in the field of vocational education and training in the water and sanitation sector.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493848
+      guid: ''
+      hash: fa9958fcf71deb5899a011d7b27218c6
+  field_code:
+    -
+      value: SS43
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 706b9073-a9bc-4b2c-aae6-86261d5de78d
+    -
+      entity: 0f71fbcd-1b55-428a-980e-3f551c8c68ef
+    -
+      entity: f5e0c3c7-e5a0-47cd-955f-4ccc504f3895
+    -
+      entity: af3f1a34-715b-4e39-a7b9-d727e4737aff
+    -
+      entity: ca12cc92-add9-40cb-8d32-d098a96bd38d
+  field_organisateurs_text:
+    -
+      value: 'German Mittelstand BVMW, German Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Welcoming and Introduction
+
+        5’	German Mittelstand and its role in vocational training, Andreas Jahn, Member of the BVMW Management Board
+        5’	Overview about the German water and sanitation sector and qualification approaches,	Julia Braune, Managing Director of German Water Partnership  
+
+        German private sector: Innovative technologies and qualification approaches
+
+        8’	Best Practice - Solar Water Desalination Systems: Lessons of Zanzibar in the East for the city of Tuba in the West approaches, Dr. Hamed Beheshti, CEO at Boreal Light GmbH
+        8’	Best Practice – Water leakage technologies and qualification approaches, Michael Kersting, Business Development at Hermann Sewerin GmbH
+        8’	Best Practice – Wastewater treatment technologies and qualification approaches, Felix-Meyer-Horn, Managing Director North Africa at Aerzener Maschinenfabrik GmbH
+        8’	Best Practice – Clean drinking water through fluoride removal at Lake Baringo, Kenya, Johannes Muenz, Sales Engineer at Harbauer 
+        8’ 	What kind of skills are needed to ensure technical sustainability of investments?; Dr. Stephan Kunz, Head of GIZ’s country programme in Senegal within the Special Initiative on Training and Job Creation
+
+        Current programs and initiatives in the field of capacity building and vocational training in the water and sanitation sector 
+
+        10’	German government programs promoting vocational training in the water and sanitation sector worldwide, Claudia Pragua, Head of Division Water, Sanitation and Hygiene at the German Federal Ministry for Economic Cooperation and Development (BMZ)
+        10’	Presentation of the new African Water and Sanitation Academy (AWASA) in Uganda, a BMZ-funded partnership project between GWP and the African Water Association, Dr. Rose Kaggwa, Director Business & Scientific Services at NWSC, Director of IREC
+
+        Q+A and Closing 
+
+        15’	Open discussion / Q+A, Andreas Jahn, Member of the BVMW Management Board and audience
+        5’ 	Summary and Closing, Julia Braune, Managing Director of German Water Partnership  
+          
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

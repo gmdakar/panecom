@@ -1,0 +1,153 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fa4143d2-c0af-4bf9-82fc-44c3c0bae056
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    397eeaf1-88f3-4d8e-96a5-8daa93f42c05: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    f74e73e8-6425-407c-8849-1819b13dad0d: taxonomy_term
+    51611e3a-1fcf-4750-b8f7-549df9c6b7c5: taxonomy_term
+    a77b2b6b-5971-45c7-a390-80d0ff36a035: taxonomy_term
+    7207a516-fa37-418c-84ac-d00420547211: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Developing capacity for the design and implementation of development plans for IWRM'
+  created:
+    -
+      value: 1647484841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/developing-capacity-design-and-implementation-development-plans-iwrm
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        This session aims to share experiences, techniques and methodological tools for capacity building in the design and implementation of IWRM at all levels. To this end, several initiatives from different contexts – both from the South and the North – and carried out by a variety of stakeholders will be presented. As this is a participatory session, public will also be invited to take part in exchanges in order to feed reflections related to the initiatives presented.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484841
+      guid: ''
+      hash: ebb89ef6e928470bf09fb4cca33f26f3
+  field_code:
+    -
+      value: 3A2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 397eeaf1-88f3-4d8e-96a5-8daa93f42c05
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: f74e73e8-6425-407c-8849-1819b13dad0d
+    -
+      entity: 51611e3a-1fcf-4750-b8f7-549df9c6b7c5
+    -
+      entity: a77b2b6b-5971-45c7-a390-80d0ff36a035
+    -
+      entity: 7207a516-fa37-418c-84ac-d00420547211
+  field_organisateurs_text:
+    -
+      value: |-
+        Gret 
+        DGPRE, Senegal
+        INBO 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        Project 1 – GRET (NGO Professionnels du développement solidaire) and DGPRE of Senegal (Direction de la gestion et de la planification des ressources en eau);
+        Project 2 – CIRAD (Centre de coopération internationale en recherche agronomique pour le développement) ;
+
+        Project 4 – AERMC (Agence de l’eau Rhône-Méditerranée-Corse) and the French water partnership; 
+        Project 5 – IRD (Institut de recherche pour le développement), University of Montpellier and the French national committee of UNESCO IHP 
+        Intergovernmental Coordinating Committee for the la Plata River (CIC) 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |
+        Project 1 – Tailor-made methodologies of water sharing – equity, facilitation at local scale of the watershed (Senegal)
+        Project 2 – Virtual arena board game to take decision, to regulate groundwater allocation with stakeholders – explain rules, show how it works and benefits (Senegal)
+
+        Project 4 –  IWRM and nature-based solutions : River restoration and sustainable agriculture in the lake Itasy watershed (Madagascar)
+        Project 5 – ICIREWARD French UNESCO center based in Montpellier (France)
+      format: plain_text
+  field_programme:
+    -
+      value: |+
+        Opening & master of ceremony (5 min)
+        ?	Mr. Alain Bernard, Director for Africa, Asia & the America, 
+        Head of IWRM projects, International Office for Water (OiEau)
+
+        Keynote speaker (10 min)
+        ?	Mr. Thierry-Emmanuel Ratovoniania, Technical director general, ministry of Water, Sanitation and Hygiene, Madagascar: design & implementation of the Itasy lake basin management plan – Madagascar (To Be Confirmed)
+
+        Panel (45 min)
+        Moderated by:
+        ?	Mr. Hamet Diallo, Head of project in integrated water resources management for the NGO GRET
+        Panelists:
+        ?	Mr. Ngor Maurice Sarr, Research and animation officer, GRET: Experimentation of a participatory facilitation methodology that questions sharing of water resources between users/territories: feedback from GIREL project (for Integrated water resources management at local level) – Senegal
+        ?	Mr. Etienne Delay, Researcher, CIRAD: Overview of a “serious game” promoting identification by stakeholders of collective water resources management rules related to agricultural uses: case of the board game “F’eau Djëm” – Senegal
+        ?	Mr. Juan Carlos Alurralde, Secretary general, Intergovernmental Coordinating Committee for the la Plata River (CIC) : (To be determined/confirmed)
+        ?	Ms. Oula Amrouni, Researcher of the UNESCO MEDFRIEND Network,  
+        and at the National Institute of Marine Sciences and Technologies, Tunisia : Capacity building to support  water stakeholders, particularly at international level in the frame of UNESCO ICIREWARD International Centre (To Be Confirmed)
+
+        Questions and answers (20 min) 
+
+        Conclusion (10 min) Ms. Catherine Baron, Researcher LEREPS/Sciences Po Toulouse France
+
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Synthesis document gathering different experiences, good practices and lessons learned on the sharing of water resources between territories and users (political solutions), as well as on the mobilisation of SFN system (technical solutions).  '
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 96b3e961-6650-4d2b-bfc6-e7bb7160eb2e
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    0761a04c-84a8-43c3-b455-e51434bb85d5: taxonomy_term
+    4da9fabd-f418-41a9-a01b-29f879b8dc10: taxonomy_term
+    aa4e617a-c445-4dd2-9ebc-313c268677d9: taxonomy_term
+    905d330c-57d5-4f8a-b417-51ad770d38db: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Learning from experimentations and proben cases of scientific and technological innovations'
+  created:
+    -
+      value: 1647484855
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/learning-experimentations-and-proben-cases-scientific-and-technological-innovations
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Showcasing actions that identify and address the most challenging global water issues. By promoting action-oriented cases of pragmatic solutions! '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484855
+      guid: ''
+      hash: b55ef82df5d500024a8e4456b491dba8
+  field_code:
+    -
+      value: '4E3'
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 0761a04c-84a8-43c3-b455-e51434bb85d5
+    -
+      entity: 4da9fabd-f418-41a9-a01b-29f879b8dc10
+    -
+      entity: aa4e617a-c445-4dd2-9ebc-313c268677d9
+    -
+      entity: 905d330c-57d5-4f8a-b417-51ad770d38db
+  field_organisateurs_text:
+    -
+      value: BRGM
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'Hydronews (FR - tbc) , Waterlution (CA-tbc), IRD Senegal (SN), University of Agricultural Sciences Dharwad (IN), Spanish Center for Studies and Experimentation of Public Works, Youth - Axel Tcheheumeni Djanni (SN)'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |
+        * Explore more deeply the confirmation of efficiency & probation of water & energy savings – Hydronews (tbc)
+        * Sharing some Known initiatives (Water Innovation Land funded by CA NGO – Waterlution) – Waterlution (tbc)
+        * Financing water kiosks – IRD Senegal
+        * potential of projects in capacity building and rural employment of women in water sector – University of Agricultural Sciences Dharwad
+        * nexus of technological innovation in real challenges of water management (Spanish Center for Studies and Experimentation of Public Works)
+        * the voice of the Youth / Students
+      format: plain_text
+  field_programme:
+    -
+      value: 'Presentations only – 15 min each + time for room questions'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Showcasing scientific and technological innovations that could be transferred into concrete actions'
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

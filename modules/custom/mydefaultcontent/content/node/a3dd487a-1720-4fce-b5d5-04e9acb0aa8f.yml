@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a3dd487a-1720-4fce-b5d5-04e9acb0aa8f
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    7b5f83e4-3f76-49d7-aa96-855b5d0a8448: taxonomy_term
+    2cba1a47-89a7-48b4-8c6c-cdfb48639761: taxonomy_term
+    8a24388b-304c-48d4-b733-be679b8b7761: taxonomy_term
+    fa3886dc-587e-495e-b081-e54b69d2546c: taxonomy_term
+    efdfb580-d073-427f-bb35-9a6b0434c9a8: taxonomy_term
+    45a2da9d-8d87-4ebe-a43e-b137fb67f06c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '"Sahel Irrigation Initiative: Irrigation solutions to improve and accelerate agricultural water investments in the Sahel and West Africa."'
+  created:
+    -
+      value: 1647486045
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sahel-irrigation-initiative-irrigation-solutions-improve-and-accelerate-agricultural-water
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The 'Sahel Irrigation Initiative' (2iS) program stemming from the ambition of the Sahel Heads of State, translated into the Dakar Declaration on Irrigation in 2013 aims to accelerate the pace of investments to reach 1,000,000 ha of irrigated areas in the near future. It was welcomed by all stakeholders, as it corresponds to the magnitude of the social, economic and environmental challenges of the Sahel.
+        In an introductory presentation, the CILSS, mandated by the countries, will explain how the "Dakar Declaration" on irrigation was translated into a regional investment program based on a consensual and critical document on the situation of agricultural water management in the Sahel, the Strategic Framework for Agricultural Water in the Sahel (SFAS). The CSEAS developed by the actors in the formulation of the Regional Support Project to the Sahel Irrigation Initiative (PARIIS) is a synthetic document of orientation and shared vision defining the guiding principles for the conduct of irrigation programs in the Sahel and in West Africa. It posed fundamental questions on the constraints and difficulties related to the development of irrigation in the Sahelian zone and in West Africa. CSEAS is recognized by stakeholders as an institutional memory that provides a solid structural foundation for current and future investments. 
+        In light of and based on the implementation of PARIIS and the results currently obtained in the 6 countries and at the regional level led by the CILSS, the session will seek through crossed points of view (States, regional technical and political structures, Financial Partners, Producers) to question the decision makers and the actors of agricultural water on the following questions
+        1) Are the actors capable of making the necessary paradigm shift and implementing the transformational approach required to stimulate the development of irrigation in the Sahel?
+        2) What are the practical modalities for strengthening the commitment of producers who are placed at the heart of the investment in this initiative?
+        3) What are the priorities on which to focus efforts to consolidate the results on the ground of this initiative based on the irrigation solution? 
+        4) What concrete actions should be implemented to scale up efforts and increase funding, with a view to moving decisively towards the objectives of the Dakar Declaration?   
+
+        To this end, we will focus on the Regional Support Project for the Sahel Irrigation Initiative (PARIIS), which is currently being implemented and which constitutes a lever for the realization of this ambitious program. The ambition of this project is to create the necessary conditions for the development and scaling up of irrigation solutions in the Sahel and West African countries. 
+        The PARIIS results that will be presented indicate the need to continue and consolidate the process of documenting and implementing viable investment models, which are beginning to prove themselves in the field. This process should result in a range of "irrigation solutions" adapted to different types of irrigation systems, to improve current and future investments. The ambition is to create a training effect and to go to scale in the Sahel and West African countries. 
+        The Panel is a moment of reflection on the key issues raised. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486045
+      guid: ''
+      hash: d814d5db0d248d6d0ba8ecbdcdfb4cb6
+  field_code:
+    -
+      value: SE19
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Moderator: ECOWAS Director of Agriculture 
+
+        Introduction to the Panel: Moderator 
+        Introductory presentation on 2iS and PARIIS: PARIIS Regional Coordinator 
+
+        Panelists: UEMOA, GWP/AO, Ministry of Agriculture and Rural Equipment of Senegal, ROPPA, World Bank, CILSS 
+
+        1) Adapted irrigation solutions, driven by producers and supported by partners for viable investments: one of the keys to a structural transformation of agricultural policies. (Panelists: Minister of Agriculture and Rural Equipment of Senegal and SE CILSS) 
+        2) What strategy for coordinated mobilization of producers and civil society in the advocacy and implementation of investment programs adapted to their needs (Panelist: Honorary President of ROPPA - Mamadou Cissoko)
+        3) The implementation of regional projects/programs: the best approach to facilitate regional integration and the extension of adapted investment models (Panelist: CILSS/UEMOA/ECOWAS) 
+        4) Technical and financial partners are committed to supporting the efforts of governments and inter-governmental organizations in innovating and accelerating the pace of investment in irrigated agriculture (Panelist: World Bank).   
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 7b5f83e4-3f76-49d7-aa96-855b5d0a8448
+    -
+      entity: 2cba1a47-89a7-48b4-8c6c-cdfb48639761
+    -
+      entity: 8a24388b-304c-48d4-b733-be679b8b7761
+    -
+      entity: fa3886dc-587e-495e-b081-e54b69d2546c
+    -
+      entity: efdfb580-d073-427f-bb35-9a6b0434c9a8
+  field_organisateurs_text:
+    -
+      value: 'CILSS/Projet d’Appui Régional à I’Initiative pour l’irrigation au Sahel (PARIIS) '
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        5 mn : Introduction to the Theme 
+        10 mn : Presentation on 2iS and PARIIS
+        25 mn : Panelists (5 mn each)
+        15 mn : Exchange on questions of interest
+        5 mn : Synthesis and closing
+      format: plain_text
+  field_salle:
+    -
+      entity: 45a2da9d-8d87-4ebe-a43e-b137fb67f06c

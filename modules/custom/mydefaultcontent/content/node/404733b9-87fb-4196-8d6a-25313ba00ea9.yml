@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 404733b9-87fb-4196-8d6a-25313ba00ea9
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    a5f21175-4b3c-44e2-b61d-54f877b69c63: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    39a1f74e-f2a2-489b-8a5b-a924f993e279: taxonomy_term
+    11cc4dba-1e8a-4a8e-aa2b-1be74ee04574: taxonomy_term
+    539b34a2-5c9e-431a-8e11-c13194496747: taxonomy_term
+    629ade10-3278-48b5-82c1-35a33bb362cd: taxonomy_term
+    a52e6494-5be3-4d0b-9a46-c9424a0cc589: taxonomy_term
+    8def4c0f-71d7-46b5-b5c1-0ba0423bae2d: taxonomy_term
+    354fe32a-a95c-48f2-85c7-72323123b863: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promouvoir les connaissances et les outils pour la collaboration et le partage des bénéfices sur les ressources en eau transfrontalières'
+  created:
+    -
+      value: 1647484954
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promouvoir-les-connaissances-et-les-outils-pour-la-collaboration-et-le-partage-des-benefices
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cette session présentera des cas réussis dans lesquels les connaissances et les outils favorisent la coopération transfrontalière sur les ressources en eaux de surface et souterraines dans le monde entier, pour une meilleure gestion, une collaboration et des bénéfices partagés.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484954
+      guid: ''
+      hash: e987755c8087cbce780b63b3928a5cb4
+  field_code:
+    -
+      value: 3B5
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: a5f21175-4b3c-44e2-b61d-54f877b69c63
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 39a1f74e-f2a2-489b-8a5b-a924f993e279
+    -
+      entity: 11cc4dba-1e8a-4a8e-aa2b-1be74ee04574
+    -
+      entity: 539b34a2-5c9e-431a-8e11-c13194496747
+    -
+      entity: 629ade10-3278-48b5-82c1-35a33bb362cd
+    -
+      entity: a52e6494-5be3-4d0b-9a46-c9424a0cc589
+    -
+      entity: 8def4c0f-71d7-46b5-b5c1-0ba0423bae2d
+    -
+      entity: 354fe32a-a95c-48f2-85c7-72323123b863
+  field_organisateurs_text:
+    -
+      value: |-
+        UNESCO-IHP 
+        GWP
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	UNECE 
+        •	China MWR 
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        "- La coopération transfrontalière : Outils pour la promotion de la paix et la prévention des conflits dans le bassin du Niger
+        - Outils et méthodologies scientifiques pour la coopération transfrontalière
+        - Nexus eau-alimentation-énergie-écosystèmes : évaluation et dialogue pour les solutions et les investissements	
+        - Évaluation de l'inclusivité de la gestion des eaux transfrontalières 
+        - Surveillance et données sur la qualité de l'eau dans les cours d'eau transfrontaliers
+        - Plateforme d'échange de connaissances et de communautés entre les partenaires mondiaux de l'eau transfrontalière
+        - Plate-forme de partage d'informations sur la coopération entre les ressources en eau du Lancang et du Mékong".
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "7 Présentations 
+        Débat d'experts
+        Interaction avec le public"
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'Compilation des messages à promouvoir lors des événements liés aux eaux partagées qui seront organisés en 2022 et qui seront affinés en vue de la prochaine conférence des Nations unies sur l''eau (2023).'
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

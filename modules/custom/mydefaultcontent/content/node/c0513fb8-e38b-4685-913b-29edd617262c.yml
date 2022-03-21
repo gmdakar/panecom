@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0513fb8-e38b-4685-913b-29edd617262c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    d8b7a70f-4d48-4226-baee-dd9f1f86d059: taxonomy_term
+    ba38af5c-c425-40d8-9736-4827928d6924: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    710c3182-a600-44fd-b44c-8d7b281c7651: taxonomy_term
+    3eb9cb41-fa21-450e-84b3-197e3c6332a1: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    21918554-b69f-48b5-a3aa-ab78de1ec4fc: taxonomy_term
+    b8d60e6a-df64-4abb-81af-29c5119d3044: taxonomy_term
+    2a08cb59-dedf-4907-8fe4-d8a89fced744: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Adaptation au changement climatique et atténuation de la sécurité de l’eau dans les pays membres de l’OCI'
+  created:
+    -
+      value: 1647485814
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/adaptation-au-changement-climatique-et-attenuation-de-la-securite-de-leau-dans-les-pays-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Objectifs : 
+        - Partager les expériences et les bonnes pratiques en matière de conception et de mise en œuvre de projets à bénéfices partagés (adaptation et atténuation) dans le secteur de l'eau, 
+        - Promouvoir la gestion intégrée des ressources en eau dans les différents secteurs économiques en tenant compte du changement climatique ;
+        - Identifier et prioriser les actions, les projets et les outils de financement pour assurer la sécurité de l'eau et l'adaptation et l'atténuation du changement climatique ;
+        - Identifier les besoins en capacités des pays pour atteindre les ODD 6 et 13 par la mise en œuvre des CDN liées à l'eau.
+
+        La session a pour but de répondre aux questions suivantes : 
+        - Quels sont les instruments financiers disponibles pour aider les pays membres de l'OCI à relever leurs défis d'adaptation et d'atténuation dans le secteur de l'eau ?
+        - Comment les partenaires de développement et les institutions de recherche peuvent-ils travailler ensemble pour s'assurer que les connaissances et les capacités pour faire face aux stress hydriques liés au climat sont réunies dans les pays membres de l'OCI ?
+        - Comment les pays peuvent-ils s'adapter au changement climatique et l'atténuer tout en relevant les principaux défis de développement liés aux ODD dans le cadre du lien entre alimentation, énergie et eau ?
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485814
+      guid: ''
+      hash: f3966e3f47dd7f8cb9a87a7dd72f57aa
+  field_code:
+    -
+      value: SS30
+  field_date:
+    -
+      entity: d8b7a70f-4d48-4226-baee-dd9f1f86d059
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: ba38af5c-c425-40d8-9736-4827928d6924
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 710c3182-a600-44fd-b44c-8d7b281c7651
+    -
+      entity: 3eb9cb41-fa21-450e-84b3-197e3c6332a1
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: 21918554-b69f-48b5-a3aa-ab78de1ec4fc
+    -
+      entity: b8d60e6a-df64-4abb-81af-29c5119d3044
+  field_organisateurs_text:
+    -
+      value: 'Islamic Development Bank (IsDB)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Proposition d'horaire :
+        - Remarques d'ouverture : ICESCO, IsDB (10 mn)
+        - Table ronde 1 "Eau, énergie, alimentation et climat dans les pays membres de l'OCI" (30 mn) : Les panélistes proposés sont des représentants du Centre Comsats pour le Climat et la Durabilité (CCCS), du Centre Régional pour les énergies renouvelables et l'efficacité énergétique, du Centre International pour l'Agriculture Biosaline, du Centre de Suivi Ecologique, de l'Organisation de Mise en Valeur du Fleuve Sénégal.
+
+        - Table ronde 2 "Financement de l'adaptation au changement climatique et de son atténuation dans le secteur de l'eau" (30 mn) : Les panélistes proposés sont des représentants de l'Agence internationale de développement de l'Azerbaïdjan (AIDA), de l'Organisation islamique mondiale pour l'éducation, les sciences et la culture (ICESCO) et de la Banque islamique de développement (IsDB). 
+        - Questions-réponses (15 mn). 
+      format: plain_text
+  field_salle:
+    -
+      entity: 2a08cb59-dedf-4907-8fe4-d8a89fced744

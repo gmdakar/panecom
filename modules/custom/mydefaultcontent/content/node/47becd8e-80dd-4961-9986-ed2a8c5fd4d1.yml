@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 47becd8e-80dd-4961-9986-ed2a8c5fd4d1
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    0179e98e-50fc-4837-8590-49cae1280e1a: taxonomy_term
+    ae02041b-2c5e-4e37-a6ec-f5b1f42d9767: taxonomy_term
+    a84c5b6d-8da2-4070-bc60-f67e69788d84: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        No water security without ecological security
+        No ecological security without water security
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/no-water-security-without-ecological-security-no-ecological-security-without-water-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session will be the climax of a broader initiative whose objectives are to strengthen the links between the water and nature communities to enable effective policies and practices, and to promote the use of Nature Based Solutions by water practitioners. It targets professional and user communities of water and nature which should strengthen their dialogue, design integrated projects and initiatives, and play their role in conservation, together with political and economic decision makers at global, national, local and basin levels.
+        The initiative relies on the "Water & Nature Declaration" to be endorsed by public and private organisations, supported by a call to action enjoining each signatory of the declaration to submit at least one project, either to be implemented in the future or already in progress, either political/institutional or technical, in line with the definition of Nature Based Solutions.
+        The expected actions address key societal challenges through the protection, sustainable management and restoration of natural and modified ecosystems for the benefit of both biodiversity and human well-being. The initiative also welcomes projects from companies that have carried out actions to restore natural resources and ecosystems, contributing to sustainable development, in line with the SDGs, adopting a pro-nature attitude.
+        The session will demonstrate the need and relevance of water and nature policies, based on innovative initiatives from multiple locations in the world, with a strong focus on NbS as strategic measures for this matter. It will give the opportunity to many stakeholders to join the initiative by signing.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: abb29a41fb893d0175d0317363eb6369
+  field_code:
+    -
+      value: HLP11
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+    -
+      entity: 0179e98e-50fc-4837-8590-49cae1280e1a
+    -
+      entity: ae02041b-2c5e-4e37-a6ec-f5b1f42d9767
+    -
+      entity: a84c5b6d-8da2-4070-bc60-f67e69788d84
+  field_organisateurs_text:
+    -
+      value: 'International office for water'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        9:00 - Opening - Mr. Loïc Fauchon, President, World Water Council
+        9:05 - Keynote speech - Mr. Gilles Kleitz, Director, Department of Ecological Transitions and Natural Resources, French Development Agency
+        9:20 - Panel, moderation Eric Tardieu (OiEau)
+        - Mr. Carlos Lazary, Executive Director, Amazon Cooperation Treaty Organization (OTCA)
+        - Mr. Bountieng Sanaxonh, Planning Division Director, Secretariat of the Mekong River Commission (MRC) 
+        - Mr. Thierry Burlot, President, Loire-Brittany Basin Committee, (France) 
+        - Mr Eddy Njoroge, President of International Organization for Standardization (ISO),  President of Upper Tana-Nairobi Water Fund, Kenya
+        - Ms. Muriel Jaujou, Water cycle & sustainability director, Danone
+        - Ms. LaToya Cantrell, Mayor of New Orleans, LA, Mississippi River Cities & Towns Initiative
+        10:20 - Closing and revelation of new signers: Ms. Andrea Erickson, Managing director Water Security, The Nature Conservancy
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e416be74-d30e-487b-ba93-646584e8895c
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    f8501304-16f8-4781-93f1-11ec53caa614: taxonomy_term
+    1947b835-64d3-4167-824c-71a80ccb9305: taxonomy_term
+    58146c4e-d725-4469-97e7-2c26723695c7: taxonomy_term
+    193c0094-9e17-42cf-9a29-ca5c20839bea: taxonomy_term
+    6e2667ef-5791-4c4d-9995-f824d92369f7: taxonomy_term
+    3361a3b6-4043-40ba-b5fe-15ab34b2fb29: taxonomy_term
+    07bb9bf1-3f43-4405-b9fb-78996266ccc9: taxonomy_term
+    5d7aa32e-ddb7-470e-a8cb-9e15161cf217: taxonomy_term
+    d37c626c-1bb3-4d72-8b29-19fba9bb067f: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Solutions fondées sur la nature : construire des réponses résilientes au changement climatique et à la pénurie d''eau'
+  created:
+    -
+      value: 1647485813
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/solutions-fondees-sur-la-nature-construire-des-reponses-resilientes-au-changement-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L’objectif de cette session est de discuter des SfN adaptées au contexte sénégalais et permettant de soutenir les concepts de croissance verte ou d’économie verte afin de réduire les impacts du changement climatique sur l’utilisation durable des ressources en eau. Le panel permettra de présenter et d’approfondir :
+        - Les défis et enjeux liés au changement climatique sur les ressources en eau au Sénégal     - La sécurité de l’eau et le concept d’économie circulaire de l’eau
+        - Les solutions naturelles pour accroitre la résilience face aux impacts du changement climatique
+        - Les solutions d’infrastructures vertes (naturelles) pour une gestion durable de l’eau (disponibilité, quantité et qualité)
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485813
+      guid: ''
+      hash: 363576684f54f68f20ec58cb35d6f5ea
+  field_code:
+    -
+      value: SS26
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: f8501304-16f8-4781-93f1-11ec53caa614
+    -
+      entity: 1947b835-64d3-4167-824c-71a80ccb9305
+    -
+      entity: 58146c4e-d725-4469-97e7-2c26723695c7
+    -
+      entity: 193c0094-9e17-42cf-9a29-ca5c20839bea
+    -
+      entity: 6e2667ef-5791-4c4d-9995-f824d92369f7
+    -
+      entity: 3361a3b6-4043-40ba-b5fe-15ab34b2fb29
+    -
+      entity: 07bb9bf1-3f43-4405-b9fb-78996266ccc9
+    -
+      entity: 5d7aa32e-ddb7-470e-a8cb-9e15161cf217
+    -
+      entity: d37c626c-1bb3-4d72-8b29-19fba9bb067f
+  field_organisateurs_text:
+    -
+      value: 'Direction de l''Assainissement, Ministère de l''Eau et de l''Assainissement du Sénégal'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Présentation des panélistes
+        5 - 10 min.	Exposé introductif du modérateur
+        10 - 50 min.	Présentation des projets
+        50 - 60 min.	Questions/Réponses du modérateur et des panélistes
+        60 - 85 min.	Réactions du public et réponses des panélistes 
+        85 - 90 min.	Conclusion et messages clés du modérateur 
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482

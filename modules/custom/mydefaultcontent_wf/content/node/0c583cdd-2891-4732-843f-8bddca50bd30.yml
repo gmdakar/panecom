@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0c583cdd-2891-4732-843f-8bddca50bd30
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    098f73fc-807e-42d6-ac90-00456005ca10: taxonomy_term
+    1f105d0b-1a15-4f3d-a0bc-b23aaa4d44f6: taxonomy_term
+    5d06a0e2-935a-4767-9729-933dcfde801b: taxonomy_term
+    fb196bc3-a2aa-407c-931f-66b0ac07a1b2: taxonomy_term
+    7aa4f11c-601d-4224-b72a-797ce93c065b: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    45a2da9d-8d87-4ebe-a43e-b137fb67f06c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'INSTITUTIONAL AND ORGANIZATIONAL CHANGES IN THE WATER AND SANITATION SECTOR IN AFRICA'
+  created:
+    -
+      value: 1647486042
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/institutional-and-organizational-changes-water-and-sanitation-sector-africa
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The session is designed as a space for exchange between participants on the governance of the water and sanitation sector and to share experiences on the institutional framework and operational mechanisms for implementing national development strategies for the water and sanitation sector in African countries. It will present the subject and the issues it covers, exchange on the institutional and organizational evolutions of the sector, evaluate the efficiency of the operationalization models of the national structures in charge of the development of the sector, and formulate strong recommendations to the public decision makers as well as to all the other stakeholders including the consumers and other users of water and sanitation services'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486042
+      guid: ''
+      hash: e718b0bf16c2872cf529bf4f9d4f1513
+  field_code:
+    -
+      value: SE29
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panelists / speakers : DA / DG ONAS / Officials of other African countries
+        Expected moderator: CPCS/MEA SENEGAL 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 098f73fc-807e-42d6-ac90-00456005ca10
+    -
+      entity: 1f105d0b-1a15-4f3d-a0bc-b23aaa4d44f6
+    -
+      entity: 5d06a0e2-935a-4767-9729-933dcfde801b
+    -
+      entity: fb196bc3-a2aa-407c-931f-66b0ac07a1b2
+    -
+      entity: 7aa4f11c-601d-4224-b72a-797ce93c065b
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        0 - 5 min.	Introduction/Context
+        5 - 10 min.	Introductory film
+        10 - 20 min.	Brainstorming with the audience on the issue: Institutional and organizational developments in the water and sanitation sector in Africa
+        20 - 40 min.	Presentations (10' each) 
+        CPCS: State of play of the governance of the sector taking into account the institutional evolutions in Senegal
+        DA : Evaluation of the effectiveness of the models of operationalization of the orientations of the national structures in charge of the development of the water and sanitation sector in Africa : case of Senegal 
+        40 - 50 min.	Discussion on the presentations 
+        50 - 60 min.	Key messages and conclusion
+      format: plain_text
+  field_salle:
+    -
+      entity: 45a2da9d-8d87-4ebe-a43e-b137fb67f06c

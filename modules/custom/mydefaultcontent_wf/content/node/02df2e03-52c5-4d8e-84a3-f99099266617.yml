@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02df2e03-52c5-4d8e-84a3-f99099266617
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    0384f6b6-87a9-4ba7-96af-d736bf5b49ed: taxonomy_term
+    30258059-a57d-4400-879b-c45df74a7e56: taxonomy_term
+    3cfa209d-4cce-40be-8002-fef66840bb2b: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    07a02233-42b3-4233-baa3-bbe97cc80a54: taxonomy_term
+    b2f6f41e-d002-41d0-aa0e-e53c8d93e8a2: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'World Water Heritage: Critical Bridge to Peace and Development'
+  created:
+    -
+      value: 1647493852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/world-water-heritage-critical-bridge-peace-and-development-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Objectives
+        The Special Session will discuss the significance of material, conceptual and spiritual aspects of water-related cultural heritage. The discussion will focus on the critical relevance of world water heritage for present and future water security, and to promote peace and development. The Special Session flows from the recommendations of the 2020 Tokyo symposium on Water and Culture/Heritage which was organized by the National Institute on Policy Studies of Japan in cooperation with the ICOMOS International Scientific Committee on Water and Heritage (ISCWater).  
+        The President of ISCWater will offer the keynote (via link) presentation, during which he will underscore the significance of world water heritage in meeting the United Nation’s (UN) Sustainable Development Goals (SDGs), as a milestone leading to the 2023 UN World Water Decade Mid Term Review (MTR) in New York. We envisage that the outcomes of the High-Level Panel will offer direct inputs for the Conceptual Framework for Valuing Water and for the UN Water Decade MTR. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493852
+      guid: ''
+      hash: 05d26c402e269f655977fc0f5d1a34f8
+  field_code:
+    -
+      value: SS54
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 0384f6b6-87a9-4ba7-96af-d736bf5b49ed
+    -
+      entity: 30258059-a57d-4400-879b-c45df74a7e56
+    -
+      entity: 3cfa209d-4cce-40be-8002-fef66840bb2b
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: 07a02233-42b3-4233-baa3-bbe97cc80a54
+    -
+      entity: b2f6f41e-d002-41d0-aa0e-e53c8d93e8a2
+  field_organisateurs_text:
+    -
+      value: ICOMOS
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Key notes: 25 minutes
+        Examples: 25 minutes
+        Panle discussion: 20 minutes
+        Discussion with audience: 20 minutes
+        Dialogue among Panel members (15 minutes) 
+        Concluding remarks including next steps by Chair (5 minutes)
+      format: plain_text
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

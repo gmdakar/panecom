@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 32af89df-8bf6-468d-beb2-e375a4374800
+  bundle: groupe_d_actions
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '1F Strengthen resilience and adaptive capacity to climate change and natural disasters'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1647484832

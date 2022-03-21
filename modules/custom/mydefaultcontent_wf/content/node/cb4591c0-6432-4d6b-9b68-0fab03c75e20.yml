@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cb4591c0-6432-4d6b-9b68-0fab03c75e20
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    07c08f53-1d4c-4d18-b279-7efade246bef: taxonomy_term
+    4da9a51e-00b4-4bfd-898f-4153928c1a4a: taxonomy_term
+    072bfc52-fcd9-4c5f-bd5b-05043d03aa9f: taxonomy_term
+    fff520a3-f405-4d97-bbbc-13409abebd03: taxonomy_term
+    c794e8e2-b962-4e9f-8ad8-9063b3552302: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Contribution to the Circular Economy through the sustainable management of drinking water services: Case of Non- Revenue Water (NRW)'
+  created:
+    -
+      value: 1647486050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/contribution-circular-economy-through-sustainable-management-drinking-water-services-case
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Water utilities around the world and particularly in developing countries face major challenges, in particular the high level of water losses, due to leakage in the networks, fraud, billing problems, metering problems etc. The difference between the volume of water that enters the distribution system and the water billed to consumers is called Non-Revenue Water (NRW).
+        Each year more than 32 billion cubic meters of treated water are lost due to leaks in the distribution system. In addition, 16 billion cubic meter per year are supplied to customers without being billed, due to theft, faulty meters or corruption. An estimate of the total annual cost of these losses to water companies worldwide is US$14 billion. These losses would represent 50% to 60% of the water supplied, compared to the world average of 35%. Saving this amount would provide water to an additional 100 million people without any additional investment. 
+        In many African countries, NRW often reaches such high proportions that it significantly compromises the financial viability of companies by reducing their capacity to serve the population. Also, NRW increases human pressure on the environment, particularly by encouraging the over-exploitation of freshwater resources. 
+        Through the Water Operators' Partnerships (WOP) approach as a peer-to-peer learning process, AfWA has proven its effectiveness to address identifying challenges and improving operator performance to accelerate progress towards the MDGs in water and sanitation services.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486050
+      guid: ''
+      hash: e1c4e49c3ebb4323fc897cce669b03d7
+  field_code:
+    -
+      value: SE35
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |
+        Chair: Ms Koubra Hissène ITNO, DG Chadian water Company
+        Moderator: Olivier Gosso, SODECI, Cote d'Ivoire
+        Presenter: Gilles Djagoun, senior Programme coordinator, AfWA
+        PANELISTS
+        i.	Dr. Rose Kaggwa, NWSC, Uganda
+        ii.	Mr Olivier Gosso, SODECI, Cote d’Ivoire
+        iii.	Mr. Olivier Billard, DIELT, France
+        iv.	Mr. Michael Kerstin, GWP, Germany
+        v.	Mr. Lars Stordal, GWOPA, Germany
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+    -
+      entity: 07c08f53-1d4c-4d18-b279-7efade246bef
+    -
+      entity: 4da9a51e-00b4-4bfd-898f-4153928c1a4a
+    -
+      entity: 072bfc52-fcd9-4c5f-bd5b-05043d03aa9f
+    -
+      entity: fff520a3-f405-4d97-bbbc-13409abebd03
+  field_organisateurs_text:
+    -
+      value: AAE
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Opening by the chair: 05 min
+        Introduction by the moderator: 05 Min
+        Presentation: 10 min
+        Panel discussion: 35 min
+        Closing/wrap up: 05 min
+      format: plain_text
+  field_salle:
+    -
+      entity: c794e8e2-b962-4e9f-8ad8-9063b3552302

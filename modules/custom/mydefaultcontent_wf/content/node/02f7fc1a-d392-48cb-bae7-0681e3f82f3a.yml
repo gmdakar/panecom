@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02f7fc1a-d392-48cb-bae7-0681e3f82f3a
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    fcdd7183-1867-491e-b92e-ce876663b2f6: taxonomy_term
+    770e13c4-0810-48f5-a37b-74203e6ea0b7: taxonomy_term
+    e1fdb926-1148-46c5-9dcd-3195cf5c2309: taxonomy_term
+    5ff908d0-3acf-4c4f-a978-bd91bc93b1f9: taxonomy_term
+    0d03ea13-0480-42db-9470-3091f7ce1347: taxonomy_term
+    a2f39049-77d7-454b-b357-796b6d8918a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: |-
+        Non- sewered sanitation, a key issue for African local authorities 
+
+        L'assainissement non- collectif, un enjeu clé pour les collectivités locales africaines.
+  created:
+    -
+      value: 1647493848
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/non-sewered-sanitation-key-issue-african-local-authorities-lassainissement-non-collectif-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Non-sewered sanitation is largely predominant in sub-Saharan Africa. In 2020, this sanitation method, often managed informally, represented 72% of the access in rural areas and 78.6% in urban areas. Therefore, formalizing non-sewered sanitation should be considered as a key issue for local authorities, which are usually responsible for this service.
+
+        The main objective of this session is to contribute to the achievement of targets 6.2 and 6.3 of SDG 6 on sanitation and wastewater treatment. Specifically, this session aims at presenting on-site sanitation as a sustainable and complementary alternative to the collective centralized system and supporting local governements in its structuring.
+
+        This session is based on diferent material :
+        - case studies realized in Cameroon, Cape Verde and Ghana.
+        - feedbacks from local elected officials, particularly in the context of decentralized cooperation projects. A project labeled “Initiative Dakar 2022” in Togo will be presented on this occasion.
+        - a questionnaire developed in coordination with UCLG-Africa, submitted to National Associations of Local Authorities.
+
+        This meeting will set the guidelines for a concrete roadmap presenting good practices on non-sewered sanitation, concerning local authorities. 
+
+        This initiative coordinated by Yvelines, International Cooperation and Development (YCID) benefits from the support of the French Water Partnership (FWP) and the Gates Foundation.
+
+        This coalition in favor of non-sewered sanitation follows on from the discussions already initiated during the World Water Forum in Brasilia and during the Africities Summit (Marrakech, 2018).
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493848
+      guid: ''
+      hash: f71e3b68aa83e5220186f53e805007b3
+  field_code:
+    -
+      value: SS40
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: fcdd7183-1867-491e-b92e-ce876663b2f6
+    -
+      entity: 770e13c4-0810-48f5-a37b-74203e6ea0b7
+    -
+      entity: e1fdb926-1148-46c5-9dcd-3195cf5c2309
+    -
+      entity: 5ff908d0-3acf-4c4f-a978-bd91bc93b1f9
+    -
+      entity: 0d03ea13-0480-42db-9470-3091f7ce1347
+  field_organisateurs_text:
+    -
+      value: 'Yvelines, Coopération internationale et développement (YCID)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        1.	Introduction and presentation of the global initiative on non-sewered sanitation: Jean-Marie Tétart, 10 min
+        2.	Overview of the situation of non-sewered sanitation in Africa: Mbaye Mbeguere, 10 minutes
+        3.	Summary of the case studies recommandations and discussion on the management methods:
+        -	Cameroon : Roger Feumba 10 min
+        -	Cape Verde : Herménio Fernandes, 10 min
+        4.	First round of discussion (questions and answers with the audience): 10 min
+        5.	Example of a decentralized cooperation project on non-sewered sanitation (labeled): experience of “la Commune des Lacs 1” : Alexis Acquereburu, 10 min
+        6.	Role of local authorities and first results of the questionnaire: Mohamed Nbou, 10 min
+        7.	Debate with the floor to draw the main recommendations and points of attention on non-sewered sanitation (Possibility of carrying it out, in the form of a SWOT matrix, in co-construction with the audience): 15 min
+        8.	Closing - (Gates Foundation or Jean-Marie Tétart) 5 min
+
+        (Interventions may be limited to 7 minutes per speaker to leave room for questions).
+
+      format: plain_text
+  field_salle:
+    -
+      entity: a2f39049-77d7-454b-b357-796b6d8918a7

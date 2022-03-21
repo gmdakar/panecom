@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b99936f-891f-4c9e-8ece-104791158fb5
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    c05e2f8e-06ee-4701-bf04-7e3253a1f169: taxonomy_term
+    21918554-b69f-48b5-a3aa-ab78de1ec4fc: taxonomy_term
+    32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8: taxonomy_term
+    839a3ed6-7cc6-4001-b1f0-b1844465debb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'L''assainissement inclusif à l''échelle de la ville comme approche pour mettre à l''échelle des solutions durables au niveau de la ville : Du RASOP Afrique au SAO- CWIS pour le renforcement des capacités des acteurs de l''assainissement'
+  created:
+    -
+      value: 1647485815
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/lassainissement-inclusif-lechelle-de-la-ville-comme-approche-pour-mettre-lechelle-des-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        L'assainissement inclusif à l'échelle de la ville (Citywide Inclusive Sanitation - CWIS) est une approche de service public de la planification et de la mise en œuvre de systèmes d'assainissement urbain visant à atteindre les résultats résumés par l'Objectif de développement durable 6 : un assainissement sûr, équitable et durable pour tous dans une zone urbaine, en accordant une attention particulière aux besoins des pauvres, des marginalisés, des femmes et des filles. Pour faire progresser et maintenir les résultats des ODD à une échelle significative, tous les systèmes CWIS doivent démontrer trois fonctions essentielles :
+        - Une (des) autorité(s) responsable(s) exécute(nt) un mandat public pour la fourniture de services urbains inclusifs.
+        - L'autorité (ou les autorités) est responsable de la performance par rapport à son mandat.
+        - La gestion et la planification des ressources reflètent les mandats, les priorités et la responsabilité des performances de l'autorité.
+        Les objectifs assignés à cette session organisée par l'AAE, sont :
+        i.	Discuter des problèmes locaux et mondiaux de l'assainissement urbain 
+        ii.	Identifier les principaux défis qui contribuent à un mauvais assainissement dans les villes
+        iii.	Décrire les approches : WOP, l'approche CWIS et le cadre de service, les principes et les étapes clés de l'action CWIS.
+        iv.	S'accorder sur le rôle du secteur privé et des régulateurs dans la mise en œuvre de la CWIS.
+        v.	Expliquer la contribution de l'AAE dans le renforcement de la capacité des services publics et des municipalités africaines à améliorer la prestation de services d'assainissement.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485815
+      guid: ''
+      hash: 126b2460f0d561c403cc2498e318c20d
+  field_code:
+    -
+      value: SS42
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: c05e2f8e-06ee-4701-bf04-7e3253a1f169
+    -
+      entity: 21918554-b69f-48b5-a3aa-ab78de1ec4fc
+    -
+      entity: 32f5c9ef-7bf2-49cc-aeab-b33a96fe36a8
+  field_organisateurs_text:
+    -
+      value: 'African Water Association (AfWA)'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        a.	Introduction du président (5 minutes)
+        b.	Présentation principale de l'AAE (10 mins)
+        c.	Présentation sur le rôle du secteur privé dans la fourniture de services d'assainissement (10 mins)
+        d.	Présentation sur le CWIS et la réglementation par ESAWAS (10 mins)
+        e.	Les réactions et les questions de l'auditoire seront traitées. (20 mins)
+        f.	Panel modéré - format Hard Talk. (20 minutes)
+        g.	Les réactions et les questions du public seront traitées. (10 minutes)
+        h.	Résumé du modérateur (5 mins)
+      format: plain_text
+  field_salle:
+    -
+      entity: 839a3ed6-7cc6-4001-b1f0-b1844465debb

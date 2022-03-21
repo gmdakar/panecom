@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a8b29af2-f7f5-4d86-b70f-0f721cec6e4f
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    43249756-75a1-4606-a717-49d365abdd8b: taxonomy_term
+    1f297e24-db4e-4f11-91d4-f7e438debad4: taxonomy_term
+    1fa4b1c3-71a5-47c0-822b-3236412fb2d4: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'International Observatory on Non- Conventional Water Resources and Dedicated Renewable Energy'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/international-observatory-non-conventional-water-resources-and-dedicated-renewable-energy-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The Mediterranean and the Sahel are among the poorest regions of the world in terms of fresh water, which leads them to use other types of water than lakes, rivers and aquifers, and which are therefore called non-conventional water resources: wastewater, which is treated to be reused, and salt water or marine water, which is desalinated. These mobilizations are developing rapidly in view of demographics and global warming, but at the cost of sharply rising energy consumption that runs counter to climate objectives.
+        The information on this evolving subject is incomplete, not updated, not validated and not shared despite the inventories of Aquastat, Desaldata or IRENA. International organizations such as AFD, EBRD or IEA commit significant expenses for studies that only provide a partial and punctual picture of the situation.
+        Thanks to its professional network and partners, the EMI has identified a strong expectation of water and energy stakeholders (planners, designers, builders, operators, researchers, etc.) for an international observatory that would gather and make accessible information on this topic (indicators, maps, installations, projects, experts, regulations, etc.) while allowing dynamic exchanges between countries. The sharing of experiences would thus make available the best practices or innovations in the technical, economic or social field, which are the only ones capable of achieving the SDGs. The launch of this observatory is possible thanks to the project prepared by the EMI and of which a prototype realized by a group of countries will be shown in Dakar.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: 9ae3bac115fd7540a18fcba4d750dab0
+  field_code:
+    -
+      value: SS13
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 43249756-75a1-4606-a717-49d365abdd8b
+    -
+      entity: 1f297e24-db4e-4f11-91d4-f7e438debad4
+    -
+      entity: 1fa4b1c3-71a5-47c0-822b-3236412fb2d4
+  field_organisateurs_text:
+    -
+      value: 'MEDITERRANEAN WATER INSTITUTE'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+
+        9:00-9:10 Opening remarks by Mr. Alain Meyssonnier, President of the Mediterranean Water Institute (IME)
+        9:10-9:15 Introductory remarks by Mr. Almotaz Abadi, Director General of the Union for the Mediterranean (UfM) Secretariat
+        9:15-9:30 Presentation of the feasibility study and its recommendations by the EMI expert groups:
+        - Mr. Mokhtar Bzioui, Chairman of the EMI Scientific and Technical Committee
+        - Mr. Mohammed El Ghali Khiyati, REUSE Expert
+        9:30-10:10 Ongoing activities as a prototype of the future Observatory by Countries and Partners:
+        - Representative of the Spanish Ministry of Ecological Transition and Demographic Challenge (tbc)
+        - Ms. Latifa Dhaouadi, IME & Ms. Paola Pommier, SCP "Methodological guide for the implementation of REUSE pilot projects" (tbc)
+        - Mr. Rifaat Abdelwahab, HCWW Egypt
+        - Mr. Mohammed Bany-Mustapha & Mr. Issa Al-Wer, Ministry of Water and Irrigation, Jordan
+        - Mr. Khaled Zaabar, SONEDE Tunisia
+        10:10-10:25 Discussion (Q/R)
+        10:25-10:30 Conclusion by Mr. Loïc Fauchon, President of the World Water Council Alain Meyssonnier, President of the Mediterranean Water Institute (IME)
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

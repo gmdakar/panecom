@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e3443ced-f16a-43d5-8c78-d2cad9ddc773
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0: taxonomy_term
+    17ba3d97-24bb-4e3a-b324-8737ae81bf68: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    1e2eab4b-8b2e-4981-80a7-9a8dec007eca: taxonomy_term
+    7dafab46-75bc-4a64-90fb-7988936af0df: taxonomy_term
+    a88bac15-39c2-4a41-b53d-03ff554081b6: taxonomy_term
+    8e75ce15-fadf-4f48-bd69-626c6ddc61a8: taxonomy_term
+    158946ba-4205-4f72-bed4-35f8738849d1: taxonomy_term
+    1f8ad20e-57b6-4282-b697-7e3b00f0dac5: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The changes we need in the water sector: Giving the voice to vulnerable groups'
+  created:
+    -
+      value: 1647484852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/changes-we-need-water-sector-giving-voice-vulnerable-groups
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Bringing over testimonials from community leaders, women, youth and indigenous communities from different continents on how they deal with access to water, how they manage it, how they participate on decision-making processes related to water and how they would change in the water sector of today.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484852
+      guid: ''
+      hash: e635c8cf20db81c9ad2d5cfae9fcde98
+  field_code:
+    -
+      value: 4B4
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0
+    -
+      entity: 17ba3d97-24bb-4e3a-b324-8737ae81bf68
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 1e2eab4b-8b2e-4981-80a7-9a8dec007eca
+    -
+      entity: 7dafab46-75bc-4a64-90fb-7988936af0df
+    -
+      entity: a88bac15-39c2-4a41-b53d-03ff554081b6
+    -
+      entity: 8e75ce15-fadf-4f48-bd69-626c6ddc61a8
+    -
+      entity: 158946ba-4205-4f72-bed4-35f8738849d1
+    -
+      entity: 1f8ad20e-57b6-4282-b697-7e3b00f0dac5
+  field_organisateurs_text:
+    -
+      value: |-
+        ISW
+        MTES 
+        SWE
+        Coalition eau
+        WYPW 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |+
+        •	REFELA (network of elected women leaders in Africa) – TBC
+        •	Presidente des Jeunes Professionnels de l’Eau (Sénégal) - TBC
+        •	leader of the side event on youth at WWF9 (Spain) – TBC
+        •	President of the WYPW (World Youth Parliament for Water)
+        •	VicePresident of the WYPW (World Youth Parliament for Water) 
+        •	President of the Haitian Youth Parliament for Water and Sanitation. 
+
+        Representatives of indigenous communities: 
+        •	Mohawk Council of Akwesasne (Canada-USA), 
+        •	Quispillacta Ayacucho Quechua Communnity (Peru), 
+        •	Chaco Guarani Federation (Paraguay-Brazil), 
+        •	Senu Nuevo Caribea Indigenous Community (Colombia), 
+        •	Otomi Indigenous Community (Mexico).
+
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |+
+        Butterfly Effect
+        World Youth Parliament for Water
+
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        The session will be moderated by the SWE, ISW or Coalition Eau, and tentatively will be divided in 2 parts (to be confirmed upon video production):
+
+        •	Keynote speech (10 min)
+        •	Part 1. Testimonials that claim for change (30 minutes)
+        Presentation of audio-visual testimonials from developing countries.
+        •	Part 2. Channelling the testimonials in to change – How? (30 minutes)
+        4 Panellists – mostly water sector specialists will have 5 minutes to present the key outcomes of the testimonials and suggest how they could influence (20 min)
+        •	Q&A (10mn).
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -	A free royalty website to download all the testimonials 
+        -	A paper with policy recommendations for policy-makers
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

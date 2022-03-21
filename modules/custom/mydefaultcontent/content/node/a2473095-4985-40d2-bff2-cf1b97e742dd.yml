@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a2473095-4985-40d2-bff2-cf1b97e742dd
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    32af89df-8bf6-468d-beb2-e375a4374800: taxonomy_term
+    c0978f79-d3ff-4f78-9894-fe7a1c4e0288: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    d9d664de-b872-442e-909f-cc27beadad3f: taxonomy_term
+    6d8b228e-2716-4e11-9f17-f42329486472: taxonomy_term
+    407889f6-e01d-4f5a-aaa7-73bc3baa7e61: taxonomy_term
+    1555b1f8-ef6b-4709-9ade-8227cbda99db: taxonomy_term
+    a0709016-bce0-432c-ae0e-fc969c92c8cf: taxonomy_term
+    ff90784d-dc53-4a5e-bb75-567a7d7f006b: taxonomy_term
+    c538e39b-1aeb-426b-af57-5ca6139e7191: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Building resilience through data & knowledge- based solutions: Identification, monitoring, early- warning and assessment of water- related risks'
+  created:
+    -
+      value: 1647484833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/building-resilience-through-data-knowledge-based-solutions-identification-monitoring-early
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This session aims to share best practices, technologies and visionary strategies of related countries and regions in building resilience to water-related disasters, and to emphasize how data and knowledge-based decision-making, approaches or products can better tackle the issue.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484833
+      guid: ''
+      hash: 472479d8123416e798dd311191f95e12
+  field_code:
+    -
+      value: 1F3
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 32af89df-8bf6-468d-beb2-e375a4374800
+  field_horaire:
+    -
+      entity: c0978f79-d3ff-4f78-9894-fe7a1c4e0288
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: d9d664de-b872-442e-909f-cc27beadad3f
+    -
+      entity: 6d8b228e-2716-4e11-9f17-f42329486472
+    -
+      entity: 407889f6-e01d-4f5a-aaa7-73bc3baa7e61
+    -
+      entity: 1555b1f8-ef6b-4709-9ade-8227cbda99db
+    -
+      entity: a0709016-bce0-432c-ae0e-fc969c92c8cf
+    -
+      entity: ff90784d-dc53-4a5e-bb75-567a7d7f006b
+  field_organisateurs_text:
+    -
+      value: |
+        China Institute of Water Resources and Hydropower Research (IWHR)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	Japan Water Forum
+
+        •	INBO / RIOB
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        Project 1. Project of the World Meteorological Organization (WMO) “World Water Data Initiative (WWDI): Building capacities of National Meteorological and Hydrological Services to strengthen resilience and adaptation to climate change”.
+        Project 2. Project of Euro-Mediterranean Information System on know-how in the water sector (EMWIS) of “Mediterranean Water Knowledge Platform for climate change adaptation”.
+        Project 3. Project of the International Commission of the Congo-Ubangui-Sangha (CICOS):  “Innovative monitoring of water resources through Earth observation satellites for adaptation to climate change in the Congo River basin”.
+        Project 4. Project of the International Office for Water (OiEau) “AfriAlliance: Boosting knowledge through matchmaking research & innovation needs and solutions for preparedness to climate change in Africa”.
+        Project 5. Project of the China Institute of Water Resources and Hydropower Research (IWHR): “Flash Flood Disaster Prevention and Control Project in China”
+        Project 6. Project SUEZ: “COVID 19- City watch: Anticipate and track the circulation of the SARS COV2 virus”
+        Project 7. Project of Secretariat of Water Cycle Policy Headquarters, Cabinet Secretariat, Japan: “Development of the assessment method of local water scarcity risk and effects of water resources management”, recommended by Japan Water Forum.
+      format: plain_text
+  field_programme:
+    -
+      value: '6 presentations with each one 10 minutes, 20-minute panel discussion, 10 minutes for opening and wrap-up.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Improving the collection, management and processing of data into actionable knowledge that can inform decisions related to adaptation to climate change. For example:
+        1. Encourage an overall survey and investigation of natural, social and economic conditions of the areas prone to water risks 
+        2. Encourage that vulnerable areas can be equipped with necessary early warning facilities and establish community-based defense system 
+        3. Promote the application of data and knowledge in the establishment of a disaster monitoring and forecasting system 
+        4. Establish systems of non-structural measures (e.g. water disaster monitoring and early-warning system, improving management, making policies, laws and regulations, improving disaster rescue and insurance) to mitigate risk of water-related disasters 
+        5. Improved international exchanges on best practices, advanced technologies and visionary strategies in building resilience to water-related disasters 
+        6. Development of citizen sciences which has double benefit of data gathering and awareness raising on water and climate related issues 
+        7. Knowledge development to improve water resources management from source to sea, especially to anticipate potential risks such as droughts, flooding, sea level rise. 
+      format: basic_html
+  field_salle:
+    -
+      entity: c538e39b-1aeb-426b-af57-5ca6139e7191

@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3d100608-ca54-4f49-9122-4a9bc95d0064
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0dba4517-b577-44a8-8bd8-682f4f7df2b9: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    6eabd673-b1eb-475c-9507-c5c951880c53: taxonomy_term
+    0bf9e983-cf49-4d62-be38-703f9c34ddc4: taxonomy_term
+    7bfcfe9d-ca28-4276-920a-ae55e0e0ff7f: taxonomy_term
+    bb91b77f-e1a2-4aca-8170-72b9812aceed: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La finance durable après COVID- 19'
+  created:
+    -
+      value: 1647484961
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-finance-durable-apres-covid-19
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        " De nouveaux modèles et mécanismes qui inspirent et récompensent les services publics pour qu'ils pensent en dehors du budget de leur gouvernement doivent être mis en œuvre parallèlement à de nouvelles méthodes de financement de la fourniture de services d'eau et d'assainissement.
+        "
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484961
+      guid: ''
+      hash: 7713ca61d6b209693b71d96bd699f4ba
+  field_code:
+    -
+      value: 4A3
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0dba4517-b577-44a8-8bd8-682f4f7df2b9
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 6eabd673-b1eb-475c-9507-c5c951880c53
+    -
+      entity: 0bf9e983-cf49-4d62-be38-703f9c34ddc4
+    -
+      entity: 7bfcfe9d-ca28-4276-920a-ae55e0e0ff7f
+  field_organisateurs_text:
+    -
+      value: |
+        SOMAGEP, UN Capital Development Fund
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: tbd
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: 'à ajouter'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        tbd
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: tbd
+      format: basic_html
+  field_salle:
+    -
+      entity: bb91b77f-e1a2-4aca-8170-72b9812aceed

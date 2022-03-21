@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f4282964-6d07-444e-bf83-cd272494a204
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    25c113c0-5419-4885-a2cd-fb773c689716: taxonomy_term
+    7c9e86da-175d-4f38-a8b2-cdc99ef61f12: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    35dee4de-c959-4c04-a176-8af786a08f71: taxonomy_term
+    e68f80fc-64cc-4c14-af48-47c83c6b7a41: taxonomy_term
+    4683c396-9df5-492a-bedf-9e8202b028e7: taxonomy_term
+    647aa9a0-a52d-40fe-8fc5-1e74250ba65c: taxonomy_term
+    b05cff3b-2239-445b-8102-ffb333a2dd22: taxonomy_term
+    eeb972d4-8c66-4cf4-9d9b-876d4909e455: taxonomy_term
+    98d8ff3d-bb7a-4900-a28b-ac96f8d13114: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Surface water management at the watershed scale and maintenance of mangrove ecosystem services'
+  created:
+    -
+      value: 1647486038
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/surface-water-management-watershed-scale-and-maintenance-mangrove-ecosystem-services
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        Mangroves provide multiple ecosystem services that are critical to sustaining coastal communities, such as reducing hydrodynamic stresses from currents, waves, and surges, thereby reducing erosion and flooding. In addition, mangroves provide essential services for the livelihoods of coastal communities. The session will revisit the role that mangroves can play in coastal protection in West Africa and the importance of effective management of these ecosystems. Through different presentations, the conditions for the preservation of this mangrove ecosystem will be illustrated and discussed. The session will answer the following question: What are the conditions necessary to ensure an effective role of mangroves in the protection of the coast in West Africa. This should allow to formulate some strong recommendations that can feed the results of the forum.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486038
+      guid: ''
+      hash: efec5b4f0abd734c4ae93d836f48814e
+  field_code:
+    -
+      value: SE2
+  field_date:
+    -
+      entity: 25c113c0-5419-4885-a2cd-fb773c689716
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Moderator: Pr. Ahmed SENHOURY
+
+        Speakers: 
+        Audrey LEGAT (DELTARES)
+        Paul Tendeng (IUCN)	
+        Prof. Ahmed SENHOURY (PRCM)
+        Yakhya Gueye and Therese Musabe (WIA)
+
+        Speakers
+        ADAM Cesay
+      format: plain_text
+  field_horaire:
+    -
+      entity: 7c9e86da-175d-4f38-a8b2-cdc99ef61f12
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: 35dee4de-c959-4c04-a176-8af786a08f71
+    -
+      entity: e68f80fc-64cc-4c14-af48-47c83c6b7a41
+    -
+      entity: 4683c396-9df5-492a-bedf-9e8202b028e7
+    -
+      entity: 647aa9a0-a52d-40fe-8fc5-1e74250ba65c
+    -
+      entity: b05cff3b-2239-445b-8102-ffb333a2dd22
+    -
+      entity: eeb972d4-8c66-4cf4-9d9b-876d4909e455
+  field_organisateurs_text:
+    -
+      value: 'PRCM / ONG REGIONALE'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        1.	Opening of the session (5mn)
+        2.	Introduction: the role of mangroves for the protection against erosion and coastal flooding by Audrey LEGAT de DELTARES
+        3.	Impact of water releases from the Nangbeto dam on the assisted settlement of mangroves in the Mono Côté Togo Transfrontier Biosphere Reserve (TBR) by Dr. TENDENG
+        4.	Cohabitation between rice cultivation and mangrove restoration through optimal water and land management in the TRISTAO islands in Guinea by Pr. Ahmed SENHOURY
+        5.	The role of mangroves for protection against erosion and coastal flooding by Audrey LEGAT DETARES
+        6. Impact of freshwater inflow on mangrove biodiversity by Yakhya Gueye and Therese Musabe (WIACO)
+        7.	Discussion (15mn) - how to translate these success conditions into an effective mangrove management plan?  
+      format: plain_text
+  field_salle:
+    -
+      entity: 98d8ff3d-bb7a-4900-a28b-ac96f8d13114

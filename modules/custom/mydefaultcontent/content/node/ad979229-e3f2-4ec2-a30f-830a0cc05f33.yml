@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ad979229-e3f2-4ec2-a30f-830a0cc05f33
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    8d515e8e-dc50-41e7-9760-8133fc61697d: taxonomy_term
+    2064aa69-63ad-43f1-9b01-67013648f1b7: taxonomy_term
+    dd56335f-1123-450a-9c10-1391b8479bc2: taxonomy_term
+    be01be8b-979f-4157-9238-4fe100392f6a: taxonomy_term
+    3261b523-53df-4a9f-b07b-f1975ab0a25e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sensibilisation et renforcement des capacités des acteurs pour le développement du marché de l''assainissement en zone rurale'
+  created:
+    -
+      value: 1647486187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/sensibilisation-et-renforcement-des-capacites-des-acteurs-pour-le-developpement-du-marche-de
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        La session est conçue comme un espace d’échange entre les participants sur les approches de sensibilisation des ménages ruraux face aux enjeux de l’assainissement et sur le Marketing de l’assainissement. 
+        Il s’agira de présenter le sujet et les enjeux qu’il recouvre, d’échanger sur les évolutions de le ATPC, de sa genèse à l’approche élargie). Le Marketing de l’Assainissement sera également l’objet d’échanges, et les expériences développées par  différents acteurs seront analysées  par les participants.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486187
+      guid: ''
+      hash: ea161ea5cbd272946fad159fe1268f12
+  field_code:
+    -
+      value: SE28
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: |-
+        Panélistes / intervenants : DA/UNICEF/USAID ACCES/GSF: ATPC/CLTS
+        Modérateur attendu : UNICEF SENEGAL 
+        Panélistes / intervenants : DA/GRET/USAID ACCES/: Marketing Assainissement
+        Modérateur attendu : CPCS/MEA SENEGAL 
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 8d515e8e-dc50-41e7-9760-8133fc61697d
+    -
+      entity: 2064aa69-63ad-43f1-9b01-67013648f1b7
+    -
+      entity: dd56335f-1123-450a-9c10-1391b8479bc2
+    -
+      entity: be01be8b-979f-4157-9238-4fe100392f6a
+  field_organisateurs_text:
+    -
+      value: 'Direction Assainissement/Administration'
+      format: plain_text
+  field_programme:
+    -
+      value: |
+        0	-	5	min.	Introduction/Contexte
+        5	-	10	min.	Film d'introduction
+        10	-	20	min.	Brainstorming avec la salle sur la question : Le marketing de l'assainissement : un levier pour booster l'accès à l'assainissement au Sénégal ?   
+        20	-	40	min.	Présentations (10’ chacune) 
+        UNICEF : ATPC originelle – ATPC élargie 
+        DA : Marketing de l’Assainissement : Leçons apprises des projets pilotes 
+        40	-	50	min.	Débat sur les présentation 
+        50	-	60	min.	Messages clés et conclusion
+      format: basic_html
+  field_salle:
+    -
+      entity: 3261b523-53df-4a9f-b07b-f1975ab0a25e

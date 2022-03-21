@@ -1,0 +1,151 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 22edfafe-4580-4253-99d1-48813649acb4
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    0b073729-8858-4017-8170-e60ce0ca01f1: taxonomy_term
+    e30413f9-8e70-4d55-8223-eb454165649a: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    d655d70c-a0da-4d43-b73c-4de3d5f2d494: taxonomy_term
+    7d700a5b-76a4-434b-b3a6-c3b7daa80911: taxonomy_term
+    fb8063b6-5d4d-4d1c-ba52-dedb168920c4: taxonomy_term
+    53553ac2-b901-4f6d-b9ae-1810bb4bed24: taxonomy_term
+    2aa61004-6d94-43e5-b814-041e53df1c0b: taxonomy_term
+    0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'La sécurité de l''eau en Afrique : la table ronde des maires africains pour la sécurité de l''eau'
+  created:
+    -
+      value: 1647484964
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/la-securite-de-leau-en-afrique-la-table-ronde-des-maires-africains-pour-la-securite-de-leau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'La pandémie de COVID-19 a agi comme une loupe sur les défis urgents en matière d''eau et d''assainissement en Afrique, en particulier pour les 56% de la population urbaine qui vivent dans des établissements informels et n''ont pas accès à des conditions d''hygiène correctes. Le changement climatique, l''urbanisation et la croissance démographique accentueront la pression sur les ressources en eau. Cette session a pour but d''accroître le rôle des maires et des responsables municipaux dans l''amélioration de la sécurité de l''eau en Afrique. Les participants discuteront des défis et des opportunités en matière de sécurité de l''eau en Afrique.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484964
+      guid: ''
+      hash: 9a21ee0099bf1ae48138956cdb411c71
+  field_code:
+    -
+      value: 4B2
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 0b073729-8858-4017-8170-e60ce0ca01f1
+    -
+      entity: e30413f9-8e70-4d55-8223-eb454165649a
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: d655d70c-a0da-4d43-b73c-4de3d5f2d494
+    -
+      entity: 7d700a5b-76a4-434b-b3a6-c3b7daa80911
+    -
+      entity: fb8063b6-5d4d-4d1c-ba52-dedb168920c4
+    -
+      entity: 53553ac2-b901-4f6d-b9ae-1810bb4bed24
+    -
+      entity: 2aa61004-6d94-43e5-b814-041e53df1c0b
+  field_organisateurs_text:
+    -
+      value: 'OECD Water Governance Initiative '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        African Development Bank - TBC
+        West African Development Bank - TBC
+        AFD - TBC
+        YICD - TBC
+        ICLEI Africa - TBC
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Moyens et outils'
+  field_pro:
+    -
+      value: |-
+        "Task Force Afrique de CGLU
+        Initiative "Race to resilience
+        Programme de l'OCDE sur la gouvernance de l'eau 
+        "
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "La session sera modérée par l'OCDE et CGLU Afrique et sera divisée en 2 parties : 
+
+        Partie 1. La Table ronde des Africains pour la sécurité de l'eau : une nouvelle plateforme pour atteindre la sécurité de l'eau en Afrique
+        - Remarques introductives par les dirigeants nationaux, l'OCDE et CGLUA (20 minutes)
+        - Session 1. Faire entendre la voix des maires africains (40 minutes)
+        Discussion modérée entre 5 maires. 
+        - Session 2. Soutenir la Table ronde des maires africains pour la sécurité de l'eau : une perspective multipartite (30 minutes)
+        Discussion modérée avec les partenaires soutenant la table ronde, y compris les banques de développement, les acteurs privés et les organisations internationales. 
+
+        Deuxième partie. Définir l'avenir de la Table ronde : vers une feuille de route pour la Table ronde 
+        - Session 1. Discussion de la table ronde (45 minutes)
+        Les participants seront répartis en groupes présidés par un maire désigné pour discuter de la feuille de route. 
+        - Session 2. Discussion finale en plénière : élaboration d'une feuille de route consensuelle (30 minutes).
+        Les maires désignés rapporteront les résultats de la discussion en plénière et engageront une discussion ouverte avec le public.
+        - Conclusions par l'OCDE et CGLUA (15 min)
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "-Une version finale de la feuille de route triennale de la Table ronde des maires africains pour la sécurité de l'eau, en vue du 10ème Forum mondial de l'eau. 
+        -Une boîte à outils pour répliquer le format de la Table ronde dans d'autres contextes régionaux. 
+        "
+      format: basic_html
+  field_salle:
+    -
+      entity: 0fd83f4c-6521-4aae-a0ed-b3ef827bf1ef

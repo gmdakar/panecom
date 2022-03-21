@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ca87c79-916e-4fac-9537-16bb5ad2857b
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    341f1c86-ff46-4d35-b098-451571dbcdbf: taxonomy_term
+    979c2e5b-7fa0-47f6-853b-b3131e902bc0: taxonomy_term
+    430c1039-3994-4550-98b4-775ee6024b3f: taxonomy_term
+    8a1b1825-6b48-434f-a0e6-153aae081289: taxonomy_term
+    9e447232-b6f6-4c94-b00d-6ccde79509db: taxonomy_term
+    603739db-8271-4a81-80ac-42df4efa6621: taxonomy_term
+    a7a96ad1-6cde-4974-a6ed-2db4605d0b93: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Proposition d''une approche systémique pour fournir de l''eau aux populations'
+  created:
+    -
+      value: 1647485806
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/proposition-dune-approche-systemique-pour-fournir-de-leau-aux-populations-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        En s'appuyant sur la GIRE, le groupe de travail GIRE/transversalité du Conseil mondial de l'eau travaille sur une nouvelle vision de la gestion de l'eau dans le but d'avoir un impact sur la réalisation des ODD, d'identifier les obstacles à la mise à l'échelle et de fournir une vision systémique et des orientations claires en vue d'une répartition équitable de l'eau entre les besoins sectoriels par le biais d'un dialogue et de discussions sur les compromis avec les parties prenantes (communautés locales, secteurs public et privé, universités et organes directeurs, etc.) L'exploration des liens entre l'eau, l'énergie, l'alimentation, la santé et l'éducation contribuera à la réalisation de synergies entre ces secteurs. La vision inclura la prise en compte des sources alternatives (recyclage, traitement, réutilisation), l'efficacité de l'utilisation de l'eau, la gouvernance de l'eau et les eaux transfrontalières. Les objectifs de la session sont les suivants 
+        1.	Présenter une vision préliminaire Approche systémique pour fournir de l'eau aux populations
+        2.	Solliciter les réactions de la communauté de l'eau au sujet de cette vision. 
+        Les résultats de la session seront consignés dans une vision actualisée de la distribution de l'eau aux populations.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485806
+      guid: ''
+      hash: ee162a38c5ff298c0c0920c28883f171
+  field_code:
+    -
+      value: HLP16
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: 341f1c86-ff46-4d35-b098-451571dbcdbf
+  field_mot_s_cle_s_:
+    -
+      entity: 979c2e5b-7fa0-47f6-853b-b3131e902bc0
+    -
+      entity: 430c1039-3994-4550-98b4-775ee6024b3f
+    -
+      entity: 8a1b1825-6b48-434f-a0e6-153aae081289
+    -
+      entity: 9e447232-b6f6-4c94-b00d-6ccde79509db
+    -
+      entity: 8a1b1825-6b48-434f-a0e6-153aae081289
+    -
+      entity: 603739db-8271-4a81-80ac-42df4efa6621
+  field_organisateurs_text:
+    -
+      value: 'Texas A&M University'
+      format: basic_html
+  field_programme:
+    -
+      value: |-
+        Aperçu de la session / introduction : (5 min) co-organisateurs
+        Interventions des panélistes (7 min chacune, 4-6 panélistes) 
+        Discussion modérée (30 min) 
+      format: plain_text
+  field_salle:
+    -
+      entity: a7a96ad1-6cde-4974-a6ed-2db4605d0b93

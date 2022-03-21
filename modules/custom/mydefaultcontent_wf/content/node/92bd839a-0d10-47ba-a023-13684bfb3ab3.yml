@@ -1,0 +1,137 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 92bd839a-0d10-47ba-a023-13684bfb3ab3
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    c56c102f-8ab0-47b1-938c-33521517f1bb: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    d014791d-c85c-4b99-ae31-36daa109d3ee: taxonomy_term
+    9597ceb5-8a03-4185-b9c5-625e75244654: taxonomy_term
+    b2f8ac76-dc2f-4d8e-ac6b-6f2f92b9a44f: taxonomy_term
+    1dbabd0a-33db-4c31-8422-3a87d9f2b026: taxonomy_term
+    23e5ee28-0a9e-4314-8a44-4573cc339cec: taxonomy_term
+    bcc9e825-0e4c-4361-9e26-aa33206c6145: taxonomy_term
+    51d1bbc2-7a66-48de-b6ff-86c57de04337: taxonomy_term
+    386f180e-85af-4584-bc77-880ff8337d81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Strengthening the enabling environment for safely managed sanitation in Africa'
+  created:
+    -
+      value: 1647484828
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/strengthening-enabling-environment-safely-managed-sanitation-africa
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Action Idea #3 has been divided into three projects: (1) Strengthening the enabling policy environment for safely managed sanitation; (2) Promote wide adoption of sanitation as a utility service and (3) Demonstration of emerging commercial to advance sanitation. Achieving sustainable sanitation requires combined efforts from multiple partners. Sessions under this action idea shall convene government stakeholders, regulators, private sector, and civil society actors. Government and regulators will be guided to embrace inclusive sanitation as a utility service through the showcasing of how advances in inclusive sanitation technology and commercial opportunities from CWIS pilots materialize sanitation policies. Participating decision makers, private sector, civil society organizations actors and communities will understand how inclusive sanitation policies contribute to the creation of a well-regulated environment for safely managed sanitation. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484828
+      guid: ''
+      hash: bf52a47e0a81ace132392d05f9cc878c
+  field_code:
+    -
+      value: 1A3
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: c56c102f-8ab0-47b1-938c-33521517f1bb
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: d014791d-c85c-4b99-ae31-36daa109d3ee
+    -
+      entity: 9597ceb5-8a03-4185-b9c5-625e75244654
+    -
+      entity: b2f8ac76-dc2f-4d8e-ac6b-6f2f92b9a44f
+    -
+      entity: 1dbabd0a-33db-4c31-8422-3a87d9f2b026
+    -
+      entity: 23e5ee28-0a9e-4314-8a44-4573cc339cec
+    -
+      entity: bcc9e825-0e4c-4361-9e26-aa33206c6145
+    -
+      entity: 51d1bbc2-7a66-48de-b6ff-86c57de04337
+  field_organisateurs_text:
+    -
+      value: 'AMCOW, Speak Up Africa & Bill and Melinda Gates Foundation'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'UNICEF, WHO, APHRC, Delvic, FSM Alliance, Senegalese Standards Association, CRANE Engineering, Sen Engineering, USAID WASHFIN, Pan African Sanitation Actors Association, AfWASA, ONAS'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |
+        ?	(1) Strengthening the enabling policy environment for safely managed sanitation
+        ?	(2) Promote wide adoption of sanitation as a utility service
+        ?	(3) Technological innovations a solution to advance sanitation
+      format: plain_text
+  field_programme:
+    -
+      value: 'A panel discussion moderated by the African Ministers’ Council on Water (AMCOW) convening Sanitation Ministers/focal points and/or institutional stakeholders to share information, best practices and past experiences insanitation policy making. Also convened in this discussion will private sector and utility representatives to highlight the contribution of technologies.'
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        o	Successful models of policy adoption of the ASPG highlighted
+        o	Commitments from governments, donors, and TA partners announced in support of sanitaiton policy development. 
+        o	Key areas of collaboration by sector stakeholders (development partners and countries) Specified. 
+        o	Innovative solutions enhance and transform existing sanitation solutions.
+        o	Innovators, manufacturers, and entrepreneurs of the non-sewered sanitation industry support country leaders and investors in the improvement of the fecal sludge management value chain.
+        o	Closed door negotiations result in commercial partnerships between country leaders, investors and other business stakeholders.
+        o	The role of utilities in providing sanitation and water services is recognized.
+        o	Clear institutional arrangements and stakeholder coordination are implemented.
+      format: basic_html
+  field_salle:
+    -
+      entity: 386f180e-85af-4584-bc77-880ff8337d81

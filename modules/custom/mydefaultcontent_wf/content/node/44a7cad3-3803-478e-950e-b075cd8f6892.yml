@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 44a7cad3-3803-478e-950e-b075cd8f6892
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    695d57dd-1071-431b-ac94-cb2b2de69120: taxonomy_term
+    b42a3432-470b-4e7f-b25e-5cdb834c8a64: taxonomy_term
+    4be42c23-8db0-48de-b7ae-f76dcb096855: taxonomy_term
+    9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    cd2f9ec4-62c2-4fb2-8afa-2016c85fdedb: taxonomy_term
+    9cd83e75-5124-4e77-8d2f-d1ee54666628: taxonomy_term
+    9d3c7bea-c0f6-437b-8901-13a8048c612e: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    5b52c878-f9d9-496f-9d67-b8052bf340ee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financing innovation'
+  created:
+    -
+      value: 1647484855
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financing-innovation
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Financing innovation: novel means and tools, technical and non-technical solutions to leverage knowledge, education, science and innovation required for solving water challenges'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484855
+      guid: ''
+      hash: 9021c260643ae445a96c7733465a088d
+  field_code:
+    -
+      value: '4E2'
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 695d57dd-1071-431b-ac94-cb2b2de69120
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 4be42c23-8db0-48de-b7ae-f76dcb096855
+    -
+      entity: b42a3432-470b-4e7f-b25e-5cdb834c8a64
+    -
+      entity: 9d0d5bcb-c152-41ed-a8dd-303c8fb79a6c
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: cd2f9ec4-62c2-4fb2-8afa-2016c85fdedb
+    -
+      entity: 9cd83e75-5124-4e77-8d2f-d1ee54666628
+    -
+      entity: 9d3c7bea-c0f6-437b-8901-13a8048c612e
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+  field_organisateurs_text:
+    -
+      value: |
+        ANR 
+        Water JPI Secretariat 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'European Commission, Société Nationale des Eaux du Sénégal (SONES), UNESCO, Young Water Solutions'
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |-
+        * New means for funding and connecting the R&I programmes results to society (European Commission)
+        * Identify modalities of such RDI funding cooperation and interested parties which could join forces (ANR)
+        * Benchmarking existing funding programmes including the Senegal Initiative Blue Fund (SONES)
+        * Investment initiatives and scaling mechanisms for innovative technologies in Africa’s water sector (UNESCO East Africa)
+        * Fostering innovation through water and sanitation entrepreneurship (Young Water Solutions)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        First Block (45 minutes):
+        - European Commission - The new Framework Programme and its novelties (e.g., the missions)
+        - ANR (France) - Bilateral and multilateral mechanisms for funding research and innovations
+        - SONES (Senegal) - Benchmarking existing funding programmes including the Senegal Initiative Blue Fund
+        - UNESCO - Water Funds in Southern Africa: approaches to pay for upstream water source protection in UNESCOs Biosphere Reserves
+        - Young Water Solutions - Fostering innovation through water and sanitation entrepreneurship
+
+        Second Block (45 minutes): Panel discussion around two discussions
+        - The current barriers (briefly)
+        - Possible existing solutions for creating critical mass funding for investing in innovative approaches and solutions and overcoming some of the key known barriers
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'During the discussions, it is expected to (i) identify effective ways to sustainably finance the best experiences, (ii) optimise the existing resources and (iii) involve users, water and sanitation agencies and decision makers from different levels of governance while guiding the possible mechanisms and financing instruments aimed at compiling and disseminating existing and dispersed information, how to transform it into applicable products, processes and methodologies, and how to make them accessible to society. In order to implement actions, new funding models (Foundations, Networking - JPIs, Private Sectors, Seed Money) should be considered, involving partnerships between the different spheres of governments and private initiatives, making possible decisions that include the various sectors of society.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 5b52c878-f9d9-496f-9d67-b8052bf340ee

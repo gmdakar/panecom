@@ -1,0 +1,140 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da3f4e9d-5e3a-4bf3-b0b6-2e4d726ea213
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    32af89df-8bf6-468d-beb2-e375a4374800: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    cdf6f85f-e372-4350-9f5e-0b48d4f8879d: taxonomy_term
+    0f97b6ef-15dc-4b5e-83c2-45c3307405a9: taxonomy_term
+    ce60234a-a093-4079-968f-e728c4bd2c40: taxonomy_term
+    57ab97b8-7ca1-470a-85cb-e763798aee2a: taxonomy_term
+    7207a516-fa37-418c-84ac-d00420547211: taxonomy_term
+    b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Balancing concrete infrastructures and Nature- based Solutions to improve resilience: when green & grey make blue!'
+  created:
+    -
+      value: 1647484832
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/balancing-concrete-infrastructures-and-nature-based-solutions-improve-resilience-when-green
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Climate change primarily affects water with unpredictable rainfall patterns, aquatic ecosystems degradation, altered river flows, sea level rise-induced salinization of coastal groundwater, more frequent and intense floods and droughts. Water-related disasters represent about 90% of all natural disasters.
+
+        To address these challenges, our societies need to make the most of existing solutions, including by combining classic concrete infrastructures and nature-based solutions.
+
+        In order to avoid maladaptation, there is a need to seek, in a taylor-made fashion for  each hydrographic basin and in each city, the right balance between green and grey infrastructures!
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484832
+      guid: ''
+      hash: 1778d0f45193e5201620ac6be0fc8642
+  field_code:
+    -
+      value: 1F1
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 32af89df-8bf6-468d-beb2-e375a4374800
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: cdf6f85f-e372-4350-9f5e-0b48d4f8879d
+    -
+      entity: 0f97b6ef-15dc-4b5e-83c2-45c3307405a9
+    -
+      entity: ce60234a-a093-4079-968f-e728c4bd2c40
+    -
+      entity: 57ab97b8-7ca1-470a-85cb-e763798aee2a
+    -
+      entity: 7207a516-fa37-418c-84ac-d00420547211
+  field_organisateurs_text:
+    -
+      value: |
+        International Network of Basin Organizations (INBO)
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        •	IWHR:
+
+        •	ICOLD
+        •	OFB
+        •	CDC
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: |-
+        - Project of the French Biodiversity Office (OFB) “ARTISAN: Achieving Resiliency by Triggering Implementation of nature-based Solutions for climate Adaptation at a National scale”.
+        '- Projects of the Volta Basin Authority (GIC: "Flood and Drought Management in the Volta Basin (GIC), & ReWARD "Inversion of Ecosystem and Water Degradation in the Volta Basin"
+        '- Project of CDC Biodiversité “Nature 2050: French national action program that aims at adapting French territories to climate change and preserving/restoring biodiversity by 2050 through the implementation of NBS”
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        From 8 to 10 min max. for each presentation.
+        At least 15 min for questions & answers. 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Pursuit and extension of the number of initiatives implemented to boost capacity building and training in international cooperation programs:
+        - Project of the French Biodiversity Office (OFB) “ARTISAN: Achieving Resiliency by Triggering Implementation of nature-based Solutions for climate Adaptation at a National scale”.
+        - Projects of the Volta Basin Authority (GIC: "Flood and Drought Management in the Volta Basin (GIC), & ReWARD "Inversion of Ecosystem and Water Degradation in the Volta Basin"
+        - Project of CDC Biodiversité “Nature 2050: French national action programme that aims at adapting French territories to climate change and preserving/restoring biodiversity by 2050 through the implementation of NBS”.
+      format: basic_html
+  field_salle:
+    -
+      entity: b3cb9d1a-18ad-4ec3-8f27-9f208ff8797d

@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 87f29756-8742-4de4-bc82-862843ee0f15
+  bundle: programme
+  default_langcode: en
+  depends:
+    f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    49a53508-e3eb-4838-9026-55814dc822b7: taxonomy_term
+    18e9a132-0885-49f3-8f58-40690b7c7fe5: taxonomy_term
+    d4b93124-f2d0-464d-a5ed-0a48d25f1734: taxonomy_term
+    8f37baeb-bfb0-47f0-ad95-f1c185e8f8df: taxonomy_term
+    1bcdbe18-3988-4697-b19b-a1e9584b2079: taxonomy_term
+    3205ba5f-aa1a-4dbb-9a44-6ff3934860fe: taxonomy_term
+    160aaf2f-3cac-416f-9985-2082b21a67d3: taxonomy_term
+    6ca5cd3c-e042-4ddf-b355-e4ea56aafa14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monitoring and management of cyanobacterial blooms in African water bodies'
+  created:
+    -
+      value: 1647486045
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/monitoring-and-management-cyanobacterial-blooms-african-water-bodies
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Cyanobacteria blooms resulting from the degradation of water quality (eutrophication) in lakes and reservoirs constitute a danger to human health and impact multiple water uses, including drinking water production. In northern countries, which have been confronted with these proliferations for more than 40 years, monitoring of these microorganisms has been set up and actions have been undertaken to (i) limit the dangers for human populations and (ii) fight against these phenomena. In sub-Saharan Africa, this issue is still largely ignored by managers and users of water bodies. Based on the results of an international research program (WaSAf) that focused on three African water bodies used to supply large cities (Abidjan, Dakar and Kampala), the proposed side event will aim to stimulate dialogue and exchanges between scientists, managers and decision-makers on the causes and consequences of cyanobacteria blooms and on the monitoring and management of these phenomena. It will be based on two round tables that will be introduced by short presentations made by the researchers involved in Wasaf, before giving the floor to the audience. The first panel will focus on the vulnerability of water bodies to cyanobacterial blooms and the implementation of cyanobacterial monitoring programs, and the second will focus on the management of cyanobacterial hazards and the control of cyanobacterial blooms. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: f0fc963c-ccd6-4f5a-bf56-2f5c853e7e54
+      imported: 1647486045
+      guid: ''
+      hash: 850401330f3c49c119f276e6e93045cb
+  field_code:
+    -
+      value: SE17
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Speakers: Cécile Bernard (MNHN Paris, France), Catherine Quiblier (University of Paris, France), Youssoupha Tall (IRD Senegal), Mark Olokotum (Nafirri, Uganda), Moderators: Marc Trousselier (CNRS Montpellier) & JF Humbert (INRAE, France)'
+      format: plain_text
+  field_horaire:
+    -
+      entity: 49a53508-e3eb-4838-9026-55814dc822b7
+  field_legende:
+    -
+      entity: 18e9a132-0885-49f3-8f58-40690b7c7fe5
+  field_mot_s_cle_s_:
+    -
+      entity: d4b93124-f2d0-464d-a5ed-0a48d25f1734
+    -
+      entity: 8f37baeb-bfb0-47f0-ad95-f1c185e8f8df
+    -
+      entity: 1bcdbe18-3988-4697-b19b-a1e9584b2079
+    -
+      entity: 3205ba5f-aa1a-4dbb-9a44-6ff3934860fe
+    -
+      entity: 160aaf2f-3cac-416f-9985-2082b21a67d3
+  field_organisateurs_text:
+    -
+      value: 'INRAE (Institut de Recherche Public) avec le soutien de l''AFD'
+      format: basic_html
+  field_programme:
+    -
+      value: 'Two 30-minute round tables. In each round table, two introductory presentations of 5 min each followed by 20 min of discussion.'
+      format: plain_text
+  field_salle:
+    -
+      entity: 6ca5cd3c-e042-4ddf-b355-e4ea56aafa14

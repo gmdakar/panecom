@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b225f39-519f-4912-b207-eff6bbfb145e
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    6fc55301-2ca6-4bd0-bd92-d24911778a17: taxonomy_term
+    905d330c-57d5-4f8a-b417-51ad770d38db: taxonomy_term
+    3ca5e31f-7d96-4634-bf71-78aa29b85432: taxonomy_term
+    3a13c5b0-a890-4b39-b6d3-b209ebd1fdaf: taxonomy_term
+    bb38b62b-2eb4-4e01-b022-d8daebd0f5e2: taxonomy_term
+    97c907de-1022-4b12-86ef-a03cb76dc8a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Outcomes of the Global Water Policy Report 2021: Listening to National Water Leaders'
+  created:
+    -
+      value: 1647493833
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/outcomes-global-water-policy-report-2021-listening-national-water-leaders-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        A panel of Ministers will discuss the outcomes of the Global Water Policy Report 2021 and its relevance to their work, topics for the 2023 report (to be announced at this event) and how to maximise participation and value in the next Water Leaders Survey.  The session will also include a brief overview of the report findings and a presentation by a senior United Nations official on how the report will support implementation of the SDG 6 Global Acceleration Framework.
+
+        The Global Water Policy Report 2021 is a world-first comprehensive survey revealing the water management challenges of Ministers, top officials and other national water leaders in 88 countries, representing a combined population of over 6 billion people.
+        Among their many messages, national water leaders are saying:
+        •	The highest water-related risks their countries face are from climate change and associated pressures on water supplies and worsening floods and droughts.
+        •	The greatest challenges many face are with integration and prioritisation of water issues within governments. Administrative problems of fragmented water institutions are of as much, if not greater, concern than factors such as public resistance to reforms.
+        •	COVID-19 has not much affected the priority of water and sanitation services.
+        •	Sustainable Development Goals on water are ‘challenging’ or ‘impossible’ for many, with governance problems and lack of financing the main reasons for this.
+        •	While groundwater is considered by many national water leaders to be essential to their country’s future water supply, far fewer consider their groundwater is being used sustainably.
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493833
+      guid: ''
+      hash: 9096632239813818e5938be0da3a3804
+  field_code:
+    -
+      value: HLP14
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 6fc55301-2ca6-4bd0-bd92-d24911778a17
+    -
+      entity: 905d330c-57d5-4f8a-b417-51ad770d38db
+    -
+      entity: 3ca5e31f-7d96-4634-bf71-78aa29b85432
+    -
+      entity: 3a13c5b0-a890-4b39-b6d3-b209ebd1fdaf
+    -
+      entity: bb38b62b-2eb4-4e01-b022-d8daebd0f5e2
+  field_organisateurs_text:
+    -
+      value: 'Water Policy Group'
+      format: basic_html
+  field_programme:
+    -
+      value: '30 minutes keynotes. 30 minutes panel. 30 minutes audience engagement. '
+      format: plain_text
+  field_salle:
+    -
+      entity: 97c907de-1022-4b12-86ef-a03cb76dc8a1

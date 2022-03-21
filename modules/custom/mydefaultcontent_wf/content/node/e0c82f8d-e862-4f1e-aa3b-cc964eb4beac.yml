@@ -1,0 +1,126 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e0c82f8d-e862-4f1e-aa3b-cc964eb4beac
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    876d99d6-a4cd-47e4-b216-237d50cb5b85: taxonomy_term
+    3476dd19-75cd-43cc-a82e-15c4d811fb98: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    9cdc11d9-e9f3-46e6-833f-c7425e423ef3: taxonomy_term
+    5d1aec2e-4aca-4d35-90b9-657de6840205: taxonomy_term
+    c4914969-0f1d-4d7e-9ba2-f03f2659885f: taxonomy_term
+    67aee449-f23f-4b09-b1ef-e06c7472eabe: taxonomy_term
+    60e31f35-8e06-45f4-b0d7-5ceeef7491e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Building systemic resilience to future outbreaks – the role of hygiene'
+  created:
+    -
+      value: 1647484829
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/building-systemic-resilience-future-outbreaks-role-hygiene
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'See below'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484829
+      guid: ''
+      hash: 8d0923319dbd3452a64d0b8d9a9e182d
+  field_code:
+    -
+      value: 1C1
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 876d99d6-a4cd-47e4-b216-237d50cb5b85
+  field_horaire:
+    -
+      entity: 3476dd19-75cd-43cc-a82e-15c4d811fb98
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 9cdc11d9-e9f3-46e6-833f-c7425e423ef3
+    -
+      entity: 5d1aec2e-4aca-4d35-90b9-657de6840205
+    -
+      entity: c4914969-0f1d-4d7e-9ba2-f03f2659885f
+    -
+      entity: 67aee449-f23f-4b09-b1ef-e06c7472eabe
+  field_organisateurs_text:
+    -
+      value: 'WHO, UNICEF'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: 'WaterAid, LSHTM '
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Water Security and Sanitation'
+  field_pro:
+    -
+      value: 'HH4A, WASH ‘Em, GTFCC Cholera Control Roadmap, GOARN/Global RCCE network?'
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        1.	Opening remarks – Maria Neira, WHO 
+        2.	Presentation on key messages and calls to action made in the WHO and UNICEF’s State of the World’s Hand Hygiene report – Kelly-Ann Naylor, UNICEF  
+        3.	Panel of 3-5 government and civil society representatives to showcase examples of the five key ‘accelerators’ identified in the report and underpinning the UN-Water SDG 6 Global Acceleration Framework. Panellists will be prompted by a Chair to provide 5-minute interventions sharing their experiences of improving governance, financing, capacity, data and information or innovation to improve hand hygiene:
+        a.	On GOVERNANCE - Deputy Director of Environmental Health for South Africa (TBC). Describing how the country’s national handwashing policy, developed in 2015, clearly spelt out the roles of government institutions in promoting handwashing and providing services, and was instrumental in enabling the country to seamlessly mount a large-scale COVID-19 response effort.
+        b.	On FINANCE - Gov of Ethiopia representative. Describing recent efforts to develop a costed country roadmap for hand hygiene and plans for financing it 
+        c.	On CAPACITY – WASH ‘Em/COVID-19 Hygiene Hub representation – describing capacity needs of the service users, how these were met during the pandemic and what lessons we can learn for future outbreak response
+        d.	On … - GTFCC representation. Speaking on the experience of implementing GTFCC roadmap in countries. 
+        e.	On INNOVATION – Gov of Indonesia representative. Describing Indonesia’s COVID-19 innovative monitoring system, developed by the government with support from UNICEF, tracked compliance with the national “3M” mandate to wear masks, socially distance and practice hand hygiene in schools, shopping centres, mosques and transport stations. The system was remarkable in its scale. Initially led by the Office of the President, it engaged the army, CSOs and celebrities, and was administered by volunteers, trained via WhatsApp, using smartphones to collect data. Rather than being paid, volunteers were rewarded with mobile phone credit. The system provided a trustworthy source of data, based on structured observation, rather than less accurate self-reporting.
+        4.	Guided plenary discussion 
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: 'This session is one in a series of sessions over 2020-2022 that have sought to shine a spotlight on the critical role of hand hygiene in outbreak prevention and control, and as a cornerstone of public health more broadly. By sharing country experiences and lessons the desired outcome is a stimulating discussion on opportunities and challenges ahead. These will feed into the May 2022 Hygiene Summit in Singapore, where donors in particular will be mobilized, but also into the WHO-led process to strengthen the normative framework for hand hygiene through new Guidelines on hand hygiene in the community setting.'
+      format: basic_html
+  field_salle:
+    -
+      entity: 60e31f35-8e06-45f4-b0d7-5ceeef7491e2

@@ -1,0 +1,154 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c182fcf5-ae1c-4c29-9e4e-00a1dc2ec43f
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    2620a0a1-a90e-45bb-a729-6c9b456416be: taxonomy_term
+    8af8cc94-2ec3-4258-92bb-92465a1f3bc0: taxonomy_term
+    0e812585-e62b-4074-9f3c-f4221d45bb07: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    2fb138e4-7ff8-4358-85a2-6f4c28e23521: taxonomy_term
+    b41b80f9-fa71-4465-9b2b-0ba7f9686fd5: taxonomy_term
+    b1d095f2-7ab7-4b20-96f6-498dc6019222: taxonomy_term
+    6399e6f0-7e39-4f30-9b10-2396632b5f9a: taxonomy_term
+    7ea009de-e4b3-4025-8fa3-e26ebbc943fb: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Options technologiques pour le développement durable des ressources en eau'
+  created:
+    -
+      value: 1647484944
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/options-technologiques-pour-le-developpement-durable-des-ressources-en-eau
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Avant la mise en œuvre des projets d'approvisionnement en eau potable, il convient de prendre en compte la disponibilité de la ressource en eau pour répondre à la demande, ainsi que les risques associés aux options technologiques, en mettant l'accent sur différents défis (les contraintes hydrogéologiques, le nombre croissant de sources de pollution, les changements climatiques, etc...). 
+        Des connaissances et des outils sont en cours de construction pour assurer non seulement des services continus d'eau potable, mais aussi la durabilité environnementale. 
+        Au cours de la session 2A3, différents acteurs partageront leurs connaissances, expériences et technologies liées au développement durable des ressources en eau, en particulier pour les zones rurales. 
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484944
+      guid: ''
+      hash: aa58f22d74dce8b5605fe9950fc47404
+  field_code:
+    -
+      value: 2A3
+  field_date:
+    -
+      entity: 2620a0a1-a90e-45bb-a729-6c9b456416be
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8af8cc94-2ec3-4258-92bb-92465a1f3bc0
+  field_horaire:
+    -
+      entity: 0e812585-e62b-4074-9f3c-f4221d45bb07
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 2fb138e4-7ff8-4358-85a2-6f4c28e23521
+    -
+      entity: b41b80f9-fa71-4465-9b2b-0ba7f9686fd5
+    -
+      entity: b1d095f2-7ab7-4b20-96f6-498dc6019222
+    -
+      entity: 6399e6f0-7e39-4f30-9b10-2396632b5f9a
+    -
+      entity: 7ea009de-e4b3-4025-8fa3-e26ebbc943fb
+  field_organisateurs_text:
+    -
+      value: |-
+        1.	Earth Science Center
+        2.	Secours Islamique France
+        3.	E.T.E. Trade Organization
+        4.	University or research institute
+        5.	WATALUX SA
+        6.	IRD Youth Club 
+        7.	SENDAS AC (member of FANMex)
+        8.	SOTRAD WATER
+        9.	Damaris Omufwoko
+
+        Session Coordinators : 
+        Pacôme AHOKPOSSI 
+        Sylvain Migan 
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        1.	Palestinian Water Authority
+        2.	Eurosafety Group
+        3.	SENDAS AC (member of FANMex)
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'L''eau pour le développement rural'
+  field_pro:
+    -
+      value: |-
+        Projet 1 - Fourniture de stations de filtration d'eau aux communautés qui ont accès à des sources d'eau contaminées (Earth Science Center)
+        Projet 2 - Améliorer les ressources en eau par le traitement des eaux grises pour l'agriculture et l'usage domestique (Secours Islamique France)
+        Projet 3 - Izio : un projet qui vise à fournir un accès à une eau de bonne qualité dans les zones rurales grâce à l'utilisation de l'énergie solaire. (IZIO : Ndeye Fatou)
+        Projet 4 -Production d'eau potable à partir de l'humidité de l'air grâce à des technologies innovantes (ONEE)
+        Projet 5 - Fourniture d'installations de chloration de l'eau à la communauté souffrant de sources d'eau contaminées (IZIO : Ndeye Fatou)
+        Projet 6 - études scientifiques des lycéens et étudiants sur le développement durable de l'eau (Clubs Jeunes IRD)
+        Projet 7- Fourniture de stations de chloration de l'eau à la communauté qui souffre de sources d'eau contaminées. (WATALUX)
+        Projet 8 - Conservation des bassins versants pour la disponibilité de l'eau au Mexique (SENDAS AC (membre de FANMex))
+        Projet 9 - Mise en place d'unités de pompage et d'abreuvement en Afrique : Cas de la Côte d'Ivoire et de la RDC (SOTRAD WATER)
+        Projet 10 - Amélioration de la capacité des citoyens à mener des actions de plaidoyer et de lobbying basées sur des preuves pour des services durables dans le secteur de l'eau (Damaris Omufwoko)
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "Présentation + réponses aux questions : 60 minutes
+        Discussion en groupe : 30 minutes
+        "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        "- partager des initiatives, des connaissances et des outils pour relever les défis liés au développement des ressources en eau.
+        - Des liens de suivi avec des événements et des initiatives après le Forum seront communiqués lors des différentes présentations."
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

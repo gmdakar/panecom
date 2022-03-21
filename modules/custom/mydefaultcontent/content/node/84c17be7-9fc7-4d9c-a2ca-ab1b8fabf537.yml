@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 84c17be7-9fc7-4d9c-a2ca-ab1b8fabf537
+  bundle: programme
+  default_langcode: fr
+  depends:
+    590abb12-cc22-44f2-a5b4-1d78f716a332: feeds_feed
+    9ba642ac-c8da-46c8-b7c5-e2c02f27323f: taxonomy_term
+    750ca47e-d528-485d-96b0-9216771e9c63: taxonomy_term
+    e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0: taxonomy_term
+    e287e7b9-50d5-4937-be8f-5f4e8f08d414: taxonomy_term
+    9e6772db-e8b2-4763-8137-a26774bf4f6b: taxonomy_term
+    4278a268-4157-46cc-8d59-84dae858c9aa: taxonomy_term
+    cb909e97-8eeb-4e92-aead-eaa431869fda: taxonomy_term
+    c063493f-f353-4d4e-9d3b-30b001fb90ee: taxonomy_term
+    d2098f56-b69b-4edd-b18d-61dcb4df2a9e: taxonomy_term
+    1789f978-53bb-43e0-b5d9-e231969e1ea2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Équilibrer les infrastructures en béton et les solutions basées sur la nature pour améliorer la résilience : quand le vert et le gris font du bleu !'
+  created:
+    -
+      value: 1647484941
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/equilibrer-les-infrastructures-en-beton-et-les-solutions-basees-sur-la-nature-pour-ameliorer
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        Le changement climatique affecte principalement l'eau avec des régimes de précipitations imprévisibles, la dégradation des écosystèmes aquatiques, la modification du débit des rivières, la salinisation des eaux souterraines côtières induite par l'élévation du niveau de la mer, des inondations et des sécheresses plus fréquentes et plus intenses. Les catastrophes liées à l'eau représentent environ 90 % de toutes les catastrophes naturelles.
+
+        Pour relever ces défis, nos sociétés doivent tirer le meilleur parti des solutions existantes, notamment en combinant des infrastructures classiques en béton et des solutions fondées sur la nature.
+
+        Afin d'éviter les inadaptations, il faut rechercher, de manière taylorisée pour chaque bassin hydrographique et dans chaque ville, le bon équilibre entre infrastructures vertes et grises !
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 590abb12-cc22-44f2-a5b4-1d78f716a332
+      imported: 1647484941
+      guid: ''
+      hash: 89599a2749e54f13d110ba0f31622aee
+  field_code:
+    -
+      value: 1F1
+  field_date:
+    -
+      entity: 9ba642ac-c8da-46c8-b7c5-e2c02f27323f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 750ca47e-d528-485d-96b0-9216771e9c63
+  field_horaire:
+    -
+      entity: e82703cd-6d3b-4a56-bc1a-3552cdc5f3c0
+  field_legende:
+    -
+      entity: e287e7b9-50d5-4937-be8f-5f4e8f08d414
+  field_mot_s_cle_s_:
+    -
+      entity: 9e6772db-e8b2-4763-8137-a26774bf4f6b
+    -
+      entity: 4278a268-4157-46cc-8d59-84dae858c9aa
+    -
+      entity: cb909e97-8eeb-4e92-aead-eaa431869fda
+    -
+      entity: c063493f-f353-4d4e-9d3b-30b001fb90ee
+    -
+      entity: d2098f56-b69b-4edd-b18d-61dcb4df2a9e
+  field_organisateurs_text:
+    -
+      value: |
+        International Network of Basin Organizations (INBO)
+        Edouard Boinet
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |-
+        •	IWHR:
+
+        •	ICOLD
+        •	OFB
+        •	CDC
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Sécurité de l''eau et assainissement'
+  field_pro:
+    -
+      value: |-
+        - Projet de l'Office Français de la Biodiversité (OFB) "ARTISAN : Atteindre la résilience en déclenchant la mise en œuvre de solutions naturelles pour l'adaptation au climat à l'échelle nationale".
+        Projets de l'Autorité du Bassin de la Volta (GIC) : "Gestion des inondations et de la sécheresse dans le bassin de la Volta (GIC), & ReWARD "Inversion de l'écosystème et dégradation de l'eau dans le bassin de la Volta".
+        Projet de CDC Biodiversité "Nature 2050" : Programme d'action national français qui vise l'adaptation des territoires français au changement climatique et la préservation/restauration de la biodiversité à l'horizon 2050 par la mise en œuvre de NBS".
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        "De 8 à 10 min max. pour chaque présentation.
+        Au moins 15 min pour les questions et réponses. "
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |-
+        Poursuite et extension du nombre d'initiatives mises en œuvre pour dynamiser le renforcement des capacités et la formation dans les programmes de coopération internationale :
+        - Projet de l'Office Français de la Biodiversité (OFB) " ARTISAN : Atteindre la résilience en déclenchant la mise en œuvre de solutions fondées sur la nature pour l'adaptation au climat à l'échelle nationale ".
+        - Projets de l'Autorité du Bassin de la Volta (GIC : "Gestion des inondations et de la sécheresse dans le bassin de la Volta (GIC), & ReWARD "Inversion de l'écosystème et dégradation de l'eau dans le bassin de la Volta".
+        - Projet de CDC Biodiversité "Nature 2050 : Programme d'action national français qui vise à adapter les territoires français au changement climatique et à préserver/restaurer la biodiversité à l'horizon 2050 par la mise en œuvre de NBS".
+      format: basic_html
+  field_salle:
+    -
+      entity: 1789f978-53bb-43e0-b5d9-e231969e1ea2

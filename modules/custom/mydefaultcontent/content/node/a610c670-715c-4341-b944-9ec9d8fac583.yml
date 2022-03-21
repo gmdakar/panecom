@@ -1,0 +1,131 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a610c670-715c-4341-b944-9ec9d8fac583
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    8968d637-dbd1-4d20-9724-4ff6c91b332f: taxonomy_term
+    24f4f925-49da-41b2-973e-ef743e7978d3: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    1ac3c560-9e6d-4c2f-bd29-8df6d0328e0b: taxonomy_term
+    724a579d-d631-4f7b-8a7e-be5f99103544: taxonomy_term
+    2286f1d6-1d67-49b3-aaf0-9c081883680f: taxonomy_term
+    47414c52-3c26-4698-a7f4-a2dd8bf93204: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Promote the development of allocation keys to share the investment burden, as well as the multiple benefits expected from multipurpose dams'
+  created:
+    -
+      value: 1647484845
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/promote-development-allocation-keys-share-investment-burden-well-multiple-benefits-expected
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The objective is to share recommendations to maximize the economic benefits of multipurpose dams (generation, navigation and consumption) and present different financing options according to each project. '
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484845
+      guid: ''
+      hash: 8e2309335c11d78a70236882d28fe681
+  field_code:
+    -
+      value: 3D2
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 8968d637-dbd1-4d20-9724-4ff6c91b332f
+    -
+      entity: 24f4f925-49da-41b2-973e-ef743e7978d3
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 1ac3c560-9e6d-4c2f-bd29-8df6d0328e0b
+    -
+      entity: 724a579d-d631-4f7b-8a7e-be5f99103544
+    -
+      entity: 2286f1d6-1d67-49b3-aaf0-9c081883680f
+  field_organisateurs_text:
+    -
+      value: 'ORGANISATION POUR LA MISE EN VALEUR DU FLEUVE SENEGAL (OMVS) '
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: |
+        •	to be confirmed GEF (Global Environmental Facility), 
+        •	World Bank, 
+        •	Danube
+        •	ITAIPU
+        •	International Hydroelectric Association (IHA))
+      format: basic_html
+  field_priority_text:
+    -
+      value: Cooperation
+  field_pro:
+    -
+      value: |-
+        -	Sustainable business models for the financing, operation and maintenance of multipurpose dams. Circular economy appliance to water infrastructure
+        '-	Model for the distribution of costs and charges for common works of the OMVS
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        •	1 Keynote speaker - 15 minutes
+        •	3 Speakers - 15 minutes each
+        •	Panel discussion led by a session moderator – 25 minutes
+        •	2 to 5 minutes session conclusion
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        -	Identify the key arrangements to consider when planning or operating a transboundary multipurpose dam. 
+        -	Share the successful experiences of models used in a context of common works with sharing of benefits
+        -	Raise recommendations to the IX World Water Forum  to maximize the multiple benefits of multipurpose dams with a sustainability approach.
+      format: basic_html
+  field_salle:
+    -
+      entity: 47414c52-3c26-4698-a7f4-a2dd8bf93204

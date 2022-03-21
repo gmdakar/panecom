@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 827c5a3e-33e0-4cfe-9a67-800ead6dc427
+  bundle: programme
+  default_langcode: en
+  depends:
+    e88741c2-2ddf-4334-97ea-055113d9a4bc: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0: taxonomy_term
+    17ba3d97-24bb-4e3a-b324-8737ae81bf68: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    9608ecaa-63e7-41ee-bdbc-cf1e2076f271: taxonomy_term
+    685b4ab1-a223-44b6-b6b7-4770f8fcb7f9: taxonomy_term
+    7d85b74c-5f4a-4b07-910f-b8df671d0ab0: taxonomy_term
+    d1c91e7b-4950-470e-bf48-6b637d292cd5: taxonomy_term
+    1f8ad20e-57b6-4282-b697-7e3b00f0dac5: taxonomy_term
+    f4825d5c-038a-4dcc-98f4-33e8a63229fd: taxonomy_term
+    60cecb30-15fc-48bb-8551-7d2c2cae0418: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Water Governance as a means to an end: measuring the impacts of Water Governance'
+  created:
+    -
+      value: 1647484852
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/water-governance-means-end-measuring-impacts-water-governance
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'According to the OECD Principles on Water Governance, effective, efficient and inclusive water governance is key to guarantee enhanced water security and better access to safe drinking water and sanitation services. As “one cannot improve what cannot be measured” measuring the economic, social and environmental impacts of water governance, would provide evidence on tangible results to governments, citizens, businesses and services. The session will discuss existing tools, methodologies and guidelines to measure the impacts of water governance.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: e88741c2-2ddf-4334-97ea-055113d9a4bc
+      imported: 1647484852
+      guid: ''
+      hash: 5dd5831990bc8ca56c0a02b47dc0e171
+  field_code:
+    -
+      value: 4B1
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_groupes_d_actions:
+    -
+      entity: 630f6e7c-eeb6-4369-8d90-1a3dc9eea1b0
+    -
+      entity: 17ba3d97-24bb-4e3a-b324-8737ae81bf68
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 9608ecaa-63e7-41ee-bdbc-cf1e2076f271
+  field_mot_s_cle_s_:
+    -
+      entity: 685b4ab1-a223-44b6-b6b7-4770f8fcb7f9
+    -
+      entity: 7d85b74c-5f4a-4b07-910f-b8df671d0ab0
+    -
+      entity: d1c91e7b-4950-470e-bf48-6b637d292cd5
+    -
+      entity: 1f8ad20e-57b6-4282-b697-7e3b00f0dac5
+    -
+      entity: f4825d5c-038a-4dcc-98f4-33e8a63229fd
+  field_organisateurs_text:
+    -
+      value: 'OECD Water Governance Initiative'
+      format: basic_html
+  field_other_organizers_text:
+    -
+      value: IWRA
+      format: basic_html
+  field_priority_text:
+    -
+      value: 'Means and Tools'
+  field_pro:
+    -
+      value: |
+        OECD Water Governance Initiative
+        OECD Principles on Water Governance
+      format: plain_text
+  field_programme:
+    -
+      value: |-
+        The session will be moderated by the OECD and divided in 2 parts : 
+
+        •	Keynote speech (10 mn)
+
+        •	Part 1. Measuring the impacts of good water governance – What for? (30 minutes)
+        National government representative 
+        Local  government representative 
+        International organisations (e.g. OECD, WB, WRI)
+        Q&A session (10mn)
+
+        •	Part 2. Measuring the impacts of good water governance – How? (30 minutes)
+        Academics and practitioners contributing to the Special Issue of Water International (20 mn)
+        Q&A (10mn)
+      format: plain_text
+  field_resultats_attendus_impacts:
+    -
+      value: |
+        •	An OECD policy paper on impact indicators relying on the review of existing literature on impact indicators
+        •	Key outcomes of the session to be produced after the Forum.  
+        •	Connections with Universities will be built to pursue the international research on impact indicators. 
+      format: basic_html
+  field_salle:
+    -
+      entity: 60cecb30-15fc-48bb-8551-7d2c2cae0418

@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7adb71a4-d3b7-4405-9c4c-23ccdec34b72
+  bundle: programme
+  default_langcode: fr
+  depends:
+    102081f6-d0d5-4429-a66d-e084d3bbd91b: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    6448d744-1370-4a3d-ac43-b4eed4816a74: taxonomy_term
+    b7c0d186-1ea9-4d3a-bc69-0af92b8fde96: taxonomy_term
+    6eabd673-b1eb-475c-9507-c5c951880c53: taxonomy_term
+    75900384-d06c-4570-9e18-c58b24a47dd8: taxonomy_term
+    76428f43-c804-4114-8b90-7dbf7a73c574: taxonomy_term
+    cbae612d-3726-4646-bdd5-08724ecf35d9: taxonomy_term
+    2f05cf91-41cb-4ed4-b10a-986d346b0fcc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'A quels moments les déchets et l’Eau préservent ensemble l’environnement ?'
+  created:
+    -
+      value: 1647486187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: '/agenda/quels-moments-les-dechets-et-leau-preservent-ensemble-lenvironnement-?'
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |
+        La consommation responsable, les micropolluants présents en mer et dans les eaux usées, les pollutions plastiques, l’encombrement des réseaux d’assainissement, les perspectives de co-traitement : autant de problèmes et de solutions qui démontrent combien la gestion de l’eau et celle des déchets ont partie liée. 
+        La complicité entre ces deux services essentiels que les ODD 6, 11, 12 et 17 permettent de mettre en scène dans les mégapoles et ailleurs mérite d’être racontée par les acteurs et les experts.
+      format: plain_text
+      summary: ''
+  feeds_item:
+    -
+      entity: 102081f6-d0d5-4429-a66d-e084d3bbd91b
+      imported: 1647486187
+      guid: ''
+      hash: 22f62d01d2e180bf675ab2ffb6e27a04
+  field_code:
+    -
+      value: SE12
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '60'''
+  field_expected_speakers:
+    -
+      value: 'Pierre Hirtzberger Président de l''ASTEE + Siaap '
+      format: plain_text
+  field_horaire:
+    -
+      entity: 6448d744-1370-4a3d-ac43-b4eed4816a74
+  field_legende:
+    -
+      entity: b7c0d186-1ea9-4d3a-bc69-0af92b8fde96
+  field_mot_s_cle_s_:
+    -
+      entity: 6eabd673-b1eb-475c-9507-c5c951880c53
+    -
+      entity: 75900384-d06c-4570-9e18-c58b24a47dd8
+    -
+      entity: 76428f43-c804-4114-8b90-7dbf7a73c574
+    -
+      entity: cbae612d-3726-4646-bdd5-08724ecf35d9
+  field_organisateurs_text:
+    -
+      value: 'Syctom Agence métropolitaine de gestion des déchets www.syctom-paris.fr '
+      format: plain_text
+  field_programme:
+    -
+      value: TBD
+      format: basic_html
+  field_salle:
+    -
+      entity: 2f05cf91-41cb-4ed4-b10a-986d346b0fcc

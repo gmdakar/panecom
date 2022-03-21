@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2caaa65e-3593-494e-8337-3e58384e1515
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    25ee286e-5544-412b-b634-6af9add10bdf: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    92532515-a4f2-491e-a807-01ff32695032: taxonomy_term
+    f6042e1c-d89d-47bd-8128-095426df8866: taxonomy_term
+    ff7ce230-98ac-4e88-b194-ddb3b1449845: taxonomy_term
+    682bbab0-6058-47e2-a066-4ed4f5b87366: taxonomy_term
+    dca43343-7b41-453a-9434-a46b05424881: taxonomy_term
+    1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Improving water governance: from knowledge to action'
+  created:
+    -
+      value: 1647493841
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/improving-water-governance-knowledge-action-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |-
+        The session aims to explore innovative ways of generating and sharing practical knowledge on integrated water resource management (IWRM) among a wide range of stakeholders across sectors and scales. It will highlight concrete water and climate solutions brought by different groups that have proven to be sustainable in the countries and sectors where they were implemented (e.g., in food security, social inclusion, transboundary cooperation, etc.). In an interactive way, it will dissect some of those cases to allow the participants to reach conclusions and recommendations jointly. 
+
+        The session will also mark the global launch of the GWP Toolbox: IWRM Action Hub which apart from offering the world’s most comprehensive selection of knowledge resources on IWRM (90 Tools, 250 case studies and 2,500 resources), will also serve as a connecting hub for water professionals who will be able to connect and exchange in the Communities of Practice hosted in the ActionHub. The participants will have the opportunity to enhance their knowledge through practical tips and hands-on activities though our various Communities.  
+
+        GWP and WMO will also jointly launch a new challenge/contest for innovative Knowledge to Action (K2A) solutions contributing to climate adaptation and mitigation, which will be directly submitted and featured on the IWRM ActionHub. Rather than focusing on technological and scientific approaches, these solutions should clearly highlight how they are fostering systemic change for becoming more water and climate secure.  
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493841
+      guid: ''
+      hash: 569c23fa7b85c02b5f779d6dbf5cee18
+  field_code:
+    -
+      value: SS14
+  field_date:
+    -
+      entity: 25ee286e-5544-412b-b634-6af9add10bdf
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: 92532515-a4f2-491e-a807-01ff32695032
+    -
+      entity: f6042e1c-d89d-47bd-8128-095426df8866
+    -
+      entity: ff7ce230-98ac-4e88-b194-ddb3b1449845
+    -
+      entity: 682bbab0-6058-47e2-a066-4ed4f5b87366
+    -
+      entity: dca43343-7b41-453a-9434-a46b05424881
+  field_organisateurs_text:
+    -
+      value: 'Global Water Partnership'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        Part 1: From knowledge to action 
+        Presentations of creative initiatives and innovative solutions – 15 min (5 pitches x 3 min each) 
+        Fishbowl discussion with presenters – 15 min 
+
+        Part 2: Why Communities of Practice? 
+        Experience sharing and practical exercise: IWRM Action Hub Communities of Practice – 20 min (4 communities of practice X 5 min each)  
+        What makes a good Community of Practice: Reflections – 10 min 
+
+        Part 3: Contest launch 
+        Setting the scene – 5 min 
+        Co-creation exercise with participants: identifying priority areas for the contest using the Action Framework of the 9th World Water Forum– 20 min 
+        Official launch of the innovative Knowledge to Action (K2A) contest– 5 min 
+      format: plain_text
+  field_salle:
+    -
+      entity: 1fe29fb8-b5a2-4c6c-bbb2-a451e08f264f

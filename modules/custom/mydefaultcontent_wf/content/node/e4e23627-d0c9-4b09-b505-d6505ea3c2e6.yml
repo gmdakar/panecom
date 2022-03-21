@@ -1,0 +1,138 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e4e23627-d0c9-4b09-b505-d6505ea3c2e6
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    c75d384a-b20c-46bc-a98b-23f51c012d0f: taxonomy_term
+    0b4b4441-abc2-4f4a-934c-f9211c6453e8: taxonomy_term
+    137df867-e12f-4c3f-be1e-ed01641ee2f5: taxonomy_term
+    3a13c5b0-a890-4b39-b6d3-b209ebd1fdaf: taxonomy_term
+    da5e514e-24b4-49b6-8b7f-120eae5e837c: taxonomy_term
+    2c6c3546-8b5d-4ee9-b5ce-39077d76ea69: taxonomy_term
+    4104ede9-0281-423a-a359-4d61de929fbb: taxonomy_term
+    160aaf2f-3cac-416f-9985-2082b21a67d3: taxonomy_term
+    419ecda9-9ab7-4c12-94c9-7316f0a29cc0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Making the invisible visible: groundwater a response for resilience and sustainability'
+  created:
+    -
+      value: 1647493830
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/making-invisible-visible-groundwater-response-resilience-and-sustainability-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'The High-Level Panel (HLP) is intended to be a follow up event after the plenary session of the celebration of the UN-World Water Day 2022 organized by UNESCO and UN-WATER about the topic of the UNWWDay  Groundwater: Making the invisible visible. The HLP panel will allow to organize a larger and in-depth debate about the UN Development Report 2022 that is presented the 21st of March at the opening with the participation of high-level countries representatives and high-level experts.  The HLP is meant to discuss how groundwater can be a response to water security challenges. Special attention will be paid to the implementation of SDG6 Global Acceleration Framework. The main findings of the HLP will be considered at the UN-Water Groundwater Summit to be organized 7-8 December 2022 at UNESCO HQs and a mean to support a focus on groundwater during the 2023 UN Water conference. The HLP will give special focus on investments in Groundwater in Africa and SIDS and examine how groundwater offers a potential pathway to sustain human activities and ecosystems health, with a particular focus on Africa and SIDS.  Africa, the youngest continent, needs more than other special attention to groundwater, to ensure water security for future generations.  There are 72 transboundary aquifers in Africa, that represent a potential for socio-economic development of the region.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493830
+      guid: ''
+      hash: 4c7e8fe7caeafaa1ef07befff6d3b653
+  field_code:
+    -
+      value: HLP01
+  field_date:
+    -
+      entity: c75d384a-b20c-46bc-a98b-23f51c012d0f
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 0b4b4441-abc2-4f4a-934c-f9211c6453e8
+  field_legende:
+    -
+      entity: 137df867-e12f-4c3f-be1e-ed01641ee2f5
+  field_mot_s_cle_s_:
+    -
+      entity: 3a13c5b0-a890-4b39-b6d3-b209ebd1fdaf
+    -
+      entity: da5e514e-24b4-49b6-8b7f-120eae5e837c
+    -
+      entity: 2c6c3546-8b5d-4ee9-b5ce-39077d76ea69
+    -
+      entity: 4104ede9-0281-423a-a359-4d61de929fbb
+    -
+      entity: 160aaf2f-3cac-416f-9985-2082b21a67d3
+  field_organisateurs_text:
+    -
+      value: 'UNESCO Intergovernmental Hydrological Programme (UNESCO-IHP)'
+      format: basic_html
+  field_programme:
+    -
+      value: |+
+        This HLP is a follow up of the Plenary Session of the Celebration of the UN World Water Day. Invited high-level representatives of countries and experts will deliver statements, maker presentations and debate in a panel modality. 
+
+        Moderator: Ms Alice Aureli, UNESCO 
+        5’-Chair: Mr Nabil Ben Khatra, Executive Secretary, Sahara and Sahel Observatory (OSS)
+
+         High Level Statements
+        •	5’ Mr.  Jean Paul Adam, Director Climate Change, Natural Resource Management and Technology, United Nations Economic Commission for Africa
+        •	5’ Mr Sekou Sangare, Commissioner, Economic Community of West African States 
+         
+        Presentations (15') 
+        The Groundwater ECOWAS MAP. A successful example of scientific cooperation: A new tool to make visible groundwater management. 
+        - Mr Alexis Gutierrez, French Geological Survey (BRGM), Mr Stefan Broda, Federal Institute for Geosciences and Natural Resources, Germany (BGR), Ms Brighid O Dochartaigh, British Geological Survey (BGS)
+        - Ms Jodie Miller International Atomic Energy Agency (IAEA)
+
+        5’ Statement: Ms Eugénie Avram, Ministère de l'Europe et des Affaires étrangères of France
+         
+        Presentations 
+        •	5’ Ms Sonja Koppel, Secretary Water Convention, United Nations Economic Commission for Europe (UNECE) and Mr Aurélien Dumont, Project Officer, Intergovernmental Hydrological Programme (UNESCO IHP). Transboundary aquifers Cooperation – the main findings of the SDG 6 indicator 6.5.2.  
+        •	5’  Ms Karen Villholth, Coordinator GRIPP   (IWMI), Transboundary aquifers 
+        5’ Statement: H.E. Shawn Richards - Minister of Public Infrastructure and Urban Development at Government of St. Kitts and Nevis - Groundwater in Small Islands (Video)
+
+        Experts Panel   
+        Moderators: Ms Neno Kukuric (IGRAC) and Ms Michela Miletto (UNESCO WWAP)
+
+        Panellists:  (35’)
+        1.	Ms Concepcion Marcuello, Ministry of the Ecological Transition of Spain 
+        2.	Mr Gerard Payen, Vice President, French Water Partnership  (FWE)
+        3.	Ms Dominique Darmendrail, Programme Director Water (BRGM)
+        4.	Mr Eddy Moors, Rector, IHE Delft Institute for Water Education, Netherlands
+        5.	World Bank??
+        6.	Mr Abdelkader Dodo, Coordinator Water Department, (OSS)
+        7.	Ms Maria Salvetti, Economist and Water Policy Analyst, (OECD)  
+
+        Closing remarks
+        Youth participation/Young professional
+        Ms Alice Aureli, UNESCO IHP 
+
+      format: plain_text
+  field_salle:
+    -
+      entity: 419ecda9-9ab7-4c12-94c9-7316f0a29cc0

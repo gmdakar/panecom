@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6542d151-8592-48c6-9499-5d50b22ae4d1
+  bundle: programme
+  default_langcode: en
+  depends:
+    1cd93e1b-2c24-4ca2-8962-50d6e4779b45: feeds_feed
+    b2227cdf-3116-4bca-aadf-97bde3333e40: taxonomy_term
+    0d2921c8-1b7e-4982-95c2-74dcb5f9cffd: taxonomy_term
+    8cbe4ab6-f0af-4abd-94ec-cd39cab291a4: taxonomy_term
+    f2e2b4f1-f1b5-4853-a020-67250332d4ee: taxonomy_term
+    c75faddd-f717-4510-81b1-874bbb957eec: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Financing NbS: how to make bankable business cases for NbS in coastal resilience with public- private partnerships'
+  created:
+    -
+      value: 1647493839
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/financing-nbs-how-make-bankable-business-cases-nbs-coastal-resilience-public-private-0
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'This event will guide you through innovative financing approaches for NbS in developing countries and provide practical guidelines to develop business models for NbS projects based on the market study commissioned by Team International Organisations.'
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 1cd93e1b-2c24-4ca2-8962-50d6e4779b45
+      imported: 1647493839
+      guid: ''
+      hash: f1ae31ad1f2b7650d1d34e1bae41cc0e
+  field_code:
+    -
+      value: SS06
+  field_date:
+    -
+      entity: b2227cdf-3116-4bca-aadf-97bde3333e40
+  field_duree:
+    -
+      value: '60'''
+  field_horaire:
+    -
+      entity: 0d2921c8-1b7e-4982-95c2-74dcb5f9cffd
+  field_legende:
+    -
+      entity: 8cbe4ab6-f0af-4abd-94ec-cd39cab291a4
+  field_mot_s_cle_s_:
+    -
+      entity: f2e2b4f1-f1b5-4853-a020-67250332d4ee
+  field_organisateurs_text:
+    -
+      value: RVO
+      format: basic_html
+  field_programme:
+    -
+      value: '30 min presentation market study on innovative financing mechanisms for NbS project in coastal resilience and 30 min panel discussion '
+      format: plain_text
+  field_salle:
+    -
+      entity: c75faddd-f717-4510-81b1-874bbb957eec

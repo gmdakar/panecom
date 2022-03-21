@@ -1,0 +1,128 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f99bef8-1a78-416f-b786-4c0ad050dc40
+  bundle: programme
+  default_langcode: fr
+  depends:
+    600851c4-13db-4fd1-b129-906e61c39038: feeds_feed
+    a86518bc-3799-4e4c-9ecd-fdc48c187325: taxonomy_term
+    62aa3637-61b5-4025-8ea4-7b64f5f46007: taxonomy_term
+    adc3a378-5a85-4383-a697-5c3325fc0fd2: taxonomy_term
+    84d5b20d-c6a9-4149-89fa-b90857d969a1: taxonomy_term
+    0a81aeaa-62ee-4059-b6bb-97a622b012b2: taxonomy_term
+    58c6ae08-a91a-491f-9e81-f7b8ba7b4cfe: taxonomy_term
+    79aeeb29-af61-46f3-8438-0cff2434167b: taxonomy_term
+    abbbc471-3ecb-4bec-9c1c-6be439ee6482: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Voix du Fleuve, Voie de la Paix'
+  created:
+    -
+      value: 1647485816
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /agenda/voix-du-fleuve-voie-de-la-paix-0
+      langcode: fr
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: |+
+        Contexte 
+        Dans le cadre du 9ème Forum mondial de l’Eau à Dakar en mars 2022, l’OMVS et ses partenaires présentent «?Voix du fleuve, voie de la paix?». Ayant pour but d’engager un dialogue entre les grands axes de développement du bassin du Fleuve Sénégal, les dynamiques sociétales et les entrepreneuriats locaux liés à l’eau, ce projet concevra des solutions innovantes en rassemblant populations locales et sa jeunesse, artistes, personnalités, experts et l’organisme de bassin. Il portera par là une réflexion sur la consultation des populations locales, la création d’emplois locaux et du rôle que l’OMVS pourra endosser pour le renforcement de la paix dans le bassin avec la mise en place d’un Fonds bleu pour le soutien à l’entrepreneuriat local et l’emploi. L’artiste de renommée internationale Baaba Maal, parrain du projet, s’engagera pour animer le dialogue avec les populations locales.  
+
+        Le projet comprend plusieurs volets, y compris le Festival à Sahel Ouvert ; la production d’un album avec Baaba Maal, Daara J Family, Noumoucounda, Fatoumata Diawara, Noura Mint Seymali, et Sékou Kouyaté ; des échanges communautaires, le développement d’un concept de fonds bleu; et un concours pour mobiliser et engager la jeunesse. Toutes les activités et œuvres produites dans le cadre du projet serviront à porter un plaidoyer des populations locales au 9ème Forum mondial de l’eau à Dakar afin que les voix locales soient mieux considérées dans les instances décisionnelles. 
+
+        Objectifs 
+        •	Restituer au FME les résultats du dialogue porté par le projet « Voix du fleuve, Voie de la paix » et les solutions créées grâce au projet.
+        •	Interagir avec les participants du FME afin d’échanger et susciter des partenariats sur le concept d’un Fonds bleu pour l’emploi et l’entrepreneuriat social à l’OMVS et autres solutions identifiées par le projet
+
+      format: basic_html
+      summary: ''
+  feeds_item:
+    -
+      entity: 600851c4-13db-4fd1-b129-906e61c39038
+      imported: 1647485816
+      guid: ''
+      hash: 5a9dce0a08fa8623a66dff4c0e14a1d2
+  field_code:
+    -
+      value: SS49
+  field_date:
+    -
+      entity: a86518bc-3799-4e4c-9ecd-fdc48c187325
+  field_duree:
+    -
+      value: '90'''
+  field_horaire:
+    -
+      entity: 62aa3637-61b5-4025-8ea4-7b64f5f46007
+  field_legende:
+    -
+      entity: adc3a378-5a85-4383-a697-5c3325fc0fd2
+  field_mot_s_cle_s_:
+    -
+      entity: 84d5b20d-c6a9-4149-89fa-b90857d969a1
+    -
+      entity: 0a81aeaa-62ee-4059-b6bb-97a622b012b2
+    -
+      entity: 58c6ae08-a91a-491f-9e81-f7b8ba7b4cfe
+    -
+      entity: 79aeeb29-af61-46f3-8438-0cff2434167b
+  field_organisateurs_text:
+    -
+      value: 'Geneva Water Hub'
+      format: basic_html
+  field_programme:
+    -
+      value: |
+        •	Mot d’introduction de Baaba Maal, parrain de l’initiative - 5'
+
+        -       Intervention d'un représentant du Secrétariat exécutif du 9e Forum Mondial de l'Eau - 5'
+
+        •	Introduction à l’initiative par un représentant du Geneva Water Hub - 5'
+
+
+        •	Panel de présentation composé de :
+        ?	Baaba Maal
+        ?	Deux jeunes représentants du bassin
+        ?	Des représentants de l’OMVS
+        ?	Un-e expert-e du Pôle Eau Dakar
+        ?	Un-e expert-e de IPAR
+
+        o	Partie 1 : constats et réflexion sur mise la mise en valeur du fleuve pour les emplois, la résilience des populations et le renforcement de la paix dans le bassin -20'
+
+        o	Partie 2 :  Le rôle de l’OMVS pour le développement local et la création d’un fonds de soutien pour l’entrepreneuriat local et l’emploi dans le bassin -20'
+
+        o	Partie 3 : Echanges avec les participants - 20'
+
+        •	Mote de conclusion par le Haut-Commissaire de l'OMVS -5'
+      format: plain_text
+  field_salle:
+    -
+      entity: abbbc471-3ecb-4bec-9c1c-6be439ee6482
