@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 57387e76-b97e-4b2a-9aff-09a0fcd2f262
+  bundle: languages_supported
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: rejang
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr

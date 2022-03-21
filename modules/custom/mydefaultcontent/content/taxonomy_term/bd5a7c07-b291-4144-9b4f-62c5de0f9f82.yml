@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bd5a7c07-b291-4144-9b4f-62c5de0f9f82
+  bundle: languages_supported
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: hanunoo
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
