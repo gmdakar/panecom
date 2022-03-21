@@ -1,9 +1,6 @@
-uuid: 1f5c2b19-0fb9-4b4e-96a8-ef877ae9723a
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: _hceF2FU-cW_IhsB2zVkKT-QO32QmEayRhEcbAQwGbk
 id: blb_col_1
 label: 'Bootstrap 1 Col'
 number_of_columns: '1'

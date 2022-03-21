@@ -1,9 +1,6 @@
-uuid: 7051227e-f6a5-4009-83ea-f087a56a2305
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
 id: personal
 label: 'Personal contact form'
 recipients: {  }

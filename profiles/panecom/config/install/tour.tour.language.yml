@@ -1,11 +1,8 @@
-uuid: 2a03b84e-0c89-4c48-9712-7586ef6d8f47
 langcode: fr
 status: true
 dependencies:
   module:
     - language
-_core:
-  default_config_hash: Okz8QMYRGvq95nqLGYjp8gLiy93DKoMEzEVZVwEeg4M
 id: language
 label: Language
 module: language

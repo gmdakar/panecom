@@ -1,9 +1,6 @@
-uuid: b14fccea-ad5e-4da7-805f-3a867df9baf6
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: abTny1lyNxMwOlYpJ0hYhXehciFbPraDFbyyvp0_xQg
 id: blb_col_6_six_equal_columns
 layout_id: blb_col_6
 label: 'Six equal columns'

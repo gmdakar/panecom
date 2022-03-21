@@ -1,9 +1,6 @@
-uuid: 2ae970c4-9c33-45d1-9101-c2a8f3bb8712
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: GXP_ndsRgJ8boytIwrxIloF_I15fBd1WtYhdHnEbKXk
 id: blb_col_5_2_4_2_2_2
 layout_id: blb_col_5
 label: '2/12 4/12 2/12 2/12 2/12'

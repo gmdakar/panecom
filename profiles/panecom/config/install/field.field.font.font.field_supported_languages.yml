@@ -1,4 +1,3 @@
-uuid: c31cd85e-7d8c-46f8-917b-fa77d4906e92
 langcode: fr
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
     - taxonomy.vocabulary.languages_supported
   module:
     - fontyourface
-_core:
-  default_config_hash: J4-E4ka4YSO-U8k25RPslraI-MBBGx8u_lZ5MMmA6VI
 id: font.font.field_supported_languages
 field_name: field_supported_languages
 entity_type: font

@@ -1,9 +1,6 @@
-uuid: 26a301d5-db9b-43b9-9b04-693a80ec1acb
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: Ru_sLk23k0y0qP3eHlcWUNAgbWpIHOwXE3ocJgygqnM
 name: 'Languages Supported'
 vid: languages_supported
 description: 'The languages supported by the font.'

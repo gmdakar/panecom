@@ -1,9 +1,6 @@
-uuid: 4e42d247-65d8-45b1-b56b-3cc40f862dd0
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: XWhEB0wh2uZrN5btKVxQzH46OCEyEzgpGkFzL6AbLK4
 name: 'Font Foundry'
 vid: font_foundry
 description: 'Font Foundry'

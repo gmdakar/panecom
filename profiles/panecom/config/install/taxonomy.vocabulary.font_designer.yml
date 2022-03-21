@@ -1,9 +1,6 @@
-uuid: cda6e4aa-2003-4001-b2e0-59fdb87f63ee
 langcode: fr
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: pI1pC9aHpWXj-s55yPTXAPuLNFuQd1lXsgqzeQR5H88
 name: 'Font Designer'
 vid: font_designer
 description: 'Font Designer'
