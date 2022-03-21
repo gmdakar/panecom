@@ -1,0 +1,8 @@
+uuid: b9f49ee1-ea8b-4ce0-86b6-ff4c0ff34830
+langcode: fr
+status: true
+dependencies: {  }
+id: background_image_frontpage
+label: 'Background image frontpage'
+revision: 0
+description: 'Permettra de définir l''image background principale ( body) de la  page d''accueil via layout builde '

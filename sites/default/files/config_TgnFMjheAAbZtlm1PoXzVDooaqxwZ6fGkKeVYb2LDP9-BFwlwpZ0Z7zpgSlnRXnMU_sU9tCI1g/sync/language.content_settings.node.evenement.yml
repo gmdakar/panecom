@@ -1,0 +1,16 @@
+uuid: 6f186070-f757-49f7-884c-3d8527de8914
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.evenement
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.evenement
+target_entity_type_id: node
+target_bundle: evenement
+default_langcode: current_interface
+language_alterable: false

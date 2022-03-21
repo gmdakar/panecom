@@ -1,0 +1,9 @@
+label: Commentaires
+display:
+  default:
+    display_options:
+      title: Commentaires
+  page_published:
+    display_options:
+      menu:
+        title: Commentaires

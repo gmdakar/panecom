@@ -1,0 +1,14 @@
+uuid: 224ac3aa-9fad-4e3f-856a-f92662d7f616
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - testtest@panecom.pro
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
