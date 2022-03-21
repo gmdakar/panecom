@@ -22,12 +22,11 @@ sites/*/settings*.php
 sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-!sites/*/files/config_*
+!.gitignore
+!sites/default/files/config_*
+!sites/default/private/backup_migrate/
 sites/*/files
 sites/*/private
-!sites/*/files/config_*
-!sites/*/*/backup*
-!sites/default/private/backup_migrate/
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
