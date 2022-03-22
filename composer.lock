@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6b95fdcf2e111efc4ed4ffa14acc400",
+    "content-hash": "5e3350298265a7724a4c4f561b7ef643",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1700,17 +1700,17 @@
         },
         {
             "name": "drupal/fontawesome",
-            "version": "2.19.0",
+            "version": "2.21.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "8.x-2.19"
+                "reference": "8.x-2.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.19.zip",
-                "reference": "8.x-2.19",
-                "shasum": "7b921a80f0811d8dcfb0c390157506cd5724a037"
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.21.zip",
+                "reference": "8.x-2.21",
+                "shasum": "45868613f54e43c08c4afc3a60974ef73465ec35"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -1718,8 +1718,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.19",
-                    "datestamp": "1623794225",
+                    "version": "8.x-2.21",
+                    "datestamp": "1647616835",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

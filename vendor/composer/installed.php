@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9e609083e43196c1b723871ecf5ff8dad4d92181',
+        'reference' => '860020347912c8197e34394dffa5872c999ab08c',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -592,12 +592,12 @@
             ),
         ),
         'drupal/fontawesome' => array(
-            'pretty_version' => '2.19.0',
-            'version' => '2.19.0.0',
+            'pretty_version' => '2.21.0',
+            'version' => '2.21.0.0',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/fontawesome',
             'aliases' => array(),
-            'reference' => '8.x-2.19',
+            'reference' => '8.x-2.21',
             'dev_requirement' => false,
         ),
         'drupal/fontawesome_menu_icons' => array(
@@ -753,7 +753,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9e609083e43196c1b723871ecf5ff8dad4d92181',
+            'reference' => '860020347912c8197e34394dffa5872c999ab08c',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

@@ -29,6 +29,7 @@
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/default_content": "^2.0@alpha",
         "drupal/easy_breadcrumb": "^2.0",
+        "drupal/fontawesome": "^2.21",
         "drupal/fontawesome_menu_icons": "^1.9",
         "drupal/fontyourface": "^3.6",
         "drupal/galleryslider": "^3.1",
