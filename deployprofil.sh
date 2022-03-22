@@ -24,8 +24,8 @@ ls -al index.php
 echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
 rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
 
-echo "git add . && git commit -m 'new commmit' && git push"
-git add . && git commit -m "new commit" && git push
+echo "git add . --force && git commit -m 'new commmit' && git push"
+git add . --force && git commit -m "new commit" && git push
 
 echo "rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
