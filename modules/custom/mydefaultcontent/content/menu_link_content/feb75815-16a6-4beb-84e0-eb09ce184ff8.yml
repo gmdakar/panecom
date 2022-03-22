@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: efe5e47e-284d-4faf-95fd-5f509112cfa0
+  uuid: feb75815-16a6-4beb-84e0-eb09ce184ff8
   bundle: menu_link_content
   default_langcode: fr
 default:
@@ -10,7 +10,7 @@ default:
       value: true
   title:
     -
-      value: 'Nos activités'
+      value: 'A propos'
   menu_name:
     -
       value: main
@@ -18,7 +18,11 @@ default:
     -
       uri: 'internal:#'
       title: ''
-      options: {  }
+      options:
+        fa_icon: ''
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: before
   external:
     -
       value: false
@@ -27,7 +31,7 @@ default:
       value: true
   weight:
     -
-      value: -47
+      value: -48
   expanded:
     -
       value: false

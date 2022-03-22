@@ -10,7 +10,7 @@ default:
       value: true
   title:
     -
-      value: 'A propos'
+      value: Accueil
   menu_name:
     -
       value: main
