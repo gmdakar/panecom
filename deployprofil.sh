@@ -53,9 +53,9 @@ ls -al index.php
 echo "composer require drush/drush:10.x -W --no-interaction"
 composer require drush/drush:10.x -W --no-interaction
 
-echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > sites/*/*/*/*/core.extension.yml"
-sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > sites/*/*/*/*/core.extension.yml 
-
+echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv deletsites/*/*/*/*/core.extension.ymle.txt"
+sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv delete.txt sites/*/*/*/*/core.extension.yml
+ 
 echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
 drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
 
