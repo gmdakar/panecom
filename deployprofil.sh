@@ -76,8 +76,8 @@ echo "drush -y cim"
 drush  -y cim
 
 #les contenus existants 
-echo "drush -y en mydefaultcontent"
-drush -y en mydefaultcontent
+#echo "drush -y en mydefaultcontent"
+#drush -y en mydefaultcontent
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
