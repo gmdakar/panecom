@@ -153,3 +153,14 @@ $settings['skip_permissions_hardening'] = TRUE;
  * the language or field module.
  */
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+
+$databases['default']['default'] = array (
+  'database' => 'db-devpanecom',
+  'username' => 'db-devpanecom',
+  'password' => 'X38Vt@wp9(',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);

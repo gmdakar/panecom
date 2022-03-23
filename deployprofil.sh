@@ -47,6 +47,9 @@ cd panecomdistr
 echo "cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
 cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
 
+echo "rm sites/default/settings.local.php"
+rm sites/default/settings.local.php
+
 echo "ls -al index.php"
 ls -al index.php
 
