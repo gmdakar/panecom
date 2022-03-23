@@ -30,56 +30,32 @@ git add . --force && git commit -m "new commit" && git push
 echo "rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
-drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content
 
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
-echo "rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.settings.yml update.settings.yml || true ; cd ../../../../../devpanecom"
-rm -rf profiles/panecom/config/install/* && cp -r  sites/default/files/config_*/sync/*  profiles/panecom/config/install/ && cd profiles/panecom/config/install/ ; rm core.extension.yml file.settings.yml update.settings.yml || true ; cd ../../../../../devpanecom
-
-#les configs et données du module "animate_any"  ne semblent pas bien installés lors de l'installation du profil, donc on forcera plus tard un drush cim partial
-echo "mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/ && cp profiles/panecom/config/optional/google_fonts_api.settings.yml profiles/panecom/config/install/tmp/"
-mkdir -p profiles/panecom/config/install/tmp && cp profiles/panecom/config/optional/animate_any.settings.yml profiles/panecom/config/install/tmp/
-
-echo "cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom"
-cd profiles/panecom/config/install/ && find . -type f -exec sed -i -e '/^uuid: /d' {} \; && find . -type f -exec sed -i -e '/_core:/,+1d' {} \; ; cd ../../../../../devpanecom
-
-echo "rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/"
-rm -rf profiles/panecom/modules/* && cp -r modules/* profiles/panecom/modules/ && rm -rf profiles/panecom/themes/* && cp -r themes/* profiles/panecom/themes/
-
-echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* / || true && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom "
-chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* / || true && cp -r drupal-9.3.3/* panecomdistr/ && cd panecomdistr/profiles/ && ln -s ../../devpanecom/profiles/panecom/ panecom 
-
-echo "cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
-cd .. && cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
-
-#because at the end of the day we will also provide all libraries needed in the package profiled (up to the end users to put it after in the root of if project)
-echo "cp -r ../devpanecom/libraries/ profiles/panecom/"
-cp -r ../devpanecom/libraries/ profiles/panecom/
-
-echo "cp -r ../devpanecom/libraries/ ."
-cp -r ../devpanecom/libraries/ .
-
-echo "composer update --no-interaction"
-composer update --no-interaction
-
-echo "composer require drush/drush:8.x -W --no-interaction"
-composer require drush/drush:8.x -W --no-interaction
-
+echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/"
+chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ 
 
 
 ############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdsitr"  ###############################
-echo "cd ../panecomdistr"
-cd ../panecomdistr
+echo "cd panecomdistr"
+cd panecomdistr
+
+echo "cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
+cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
 
 echo "ls -al index.php"
 ls -al index.php
 
+echo "sed -i 's/standard/panecom/g' sites/*/*/*/*/core.extension.yml"
+sed -i 's/standard/panecom/g' sites/*/*/*/*/core.extension.yml
+ 
 echo "############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo 'panecomdsitr'  ###############################"
-echo "drush sql-drop --yes || true && drush -y site-install panecom --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
-drush sql-drop --yes || true && drush -y site-install panecom --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
+echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
+drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
 
 echo "drush -y config-set system.performance css.preprocess TRUE"
 drush -y config-set system.performance css.preprocess TRUE
@@ -87,13 +63,13 @@ drush -y config-set system.performance css.preprocess TRUE
 echo "drush -y config-set system.performance js.preprocess TRUE"
 drush -y config-set system.performance js.preprocess TRUE
 
-#les configs et données du module "animate_any"  ne semblent pas bien installés lors de l'installation du profil
-#donc on forcera plus tard un drush cim partial
-echo "drush -y cim --partial --source=profiles/panecom/config/install/tmp && drush cr"
-drush -y cim --partial --source=profiles/panecom/config/install/tmp && drush cr
+#car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
+echo "drush -y cim"
+drush  -y cim
 
-echo "rm -rf profiles/panecom/config/install/tmp"
-rm -rf profiles/panecom/config/install/tmp
+#les contenus existants 
+echo "drush -y en mydefaultcontent"
+drush -y en mydefaultcontent
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "

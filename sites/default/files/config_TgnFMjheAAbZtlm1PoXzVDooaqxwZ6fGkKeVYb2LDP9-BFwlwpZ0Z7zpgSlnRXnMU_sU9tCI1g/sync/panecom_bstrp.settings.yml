@@ -10,7 +10,7 @@ features:
   favicon: false
   node_user_picture: true
 logo:
-  path: profiles/panecom/themes/custom/panecom_bstrp/logo.jpg
+  path: themes/custom/panecom_bstrp/logo.jpg
   use_default: false
 bootstrap_barrio_library: production
 bootstrap_barrio_source: '0'
