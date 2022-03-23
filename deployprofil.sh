@@ -53,7 +53,7 @@ ls -al index.php
 echo "sed -i 's/standard/panecom/g' sites/*/*/*/*/core.extension.yml"
 sed -i 's/standard/panecom/g' sites/*/*/*/*/core.extension.yml
  
-echo "############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo 'panecomdsitr'  ###############################"
+echo "############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo 'panecomdistr'  ###############################"
 echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
 drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
 
