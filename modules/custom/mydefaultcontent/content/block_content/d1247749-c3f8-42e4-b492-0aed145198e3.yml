@@ -19,6 +19,6 @@ default:
       value: true
   body:
     -
-      value: "<p>Bienvenue sur <strong>Panecom</strong>!</p>\r\n\r\n<p>Créer votre propre <strong>plateforme communautaire</strong> avec la solution web <strong>Panecom</strong>, qui propose aux entreprises et associations de créer leur propre site communautaire pour rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n"
+      value: "<p>Bienvenue!</p>\r\n\r\n<p>Créer votre propre <strong>plateforme communautaire</strong> avec la solution web <strong>Panecom</strong>, qui propose aux entreprises et associations de créer leur propre site communautaire pour rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n"
       format: basic_html
       summary: ''

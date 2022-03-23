@@ -1,4 +1,0 @@
-services:
-  notifications_widget.logger:
-    class: Drupal\notifications_widget\Services\NotificationsWidgetService
-    arguments: ['@current_user', '@database', '@request_stack', '@config.factory', '@logger.factory', '@token', '@datetime.time']

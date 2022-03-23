@@ -10,7 +10,7 @@ default:
       value: true
   title:
     -
-      value: Accueil
+      value: 'A propos'
   menu_name:
     -
       value: main
@@ -18,11 +18,7 @@ default:
     -
       uri: 'internal:#'
       title: ''
-      options:
-        fa_icon: fa-home
-        fa_icon_prefix: fa
-        fa_icon_tag: span
-        fa_icon_appearance: before
+      options: {  }
   external:
     -
       value: false

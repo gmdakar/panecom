@@ -1,4 +1,0 @@
-animate_any access_animate:
-    title: 'animate_any Permission'
-    description: 'animate_any'
-    restrict access: false
