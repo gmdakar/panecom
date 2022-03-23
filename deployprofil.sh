@@ -76,8 +76,8 @@ echo "drush -y en mydefaultcontent || true"
 drush -y en mydefaultcontent || true
 
 #car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
-echo "drush -y cex ; drush -y cim"
-drush -y cex ; drush -y cim
+echo "drush -y cex ; drush -y cim ; drush cr"
+drush -y cex ; drush -y cim ; drush cr
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
