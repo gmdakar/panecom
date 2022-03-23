@@ -71,13 +71,13 @@ drush -y config-set system.performance css.preprocess TRUE
 echo "drush -y config-set system.performance js.preprocess TRUE"
 drush -y config-set system.performance js.preprocess TRUE
 
-#car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
-echo "drush -y cim"
-drush  -y cim
-
 #les contenus existants 
-#echo "drush -y en mydefaultcontent"
-#drush -y en mydefaultcontent
+echo "drush -y en mydefaultcontent || true"
+drush -y en mydefaultcontent || true
+
+#car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
+echo "drush -y cex ; drush -y cim"
+drush -y cex ; drush -y cim
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
