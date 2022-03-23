@@ -36,8 +36,8 @@ drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
-echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/"
-chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ 
+echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true"
+chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true 
 
 
 ############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdsitr"  ###############################
