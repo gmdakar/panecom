@@ -1,9 +1,4 @@
-name: 'Plateteforme communautaire from config toto'
+name: 'Plateteforme communautaire default empty profil'
 type: profile
 description: "Distribution d'une plateteforme communautaire"
 core_version_requirement: '^8.8 || ^9'
-
-# Modules to install to support the profile.
-install:
-  - mydefaultcontent
-
