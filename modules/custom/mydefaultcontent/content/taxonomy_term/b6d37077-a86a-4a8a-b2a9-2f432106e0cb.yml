@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b6d37077-a86a-4a8a-b2a9-2f432106e0cb
+  bundle: languages_supported
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: lepcha
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
