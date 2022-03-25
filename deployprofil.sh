@@ -59,7 +59,7 @@ ls -al index.php
 echo "composer require drush/drush:10.x -W --no-interaction"
 composer require drush/drush:10.x -W --no-interaction
 
-echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv deletsites/*/*/*/*/core.extension.ymle.txt"
+echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv deletsites/*/*/*/*/core.extension.yml"
 sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv delete.txt sites/*/*/*/*/core.extension.yml
  
 echo "grep -q 'mydefaultcontent' sites/*/*/*/*/core.extension.yml; [ $? -eq 0 ] && echo 'module mydefaultcontent is already activated' || sed '10 a\  mydefaultcontent: 0' sites/*/*/*/*/core.extension.yml"
