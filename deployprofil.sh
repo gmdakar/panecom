@@ -62,8 +62,8 @@ composer require drush/drush:10.x -W --no-interaction
 echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv deletsites/*/*/*/*/core.extension.ymle.txt"
 sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv delete.txt sites/*/*/*/*/core.extension.yml
  
-echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr"
-drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com && drush -y en mydefaultcontent && drush cr
+echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
+drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
 
 echo "drush -y config-set system.performance css.preprocess TRUE"
 drush -y config-set system.performance css.preprocess TRUE
@@ -72,15 +72,12 @@ echo "drush -y config-set system.performance js.preprocess TRUE"
 drush -y config-set system.performance js.preprocess TRUE
 
 #les contenus existants 
-#echo "drush -y pmu mydefaultcontent || true && drush -y en mydefaultcontent || true"
-#drush -y en mydefaultcontent || true
+echo "drush -y pmu mydefaultcontent"
+drush -y en mydefaultcontent
 
 #car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
 echo "drush -y cex ; drush -y cim ; drush cr"
 drush -y cex ; drush -y cim ; drush cr
-
-echo "drush -y en mydefaultcontent || true"
-drush -y en mydefaultcontent || true
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
