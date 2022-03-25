@@ -66,9 +66,9 @@ composer require drush/drush:10.x -W --no-interaction
 echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt"
 sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt
  
-echo "grep -q 'mydefaultcontent' delete.txt; [ $? -eq 0 ] && echo 'module mydefaultcontent is already activated' || sed '10 a\  mydefaultcontent: 0'  delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml"
-echo "if the module mydefaultcontent is not yet activated, we will do it here automatically to actually take it account for the config at the end"
-grep -q "mydefaultcontent" delete.txt; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0'  delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml
+echo "grep -q 'mydefaultcontent' delete.txt; [ $? -eq 0 ] && echo 'module mydefaultcontent is already activated' || sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt"
+grep -q "mydefaultcontent" delete.txt; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt
+mv delete2.txt sites/*/*/*/*/core.extension.yml
 
 echo "rm delete.txt || true"
 rm delete.txt || true
