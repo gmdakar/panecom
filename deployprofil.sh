@@ -69,7 +69,7 @@ sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt
 #grep -q "mydefaultcontent" delete.txt; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0'  delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml
 #echo "sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml"
 #sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml
-echo "#### CAUTION : the module mydefaultcontent needs to be marked activated by default all the ways ####""""
+echo "#### CAUTION : the module mydefaultcontent needs to be marked activated by default by all the ways ####"
 
 echo "rm delete.txt || true"
 rm delete.txt || true
