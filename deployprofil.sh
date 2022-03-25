@@ -21,8 +21,8 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
-#echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
-#rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
+echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
+rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
 
 echo "git add . --force && git commit -m 'new commmit' && git push"
 git add . --force && git commit -m "new commit" && git push
@@ -30,8 +30,8 @@ git add . --force && git commit -m "new commit" && git push
 echo "rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content"
-drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
 
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
@@ -62,9 +62,9 @@ composer require drush/drush:10.x -W --no-interaction
 echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv deletsites/*/*/*/*/core.extension.ymle.txt"
 sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt && mv delete.txt sites/*/*/*/*/core.extension.yml
  
-#echo "grep -q 'mydefaultcontent' sites/*/*/*/*/core.extension.yml; [ $? -eq 0 ] && echo 'module mydefaultcontent is already activated' || sed '10 a\  mydefaultcontent: 0' sites/*/*/*/*/core.extension.yml"
-#echo "if the module mydefaultcontent is not yet activated, we will do it here automatically to actually take it account for the config at the end"
-#grep -q "mydefaultcontent" sites/*/*/*/*/core.extension.yml; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0' sites/*/*/*/*/core.extension.yml
+echo "grep -q 'mydefaultcontent' sites/*/*/*/*/core.extension.yml; [ $? -eq 0 ] && echo 'module mydefaultcontent is already activated' || sed '10 a\  mydefaultcontent: 0' sites/*/*/*/*/core.extension.yml"
+echo "if the module mydefaultcontent is not yet activated, we will do it here automatically to actually take it account for the config at the end"
+grep -q "mydefaultcontent" sites/*/*/*/*/core.extension.yml; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0' sites/*/*/*/*/core.extension.yml
 
 echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
 drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
