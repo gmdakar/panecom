@@ -2,3 +2,17 @@ name: 'Plateteforme communautaire from config toto'
 type: profile
 description: "Distribution d'une plateteforme communautaire"
 core_version_requirement: '^8.8 || ^9'
+
+# Modules to install to support the profile.
+install:
+  - default_content
+  
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - node
+  - block
+  - views
+  - mydefaultcontent
+
+

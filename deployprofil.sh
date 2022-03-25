@@ -75,12 +75,7 @@ drush -y config-set system.performance js.preprocess TRUE
 echo "drush -y cex ; drush cr"
 drush -y cex ; drush cr
 
-#les contenus existants 
-echo "drush -y en mydefaultcontent; drush cr"
-drush -y en mydefaultcontent; drush cr
 
-echo "drush -y cim ; drush cr"
-drush -y cim ; drush cr
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
