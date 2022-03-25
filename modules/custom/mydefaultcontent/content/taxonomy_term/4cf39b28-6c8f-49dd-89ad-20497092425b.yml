@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4cf39b28-6c8f-49dd-89ad-20497092425b
+  bundle: languages_supported
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: meetei-mayek
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
