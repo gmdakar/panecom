@@ -21,6 +21,9 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
+echo "composer require drush/drush:10.x -W --no-interaction"
+composer require drush/drush:10.x -W --no-interaction
+
 echo "git add . --force && git commit -m 'new commmit' && git push"
 git add . --force && git commit -m "new commit" && git push
 

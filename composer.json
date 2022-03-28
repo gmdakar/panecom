@@ -46,7 +46,8 @@
         "drupal/restui": "^1.20",
         "drupal/superfish": "^1.4",
         "drupal/taxonomy_manager": "^2.0",
-        "drupal/webp": "^1.0@beta"
+        "drupal/webp": "^1.0@beta",
+        "drush/drush": "10.x"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -130,8 +131,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drush/drush": "8.x"
     }
 }
