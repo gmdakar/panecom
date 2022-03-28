@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '01636b185d11dd3d34721ffd4d28106ab22c30df',
+        'reference' => 'b49aefbd8dfc13358ceb72822f7d82b9c723597b',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -281,6 +281,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/content_sync' => array(
+            'pretty_version' => '3.0.0-beta1',
+            'version' => '3.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/content_sync',
+            'aliases' => array(),
+            'reference' => '3.0.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/content_translation' => array(
             'dev_requirement' => false,
@@ -753,7 +762,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '01636b185d11dd3d34721ffd4d28106ab22c30df',
+            'reference' => 'b49aefbd8dfc13358ceb72822f7d82b9c723597b',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
