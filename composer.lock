@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6cabeae4c02ec2f8434e1c637c90efc",
+    "content-hash": "2dd2aabd284b93979ea8625a880a84fd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2322,17 +2322,11 @@
         },
         {
             "name": "drupal/default_content",
-            "version": "2.0.0-alpha1",
+            "version": "dev-2.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/default_content.git",
-                "reference": "2.0.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha1.zip",
-                "reference": "2.0.0-alpha1",
-                "shasum": "0d534ab8e44786a352e24c7cec3dc06bef155f66"
+                "reference": "1b71f729cb3dab927df29deba5c22c1f0c14e6fd"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -2342,17 +2336,20 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-2.0.x": "2.0.x-dev"
+                },
                 "drupal": {
-                    "version": "2.0.0-alpha1",
-                    "datestamp": "1595072288",
+                    "version": "2.0.0-alpha1+3-dev",
+                    "datestamp": "1612486939",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9"
+                        "drush.services.yml": "^9 || ^10"
                     }
                 }
             },
@@ -8522,7 +8519,7 @@
     "stability-flags": {
         "drupal/bootstrap_styles": 20,
         "drupal/content_sync": 10,
-        "drupal/default_content": 15,
+        "drupal/default_content": 20,
         "drupal/native_lazy_loading": 5,
         "drupal/owlcarousel": 10,
         "drupal/webp": 10
