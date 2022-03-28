@@ -2,6 +2,7 @@
 
 namespace Drupal\content_sync\Form;
 
+use Drupal\content_sync\ContentSyncManagerInterface;
 use Drupal\Core\Archiver\ArchiveTar;
 use Drupal\content_sync\Content\ContentDatabaseStorage;
 use Drupal\Core\Entity\ContentEntityType;
@@ -57,15 +58,10 @@ trait ContentExportTrait {
     foreach ($entities as $entity) {
       $operations[] = [[$this, 'processContentExportFiles'], [[$entity], $serializer_context]];
     }
-    $title = 'Exporting content';
-    if (isset($serializer_context['export_type'])
-        && $serializer_context['export_type'] == 'snapshot') {
-      $title = 'Building Snapshot';
-    }
-    // Set Batch
+    //Set Batch
     $batch = [
       'operations' => $operations,
-      'title' => $this->t($title),
+      'title' => $this->t('Exporting content'),
       'init_message' => $this->t('Starting content export.'),
       'progress_message' => $this->t('Completed @current step of @total.'),
       'error_message' => $this->t('Content export has encountered an error.'),
@@ -161,11 +157,7 @@ trait ContentExportTrait {
                   $destination = "{$serializer_context['content_sync_directory_files']}/{$scheme}/";
                   $destination = str_replace($scheme . '://', $destination, $uri);
                   $strip_path = str_replace('/files' , '', $serializer_context['content_sync_directory_files'] );
-                  // Exception for when the file doesn't exist
-                  // TODO: add a notice/log about it.
-                  if (file_exists($destination)) {
-                    $this->getArchiver()->addModify([$destination], '', $strip_path);
-                  }
+                  $this->getArchiver()->addModify([$destination], '', $strip_path);
                 }
               }
               if( $serializer_context['export_type'] == 'folder') {
@@ -179,8 +171,7 @@ trait ContentExportTrait {
               // Invalidate the CS Cache of the entity.
               $cache = \Drupal::cache('content')->invalidate($entity_type.".".$bundle.":".$name);
 
-              if (isset($serializer_context['include_dependencies'])
-                  && $serializer_context['include_dependencies']) {
+              if($serializer_context['include_dependencies']){
                 //Include Dependencies
                 $context['exported'][$name] = $name;
                 if (!isset($context['sandbox']['dependencies'][$name])) {
@@ -273,6 +264,7 @@ trait ContentExportTrait {
         // Log the errors
         $errors = array_unique($errors);
         foreach ($errors as $error) {
+          //drupal_set_message($error, 'error');
           $this->getExportLogger()->error($error);
         }
         // Log the note that the content was exported with errors.

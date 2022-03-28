@@ -11,6 +11,7 @@ content_sync.help:
     - core/drupal
     - core/jquery
     - core/jquery.once
+    - core/jquery.ui.accordion
 
 content_sync.element.message:
   version: VERSION

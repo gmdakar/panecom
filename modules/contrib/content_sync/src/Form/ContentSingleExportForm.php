@@ -173,6 +173,8 @@ class ContentSingleExportForm extends FormBase {
 
     // Generate the YAML file.
     $serializer_context = [];
+    $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+    $entity = $entity->getTranslation($language);
     $exported_entity = $this->contentExporter->exportEntity($entity, $serializer_context);
 
     // Create the name

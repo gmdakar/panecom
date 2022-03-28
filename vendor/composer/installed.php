@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3b0a9ba636c1e4482aff5d62c1a73f10d467fad0',
+        'reference' => 'c64dfd6bce771af8629c51ed31b6ada72713ee70',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -355,14 +355,12 @@
             ),
         ),
         'drupal/content_sync' => array(
-            'pretty_version' => 'dev-3.0.x',
-            'version' => 'dev-3.0.x',
+            'pretty_version' => '3.0.0-beta1',
+            'version' => '3.0.0.0-beta1',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/content_sync',
-            'aliases' => array(
-                0 => '3.0.x-dev',
-            ),
-            'reference' => '2bfa12c22b63b35ff1affcc106ea7e2520842cb0',
+            'aliases' => array(),
+            'reference' => '3.0.0-beta1',
             'dev_requirement' => false,
         ),
         'drupal/content_translation' => array(
@@ -609,14 +607,12 @@
             ),
         ),
         'drupal/default_content' => array(
-            'pretty_version' => 'dev-2.0.x',
-            'version' => 'dev-2.0.x',
+            'pretty_version' => '2.0.0-alpha1',
+            'version' => '2.0.0.0-alpha1',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/default_content',
-            'aliases' => array(
-                0 => '2.0.x-dev',
-            ),
-            'reference' => '1b71f729cb3dab927df29deba5c22c1f0c14e6fd',
+            'aliases' => array(),
+            'reference' => '2.0.0-alpha1',
             'dev_requirement' => false,
         ),
         'drupal/dynamic_page_cache' => array(
@@ -838,7 +834,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3b0a9ba636c1e4482aff5d62c1a73f10d467fad0',
+            'reference' => 'c64dfd6bce771af8629c51ed31b6ada72713ee70',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

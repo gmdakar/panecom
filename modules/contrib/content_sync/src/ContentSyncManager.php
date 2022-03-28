@@ -67,7 +67,6 @@ class ContentSyncManager implements ContentSyncManagerInterface {
   public function generateImportQueue($file_names, $directory) {
     $queue = [];
     foreach ($file_names as $file) {
-      if ($file == 'site.uuid') continue;
       $ids = explode('.', $file);
       list($entity_type_id, $bundle, $uuid) = $ids;
       $file_path = $directory . "/" . $entity_type_id . "/" . $bundle . "/" . $file . ".yml";
@@ -80,8 +79,8 @@ class ContentSyncManager implements ContentSyncManagerInterface {
       $decoded_entities[$file] = $decoded_entity;
     }
     if (!empty($decoded_entities)) {
-      $resolver = new ImportQueueResolver($decoded_entities);
-      $queue = $resolver->resolve();
+      $resolver = new ImportQueueResolver();
+      $queue = $resolver->resolve($decoded_entities);
     }
     return $queue;
   }
@@ -95,8 +94,8 @@ class ContentSyncManager implements ContentSyncManagerInterface {
   public function generateExportQueue($decoded_entities, $visited) {
     $queue = [];
     if (!empty($decoded_entities)) {
-      $resolver = new ExportQueueResolver($decoded_entities, $visited);
-      $queue = $resolver->resolve();
+      $resolver = new ExportQueueResolver();
+      $queue = $resolver->resolve($decoded_entities, $visited);
     }
     return $queue;
   }
