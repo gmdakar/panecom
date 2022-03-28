@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2dd2aabd284b93979ea8625a880a84fd",
+    "content-hash": "9a4e2f2c1fa5ecf691b231c7eff3a26c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1647,29 +1647,26 @@
         },
         {
             "name": "drupal/content_sync",
-            "version": "3.0.0-beta1",
+            "version": "dev-3.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/content_sync.git",
-                "reference": "3.0.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/content_sync-3.0.0-beta1.zip",
-                "reference": "3.0.0-beta1",
-                "shasum": "3685d705f3371fe1b64b32b05129f72746cd5cad"
+                "reference": "2bfa12c22b63b35ff1affcc106ea7e2520842cb0"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-3.0.x": "3.0.x-dev"
+                },
                 "drupal": {
-                    "version": "3.0.0-beta1",
-                    "datestamp": "1631154042",
+                    "version": "3.0.0-beta1+21-dev",
+                    "datestamp": "1635860345",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
                 "drush": {
@@ -8518,7 +8515,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "drupal/bootstrap_styles": 20,
-        "drupal/content_sync": 10,
+        "drupal/content_sync": 20,
         "drupal/default_content": 20,
         "drupal/native_lazy_loading": 5,
         "drupal/owlcarousel": 10,
