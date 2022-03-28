@@ -69,6 +69,9 @@
                 "#123456 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/updated-deprecated-session-token-path-3180168-3.patch",
 				"#123457 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/fixed-admin-page-settings-3216022-2.patch",
 				"#123458 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-08-03/3199296-3.patch"
+            },
+			 "drupal/core": {
+				"#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch"
             }
         },
         "drupal-scaffold": {
