@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 16b4928e-4cc8-4bcb-ad97-2cac025360e0
+  uuid: 811ce2b0-b983-4f1a-9120-9ea4fa001e39
   bundle: menu_link_content
   default_langcode: fr
 default:
@@ -10,7 +10,7 @@ default:
       value: true
   title:
     -
-      value: 'A propos'
+      value: Accueil
   menu_name:
     -
       value: main
@@ -18,7 +18,11 @@ default:
     -
       uri: 'internal:#'
       title: ''
-      options: {  }
+      options:
+        fa_icon: fa-home
+        fa_icon_prefix: fa
+        fa_icon_tag: span
+        fa_icon_appearance: before
   external:
     -
       value: false
@@ -27,7 +31,7 @@ default:
       value: true
   weight:
     -
-      value: -48
+      value: -49
   expanded:
     -
       value: false
