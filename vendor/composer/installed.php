@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c72e96960bcb6da85ab139e861e21749315d0a3f',
+        'reference' => '9169f952a1c4ecf9c66c9b847baad188f9caf3a9',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -834,7 +834,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c72e96960bcb6da85ab139e861e21749315d0a3f',
+            'reference' => '9169f952a1c4ecf9c66c9b847baad188f9caf3a9',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1013,6 +1013,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/recreate_block_content' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/recreate_block_content',
+            'aliases' => array(),
+            'reference' => '8.x-2.1',
+            'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
             'dev_requirement' => false,
