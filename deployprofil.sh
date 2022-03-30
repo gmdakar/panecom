@@ -86,7 +86,7 @@ rm delete.txt || true
 #echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
 #drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
 
-#echo "drush sql-drop --yes"
+echo "drush sql-drop --yes"
 drush sql-drop --yes || true
 
 #echo "drush -y config-set system.performance css.preprocess TRUE"
