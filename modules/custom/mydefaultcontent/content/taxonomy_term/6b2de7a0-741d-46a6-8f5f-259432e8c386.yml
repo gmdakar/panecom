@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6b2de7a0-741d-46a6-8f5f-259432e8c386
+  bundle: languages_supported
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: oriya
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: fr
