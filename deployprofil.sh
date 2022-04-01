@@ -21,38 +21,26 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
-echo "rm -rf sites/default/files/config_* || true && drush cr"
-rm -rf sites/default/files/config_* || true && drush cr
+echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
+rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
 
 echo "rm -rf modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content
 
-echo "drush -y en default_content || true"
-drush -y en default_content || true
+echo "git add . --force && git commit -m 'new commmit' && git push"
+git add . --force && git commit -m "new commit" && git push
 
 echo "drush -y en mydefaultcontent || true"
 drush -y en mydefaultcontent || true
 
-echo "drush -y en structure_sync || true && drush -y ea"
-drush -y en structure_sync || true && drush -y ea
+echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
+drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush -y cex && git status"
-drush -y cex && git status
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
 
-echo "git add . --force && git commit -m 'new commmit' && git push"
-git add . --force && git commit -m "new commit" && git push
-
-echo "drush dcer node --folder=modules/custom/mydefaultcontent/content"
-drush dcer node --folder=modules/custom/mydefaultcontent/content
-
-#echo "rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
-#rm -rf modules/custom/mydefaultcontent/content && drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
-
-#echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
-#drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
-
-#echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
-#drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
+echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
+drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
 echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true"
 chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true 
@@ -100,6 +88,8 @@ rm delete.txt || true
 echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
 drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
 
+echo "drush sql-drop --yes"
+drush sql-drop --yes || true
 
 echo "drush -y config-set system.performance css.preprocess TRUE"
 drush -y config-set system.performance css.preprocess TRUE
