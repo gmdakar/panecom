@@ -1,0 +1,1731 @@
+taxonomies:
+  font_classification:
+    -
+      vid: font_classification
+      tid: '15'
+      langcode: fr
+      name: display
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 772a91c1-07de-4003-9364-e5ccb9582148
+    -
+      vid: font_classification
+      tid: '17'
+      langcode: fr
+      name: handwriting
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 063036fc-4086-453f-bc35-861d63106ebf
+    -
+      vid: font_classification
+      tid: '28'
+      langcode: fr
+      name: monospace
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3f8a3254-384a-4b30-997c-f2eccf56e826
+    -
+      vid: font_classification
+      tid: '10'
+      langcode: fr
+      name: sans-serif
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e09ccbf9-afa6-4d01-9377-b2f8b1be476f
+    -
+      vid: font_classification
+      tid: '12'
+      langcode: fr
+      name: serif
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2c045fcf-38f2-4607-b47f-07934edcaa1e
+  font_designer: {  }
+  font_foundry: {  }
+  font_tags: {  }
+  languages_supported:
+    -
+      vid: languages_supported
+      tid: '11'
+      langcode: fr
+      name: latin
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1f1fa014-3976-4dd6-bbca-abdcc3fef182
+    -
+      vid: languages_supported
+      tid: '13'
+      langcode: fr
+      name: latin-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fa10b412-1055-4548-93bf-ce3ba9c49877
+    -
+      vid: languages_supported
+      tid: '14'
+      langcode: fr
+      name: sinhala
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8442b702-cea8-409b-9fa7-d2fe3ca8a4b4
+    -
+      vid: languages_supported
+      tid: '16'
+      langcode: fr
+      name: greek
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d31dbac4-acb3-4014-80c5-783908766b7d
+    -
+      vid: languages_supported
+      tid: '18'
+      langcode: fr
+      name: kannada
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b0b6923d-b9f8-490e-a73c-6e4b90e07e81
+    -
+      vid: languages_supported
+      tid: '19'
+      langcode: fr
+      name: telugu
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fdfdc613-2bc9-492a-aef9-c6b9c4939008
+    -
+      vid: languages_supported
+      tid: '20'
+      langcode: fr
+      name: vietnamese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e15c5578-5d7f-43e6-84f6-0110444c7948
+    -
+      vid: languages_supported
+      tid: '21'
+      langcode: fr
+      name: hebrew
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 52b35b5a-8ffa-4d80-85fd-33128f1d17af
+    -
+      vid: languages_supported
+      tid: '22'
+      langcode: fr
+      name: cyrillic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f272c4f0-f4e8-4882-ac84-4c3efc3ab182
+    -
+      vid: languages_supported
+      tid: '23'
+      langcode: fr
+      name: cyrillic-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c73078d2-6772-43dd-b817-9e5715172e3f
+    -
+      vid: languages_supported
+      tid: '24'
+      langcode: fr
+      name: greek-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7fa0c11e-014b-44a2-88fc-bd66d0c35ad7
+    -
+      vid: languages_supported
+      tid: '25'
+      langcode: fr
+      name: arabic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9467cdaf-88c1-483d-aa9a-a33707e1a369
+    -
+      vid: languages_supported
+      tid: '26'
+      langcode: fr
+      name: devanagari
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 59406a59-7c57-4699-8d61-b425742ac808
+    -
+      vid: languages_supported
+      tid: '27'
+      langcode: fr
+      name: khmer
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 38acc6ce-7a0e-40ea-8d4a-db544507a4ef
+    -
+      vid: languages_supported
+      tid: '29'
+      langcode: fr
+      name: tamil
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 028f00d8-e4a5-4884-8b43-b718407c3214
+    -
+      vid: languages_supported
+      tid: '30'
+      langcode: fr
+      name: thai
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 79dc1ccb-2535-4067-82be-d33891263a51
+    -
+      vid: languages_supported
+      tid: '31'
+      langcode: fr
+      name: bengali
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7ec9e45c-3cbf-4e31-855b-b95d148a3a0b
+    -
+      vid: languages_supported
+      tid: '32'
+      langcode: fr
+      name: gujarati
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ab3587ea-04ad-4206-b52b-4397446ff222
+    -
+      vid: languages_supported
+      tid: '33'
+      langcode: fr
+      name: oriya
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6b2de7a0-741d-46a6-8f5f-259432e8c386
+    -
+      vid: languages_supported
+      tid: '34'
+      langcode: fr
+      name: malayalam
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 63303c25-7bde-42c3-9c90-965fa0f3f895
+    -
+      vid: languages_supported
+      tid: '35'
+      langcode: fr
+      name: gurmukhi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: aa1f9516-346c-4ec4-a339-345572f04c1c
+    -
+      vid: languages_supported
+      tid: '36'
+      langcode: fr
+      name: korean
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 64eafbdc-0de9-4660-82c2-ede0cf064ff6
+    -
+      vid: languages_supported
+      tid: '37'
+      langcode: fr
+      name: japanese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d803ea0c-5f98-4319-bc6a-018f33cc3877
+    -
+      vid: languages_supported
+      tid: '38'
+      langcode: fr
+      name: cherokee
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a6685f4d-7c00-4eba-b2c2-046c14a1ce93
+    -
+      vid: languages_supported
+      tid: '39'
+      langcode: fr
+      name: tibetan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0e722466-0727-4551-a1e8-9f931e043ced
+    -
+      vid: languages_supported
+      tid: '40'
+      langcode: fr
+      name: kayah-li
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4bf2569a-41f4-45bf-b198-387e55d660b9
+    -
+      vid: languages_supported
+      tid: '41'
+      langcode: fr
+      name: chinese-simplified
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8c2f2996-993a-478c-ab71-9373af3a7e40
+    -
+      vid: languages_supported
+      tid: '42'
+      langcode: fr
+      name: music
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d39c3868-4eb1-4e83-a936-398885c88702
+    -
+      vid: languages_supported
+      tid: '43'
+      langcode: fr
+      name: adlam
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 569aef25-887a-42e1-9ab6-3ed084fda5be
+    -
+      vid: languages_supported
+      tid: '44'
+      langcode: fr
+      name: anatolian-hieroglyphs
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c7a302f9-5586-43c3-924b-da2b23d7ca44
+    -
+      vid: languages_supported
+      tid: '45'
+      langcode: fr
+      name: armenian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2b3509ee-9372-4e0b-9d87-3d3ccf962204
+    -
+      vid: languages_supported
+      tid: '46'
+      langcode: fr
+      name: avestan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2bda73c3-629d-4c96-8ec1-f3871f02cd77
+    -
+      vid: languages_supported
+      tid: '47'
+      langcode: fr
+      name: balinese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7eceb9c8-e93a-4c99-a32d-37b1761657ec
+    -
+      vid: languages_supported
+      tid: '48'
+      langcode: fr
+      name: bamum
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1e0cf4d6-d5bb-4712-bbc2-df2cd9d47479
+    -
+      vid: languages_supported
+      tid: '49'
+      langcode: fr
+      name: bassa-vah
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f3ba610c-c593-406c-9b2e-01d902cbf643
+    -
+      vid: languages_supported
+      tid: '50'
+      langcode: fr
+      name: batak
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b368a285-86fe-4851-8fe5-8fa036ab1ab1
+    -
+      vid: languages_supported
+      tid: '51'
+      langcode: fr
+      name: bhaiksuki
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c53113e9-0273-4273-b8eb-46db29d3087b
+    -
+      vid: languages_supported
+      tid: '52'
+      langcode: fr
+      name: brahmi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: dc02a8b5-1c82-47ff-974e-63b4cc5ba3b2
+    -
+      vid: languages_supported
+      tid: '53'
+      langcode: fr
+      name: buginese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0b1b51f4-4ca2-4c1e-8ba8-77002dbba71f
+    -
+      vid: languages_supported
+      tid: '54'
+      langcode: fr
+      name: buhid
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 52aff129-2020-4819-ba30-8f6bc80fe128
+    -
+      vid: languages_supported
+      tid: '55'
+      langcode: fr
+      name: canadian-aboriginal
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: da935ca2-c365-4e5c-8953-aa99c9515686
+    -
+      vid: languages_supported
+      tid: '56'
+      langcode: fr
+      name: carian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3b85fde1-4bbe-4583-91cf-b7fa0b51e8ed
+    -
+      vid: languages_supported
+      tid: '57'
+      langcode: fr
+      name: caucasian-albanian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5c0e8101-c218-4d61-8be9-dda4a5eead2f
+    -
+      vid: languages_supported
+      tid: '58'
+      langcode: fr
+      name: chakma
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: af665705-ad6c-4fe9-a5a4-048b385658a7
+    -
+      vid: languages_supported
+      tid: '59'
+      langcode: fr
+      name: cham
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0af0c6e1-ce5d-4b15-82ae-1611a1f74eac
+    -
+      vid: languages_supported
+      tid: '60'
+      langcode: fr
+      name: coptic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d469f078-6a3a-4e17-a0d2-8b40284ece59
+    -
+      vid: languages_supported
+      tid: '61'
+      langcode: fr
+      name: cuneiform
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1b67d65e-7291-4d52-bed3-2bfb5a17a1a0
+    -
+      vid: languages_supported
+      tid: '62'
+      langcode: fr
+      name: cypriot
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 76be5173-eb92-4d01-8dc1-fe2947bd2ae1
+    -
+      vid: languages_supported
+      tid: '63'
+      langcode: fr
+      name: deseret
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b2436b87-087f-4af6-8f54-c765d6cec0a9
+    -
+      vid: languages_supported
+      tid: '64'
+      langcode: fr
+      name: duployan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a9b9e6f0-3677-42bc-a7aa-427e4ec29db9
+    -
+      vid: languages_supported
+      tid: '65'
+      langcode: fr
+      name: egyptian-hieroglyphs
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c0a041c9-e22f-4619-97df-7ab271850dcf
+    -
+      vid: languages_supported
+      tid: '66'
+      langcode: fr
+      name: elbasan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5078853d-7235-4b47-b981-ee0ca1f5a969
+    -
+      vid: languages_supported
+      tid: '67'
+      langcode: fr
+      name: elymaic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: aab4daa8-c467-49aa-ae88-394deec674ce
+    -
+      vid: languages_supported
+      tid: '68'
+      langcode: fr
+      name: georgian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4b9efc29-40e3-4828-a5af-dbdcadda1982
+    -
+      vid: languages_supported
+      tid: '69'
+      langcode: fr
+      name: glagolitic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9c8760a0-0ccb-42fa-a92d-dbdaffbe4c6e
+    -
+      vid: languages_supported
+      tid: '70'
+      langcode: fr
+      name: gothic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 78f4682a-6036-4c01-bd78-eff9af3c9c90
+    -
+      vid: languages_supported
+      tid: '71'
+      langcode: fr
+      name: grantha
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b9a3c2fc-dc8a-4680-8a9e-9d7971d5a518
+    -
+      vid: languages_supported
+      tid: '72'
+      langcode: fr
+      name: gunjala-gondi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3cf9b3ce-c10c-405c-919b-816fc09e5e1e
+    -
+      vid: languages_supported
+      tid: '73'
+      langcode: fr
+      name: chinese-hongkong
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 90a53b66-dd28-4ba9-949b-92ee43dcf13b
+    -
+      vid: languages_supported
+      tid: '74'
+      langcode: fr
+      name: hanifi-rohingya
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 91d71b33-461c-4f44-a7b5-cece3f4c3b96
+    -
+      vid: languages_supported
+      tid: '75'
+      langcode: fr
+      name: hanunoo
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bd5a7c07-b291-4144-9b4f-62c5de0f9f82
+    -
+      vid: languages_supported
+      tid: '76'
+      langcode: fr
+      name: hatran
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7e6bd04e-7d49-4cc4-a3c1-d2404936e7f4
+    -
+      vid: languages_supported
+      tid: '77'
+      langcode: fr
+      name: imperial-aramaic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ca36a765-169b-4074-9023-51dd2727f555
+    -
+      vid: languages_supported
+      tid: '78'
+      langcode: fr
+      name: indic-siyaq-numbers
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fb47d9d8-129d-4dc5-9fe1-5f26674a2df6
+    -
+      vid: languages_supported
+      tid: '79'
+      langcode: fr
+      name: inscriptional-pahlavi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bb2112c9-609d-43b4-9d6a-578e4ede2e6b
+    -
+      vid: languages_supported
+      tid: '80'
+      langcode: fr
+      name: inscriptional-parthian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a2cc99b6-ec69-472d-bd0c-d281f612cd27
+    -
+      vid: languages_supported
+      tid: '81'
+      langcode: fr
+      name: javanese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 303966ea-29d5-4431-91ee-bef9469e26d5
+    -
+      vid: languages_supported
+      tid: '82'
+      langcode: fr
+      name: kaithi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a23d3df5-e9d9-4e1c-b494-85b75794797f
+    -
+      vid: languages_supported
+      tid: '83'
+      langcode: fr
+      name: kharoshthi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 45ec600a-3cb1-4e4e-b2d6-29a08620b739
+    -
+      vid: languages_supported
+      tid: '84'
+      langcode: fr
+      name: khojki
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c3e72208-7fa8-4ce3-9149-9c6da7ea6057
+    -
+      vid: languages_supported
+      tid: '85'
+      langcode: fr
+      name: khudawadi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: efa28454-1a06-471a-a77a-513e6c7b4cba
+    -
+      vid: languages_supported
+      tid: '86'
+      langcode: fr
+      name: lao
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1bba60a5-58f3-4447-aa28-e804c5f9bdb9
+    -
+      vid: languages_supported
+      tid: '87'
+      langcode: fr
+      name: lepcha
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b6d37077-a86a-4a8a-b2a9-2f432106e0cb
+    -
+      vid: languages_supported
+      tid: '88'
+      langcode: fr
+      name: limbu
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 236edf29-bb03-44fc-9698-27da9105761e
+    -
+      vid: languages_supported
+      tid: '89'
+      langcode: fr
+      name: linear-a
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e1b0b90c-338e-4dc1-85a3-1a8d209ce3b8
+    -
+      vid: languages_supported
+      tid: '90'
+      langcode: fr
+      name: linear-b
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9095459d-656e-407d-a73f-3d9d9bb706b4
+    -
+      vid: languages_supported
+      tid: '91'
+      langcode: fr
+      name: lisu
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 71196675-d3bc-4c86-93fa-11bf26d5b956
+    -
+      vid: languages_supported
+      tid: '92'
+      langcode: fr
+      name: lycian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5710c819-59df-42a6-a791-e7935f552025
+    -
+      vid: languages_supported
+      tid: '93'
+      langcode: fr
+      name: lydian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ccb43e67-944e-4375-b8b4-94577e86ff55
+    -
+      vid: languages_supported
+      tid: '94'
+      langcode: fr
+      name: mahajani
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 66190259-2825-447d-adca-f3185e42811a
+    -
+      vid: languages_supported
+      tid: '95'
+      langcode: fr
+      name: mandaic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f3fbf0e9-0b36-4935-b94f-582a0d7cb23f
+    -
+      vid: languages_supported
+      tid: '96'
+      langcode: fr
+      name: manichaean
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4727e77e-4aa8-4328-be0a-b16f9c4014c4
+    -
+      vid: languages_supported
+      tid: '97'
+      langcode: fr
+      name: marchen
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: abaf6af5-5b25-4b88-baa7-af379b74cd1f
+    -
+      vid: languages_supported
+      tid: '98'
+      langcode: fr
+      name: masaram-gondi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bde7512d-5405-4294-a4b7-78d2a772e0be
+    -
+      vid: languages_supported
+      tid: '99'
+      langcode: fr
+      name: math
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b3a72fa5-0c75-4621-980f-70d5b15bea13
+    -
+      vid: languages_supported
+      tid: '100'
+      langcode: fr
+      name: mayan-numerals
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 34332baf-1570-4dc8-a180-5cde46c378ff
+    -
+      vid: languages_supported
+      tid: '101'
+      langcode: fr
+      name: medefaidrin
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c6c589dc-84de-4ae6-83dc-f9c33da06b24
+    -
+      vid: languages_supported
+      tid: '102'
+      langcode: fr
+      name: meetei-mayek
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4cf39b28-6c8f-49dd-89ad-20497092425b
+    -
+      vid: languages_supported
+      tid: '103'
+      langcode: fr
+      name: meroitic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 11c8b45b-386d-43d4-a814-a3adcd778f39
+    -
+      vid: languages_supported
+      tid: '104'
+      langcode: fr
+      name: miao
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 37edd4f8-cc1b-4b9f-a42e-965b9f251353
+    -
+      vid: languages_supported
+      tid: '105'
+      langcode: fr
+      name: modi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f47c6980-4dcd-4a8e-b133-a4c0062cc2ae
+    -
+      vid: languages_supported
+      tid: '106'
+      langcode: fr
+      name: mongolian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 415bbae4-a071-4481-b647-c8c760772225
+    -
+      vid: languages_supported
+      tid: '107'
+      langcode: fr
+      name: mro
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 460cb0b4-b48e-4a5a-863e-b4c56224a10f
+    -
+      vid: languages_supported
+      tid: '108'
+      langcode: fr
+      name: multani
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 15a375eb-14f3-4354-acec-d4db0033b567
+    -
+      vid: languages_supported
+      tid: '109'
+      langcode: fr
+      name: myanmar
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a2dacdfc-240e-4949-b592-6b67e16090e6
+    -
+      vid: languages_supported
+      tid: '110'
+      langcode: fr
+      name: nko
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 457746b3-1caa-4cbc-aece-8ffe35f7cd5f
+    -
+      vid: languages_supported
+      tid: '111'
+      langcode: fr
+      name: nabataean
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e43f076e-809c-4028-a263-bf1acee85058
+    -
+      vid: languages_supported
+      tid: '112'
+      langcode: fr
+      name: new-tai-lue
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cb835569-4b85-429c-bec1-a6a619d562d9
+    -
+      vid: languages_supported
+      tid: '113'
+      langcode: fr
+      name: newa
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ce846ade-9651-46cb-b639-70b9554900f1
+    -
+      vid: languages_supported
+      tid: '114'
+      langcode: fr
+      name: nushu
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ddb29f15-9690-4c2f-afa1-f11f254db9f5
+    -
+      vid: languages_supported
+      tid: '115'
+      langcode: fr
+      name: ogham
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ec5dede3-855b-4327-8e31-1b9816e2369c
+    -
+      vid: languages_supported
+      tid: '116'
+      langcode: fr
+      name: ol-chiki
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 22f1ee1d-15d3-45c0-9261-7b3f33bfbd23
+    -
+      vid: languages_supported
+      tid: '117'
+      langcode: fr
+      name: old-hungarian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 662b70d4-f4a1-4a3f-a874-7983f60845cd
+    -
+      vid: languages_supported
+      tid: '118'
+      langcode: fr
+      name: old-italic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ede205f9-057b-4b67-a459-997081b9e18c
+    -
+      vid: languages_supported
+      tid: '119'
+      langcode: fr
+      name: old-north-arabian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 973ab01d-3c5e-480e-8f01-254d3c6614e7
+    -
+      vid: languages_supported
+      tid: '120'
+      langcode: fr
+      name: old-permic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 3e61eb10-207d-4333-8ca6-83bd0a5fa88f
+    -
+      vid: languages_supported
+      tid: '121'
+      langcode: fr
+      name: old-persian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c994be12-02d5-498d-b9c0-f3ba7ccc1837
+    -
+      vid: languages_supported
+      tid: '122'
+      langcode: fr
+      name: old-sogdian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8f247b1b-2fd5-41d5-a940-57724b83d2e9
+    -
+      vid: languages_supported
+      tid: '123'
+      langcode: fr
+      name: old-south-arabian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ed525a1c-230a-42fe-9bf5-947d6bd2dcdd
+    -
+      vid: languages_supported
+      tid: '124'
+      langcode: fr
+      name: old-turkic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d4d4e3dc-6085-433c-8818-149739c993ee
+    -
+      vid: languages_supported
+      tid: '125'
+      langcode: fr
+      name: osage
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 76fe704c-cd46-40e1-9243-c0320af43fa6
+    -
+      vid: languages_supported
+      tid: '126'
+      langcode: fr
+      name: osmanya
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1b026dd3-240a-47d0-8717-269e1ccf7200
+    -
+      vid: languages_supported
+      tid: '127'
+      langcode: fr
+      name: pahawh-hmong
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 95f99c5e-d8c4-4f80-a993-1f2b04a24149
+    -
+      vid: languages_supported
+      tid: '128'
+      langcode: fr
+      name: palmyrene
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ed105670-3c44-4530-aa1f-d339ffceb72d
+    -
+      vid: languages_supported
+      tid: '129'
+      langcode: fr
+      name: pau-cin-hau
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7317e0b1-baa7-46b2-82dd-9ddc7ea86da1
+    -
+      vid: languages_supported
+      tid: '130'
+      langcode: fr
+      name: phags-pa
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4abf5b0a-2626-4acd-a2ef-3801bf8c3724
+    -
+      vid: languages_supported
+      tid: '131'
+      langcode: fr
+      name: phoenician
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1a005d17-b4b5-44db-8814-e502fe5f27c6
+    -
+      vid: languages_supported
+      tid: '132'
+      langcode: fr
+      name: psalter-pahlavi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 017f99d9-71dc-4e97-aeb3-fbb1e9dc8f1e
+    -
+      vid: languages_supported
+      tid: '133'
+      langcode: fr
+      name: rejang
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 57387e76-b97e-4b2a-9aff-09a0fcd2f262
+    -
+      vid: languages_supported
+      tid: '134'
+      langcode: fr
+      name: runic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ab37b574-10d7-4719-b633-071e0f69ed1b
+    -
+      vid: languages_supported
+      tid: '135'
+      langcode: fr
+      name: samaritan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 44481384-f1c5-48b0-a770-b8758334a839
+    -
+      vid: languages_supported
+      tid: '136'
+      langcode: fr
+      name: saurashtra
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 191968ca-2190-41f4-b740-2697bfde6c2b
+    -
+      vid: languages_supported
+      tid: '137'
+      langcode: fr
+      name: sharada
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7780f029-816a-42cb-85ad-add1fe527872
+    -
+      vid: languages_supported
+      tid: '138'
+      langcode: fr
+      name: shavian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f7902982-c765-4dfe-beaf-971e2d11594e
+    -
+      vid: languages_supported
+      tid: '139'
+      langcode: fr
+      name: siddham
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: dc2871b8-3713-462c-b109-0a5bd57ecc04
+    -
+      vid: languages_supported
+      tid: '140'
+      langcode: fr
+      name: sogdian
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: eb05e397-e74c-4663-9d01-9c9e6d0af03f
+    -
+      vid: languages_supported
+      tid: '141'
+      langcode: fr
+      name: sora-sompeng
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 71669bd0-4482-4928-86be-072585334779
+    -
+      vid: languages_supported
+      tid: '142'
+      langcode: fr
+      name: soyombo
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 73d39a33-a4ba-4733-af06-4516de446de7
+    -
+      vid: languages_supported
+      tid: '143'
+      langcode: fr
+      name: sundanese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5a7e158f-0eab-477b-9cc7-7f79098e006e
+    -
+      vid: languages_supported
+      tid: '144'
+      langcode: fr
+      name: syloti-nagri
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8451dcb8-b7e4-424d-baa0-54046dc9d49e
+    -
+      vid: languages_supported
+      tid: '145'
+      langcode: fr
+      name: symbols
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 34daaf91-d690-4faa-80b7-56dcbe722e62
+    -
+      vid: languages_supported
+      tid: '146'
+      langcode: fr
+      name: syriac
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 39bca235-04bb-482c-83a3-cc2f218cb59a
+    -
+      vid: languages_supported
+      tid: '147'
+      langcode: fr
+      name: chinese-traditional
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d24161a4-c35a-484d-b5ac-008467c43c5f
+    -
+      vid: languages_supported
+      tid: '148'
+      langcode: fr
+      name: tagalog
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 453f1da8-e79c-49b5-878f-9e3dfc368e6d
+    -
+      vid: languages_supported
+      tid: '149'
+      langcode: fr
+      name: tagbanwa
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6a219aa7-c02f-4225-a56b-52e308b2d0ce
+    -
+      vid: languages_supported
+      tid: '150'
+      langcode: fr
+      name: tai-le
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9202860e-83bb-4ba1-b958-443368abb3d1
+    -
+      vid: languages_supported
+      tid: '151'
+      langcode: fr
+      name: tai-tham
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e105c28d-aa9e-498b-986d-373ce7e0c281
+    -
+      vid: languages_supported
+      tid: '152'
+      langcode: fr
+      name: tai-viet
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 83c39c6a-2ff7-42fe-9d2a-f05e166a892d
+    -
+      vid: languages_supported
+      tid: '153'
+      langcode: fr
+      name: takri
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2049ccef-0505-4289-9182-cb645059a50b
+    -
+      vid: languages_supported
+      tid: '154'
+      langcode: fr
+      name: tamil-supplement
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e36ae952-b7c6-444b-a674-26465ea1ebd4
+    -
+      vid: languages_supported
+      tid: '155'
+      langcode: fr
+      name: thaana
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b8115c08-4e01-4f70-bbc8-045a27897210
+    -
+      vid: languages_supported
+      tid: '156'
+      langcode: fr
+      name: tifinagh
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 09dcda8d-c0b1-4b36-9f8b-490cc8384ba0
+    -
+      vid: languages_supported
+      tid: '157'
+      langcode: fr
+      name: tirhuta
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8ef9f3ed-94e8-4ef7-aaee-3132a13c44f7
+    -
+      vid: languages_supported
+      tid: '158'
+      langcode: fr
+      name: ugaritic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 297c4018-12bf-407f-9fde-3ac8d3d61756
+    -
+      vid: languages_supported
+      tid: '159'
+      langcode: fr
+      name: vai
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 69573269-e28f-4523-b256-8a3f45bc8c49
+    -
+      vid: languages_supported
+      tid: '160'
+      langcode: fr
+      name: wancho
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 92d9d050-dec8-4654-9f6d-9289aab1d990
+    -
+      vid: languages_supported
+      tid: '161'
+      langcode: fr
+      name: warang-citi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e02f7564-47e5-49d3-a684-ab2a300df4d1
+    -
+      vid: languages_supported
+      tid: '162'
+      langcode: fr
+      name: yi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: effe503e-66c1-445a-9d4b-38a201519d0d
+    -
+      vid: languages_supported
+      tid: '163'
+      langcode: fr
+      name: zanabazar-square
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: eadd0159-bb21-484e-a26f-6b59dce60f0b
+    -
+      vid: languages_supported
+      tid: '164'
+      langcode: fr
+      name: ahom
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 07fe5af6-800f-4fb6-928b-0955daad6a8a
+    -
+      vid: languages_supported
+      tid: '165'
+      langcode: fr
+      name: dogra
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d44f6091-0bf8-42a3-a8e0-9910c8384f51
+    -
+      vid: languages_supported
+      tid: '166'
+      langcode: fr
+      name: ethiopic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 91e10406-8254-4643-97e3-df44b72ab522
+    -
+      vid: languages_supported
+      tid: '167'
+      langcode: fr
+      name: nyiakeng-puachue-hmong
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1d51e495-2dec-4299-b6a9-a44f733907ab
+    -
+      vid: languages_supported
+      tid: '168'
+      langcode: fr
+      name: tangut
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ad80e1ba-f209-4c80-8b5b-d0f535eccca8
+    -
+      vid: languages_supported
+      tid: '169'
+      langcode: fr
+      name: yezidi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b7ce3d7c-efa8-48fd-8af0-d3077fd5062a
+  tags: {  }
+blocks:
+  -
+    info: 'Background image frontpage content block'
+    langcode: fr
+    uuid: d1247749-c3f8-42e4-b492-0aed145198e3
+    bundle: background_image_frontpage
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Bienvenue!</p>\r\n\r\n<p>Créer votre propre <strong>plateforme communautaire</strong> avec la solution web <strong>Panecom</strong>, qui propose aux entreprises et associations de créer leur propre site communautaire pour rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: Copyright
+    langcode: fr
+    uuid: eb11c816-4edb-41f7-844a-234654c141d2
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Copyright:&nbsp;<a href=\"https://www.digissol.com/\">Digissol</a>&nbsp;/ 2022&nbsp;</p>\r\n"
+          summary: ''
+          format: basic_html
+menus:
+  -
+    menu_name: main
+    title: 'A propos'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: fr
+    uuid: 16b4928e-4cc8-4bcb-ad97-2cac025360e0
+  -
+    menu_name: main
+    title: 'Nos activités'
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: fr
+    uuid: efe5e47e-284d-4faf-95fd-5f509112cfa0
+  -
+    menu_name: main
+    title: 'Organisations membres'
+    parent: 'menu_link_content:efe5e47e-284d-4faf-95fd-5f509112cfa0'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: fr
+    uuid: bcc0cefc-dd31-457c-af4f-826d44ebfa27
+  -
+    menu_name: main
+    title: Projets
+    parent: 'menu_link_content:efe5e47e-284d-4faf-95fd-5f509112cfa0'
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fr
+    uuid: 1c647ea4-66ec-40b3-9823-c8bc36954ec4
+  -
+    menu_name: main
+    title: Documents
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: fr
+    uuid: 6c4ad2da-fb4d-443e-b625-21d28e767f4e
+  -
+    menu_name: main
+    title: Discussions
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: fr
+    uuid: 0adfa3e9-6dde-40ca-ba8e-0f0d5c7a4278
+  -
+    menu_name: main
+    title: Contact
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: fr
+    uuid: f87380e2-1435-41d5-aad4-9256b337583b
+  -
+    menu_name: main
+    title: Accueil
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: fr
+    uuid: 811ce2b0-b983-4f1a-9120-9ea4fa001e39

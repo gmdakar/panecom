@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9169f952a1c4ecf9c66c9b847baad188f9caf3a9',
+        'reference' => '6bd1f04a6317075b01187977fb2ba929be410a97',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -834,7 +834,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9169f952a1c4ecf9c66c9b847baad188f9caf3a9',
+            'reference' => '6bd1f04a6317075b01187977fb2ba929be410a97',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1091,6 +1091,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/structure_sync' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/structure_sync',
+            'aliases' => array(),
+            'reference' => '2.0.2',
+            'dev_requirement' => false,
         ),
         'drupal/superfish' => array(
             'pretty_version' => '1.4.0',
