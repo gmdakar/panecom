@@ -1,0 +1,27 @@
+blocks:
+  -
+    info: 'Background image frontpage content block'
+    langcode: fr
+    uuid: d1247749-c3f8-42e4-b492-0aed145198e3
+    bundle: background_image_frontpage
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Bienvenue!</p>\r\n\r\n<p>Créer votre propre <strong>plateforme communautaire</strong> avec la solution web <strong>Panecom</strong>, qui propose aux entreprises et associations de créer leur propre site communautaire pour rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: Copyright
+    langcode: fr
+    uuid: eb11c816-4edb-41f7-844a-234654c141d2
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Copyright:&nbsp;<a href=\"https://www.digissol.com/\">Digissol</a>&nbsp;/ 2022&nbsp;</p>\r\n"
+          summary: ''
+          format: basic_html

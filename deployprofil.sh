@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 #####
 #
@@ -36,8 +36,8 @@ drush -y en mydefaultcontent || true
 echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
-drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb
 
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
@@ -85,21 +85,21 @@ mv delete.txt sites/*/*/*/*/core.extension.yml
 echo "rm delete.txt || true"
 rm delete.txt || true
 
-#echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
-#drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
+echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
+drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
 
 #car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
-#echo "drush -y cim"
-#drush -y cim
+echo "drush -y cim"
+drush -y cim
 
-#echo "drush -y config-set system.performance css.preprocess TRUE"
-#drush -y config-set system.performance css.preprocess TRUE
+echo "drush -y config-set system.performance css.preprocess TRUE"
+drush -y config-set system.performance css.preprocess TRUE
 
-#echo "drush -y config-set system.performance js.preprocess TRUE"
-#drush -y config-set system.performance js.preprocess TRUE
+echo "drush -y config-set system.performance js.preprocess TRUE"
+drush -y config-set system.performance js.preprocess TRUE
 
-#echo "drush cr && drush -y cex"
-#drush cr && drush -y cex
+echo "drush cr && drush -y ib"
+drush cr && drush -y ib
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
