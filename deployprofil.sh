@@ -57,6 +57,9 @@ cd panecomdistr
 echo "cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
 cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
 
+echo "cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/"
+cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/
+
 echo "rm sites/default/settings.local.php"
 rm sites/default/settings.local.php
 
@@ -66,8 +69,8 @@ echo "\$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjhe
 echo "$settings['file_private_path'] = 'sites/default/private';"
 echo "\$settings['file_private_path'] = 'sites/default/private';" >> sites/default/settings.php
 
-echo "global \$content_directories;" >> sites/default/settings.php
-echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.php
+#echo "global \$content_directories;" >> sites/default/settings.php
+#echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.php
 
 echo "ls -al index.php"
 ls -al index.php
@@ -101,8 +104,8 @@ drush -y config-set system.performance css.preprocess TRUE
 echo "drush -y config-set system.performance js.preprocess TRUE"
 drush -y config-set system.performance js.preprocess TRUE
 
-echo "drush cr && drush -y ib"
-drush cr && drush -y ib
+#echo "drush cr && drush -y ib"
+#drush cr && drush -y ib
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
