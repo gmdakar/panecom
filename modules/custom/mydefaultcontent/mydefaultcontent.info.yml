@@ -17,4 +17,5 @@ dependencies:
     - bootstrap_layout_builder.layout.blb_col_10
     - bootstrap_layout_builder.layout.blb_col_11
     - bootstrap_layout_builder.layout.blb_col_12
-  - default_content:default_content
+  module:
+    - default_content
