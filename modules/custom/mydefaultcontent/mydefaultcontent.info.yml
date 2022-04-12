@@ -4,18 +4,4 @@ description: 'Default content YAML panecom'
 package: Panecom
 core_version_requirement: ^8.7.7 || ^9
 dependencies:
-  config:
-    - bootstrap_layout_builder.layout.blb_col_1
-    - bootstrap_layout_builder.layout.blb_col_2
-    - bootstrap_layout_builder.layout.blb_col_3
-    - bootstrap_layout_builder.layout.blb_col_4
-    - bootstrap_layout_builder.layout.blb_col_5
-    - bootstrap_layout_builder.layout.blb_col_6
-    - bootstrap_layout_builder.layout.blb_col_7
-    - bootstrap_layout_builder.layout.blb_col_8
-    - bootstrap_layout_builder.layout.blb_col_9
-    - bootstrap_layout_builder.layout.blb_col_10
-    - bootstrap_layout_builder.layout.blb_col_11
-    - bootstrap_layout_builder.layout.blb_col_12
-  module:
-    - default_content
+  - default_content:default_content
