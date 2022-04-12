@@ -48,6 +48,7 @@ module:
   media_library_theme_reset: 0
   menu_link_content: 0
   menu_ui: 0
+  mydefaultcontent: 0
   node: 0
   notifications_widget: 0
   options: 0
