@@ -58,7 +58,7 @@ echo "cp sites/default/default.settings.php sites/default/settings.php && chmod 
 cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
 
 echo "cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/"
-cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/
+#cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/
 
 echo "rm sites/default/settings.local.php"
 rm sites/default/settings.local.php
