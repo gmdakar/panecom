@@ -76,7 +76,6 @@ module:
   google_fonts_api: 10
   recreate_block_content: 10
   views: 10
-  mydefaultcontent: 11
   bootstrap_layout_builder: 13
   bootstrap_styles: 13
   layout_builder: 13

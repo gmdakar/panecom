@@ -30,11 +30,22 @@ rm -rf modules/custom/mydefaultcontent/content
 echo "git add . --force && git commit -m 'new commmit' && git push"
 git add . --force && git commit -m "new commit" && git push
 
-echo "drush -y en mydefaultcontent || true"
-drush -y en mydefaultcontent || true
+#echo "drush -y en mydefaultcontent || true"
+#drush -y en mydefaultcontent || true
 
 echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
+
+
+
+
+
+
+############## FICHIER OBSOLETE ##########
+
+
+
+
 
 echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb"
 drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb
@@ -56,9 +67,6 @@ cd panecomdistr
 
 echo "cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true"
 cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775 sites/default/ || true 
-
-echo "cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/"
-#cp ../devpanecom/sites/default/files/config_*/sync/bootstrap_layout_builder.lay* sites/default/files/config_*/sync/
 
 echo "rm sites/default/settings.local.php"
 rm sites/default/settings.local.php
