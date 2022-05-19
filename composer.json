@@ -17,12 +17,14 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/addtoany": "^1.16",
         "drupal/advagg": "^4.1",
         "drupal/animate_any": "^1.4",
         "drupal/backup_migrate": "^5.0",
         "drupal/bg_image_formatter": "^1.15",
         "drupal/bootstrap_layout_builder": "^2.0",
         "drupal/bootstrap_styles": "1.0.x-dev@dev",
+        "drupal/contact_storage": "^1.1",
         "drupal/content_sync": "^3.0@beta",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
@@ -47,7 +49,9 @@
         "drupal/restui": "^1.20",
         "drupal/structure_sync": "^2.0",
         "drupal/superfish": "^1.4",
+        "drupal/swiftmailer": "^2.2",
         "drupal/taxonomy_manager": "^2.0",
+        "drupal/views_bootstrap": "^4.3",
         "drupal/webp": "^1.0@beta",
         "drush/drush": "10.x"
     },
@@ -64,6 +68,9 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "drupal/core-vendor-hardening": true
+        },
+        "platform": {
+            "php": "7.4.27"
         }
     },
     "extra": {

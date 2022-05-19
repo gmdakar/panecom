@@ -29,11 +29,22 @@ a.is-active {
     color:var(--color3) !important;
 }
 
+/*slideshow*/
+.carousel-indicators li.active {
+    background-color: var(--color3) !important;
+}
+
+#block-views-block-slideshow-block-1 {
+    position: absolute;
+    top: 0;
+	z-index:-1;
+}
+
 /***** TOP HEADER ********** */
 
 /*login*/
 a.nav-link.nav-link--fr-user-login{
-    color: rgb(0 0 0 / 80%);
+    color: #fff;
 }
 /*rendre visible l'icon hamburger*/
 .navbar-toggler { 
@@ -61,14 +72,219 @@ div#block-selecteurdelangue {
 }
 
 div#block-selecteurdelangue a {
-    color: #a6a5a4;
+    color: #fff;
 	text-decoration: none !important;
 }
 
 div#block-selecteurdelangue span:hover a,
 div#block-selecteurdelangue span.is-active a {
-    border-bottom: 0.5px solid var(--color3);
     color:var(--color3);
+	border-bottom: 0.5px solid #fff;
+}
+
+/*zone actualités + sidebar right*/
+#block-zoneactualitessidebarrightfrontpage {
+	margin: 1.75rem 0;
+}
+
+#block-zoneactualitessidebarrightfrontpage > h2 {
+    border-bottom: 2px solid lightgrey;
+	text-transform: uppercase;
+	width: 100%;
+	color: var(--color1);
+}
+
+.block-views-blockslideshow-block-1 h2,
+.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa h2 {
+    border-bottom: 1px solid var(--color3);
+	padding-top: .5rem;
+	text-transform: uppercase;
+	color: var(--color1);
+}
+
+.block-views-blockslideshow-block-1 h2{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body {
+    position: relative;
+	line-height: 2.1;
+    background-color: var(--color1);
+	background-color: #f8f8f8;
+	height: 488px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div{
+    line-height: 1.85;	
+    color: #fff;
+	color: #5a5a5a;
+	font-size: 1.5rem;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 2rem 2rem;
+	font-weight: 300;
+}
+
+.carousel-caption h3 a {
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+}
+
+.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div strong {
+    color: var(--color2);
+}
+
+.view-id-slideshow {
+    
+}
+
+.block-views-blockcontent-recent-block-1 {
+    
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;*/
+}
+
+.block-views-blockcontent-recent-block-1 {
+    padding: 0 2.5rem;
+}
+
+.view-content-recent {
+    margin: 0 1rem;
+}
+
+/*Evenement phare*/
+#block-evenementphare {
+    margin: 1.75rem 0;
+    position: relative;
+	padding:.1rem;
+	overflow: hidden;
+}
+
+
+
+#block-evenementphare ._none.aos-init.aos-animate {
+    height: 300px !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+}
+
+.block-field-blockblock-contentevenement-pharebody .content {
+    height: 300px;
+    text-align: center;
+}
+
+#block-evenementphare .field--name-body {
+	line-height: 2;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#block-evenementphare .field--name-body h2{
+	font-size: 3rem !important;
+	color: #fff;
+}
+
+#block-evenementphare .field--name-body h2{
+	font-size: 3rem !important;
+	color: #fff;
+}
+
+#block-evenementphare .field--name-body h2{
+	font-size: 3rem !important;
+	color: #fff;
+}
+
+#block-evenementphare ._none.aos-init.aos-animate {
+	position: relative;
+}
+
+#block-evenementphare ._none.aos-init.aos-animate::before {
+    content: '';
+    height: 302px;
+    width: 100%;
+    background-color: var(--color3);
+    /* z-index: 1; */
+    display: block;
+    opacity: .9;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+#block-evenementphare .field--name-body.field--type-text-with-summary {
+    color: #fff;
+}
+
+/*Nous suivre : social network*/
+#block-noussuivre {
+    position: relative;
+	right: 15%;
+}
+
+#block-noussuivre h2{
+    font-size: 1.1rem !important;
+    display: inline-block;
+	font-weight: 300;
+	color: #fff;
+}
+
+#block-noussuivre ul,
+#block-noussuivre li{
+    display: inline-block;
+}
+
+#block-noussuivre li a i {
+	color: #fff;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    font-size: 1.35rem !important;
+}
+
+#block-noussuivre .nav-link {
+    padding: 0.5rem 0.25rem !important;
+}
+
+i.fa.fa-youtube {
+	color: #c4302b;
+}
+
+/*addtoany duplicated*/
+span.addtoany_list{
+		display: none;
+}
+
+#block-addtoanybuttons {
+		margin: 4rem 1rem;  
+}
+
+#block-addtoanybuttons .addtoany_list{
+		display: block;
+}
+	
+.path-node .node__content .addtoany_list:last-child {
+		display: none;
+}
+	
+/*contact form*/
+#contact-message-contactez-nous-form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#contact-message-contactez-nous-form #edit-actions {
+    text-align: right;
+}
+
+.path-contact #block-panecom-bstrp-page-title {
+    text-align: center;
+	margin-top: 4rem;
 }
 
 /*A cacher car en page d'accueil un titre de page est par défaut affiché par boostrap_bario*/
@@ -97,14 +313,17 @@ header#header {
     height: 200px;
     position: relative;
 	border-bottom: 2.2px solid var(--color4);
+	
 }
 
 header#header nav#navbar-main {
     z-index: 1 !important;
-    margin-top: 10px;
+    margin-top: 42px;
     background-color: #ffffff !important;
 	padding-top: 12px;	
-	border-bottom: 2.2px solid var(--color4);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px !important;
+	border-bottom: 2px solid #f3f3f32b !important;
+	
 }
 
 header#header:not(sticky) nav#navbar-main {
@@ -114,6 +333,7 @@ header#header:not(sticky) nav#navbar-main {
 header#header.sticky {
     height: 100px;
     position: relative;
+	z-index: 99999 !important;
 }
 
 header#header.sticky nav#navbar-main {
@@ -154,7 +374,8 @@ header#header.sticky img.img-fluid.d-inline-block.align-top {
 
 nav#navbar-top {
    padding:0;
-   box-shadow: 0px 1px 4px #37373740;
+   /*box-shadow: 0px 1px 4px #37373740;*/
+   background-color: var(--color1) !important;
 }
 
 /***** MAIN MENU ********** */
@@ -211,9 +432,9 @@ ul.sf-menu > li:hover > a,
 
 /*tous les liens du top header et du menu en majuscule*/
 ul.sf-menu li a, .nav-link{
-    font-size: 1.05rem;
-    text-transform: uppercase !important;
-	font-weight: 300 !important;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+	font-weight: 400;
 }
 
 /*notification widget*/
