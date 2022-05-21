@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c9f16b6ed4e780b8064bad6c67405aafcdf0a746',
+        'reference' => '4d43b0a43e4cb8c3c28b7bc499820cdf04e71c2f',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -217,6 +217,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/back_to_top' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/back_to_top',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/backup_migrate' => array(
             'pretty_version' => '5.0.1',
             'version' => '5.0.1.0',
@@ -264,6 +273,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/block_access' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/block_access',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
         ),
         'drupal/block_content' => array(
             'dev_requirement' => false,
@@ -666,6 +684,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/field_group' => array(
+            'pretty_version' => '3.2.0',
+            'version' => '3.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/field_group',
+            'aliases' => array(),
+            'reference' => '8.x-3.2',
+            'dev_requirement' => false,
+        ),
         'drupal/field_layout' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -683,6 +710,24 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/file_download_link' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/file_download_link',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/file_pdf_preview' => array(
+            'pretty_version' => '1.0.0-beta2',
+            'version' => '1.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/file_pdf_preview',
+            'aliases' => array(),
+            'reference' => '1.0.0-beta2',
+            'dev_requirement' => false,
         ),
         'drupal/filter' => array(
             'dev_requirement' => false,
@@ -730,6 +775,24 @@
             'install_path' => __DIR__ . '/../../modules/contrib/galleryslider',
             'aliases' => array(),
             'reference' => '8.x-3.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/geofield' => array(
+            'pretty_version' => '1.39.0',
+            'version' => '1.39.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/geofield',
+            'aliases' => array(),
+            'reference' => '8.x-1.39',
+            'dev_requirement' => false,
+        ),
+        'drupal/geofield_map' => array(
+            'pretty_version' => '2.75.0',
+            'version' => '2.75.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/geofield_map',
+            'aliases' => array(),
+            'reference' => '8.x-2.75',
             'dev_requirement' => false,
         ),
         'drupal/hal' => array(
@@ -784,6 +847,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/jquery_ui',
             'aliases' => array(),
             'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_effects' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/jquery_ui_effects',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
         'drupal/jsonapi' => array(
@@ -846,13 +918,31 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/leaflet' => array(
+            'pretty_version' => '2.1.23',
+            'version' => '2.1.23.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/leaflet',
+            'aliases' => array(),
+            'reference' => '2.1.23',
+            'dev_requirement' => false,
+        ),
+        'drupal/leaflet_more_maps' => array(
+            'pretty_version' => '2.1.2',
+            'version' => '2.1.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/leaflet_more_maps',
+            'aliases' => array(),
+            'reference' => '2.1.2',
+            'dev_requirement' => false,
+        ),
         'drupal/legacy-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c9f16b6ed4e780b8064bad6c67405aafcdf0a746',
+            'reference' => '4d43b0a43e4cb8c3c28b7bc499820cdf04e71c2f',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -904,6 +994,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/media_library_theme_reset',
             'aliases' => array(),
             'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/menu_link_attributes' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/menu_link_attributes',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
         'drupal/menu_link_content' => array(
@@ -1071,6 +1170,15 @@
             'reference' => '8.x-1.20',
             'dev_requirement' => false,
         ),
+        'drupal/role_delegation' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/role_delegation',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
+        ),
         'drupal/search' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1211,6 +1319,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/transliterate_filenames' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/transliterate_filenames',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
         ),
         'drupal/update' => array(
             'dev_requirement' => false,
@@ -1470,6 +1587,15 @@
             'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
             'dev_requirement' => false,
         ),
+        'phayes/geophp' => array(
+            'pretty_version' => '1.2',
+            'version' => '1.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phayes/geophp',
+            'aliases' => array(),
+            'reference' => '015404e85b602e0df1f91441f8db0f9e98f7e567',
+            'dev_requirement' => false,
+        ),
         'psr/cache' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -1581,6 +1707,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'spatie/pdf-to-image' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/pdf-to-image',
+            'aliases' => array(),
+            'reference' => '9b8d5bae5b77f6023e87b2401028e52b7addbd48',
+            'dev_requirement' => false,
         ),
         'stack/builder' => array(
             'pretty_version' => 'v1.0.6',

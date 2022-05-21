@@ -94,6 +94,7 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Spatie\\PdfToImage\\' => 18,
             'SelfUpdate\\' => 11,
         ),
         'R' => 
@@ -324,6 +325,10 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
+        ),
+        'Spatie\\PdfToImage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/pdf-to-image/src',
         ),
         'SelfUpdate\\' => 
         array (
@@ -587,6 +592,7 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'geoPHP' => __DIR__ . '/..' . '/phayes/geophp/geoPHP.inc',
     );
 
     public static function getInitializer(ClassLoader $loader)
