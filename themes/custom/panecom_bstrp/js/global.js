@@ -60,6 +60,31 @@
 
   };
   
+  Drupal.behaviors.panecom_bstrp_stickyMenuOrg = {
+        attach: function (context, settings) {
+
+            var navbar = $('#block-menuorganisationmembre ul');
+
+            if (navbar.length) {
+                var elmHeight = 500;
+                $(window).scroll(function() {
+                    var scrolltop = $(window).scrollTop();
+                    if (scrolltop > elmHeight) {
+                        if (!navbar.hasClass('sticky')) {
+                            navbar.addClass('sticky');
+                        }
+                    } else {
+                        navbar.removeClass('sticky');
+                    }
+                });
+            }
+
+        }
+
+  };
+  
+  
+  
   Drupal.behaviors.panecom_bstrp_jumpto = {
         attach: function (context, settings) {
 
@@ -67,9 +92,11 @@
 			$("a.toscroll").on('click',function(e) {
 				var url = e.target.href;
 				var hash = url.substring(url.indexOf("#")+1);
-				$('html, body').animate({
-					scrollTop: $('#'+hash).offset().top
-				}, 1750);
+				if ($('#'+hash).length) {
+					$('html, body').animate({
+						scrollTop: $('#'+hash).offset().top - 200
+					}, 1750);
+				}
 				return false;
 			});
 

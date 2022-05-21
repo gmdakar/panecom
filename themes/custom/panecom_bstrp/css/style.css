@@ -886,3 +886,15 @@ div#block-views-block-organisations-block-1 h2::after {
 div#block-copyright {
     margin: 0 auto;
 }
+
+/*organisation membre*/
+.field--name-field-org-photos,
+.field--name-field-org-videos {
+    width: 100%;
+    display: inline-block;
+}
+
+.field--name-field-org-videos .field__item {
+    display: inline-block;
+   
+}
