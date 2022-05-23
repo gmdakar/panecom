@@ -8,12 +8,24 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "owlcarousel2": {
+            "type": "package",
+            "package": {
+                "name": "owlcarousel2/owlcarousel2",
+                "version": "2.3.4",
+                "type": "drupal-library",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/OwlCarousel2/OwlCarousel2/archive/2.3.4.zip"
+                }
+            }
+        },
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
@@ -52,7 +64,7 @@
         "drupal/menu_link_attributes": "^1.2",
         "drupal/native_lazy_loading": "^1.1@RC",
         "drupal/notifications_widget": "^1.5",
-        "drupal/owlcarousel": "^1.0@beta",
+        "drupal/owlcarousel": "^2.0@beta",
         "drupal/pathauto": "^1.10",
         "drupal/photoswipe": "^3.1",
         "drupal/recreate_block_content": "^2.1",
@@ -67,7 +79,8 @@
         "drupal/transliterate_filenames": "^2.0",
         "drupal/views_bootstrap": "^4.3",
         "drupal/webp": "^1.0@beta",
-        "drush/drush": "10.x"
+        "drush/drush": "10.x",
+        "owlcarousel2/owlcarousel2": "^2.3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -92,11 +105,11 @@
         "patches": {
             "drupal/notificationswidget": {
                 "#123456 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/updated-deprecated-session-token-path-3180168-3.patch",
-				"#123457 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/fixed-admin-page-settings-3216022-2.patch",
-				"#123458 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-08-03/3199296-3.patch"
+                "#123457 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-05-27/fixed-admin-page-settings-3216022-2.patch",
+                "#123458 - Fix some issues for notificationswidget": "https://www.drupal.org/files/issues/2021-08-03/3199296-3.patch"
             },
-			 "drupal/core": {
-				"#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch"
+            "drupal/core": {
+                "#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch"
             }
         },
         "drupal-scaffold": {

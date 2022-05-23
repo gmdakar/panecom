@@ -1,11 +1,16 @@
 owlcarousel:
+  remote: https://github.com/OwlCarousel2/OwlCarousel2
+  version: VERSION
+  license:
+    name: MIT
+    gpl-compatible: false
   css:
     theme:
-      lib/owl-carousel/owl.carousel.css: {}
-      lib/owl-carousel/owl.theme.css: {}
+      /libraries/owlcarousel2/dist/assets/owl.carousel.css: {}
+      /libraries/owlcarousel2/dist/assets/owl.theme.default.css: {}
       lib/owl-carousel/owl.transitions.css: {}
   js:
-    lib/owl-carousel/owl.carousel.js: {}
+    /libraries/owlcarousel2/dist/owl.carousel.js: {}
     js/owlcarousel.js: {}
   dependencies:
     - core/jquery

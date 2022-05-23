@@ -1,9 +1,10 @@
 <?php
 
-
 namespace Drupal\owlcarousel;
 
-
+/**
+ * Global owl carousel class.
+ */
 class OwlCarouselGlobal {
 
   /**
@@ -13,31 +14,16 @@ class OwlCarouselGlobal {
     $settings = [
       'image_style' => '',
       'image_link' => '',
-      'items' => 3,
-      'itemsDesktop' => '[1199,4]',
-      'itemsDesktopSmall' => '[979,3]',
-      'itemsTablet' => '[768,2]',
-      'itemsMobile' => '[479,1]',
-      'singleItem' => FALSE,
-      'itemsScaleUp' => FALSE,
-      'slideSpeed' => 200,
-      'paginationSpeed' => 800,
-      'rewindSpeed' => 1000,
-      'autoPlay' => FALSE,
-      'stopOnHover' => FALSE,
-      'navigation' => FALSE,
-      'navigationText' => '["prev","next"]',
-      'prevText' => t('prev')->render(),
-      'nextText' => t('next')->render(),
-      'rewindNav' => TRUE,
-      'scrollPerPage' => FALSE,
-      'pagination' => TRUE,
-      'paginationNumbers' => FALSE,
-      'responsive' => TRUE,
-      'responsiveRefreshRate' => 200,
-      'mouseDrag' => TRUE,
-      'touchDrag' => TRUE,
-      'transitionStyle' => 'fade',
+      'items' => 1,
+      'margin' => '0',
+      'nav' => FALSE,
+      'autoplay' => FALSE,
+      'autoplayHoverPause' => FALSE,
+      'dots' => TRUE,
+      'dimensionMobile' => '0',
+      'itemsMobile' => NULL,
+      'dimensionDesktop' => '0',
+      'itemsDesktop' => NULL,
     ];
 
     return isset($settings[$key]) ? $settings[$key] : $settings;
@@ -48,43 +34,25 @@ class OwlCarouselGlobal {
    */
   public static function formatSettings($settings) {
     $settings['items'] = (int) $settings['items'];
-    $settings['itemsDesktop'] = _owlcarousel_string_to_array($settings['itemsDesktop']);
-    foreach ($settings['itemsDesktop'] as $k => $v) {
-      $settings['itemsDesktop'][$k] = (int) $v;
-    }
-    $settings['itemsDesktopSmall'] = _owlcarousel_string_to_array($settings['itemsDesktopSmall']);
-    foreach ($settings['itemsDesktopSmall'] as $k => $v) {
-      $settings['itemsDesktopSmall'][$k] = (int) $v;
-    }
-    $settings['itemsTablet'] = _owlcarousel_string_to_array($settings['itemsTablet']);
-    foreach ($settings['itemsTablet'] as $k => $v) {
-      $settings['itemsTablet'][$k] = (int) $v;
-    }
-    $settings['itemsMobile'] = _owlcarousel_string_to_array($settings['itemsMobile']);
-    foreach ($settings['itemsMobile'] as $k => $v) {
-      $settings['itemsMobile'][$k] = (int) $v;
-    }
-    $settings['navigationText'] = [
-      $settings['prevText'],
-      $settings['nextText'],
-    ];
 
-    $settings['mouseDrag'] = (bool) $settings['mouseDrag'];
-    $settings['pagination'] = (bool) $settings['pagination'];
-    $settings['paginationNumbers'] = (bool) $settings['paginationNumbers'];
-    $settings['responsive'] = (bool) $settings['responsive'];
-    $settings['paginationSpeed'] = (int) $settings['paginationSpeed'];
-    $settings['responsiveRefreshRate'] = (int) $settings['responsiveRefreshRate'];
-    $settings['rewindNav'] = (bool) $settings['rewindNav'];
-    $settings['rewindSpeed'] = (int) $settings['rewindSpeed'];
-    $settings['scrollPerPage'] = (bool) $settings['scrollPerPage'];
-    $settings['singleItem'] = (bool) $settings['singleItem'];
-    $settings['slideSpeed'] = (int) $settings['slideSpeed'];
-    $settings['stopOnHover'] = (bool) $settings['stopOnHover'];
-    $settings['touchDrag'] = (bool) $settings['touchDrag'];
-    $settings['itemsScaleUp'] = (bool) $settings['itemsScaleUp'];
-    $settings['autoPlay'] = (bool) $settings['autoPlay'];
-    $settings['navigation'] = (bool) $settings['navigation'];
+    $settings['margin'] = (int) $settings['margin'];
+    $settings['nav'] = (bool) $settings['nav'];
+    $settings['autoplay'] = (bool) $settings['autoplay'];
+    $settings['autoplayHoverPause'] = (bool) $settings['autoplayHoverPause'];
+    $settings['dots'] = (bool) $settings['dots'];
+
+    if ($settings['itemsMobile']) {
+      $dimensioneMobile = (int) $settings['dimensionMobile'];
+      $itemsMobile['items'] = (int) $settings['itemsMobile'];
+      $settings['responsive'][$dimensioneMobile] = $itemsMobile;
+    }
+
+    if ($settings['itemsDesktop']) {
+      $dimensioneDesktop = (int) $settings['dimensionDesktop'];
+      $itemsDesktop['items'] = (int) $settings['itemsDesktop'];
+      $settings['responsive'][$dimensioneDesktop] = $itemsDesktop;
+    }
+
     if (isset($settings['image_style'])) {
       unset($settings['image_style']);
     }
@@ -94,6 +62,5 @@ class OwlCarouselGlobal {
 
     return $settings;
   }
-
 
 }

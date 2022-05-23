@@ -1,7 +1,13 @@
 <?php
 
+/**
+ * @file
+ * Theme.inc for functions.
+ */
+
 use Drupal\owlcarousel\OwlCarouselView;
 use Drupal\Component\Serialization\Json;
+
 /**
  * Prepares variables for views carousel template.
  *

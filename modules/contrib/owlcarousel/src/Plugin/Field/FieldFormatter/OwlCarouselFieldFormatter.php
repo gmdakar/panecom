@@ -30,7 +30,18 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  */
 class OwlCarouselFieldFormatter extends EntityReferenceFormatterBase implements ContainerFactoryPluginInterface {
 
+  /**
+   * The current user.
+   *
+   * @var \Drupal\Core\Session\AccountInterface
+   */
   protected $currentUser;
+
+  /**
+   * The image style storage.
+   *
+   * @var \Drupal\Core\Entity\EntityStorageInterface
+   */
   protected $imageStyleStorage;
 
   /**
@@ -71,7 +82,6 @@ class OwlCarouselFieldFormatter extends EntityReferenceFormatterBase implements 
    * {@inheritdoc}
    */
   public function settingsForm(array $form, FormStateInterface $form_state) {
-
     $image_styles = image_style_options(FALSE);
     $description_link = Link::fromTextAndUrl(
       $this->t('Configure Image Styles'),
@@ -87,185 +97,98 @@ class OwlCarouselFieldFormatter extends EntityReferenceFormatterBase implements 
         '#access' => $this->currentUser->hasPermission('administer image styles'),
       ],
     ];
-    $link_types = [
-      'content' => $this->t('Content'),
-      'file' => $this->t('File'),
-    ];
+
+    // Link image to.
     $element['image_link'] = [
       '#title' => $this->t('Link image to'),
       '#type' => 'select',
       '#default_value' => $this->getSetting('image_link'),
       '#empty_option' => $this->t('Nothing'),
-      '#options' => $link_types,
+      '#options' => [
+        'content' => $this->t('Content'),
+        'file' => $this->t('File'),
+      ],
     ];
 
+    // Items.
     $element['items'] = [
       '#type' => 'number',
       '#title' => $this->t('Items'),
+      '#default_value' => !empty($this->getSetting('items')) ? $this->getSetting('items') : 3,
       '#description' => $this->t('Maximum amount of items displayed at a time with the widest browser width.'),
-      '#default_value' => $this->getSetting('items'),
     ];
-    $element['itemsDesktop'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Items Desktop'),
-      '#description' => $this->t('This allows you to preset the number of slides visible with a particular browser width. The format is [x,y] whereby x=browser width and y=number of slides displayed. For example [1199,4] means that if(window<=1199){ show 4 slides per page}'),
-      '#default_value' => $this->getSetting('itemsDesktop'),
-    ];
-    $element['itemsDesktopSmall'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Items Desktop Small'),
-      '#description' => $this->t('Example: [979,3]'),
-      '#default_value' => $this->getSetting('itemsDesktopSmall'),
-    ];
-    $element['itemsTablet'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Items Tablet'),
-      '#description' => $this->t('Example: [768,2]'),
-      '#default_value' => $this->getSetting('itemsTablet'),
-    ];
-    $element['itemsMobile'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Items Mobile'),
-      '#description' => $this->t('Example: [479,1]'),
-      '#default_value' => $this->getSetting('itemsMobile'),
-    ];
-    $element['singleItem'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Single Item'),
-      '#default_value' => $this->getSetting('singleItem'),
-      '#description' => $this->t('Display only one item.'),
-    ];
-    // itemsScaleUp.
-    $element['itemsScaleUp'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Items ScaleUp'),
-      '#default_value' => $this->getSetting('itemsScaleUp'),
-      '#description' => $this->t('Option to not stretch items when it is less than the supplied items.'),
-    ];
-    // slideSpeed.
-    $element['slideSpeed'] = [
+
+    // Margin.
+    $element['margin'] = [
       '#type' => 'number',
-      '#title' => $this->t('Slide Speed'),
-      '#default_value' => $this->getSetting('slideSpeed'),
-      '#description' => $this->t('Slide speed in milliseconds.'),
+      '#title' => $this->t('Margin'),
+      '#default_value' => $this->getSetting('margin'),
+      '#description' => $this->t('Margin from items.'),
     ];
-    // paginationSpeed.
-    $element['paginationSpeed'] = [
-      '#type' => 'number',
-      '#title' => $this->t('Pagination Speed'),
-      '#default_value' => $this->getSetting('paginationSpeed'),
-      '#description' => $this->t('Pagination speed in milliseconds.'),
-    ];
-    // rewindSpeed.
-    $element['rewindSpeed'] = [
-      '#type' => 'number',
-      '#title' => $this->t('Rewind Speed'),
-      '#default_value' => $this->getSetting('rewindSpeed'),
-      '#description' => $this->t('Rewind speed in milliseconds.'),
-    ];
-    // autoPlay.
-    $element['autoPlay'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('AutoPlay'),
-      '#default_value' => $this->getSetting('autoPlay'),
-    ];
-    // stopOnHover.
-    $element['stopOnHover'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Stop On Hover'),
-      '#default_value' => $this->getSetting('stopOnHover'),
-      '#description' => $this->t('Stop autoplay on mouse hover.'),
-    ];
+
     // Navigation.
-    $element['navigation'] = [
+    $element['nav'] = [
       '#type' => 'checkbox',
       '#title' => $this->t('Navigation'),
-      '#default_value' => $this->getSetting('navigation'),
+      '#default_value' => $this->getSetting('nav'),
       '#description' => $this->t('Display "next" and "prev" buttons.'),
     ];
-    // prevText.
-    $element['prevText'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Prev Text'),
-      '#default_value' => $this->getSetting('prevText'),
-      '#description' => $this->t('Text for navigation prev button'),
-    ];
-    // nextText.
-    $element['nextText'] = [
-      '#type' => 'textfield',
-      '#title' => $this->t('Next Text'),
-      '#default_value' => $this->getSetting('nextText'),
-      '#description' => $this->t('Text for navigation next button'),
-    ];
-    // rewindNav.
-    $element['rewindNav'] = [
+
+    // Autoplay.
+    $element['autoplay'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('Rewind Nav'),
-      '#default_value' => $this->getSetting('rewindNav'),
-      '#description' => $this->t('Slide to first item.'),
+      '#title' => $this->t('Autoplay'),
+      '#default_value' => $this->getSetting('autoplay'),
     ];
-    // scrollPerPage.
-    $element['scrollPerPage'] = [
+
+    // AutoplayHoverPause.
+    $element['autoplayHoverPause'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('Scroll Per Page'),
-      '#default_value' => $this->getSetting('scrollPerPage'),
-      '#description' => $this->t('Scroll per page not per item. This affect next/prev buttons and mouse/touch dragging.'),
+      '#title' => $this->t('Pause on hover'),
+      '#default_value' => $this->getSetting('autoplayHoverPause'),
+      '#description' => $this->t('Pause autoplay on mouse hover.'),
     ];
-    // Pagination.
-    $element['pagination'] = [
+
+    // Dots.
+    $element['dots'] = [
       '#type' => 'checkbox',
-      '#title' => $this->t('pagination'),
-      '#default_value' => $this->getSetting('pagination'),
-      '#description' => $this->t('Show pagination.'),
+      '#title' => $this->t('Dots'),
+      '#default_value' => $this->getSetting('dots'),
+      '#description' => $this->t('Show dots.'),
     ];
-    // paginationNumbers.
-    $element['paginationNumbers'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Pagination Numbers'),
-      '#default_value' => $this->getSetting('paginationNumbers'),
-      '#description' => $this->t('Show numbers inside pagination buttons.'),
-    ];
-    // Responsive.
-    $element['responsive'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Responsive'),
-      '#default_value' => $this->getSetting('responsive'),
-      '#description' => $this->t('Uncheck to use OwlCarousel Carousel on desktop-only.'),
-    ];
-    // responsiveRefreshRate.
-    $element['responsiveRefreshRate'] = [
+
+    // DimensionMobile.
+    $element['dimensionMobile'] = [
       '#type' => 'number',
-      '#title' => $this->t('Responsive Refresh Rate'),
-      '#default_value' => $this->getSetting('responsiveRefreshRate'),
-      '#description' => $this->t('Check window width changes every 200ms for responsive actions.'),
+      '#title' => $this->t('Mobile dimension'),
+      '#default_value' => $this->getSetting('dimensionMobile'),
+      '#description' => $this->t('Set the mobile dimensions in px.'),
     ];
-    // mouseDrag.
-    $element['mouseDrag'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Mouse Drag'),
-      '#default_value' => $this->getSetting('mouseDrag'),
-      '#description' => $this->t('Turn off/on mouse events.'),
+
+    // ItemsMobile.
+    $element['itemsMobile'] = [
+      '#type' => 'number',
+      '#title' => $this->t('Mobile items'),
+      '#default_value' => $this->getSetting('itemsMobile'),
+      '#description' => $this->t('Maximum amount of items displayed at mobile.'),
     ];
-    // touchDrag.
-    $element['touchDrag'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Touch Drag'),
-      '#default_value' => $this->getSetting('touchDrag'),
-      '#description' => $this->t('Turn off/on touch events.'),
+
+    // DimensionDesktop.
+    $element['dimensionDesktop'] = [
+      '#type' => 'number',
+      '#title' => $this->t('Desktop dimension'),
+      '#default_value' => $this->getSetting('dimensionDesktop'),
+      '#description' => $this->t('Set the desktop dimensions in px.'),
     ];
-    // transitionStyle.
-    $element['transitionStyle'] = [
-      '#type' => 'select',
-      '#options' => [
-        'fade' => $this->t('Fade'),
-        'backSlide' => $this->t('Back Slide'),
-        'goDown' => $this->t('Go Down'),
-        'fadeUp' => $this->t('Fade Up'),
-      ],
-      '#title' => $this->t('Transition Style'),
-      '#default_value' => $this->getSetting('transitionStyle'),
-      '#description' => $this->t('Add CSS3 transition style. Works only with one item on screen.'),
+
+    // itemsDesktop.
+    $element['itemsDesktop'] = [
+      '#type' => 'number',
+      '#title' => $this->t('Desktop items'),
+      '#default_value' => $this->getSetting('itemsDesktop'),
+      '#description' => $this->t('Maximum amount of items displayed at desktop.'),
     ];
+
     return $element + parent::settingsForm($form, $form_state);
   }
 
@@ -274,7 +197,39 @@ class OwlCarouselFieldFormatter extends EntityReferenceFormatterBase implements 
    */
   public function settingsSummary() {
     $summary = [];
-    // TODO: Implement settings summary.
+
+    $itemsdisplay = $this->getSetting('items') ? $this->getSetting('items') : 3;
+    $nav = $this->getSetting('nav') ? 'TRUE' : 'FALSE';
+    $autoplay = $this->getSetting('autoplay') ? 'TRUE' : 'FALSE';
+    $autoplaypause = $this->getSetting('autoplayHoverPause') ? 'TRUE' : 'FALSE';
+    $dots = $this->getSetting('autoplayHoverPause') ? 'TRUE' : 'FALSE';
+
+    $summary[] = $this->t('Owlcarousel Settings summary.');
+    $summary[] = $this->t('Image style:') . $this->getSetting('image_style');
+    $summary[] = $this->t('Link image to:') . $this->getSetting('image_link') ?? $this->t('Nothing');
+    $summary[] = $this->t('Amount of items displayed:') . $itemsdisplay;
+    $summary[] = $this->t('Margin from items:') . $this->getSetting('margin') . 'px';
+    $summary[] = $this->t('Display next and prev buttons:') . $nav;
+    $summary[] = $this->t('Autoplay:') . $autoplay;
+    $summary[] = $this->t('Autoplay pause on mouse hover:') . $autoplaypause;
+    $summary[] = $this->t('Show dots:') . $dots;
+
+    if ($this->getSetting('dimensionMobile')) {
+      $summary[] = $this->t('Mobile dimensions:') . $this->getSetting('dimensionMobile') . 'px';
+    }
+
+    if ($this->getSetting('itemsMobile')) {
+      $summary[] = $this->t('Mobile items to show:') . $this->getSetting('itemsMobile');
+    }
+
+    if ($this->getSetting('dimensionDesktop')) {
+      $summary[] = $this->t('Desktop dimensions:') . $this->getSetting('dimensionDesktop') . 'px';
+    }
+
+    if ($this->getSetting('itemsDesktop')) {
+      $summary[] = $this->t('Desktop items to show:') . $this->getSetting('itemsDesktop');
+    }
+
     return $summary;
   }
 

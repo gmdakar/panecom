@@ -890,6 +890,16 @@ a.enchor a:not(:first-child)::after {
 	margin:0 1rem 1rem 3rem;
 }
 
+.node--type-organisation-membre .field--name-field-org-image-hero img,
+.node--type-organisation-membre img.image-style-media-library {
+    min-height: 150px;
+	border-radius: 15px 50px 30px !important;
+}
+
+.node--type-organisation-membre .media-library-item__name {
+    display: none;
+}
+
 .node--type-organisation-membre .field--name-body {
     font-family: "Roboto";
 	font-size: 1.15rem;

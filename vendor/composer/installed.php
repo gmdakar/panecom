@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c6d7b25d20e159953b7ce41e83549c564f38c1a4',
+        'reference' => 'bef44ec9c5bb5dc780ed571a8fa1fe811e4ac0bb',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -942,7 +942,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c6d7b25d20e159953b7ce41e83549c564f38c1a4',
+            'reference' => 'bef44ec9c5bb5dc780ed571a8fa1fe811e4ac0bb',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1102,12 +1102,12 @@
             ),
         ),
         'drupal/owlcarousel' => array(
-            'pretty_version' => '1.0.0-beta1',
-            'version' => '1.0.0.0-beta1',
+            'pretty_version' => '2.0.0-beta2',
+            'version' => '2.0.0.0-beta2',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/owlcarousel',
             'aliases' => array(),
-            'reference' => '8.x-1.0-beta1',
+            'reference' => '8.x-2.0-beta2',
             'dev_requirement' => false,
         ),
         'drupal/page_cache' => array(
@@ -1595,6 +1595,15 @@
             'replaced' => array(
                 0 => '~2.0',
             ),
+        ),
+        'owlcarousel2/owlcarousel2' => array(
+            'pretty_version' => '2.3.4',
+            'version' => '2.3.4.0',
+            'type' => 'drupal-library',
+            'install_path' => __DIR__ . '/../../libraries/owlcarousel2',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
         ),
         'pear/archive_tar' => array(
             'pretty_version' => '1.4.14',
