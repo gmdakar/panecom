@@ -94,12 +94,27 @@
 				var hash = url.substring(url.indexOf("#")+1);
 				if ($('#'+hash).length) {
 					$('html, body').animate({
-						scrollTop: $('#'+hash).offset().top - 200
+						scrollTop: $('#'+hash).offset().top - 250
 					}, 1750);
 				}
 				return false;
 			});
 
+        }
+
+  };
+  
+  Drupal.behaviors.panecom_bstrp_misc = {
+        attach: function (context, settings) {
+
+            /*onload page: make focus to first element sidebar menu organisation membre */
+			$(".sidebar #block-menuorganisationmembre.block li:first-child a").addClass( "focused");
+			
+			$(".sidebar #block-menuorganisationmembre.block li a").on('click',function(e) {
+				$(".sidebar #block-menuorganisationmembre.block li a").removeClass( "focused" );
+				$(this).addClass( "focused" );
+			});
+			
         }
 
   };

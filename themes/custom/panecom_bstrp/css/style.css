@@ -31,6 +31,10 @@ a.is-active {
     color:var(--color3) !important;
 }
 
+a.enchor {
+    color: initial !important;
+}
+
 
 /*slideshow*/
 .carousel-indicators li.active {
@@ -183,7 +187,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     line-height: 1.85;	
     color: #fff;
 	/*color: #5a5a5a;*/
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	width: 100%;
 	position: absolute;
 	top: 50%;
@@ -386,9 +390,8 @@ header#header nav#navbar-main {
     margin-top: 42px;
     background-color: #ffffff !important;
 	padding-top: 12px;	
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px !important;
-	border-bottom: 2px solid #f3f3f32b !important;
-	
+	/*box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px !important;*/
+	box-shadow: rgb(208 208 208 / 50%) 0px 0px 12px;
 }
 
 header#header:not(sticky) nav#navbar-main {
@@ -698,7 +701,7 @@ div#block-backgroundimagefrontpagecontentblock {
 
 /*page title (exemple for a node)*/
 span.field.field--name-title {
-    color: var(--color3);
+    /*color: var(--color3);*/
 }
 
 /***** ORGANISATIONS **/
@@ -815,6 +818,79 @@ div#block-views-block-organisations-block-1 h2::after {
 	margin-bottom: 50px;
 }
 
+#block-menuorganisationmembre ul {
+	display: block;
+	position: fixed;
+}
+
+.sidebar #block-menuorganisationmembre.block {
+    height: 13rem;
+    position: fixed;
+	top: 40%;
+    width: 16.5rem !important;
+    padding-left: 4rem;	
+}
+
+.sidebar #block-menuorganisationmembre.block a{
+    font-size: 1.15rem;
+	border: none;
+	color: #797878;
+}
+
+.sidebar #block-menuorganisationmembre.block a.focused,
+.sidebar #block-menuorganisationmembre.block a:active,
+.sidebar #block-menuorganisationmembre.block a:focus{
+	background-color: var(--color3) !important;	
+	color: #fff !important;
+
+}
+
+a.enchor h2 {
+    background-color: var(--color3);
+    color: #fff;
+    padding: 0 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    border-bottom: 1px solid #101010;
+	font-size: 1.25rem !important;
+	font-weight:300;
+}
+
+#block-panecom-bstrp-page-title .title {
+	text-align: center;
+	font-size: 1.85rem;
+    font-weight: 600;
+	text-transform: uppercase;
+	background-color: var(--color1);
+	color: #fff;
+	padding: .75rem .5rem 0 0;
+}
+
+#block-panecom-bstrp-page-title .title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 10rem;
+    background-color: var(--color1);
+    margin: 0.5rem auto;
+}
+
+a.enchor a:not(:first-child)::after {
+    display: block;
+	content: "";
+	width: 100%;
+    height: 1px;
+	background-color: #101010;
+}
+
+.node--type-organisation-membre main#content {
+    background-color: #fbfbfb;
+    padding: 2rem;
+	margin:0 1rem 1rem 3rem;
+}
+
+
 /*cacher le titre pour la vue (list organisations*/
 /*#block-backgroundheaderorganisationsmembres h1.title{
    display: none;
@@ -873,8 +949,13 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .block-system-breadcrumb-block{
-	text-align: center;
+	/*text-align: center;*/
 }
+
+.breadcrumb {
+    background-color: transparent; 
+}
+
 .block-system-breadcrumb-block nav{
 	display: inline-block;
 }
