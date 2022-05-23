@@ -939,6 +939,15 @@ div#block-views-block-organisations-block-1 h2::after {
 .node--type-organisation-membre .field__label {
     color: black;
 }
+
+.node--type-organisation-membre .field__item a img {
+    border: 3px solid #fff;
+}
+
+.node--type-organisation-membre .field__item:hover a::before {
+    color: var(--color3) !important;
+}
+
 /*cacher le titre pour la vue (list organisations*/
 /*#block-backgroundheaderorganisationsmembres h1.title{
    display: none;
@@ -992,7 +1001,7 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    color: #ffffff;
+    color: var(--color1);
     content: ">";
 }
 
