@@ -352,14 +352,50 @@ span.addtoany_list{
     text-align: right;
 }
 
-.path-contact #block-panecom-bstrp-page-title {
+#block-panecom-bstrp-page-title {
     text-align: center;
-	margin-top: 4rem;
+	margin-top: 1rem;
 }
 
 /*A cacher car en page d'accueil un titre de page est par défaut affiché par boostrap_bario*/
 .path-frontpage div#block-panecom-bstrp-page-title {
     display: none;
+}
+
+/*les organisations*/
+.view-les-organisations {
+	margin: 2rem 10%;
+}
+
+.view-les-organisations .wrapping {
+    box-shadow: rgb(208 208 208 / 50%) 0px 0px 12px;
+    height: 450px;
+    /* position: relative; */
+    background-color: #f9fbff;
+	margin: 1.35rem 2%;
+}
+
+.view-les-organisations .views-field.views-field-field-org-logo {
+    position: relative;
+    height: 250px;
+    /* margin: 1.15rem 0; */
+    background-color: #fff;
+    /* padding: 1rem 0; */
+}
+
+.view-les-organisations .views-field.views-field-field-org-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-les-organisations .views-field.views-field-title {
+    padding: 1rem;
+}
+
+.view-les-organisations .views-field.views-field-body {
+    padding: 0 1rem;
 }
 
 /* réseaux sociaux liens*/
