@@ -25,7 +25,6 @@ a.feed-icon {
     display: none;
 }
 
-#block-navigationprincipale li:first-child a.sf-depth-1,
 a:not(enchor):hover,
 a:not(enchor).is-active {
     color:var(--color3);
@@ -365,17 +364,48 @@ span.addtoany_list{
 /*les organisations*/
 .view-les-organisations {
 	margin: 2rem 10%;
+	text-align: center;
+}
+
+.page-view-les-organisations .title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.view-les-organisations .page-link {
+    border-radius: 0.5rem !important; 
+	border: none !important;
+	font-weight: 300 !important;
+	margin:0 .12rem;
+}
+
+.view-les-organisations .page-item.active .page-link {
+    background-color: #eecef !important;
+	color: var(--color3) !important;
+	font-weight: 500 !important;
+}
+
+.view-les-organisations li:hover .page-link{
+    color: var(--color3) !important;
+}
+
+.view-les-organisations .page-link a{  
+    border: none !important;
+}
+
+.view-les-organisations nav {
+	display: inline-block;
 }
 
 .view-les-organisations .wrapping {
-    box-shadow: rgb(208 208 208 / 50%) 0px 0px 12px;
-    height: 450px;
+    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
+    height: 460px;
     /* position: relative; */
-    background-color: #f9fbff;
-	margin: 1.35rem 2%;
+    
+	margin: 1.4rem 2%;
 }
 
-.view-les-organisations .views-field.views-field-field-org-logo {
+.view-les-organisations .views-field-field-org-logo {
     position: relative;
     height: 250px;
     /* margin: 1.15rem 0; */
@@ -383,19 +413,43 @@ span.addtoany_list{
     /* padding: 1rem 0; */
 }
 
-.view-les-organisations .views-field.views-field-field-org-logo img {
+.view-les-organisations .views-field-field-org-logo img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.view-les-organisations .views-field.views-field-title {
-    padding: 1rem;
+.view-les-organisations .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 100px;
+    background-color: var(--color1);
+    overflow: hidden;
 }
 
-.view-les-organisations .views-field.views-field-body {
-    padding: 0 1rem;
+.view-les-organisations .views-field-title  a {
+    font-size: 1.16rem;
+    /*font-weight: 500; */
+    text-transform: uppercase;
+	color: #fff;
+}
+
+.view-les-organisations .views-field-title  a:hover {
+	color: var(--color3);
+	text-decoration: none !important;
+}
+
+.view-les-organisations .views-field-body {
+    padding: 0.5rem 0.5rem;
+    font-weight: 300;
+    color: var(--color1);
+    background-color: #fff;
+}
+
+.page-view-les-organisations main#content {
+   
+    padding: 2rem;
+	margin:2rem 5%;
 }
 
 /* réseaux sociaux liens*/
@@ -762,17 +816,17 @@ span.field.field--name-title {
     padding: 2rem;
 }
 
-.view-organisations .views-field.views-field-title {
+.view-organisations .views-field-title {
 	margin: 0.5rem auto;
 }
 
-.view-organisations .views-field.views-field-title a {
+.view-organisations .views-field-title a {
     color: var(--color1);
     font-size: 1.25rem;
     text-transform: uppercase;
 }
 
-.view-organisations .views-field.views-field-body {
+.view-organisations .views-field-body {
     text-align: justify;
     color: var(--color5);
     font-size: 1rem;
@@ -918,7 +972,7 @@ div#block-views-block-organisations-block-1 h2::after {
 }
 
 .node--type-organisation-membre main#content {
-    background-color: #fbfbfb;
+    background-color: #fdfdfd;
     padding: 2rem;
 	margin:0 1rem 1rem 3rem;
 }

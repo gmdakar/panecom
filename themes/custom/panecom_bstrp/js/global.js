@@ -106,7 +106,8 @@
   
   Drupal.behaviors.panecom_bstrp_misc = {
         attach: function (context, settings) {
-
+			
+			
             /*onload page: make focus to first element sidebar menu organisation membre */
 			$(".sidebar #block-menuorganisationmembre.block li:first-child a").addClass( "focused");
 			
