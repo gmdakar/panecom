@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1dbd3aafe9c492c137e44527429651c34f0a657c',
+        'reference' => '101b2daa0a4634375e64ff38a39056f1d6f8eb87',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -942,7 +942,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1dbd3aafe9c492c137e44527429651c34f0a657c',
+            'reference' => '101b2daa0a4634375e64ff38a39056f1d6f8eb87',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1157,6 +1157,24 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/realistic_dummy_content' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/realistic_dummy_content',
+            'aliases' => array(),
+            'reference' => '3.1.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/realistic_dummy_content_api' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
         ),
         'drupal/recreate_block_content' => array(
             'pretty_version' => '2.1.0',

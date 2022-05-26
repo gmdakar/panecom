@@ -147,6 +147,8 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         array (
             'Drush\\Internal\\' => 15,
             'Drush\\' => 6,
+            'Drupal\\realistic_dummy_content_api\\' => 35,
+            'Drupal\\realistic_dummy_content\\' => 31,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\' => 12,
             'Drupal\\Composer\\Plugin\\VendorHardening\\' => 39,
@@ -435,6 +437,14 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'Drush\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
+        ),
+        'Drupal\\realistic_dummy_content_api\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/realistic_dummy_content/api/src',
+        ),
+        'Drupal\\realistic_dummy_content\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/realistic_dummy_content/src',
         ),
         'Drupal\\Driver\\' => 
         array (
