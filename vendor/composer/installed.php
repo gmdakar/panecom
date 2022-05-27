@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8c04b70471b956a11103c42a975eefb2a827234d',
+        'reference' => 'c91da81d8616e25b9aa0c853c6a54938cf6cfdd1',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -942,7 +942,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8c04b70471b956a11103c42a975eefb2a827234d',
+            'reference' => 'c91da81d8616e25b9aa0c853c6a54938cf6cfdd1',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1019,6 +1019,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/menu_trail_by_path' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/menu_trail_by_path',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
         ),
         'drupal/menu_ui' => array(
             'dev_requirement' => false,
