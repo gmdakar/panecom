@@ -1,0 +1,23 @@
+uuid: 2d556838-6612-491e-95b3-10a9606c83b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.zone_actualites_sidebar_right_fr
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.zone_actualites_sidebar_right_fr.body
+field_name: body
+entity_type: block_content
+bundle: zone_actualites_sidebar_right_fr
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

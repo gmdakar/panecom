@@ -1,0 +1,18 @@
+uuid: d10bdbbe-cc25-4468-a00f-d355a429810a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.zone_actualites_sidebar_right_fr
+id: block_content.zone_actualites_sidebar_right_fr.changed
+field_name: changed
+entity_type: block_content
+bundle: zone_actualites_sidebar_right_fr
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

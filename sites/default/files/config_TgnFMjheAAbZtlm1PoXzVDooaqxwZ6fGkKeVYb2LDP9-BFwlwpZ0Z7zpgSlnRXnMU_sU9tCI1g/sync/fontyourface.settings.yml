@@ -11,5 +11,13 @@ enabled_fonts:
   - 'https://www.google.com/webfonts/family?family=Roboto Condensed&subset=latin#700'
   - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#700'
   - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#900'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#300'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#500'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#600'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#700'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#800'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#900'
+  - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#regular'
+  - 'https://www.google.com/webfonts/family?family=Gravitas One&subset=latin#regular'
 load_on_themes:
   panecom_bstrp: panecom_bstrp

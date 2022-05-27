@@ -1214,6 +1214,72 @@ div#block-copyright {
    
 }
 
+/*mediatheque*/
+.node--type-page .photoswipe-gallery .field__item, 
+.photoswipe-gallery article .field--name-field-media-image, 
+.videos-gallery article .field--name-thumbnail {
+    position: relative;
+}
+
+.view-page .field__items .field__item:first-child::before {
+    content: "";
+}
+
+.node--type-page .photoswipe-gallery .field__item:first-child a.photoswipe::before, 
+.photoswipe-gallery article .field__item:first-child a.photoswipe::before {
+    content: "\f055";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+.photoswipe-gallery .field__items .field__item:first-child img {
+    display: block !important;
+}
+.photoswipe-gallery .field__items .field__item img {
+    display: none;
+}
+.path-mediatheque .photoswipe-gallery a img {
+    min-width: 100%;
+	max-height: 220px;
+}
+
+.photoswipe-gallery .field--type-image img, .photoswipe-gallery .field--name-field-user-picture img {
+    margin: 0
+}
+
+.path-mediatheque .media-library-item__name {
+    font-size: .8rem;
+    height: 2rem;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background-color: var(--color1);
+    padding: 0.5rem;
+    color: #fff;
+}
+.media-library-item__name {
+    text-align: center;
+    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+
+
+.view-gallerie-images {
+    text-align: center;
+}
+
+.view-gallerie-images .view-filters {
+    display: inline-block;
+}
+
 /* ############################## */
 /* ####### Breakpoints media queries  */
 /* ############################## */

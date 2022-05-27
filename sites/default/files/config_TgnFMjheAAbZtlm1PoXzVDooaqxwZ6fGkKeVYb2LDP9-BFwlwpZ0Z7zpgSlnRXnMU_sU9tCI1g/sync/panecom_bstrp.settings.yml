@@ -70,7 +70,7 @@ bootstrap_barrio_navbar_affix: 1
 bootstrap_barrio_sidebar_first_affix: 0
 bootstrap_barrio_sidebar_second_affix: 0
 bootstrap_barrio_scroll_spy: ''
-bootstrap_barrio_google_fonts: roboto
+bootstrap_barrio_google_fonts: ''
 bootstrap_barrio_bootstrap_icons: 0
 bootstrap_barrio_icons: fontawesome
 bootstrap_barrio_system_messages: messages_white

@@ -1,0 +1,23 @@
+uuid: c59cb713-5bf1-4dc5-af88-2083567f343d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_org_telecharger
+field_name: field_org_telecharger
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

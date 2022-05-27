@@ -9,7 +9,7 @@ dependencies:
 id: selecteurdelangue
 theme: panecom_bstrp
 region: top_header
-weight: 0
+weight: -11
 provider: null
 plugin: 'language_block:language_interface'
 settings:

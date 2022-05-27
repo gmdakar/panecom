@@ -1,0 +1,20 @@
+uuid: 08a07177-d3ef-429e-a05b-fbc8bad794cb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+  module:
+    - path
+id: taxonomy_term.languages_supported.path
+field_name: path
+entity_type: taxonomy_term
+bundle: languages_supported
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

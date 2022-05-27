@@ -1,0 +1,18 @@
+uuid: 5b2790e5-18e0-4111-aeb8-7b0c0b5e665a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.changed
+field_name: changed
+entity_type: media
+bundle: image
+label: Modifié
+description: 'Date à laquelle cet élément de média a été modifié.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

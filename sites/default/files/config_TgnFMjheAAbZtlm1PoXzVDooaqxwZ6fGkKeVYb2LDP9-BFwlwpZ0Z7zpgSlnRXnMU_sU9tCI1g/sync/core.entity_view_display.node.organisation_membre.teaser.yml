@@ -1,0 +1,59 @@
+uuid: 2b362bad-326a-4c09-a22a-8bfca022b7f7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organisation_membre.body
+    - field.field.node.organisation_membre.field_org_adresse_contact
+    - field.field.node.organisation_membre.field_org_image_hero
+    - field.field.node.organisation_membre.field_org_localisation
+    - field.field.node.organisation_membre.field_org_logo
+    - field.field.node.organisation_membre.field_org_photos
+    - field.field.node.organisation_membre.field_org_site_web
+    - field.field.node.organisation_membre.field_org_telecharger
+    - field.field.node.organisation_membre.field_org_telephone
+    - field.field.node.organisation_membre.field_org_videos
+    - image.style.medium
+    - node.type.organisation_membre
+  module:
+    - image
+    - text
+    - user
+id: node.organisation_membre.teaser
+targetEntityType: node
+bundle: organisation_membre
+mode: teaser
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_org_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  addtoany: true
+  field_org_adresse_contact: true
+  field_org_image_hero: true
+  field_org_localisation: true
+  field_org_photos: true
+  field_org_site_web: true
+  field_org_telecharger: true
+  field_org_telephone: true
+  field_org_videos: true
+  langcode: true

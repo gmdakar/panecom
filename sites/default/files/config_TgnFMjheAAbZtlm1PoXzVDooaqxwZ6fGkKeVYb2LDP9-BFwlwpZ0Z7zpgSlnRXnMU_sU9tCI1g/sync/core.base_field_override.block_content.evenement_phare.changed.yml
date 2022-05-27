@@ -1,0 +1,18 @@
+uuid: 3318845c-fcd7-440c-aca9-f9e6b443fd1a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.evenement_phare
+id: block_content.evenement_phare.changed
+field_name: changed
+entity_type: block_content
+bundle: evenement_phare
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

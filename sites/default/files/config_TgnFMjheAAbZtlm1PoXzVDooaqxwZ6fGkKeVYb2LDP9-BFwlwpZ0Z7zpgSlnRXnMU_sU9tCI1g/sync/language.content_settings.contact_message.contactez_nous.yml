@@ -1,0 +1,11 @@
+uuid: eb274667-8421-413a-89a5-388b2fd18ab6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_nous
+id: contact_message.contactez_nous
+target_entity_type_id: contact_message
+target_bundle: contactez_nous
+default_langcode: site_default
+language_alterable: false

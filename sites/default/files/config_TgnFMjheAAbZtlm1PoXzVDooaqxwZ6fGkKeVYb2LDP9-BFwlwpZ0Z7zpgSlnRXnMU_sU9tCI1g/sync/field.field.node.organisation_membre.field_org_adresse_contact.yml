@@ -1,0 +1,21 @@
+uuid: a16a2e45-1679-49bd-a22d-bb84d5b7a531
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_org_adresse_contact
+    - node.type.organisation_membre
+  module:
+    - text
+id: node.organisation_membre.field_org_adresse_contact
+field_name: field_org_adresse_contact
+entity_type: node
+bundle: organisation_membre
+label: Adresse
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

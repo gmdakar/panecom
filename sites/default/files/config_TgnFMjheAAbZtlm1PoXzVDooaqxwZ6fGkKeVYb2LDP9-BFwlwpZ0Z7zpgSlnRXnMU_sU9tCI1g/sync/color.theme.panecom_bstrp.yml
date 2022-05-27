@@ -10,9 +10,9 @@ palette:
   titleslogan: '#000000'
   text: '#4a4a4a'
   link: '#064c7e'
-logo: 'public://color/panecom_bstrp-c5d2f707/logo.svg'
+logo: 'public://color/panecom_bstrp-fef71e32/logo.svg'
 stylesheets:
-  - 'public://color/panecom_bstrp-c5d2f707/colors.css'
+  - 'public://color/panecom_bstrp-fef71e32/colors.css'
 files:
   - ''
-  - 'public://color/panecom_bstrp-c5d2f707/colors.css'
+  - 'public://color/panecom_bstrp-fef71e32/colors.css'

@@ -1,0 +1,8 @@
+uuid: f43ceabf-2990-40ba-91cd-5b99ec854a75
+langcode: fr
+status: true
+dependencies: {  }
+id: infos-utiles
+label: 'Infos utiles'
+description: ''
+locked: false

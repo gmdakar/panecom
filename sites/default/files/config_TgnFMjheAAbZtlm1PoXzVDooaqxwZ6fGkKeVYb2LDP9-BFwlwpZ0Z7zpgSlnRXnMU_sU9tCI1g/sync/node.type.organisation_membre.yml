@@ -1,0 +1,17 @@
+uuid: 0446e9d1-3306-4648-a25a-44894c5eb6d2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Organisation membre'
+type: organisation_membre
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,6 +1,6 @@
 uuid: 45099212-cc3a-4fa4-afa8-8d9c78858659
 langcode: fr
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:background_image_frontpage:d1247749-c3f8-42e4-b492-0aed145198e3'
@@ -12,7 +12,7 @@ dependencies:
 id: backgroundimagefrontpagecontentblock
 theme: panecom_bstrp
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:d1247749-c3f8-42e4-b492-0aed145198e3'
 settings:

@@ -5,10 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.remote_video.field_media_oembed_video
-    - image.style.medium
     - media.type.remote_video
   module:
-    - image
+    - media_video_micromodal
 _core:
   default_config_hash: '-Rhy5VOFbfUBJ2-X5RA_fw5NipHP2lhdMZU886jRlts'
 id: media.remote_video.media_library
@@ -17,15 +16,18 @@ bundle: remote_video
 mode: media_library
 content:
   thumbnail:
-    type: image
+    type: micromodal_field_formatter
     label: hidden
     settings:
-      image_link: ''
-      image_style: medium
+      string_classes: ''
+      link_text: ''
+      thumbnail_image_style: media_library
+      caption_swap: ''
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  addtoany: true
   created: true
   field_media_oembed_video: true
   langcode: true

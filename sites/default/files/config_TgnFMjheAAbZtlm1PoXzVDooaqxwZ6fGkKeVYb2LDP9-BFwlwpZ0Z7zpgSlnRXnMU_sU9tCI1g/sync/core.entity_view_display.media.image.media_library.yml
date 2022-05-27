@@ -5,10 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.image.field_media_image
-    - image.style.medium
+    - image.style.media_library
     - media.type.image
   module:
-    - image
+    - photoswipe
 _core:
   default_config_hash: p4SdSdLBlqfympeNav_Tdpn0-pL62tbjc348_zcPof4
 id: media.image.media_library
@@ -16,18 +16,24 @@ targetEntityType: media
 bundle: image
 mode: media_library
 content:
-  thumbnail:
-    type: image
+  field_media_image:
+    type: photoswipe_field_formatter
     label: hidden
     settings:
-      image_link: ''
-      image_style: medium
+      photoswipe_node_style_first: media_library
+      photoswipe_node_style: hide
+      photoswipe_image_style: ''
+      photoswipe_reference_image_field: ''
+      photoswipe_caption: name
+      photoswipe_caption_custom: test
+      photoswipe_view_mode: media_library
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  addtoany: true
   created: true
-  field_media_image: true
   langcode: true
   name: true
+  thumbnail: true
   uid: true

@@ -79,6 +79,7 @@
         "drupal/taxonomy_manager": "^2.0",
         "drupal/transliterate_filenames": "^2.0",
         "drupal/views_bootstrap": "^4.3",
+        "drupal/views_infinite_scroll": "^2.0",
         "drupal/webp": "^1.0@beta",
         "drush/drush": "10.x",
         "owlcarousel2/owlcarousel2": "^2.3"

@@ -1,0 +1,18 @@
+uuid: daf1b625-341e-4e1c-883f-c086dbf1c649
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_tags
+id: taxonomy_term.font_tags.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: font_tags
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

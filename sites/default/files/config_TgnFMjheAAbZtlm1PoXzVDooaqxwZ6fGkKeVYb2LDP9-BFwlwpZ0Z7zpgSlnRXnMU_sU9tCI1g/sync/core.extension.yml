@@ -2,15 +2,18 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 langcode: fr
 module:
+  addtoany: 0
   admin_toolbar: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
   animate_any: 0
   automated_cron: 0
+  back_to_top: 0
   backup_migrate: 0
   big_pipe: 0
   block: 0
+  block_access: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
@@ -18,7 +21,9 @@ module:
   config: 0
   config_translation: 0
   contact: 0
+  contact_storage: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
@@ -26,52 +31,78 @@ module:
   devel: 0
   devel_generate: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
+  file_download_link: 0
+  file_pdf_preview: 0
   filter: 0
   fontawesome: 0
   fontawesome_iconpicker_widget: 0
   fontawesome_menu_icons: 0
+  geofield: 0
   hal: 0
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_effects: 0
   language: 0
   layout_discovery: 0
+  leaflet: 0
+  leaflet_more_maps: 0
   link: 0
   locale: 0
+  mailsystem: 0
   media: 0
   media_library: 0
   media_library_form_element: 0
   media_library_theme_reset: 0
+  media_video_micromodal: 0
+  menu_link_attributes: 0
   menu_link_content: 0
   menu_ui: 0
   mydefaultcontent: 0
+  native_lazy_loading: 0
   node: 0
   notifications_widget: 0
   options: 0
+  owlcarousel: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  photoswipe: 0
   rdf: 0
+  realistic_dummy_content: 0
+  realistic_dummy_content_api: 0
   redirect: 0
   rest: 0
+  role_delegation: 0
   search: 0
   serialization: 0
   shortcut: 0
+  spamspan: 0
   structure_sync: 0
   superfish: 0
+  svg_image_field: 0
+  swiftmailer: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
+  transliterate_filenames: 0
   user: 0
+  views_bootstrap: 0
+  views_infinite_scroll: 0
   views_ui: 0
   webp: 0
   fontyourface: 1
+  pathauto: 1
   block_content: 9
   content_translation: 10
   google_fonts_api: 10

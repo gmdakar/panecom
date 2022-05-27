@@ -1,0 +1,8 @@
+uuid: c450f3ef-0a53-4db8-8eaa-ea9e7f455a0c
+langcode: fr
+status: true
+dependencies: {  }
+id: nous-suivre-
+label: 'Nous suivre '
+description: 'Réseaux sociaux liens'
+locked: false
