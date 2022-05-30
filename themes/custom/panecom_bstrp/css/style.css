@@ -922,6 +922,10 @@ li.sf-depth-1 ul{
 	position: relative;
 }
 
+.page-view-les-organisations main#content {
+    margin-left: 15px;
+}
+
 .view-les-organisations .views-field-title .field-content {
     position: absolute;
     top: 50%;
@@ -1010,6 +1014,14 @@ li.sf-depth-1 ul{
     margin: 1.5rem .5rem;
 }
 
+.sidebar .block-views-blockprojets-block-1 .item-list ul li {
+    margin: 1rem 0;
+    padding: 0.5em 0.15em;
+    background-color: #fdfdfd;
+	box-shadow: rgb(208 208 208 / 50%) 0px 3px 2px 0px ;
+    border-right: 5px solid var(--color2);
+}
+
 .page-view-projets .view-projets .views-field-title {
     padding: 0.6rem 1rem;
     height: 75px;
@@ -1021,6 +1033,10 @@ li.sf-depth-1 ul{
 .sidebar .block-views-blockprojets-block-1 {
    border: none !important;
    padding: 0 !important;
+}
+
+.sidebar .block-views-blockprojets-block-1 .row {
+   margin-right: 0;
 }
 
 .page-view-les-organisations .sidebar.col-md-3,
@@ -1039,7 +1055,7 @@ li.sf-depth-1 ul{
 .sidebar .block-views-blockprojets-block-1 h2 {
     margin: 2rem 0 0.5em;
     background-color: var(--color1);
-    font-size: 1.35em;
+    font-size: 1.4rem;
 	text-transform: uppercase;
     line-height: 1.2;
     margin-left: -15px;
@@ -1049,7 +1065,10 @@ li.sf-depth-1 ul{
 }
 
 .sidebar .views-field-body {
-    font-size: .85rem;
+    font-size: .9rem;
+	color: #4a5255;
+	font-weight: 300;
+	display: none;
 }
 
 .sidebar .block-views-blockprojets-block-1 img{
@@ -1057,10 +1076,10 @@ li.sf-depth-1 ul{
 }
 
 .sidebar .wrapping {
-    border-bottom: 1px dotted #ece5e5;
     margin-bottom: 1rem;
-    padding-right: 0.35rem;
-    font-size: 1.1rem;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    font-size: 1.05rem;
+    min-height: 5.35rem;
 }
 
 .page-view-projets .view-projets .views-field-title .field-content {
