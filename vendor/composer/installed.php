@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c91da81d8616e25b9aa0c853c6a54938cf6cfdd1',
+        'reference' => '0255bea044327af1bd50003886af48568f4ebf8b',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -678,6 +678,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/entityreference_filter' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/entityreference_filter',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -834,6 +843,15 @@
             'reference' => '8.x-2.3',
             'dev_requirement' => false,
         ),
+        'drupal/imagefield_slideshow' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/imagefield_slideshow',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
         'drupal/inline_form_errors' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -942,7 +960,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c91da81d8616e25b9aa0c853c6a54938cf6cfdd1',
+            'reference' => '0255bea044327af1bd50003886af48568f4ebf8b',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

@@ -21,6 +21,10 @@
 
 }
 
+body {
+	overflow-x: hidden;
+}
+
 a.feed-icon {
     display: none;
 }
@@ -30,11 +34,14 @@ a:not(enchor).is-active {
     color:var(--color3);
 }
 
-/*
-a.enchor {
-    color: initial !important;
-}*/
+.path-frontpage #content {
+    margin: 0 !important;
+}
 
+main#content {
+    padding: 1rem;
+    margin: 0rem 2% 1rem 2%;
+}
 
 /*slideshow*/
 .carousel-indicators li.active {
@@ -379,123 +386,6 @@ span.addtoany_list{
     display: none;
 }
 
-/*les organisations*/
-.view-les-organisations {
-	margin: .5rem 10%;
-	text-align: center;
-}
-
-.page-view-les-organisations .title {
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.view-les-organisations .page-link {
-    border-radius: 0.5rem !important; 
-	border: none !important;
-	font-weight: 300 !important;
-	margin:0 .12rem;
-}
-
-.view-les-organisations .page-item.active .page-link {
-    background-color: #eecef !important;
-	color: var(--color3) !important;
-	font-weight: 500 !important;
-}
-
-.view-les-organisations li:hover .page-link{
-    color: var(--color3) !important;
-}
-
-.view-les-organisations .page-link a{  
-    border: none !important;
-}
-
-.view-les-organisations nav {
-	display: inline-block;
-}
-
-.view-les-organisations .wrapping {
-    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
-    height: 460px;
-    /* position: relative; */
-    
-	margin: 1.4rem 2%;
-}
-
-.view-les-organisations .views-field-field-org-logo {
-    position: relative;
-    height: 250px;
-    /* margin: 1.15rem 0; */
-    background-color: #fff;
-    /* padding: 1rem 0; */
-}
-
-.view-les-organisations .views-field-field-org-logo img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	max-width: 220px;
-    max-height: 220px;
-}
-
-.owl-dot.active span{
-	background: var(--color3) !important;
-}
-
-.owl-theme .owl-nav.disabled + .owl-dots {
-    margin-bottom: .75rem;
-}
-
-.more-link a {
-    display: inline-block;
-    background-color: transparent;
-    padding: 0.5rem 1rem;
-    color: var(--color1);
-    text-decoration: none;
-	border:1px solid var(--color1);
-	font-size:1.25rem;
-}
-
-.more-link:hover a {
-    background-color: #fff;
-	border:1px solid var(--color3);
-    padding: 0.5rem 1rem;
-    color: var(--color3);
-}
-
-.view-les-organisations .views-field-title {
-    padding: 0.6rem 1rem;
-    height: 95px;
-    background-color: var(--color1);
-    overflow: hidden;
-}
-
-.view-les-organisations .views-field-title  a {
-    font-size: 1.16rem;
-    /*font-weight: 500; */
-    text-transform: uppercase;
-	color: #fff;
-}
-
-.view-les-organisations .views-field-title  a:hover {
-	color: var(--color3);
-	text-decoration: none !important;
-}
-
-.view-les-organisations .views-field-body {
-    padding: 0.5rem 0.5rem;
-    font-weight: 300;
-    color: var(--color1);
-    background-color: #fff;
-}
-
-main#content {
-    padding: 1rem;
-    margin: 0rem 2% 1rem 2%;
-}
-
 /* réseaux sociaux liens*/
 ul[block="block-resosocio"] .fa {
     font-size: 1.2rem;
@@ -641,6 +531,10 @@ ul.sf-menu li a:hover,
 .nav-link:hover {
     color: var(--color3) !important;
 	text-decoration: none !important;
+}
+
+#block-navigationprincipale ul.sf-menu span.nolink {
+    color: #0a3255;
 }
 
 /*tous les liens du top header et du menu en majuscule*/
@@ -845,8 +739,7 @@ span.field.field--name-title {
     /*color: var(--color3);*/
 }
 
-/***** ORGANISATIONS **/
-/**owl carousel organisations*/
+/*les organisations*/
 .view-organisations {
     margin: 2rem auto;
 }
@@ -855,6 +748,7 @@ span.field.field--name-title {
 .owl-buttons div:hover{
 	background: var(--color3) !important;
 }
+
 .view-organisations .owl-item > div{
     padding: 0 100px;
     text-align: center;
@@ -951,6 +845,390 @@ li.sf-depth-1 ul{
 	padding: 0 5rem;
 }
 
+.view-les-organisations {
+	margin: .5rem 2%;
+	text-align: center;
+}
+
+.path-frontpage .view-les-organisations {
+	margin: .5rem 10%;
+	text-align: center;
+}
+
+
+.page-view-les-organisations .title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.view-les-organisations .page-link {
+    border-radius: 0.5rem !important; 
+	border: none !important;
+	font-weight: 300 !important;
+	margin:0 .12rem;
+}
+
+.view-les-organisations .page-item.active .page-link {
+    background-color: #eecef !important;
+	color: var(--color3) !important;
+	font-weight: 500 !important;
+}
+
+.view-les-organisations li:hover .page-link{
+    color: var(--color3) !important;
+}
+
+.view-les-organisations .page-link a{  
+    border: none !important;
+}
+
+.view-les-organisations nav {
+	display: inline-block;
+}
+
+.view-les-organisations .wrapping {
+    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
+    height: 425px;
+    /* position: relative; */
+    margin: 0.9rem 0;
+}
+
+.path-frontpage .view-les-organisations .wrapping {
+    margin: 1.5rem .5rem;
+}
+
+.view-les-organisations .views-field-field-org-logo {
+    position: relative;
+    height: 195px;
+    /* margin: 1.15rem 0; */
+    background-color: #fff;
+    /* padding: 1rem 0; */
+}
+
+.view-les-organisations .views-field-field-org-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	max-width: 130px;
+    max-height: 130px;
+}
+
+.view-les-organisations .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 95px;
+    background-color: var(--color1);
+    overflow: hidden;
+	position: relative;
+}
+
+.view-les-organisations .views-field-title .field-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+}
+
+.view-les-organisations .views-field-title  a {
+    font-size: 1.16rem;
+    /*font-weight: 500; */
+    text-transform: uppercase;
+	color: #fff;
+}
+
+.view-les-organisations .views-field-title  a:hover {
+	color: var(--color3);
+	text-decoration: none !important;
+}
+
+.view-les-organisations .views-field-body {
+    padding: 0.5rem 0.5rem;
+    font-weight: 300;
+    color: var(--color1);
+    background-color: #fff;
+}
+
+
+/*les projets*/
+.page-view-projets .view-projets {
+	margin: .5rem 2%;
+	text-align: center;
+}
+
+.path-frontpage .page-view-projets .view-projets {
+	margin: .5rem 10%;
+	text-align: center;
+}
+
+.page-view-projets .title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.page-view-projets .view-projets .page-link {
+    border-radius: 0.5rem !important; 
+	border: none !important;
+	font-weight: 300 !important;
+	margin:0 .12rem;
+}
+
+.page-view-projets .view-projets .page-item.active .page-link {
+    background-color: #eecef !important;
+	color: var(--color3) !important;
+	font-weight: 500 !important;
+}
+
+.page-view-projets .view-projets li:hover .page-link{
+    color: var(--color3) !important;
+}
+
+.page-view-projets .view-projets .page-link a{  
+    border: none !important;
+}
+
+.page-view-projets .view-projets nav {
+	display: inline-block;
+}
+
+.page-view-projets .view-projets .wrapping {
+    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
+    height: 512px;
+    /* position: relative; */
+    margin: 0.9rem 0;
+}
+
+.views-field-field-projet-photos {
+    max-height: 280px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+
+.path-frontpage .page-view-projets .view-projets .wrapping {
+    margin: 1.5rem .5rem;
+}
+
+.page-view-projets .view-projets .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 75px;
+    background-color: var(--color1);
+    overflow: hidden;
+	position: relative;
+}
+
+.sidebar .block-views-blockprojets-block-1 {
+   border: none !important;
+   padding: 0 !important;
+}
+
+.page-view-les-organisations .sidebar.col-md-3,
+.node--type-projet .sidebar.col-md-3
+{
+    -ms-flex: 0 0 28%;
+    flex: 0 0 28%;
+    max-width: 28%;
+}
+
+.page-view-les-organisations div#main > .row,
+.node--type-projet div#main > .row {
+    margin-right: 0;
+}
+
+.sidebar .block-views-blockprojets-block-1 h2 {
+    margin: 2rem 0 0.5em;
+    background-color: var(--color1);
+    font-size: 1.35em;
+	text-transform: uppercase;
+    line-height: 1.2;
+    margin-left: -15px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.sidebar .views-field-body {
+    font-size: .85rem;
+}
+
+.sidebar .block-views-blockprojets-block-1 img{
+	border-radius: 5px 20px 10px !important;
+}
+
+.sidebar .wrapping {
+    border-bottom: 1px dotted #ece5e5;
+    margin-bottom: 1rem;
+    padding-right: 0.35rem;
+    font-size: 1.1rem;
+}
+
+.page-view-projets .view-projets .views-field-title .field-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+}
+
+.page-view-projets .view-projets .views-field-title  a {
+    font-size: 1.16rem;
+    /*font-weight: 500; */
+    text-transform: uppercase;
+	color: #fff;
+}
+
+.page-view-projets .view-projets .views-field-title  a:hover {
+	color: var(--color3);
+	text-decoration: none !important;
+}
+
+.views-field.views-field-field-projet-category {
+    padding-top: 1rem;
+}
+
+.page-view-projets .view-projets .views-field-body {
+    padding: .75rem 1rem;
+    font-weight: 300;
+    color: var(--color1);
+    background-color: #fff;
+}
+
+.owl-dot.active span{
+	background: var(--color3) !important;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-bottom: .75rem;
+}
+
+.more-link a {
+    display: inline-block;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    color: var(--color1);
+    text-decoration: none;
+	border:1px solid var(--color1);
+	font-size:1.25rem;
+}
+
+.more-link:hover a {
+    background-color: #fff;
+	border:1px solid var(--color3);
+    padding: 0.5rem 1rem;
+    color: var(--color3);
+}
+
+.node--type-projet .field--name-field-projet-category .field__item::before {
+    content: "#";
+    margin-right: 0.05rem;
+    color: var(--color3);
+	display: inline-block;
+}
+
+.node--type-projet .field--type-entity-reference {
+    margin: 0 0 .35em !important;
+}
+
+.node--type-projet .field--name-field-projet-category .field__item {
+    margin-right: 0.5rem;
+    color: #6c4545;
+    background-color: #d1d1d1;
+    padding: 0.15rem 0.5rem;
+}
+
+.field--type-entity-reference.field__items div {
+    display: inline;
+}
+
+.node--type-projet .field__label{
+    background-color: var(--color3);
+    color: #fff !important;
+    padding: 0 0.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    border-left: 1px solid var(--color1);
+	font-size: 1.15rem !important;
+	font-weight:300;
+}
+
+.node--type-projet .field--name-field-projet-photos{
+    margin-top: 1rem;
+}
+
+.node--type-projet .imagefield_slideshow-wrapper div img{
+    min-height: 150px;
+	border-radius: 15px 50px 30px !important;
+	box-shadow: rgb(0 0 0 / 40%) 0px 0px 8px;
+}
+
+.node--type-projet .field--name-field-projet-category.field--label-inline .field__items {
+    display: inline-block;
+}
+
+.node--type-projet .imagefield_slideshow-wrapper {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.node--type-projet .field__item{
+	position: relative;
+	margin-top: .5rem;
+}
+
+.node--type-projet .field__item a.myButton::before,
+.node--type-projet .field__item a.photoswipe::before {
+    content: "\f00e";
+    font-family: "Font Awesome 5 Free";
+	font-weight:600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #d7d7d7;
+    cursor: pointer;
+}
+
+.node--type-projet .field__item a.myButton::before {
+    content: "\f04b";
+    font-size: 3rem;
+}
+
+.node--type-projet .field__item:focus a.myButton,
+.node--type-projet .field__item:focus a.photoswipe {
+    color:var(--color3) !important;
+}
+
+.node--type-projet .media-library-item__name {
+    display: none;
+}
+
+.node--type-projet .field--name-body {
+    font-family: "Roboto";
+	font-size: 1.15rem;
+}
+
+.node--type-projet .field--name-field-projet-site-web{
+    margin-top: 1rem;
+}
+
+.node--type-projet .field--name-field-projet-localisation{
+    clear: both;
+}
+
+.node--type-projet .field__label {
+    color: black;
+}
+
+.node--type-projet .field__item a img {
+    border: 3px solid #fff;
+}
+
+
 /*block header bandeau image content type*/
 #block-backgroundheaderorganisationmembre >  .content > div,
 #block-backgroundheaderorganisationsmembres >  .content > div,
@@ -1039,35 +1317,9 @@ li.sf-depth-1 ul{
 	font-weight:300;
 }
 
-/*
-.node--type-organisation-membre #block-panecom-bstrp-page-title .title {
-	text-align: center;
-	font-size: 1.85rem;
-    font-weight: 600;
-	text-transform: uppercase;
-	background-color: var(--color1);
-	color: #fff;
-	padding: .75rem .5rem 0 0;
-}
-
-.node--type-organisation-membre #block-panecom-bstrp-page-title .title::after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 10rem;
-    background-color: var(--color1);
-    margin: 0.5rem auto;
-}
-*/
 .node--type-organisation-membre .field--name-field-org-photos{
     margin-top: 1rem;
 }
-
-/*.node--type-organisation-membre main#content {
-    background-color: #fdfdfd;
-    padding: 2rem;
-	margin:0 1rem 1rem 3rem;
-}*/
 
 .node--type-organisation-membre .field--name-field-org-image-hero img,
 .node--type-organisation-membre img.image-style-media-library {
