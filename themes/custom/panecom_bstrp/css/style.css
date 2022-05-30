@@ -884,6 +884,7 @@ li.sf-depth-1 ul{
 
 .view-les-organisations nav {
 	display: inline-block;
+	margin: 1.5rem auto;
 }
 
 .view-les-organisations .wrapping {
@@ -993,6 +994,7 @@ li.sf-depth-1 ul{
 
 .page-view-projets .view-projets nav {
 	display: inline-block;
+	margin: 1.5rem auto;
 }
 
 .page-view-projets .view-projets .wrapping {
@@ -1247,6 +1249,71 @@ li.sf-depth-1 ul{
     border: 3px solid #fff;
 }
 
+/*les documents*/
+
+.page-view-documents .views-field-field-document-apercu-imag {
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+
+.page-view-documents .view-documents .wrapping {
+    box-shadow: rgb(208 208 208 / 80%) 0px 0px 7px;
+    height: 290px;
+    /* position: relative; */
+    margin: 0.9rem 0;
+	overflow: hidden;
+	text-align: left;
+	padding: .5rem;
+}
+
+.page-view-documents .view-documents .wrapping .views-field-title {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+.page-view-documents .view-documents .views-field-body {
+    font-size: .95rem;
+    font-weight: 300;
+}
+
+.page-view-documents .view-documents .wrapping .views-field.views-field-field-document-fichier a {
+    font-size: .9rem;
+    color: var(--color1);
+    font-weight: 300;
+}
+
+.page-view-documents .page-link {
+    border-radius: 0.5rem !important; 
+	border: none !important;
+	font-weight: 300 !important;
+	margin:0 .12rem;
+}
+
+.page-view-documents .page-item.active .page-link {
+    background-color: #eecef !important;
+	color: var(--color3) !important;
+	font-weight: 500 !important;
+}
+
+.page-view-documents li:hover .page-link{
+    color: var(--color3) !important;
+}
+
+.page-view-documents .page-link a{  
+    border: none !important;
+}
+
+.page-view-documents .view-documents nav {
+	display: inline-block;
+	margin: 1.5rem auto;
+}
+
+.view-documents {
+    text-align: center;
+}
 
 /*block header bandeau image content type*/
 #block-backgroundheaderorganisationmembre >  .content > div,
@@ -1593,7 +1660,7 @@ div#block-copyright {
     padding: 0.5rem;
     color: #fff;
 }
-.path-mediatheque .form-item-combine {
+.form-item-combine {
     display: inline-block;
     margin: 0.5rem;
 }
@@ -1607,7 +1674,7 @@ h1.title {
     font-weight: 700;
 }
 
-.path-mediatheque .form-item-combine input {
+.form-item-combine input {
     text-align: center;
     border-radius: 45px;
     border-top-left-radius: 45px;
@@ -1617,12 +1684,12 @@ h1.title {
     padding: 8px 2rem;
 }
 
-.path-mediatheque .views-exposed-form {
+.views-exposed-form {
     text-align: center;
     margin: 1rem 0 2rem 0;
 }
 
-.path-mediatheque .form-actions {
+.form-actions {
     position: relative;
     top: -1rem;
 }
@@ -1639,8 +1706,7 @@ h1.title {
     text-align: center;
 }
 
-.view-gallerie-images .view-filters,
-.view-gallerie-videos .view-filters {
+.view-filters {
     display: inline-block;
 }
 
