@@ -8,6 +8,8 @@ global-styling:
       css/colors.css: {}
     theme:
       https://fonts.googleapis.com/css?family=Roboto+Condensed:300,regular,700|Roboto:300,700,900|Roboto+Mono:regular,600&subset=latin: { type: external }
+  dependencies:
+    - core/drupalSettings
 bootstrap:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: {}

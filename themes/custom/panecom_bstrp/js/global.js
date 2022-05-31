@@ -107,6 +107,8 @@
   Drupal.behaviors.panecom_bstrp_misc = {
         attach: function (context, settings) {
 			
+			var langCode = drupalSettings.path.currentLanguage;
+			$("."+langCode+".nav-link").addClass("is-active"); //force active lang (hack js car pas d'explication sur le bug)
 			
             /*onload page: make focus to first element sidebar menu organisation membre */
 			$(".sidebar #block-menuorganisationmembre.block li:first-child a").addClass( "focused");
