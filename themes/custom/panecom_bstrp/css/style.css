@@ -1363,6 +1363,13 @@ li.sf-depth-1 ul{
     text-align: center;
 }
 
+/* les pages simples*/
+.node--type-page .field--name-field-pagebase-image img
+{
+	border-radius: 15px 50px 30px !important;
+	box-shadow: rgb(0 0 0 / 40%) 0px 0px 8px;
+}
+
 /*block header bandeau image content type*/
 #block-backgroundheaderorganisationmembre >  .content > div,
 #block-backgroundheaderorganisationsmembres >  .content > div,
