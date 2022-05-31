@@ -87,16 +87,11 @@ a.nav-link.nav-link--fr-user-login{
 }
 /*rendre visible l'icon hamburger*/
 .navbar-toggler { 
-    background-color: var(--color2);
+   /* background-color: var(--color2);*/
 }
+
 .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%29%0, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after{
-   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%29%0, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;*/
-   content: "\f410"; 
-   font-family: "Font Awesome 5 Free"; 
-   font-size: 2rem; 
+		background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.4%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e) !important;
 }
 
 /*corriger léger décalage qui entraine l'apparition de la barre horizontale en bas de page*/
@@ -1795,6 +1790,47 @@ h1.title {
 	nav#navbar-top {
 	   padding: 0.5rem 0rem 0.5rem 2rem;
 	}
+	
+	.sidebar #block-menumediatheque-2.block,
+	.sidebar #block-navigationprincipale-2.block {
+		display: none;
+	}
+	
+	#block-navigationprincipale ul.sf-menu span.nolink {
+      padding: 16.8px 25.2px;
+    }
+	
+	ul.sf-menu > li:first-child > a .fa-home, ul.sf-menu > li:first-child > a .fa-home {
+		margin: 0;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div {
+		font-size: 1.15rem;
+	}
+	
+	#block-zoneactualitessidebarrightfrontpage .layout > div:first-child {
+		height: 550px;
+		margin: 0 !important;
+	}
+	
+	.sidebar.col-md-3 {
+		-ms-flex: inherit;
+		flex: inherit;
+		max-width: inherit;
+	}
+	
+	#contact-message-contactez-nous-form {
+		width:100%;
+	}
+	
+	.form-row .form-actions {
+		margin: 2rem auto;
+		margin-bottom: 0rem;
+	}
+	
+	.sidebar .block-views-blockprojets-block-1 {
+		margin-left: 30px !important;
+	}
 
 }
 
@@ -1821,6 +1857,56 @@ h1.title {
 	nav#navbar-top {
 	   padding: 0.5rem 0rem 0.5rem 2rem;
 	}
+	
+	.sidebar #block-menumediatheque-2.block,
+	.sidebar #block-navigationprincipale-2.block {
+		display: none;
+	}
+	
+	#block-navigationprincipale ul.sf-menu span.nolink {
+      padding: 16.8px 25.2px;
+    }
+	
+	ul.sf-menu > li:first-child > a .fa-home, ul.sf-menu > li:first-child > a .fa-home {
+		margin: 0;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div {
+		font-size: 1.15rem;
+	}
+	
+	#block-zoneactualitessidebarrightfrontpage .layout > div:first-child {
+		height: 550px;
+		margin: 0 !important;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa {
+		padding: 0 !important;
+	}
+	
+	main#content {
+		padding: 0 1rem;
+	}
+	
+	.sidebar.col-md-3 {
+		-ms-flex: inherit !important;
+		flex: inherit !important;
+		max-width: inherit !important;
+	}
+	
+	#contact-message-contactez-nous-form {
+		width:100%;
+	}
+	
+	.form-row .form-actions {
+		margin: 2rem auto;
+		margin-bottom: 0rem;
+	}
+	
+	.sidebar .block-views-blockprojets-block-1 {
+		margin-left: 30px !important;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -1841,6 +1927,48 @@ h1.title {
 	nav#navbar-top {
 	   padding: 0.5rem 0rem 0.5rem 2rem;
 	}
+	
+	.sidebar #block-menumediatheque-2.block,
+	.sidebar #block-navigationprincipale-2.block {
+		display: none;
+	}
+	
+	#block-navigationprincipale ul.sf-menu span.nolink {
+      padding: 16.8px 25.2px;
+    }
+	
+	ul.sf-menu > li:first-child > a .fa-home, ul.sf-menu > li:first-child > a .fa-home {
+		margin: 0;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div {
+		font-size: 1.15rem;
+	}
+	
+	#block-zoneactualitessidebarrightfrontpage .layout > div:first-child {
+		height: 550px;
+		margin: 0 !important;
+	}
+	
+	.sidebar.col-md-3 {
+		-ms-flex: inherit;
+		flex: inherit;
+		max-width: inherit;
+	}
+	
+	#contact-message-contactez-nous-form {
+		width:100%;
+	}
+	
+	.form-row .form-actions {
+		margin: 2rem auto;
+		margin-bottom: 0rem;
+	}
+	
+	.sidebar .block-views-blockprojets-block-1 {
+		margin-left: 30px !important;
+	}
+
 
 }
 
@@ -1863,11 +1991,11 @@ h1.title {
 	   padding: 0.5rem 0rem 0.5rem 2rem;
 	}
 	
-   ul.sf-menu li a{
+    ul.sf-menu li a{
 		padding: 1rem;
-   }
+    }
    
-   #block-infosutiles .nav-link {
+    #block-infosutiles .nav-link {
 		padding-left: 0.4rem;
 		padding-right: 0.4rem;
 	}
@@ -1882,6 +2010,47 @@ h1.title {
 	
 	div#block-selecteurdelangue .links.nav a {
 		font-size: .75rem;
+	}
+	
+	.sidebar #block-menumediatheque-2.block,
+	.sidebar #block-navigationprincipale-2.block {
+		display: none;
+	}
+	
+	#block-navigationprincipale ul.sf-menu span.nolink {
+      padding: 16.8px 25.2px;
+    }
+	
+	ul.sf-menu > li:first-child > a .fa-home, ul.sf-menu > li:first-child > a .fa-home {
+		margin: 0;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div {
+		font-size: 1.15rem;
+	}
+	
+	#block-zoneactualitessidebarrightfrontpage .layout > div:first-child {
+		height: 550px;
+		margin: 0 !important;
+	}
+	
+	.sidebar.col-md-3 {
+		-ms-flex: inherit;
+		flex: inherit;
+		max-width: inherit;
+	}
+	
+	#contact-message-contactez-nous-form {
+		width:100%;
+	}
+	
+	.form-row .form-actions {
+		margin: 2rem auto;
+		margin-bottom: 0rem;
+	}
+	
+	.sidebar .block-views-blockprojets-block-1 {
+		margin-left: 30px !important;
 	}
 
 }
@@ -1908,6 +2077,14 @@ h1.title {
 	
 	div#block-selecteurdelangue .links.nav a {
 		font-size: .75rem;
+	}
+	
+	#block-navigationprincipale ul.sf-menu li a, #block-navigationprincipale .nav-link, #block-navigationprincipale .nolink {
+		font-size: .9rem !important;
+	}
+	
+	.block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div {
+		font-size: 1.15rem;
 	}
 	
 }
@@ -1962,5 +2139,3 @@ h1.title {
 	}
 
 }
-
-

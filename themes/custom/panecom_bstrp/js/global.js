@@ -107,6 +107,8 @@
   Drupal.behaviors.panecom_bstrp_misc = {
         attach: function (context, settings) {
 			
+			$("button.navbar-toggler").removeClass("navbar-togagler"); //for small screen remove this class in order to display correctly hamburger icon
+			
 			var langCode = drupalSettings.path.currentLanguage;
 			$("."+langCode+".nav-link").addClass("is-active"); //force active lang (hack js car pas d'explication sur le bug)
 			
