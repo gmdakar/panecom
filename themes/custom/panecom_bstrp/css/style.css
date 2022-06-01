@@ -31,7 +31,7 @@ a.feed-icon {
 
 a:not(enchor):hover,
 a:not(enchor).is-active {
-    color:var(--color3);
+    color:var(--color3) !important;
 }
 
 .path-frontpage #content {
@@ -46,6 +46,19 @@ main#content {
 /*slideshow*/
 .carousel-indicators li.active {
     background-color: var(--color3) !important;
+}
+
+.view-id-slideshow .carousel-caption h3 {
+    background-color: #0000001c;
+    padding: 1.15rem 0;    
+}
+
+.view-id-slideshow .carousel-caption h3 a{
+    color: #ffffff;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.8rem;
+	text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
 }
 
 #block-views-block-slideshow-block-1 {
@@ -210,12 +223,6 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     transform: translate(-50%, -50%);
     padding: 3rem 2rem 1rem 2rem;
     font-weight: 300;
-}
-
-.carousel-caption h3 a {
-    font-size: 2rem !important;
-    font-weight: 700 !important;
-    color: #ffffff !important;
 }
 
 .block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body div strong {
@@ -956,7 +963,7 @@ li.sf-depth-1 ul{
 
 /*les projets*/
 
-..node--type-projet main#content {
+.node--type-projet main#content {
     margin-left: 15px;
 }
 
@@ -1019,7 +1026,6 @@ li.sf-depth-1 ul{
     float: left;
     margin-right: 1rem;
 }
-
 
 .page-view-projets .views-field-field-projet-photos {
     max-height: 220px;
@@ -1370,6 +1376,79 @@ li.sf-depth-1 ul{
 
 .view-documents {
     text-align: center;
+}
+
+/* les actualités*/
+.node--type-article .field--name-field-image img
+{
+	border-radius: 15px 50px 30px !important;
+	box-shadow: rgb(0 0 0 / 40%) 0px 0px 8px;
+}
+
+.node--type-article .node__meta {
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.node--type-article main#content {
+    margin-left: 15px;
+}
+
+.sidebar .views-field-field-image {
+    max-height: 290px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+
+.sidebar .block-views-blockslideshow-block-2 .item-list ul li {
+    margin: 1rem 0;
+    padding: 0.5em 0.15em;
+    background-color: #fdfdfd;
+	box-shadow: rgb(208 208 208 / 50%) 0px 3px 2px 0px ;
+    border-right: 5px solid var(--color2);
+}
+
+.sidebar .block-views-blockslideshow-block-2 {
+   border: none !important;
+   padding: 0 !important;
+}
+
+.sidebar .block-views-blockslideshow-block-2 .row {
+   margin-right: 0;
+}
+
+.node--type-article  .sidebar.col-md-3
+{
+    -ms-flex: 0 0 29%;
+    flex: 0 0 29%;
+    max-width: 29%;
+}
+
+.node--type-article div#main > .row {
+    margin-right: 0;
+}
+
+.sidebar .block-views-blockslideshow-block-2 {
+   border: none !important;
+   padding: 0 !important;
+}
+
+.sidebar .block-views-blockslideshow-block-2 h2 {
+    margin: 2rem 0 0.5em;
+    background-color: var(--color1);
+    font-size: 1.4rem;
+	text-transform: uppercase;
+    line-height: 1.2;
+    margin-left: -15px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.sidebar .block-views-blockslideshow-block-2 img{
+	border-radius: 5px 20px 10px !important;
 }
 
 /* les pages simples*/
@@ -1879,6 +1958,19 @@ h1.title {
 	.view-les-organisations {
 		margin: 0;
 	}
+	
+	.view-id-slideshow .carousel-caption {
+		display: block !important;    
+	}
+	
+	.view-id-slideshow .carousel-caption h3 a{
+		font-size: 1rem !important;    
+	}
+	
+	#block-evenementphare .field--name-body h2 {
+		font-size: 2rem !important;
+	}
+
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -1983,6 +2075,18 @@ h1.title {
 	.view-les-organisations {
 		margin: 0;
 	}
+	
+	.view-id-slideshow .carousel-caption {
+		display: block !important;    
+	}
+	
+	.view-id-slideshow .carousel-caption h3 a{
+		font-size: 1rem !important;    
+	}
+	
+	#block-evenementphare .field--name-body h2 {
+		font-size: 2rem !important;
+	}
 
 }
 
@@ -2078,6 +2182,18 @@ h1.title {
 	
 	.view-les-organisations {
 		margin: 0;
+	}
+	
+	.view-id-slideshow .carousel-caption {
+		display: block !important;    
+	}
+	
+	.view-id-slideshow .carousel-caption h3 a{
+		font-size: 1rem !important;    
+	}
+	
+	#block-evenementphare .field--name-body h2 {
+		font-size: 2rem !important;
 	}
 	
 }
@@ -2190,6 +2306,14 @@ h1.title {
 	
 	.view-les-organisations {
 		margin: 0;
+	}
+	
+	.view-id-slideshow .carousel-caption {
+		display: block !important;    
+	}
+	
+	.view-id-slideshow .carousel-caption h3 a{
+		font-size: 1rem !important;    
 	}
 	
 }
