@@ -5,3 +5,7 @@ Patches applied to this directory:
 Source: https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch
 
 
+#123460 - Fix some issues in order to make Field group label translatable
+Source: https://www.drupal.org/files/issues/2020-02-05/2546212-119.patch
+
+

@@ -29,8 +29,8 @@ a.feed-icon {
     display: none;
 }
 
-a:not(enchor):hover,
-a:not(enchor).is-active {
+a:not(.enchor):hover,
+a:not(.enchor).is-active {
     color:var(--color3) !important;
 }
 
@@ -422,7 +422,7 @@ header#header nav#navbar-main {
 	box-shadow: rgb(208 208 208 / 50%) 0px 0px 12px;
 }
 
-header#header:not(sticky) nav#navbar-main {
+header#header:not(.sticky) nav#navbar-main {
 	border-bottom:none;
 }
 
@@ -1038,11 +1038,13 @@ li.sf-depth-1 ul{
 }
 
 .sidebar .block-views-blockprojets-block-1 .item-list ul li {
-    margin: 1rem 0;
+    margin: .5rem 0;
     padding: 0.5em 0.15em;
     background-color: #fdfdfd;
 	box-shadow: rgb(208 208 208 / 50%) 0px 3px 2px 0px ;
     border-right: 5px solid var(--color2);
+	display: inline-block;
+	width: 100%;
 }
 
 .page-view-projets .view-projets .views-field-title {
@@ -1104,7 +1106,7 @@ li.sf-depth-1 ul{
 }
 
 .sidebar .block-views-blockprojets-block-1 h2 {
-    margin: 2rem 0 0.5em;
+    margin: 2rem 0 0.5rem 0;
     background-color: var(--color1);
     font-size: 1.4rem;
 	text-transform: uppercase;

@@ -296,7 +296,7 @@ class FileDownloadLink extends FileFormatterBase implements ContainerFactoryPlug
 
         // Link Text.
         if ($this->getSetting('link_text')) {
-          $text = $this->getSetting('link_text');
+          $text = $this->t($this->getSetting('link_text'));
           $text = $this->addDeltaToTokens($text, $delta, $entity_token_type, $field);
           $text = $this->token->replace($text, $data, ['langcode' => $langcode, 'clear' => TRUE], $bubbleable_metadata);
           // Token encodes & and ' e.g. as &amp; and &#39;.

@@ -7,9 +7,12 @@
 
 use Drupal\Core\Url;
 use Drupal\Core\Config\Entity\ConfigEntityInterface;
+use Drupal\Core\Entity\Display\EntityDisplayInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\field\FieldConfigInterface;
+use Drupal\config_translation\ConfigTranslation\EntityDisplayMapper;
+use Drupal\config_translation\Controller\ConfigTranslationEntityDisplayListBuilder;
 
 /**
  * Implements hook_help().
@@ -86,6 +89,10 @@ function config_translation_entity_type_alter(array &$entity_types) {
         // Will be filled in dynamically, see \Drupal\field\Entity\FieldConfig::linkTemplates().
         $entity_type->setLinkTemplate('config-translation-overview', $entity_type->getLinkTemplate('edit-form') . '/translate');
       }
+      elseif ($entity_type->entityClassImplements(EntityDisplayInterface::class)) {
+        $class = ConfigTranslationEntityDisplayListBuilder::class;
+        // @todo Link template is not used but should be set so other logic can apply.
+      }
       else {
         $class = 'Drupal\config_translation\Controller\ConfigTranslationEntityListBuilder';
       }
@@ -118,6 +125,22 @@ function config_translation_config_translation_info(&$info) {
           'base_entity_type' => $entity_type_id,
           'weight' => 10,
         ];
+        $info[$entity_type_id . '_form_display'] = [
+          'base_route_name' => "entity.entity_form_display.{$entity_type_id}.form_mode",
+          'entity_type' => 'entity_form_display',
+          'class' => EntityDisplayMapper::class,
+          'base_entity_type' => $entity_type_id,
+          'display_context' => 'form',
+          'weight' => 10,
+        ];
+        $info[$entity_type_id . '_view_display'] = [
+          'base_route_name' => "entity.entity_view_display.{$entity_type_id}.view_mode",
+          'entity_type' => 'entity_view_display',
+          'class' => EntityDisplayMapper::class,
+          'base_entity_type' => $entity_type_id,
+          'display_context' => 'view',
+          'weight' => 10,
+        ];
       }
     }
   }
@@ -147,6 +170,34 @@ function config_translation_config_translation_info(&$info) {
       'entity_type' => $entity_type_id,
       'weight' => 10,
     ];
+  }
+}
+
+/**
+ * Implements hook_local_tasks_alter().
+ */
+function config_translation_local_tasks_alter(&$local_tasks) {
+  if (\Drupal::moduleHandler()->moduleExists('field_ui')) {
+    // Move translate links to field_ui display edit forms.
+    foreach ($local_tasks as $id => &$task) {
+      if (!isset($task['config_translation_plugin_id'])
+        || !preg_match('/^entity\.entity_(view|form)_display\.config_translation_overview\.(.+)$/', $task['route_name'], $match)) {
+        continue;
+      }
+      list(, $display_context, $entity_type) = $match;
+      if ($display_context == 'view') {
+        $task['parent_id'] = "field_ui.fields:display_overview_{$entity_type}";
+      }
+      else {
+        $task['parent_id'] = "field_ui.fields:{$display_context}_display_overview_{$entity_type}";
+      }
+
+      // Add a task to the default display tab as well.
+      // @todo The path will conflict with view modes called "translate".
+      $tasks[$id . '.default'] = [
+        'base_route_name' => "entity.entity_view_display.{$entity_type}.default",
+      ] + $task;
+    }
   }
 }
 

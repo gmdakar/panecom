@@ -3,6 +3,7 @@
 namespace Drupal\Tests\config_translation\Functional;
 
 use Drupal\block_content\Entity\BlockContentType;
+use Drupal\Core\Entity\Entity\EntityFormDisplay;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\language\Entity\ConfigurableLanguage;
@@ -39,6 +40,7 @@ class ConfigTranslationListUiTest extends BrowserTestBase {
     'image',
     'responsive_image',
     'toolbar',
+    'taxonomy',
   ];
 
   /**
@@ -504,6 +506,22 @@ class ConfigTranslationListUiTest extends BrowserTestBase {
     $this->doSettingsPageTest('admin/config/system/site-information');
     // Test the account settings page.
     $this->doSettingsPageTest('admin/config/people/accounts');
+  }
+
+  /**
+   * Asserts that missing default display does not break the form display page.
+   */
+  public function testDisplayTranslation() {
+    $this->drupalLogin($this->rootUser);
+    // Setup vocabulary.
+    Vocabulary::create([
+      'vid' => 'tags',
+      'name' => 'Tags',
+    ])->save();
+    // Assert there is no default form display.
+    $this->assertNull(EntityFormDisplay::load('taxonomy_term.tags.default'));
+    $this->drupalGet('admin/structure/taxonomy/manage/tags/overview/form-display');
+    $this->assertResponse(200);
   }
 
 }

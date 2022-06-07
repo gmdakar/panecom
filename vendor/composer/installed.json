@@ -2209,7 +2209,8 @@
                     }
                 },
                 "patches_applied": {
-                    "#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch"
+                    "#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch",
+                    "#123460 - Fix some issues in order to make Field group label translatable": "https://www.drupal.org/files/issues/2020-02-05/2546212-119.patch"
                 }
             },
             "installation-source": "dist",
@@ -2945,6 +2946,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "#123461 - Fix some issues in order to make Field group label translatable": "https://www.drupal.org/files/issues/2022-03-21/3270849-2.patch"
                 }
             },
             "installation-source": "dist",
