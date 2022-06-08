@@ -1386,6 +1386,27 @@ li.sf-depth-1 ul{
     margin-left: 15px;
 }
 
+.path-article ul.js-pager__items.pager {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.path-article ul.js-pager__items.pager a.button {
+    display: inline-block;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    color: var(--color1);
+    text-decoration: none;
+	border:1px solid var(--color1);
+	font-size:1.25rem;
+}
+
+.path-article ul.js-pager__items.pager ::marker {
+    content:"";
+}
+
 .path-article .sidebar.col-md-3
 {
     -ms-flex: 0 0 29%;
@@ -2814,6 +2835,16 @@ h1.title {
 	
 	div#block-selecteurdelangue .links.nav a {
 		font-size: .75rem;
+	}
+	
+	.view-display-id-page_1 .views-field.views-field-title a{
+		font-size: .95rem;
+	}
+
+	.view-display-id-page_1 .views-field.views-field-body {
+		padding: .5rem;
+		font-weight: 300;
+		font-size: .8rem;
 	}
 
 
