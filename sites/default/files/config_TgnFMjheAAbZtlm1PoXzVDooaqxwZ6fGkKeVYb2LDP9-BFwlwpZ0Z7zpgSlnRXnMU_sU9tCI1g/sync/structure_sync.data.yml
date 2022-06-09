@@ -25,3 +25,38 @@ blocks:
           value: "<p>Copyright:&nbsp;<a href=\"https://www.digissol.com/\">Digissol</a>&nbsp;/ 2022&nbsp;</p>\r\n"
           summary: ''
           format: basic_html
+  -
+    info: 'Zone actualités + sidebar right (frontpage)'
+    langcode: fr
+    uuid: 212791b6-f082-46a4-b8e8-0e99b359531c
+    bundle: zone_actualites_sidebar_right_fr
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body: {  }
+  -
+    info: 'A propos'
+    langcode: fr
+    uuid: 25b3aa3d-43f7-40ed-b2ba-527b5477beaa
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<div>\r\n<p>Créer votre propre <strong>plateforme communautaire</strong><strong>.</strong></p>\r\n\r\n<p>La solution web <strong>Panecom&nbsp;</strong>propose aux entreprises et associations de créer leur propre site communautaire afin de rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n</div>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Evénement phare'
+    langcode: fr
+    uuid: 65fb0c3e-9ef5-4ed8-be0c-0dea8b257250
+    bundle: evenement_phare
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<h2>Symposium Dakar 2022</h2>\r\n\r\n<h3>Collectivités territoriales et développement durable</h3>\r\n\r\n<h4>du 15 au 22 janvier 2022</h4>\r\n"
+          summary: ''
+          format: basic_html
