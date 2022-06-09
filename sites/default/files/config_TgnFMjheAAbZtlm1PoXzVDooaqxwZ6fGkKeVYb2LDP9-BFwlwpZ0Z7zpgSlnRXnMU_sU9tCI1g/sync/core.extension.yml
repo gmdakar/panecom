@@ -106,10 +106,8 @@ module:
   webp: 0
   fontyourface: 1
   pathauto: 1
-  block_content: 9
   content_translation: 10
   google_fonts_api: 10
-  recreate_block_content: 10
   views: 10
   bootstrap_layout_builder: 13
   bootstrap_styles: 13
@@ -118,6 +116,7 @@ module:
   layout_builder_component_attributes: 13
   layout_builder_operation_link: 13
   layout_builder_save_and_edit: 13
+  block_content: 14
   standard: 1000
 theme:
   bartik: 0
