@@ -7,10 +7,10 @@ dependencies:
   module:
     - system
   theme:
-    - krowd_sub
+    - panecom_bstrp
 id: menumediatheque
-theme: krowd_sub
-region: ''
+theme: panecom_bstrp
+region: top_header
 weight: -19
 provider: null
 plugin: 'system_menu_block:menu-mediatheque'

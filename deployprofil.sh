@@ -88,7 +88,6 @@ mv delete.txt sites/*/*/*/*/core.extension.yml
 echo "rm delete.txt || true"
 rm delete.txt || true
 
-drush sql-drop --yes
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "
