@@ -14,6 +14,9 @@ module:
   big_pipe: 0
   block: 0
   block_access: 0
+  block_content: 0
+  bootstrap_layout_builder: 0
+  bootstrap_styles: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
@@ -53,6 +56,11 @@ module:
   jquery_ui: 0
   jquery_ui_effects: 0
   language: 0
+  layout_builder: 0
+  layout_builder_blocks: 0
+  layout_builder_component_attributes: 0
+  layout_builder_operation_link: 0
+  layout_builder_save_and_edit: 0
   layout_discovery: 0
   leaflet: 0
   leaflet_more_maps: 0
@@ -80,6 +88,7 @@ module:
   rdf: 0
   realistic_dummy_content: 0
   realistic_dummy_content_api: 0
+  recreate_block_content: 0
   redirect: 0
   rest: 0
   role_delegation: 0
@@ -107,17 +116,8 @@ module:
   pathauto: 1
   content_translation: 10
   google_fonts_api: 10
-  recreate_block_content: 10
   views: 10
-  bootstrap_layout_builder: 13
-  bootstrap_styles: 13
-  layout_builder: 13
-  layout_builder_blocks: 13
-  layout_builder_component_attributes: 13
-  layout_builder_operation_link: 13
-  layout_builder_save_and_edit: 13
-  block_content: 14
-  mydefaultcontent: 20
+  mydefaultcontent: 990
   standard: 1000
 theme:
   bartik: 0
