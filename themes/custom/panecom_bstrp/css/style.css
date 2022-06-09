@@ -384,6 +384,10 @@ span.addtoany_list{
 	margin-top: 1rem;
 }
 
+.path-contact #edit-submit {
+    margin-top: 1.25rem;
+}
+
 /*A cacher car en page d'accueil un titre de page est par défaut affiché par boostrap_bario*/
 .path-frontpage div#block-panecom-bstrp-page-title {
     display: none;
