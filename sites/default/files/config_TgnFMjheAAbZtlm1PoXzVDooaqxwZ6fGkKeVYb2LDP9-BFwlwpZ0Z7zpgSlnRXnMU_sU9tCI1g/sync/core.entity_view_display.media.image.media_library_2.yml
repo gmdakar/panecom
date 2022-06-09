@@ -1,0 +1,44 @@
+uuid: cd835d50-c609-4fcc-a6e0-11e9b6ed646e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library_2
+    - field.field.media.image.field_media_image
+    - image.style.media_library
+    - media.type.image
+  module:
+    - layout_builder
+    - photoswipe
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: whJrNezqUJ7Qhg7raMQj2Hz9JPiWxijezhWIEN9BVVk
+id: media.image.media_library_2
+targetEntityType: media
+bundle: image
+mode: media_library_2
+content:
+  field_media_image:
+    type: photoswipe_field_formatter
+    label: hidden
+    settings:
+      photoswipe_node_style_first: media_library
+      photoswipe_node_style: hide
+      photoswipe_image_style: ''
+      photoswipe_reference_image_field: ''
+      photoswipe_caption: custom
+      photoswipe_caption_custom: '[media:name] [media:thumbnail:alt]'
+      photoswipe_view_mode: media_library_2
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

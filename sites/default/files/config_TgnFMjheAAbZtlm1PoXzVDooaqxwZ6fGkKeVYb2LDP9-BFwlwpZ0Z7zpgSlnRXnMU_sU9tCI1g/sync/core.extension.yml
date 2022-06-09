@@ -33,6 +33,7 @@ module:
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
+  entityreference_filter: 0
   field: 0
   field_group: 0
   field_ui: 0
@@ -48,6 +49,7 @@ module:
   help: 0
   history: 0
   image: 0
+  imagefield_slideshow: 0
   jquery_ui: 0
   jquery_ui_effects: 0
   language: 0
@@ -64,6 +66,7 @@ module:
   media_video_micromodal: 0
   menu_link_attributes: 0
   menu_link_content: 0
+  menu_trail_by_path: 0
   menu_ui: 0
   mydefaultcontent: 0
   native_lazy_loading: 0

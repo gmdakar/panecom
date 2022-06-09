@@ -1,0 +1,29 @@
+label: Organisations
+display:
+  default:
+    display_options:
+      title: 'Member organizations'
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+  block_1:
+    display_options:
+      use_more_text: 'All organisations'
+  page_1:
+    display_options:
+      pager:
+        options:
+          tags:
+            first: '« First'
+            last: 'Last »'
+      filters:
+        combine:
+          expose:
+            description: 'Ex. title'
+            placeholder: 'Search an organisation'
+      empty:
+        area:
+          content:
+            value: "<p>No result.</p>\r\n"
+            format: basic_html

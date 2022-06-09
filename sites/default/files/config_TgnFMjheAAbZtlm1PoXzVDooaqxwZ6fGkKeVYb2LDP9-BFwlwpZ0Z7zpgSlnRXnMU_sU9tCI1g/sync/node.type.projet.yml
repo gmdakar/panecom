@@ -1,0 +1,17 @@
+uuid: 872662ec-ad5f-4f4e-8f76-6190d69616ad
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Projet
+type: projet
+description: 'Un projet est associé à une Organisation donnée. Une Organisation peut avoir plusieurs projets.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -10,7 +10,7 @@ id: node.organisation_membre.field_org_videos
 field_name: field_org_videos
 entity_type: node
 bundle: organisation_membre
-label: Videos
+label: Vidéos
 description: ''
 required: false
 translatable: false

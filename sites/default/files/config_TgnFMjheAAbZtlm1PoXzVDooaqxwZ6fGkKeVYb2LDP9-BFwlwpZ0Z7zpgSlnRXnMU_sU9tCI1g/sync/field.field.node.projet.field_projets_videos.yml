@@ -1,0 +1,29 @@
+uuid: 600027b0-7ec4-422b-b13f-4ab57bff949c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_projets_videos
+    - media.type.remote_video
+    - node.type.projet
+id: node.projet.field_projets_videos
+field_name: field_projets_videos
+entity_type: node
+bundle: projet
+label: Vidéo(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

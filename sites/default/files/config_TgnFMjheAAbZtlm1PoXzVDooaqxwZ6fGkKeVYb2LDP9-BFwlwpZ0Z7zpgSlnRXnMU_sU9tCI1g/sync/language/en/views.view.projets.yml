@@ -1,0 +1,33 @@
+label: Projects
+display:
+  default:
+    display_options:
+      title: Projects
+      exposed_form:
+        options:
+          reset_button_label: Reset
+          submit_button: Filter
+  block_1:
+    display_options:
+      use_more_text: 'All projects'
+  page_1:
+    display_options:
+      pager:
+        options:
+          tags:
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
+      empty:
+        area:
+          content:
+            value: "<p>No result.</p>\r\n"
+            format: basic_html
+      menu:
+        title: Projects
+      filters:
+        combine:
+          expose:
+            description: 'Ex. title'
+            placeholder: 'Search a project'

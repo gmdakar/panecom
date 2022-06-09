@@ -1,0 +1,33 @@
+display:
+  default:
+    display_options:
+      title: 'Media library'
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+      empty:
+        area:
+          content:
+            value: "<p>No result.</p>\r\n"
+            format: basic_html
+      filters:
+        combine:
+          expose:
+            description: 'Ex. title'
+            placeholder: Search
+  page_1:
+    display_title: 'Photos gallery'
+    display_options:
+      title: 'Photos gallery'
+  page_2:
+    display_title: 'Videos gallery'
+    display_options:
+      title: 'Videos gallery'
+      menu:
+        title: Videos
+      filters:
+        combine:
+          expose:
+            description: 'Ex. title'
+            placeholder: Search

@@ -9,11 +9,12 @@ dependencies:
   module:
     - media
     - user
+    - views_bootstrap
     - views_infinite_scroll
 id: gallerie_images
-label: 'Gallerie Images'
+label: Mediatheque
 module: views
-description: ''
+description: Mediatheque
 tag: ''
 base_table: media_field_data
 base_field: mid
@@ -112,7 +113,20 @@ display:
       cache:
         type: tag
         options: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: 'Aucun résultat.'
+            format: basic_html
+          tokenize: false
       sorts:
         created:
           id: created
@@ -200,6 +214,18 @@ display:
             group_items: {  }
           fields:
             name: name
+      style:
+        type: views_bootstrap_grid
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          uses_fields: true
+          col_xs: col-12
+          col_sm: col-sm-12
+          col_md: col-md-4
+          col_lg: col-lg-4
+          col_xl: col-xl-4
       row:
         type: 'entity:media'
         options:
@@ -214,8 +240,8 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      css_class: photoswipe-gallery
-      use_ajax: true
+      css_class: 'photoswipe-gallery container'
+      use_ajax: false
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -234,9 +260,21 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      title: 'Médiathèque - Photos'
+      defaults:
+        title: false
       display_description: ''
       display_extenders: {  }
       path: mediatheque/photos
+      menu:
+        type: none
+        title: Photos
+        description: ''
+        weight: -48
+        expanded: false
+        menu_name: main
+        parent: 'menu_link_content:0adfa3e9-6dde-40ca-ba8e-0f0d5c7a4278'
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
@@ -252,6 +290,7 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      title: 'Médiathèque - Vidéos'
       filters:
         status:
           id: status
@@ -356,6 +395,7 @@ display:
         groups:
           1: AND
       defaults:
+        title: false
         css_class: false
         filters: false
         filter_groups: false
@@ -363,6 +403,15 @@ display:
       display_description: ''
       display_extenders: {  }
       path: mediatheque/videos
+      menu:
+        type: none
+        title: Vidéos
+        description: ''
+        weight: -47
+        expanded: false
+        menu_name: main
+        parent: 'menu_link_content:0adfa3e9-6dde-40ca-ba8e-0f0d5c7a4278'
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

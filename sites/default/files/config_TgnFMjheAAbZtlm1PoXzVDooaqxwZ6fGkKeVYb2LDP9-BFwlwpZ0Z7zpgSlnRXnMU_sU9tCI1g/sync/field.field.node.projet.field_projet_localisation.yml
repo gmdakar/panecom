@@ -1,0 +1,21 @@
+uuid: 0fa73359-9922-404a-a2af-e76cb4889742
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_projet_localisation
+    - node.type.projet
+  module:
+    - geofield
+id: node.projet.field_projet_localisation
+field_name: field_projet_localisation
+entity_type: node
+bundle: projet
+label: Localisation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

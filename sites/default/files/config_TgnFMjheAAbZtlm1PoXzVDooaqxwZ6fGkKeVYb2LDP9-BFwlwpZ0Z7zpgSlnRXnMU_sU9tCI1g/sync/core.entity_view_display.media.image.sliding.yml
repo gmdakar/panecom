@@ -1,0 +1,44 @@
+uuid: c4267d0a-d1bc-4605-8fdf-e7595673206c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.sliding
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - imagefield_slideshow
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: whJrNezqUJ7Qhg7raMQj2Hz9JPiWxijezhWIEN9BVVk
+id: media.image.sliding
+targetEntityType: media
+bundle: image
+mode: sliding
+content:
+  field_media_image:
+    type: imagefield_slideshow_field_formatter
+    label: visually_hidden
+    settings:
+      imagefield_slideshow_style: image_style_1000x500
+      imagefield_slideshow_style_effects: fade
+      imagefield_slideshow_style_pause: 'false'
+      imagefield_slideshow_transition_speed: '3000'
+      imagefield_slideshow_timeout: '500'
+      imagefield_slideshow_link_image_to: ''
+      imagefield_slideshow_prev_next: 0
+      imagefield_slideshow_pager: 0
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

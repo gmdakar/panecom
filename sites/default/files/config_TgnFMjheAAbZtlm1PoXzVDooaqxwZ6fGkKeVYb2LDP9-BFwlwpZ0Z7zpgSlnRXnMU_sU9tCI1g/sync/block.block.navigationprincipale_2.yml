@@ -17,7 +17,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Navigation principale'
+  label: 'Navigation principale (2nd level - sidebar)'
   label_display: '0'
   provider: system
   level: 2

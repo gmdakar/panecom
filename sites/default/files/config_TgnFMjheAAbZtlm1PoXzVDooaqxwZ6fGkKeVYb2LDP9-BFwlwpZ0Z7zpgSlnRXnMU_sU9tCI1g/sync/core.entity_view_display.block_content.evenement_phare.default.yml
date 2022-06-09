@@ -160,7 +160,7 @@ third_party_settings:
               box_shadow:
                 class: null
               scroll_effects:
-                class: fade-left
+                class: fade-down
           container_wrapper_bg_color_class: ''
           container_wrapper_bg_media: null
           container: w-100

@@ -38,7 +38,7 @@ settings:
   touchual: ''
   touchuam: '0'
   small: '2'
-  smallbp: '768'
+  smallbp: '992'
   smallua: '0'
   smallual: ''
   smalluam: '0'
@@ -52,7 +52,7 @@ settings:
   smallicm: ''
   smallich: ''
   smallamt: ''
-  smallabt: '1'
+  smallabt: '0'
   supersubs: 1
   minwidth: '12'
   maxwidth: '27'

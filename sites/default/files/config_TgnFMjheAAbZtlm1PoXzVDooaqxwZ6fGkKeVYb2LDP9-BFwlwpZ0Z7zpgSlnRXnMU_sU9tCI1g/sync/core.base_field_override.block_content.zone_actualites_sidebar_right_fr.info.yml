@@ -11,7 +11,7 @@ bundle: zone_actualites_sidebar_right_fr
 label: 'Block description'
 description: 'Une brève description de votre bloc.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
