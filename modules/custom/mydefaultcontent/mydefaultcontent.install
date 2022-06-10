@@ -1,4 +1,6 @@
 <?php
+use Drupal\Core\Cache\Cache;
+
 function mydefaultcontent_install() {
  \Drupal::service('cache.render')->invalidateAll(); 
   \Drupal::service("router.builder")->rebuild();
@@ -17,12 +19,12 @@ function mydefaultcontent_install() {
   }
   
   // Reset all static caches.
-  drupal_static_reset();
+/*  drupal_static_reset();*/
   
   /** @var \Drupal\Core\Extension\ThemeHandlerInterface $theme_handler */
-  $theme_handler = \Drupal::service('theme_handler');
+ /* $theme_handler = \Drupal::service('theme_handler');
   $theme_handler
-    ->refreshInfo();
+    ->refreshInfo();*/
 	
 	/*drupal_flush_all_caches();*/
 
