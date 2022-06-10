@@ -2,7 +2,6 @@
 
 namespace Drupal\Core\Entity;
 
-use Drupal\Component\Plugin\Exception\PluginException;
 use Drupal\Core\Config\Entity\ConfigEntityBase;
 use Drupal\Core\Config\Entity\ConfigEntityInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
@@ -155,12 +154,7 @@ abstract class EntityDisplayBase extends ConfigEntityBase implements EntityDispl
   protected function init() {
     // Only populate defaults for "official" view modes and form modes.
     if ($this->mode !== static::CUSTOM_MODE) {
-      try {
-        $default_region = $this->getDefaultRegion();
-      }
-      catch (PluginException $e) {
-        $default_region = NULL;
-      }
+      $default_region = $this->getDefaultRegion();
       // Fill in defaults for extra fields.
       $context = $this->displayContext == 'view' ? 'display' : $this->displayContext;
       $extra_fields = \Drupal::service('entity_field.manager')->getExtraFields($this->targetEntityType, $this->bundle);
@@ -531,11 +525,6 @@ abstract class EntityDisplayBase extends ConfigEntityBase implements EntityDispl
    *
    * @return string
    *   The default region for this display.
-   *
-   * @throws \Drupal\Component\Plugin\Exception\PluginException
-   *   Thrown in some child implementations.
-   *   The default region cannot be determined, possibly because the display
-   *   uses a non-existing layout.
    */
   protected function getDefaultRegion() {
     return 'content';

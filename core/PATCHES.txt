@@ -9,7 +9,3 @@ Source: https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_dru
 Source: https://www.drupal.org/files/issues/2020-02-05/2546212-119.patch
 
 
-#123463 - Fix some issues in order to avoir missing plugin ID layout build error
-Source: https://www.drupal.org/files/issues/2021-04-12/D9-3204271-2-missing-layout-exception.patch
-
-
