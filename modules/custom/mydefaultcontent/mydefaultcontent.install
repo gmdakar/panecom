@@ -1,9 +1,9 @@
 <?php
 function mydefaultcontent_install() {
-  \Drupal::service('cache.render')->invalidateAll(); 
+ /* \Drupal::service('cache.render')->invalidateAll(); 
   \Drupal::service("router.builder")->rebuild();
-  // Clear all plugin caches.
   \Drupal::service('plugin.cache_clearer')
-    ->clearCachedDefinitions();
+    ->clearCachedDefinitions();*/
+	drupal_flush_all_caches();
 
 }
