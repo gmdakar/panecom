@@ -1,9 +1,29 @@
 <?php
 function mydefaultcontent_install() {
- /* \Drupal::service('cache.render')->invalidateAll(); 
+ \Drupal::service('cache.render')->invalidateAll(); 
   \Drupal::service("router.builder")->rebuild();
   \Drupal::service('plugin.cache_clearer')
-    ->clearCachedDefinitions();*/
-	drupal_flush_all_caches();
+    ->clearCachedDefinitions();
+	 $module_handler = \Drupal::moduleHandler();
+
+  // Flush all persistent caches.
+  // This is executed based on old/previously known information, which is
+  // sufficient, since new extensions cannot have any primed caches yet.
+  $module_handler
+    ->invokeAll('cache_flush');
+  foreach (Cache::getBins() as $service_id => $cache_backend) {
+    $cache_backend
+      ->deleteAll();
+  }
+  
+  // Reset all static caches.
+  drupal_static_reset();
+  
+  /** @var \Drupal\Core\Extension\ThemeHandlerInterface $theme_handler */
+  $theme_handler = \Drupal::service('theme_handler');
+  $theme_handler
+    ->refreshInfo();
+	
+	/*drupal_flush_all_caches();*/
 
 }

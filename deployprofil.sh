@@ -67,9 +67,7 @@ echo "$settings['file_private_path'] = 'sites/default/private';"
 echo "\$settings['file_private_path'] = 'sites/default/private';" >> sites/default/settings.php
 
 #echo "global \$content_directories;" >> sites/default/settings.php
-#echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.
-#to remove
-echo "$settings['class_loader_auto_detect'] = FALSE;" >> sites/default/settings.php
+#echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.php
 
 echo "ls -al index.php"
 ls -al index.php
