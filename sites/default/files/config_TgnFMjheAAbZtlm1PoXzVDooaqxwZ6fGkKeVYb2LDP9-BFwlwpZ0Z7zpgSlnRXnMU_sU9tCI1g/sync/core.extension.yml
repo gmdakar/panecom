@@ -116,8 +116,8 @@ module:
   pathauto: 1
   content_translation: 10
   google_fonts_api: 10
+  mydefaultcontent: 10
   views: 10
-  mydefaultcontent: 990
   standard: 1000
 theme:
   bartik: 0
