@@ -99,16 +99,7 @@ class LayoutOption extends ConfigEntityBase implements LayoutOptionInterface {
    * {@inheritdoc}
    */
   public function getLayoutId() {
-	  
-	  $test = 'content'; 
-	  try {
-		$test =  $this->layout_id;
-		return $this->layout_id;
-	  } catch (\Exception $e) {
-			  return $this->layout_id;
-	  }
-
-   
+    return $this->layout_id;
   }
 
   /**
