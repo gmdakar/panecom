@@ -260,12 +260,12 @@ display:
     display_plugin: page
     position: 1
     display_options:
-      title: 'Médiathèque - Photos'
+      title: Photos
       defaults:
         title: false
       display_description: ''
       display_extenders: {  }
-      path: mediatheque/photos
+      path: médiathèque/photos
       menu:
         type: none
         title: Photos
@@ -290,7 +290,7 @@ display:
     display_plugin: page
     position: 1
     display_options:
-      title: 'Médiathèque - Vidéos'
+      title: Vidéos
       filters:
         status:
           id: status
@@ -402,7 +402,7 @@ display:
       css_class: videos-gallery
       display_description: ''
       display_extenders: {  }
-      path: mediatheque/videos
+      path: médiathèque/videos
       menu:
         type: none
         title: Vidéos

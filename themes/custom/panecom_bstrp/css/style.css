@@ -118,6 +118,12 @@ div#block-selecteurdelangue {
     margin-right: 3rem;
 }
 
+div#block-selecteurdelangue .contextual .trigger {
+    position: relative;
+    top: -1rem;
+	
+}
+
 div#block-selecteurdelangue .links.nav a {
     color: #fff;
     text-decoration: none;
@@ -1556,9 +1562,9 @@ li.sf-depth-1 ul{
 	margin-bottom: 50px;
 }
 
-#block-menumediatheque-2 ul,
-#block-navigationprincipale-2 ul,
-#block-menuorganisationmembre ul {
+#block-menumediatheque-2 > ul,
+#block-navigationprincipale-2 > ul,
+#block-menuorganisationmembre > ul {
 	display: block;
 	position: fixed;
 }

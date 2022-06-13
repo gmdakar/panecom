@@ -34,4 +34,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/a-propos/*\r\n/about/*"
+    pages: "/a-propos/*\r\n/à-propos/*\r\n/about/*"
