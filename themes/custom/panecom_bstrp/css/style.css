@@ -94,6 +94,66 @@ header#header.sticky nav#block-infosutiles i.fa {
     color: var(--color1);
 }
 
+/** footer **/
+
+.site-footer .block {
+    margin: 20px 1rem;
+    border: none;
+    padding: 10px;
+}
+
+.site-footer h2 {
+    border-bottom: 1px solid var(--color3);
+    border-color: var(--color1);
+    color: lightgrey;
+    font-weight: 300;
+}
+
+.site-footer .content {
+    color: #fff;
+	font-size: 1rem;
+}
+
+.site-footer h3 {
+    font-size: 1.05rem;
+	margin-top: 0.65rem;
+}
+
+
+.site-footer__top .region {
+    width: 33%;
+    padding: 0 0.65%;
+}
+
+#block-accesrapide {
+    margin: 20px 5rem;
+    padding: 10px;
+}
+
+#block-accesrapide ul {
+    display: inline-table;
+}
+
+#block-accesrapide ul li a{
+	color: #fff !important;
+}
+
+#block-accesrapide ul li a:hover{
+	color: var(--color3) !important;
+}
+
+#views-bootstrap-partenaires-block-1 .wrapping {
+    margin: 0.5rem;
+}
+
+.site-footer .row {
+    margin-left: 0 !important;
+}
+
+.site-footer li a {
+    padding-left: .15rem !important;
+}
+
 /*login*/
 a.nav-link.nav-link--fr-user-login{
     color: #fff;
@@ -2176,6 +2236,13 @@ h1.title {
 		margin-right: initial;
 	}
 	
+	.site-footer__top .region {
+		width: auto; 
+		padding: 0 0.65%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -2403,6 +2470,13 @@ h1.title {
 	
 	.path-article .sidebar.col-md-3 {
 		margin-right: initial;
+	}
+	
+	.site-footer__top .region {
+		width: auto; 
+		padding: 0 0.65%;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
 

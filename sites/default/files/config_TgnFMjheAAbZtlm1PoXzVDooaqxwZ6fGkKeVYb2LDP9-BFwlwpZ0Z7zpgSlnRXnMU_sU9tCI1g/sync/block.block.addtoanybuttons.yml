@@ -15,7 +15,7 @@ provider: null
 plugin: addtoany_block
 settings:
   id: addtoany_block
-  label: Partager
+  label: Share
   label_display: visible
   provider: addtoany
 visibility:

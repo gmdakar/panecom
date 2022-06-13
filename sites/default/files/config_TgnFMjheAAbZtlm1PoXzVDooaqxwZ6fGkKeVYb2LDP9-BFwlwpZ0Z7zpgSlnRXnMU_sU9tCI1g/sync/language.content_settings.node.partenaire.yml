@@ -1,0 +1,11 @@
+uuid: 4a4daf15-ab0b-4dc4-a0a4-de2bcd3bf1e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.partenaire
+id: node.partenaire
+target_entity_type_id: node
+target_bundle: partenaire
+default_langcode: site_default
+language_alterable: false

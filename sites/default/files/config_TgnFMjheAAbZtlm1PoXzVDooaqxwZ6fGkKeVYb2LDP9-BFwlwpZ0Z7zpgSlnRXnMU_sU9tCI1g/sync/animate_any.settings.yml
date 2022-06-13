@@ -1,6 +1,6 @@
 'body::bgimage':
   parent: body.bgimage
   identifier: '[{"section_identity":".field--name-body","section_event":"scroll","section_animation":"flash","remove":"Retirer"}]'
-'body ::bgimage':
-  parent: 'body .bgimage'
-  identifier: '[{"section_identity":".field--name-body","section_event":"onload","section_animation":"tada"}]'
+body:
+  parent: body
+  identifier: '[{"section_identity":".block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body p:last-child","section_event":"onload","section_animation":"fadeInLeftBig"},{"section_identity":".block-block-content25b3aa3d-43f7-40ed-b2ba-527b5477beaa .field--name-body p:first-child","section_event":"onload","section_animation":"fadeInLeft"},{"section_identity":".carousel-caption","section_event":"onload","section_animation":"fadeInRight"}]'
