@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.organisation_membre.field_org_localisation
     - field.field.node.organisation_membre.field_org_logo
     - field.field.node.organisation_membre.field_org_photos
+    - field.field.node.organisation_membre.field_org_projets
     - field.field.node.organisation_membre.field_org_site_web
     - field.field.node.organisation_membre.field_org_telecharger
     - field.field.node.organisation_membre.field_org_telephone
@@ -17,23 +18,22 @@ dependencies:
     - node.type.organisation_membre
   module:
     - field_group
-    - file_download_link
     - image
     - leaflet
     - link
     - text
     - user
+    - viewfield
 third_party_settings:
   field_group:
     group_presentation:
       children:
         - field_org_logo
         - body
-        - field_org_telecharger
       label: Présentation
       parent_name: ''
       region: content
-      weight: 3
+      weight: 2
       format_type: html_element
       format_settings:
         classes: enchor
@@ -53,7 +53,7 @@ third_party_settings:
       label: Médiathèque
       parent_name: ''
       region: content
-      weight: 4
+      weight: 3
       format_type: html_element
       format_settings:
         classes: enchor
@@ -74,7 +74,7 @@ third_party_settings:
       label: Contact
       parent_name: ''
       region: content
-      weight: 6
+      weight: 5
       format_type: html_element
       format_settings:
         classes: enchor
@@ -93,7 +93,7 @@ third_party_settings:
       label: Localisation
       parent_name: ''
       region: content
-      weight: 5
+      weight: 4
       format_type: html_element
       format_settings:
         classes: enchor
@@ -106,6 +106,43 @@ third_party_settings:
         attributes: 'name="localisation"'
         effect: none
         speed: fast
+    group_projet_s_:
+      children:
+        - field_org_projets
+      label: Projet(s)
+      parent_name: ''
+      region: content
+      weight: 6
+      format_type: html_element
+      format_settings:
+        classes: enchor
+        show_empty_fields: false
+        id: projets
+        element: a
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: 'name="projets"'
+        effect: none
+        speed: fast
+    group_document_s_:
+      children: {  }
+      label: Document(s)
+      parent_name: ''
+      region: content
+      weight: 7
+      format_type: html_element
+      format_settings:
+        classes: enchor
+        show_empty_fields: false
+        id: documents
+        element: a
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: 'name="documents"'
+        effect: none
+        speed: fast
 id: node.organisation_membre.default
 targetEntityType: node
 bundle: organisation_membre
@@ -114,7 +151,7 @@ content:
   addtoany:
     settings: {  }
     third_party_settings: {  }
-    weight: 7
+    weight: 8
     region: content
   body:
     type: text_default
@@ -137,7 +174,7 @@ content:
       image_link: ''
       image_style: image_style_1000x500
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_org_localisation:
     type: leaflet_formatter_default
@@ -228,6 +265,16 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
+  field_org_projets:
+    type: viewfield_default
+    label: hidden
+    settings:
+      view_title: hidden
+      always_build_output: false
+      empty_view_title: hidden
+    third_party_settings: {  }
+    weight: 9
+    region: content
   field_org_site_web:
     type: link
     label: above
@@ -240,25 +287,13 @@ content:
     third_party_settings: {  }
     weight: 9
     region: content
-  field_org_telecharger:
-    type: file_download_link
-    label: hidden
-    settings:
-      link_text: 'Télécharger [node:field_org_telecharger:description] ([file:size])'
-      link_title: ''
-      new_tab: true
-      force_download: true
-      custom_classes: ''
-    third_party_settings: {  }
-    weight: 7
-    region: content
   field_org_telephone:
     type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 8
+    weight: 7
     region: content
   field_org_videos:
     type: entity_reference_entity_view
@@ -275,4 +310,5 @@ content:
     weight: 0
     region: content
 hidden:
+  field_org_telecharger: true
   langcode: true

@@ -81,6 +81,7 @@
         "drupal/swiftmailer": "^2.2",
         "drupal/taxonomy_manager": "^2.0",
         "drupal/transliterate_filenames": "^2.0",
+        "drupal/viewfield": "^3.0@beta",
         "drupal/views_bootstrap": "^4.3",
         "drupal/views_infinite_scroll": "^2.0",
         "drupal/webp": "^1.0@beta",

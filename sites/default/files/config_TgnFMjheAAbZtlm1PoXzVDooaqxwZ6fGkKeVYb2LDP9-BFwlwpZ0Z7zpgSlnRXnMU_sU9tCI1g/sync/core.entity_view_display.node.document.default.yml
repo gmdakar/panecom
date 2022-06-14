@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.document.body
     - field.field.node.document.field_document_apercu_imag
     - field.field.node.document.field_document_fichier
+    - field.field.node.document.field_document_organisation
     - node.type.document
   module:
     - file
@@ -40,6 +41,14 @@ content:
       use_description_as_link_text: true
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_document_organisation:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
     region: content
   links:
     settings: {  }

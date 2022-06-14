@@ -13,6 +13,7 @@ dependencies:
   module:
     - media
     - node
+    - owlcarousel
     - text
     - user
     - views_bootstrap
@@ -272,7 +273,7 @@ display:
         type: mini
         options:
           offset: 0
-          items_per_page: 10
+          items_per_page: 3
           total_pages: null
           id: 0
           tags:
@@ -433,6 +434,7 @@ display:
     display_plugin: block
     position: 2
     display_options:
+      title: 'Derniers projets'
       fields:
         field_projet_photos:
           id: field_projet_photos
@@ -680,6 +682,7 @@ display:
       row:
         type: fields
       defaults:
+        title: false
         pager: false
         use_more: false
         use_more_always: false
@@ -694,6 +697,63 @@ display:
       use_more_text: 'Tous les projets'
       link_display: page_1
       link_url: ''
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_projet_category'
+        - 'config:field.storage.node.field_projet_photos'
+  block_2:
+    id: block_2
+    display_title: 'Block 2'
+    display_plugin: block
+    position: 3
+    display_options:
+      title: 'Projets de l''organisation'
+      pager:
+        type: none
+        options:
+          offset: 0
+      style:
+        type: owlcarousel
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          items: '3'
+          margin: '15'
+          nav: 1
+          autoplay: 1
+          autoplayHoverPause: 1
+          dots: 1
+          dimensionMobile: '767'
+          itemsMobile: '1'
+          dimensionDesktop: '768'
+          itemsDesktop: '3'
+      row:
+        type: fields
+        options: {  }
+      defaults:
+        title: false
+        pager: false
+        use_more: false
+        use_more_always: false
+        use_more_text: false
+        link_display: false
+        link_url: false
+        style: false
+        row: false
+      use_more: false
+      use_more_always: true
+      use_more_text: 'Tous les projets de l''organisation'
+      link_display: custom_url
+      link_url: /projet/toto
       display_extenders: {  }
     cache_metadata:
       max-age: -1

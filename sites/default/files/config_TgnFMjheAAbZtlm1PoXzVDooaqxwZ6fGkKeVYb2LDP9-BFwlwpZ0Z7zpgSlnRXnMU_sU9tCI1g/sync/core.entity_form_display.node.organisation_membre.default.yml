@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.organisation_membre.field_org_localisation
     - field.field.node.organisation_membre.field_org_logo
     - field.field.node.organisation_membre.field_org_photos
+    - field.field.node.organisation_membre.field_org_projets
     - field.field.node.organisation_membre.field_org_site_web
     - field.field.node.organisation_membre.field_org_telecharger
     - field.field.node.organisation_membre.field_org_telephone
@@ -17,7 +18,6 @@ dependencies:
     - node.type.organisation_membre
   module:
     - field_group
-    - file
     - image
     - leaflet
     - link
@@ -52,7 +52,6 @@ third_party_settings:
         - field_org_logo
         - field_org_image_hero
         - body
-        - field_org_telecharger
       label: Présentation
       region: content
       parent_name: ''
@@ -213,13 +212,6 @@ content:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-  field_org_telecharger:
-    type: file_generic
-    weight: 6
-    region: content
-    settings:
-      progress_indicator: throbber
-    third_party_settings: {  }
   field_org_telephone:
     type: string_textfield
     weight: 17
@@ -297,4 +289,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_org_projets: true
+  field_org_telecharger: true

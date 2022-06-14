@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.organisation_membre.field_org_localisation
     - field.field.node.organisation_membre.field_org_logo
     - field.field.node.organisation_membre.field_org_photos
+    - field.field.node.organisation_membre.field_org_projets
     - field.field.node.organisation_membre.field_org_site_web
     - field.field.node.organisation_membre.field_org_telecharger
     - field.field.node.organisation_membre.field_org_telephone
@@ -52,6 +53,7 @@ hidden:
   field_org_image_hero: true
   field_org_localisation: true
   field_org_photos: true
+  field_org_projets: true
   field_org_site_web: true
   field_org_telecharger: true
   field_org_telephone: true

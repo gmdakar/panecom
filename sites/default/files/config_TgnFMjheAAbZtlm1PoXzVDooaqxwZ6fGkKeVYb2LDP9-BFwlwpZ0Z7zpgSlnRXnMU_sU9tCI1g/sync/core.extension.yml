@@ -5,6 +5,7 @@ module:
   bootstrap_layout_builder: 0
   bootstrap_styles: 0
   layout_builder: 0
+  viewfield: 0
   fontyourface: 1
   pathauto: 1
   recreate_block_content: 1

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.document.body
     - field.field.node.document.field_document_apercu_imag
     - field.field.node.document.field_document_fichier
+    - field.field.node.document.field_document_organisation
     - node.type.document
   module:
     - text
@@ -33,4 +34,5 @@ hidden:
   addtoany: true
   field_document_apercu_imag: true
   field_document_fichier: true
+  field_document_organisation: true
   langcode: true

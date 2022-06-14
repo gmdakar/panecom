@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7177250ddcd2bdcf8ca3fd4efc68fe627dfee8a9',
+        'reference' => 'f5fc446da68d25d39c000d8b8bea49c310cb322d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -960,7 +960,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7177250ddcd2bdcf8ca3fd4efc68fe627dfee8a9',
+            'reference' => 'f5fc446da68d25d39c000d8b8bea49c310cb322d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1421,6 +1421,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/viewfield' => array(
+            'pretty_version' => '3.0.0-beta6',
+            'version' => '3.0.0.0-beta6',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/viewfield',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-beta6',
+            'dev_requirement' => false,
         ),
         'drupal/views' => array(
             'dev_requirement' => false,

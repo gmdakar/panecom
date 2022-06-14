@@ -6,7 +6,3 @@ third_party_settings:
       label: 'Media library'
     group_localisation:
       label: Location
-content:
-  field_org_telecharger:
-    settings:
-      link_text: 'Download [node:field_org_telecharger:description] ([file:size])'
