@@ -130,15 +130,15 @@ header#header.sticky nav#block-infosutiles i.fa {
     padding: 10px;
 }
 
-#block-accesrapide ul {
+#block-accesrapide > ul {
     display: inline-table;
 }
 
-#block-accesrapide ul li a{
+#block-accesrapide > ul li a{
 	color: #fff !important;
 }
 
-#block-accesrapide ul li a:hover{
+#block-accesrapide > ul li a:hover{
 	color: var(--color3) !important;
 }
 
@@ -1885,7 +1885,7 @@ div#block-copyright {
 
 .videos-gallery  article,
 .photoswipe-gallery article {
-	box-shadow: rgb(0 0 0 / 65%) 0px 3px 8px;
+	box-shadow: rgb(0 0 0 / 10%) 0px 0px 6px;
 }
 
 .node--type-page .photoswipe-gallery .field__item:first-child a.photoswipe::before, 
@@ -1989,11 +1989,15 @@ h1.title {
     top: -1rem;
 }
 
+.page-view-gallerie-images .field--name-field-media-image img {
+    height: 200px !important;
+}
+
 .media-library-item__name {
     text-align: center;
-    margin-bottom: 0.2rem;
-    margin-bottom: 1rem;
-    font-size: 1.15rem;
+    margin-bottom: 1.8rem;
+	padding: .25rem .01rem;
+    font-size: .8rem;
 }
 
 .view-gallerie-images,

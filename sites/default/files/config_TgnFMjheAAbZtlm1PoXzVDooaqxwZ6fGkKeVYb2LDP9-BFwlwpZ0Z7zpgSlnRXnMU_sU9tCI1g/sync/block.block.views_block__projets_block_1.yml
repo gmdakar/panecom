@@ -17,10 +17,10 @@ provider: null
 plugin: 'views_block:projets-block_1'
 settings:
   id: 'views_block:projets-block_1'
-  label: 'Latest projects'
+  label: 'Derniers projets'
   label_display: visible
   provider: views
-  views_label: 'Latest projects'
+  views_label: 'Derniers projets'
   items_per_page: none
 visibility:
   request_path:
