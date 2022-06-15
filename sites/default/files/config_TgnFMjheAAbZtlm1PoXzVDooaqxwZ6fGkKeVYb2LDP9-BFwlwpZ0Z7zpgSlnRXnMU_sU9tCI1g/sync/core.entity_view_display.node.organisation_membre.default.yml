@@ -74,7 +74,7 @@ third_party_settings:
       label: Contact
       parent_name: ''
       region: content
-      weight: 5
+      weight: 7
       format_type: html_element
       format_settings:
         classes: enchor
@@ -93,7 +93,7 @@ third_party_settings:
       label: Localisation
       parent_name: ''
       region: content
-      weight: 4
+      weight: 6
       format_type: html_element
       format_settings:
         classes: enchor
@@ -109,10 +109,10 @@ third_party_settings:
     group_projet_s_:
       children:
         - field_org_projets
-      label: Projet(s)
+      label: Projets
       parent_name: ''
       region: content
-      weight: 6
+      weight: 4
       format_type: html_element
       format_settings:
         classes: enchor
@@ -127,10 +127,10 @@ third_party_settings:
         speed: fast
     group_document_s_:
       children: {  }
-      label: Document(s)
+      label: Documents
       parent_name: ''
       region: content
-      weight: 7
+      weight: 5
       format_type: html_element
       format_settings:
         classes: enchor
@@ -185,7 +185,7 @@ content:
       height: 400
       height_unit: px
       hide_empty_map: false
-      disable_wheel: false
+      disable_wheel: true
       gesture_handling: false
       reset_map:
         control: false
@@ -285,7 +285,7 @@ content:
       rel: nofollow
       target: _blank
     third_party_settings: {  }
-    weight: 9
+    weight: 8
     region: content
   field_org_telephone:
     type: string

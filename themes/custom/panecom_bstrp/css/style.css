@@ -1031,6 +1031,80 @@ li.sf-depth-1 ul{
     background-color: #fff;
 }
 
+/* projets d'une organisation en cours d'affichage */
+.node--type-organisation-membre .view-projets .wrapping {
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 6px;
+    height: 425px;
+    position: relative;
+    margin: 0.9rem 0.65rem;
+}
+
+.node--type-organisation-membre .view-projets .views-field-field-projet-photos {
+    height: 185px;
+    overflow: hidden;
+}
+
+.node--type-organisation-membre .views-field-field-projet-photos a img {
+    border: 0 !important;
+}
+
+.node--type-organisation-membre .view-projets .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 95px;
+    background-color: var(--color1);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.node--type-organisation-membre .view-projets .views-field-title a{
+    color: #fff; 
+}
+
+.node--type-organisation-membre .view-projets .views-field-title .field-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+.node--type-organisation-membre .views-field.views-field-body {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+	font-weight: 300;
+}
+
+.node--type-organisation-membre .views-field.views-field-field-projet-category {
+    padding-top: 0;
+}
+
+.node--type-organisation-membre .view-projets .views-field-field-org-logo {
+    position: relative;
+    height: 195px;
+    /* margin: 1.15rem 0; */
+    background-color: #fff;
+    /* padding: 1rem 0; */
+}
+
+.node--type-organisation-membre .view-projets .views-field-field-org-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	max-width: 130px;
+    max-height: 130px;
+}
+
+.node--type-organisation-membre .view-projets .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 95px;
+    background-color: var(--color1);
+    overflow: hidden;
+	position: relative;
+}
 
 /*les projets*/
 
@@ -1648,12 +1722,12 @@ li.sf-depth-1 ul{
 .sidebar #block-menumediatheque-2.block,
 .sidebar #block-navigationprincipale-2.block,
 .sidebar #block-menuorganisationmembre.block {
-    height: 16rem;
+    height: 20.65rem;
     position: fixed;
-	top: 40%;
-    width: 18rem !important;
-    padding-left: 4rem;	
-	z-index: 1;
+    top: 40%;
+    width: 17.5rem !important;
+    padding-left: 4.5rem;
+    z-index: 1;
 }
 
 
