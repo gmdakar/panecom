@@ -1058,7 +1058,13 @@ li.sf-depth-1 ul{
 }
 
 .node--type-organisation-membre .view-projets .views-field-title a{
-    color: #fff; 
+    color: #fff;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 0.5rem;
 }
 
 .node--type-organisation-membre .view-projets .views-field-title .field-content {
@@ -1725,8 +1731,8 @@ li.sf-depth-1 ul{
     height: 20.65rem;
     position: fixed;
     top: 40%;
-    width: 17.5rem !important;
-    padding-left: 4.5rem;
+    width: 18rem !important;
+    padding-left: 4rem;
     z-index: 1;
 }
 
@@ -1845,6 +1851,58 @@ li.sf-depth-1 ul{
 .node--type-organisation-membre .field__item a img {
     border: 3px solid #fff;
 }
+
+/*les documents d'une organisation */
+.node--type-organisation-membre .views-field-field-document-organisation {
+    margin-bottom: 1rem;
+}
+
+.node--type-organisation-membre .views-field-field-document-organisation a {
+    font-size: .85rem;
+	color: grey;
+	font-weight: 300;
+}
+
+.node--type-organisation-membre .views-field-field-document-apercu-imag {
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+}
+
+.node--type-organisation-membre .view-documents .wrapping {
+    box-shadow: rgb(208 208 208 / 80%) 0px 0px 7px;
+    height: 290px;
+    margin: 0.9rem;
+	overflow: hidden;
+	text-align: left;
+	padding: .5rem;
+}
+
+.node--type-organisation-membre .view-documents .wrapping .views-field-title {
+    font-size: 1rem;
+    color: #000;
+    padding: 0.15rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+
+
+.node--type-organisation-membre .view-documents .views-field-body {
+    font-size: .82rem;
+    font-weight: 300;
+}
+
+.node--type-organisation-membre .view-documents .views-field-body p{
+    margin-bottom: 0rem;
+}
+
+
+.node--type-organisation-membre .view-documents .wrapping .views-field.views-field-field-document-fichier a {
+    font-size: 1rem;
+    color: var(--color1);
+    font-weight: 300;
+}
+
 
 .field__item:hover a::before {
     color: var(--color3) !important;

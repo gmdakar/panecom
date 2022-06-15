@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.organisation_membre.body
     - field.field.node.organisation_membre.field_org_adresse_contact
+    - field.field.node.organisation_membre.field_org_documents
     - field.field.node.organisation_membre.field_org_image_hero
     - field.field.node.organisation_membre.field_org_localisation
     - field.field.node.organisation_membre.field_org_logo
@@ -290,5 +291,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_org_documents: true
   field_org_projets: true
   field_org_telecharger: true

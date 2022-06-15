@@ -1,0 +1,60 @@
+uuid: cff8ebd2-b8c1-4179-995e-53e6a7d34643
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_org_documents
+    - node.type.organisation_membre
+    - views.view.documents
+  module:
+    - viewfield
+id: node.organisation_membre.field_org_documents
+field_name: field_org_documents
+entity_type: node
+bundle: organisation_membre
+label: Documents
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 22d88e1a-191e-4a55-ac95-ac0d96dc0e45
+    display_id: block_1
+    arguments: ''
+    items_to_display: ''
+    token_help: ''
+default_value_callback: ''
+settings:
+  force_default: true
+  allowed_views:
+    documents: documents
+    block_content: '0'
+    who_s_online: '0'
+    comment: '0'
+    comments_recent: '0'
+    contact_messages: '0'
+    content: '0'
+    content_recent: '0'
+    files: '0'
+    fontyourface_font_manager: '0'
+    les_organisations: '0'
+    media: '0'
+    media_library: '0'
+    gallerie_images: '0'
+    who_s_new: '0'
+    frontpage: '0'
+    partenaires: '0'
+    user_admin_people: '0'
+    projets: '0'
+    redirect: '0'
+    slideshow: '0'
+    taxonomy_term: '0'
+    watchdog: '0'
+  allowed_display_types:
+    block: block
+    default: '0'
+    feed: '0'
+    page: '0'
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: viewfield
