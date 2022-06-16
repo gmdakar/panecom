@@ -1779,7 +1779,17 @@ li.sf-depth-1 ul{
 
 }
 
-.node--type-organisation-membre a.enchor h2 {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    font-size: 1.35rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+	border: none !important;
+    background: transparent !important;
+	color: var(--color3) !important;
+}
+
+.node--type-organisation-membre .enchor h2 {
     background-color: var(--color3);
     color: #fff;
     padding: 0 0.5rem;
@@ -2316,17 +2326,20 @@ h1.title {
 		height: 70px;
 	}
 	
+	.node--type-organisation-membre .view-documents .wrapping,
 	.page-view-documents .view-documents .wrapping {
 		height: auto;
 		text-align: center;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag,
 	.page-view-documents .views-field-field-document-apercu-imag {
 		display: block;
 		float: initial;
 		margin-right: initial;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag img,
 	.page-view-documents .views-field-field-document-apercu-imag img {
 		width: 100%;
 	}
@@ -2548,17 +2561,20 @@ h1.title {
 		height: 70px;
 	}
 	
+	.node--type-organisation-membre .view-documents .wrapping,
 	.page-view-documents .view-documents .wrapping {
 		height: auto;
 		text-align: center;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag,
 	.page-view-documents .views-field-field-document-apercu-imag {
 		display: block;
 		float: initial;
 		margin-right: initial;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag img,
 	.page-view-documents .views-field-field-document-apercu-imag img {
 		width: 100%;
 	}
@@ -2765,17 +2781,20 @@ h1.title {
 		height: 70px;
 	}
 	
+	.node--type-organisation-membre .view-documents .wrapping,
 	.page-view-documents .view-documents .wrapping {
 		height: auto;
 		text-align: center;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag,
 	.page-view-documents .views-field-field-document-apercu-imag {
 		display: block;
 		float: initial;
 		margin-right: initial;
 	}
 	
+	.node--type-organisation-membre .views-field-field-document-apercu-imag img,
 	.page-view-documents .views-field-field-document-apercu-imag img {
 		width: 100%;
 	}

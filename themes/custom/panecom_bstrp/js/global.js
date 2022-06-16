@@ -119,17 +119,7 @@
 				$(".sidebar #block-menuorganisationmembre.block li a").removeClass( "focused" );
 				$(this).addClass( "focused" );
 			});
-			
-			/*bug js emtpy link anchor duplicated sometimes*/
-			$( ".enchor" ).each(function() {
-				if (!$( this ).text()){
-					$( this ).closest('div').remove();
-				}
-			  
-			});
-
         }
-
   };
 
 })(jQuery, Drupal);

@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_partenaire_logo
     - field.storage.node.field_partenaire_siteweb
-    - image.style.135x135
+    - image.style.thumbnail
     - node.type.partenaire
   module:
     - image
@@ -81,7 +81,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            image_style: 135x135
+            image_style: thumbnail
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -228,6 +228,15 @@ display:
             operator_list: {  }
       style:
         type: views_bootstrap_grid
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          col_xs: col-6
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-4
+          col_xl: col-xl-4
       row:
         type: fields
       query:

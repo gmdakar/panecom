@@ -40,7 +40,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: presentation
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -60,7 +60,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: mediatheque
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -81,7 +81,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: contact
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -100,7 +100,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: localisation
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -119,7 +119,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: projets
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -138,7 +138,7 @@ third_party_settings:
         classes: enchor
         show_empty_fields: false
         id: documents
-        element: a
+        element: div
         show_label: true
         label_element: h2
         label_element_classes: ''
@@ -281,7 +281,7 @@ content:
     type: viewfield_default
     label: hidden
     settings:
-      view_title: hidden
+      view_title: visually_hidden
       always_build_output: false
       empty_view_title: hidden
     third_party_settings: {  }
