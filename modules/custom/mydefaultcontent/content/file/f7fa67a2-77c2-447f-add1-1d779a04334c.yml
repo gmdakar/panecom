@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f7fa67a2-77c2-447f-add1-1d779a04334c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: t1frGxveOP.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/t1frGxveOP.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1263
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

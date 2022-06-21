@@ -1,0 +1,8 @@
+{
+  "name": "drupal/countup",
+  "description": "Provides a CountUp plugin for Ckeditor",
+  "type": "drupal-module",
+  "require": {
+    "npm-asset/countup.js": "^2.0"
+  }
+}

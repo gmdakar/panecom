@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8bf5caa6-bcd4-4a13-a451-553057dab777
+  bundle: slideshow
+  default_langcode: fr
+  depends:
+    c5ef78da-6d6d-4efe-b734-e9a8ebe3ce36: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Slideshow 3'
+  created:
+    -
+      value: 1652875752
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /slideshow/slideshow-3
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "<p>Lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_slideshow_image:
+    -
+      entity: c5ef78da-6d6d-4efe-b734-e9a8ebe3ce36
+      alt: Slideshow2
+      title: ''
+      width: 1920
+      height: 1080

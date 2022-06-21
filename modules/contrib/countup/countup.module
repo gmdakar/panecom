@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Provides a CountUp plugin for Ckeditor.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function countup_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the countup module.
+    case 'help.page.countup':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a CountUp plugin for Ckeditor.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

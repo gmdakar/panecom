@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4b73cf7d-fb90-4712-b6c0-3e4356f0e0fd
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tutorial: CMS et création d''un site web avec Drupal'
+  created:
+    -
+      value: 1653063863
+  revision_translation_affected:
+    -
+      value: true
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=tipdXuij7Bc'

@@ -314,6 +314,21 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     margin: 0 1rem;
 }
 
+/*Counters*/
+#block-views-block-counters-block-1 {
+    text-align: center;
+}
+
+#views-bootstrap-counters-block-1 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.highlight-count {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
 /*Evenement phare*/
 #block-evenementphare {
     margin: 2rem 0;
@@ -2119,7 +2134,7 @@ h1.title {
     background-color: var(--color2);
     color: #fff;
 	margin-bottom: 2.5rem;
-	padding: .35rem 0;
+	padding: .35rem;
 	text-transform: uppercase;
     font-weight: 700;
 }

@@ -1,0 +1,7 @@
+countup.editor_dialog:
+  path: '/countup/dialog/count/{editor}'
+  defaults:
+    _form: '\Drupal\countup\Form\CountUpEditorDialogForm'
+    _title: 'Add Count animation'
+  requirements:
+    _entity_access: 'editor.use'

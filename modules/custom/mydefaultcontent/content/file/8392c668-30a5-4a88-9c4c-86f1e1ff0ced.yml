@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8392c668-30a5-4a88-9c4c-86f1e1ff0ced
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: dummyfile4727559170_5e638650f3_b.jpg.jpg
+  uri:
+    -
+      value: 'public://dummyfile4727559170_5e638650f3_b.jpg_41.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 461225
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1654099944

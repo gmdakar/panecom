@@ -1,0 +1,36 @@
+<?php
+
+/**
+* @file
+* Installation file for CountUp.
+*/
+
+/**
+ * Implements hook_requirements().
+ */
+function countup_requirements($phase){
+  $requirements = [];
+
+  if ($phase === 'runtime') {
+    $dependencies = [
+      'countUp.js' => [
+        'name' => 'countUp.js',
+        'description' => 'CountUp.js is lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.',
+        'path' => 'dist/countUp.umd.js',
+      ],
+    ];
+
+    foreach ($dependencies as $id => $info) {
+      $path = DRUPAL_ROOT . '/libraries/' . $id . '/' . $info['path'];
+      $installed = is_file($path);
+      $requirements[$id] = [
+        'title' => t('CountUp: @name', ['@name' => $info['name']]),
+        'description' => $info['description'],
+        'severity' => $installed ? REQUIREMENT_OK : REQUIREMENT_ERROR,
+        'value' => $installed ? t('Installed') : t('Not installed'),
+      ];
+    }
+  }
+
+  return $requirements;
+}

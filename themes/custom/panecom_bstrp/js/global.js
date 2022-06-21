@@ -94,7 +94,7 @@
 				var hash = url.substring(url.indexOf("#")+1);
 				if ($('#'+hash).length) {
 					$('html, body').animate({
-						scrollTop: $('#'+hash).offset().top - 250
+						scrollTop: $('#'+hash).offset().top - 80
 					}, 1750);
 				}
 				return false;
@@ -119,6 +119,13 @@
 				$(".sidebar #block-menuorganisationmembre.block li a").removeClass( "focused" );
 				$(this).addClass( "focused" );
 			});
+			
+			/*order columns counters*/
+			$( ".highlight.organisation_membre" ).closest(".column").addClass("order-1");
+			$( ".highlight.projet" ).closest(".column").addClass("order-2");
+			$( ".highlight.document" ).closest(".column").addClass("order-3");
+			
+			
         }
   };
 

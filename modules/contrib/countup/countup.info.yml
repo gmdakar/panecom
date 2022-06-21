@@ -1,0 +1,14 @@
+name: CountUp
+type: module
+description: Provides a CountUp plugin for Ckeditor
+core_version_requirement: '^8.8 || ^9'
+package: CKEditor
+php: 7.1
+dependencies:
+  - drupal:ckeditor
+  - drupal:editor
+
+# Information added by Drupal.org packaging script on 2021-09-27
+version: '8.x-2.2'
+project: 'countup'
+datestamp: 1632759515

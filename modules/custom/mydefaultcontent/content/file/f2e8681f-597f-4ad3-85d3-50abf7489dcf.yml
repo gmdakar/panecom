@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f2e8681f-597f-4ad3-85d3-50abf7489dcf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-pixabay-163752.jpg
+  uri:
+    -
+      value: 'public://2022-05/pexels-pixabay-163752.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 455058
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653166947

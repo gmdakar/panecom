@@ -2473,6 +2473,57 @@
             "install-path": "../drupal/core-vendor-hardening"
         },
         {
+            "name": "drupal/countup",
+            "version": "2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/countup.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/countup-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "f16b667cd635e89ffb793074cd8c8e1b6e80b739"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1632759513",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "B-Prod",
+                    "homepage": "https://www.drupal.org/user/407852"
+                },
+                {
+                    "name": "Fonski",
+                    "homepage": "https://www.drupal.org/user/2452026"
+                }
+            ],
+            "description": "Provides a CountUp plugin for Ckeditor",
+            "homepage": "https://www.drupal.org/project/countup",
+            "support": {
+                "source": "https://git.drupalcode.org/project/countup"
+            },
+            "install-path": "../../modules/contrib/countup"
+        },
+        {
             "name": "drupal/crop",
             "version": "2.1.0",
             "version_normalized": "2.1.0.0",
@@ -4735,6 +4786,56 @@
                 "issues": "https://www.drupal.org/project/issues/photoswipe"
             },
             "install-path": "../../modules/contrib/photoswipe"
+        },
+        {
+            "name": "drupal/random_number_field",
+            "version": "1.0.0-rc1",
+            "version_normalized": "1.0.0.0-RC1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/random_number_field.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/random_number_field-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "3a42489e427c1229921990dc206d5aaa2416d8e9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1591636249",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "andy_w",
+                    "homepage": "https://www.drupal.org/user/2581622"
+                }
+            ],
+            "description": "Define a field type to be populated with a random number each time new content is created.",
+            "homepage": "https://www.drupal.org/project/random_number_field",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/random_number_field"
+            },
+            "install-path": "../../modules/contrib/random_number_field"
         },
         {
             "name": "drupal/realistic_dummy_content",

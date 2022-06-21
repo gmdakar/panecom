@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8c85628d4e6fa4ee5742b0e6f1e8d4c89975352a',
+        'reference' => '4faa57651ab7838c71a90b684a6b1003ad8cdf91',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -606,6 +606,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/countup' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/countup',
+            'aliases' => array(),
+            'reference' => '8.x-2.2',
+            'dev_requirement' => false,
+        ),
         'drupal/crop' => array(
             'pretty_version' => '2.1.0',
             'version' => '2.1.0.0',
@@ -960,7 +969,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8c85628d4e6fa4ee5742b0e6f1e8d4c89975352a',
+            'reference' => '4faa57651ab7838c71a90b684a6b1003ad8cdf91',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1178,6 +1187,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/random_number_field' => array(
+            'pretty_version' => '1.0.0-rc1',
+            'version' => '1.0.0.0-RC1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/random_number_field',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-rc1',
+            'dev_requirement' => false,
         ),
         'drupal/rdf' => array(
             'dev_requirement' => false,
