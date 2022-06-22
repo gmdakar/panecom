@@ -315,13 +315,47 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 /*Counters*/
-#block-views-block-counters-block-1 {
+#block-quelquechiffres{
+    margin-top: 3.5rem;
+}
+
+#block-quelquechiffres h2 {
     text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+#block-quelquechiffres h2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 10rem;
+    background-color: var(--color3);
+    margin: 0.5rem auto;
 }
 
 #views-bootstrap-counters-block-1 {
-    display: inline-block;
     margin: 0 auto;
+}
+
+#views-bootstrap-counters-block-1 .wrapping {
+    margin: 5rem 2.5rem;
+    text-align: center;
+    color: var(--color1);
+    border: 2px solid #ffffff;
+    padding: 3.5rem 5rem 3rem 5rem;
+    height: 300px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 28px;
+    background-color: #fff;
+}
+
+.block-views-blockcounters-block-1 {
+	background-color: #fcfcfc;
+}
+
+#views-bootstrap-counters-block-1 .highlight-type {
+    color: #544b4b;
+    text-transform: uppercase;
 }
 
 .highlight-count {
@@ -336,8 +370,6 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 	padding:.1rem;
 	overflow: hidden;
 }
-
-
 
 #block-evenementphare ._none.aos-init.aos-animate {
     height: 300px !important;
@@ -2420,6 +2452,21 @@ h1.title {
 		margin: 0 auto;
 	}
 	
+	.block-views-blockcounters-block-1 {
+		background-color: transparent;
+	}
+
+	#views-bootstrap-counters-block-1 .wrapping {
+		margin: 1.5rem 0.25rem;
+		text-align: center;
+		color: var(--color1);
+		border: 2px solid #ffffff;
+		padding: 3.5rem 5rem 3rem 5rem;
+		height: 300px;
+		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
+		background-color: #fff;
+	}
+	
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -2658,6 +2705,21 @@ h1.title {
 		text-align: center;
 		margin: 0 auto;
 	}
+	
+	.block-views-blockcounters-block-1 {
+		background-color: transparent;
+	}
+
+	#views-bootstrap-counters-block-1 .wrapping {
+		margin: 1.5rem 0.25rem;
+		text-align: center;
+		color: var(--color1);
+		border: 2px solid #ffffff;
+		padding: 3.5rem 5rem 3rem 5rem;
+		height: 300px;
+		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
+		background-color: #fff;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -2854,6 +2916,21 @@ h1.title {
 	
 	.path-article .sidebar.col-md-3 {
 		margin-right: initial;
+	}
+	
+	.block-views-blockcounters-block-1 {
+		background-color: transparent;
+	}
+
+	#views-bootstrap-counters-block-1 .wrapping {
+		margin: 1.5rem 0.25rem;
+		text-align: center;
+		color: var(--color1);
+		border: 2px solid #ffffff;
+		padding: 3.5rem 5rem 3rem 5rem;
+		height: 300px;
+		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
+		background-color: #fff;
 	}
 	
 }
