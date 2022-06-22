@@ -315,14 +315,15 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 /*Counters*/
-#block-quelquechiffres{
-    margin-top: 3.5rem;
+#block-quelquechiffres {
+    margin: 3.5rem -30px;
 }
 
 #block-quelquechiffres h2 {
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
+	margin-bottom: 1.5rem;
 }
 
 #block-quelquechiffres h2:after {
@@ -339,7 +340,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 #views-bootstrap-counters-block-1 .wrapping {
-    margin: 5rem 2.5rem;
+    margin: 3rem 2.5rem;
     text-align: center;
     color: var(--color1);
     border: 2px solid #ffffff;
