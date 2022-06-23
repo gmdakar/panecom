@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '4faa57651ab7838c71a90b684a6b1003ad8cdf91',
+        'reference' => 'b458d8cb41337f90aeb7355600e1f1576efbc162',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -969,7 +969,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '4faa57651ab7838c71a90b684a6b1003ad8cdf91',
+            'reference' => 'b458d8cb41337f90aeb7355600e1f1576efbc162',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1289,6 +1289,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/social_media_links' => array(
+            'pretty_version' => '2.8.0',
+            'version' => '2.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/social_media_links',
+            'aliases' => array(),
+            'reference' => '8.x-2.8',
+            'dev_requirement' => false,
         ),
         'drupal/spamspan' => array(
             'pretty_version' => '2.0.0-beta1',
