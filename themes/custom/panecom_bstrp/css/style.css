@@ -316,7 +316,18 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 
 /*Personnes clés*/
 #views-bootstrap-personnes-cles-block-1 {
-    margin: 0 auto;
+    margin: 0 10%;
+}
+
+#block-views-block-personnes-cles-block-1 {
+    margin: 0 -30px;
+    background-color: #fdfdfd;
+	padding: 2.5rem;
+	margin-top: 5rem;
+}
+
+#views-bootstrap-personnes-cles-block-1 > .row > div[class*="col-"] {
+	padding: 0;
 }
 
 .block-views-blockpersonnes-cles-block-1 > h2 {
@@ -335,16 +346,17 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 #views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles {
-    width: 600px;
-    box-shadow: rgb(0 0 0 / 5%) 0px 0px 28px;
+    /* width: 535px; */
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 20px;
     margin: 1rem;
     padding: 0 1rem;
+    height: 335px;
+    background-color: #fff;
 }
 
 #views-bootstrap-personnes-cles-block-1 article .field--name-field-personne-photo img {
-    border-radius: 100px;
-    border: 20px solid #fff;
-	margin-top: -15px;
+    border-radius: 90px;
+    margin-top: .25rem;
 }
 
 #views-bootstrap-personnes-cles-block-1 article .field--name-title {
@@ -360,20 +372,37 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 
 #views-bootstrap-personnes-cles-block-1 article .field--name-body {
     font-weight: 300;
-	font-size: .92rem;
+	font-size: .88rem;
 }
 
 #views-bootstrap-personnes-cles-block-1 article .field--name-field-personne-organisation a {
-    font-size: .95rem;
+    font-size: .85rem;
 }
 
 #views-bootstrap-personnes-cles-block-1 .clearfix.field--name-body:after {
     clear: none;
 }
 
-.social-media-links--platforms.vertical li {
+#views-bootstrap-personnes-cles-block-1 a .fa {
+    font-size: 1.15rem;
+}
+
+#views-bootstrap-personnes-cles-block-1 .social-media-links--platforms.vertical li {
     margin: 0.5em;
     display: inline-block !important;
+}
+
+#views-bootstrap-personnes-cles-block-1 .social-media-links--platforms {
+    position: absolute;
+    top: 70%;
+    display: inline-block;
+    left: 17%;
+    transform: translate(-50%, 0);
+}
+
+#views-bootstrap-personnes-cles-block-1 .node .field--type-image {
+    height: 230px;
+    padding-right: 0.25rem;
 }
 
 /*Counters*/
@@ -413,7 +442,8 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 .block-views-blockcounters-block-1 {
-	background-color: #fcfcfc;
+    background-color: #fcfcfc;
+    margin: 0 -30px;
 }
 
 #views-bootstrap-counters-block-1 .highlight-type {
