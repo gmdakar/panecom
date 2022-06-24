@@ -334,6 +334,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
+	font-weight: 700;
 }
 
 .block-views-blockpersonnes-cles-block-1 > h2:after {
@@ -350,7 +351,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 20px;
     margin: 1rem;
     padding: 0 1rem;
-    height: 335px;
+    height: 345px;
     background-color: #fff;
 }
 
@@ -398,16 +399,21 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 }
 
 #views-bootstrap-personnes-cles-block-1 .social-media-links--platforms {
-    position: absolute;
-    top: 70%;
-    display: inline-block;
-    left: 17%;
-    transform: translate(-50%, 0);
+		position: absolute;
+		top: 15rem;
+		display: inline-block;
+		left: 6.7rem;
+		transform: translate(-50%, 0);
 }
 
+
 #views-bootstrap-personnes-cles-block-1 .node .field--type-image {
-    height: 230px;
+    height: 220px;
     padding-right: 0.25rem;
+    /* border: 1px solid red; */
+    /* padding-bottom: 17rem; */
+    /* margin: -0.2rem 0 0 0; */
+    padding: 0 0 17rem 0;
 }
 
 /*Counters*/
@@ -415,14 +421,15 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     margin: 3.5rem -30px;
 }
 
-#block-quelquechiffres h2 {
+#block-quelquechiffres > h2 {
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
 	margin-bottom: 1.5rem;
+	font-weight: 700;
 }
 
-#block-quelquechiffres h2:after {
+#block-quelquechiffres > h2:after {
     content: "";
     display: block;
     height: 1px;
@@ -458,7 +465,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 
 .highlight-count {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /*Evenement phare*/
@@ -792,7 +799,7 @@ ul.sf-menu li a, .nav-link{
 
 ul.sf-menu .sf-sub-indicator::after {
     font-family: "Font Awesome 5 Free"; 
-    font-weight: 900; 
+    font-weight: 700; 
     content: "\f0dd";
 }
 
@@ -1023,13 +1030,14 @@ li.sf-depth-1 ul{
     padding: 0 0.5rem;
 }
 
-.block-views-blockles-organisations-block-1 h2 {
+.block-views-blockles-organisations-block-1 > h2 {
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
+	font-weight: 700;
 }
 
-.block-views-blockles-organisations-block-1 h2:after {
+.block-views-blockles-organisations-block-1 > h2:after {
     content: "";
     display: block;
     height: 1px;
@@ -2092,7 +2100,7 @@ li.sf-depth-1 ul{
     text-align: center;
     text-transform: uppercase;
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 700;
     background-color: #78727240;
     padding: 1rem 3rem;
     /* height: 100px; */
@@ -2192,7 +2200,7 @@ div#block-copyright {
 .videos-gallery  article .field__item:first-child a.myButton::before,
 .photoswipe-gallery article .field__item:first-child a.photoswipe::before {
     content: "\f055";
-    font-weight: 900;
+    font-weight: 700;
     font-family: "Font Awesome 5 Free";
     position: absolute;
     top: 50%;
@@ -3255,6 +3263,16 @@ h1.title {
 		font-size: 1.15rem;
 	}
 	
+	#views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles {
+		margin: 1rem;
+		padding: 0 .5rem;
+		height: 395px;
+	}
+	
+	#views-bootstrap-personnes-cles-block-1 .node .field--type-image {
+		padding: 0 0 20rem 0;
+	}
+	
 }
 
 /*pour les trés "grands" écrans uniquement*/
@@ -3288,8 +3306,13 @@ h1.title {
 		font-weight: 300;
 		font-size: .8rem;
 	}
-
-
+	
+	#views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles {
+		margin: 1rem;
+		padding: 0 .5rem;
+		height: 340px;
+		
+	}
 }
 
 /*pour les plus "grands" écrans uniquement*/
@@ -3340,5 +3363,10 @@ h1.title {
 	.page-view-documents .view-documents .wrapping .views-field.views-field-field-document-fichier a {
 		font-size: 1rem;
 	}*/
+	
+	#views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles {
+		height: 320px;
+		background-color: #fff;
+	}
 
 }
