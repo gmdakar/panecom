@@ -2563,7 +2563,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 1.5rem 0.25rem;
+		margin: 3rem 2.5rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
@@ -2571,7 +2571,7 @@ h1.title {
 		height: 300px;
 		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
 		background-color: #fff;
-	}
+	}	
 	
 }
 
@@ -2817,7 +2817,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 1.5rem 0.25rem;
+		margin: 3rem 2.5rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
@@ -2825,6 +2825,31 @@ h1.title {
 		height: 300px;
 		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
 		background-color: #fff;
+	}
+	
+	#views-bootstrap-personnes-cles-block-1 .node .field--type-image {
+		height: 200px;
+		padding: 0.25rem;
+	}
+	
+	#views-bootstrap-personnes-cles-block-1 span.field.field--name-title {
+		font-size: 1.5rem;
+	}
+     
+    #views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles {
+		margin: 1rem auto; 
+		padding: .25rem;
+		height: auto; 
+		background-color: #fff;
+		text-align: center;
+	}	 
+	
+	#views-bootstrap-personnes-cles-block-1 .social-media-links--platforms {
+		position: absolute;
+		top: 15.2rem;
+		display: inline-block;
+		left: 8.5rem;
+		transform: translate(-50%, 0);
 	}
 }
 
@@ -3029,7 +3054,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 1.5rem 0.25rem;
+		margin: 3rem 2.5rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
@@ -3037,7 +3062,7 @@ h1.title {
 		height: 300px;
 		box-shadow: rgb(0 0 0 / 15%) 0px 0px 12px;
 		background-color: #fff;
-	}
+	}	
 	
 }
 
