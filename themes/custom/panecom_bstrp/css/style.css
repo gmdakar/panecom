@@ -17,7 +17,7 @@
   --color6: #8ecb8008; /*owl carousel all blocks*/
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
-  --color3-rgb: 244,121,58;
+  --color3-rgb: 244 121 58;
 
 }
 
@@ -359,6 +359,11 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
     margin-top: .25rem;
 }
 
+#views-bootstrap-personnes-cles-block-1 article.node--type-personnes-cles:hover .field--name-field-personne-photo img{
+	transform: scale(1.03);
+	border-radius: 75px;
+}
+
 #views-bootstrap-personnes-cles-block-1 article .field--name-title {
     font-size: 1.75rem;
 	font-weight: 400;
@@ -443,7 +448,7 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 
 .block-views-blockcounters-block-1 {
     background-color: #fcfcfc;
-    margin: 0 -30px;
+    /*margin: 0 -30px;*/
 }
 
 #views-bootstrap-counters-block-1 .highlight-type {
