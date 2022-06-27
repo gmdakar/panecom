@@ -4115,6 +4115,109 @@
             "install-path": "../../modules/contrib/mailsystem"
         },
         {
+            "name": "drupal/masonry",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/masonry.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/masonry-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "28b780a93c1692f4b746093c9e52b734cf179ff8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1602247057",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dominique Clause (Dom.)",
+                    "homepage": "https://www.drupal.org/u/dom",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Dom.",
+                    "homepage": "https://www.drupal.org/user/801982"
+                }
+            ],
+            "description": "Masonry integrates with Masonry library",
+            "homepage": "https://www.drupal.org/project/masonry",
+            "support": {
+                "source": "https://git.drupalcode.org/project/masonry",
+                "issues": "https://www.drupal.org/project/issues/masonry?version=8.x"
+            },
+            "install-path": "../../modules/contrib/masonry"
+        },
+        {
+            "name": "drupal/masonry_views",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/masonry_views.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/masonry_views-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "9d59db75435c7f639948ce169ba93e72ae1c7feb"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/masonry": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1595509409",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dominique Clause (Dom.)",
+                    "homepage": "https://www.drupal.org/u/dom",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides a Views plugin for displaying content in a Masonry layout.",
+            "homepage": "https://www.drupal.org/project/masonry_views",
+            "support": {
+                "source": "https://git.drupalcode.org/project/masonry_views",
+                "issues": "https://www.drupal.org/project/issues/masonry_views?version=8.x"
+            },
+            "install-path": "../../modules/contrib/masonry_views"
+        },
+        {
             "name": "drupal/media_library_form_element",
             "version": "2.0.3",
             "version_normalized": "2.0.3.0",
@@ -6733,6 +6836,24 @@
             "install-path": "../html2text/html2text"
         },
         {
+            "name": "imagesloaded/imagesloaded",
+            "version": "v4.1.4",
+            "version_normalized": "4.1.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/desandro/imagesloaded/archive/v4.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "imagesloaded"
+            },
+            "installation-source": "dist",
+            "install-path": "../../libraries/imagesloaded"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.8.0",
             "version_normalized": "2.8.0.0",
@@ -7090,6 +7211,24 @@
                 }
             ],
             "install-path": "../league/container"
+        },
+        {
+            "name": "masonry/masonry",
+            "version": "v4.2.2",
+            "version_normalized": "4.2.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/desandro/masonry/archive/v4.2.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "masonry"
+            },
+            "installation-source": "dist",
+            "install-path": "../../libraries/masonry"
         },
         {
             "name": "masterminds/html5",
@@ -11159,6 +11298,62 @@
             "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
             "abandoned": "symfony/filesystem",
             "install-path": "../webmozart/path-util"
+        },
+        {
+            "name": "wikimedia/composer-merge-plugin",
+            "version": "v2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/composer-merge-plugin.git",
+                "reference": "8ca2ed8ab97c8ebce6b39d9943e9909bb4f18912"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/8ca2ed8ab97c8ebce6b39d9943e9909bb4f18912",
+                "reference": "8ca2ed8ab97c8ebce6b39d9943e9909bb4f18912",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1||^2.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.1||^2.0",
+                "php-parallel-lint/php-parallel-lint": "~1.1.0",
+                "phpunit/phpunit": "^8.5||^9.0",
+                "squizlabs/php_codesniffer": "~3.5.4"
+            },
+            "time": "2021-02-24T05:28:06+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "class": "Wikimedia\\Composer\\Merge\\V2\\MergePlugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Wikimedia\\Composer\\Merge\\V2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Davis",
+                    "email": "bd808@wikimedia.org"
+                }
+            ],
+            "description": "Composer plugin to merge multiple composer.json files",
+            "support": {
+                "issues": "https://github.com/wikimedia/composer-merge-plugin/issues",
+                "source": "https://github.com/wikimedia/composer-merge-plugin/tree/v2.0.1"
+            },
+            "install-path": "../wikimedia/composer-merge-plugin"
         }
     ],
     "dev": true,

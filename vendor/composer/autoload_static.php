@@ -55,6 +55,7 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         ),
         'W' => 
         array (
+            'Wikimedia\\Composer\\Merge\\V2\\' => 28,
             'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -187,6 +188,10 @@ class ComposerStaticInit53591a0dcfb0444605a3fe11287fe0b6
         'cweagans\\Composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
+        ),
+        'Wikimedia\\Composer\\Merge\\V2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src',
         ),
         'Webmozart\\PathUtil\\' => 
         array (

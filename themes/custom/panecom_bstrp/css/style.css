@@ -407,6 +407,11 @@ article.node--type-personnes-cles ._none .layout.row > div[class*="col-"]:nth-ch
     margin: 3.5rem -30px;
 }
 
+.view-id-counters {
+   
+	overflow-x: hidden;
+}
+
 #block-quelquechiffres > h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -429,7 +434,7 @@ article.node--type-personnes-cles ._none .layout.row > div[class*="col-"]:nth-ch
 }
 
 #views-bootstrap-counters-block-1 .wrapping {
-    margin: 3rem 2.5rem;
+    margin: 3rem 2rem;
     text-align: center;
     color: var(--color1);
     border: 2px solid #ffffff;
@@ -2549,7 +2554,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 3rem 2.5rem;
+		margin: 3rem 2rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
@@ -2803,7 +2808,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 3rem 2.5rem;
+		margin: 3rem 2rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
@@ -3029,7 +3034,7 @@ h1.title {
 	}
 
 	#views-bootstrap-counters-block-1 .wrapping {
-		margin: 3rem 2.5rem;
+		margin: 3rem 2rem;
 		text-align: center;
 		color: var(--color1);
 		border: 2px solid #ffffff;
