@@ -1772,6 +1772,17 @@ li.sf-depth-1 ul{
 	box-shadow: rgb(0 0 0 / 40%) 0px 0px 8px;
 }
 
+.node--type-article .field--name-field-article-organisation::before {
+    color: var(--color3) !important;
+    content: "\f0c0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 0.35rem;
+    font-size: 1.25rem;
+    float: left;
+	position: relative;
+	top: -1px;
+}
 
 .node--type-article .node__meta {
     margin-bottom: 1rem;
