@@ -1176,6 +1176,11 @@ li.sf-depth-1 ul{
 }
 
 /* projets d'une organisation en cours d'affichage */
+.node--type-organisation-membre .field--name-field-org-image-hero img,
+.node--type-organisation-membre .field--name-field-org-image-hero {   
+    width: 100%;
+}
+
 .node--type-organisation-membre .view-projets .wrapping {
     box-shadow: rgb(0 0 0 / 25%) 0px 0px 6px;
     height: 425px;

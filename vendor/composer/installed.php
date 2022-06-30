@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7693200152f77d33fd822bd362fbda9a26ace6b0',
+        'reference' => '6326e32fd26872e99ef534202ec9e12f838ca3ac',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -969,7 +969,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7693200152f77d33fd822bd362fbda9a26ace6b0',
+            'reference' => '6326e32fd26872e99ef534202ec9e12f838ca3ac',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1200,6 +1200,15 @@
             'reference' => '3.1.4',
             'dev_requirement' => false,
         ),
+        'drupal/prepopulate' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/prepopulate',
+            'aliases' => array(),
+            'reference' => '8.x-2.3',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1253,6 +1262,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/responsive_menus' => array(
+            'pretty_version' => '1.0.0-alpha1',
+            'version' => '1.0.0.0-alpha1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/responsive_menus',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha1',
+            'dev_requirement' => false,
         ),
         'drupal/rest' => array(
             'dev_requirement' => false,
