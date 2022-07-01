@@ -2759,6 +2759,74 @@
             "install-path": "../../modules/contrib/default_content"
         },
         {
+            "name": "drupal/disable_field",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/disable_field.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/disable_field-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "bb0af8a005bd0f953d79ecaa969212040aa35bd7"
+            },
+            "require": {
+                "drupal/core": "^9"
+            },
+            "require-dev": {
+                "drupal/base_field_override_ui": "^1.0@beta",
+                "drupal/paragraphs": "^1.10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1639126125",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "A AjayKumar Reddy (ajaykumarreddy1392)",
+                    "homepage": "https://www.drupal.org/u/ajay_reddy",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Viraj Rajankar (virajrajankar)",
+                    "homepage": "https://www.drupal.org/u/virajrajankar",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Eugene Ilyin (eugene.ilyin)",
+                    "homepage": "https://www.drupal.org/u/eugeneilyin",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jeroen Tubex (JeroenT)",
+                    "homepage": "https://www.drupal.org/u/jeroent",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows to disable field of entities on the forms.",
+            "homepage": "https://drupal.org/project/disable_field",
+            "support": {
+                "source": "https://git.drupalcode.org/project/disable_field",
+                "issues": "https://www.drupal.org/project/issues/disable_field"
+            },
+            "install-path": "../../modules/contrib/disable_field"
+        },
+        {
             "name": "drupal/easy_breadcrumb",
             "version": "2.0.2",
             "version_normalized": "2.0.2.0",
@@ -2966,6 +3034,73 @@
                 "issues": "https://www.drupal.org/project/issues/field_group"
             },
             "install-path": "../../modules/contrib/field_group"
+        },
+        {
+            "name": "drupal/field_permissions",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_permissions.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_permissions-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "11e31db94999e6871ad7633455315bc27989a7ea"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1598646882",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-8.x-1.x": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                },
+                {
+                    "name": "mariacha1",
+                    "homepage": "https://www.drupal.org/user/2210776"
+                },
+                {
+                    "name": "markus_petrux",
+                    "homepage": "https://www.drupal.org/user/39593"
+                }
+            ],
+            "description": "The Field Permissions module allows site administrators to set field-level permissions to edit, view and create fields on any entity.",
+            "homepage": "https://www.drupal.org/project/field_permissions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_permissions",
+                "issues": "https://www.drupal.org/project/issues/field_permissions"
+            },
+            "install-path": "../../modules/contrib/field_permissions"
         },
         {
             "name": "drupal/file_download_link",

@@ -1182,11 +1182,11 @@ li.sf-depth-1 ul{
 }
 
 /*hide geojson info map*/
-.form-type-textarea.js-form-item-field-org-localisation-0-value {
+fieldset.js-form-item.js-form-type-textarea  {
     display: none;
 }
 
-form#node-organisation-membre-form button#edit-submit {
+form button#edit-submit {
     margin: 2rem 0;
 }
 
@@ -2410,14 +2410,14 @@ ul.menu-list.add-organisation li:hover a::before{
 }
 
 ul.menu-list.add-resource li.document a::before{
-    content: "\f15c";
+    content: "\f56d";
 }
 
 ul.menu-list.add-resource li.projet a::before{
-    content: "\f14a";
+    content: "\f02e";
 }
 ul.menu-list.add-resource li.actualite a::before{
-    content: "\f0c0";
+    content: "\f1ea";
 }
 
 ul.menu-list.add-organisation li:hover,

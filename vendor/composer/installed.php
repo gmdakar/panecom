@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e055e7a14882b1aad3a45812083eb1eaabf7c78f',
+        'reference' => '584ae2e45bee651c40837de5668fa04e5844caa5',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -660,6 +660,15 @@
             'reference' => '2.0.0-alpha1',
             'dev_requirement' => false,
         ),
+        'drupal/disable_field' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/disable_field',
+            'aliases' => array(),
+            'reference' => '3.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -716,6 +725,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/field_permissions' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/field_permissions',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
         ),
         'drupal/field_ui' => array(
             'dev_requirement' => false,
@@ -978,7 +996,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e055e7a14882b1aad3a45812083eb1eaabf7c78f',
+            'reference' => '584ae2e45bee651c40837de5668fa04e5844caa5',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
