@@ -1181,6 +1181,15 @@ li.sf-depth-1 ul{
     width: 100%;
 }
 
+/*hide geojson info map*/
+.form-type-textarea.js-form-item-field-org-localisation-0-value {
+    display: none;
+}
+
+form#node-organisation-membre-form button#edit-submit {
+    margin: 2rem 0;
+}
+
 .node--type-organisation-membre .view-projets .wrapping {
     box-shadow: rgb(0 0 0 / 25%) 0px 0px 6px;
     height: 425px;
@@ -2328,6 +2337,94 @@ h1.title {
     position: fixed;
     top: -5rem;
 }
+
+/*user add organisation/ add ressources*/
+.user-logged-in.path-user main#content {
+    text-align: center;
+}
+
+.user-logged-in.path-user .content {
+    text-align: initial;
+}
+
+.user-logged-in.path-user .field--name-field-user-organisation .field__label{
+   font-weight: 600;
+   font-size: 1.25rem;
+}
+
+.user-logged-in.path-user .field--name-field-user-organisation .field__item {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    margin: 0.25rem 0;
+    display: inline-block;
+}
+
+.block-views-blockbouton-add-content-organisation-block-1,
+.block-views-blockbouton-add-content-organisation-block-2,
+.block-views-blockbouton-add-content-organisation-block-3 {
+	display: inline-block;
+	margin: 1rem 1rem 2rem 0;
+}
+
+ul.menu-list.add-resource li {
+    display: inline-block;
+    margin: 0 .35rem;
+}
+
+ul.menu-list.add-organisation li {
+    list-style: none;
+}
+
+ul.menu-list.add-resource li,
+ul.menu-list.add-organisation li {
+    list-style: none;
+    padding: 0.25rem 1rem;
+    background-color: var(--color3);
+    border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 0%) 0px 0px 12px;
+}
+
+ul.menu-list.add-resource li {
+    background-color: var(--color1);
+}
+
+ul.menu-list.add-resource li a,
+ul.menu-list.add-organisation li a{
+    color: #fff !important;
+	text-decoration: none;
+}
+
+ul.menu-list.add-resource li a::before,
+ul.menu-list.add-organisation li a::before{
+    content: "\f57c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+ul.menu-list.add-resource li:hover a::before,
+ul.menu-list.add-organisation li:hover a::before{
+	/*padding-right: 0.05rem;*/
+}
+
+ul.menu-list.add-resource li.document a::before{
+    content: "\f15c";
+}
+
+ul.menu-list.add-resource li.projet a::before{
+    content: "\f14a";
+}
+ul.menu-list.add-resource li.actualite a::before{
+    content: "\f0c0";
+}
+
+ul.menu-list.add-organisation li:hover,
+ul.menu-list.add-resource li:hover {
+    box-shadow: rgb(244 121 58 / 60%) 0px 0px 4px;
+}
+
 
 /* ############################## */
 /* ####### Breakpoints media queries  */

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6326e32fd26872e99ef534202ec9e12f838ca3ac',
+        'reference' => 'e055e7a14882b1aad3a45812083eb1eaabf7c78f',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -831,6 +831,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/hide_revision_field' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/hide_revision_field',
+            'aliases' => array(),
+            'reference' => '8.x-2.2',
+            'dev_requirement' => false,
+        ),
         'drupal/history' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -969,7 +978,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6326e32fd26872e99ef534202ec9e12f838ca3ac',
+            'reference' => 'e055e7a14882b1aad3a45812083eb1eaabf7c78f',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1009,6 +1018,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/masonry_views',
             'aliases' => array(),
             'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/masquerade' => array(
+            'pretty_version' => '2.0.0-beta4',
+            'version' => '2.0.0.0-beta4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/masquerade',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta4',
             'dev_requirement' => false,
         ),
         'drupal/media' => array(
