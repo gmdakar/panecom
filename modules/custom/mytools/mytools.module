@@ -1,0 +1,32 @@
+<?php
+	use Drupal\user\Entity\User;
+	use Drupal\node\NodeInterface;
+
+	/** If a current user, with "point focal" role, add a new organisation, 
+	*  this latter will be automatically set as a value of his field_user_organisation field
+	*/	
+	function mytools_node_insert(NodeInterface $node) {
+		\Drupal::logger('mytools')->notice("mytools_node_insert" );
+		$type = $node->getType();
+		
+		switch($type){
+			case 'organisation_membre':
+				
+				\Drupal::logger('mytools')->notice("mytools_node_insert type: ".$type );
+				
+				$nid = $node->id();
+				\Drupal::logger('mytools')->notice("mytools_node_insert nid: ".$nid );
+				
+			
+				$user = User::load(\Drupal::currentUser()->id());
+				if ($user->hasRole('point_focal'))
+				{
+					$user->set('field_user_organisation', $nid);
+					$user->save();
+					\Drupal::logger('mytools')->notice("mytools_node_insert user point focal saved" );
+				}
+				\Drupal::logger('mytools')->notice("mytools_node_insert user saved" );
+				
+				break;
+		}
+	}

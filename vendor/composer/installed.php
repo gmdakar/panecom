@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'cebf594ff05e35910b0f4576cd13e228ffbc41e4',
+        'reference' => 'ee0651276cdb90b66ed07c9211857721af24cbd3',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1005,7 +1005,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'cebf594ff05e35910b0f4576cd13e228ffbc41e4',
+            'reference' => 'ee0651276cdb90b66ed07c9211857721af24cbd3',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
