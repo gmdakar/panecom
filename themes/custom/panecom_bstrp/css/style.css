@@ -173,9 +173,12 @@ section.row.region.region-top-header {
 }
 
 /*page d'inscriptions*/
+.view-page-d-inscriptions{
+    margin: 3rem 0 5rem 0;
+}
+
 .view-page-d-inscriptions .views-row {
     display: inline-block;
-    margin: 0 auto;
 }
 
 .view-page-d-inscriptions .views-row .layout.row.layout-builder__layout {
@@ -183,7 +186,22 @@ section.row.region.region-top-header {
 }
 
 .view-page-d-inscriptions .views-row .layout.row.layout-builder__layout .block-layout-builder {
-    margin: 0 3rem;
+    padding: 2.2rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 3px 8px;
+    height: 265px;
+}
+
+.view-page-d-inscriptions .field--type-text-long.field__item {
+    font-weight: 400;
+}
+
+.view-page-d-inscriptions .field--type-text-long.field__item a::before {
+    color: #fff;
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.5rem;
+    color: var(--krowd-theme-color-second);
+    font-size: 1rem;
 }
 
 /*color and decorations for links switcherlanguage*/
