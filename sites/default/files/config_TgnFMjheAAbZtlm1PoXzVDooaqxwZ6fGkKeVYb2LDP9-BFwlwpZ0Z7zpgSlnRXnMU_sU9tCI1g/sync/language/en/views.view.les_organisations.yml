@@ -9,7 +9,7 @@ display:
           reset_button_label: Reset
   block_1:
     display_options:
-      use_more_text: 'All organisations'
+      use_more_text: 'All organizations'
   page_1:
     display_options:
       pager:

@@ -10,12 +10,12 @@ dependencies:
 id: addtoanybuttons
 theme: panecom_bstrp
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: addtoany_block
 settings:
   id: addtoany_block
-  label: Share
+  label: Partage
   label_display: visible
   provider: addtoany
 visibility:

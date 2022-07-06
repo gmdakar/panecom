@@ -1,0 +1,23 @@
+uuid: 837c9fa3-f4a5-460b-967b-909b2126a076
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_personne_resociaux
+    - node.type.personnes_cles
+  module:
+    - link
+id: node.personnes_cles.field_personne_resociaux
+field_name: field_personne_resociaux
+entity_type: node
+bundle: personnes_cles
+label: 'Réseaux sociaux'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

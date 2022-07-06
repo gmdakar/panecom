@@ -1,0 +1,25 @@
+uuid: 5ea9b609-d154-41a8-ae9f-dfdc686255e4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - crop.type.personnes_cles
+  module:
+    - crop
+name: style_personne_cle
+label: 'Style personne clé'
+effects:
+  d9ed0687-2148-4946-82e7-54e5870cd2f3:
+    uuid: d9ed0687-2148-4946-82e7-54e5870cd2f3
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: personnes_cles
+  ec9be89d-0844-4b62-b9f4-56a200d4909f:
+    uuid: ec9be89d-0844-4b62-b9f4-56a200d4909f
+    id: image_scale
+    weight: -9
+    data:
+      width: 150
+      height: null
+      upscale: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.organisation_membre.body
+    - field.field.node.organisation_membre.field_org_actualites
     - field.field.node.organisation_membre.field_org_adresse_contact
     - field.field.node.organisation_membre.field_org_documents
     - field.field.node.organisation_membre.field_org_image_hero
@@ -50,6 +51,7 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_org_actualites: true
   field_org_adresse_contact: true
   field_org_documents: true
   field_org_image_hero: true

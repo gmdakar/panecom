@@ -1,0 +1,30 @@
+uuid: 694a21a2-c3f6-4db3-bcb6-5e1743056b20
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_personne_photo
+field_name: field_personne_photo
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

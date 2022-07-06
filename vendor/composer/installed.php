@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ee0651276cdb90b66ed07c9211857721af24cbd3',
+        'reference' => '44d72054b22131cdee17d6dbe3c7fea82441b384',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1005,7 +1005,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ee0651276cdb90b66ed07c9211857721af24cbd3',
+            'reference' => '44d72054b22131cdee17d6dbe3c7fea82441b384',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1163,6 +1163,15 @@
             'replaced' => array(
                 0 => '9.3.2',
             ),
+        ),
+        'drupal/multiple_registration' => array(
+            'pretty_version' => '3.1.1',
+            'version' => '3.1.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/multiple_registration',
+            'aliases' => array(),
+            'reference' => '3.1.1',
+            'dev_requirement' => false,
         ),
         'drupal/native_lazy_loading' => array(
             'pretty_version' => '1.1.0-rc1',

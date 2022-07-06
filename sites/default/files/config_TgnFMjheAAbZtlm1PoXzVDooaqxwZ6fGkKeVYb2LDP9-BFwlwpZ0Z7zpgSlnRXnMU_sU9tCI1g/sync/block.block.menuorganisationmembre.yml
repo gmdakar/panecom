@@ -31,3 +31,7 @@ visibility:
       node: '@node.node_route_context:node'
     bundles:
       organisation_membre: organisation_membre
+  request_path:
+    id: request_path
+    negate: true
+    pages: /node/add/organisation_membre

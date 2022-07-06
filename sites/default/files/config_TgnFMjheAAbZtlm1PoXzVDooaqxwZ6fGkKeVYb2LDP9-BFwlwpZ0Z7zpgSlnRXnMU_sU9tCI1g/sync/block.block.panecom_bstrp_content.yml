@@ -11,7 +11,7 @@ _core:
 id: panecom_bstrp_content
 theme: panecom_bstrp
 region: content
-weight: -6
+weight: -13
 provider: null
 plugin: system_main_block
 settings:

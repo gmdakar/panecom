@@ -172,6 +172,20 @@ section.row.region.region-top-header {
     margin-right: 0px;
 }
 
+/*page d'inscriptions*/
+.view-page-d-inscriptions .views-row {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.view-page-d-inscriptions .views-row .layout.row.layout-builder__layout {
+    margin: 0 1.25rem;
+}
+
+.view-page-d-inscriptions .views-row .layout.row.layout-builder__layout .block-layout-builder {
+    margin: 0 3rem;
+}
+
 /*color and decorations for links switcherlanguage*/
 
 div#block-selecteurdelangue {

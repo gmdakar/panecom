@@ -9,7 +9,7 @@ _core:
 id: panecom_bstrp_page_title
 theme: panecom_bstrp
 region: content
-weight: -12
+weight: -20
 provider: null
 plugin: page_title_block
 settings:

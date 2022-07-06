@@ -1,0 +1,22 @@
+uuid: 2f565f57-0e71-47d1-bcb9-1aedeadd4592
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image_counters
+id: block_content.background_image_counters.status
+field_name: status
+entity_type: block_content
+bundle: background_image_counters
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

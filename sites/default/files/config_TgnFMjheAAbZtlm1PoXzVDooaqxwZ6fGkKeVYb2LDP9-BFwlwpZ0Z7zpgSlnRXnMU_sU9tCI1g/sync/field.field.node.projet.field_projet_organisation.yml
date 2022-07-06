@@ -6,6 +6,22 @@ dependencies:
     - field.storage.node.field_projet_organisation
     - node.type.organisation_membre
     - node.type.projet
+  module:
+    - disable_field
+    - epp
+third_party_settings:
+  epp:
+    value: '[current-user:field_user_organisation:entity:nid]'
+    on_update: 0
+  disable_field:
+    add_disable: roles_enable
+    add_roles:
+      - administrator
+      - gestionnaire
+    edit_disable: roles_enable
+    edit_roles:
+      - administrator
+      - gestionnaire
 id: node.projet.field_projet_organisation
 field_name: field_projet_organisation
 entity_type: node
