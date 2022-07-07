@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8812624f33bd3586f65310a18ab7f8c6433e7efe',
+        'reference' => '69e188012d36b804c2de2a8a3604995e06d819ef',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -690,6 +690,15 @@
                 0 => '9.3.2',
             ),
         ),
+        'drupal/email_registration' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/email_registration',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
         'drupal/entity_reference' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1005,7 +1014,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8812624f33bd3586f65310a18ab7f8c6433e7efe',
+            'reference' => '69e188012d36b804c2de2a8a3604995e06d819ef',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

@@ -2402,6 +2402,11 @@ h1.title {
     text-align: center;
 }
 
+.menu .add-organisation,
+.menu .add-resource{
+	font-size: 1.15rem;
+}
+
 .user-logged-in.path-user .content {
     text-align: initial;
 }
