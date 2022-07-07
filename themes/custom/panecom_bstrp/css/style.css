@@ -43,6 +43,28 @@ main#content {
     margin: 0rem 2% 1rem 2%;
 }
 
+/* login form*/
+#user-login-form {
+    margin: 2rem auto;
+    padding: 2rem 2rem 0.1rem 2rem;
+    box-shadow: rgb(0 0 0 / 30%) 0px 3px 18px;
+    border: none;
+    max-width: 535px;
+}
+
+#user-login-form button#edit-submit {
+    margin: 0 2em;
+	text-align: right;
+}
+#user-pass .form-actions, #user-login-form .form-actions {
+    text-align: right;
+}
+
+#user-login-form .actions-suffix,
+#user-login-form .login-title{
+   display: none;
+}
+
 /*slideshow*/
 .carousel-indicators li.active {
     background-color: var(--color3) !important;
@@ -248,7 +270,7 @@ div#block-selecteurdelangue .nav-link {
 
 nav#block-panecom-bstrp-account-menu > div a {
     color: #fff;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -256,9 +278,14 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 	color: #fff ;
     content: "\f007";
     font-family: "Font Awesome 5 Free";
-    margin-right: .5rem;
+    margin-right: .35rem;
     color: var(--krowd-theme-color-second);
     font-size: 1rem;
+}
+
+nav#block-panecom-bstrp-account-menu a.nav-link--fr-inscriptions::before {
+    content: "\f2c1";
+	font-size:1.05rem;
 }
 
 /*zone actualités + sidebar right*/
