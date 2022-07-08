@@ -8,6 +8,8 @@ dependencies:
     - node.type.organisation_membre
     - node.type.projet
   module:
+    - comment
+    - file
     - media
     - node
 id: point_focal
@@ -15,16 +17,24 @@ label: 'Point focal d''une organisation'
 weight: -7
 is_admin: null
 permissions:
+  - 'access files overview'
+  - 'access media overview'
   - 'create article content'
   - 'create document content'
   - 'create media'
   - 'create organisation_membre content'
   - 'create projet content'
+  - 'delete any organisation_membre content'
   - 'delete media'
   - 'delete own article content'
   - 'delete own document content'
+  - 'delete own organisation_membre content'
   - 'delete own projet content'
+  - 'edit any article content'
+  - 'edit any document content'
+  - 'edit any organisation_membre content'
   - 'edit own article content'
+  - 'edit own comments'
   - 'edit own document content'
   - 'edit own organisation_membre content'
   - 'edit own projet content'

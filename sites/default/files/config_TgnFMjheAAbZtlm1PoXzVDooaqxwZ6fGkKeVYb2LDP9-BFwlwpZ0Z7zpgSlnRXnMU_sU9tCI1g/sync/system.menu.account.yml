@@ -1,7 +1,12 @@
 uuid: 78a9fba7-0da3-49a4-9787-eb6d4badae9d
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_trail_by_path
+third_party_settings:
+  menu_trail_by_path:
+    trail_source: ''
 _core:
   default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
 id: account

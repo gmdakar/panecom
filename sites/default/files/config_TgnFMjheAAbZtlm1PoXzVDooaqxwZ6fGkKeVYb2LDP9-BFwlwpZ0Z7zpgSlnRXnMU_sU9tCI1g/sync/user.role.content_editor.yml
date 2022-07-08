@@ -5,57 +5,47 @@ dependencies:
   config:
     - node.type.article
     - node.type.document
-    - node.type.page
+    - node.type.organisation_membre
+    - node.type.personnes_cles
     - node.type.projet
     - rest.resource.notifications_update_widget
     - taxonomy.vocabulary.tags
   module:
     - comment
-    - contextual
     - file
     - media
     - node
-    - path
     - rest
     - system
     - taxonomy
-    - toolbar
     - tour
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Rédacteur d''une organisation'
+label: 'Éditeur de contenu'
 weight: -8
 is_admin: false
 permissions:
-  - 'access administration pages'
-  - 'access content overview'
-  - 'access contextual links'
+  - 'access content'
   - 'access files overview'
-  - 'access toolbar'
+  - 'access media overview'
   - 'access tour'
-  - 'administer url aliases'
   - 'create article content'
   - 'create document content'
   - 'create media'
   - 'create projet content'
   - 'create terms in tags'
-  - 'create url aliases'
-  - 'delete article revisions'
   - 'delete media'
   - 'delete own article content'
   - 'delete own document content'
+  - 'delete own personnes_cles content'
   - 'delete own projet content'
-  - 'delete page revisions'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own document content'
+  - 'edit own organisation_membre content'
   - 'edit own projet content'
   - 'edit terms in tags'
   - 'restful post notifications_update_widget'
-  - 'revert all revisions'
   - 'update media'
-  - 'view all revisions'
-  - 'view own unpublished content'
   - 'view own unpublished media'
-  - 'view the administration theme'

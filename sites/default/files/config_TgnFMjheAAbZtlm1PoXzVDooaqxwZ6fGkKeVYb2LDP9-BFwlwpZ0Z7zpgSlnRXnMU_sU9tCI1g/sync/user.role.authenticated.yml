@@ -7,7 +7,6 @@ dependencies:
     - rest.resource.notifications_update_widget
   module:
     - comment
-    - contact
     - filter
     - media
     - rest
@@ -24,7 +23,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access shortcuts'
-  - 'access site-wide contact form'
   - 'post comments'
   - 'restful post notifications_update_widget'
   - 'search content'

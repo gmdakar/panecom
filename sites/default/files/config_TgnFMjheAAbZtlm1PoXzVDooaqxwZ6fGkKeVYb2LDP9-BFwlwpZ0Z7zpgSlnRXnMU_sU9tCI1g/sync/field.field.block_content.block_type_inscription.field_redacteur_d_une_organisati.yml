@@ -1,0 +1,33 @@
+uuid: 43964b8d-d978-45d6-b40f-90374f2e49eb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_inscription
+    - field.storage.block_content.field_redacteur_d_une_organisati
+  module:
+    - disable_field
+    - epp
+    - text
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: block_content.block_type_inscription.field_redacteur_d_une_organisati
+field_name: field_redacteur_d_une_organisati
+entity_type: block_content
+bundle: block_type_inscription
+label: 'Rédacteur d''une organisation'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Je m'inscris en tant que membre/rédacteur de mon organisation.</p>\r\n\r\n<p>J’aurai la possibilité d'ajouter du contenu relatif aux activités de mon organisation et d'accéder à toutes les informations disponibles sur la plateforme.</p>\r\n\r\n<p><a href=\"/inscription/redacteur_organisation\">S'inscrire comme \"Rédacteur d'une organisation\"</a></p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long
