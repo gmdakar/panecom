@@ -22,20 +22,26 @@ class LayoutEntityDisplayNormalizer extends ConfigEntityNormalizer {
   /**
    * {@inheritdoc}
    */
-  protected static function getDataWithoutInternals(array $data) {
-    $data = parent::getDataWithoutInternals($data);
-    // Do not expose the actual layout sections in normalization.
-    // @todo Determine what to expose here in
-    //   https://www.drupal.org/node/2942975.
-    unset($data['third_party_settings']['layout_builder']['sections']);
+  public function normalize($object, $format = NULL, array $context = []) {
+    $data = parent::normalize($object, $format, $context);
+    if (!empty($data['third_party_settings']['layout_builder']['sections'])) {
+      $sections = &$data['third_party_settings']['layout_builder']['sections'];
+      $sections = array_map(static function (Section $section) {
+        return $section->toArray();
+      }, $sections);
+    }
     return $data;
   }
 
   /**
    * {@inheritdoc}
    */
-  public function hasCacheableSupportsMethod(): bool {
-    return TRUE;
+  public function denormalize($data, $class, $format = NULL, array $context = []) {
+    if (!empty($data['third_party_settings']['layout_builder']['sections'])) {
+      $sections = &$data['third_party_settings']['layout_builder']['sections'];
+      $sections = array_map([Section::class, 'fromArray'], $sections);
+    }
+    return parent::denormalize($data, $class, $format, $context);
   }
 
 }

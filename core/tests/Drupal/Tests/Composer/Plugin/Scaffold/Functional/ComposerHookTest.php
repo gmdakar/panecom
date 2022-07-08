@@ -3,10 +3,10 @@
 namespace Drupal\Tests\Composer\Plugin\Scaffold\Functional;
 
 use Composer\Util\Filesystem;
-use Drupal\BuildTests\Framework\BuildTestBase;
 use Drupal\Tests\Composer\Plugin\Scaffold\AssertUtilsTrait;
 use Drupal\Tests\Composer\Plugin\Scaffold\ExecTrait;
 use Drupal\Tests\Composer\Plugin\Scaffold\Fixtures;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Tests Composer Hooks that run scaffold operations.
@@ -22,8 +22,7 @@ use Drupal\Tests\Composer\Plugin\Scaffold\Fixtures;
  *
  * @group Scaffold
  */
-class ComposerHookTest extends BuildTestBase {
-
+class ComposerHookTest extends TestCase {
   use ExecTrait;
   use AssertUtilsTrait;
 
@@ -82,7 +81,7 @@ class ComposerHookTest extends BuildTestBase {
     // project is "allowed" in our main fixture project, but not required.
     // We expect that requiring this library should re-scaffold, resulting
     // in a changed default.settings.php file.
-    $stdout = $this->mustExec("composer require --no-ansi --no-interaction fixtures/drupal-assets-fixture:dev-main fixtures/scaffold-override-fixture:dev-main", $sut);
+    $stdout = $this->mustExec("composer require --no-ansi --no-interaction fixtures/drupal-assets-fixture:dev-master fixtures/scaffold-override-fixture:dev-master", $sut);
     $this->assertScaffoldedFile($sut . '/sites/default/default.settings.php', FALSE, 'scaffolded from the scaffold-override-fixture');
     // Make sure that the appropriate notice informing us that scaffolding
     // is allowed was printed.
@@ -121,10 +120,9 @@ class ComposerHookTest extends BuildTestBase {
     $this->mustExec("composer install --no-ansi", $sut);
     // Require a project that is not allowed to scaffold and confirm that we
     // get a warning, and it does not scaffold.
-    $this->executeCommand("composer require --no-ansi --no-interaction fixtures/drupal-assets-fixture:dev-main fixtures/scaffold-override-fixture:dev-main", $sut);
-    $this->assertCommandSuccessful();
+    $stdout = $this->mustExec("composer require --no-ansi --no-interaction fixtures/drupal-assets-fixture:dev-master fixtures/scaffold-override-fixture:dev-master", $sut);
     $this->assertFileDoesNotExist($sut . '/sites/default/default.settings.php');
-    $this->assertErrorOutputContains('See https://getcomposer.org/allow-plugins');
+    $this->assertStringContainsString("Not scaffolding files for fixtures/scaffold-override-fixture, because it is not listed in the element 'extra.drupal-scaffold.allowed-packages' in the root-level composer.json file.", $stdout);
   }
 
   /**
