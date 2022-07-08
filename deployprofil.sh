@@ -21,8 +21,8 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
-echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y updb && drush -y cex && git status"
-rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && drush -y updb && git status
+echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && drush -y updb && git status"
+rm -rf sites/default/files/config_* || true && drush cr && drush -y cex  && drush -y updb && git status
 
 echo "rm -rf modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content
