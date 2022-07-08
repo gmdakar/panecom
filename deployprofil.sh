@@ -36,8 +36,8 @@ drush -y en mydefaultcontent || true
 echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb"
-drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content
 
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
