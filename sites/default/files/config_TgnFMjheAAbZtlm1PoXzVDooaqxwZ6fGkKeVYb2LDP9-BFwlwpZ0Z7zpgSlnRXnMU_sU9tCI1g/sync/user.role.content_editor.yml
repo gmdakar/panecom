@@ -1,51 +1,48 @@
-uuid: 46aa00ba-b4d3-4a44-bea5-ea1871d3bd09
-langcode: fr
+uuid: 827371a4-7cd1-4962-b378-694f0ef4c53a
+langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
-    - node.type.document
-    - node.type.organisation_membre
-    - node.type.personnes_cles
-    - node.type.projet
-    - rest.resource.notifications_update_widget
+    - node.type.page
     - taxonomy.vocabulary.tags
   module:
     - comment
+    - contextual
     - file
-    - media
     - node
-    - rest
+    - path
     - system
     - taxonomy
+    - toolbar
     - tour
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Éditeur de contenu'
-weight: -8
+label: 'Content editor'
+weight: 2
 is_admin: false
 permissions:
-  - 'access content'
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
   - 'access files overview'
-  - 'access media overview'
+  - 'access toolbar'
   - 'access tour'
+  - 'administer url aliases'
   - 'create article content'
-  - 'create document content'
-  - 'create media'
-  - 'create projet content'
+  - 'create page content'
   - 'create terms in tags'
-  - 'delete media'
+  - 'create url aliases'
+  - 'delete article revisions'
   - 'delete own article content'
-  - 'delete own document content'
-  - 'delete own personnes_cles content'
-  - 'delete own projet content'
+  - 'delete own page content'
+  - 'delete page revisions'
   - 'edit own article content'
   - 'edit own comments'
-  - 'edit own document content'
-  - 'edit own organisation_membre content'
-  - 'edit own projet content'
+  - 'edit own page content'
   - 'edit terms in tags'
-  - 'restful post notifications_update_widget'
-  - 'update media'
-  - 'view own unpublished media'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

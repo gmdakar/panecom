@@ -1,6 +1,0 @@
-third_party_settings:
-  contact_storage:
-    submit_text: Send
-label: 'Contact us'
-reply: "Well received.\r\nThank you for your message.\r\nBest regards"
-message: 'Your message has been successfully sent.'

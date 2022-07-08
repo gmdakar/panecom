@@ -1,41 +1,22 @@
-uuid: 521a7b7a-b3e2-4302-bf11-ea48bdcfc2fa
-langcode: fr
+uuid: 9eee6b7f-77bf-44a0-aaf9-e53329015993
+langcode: en
 status: true
 dependencies:
   config:
     - field.storage.user.user_picture
   module:
-    - disable_field
-    - epp
     - image
-    - multiple_registration
     - user
-third_party_settings:
-  epp:
-    value: ''
-    on_update: 0
-  disable_field:
-    add_disable: none
-    edit_disable: none
-  multiple_registration:
-    user_additional_register_form:
-      authenticated: 0
-      content_editor: 0
-      point_focal: 0
-    user_additional_register_form_required:
-      authenticated: 0
-      content_editor: 0
-      point_focal: 0
 _core:
   default_config_hash: twhm-ZOwSVkUjuLI_pQsaPo_pVLcqFfDmY-ojfqw0yk
 id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: 'Photo de profil'
-description: 'Votre visage ou image virtuelle.'
+label: Picture
+description: 'Your virtual face or picture.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -51,7 +32,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: ''
+    uuid: null
     alt: ''
     title: ''
     width: null

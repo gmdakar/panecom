@@ -1,14 +1,7 @@
-uuid: cab4950f-fa6c-4060-a740-a91ec3fb6ac7
-langcode: fr
+uuid: 8b352eea-0772-4931-89dd-abe88403f399
+langcode: en
 status: true
-dependencies:
-  module:
-    - menu_ui
-third_party_settings:
-  menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
+dependencies: {  }
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article

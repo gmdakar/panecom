@@ -1,5 +1,5 @@
-uuid: 8a9bd245-1c21-4c90-b68c-7c41e08deb90
-langcode: fr
+uuid: 55947333-f279-443e-a316-195225be0471
+langcode: en
 status: true
 dependencies:
   config:
@@ -65,6 +65,18 @@ display:
         type: tag
         options: {  }
       empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          label: ''
+          empty: true
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
+          tokenize: false
         node_listing_empty:
           id: node_listing_empty
           table: node

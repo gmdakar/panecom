@@ -1,11 +1,8 @@
-uuid: e36796e8-8e37-45d9-8605-65969a626e88
-langcode: fr
+uuid: 9288c444-6136-40a0-93c2-e62bda1ab5c9
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_nom
-    - field.field.user.user.field_prenom
-    - field.field.user.user.field_user_organisation
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -18,34 +15,8 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  field_nom:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_prenom:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_user_organisation:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 4
-    region: content
   member_for:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
+    weight: 5
     region: content
   user_picture:
     type: image
@@ -53,11 +24,7 @@ content:
     settings:
       image_link: content
       image_style: thumbnail
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
-hidden:
-  langcode: true
-  realname: true
+hidden: {  }

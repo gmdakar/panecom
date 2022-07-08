@@ -1,8 +1,0 @@
-uuid: 848698c5-90c7-4222-bd3f-d235b1ba7fdc
-langcode: fr
-status: true
-dependencies: {  }
-id: zone_actualites_sidebar_right_fr
-label: 'Zone Actualités + sidebar right  (frontpage)'
-revision: 0
-description: ''
