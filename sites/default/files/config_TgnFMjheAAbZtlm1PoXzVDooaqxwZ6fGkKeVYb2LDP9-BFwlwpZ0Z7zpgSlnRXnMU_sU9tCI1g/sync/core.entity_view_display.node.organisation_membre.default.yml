@@ -215,6 +215,8 @@ content:
     settings:
       image_link: ''
       image_style: image_style_1000x500
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 1
     region: content
@@ -295,6 +297,8 @@ content:
     settings:
       image_link: ''
       image_style: medium
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 5
     region: content

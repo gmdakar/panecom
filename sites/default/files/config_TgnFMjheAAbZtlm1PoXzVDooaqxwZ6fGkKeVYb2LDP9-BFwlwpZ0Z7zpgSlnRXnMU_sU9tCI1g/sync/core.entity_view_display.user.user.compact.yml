@@ -25,6 +25,8 @@ content:
     settings:
       image_link: content
       image_style: thumbnail
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
@@ -34,3 +36,4 @@ hidden:
   field_user_organisation: true
   langcode: true
   member_for: true
+  realname: true

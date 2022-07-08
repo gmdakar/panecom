@@ -13,6 +13,7 @@ module:
   layout_builder: 0
   masonry: 0
   multiple_registration: 0
+  mysql: 0
   mytools: 0
   prepopulate: 0
   realname: 0

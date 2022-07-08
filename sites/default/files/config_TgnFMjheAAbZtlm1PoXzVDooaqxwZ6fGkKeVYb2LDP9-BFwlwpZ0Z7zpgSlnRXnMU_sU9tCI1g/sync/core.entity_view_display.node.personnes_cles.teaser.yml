@@ -29,13 +29,31 @@ third_party_settings:
         layout_id: layout_onecol
         layout_settings:
           label: ''
-        components: {  }
+        components:
+          -
+            uuid: be08113b-6102-462c-bcc3-64008f59392b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:personnes_cles:field_personne_photo'
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: style_personne_cle
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
         third_party_settings: {  }
       -
         layout_id: 'bootstrap_layout_builder:blb_col_2'
         layout_settings:
           label: ''
-          context_mapping: {  }
           container_wrapper_classes: ''
           container_wrapper_attributes: null
           container_wrapper:
@@ -203,6 +221,7 @@ third_party_settings:
               - col-lg-9
               - col-md-9
               - col-12
+          context_mapping: {  }
           remove_gutters: '0'
         components:
           -
@@ -327,6 +346,8 @@ content:
     settings:
       image_link: ''
       image_style: style_personne_cle
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content

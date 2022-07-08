@@ -8,6 +8,7 @@ dependencies:
   module:
     - comment
     - filter
+    - fontawesome
     - media
     - rest
     - search
@@ -22,6 +23,7 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access fontawesome additional settings'
   - 'access shortcuts'
   - 'post comments'
   - 'restful post notifications_update_widget'

@@ -30,6 +30,8 @@ content:
     settings:
       image_link: ''
       image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 105
     region: content
@@ -49,4 +51,5 @@ content:
     weight: 100
     region: content
 hidden:
+  addtoany: true
   langcode: true
