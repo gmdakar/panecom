@@ -204,30 +204,30 @@ class OwlCarouselFieldFormatter extends EntityReferenceFormatterBase implements 
     $autoplaypause = $this->getSetting('autoplayHoverPause') ? 'TRUE' : 'FALSE';
     $dots = $this->getSetting('autoplayHoverPause') ? 'TRUE' : 'FALSE';
 
-    $summary[] = $this->t('Owlcarousel Settings summary.');
-    $summary[] = $this->t('Image style:') . $this->getSetting('image_style');
-    $summary[] = $this->t('Link image to:') . $this->getSetting('image_link') ?? $this->t('Nothing');
-    $summary[] = $this->t('Amount of items displayed:') . $itemsdisplay;
-    $summary[] = $this->t('Margin from items:') . $this->getSetting('margin') . 'px';
-    $summary[] = $this->t('Display next and prev buttons:') . $nav;
-    $summary[] = $this->t('Autoplay:') . $autoplay;
-    $summary[] = $this->t('Autoplay pause on mouse hover:') . $autoplaypause;
-    $summary[] = $this->t('Show dots:') . $dots;
+    $summary[] = $this->t('OwlCarousel settings summary.');
+    $summary[] = $this->t('Image style: ') . $this->getSetting('image_style');
+    $summary[] = $this->t('Link image to: ') . $this->getSetting('image_link') ?? $this->t('Nothing');
+    $summary[] = $this->t('Amount of items displayed: ') . $itemsdisplay;
+    $summary[] = $this->t('Margin from items: ') . $this->getSetting('margin') . 'px';
+    $summary[] = $this->t('Display next and prev buttons: ') . $nav;
+    $summary[] = $this->t('Autoplay: ') . $autoplay;
+    $summary[] = $this->t('Autoplay pause on mouse hover: ') . $autoplaypause;
+    $summary[] = $this->t('Show dots: ') . $dots;
 
     if ($this->getSetting('dimensionMobile')) {
-      $summary[] = $this->t('Mobile dimensions:') . $this->getSetting('dimensionMobile') . 'px';
+      $summary[] = $this->t('Mobile dimensions: ') . $this->getSetting('dimensionMobile') . 'px';
     }
 
     if ($this->getSetting('itemsMobile')) {
-      $summary[] = $this->t('Mobile items to show:') . $this->getSetting('itemsMobile');
+      $summary[] = $this->t('Mobile items to show: ') . $this->getSetting('itemsMobile');
     }
 
     if ($this->getSetting('dimensionDesktop')) {
-      $summary[] = $this->t('Desktop dimensions:') . $this->getSetting('dimensionDesktop') . 'px';
+      $summary[] = $this->t('Desktop dimensions: ') . $this->getSetting('dimensionDesktop') . 'px';
     }
 
     if ($this->getSetting('itemsDesktop')) {
-      $summary[] = $this->t('Desktop items to show:') . $this->getSetting('itemsDesktop');
+      $summary[] = $this->t('Desktop items to show: ') . $this->getSetting('itemsDesktop');
     }
 
     return $summary;

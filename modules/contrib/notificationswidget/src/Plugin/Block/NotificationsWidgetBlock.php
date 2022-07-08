@@ -40,10 +40,11 @@ class NotificationsWidgetBlock extends BlockBase implements ContainerFactoryPlug
    * {@inheritdoc}
    */
   public function __construct(array $configuration,
-    $plugin_id,
-    $plugin_definition,
-    AccountInterface $current_user,
-    Connection $database) {
+        $plugin_id,
+        $plugin_definition,
+        AccountInterface $current_user,
+        Connection $database
+    ) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->currentUser = $current_user;
     $this->database    = $database;
@@ -53,16 +54,17 @@ class NotificationsWidgetBlock extends BlockBase implements ContainerFactoryPlug
    * {@inheritdoc}
    */
   public static function create(ContainerInterface $container,
-    array $configuration,
-    $plugin_id,
-    $plugin_definition) {
+        array $configuration,
+        $plugin_id,
+        $plugin_definition
+    ) {
     return new static(
-      $configuration,
-      $plugin_id,
-      $plugin_definition,
-      $container->get('current_user'),
-      $container->get('database')
-    );
+          $configuration,
+          $plugin_id,
+          $plugin_definition,
+          $container->get('current_user'),
+          $container->get('database')
+      );
   }
 
   /**
@@ -86,11 +88,6 @@ class NotificationsWidgetBlock extends BlockBase implements ContainerFactoryPlug
       '#type'          => 'checkbox',
       '#title'         => $this->t('Skip Display to own activities'),
       '#default_value' => TRUE,
-      '#states'        => [
-        'visible'      => [
-          ':input[name="settings[block_notification_type]"]' => ['value' => '1'],
-        ],
-      ],
     ];
 
     return $form;
@@ -128,40 +125,72 @@ class NotificationsWidgetBlock extends BlockBase implements ContainerFactoryPlug
     $unreadCount = 0;
     $notificationList = [];
 
+    $clerallQuery = $connection->select('notifications_clear_all', 'nca');
+    $clerallQuery->fields('nca');
+    $clerallQuery->condition('nca.uid', $uid);
+    $clerallQuery->orderBy('nca.id', 'DESC');
+    $ncaRes = $clerallQuery->execute()->fetchObject();
+
+    $startingNotiId = isset($ncaRes->notification_id) ? $ncaRes->notification_id : 0;
+
     $query = $connection->select('notifications', 'n');
-    $query->fields('n', [
-      'id',
-      'message',
-      'status',
-    ]);
+    $query->fields(
+          'n', [
+            'id',
+            'message',
+          ]
+      );
+
+    $query->condition('n.id', $startingNotiId, '>');
 
     if (isset($config['block_notification_type'])
-     && $config['block_notification_type'] == 1
-     && $config['block_notification_logs_display'] == 1) {
+          && $config['block_notification_type'] == 1
+          && $config['block_notification_logs_display'] == 1
+      ) {
       $query->condition('n.entity_uid', $uid);
       $query->condition('n.uid', $uid, '<>');
       $notificationType = 1;
     }
     elseif (isset($config['block_notification_type'])
-     && $config['block_notification_type'] == 1
-     && $config['block_notification_logs_display'] == 0) {
+          && $config['block_notification_type'] == 1
+          && $config['block_notification_logs_display'] == 0
+      ) {
       $query->condition('n.entity_uid', $uid);
       $notificationType = 1;
+    }
+    elseif (isset($config['block_notification_type'])
+          && $config['block_notification_type'] == 0
+          && $config['block_notification_logs_display'] == 1
+      ) {
+      $query->condition('n.uid', $uid, '<>');
     }
 
     $query->orderBy('n.created', 'DESC');
     $res = $query->execute();
 
     while ($notification = $res->fetchObject()) {
-
       if (!empty($notification->message)) {
+        $nasQuery = $connection->select('notifications_actions', 'nas');
+        $nasQuery->fields('nas');
+        $nasQuery->condition('nas.uid', $uid);
+        $nasQuery->condition('nas.notification_id', $notification->id);
+        $nasRes = $nasQuery->execute()->fetchObject();
+
+        $nasId  = isset($nasRes->id) ? $nasRes->id : '';
+        $status = isset($nasRes->status) ? $nasRes->status : 0;
+
+        if ($status == 2) {
+          continue;
+        }
+
         $notificationList[] = [
           'id'      => $notification->id,
+          'nas_id'  => $nasId,
           'message' => $notification->message,
-          'status'  => $notification->status,
+          'status'  => $status,
         ];
 
-        if ($notification->status == 0) {
+        if ($status == 0) {
           $unreadCount++;
         }
 

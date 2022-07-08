@@ -9,7 +9,7 @@ dependencies:
 
 configure: layout_builder_component_attributes.settings
 
-# Information added by Drupal.org packaging script on 2021-11-10
-version: '2.0.0'
+# Information added by Drupal.org packaging script on 2022-02-07
+version: '2.0.1'
 project: 'layout_builder_component_attributes'
-datestamp: 1636579836
+datestamp: 1644194116

@@ -44,7 +44,7 @@ class AnimateAnyForm extends FormBase {
 //    $page_cache = \Drupal::config('animate_any.settings')->get('animate.data');
 //    kint($page_cache);
     // Fetch animate.css from library.
-    $animate_css = DRUPAL_ROOT . '/libraries/animate_any/animate.css';
+    $animate_css = DRUPAL_ROOT . '/libraries/animate_any/animate.min.css';
     // Check animate.css file exists.
     if (!file_exists($animate_css)) {
       $this->messenger()->addMessage($this->t('animate.css library is missing.'), 'warning');
