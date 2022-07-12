@@ -1,0 +1,11 @@
+uuid: 9b69eb4f-ba01-4e1a-a2c0-c14086cfbce1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_inscription
+id: block_content.block_type_inscription
+target_entity_type_id: block_content
+target_bundle: block_type_inscription
+default_langcode: site_default
+language_alterable: false

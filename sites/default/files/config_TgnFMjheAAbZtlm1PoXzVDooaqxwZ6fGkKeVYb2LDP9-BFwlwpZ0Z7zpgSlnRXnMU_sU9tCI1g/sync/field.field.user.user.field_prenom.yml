@@ -1,0 +1,39 @@
+uuid: d840987b-fdd6-4de3-93f4-e2a3bbf21fde
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_prenom
+  module:
+    - disable_field
+    - epp
+    - multiple_registration
+    - user
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+  multiple_registration:
+    user_additional_register_form:
+      authenticated: 0
+      content_editor: 0
+      point_focal: 0
+    user_additional_register_form_required:
+      authenticated: 0
+      content_editor: 0
+      point_focal: 0
+id: user.user.field_prenom
+field_name: field_prenom
+entity_type: user
+bundle: user
+label: Prénom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
