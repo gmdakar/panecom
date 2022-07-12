@@ -62,17 +62,17 @@
 /*empty*/
 @-webkit-keyframes empty {
   0% {
-    opacity: 1
+    opacity: 1;
   }
 }
 @-moz-keyframes empty {
   0% {
-    opacity: 1
+    opacity: 1;
   }
 }
 @keyframes empty {
   0% {
-    opacity: 1
+    opacity: 1;
   }
 }
 @-webkit-keyframes fadeIn {

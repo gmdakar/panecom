@@ -27,8 +27,8 @@ rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git s
 echo "rm -rf modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content
 
-echo "git add . --force && git commit -m 'new commmit' && git push"
-git add . --force && git commit -m "new commit" && git push
+echo "git add . --force && git commit -m 'new commmit' && git push origin HEAD:main --force"
+git add . --force && git commit -m "new commit" && git push origin HEAD:main --force
 
 echo "drush -y en mydefaultcontent || true"
 drush -y en mydefaultcontent || true
