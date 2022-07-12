@@ -1,4 +1,5 @@
 _core:
   default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
-admin: seven
-default: bartik
+langcode: fr
+admin: adminimal_theme
+default: panecom_bstrp

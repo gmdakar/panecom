@@ -1,17 +1,22 @@
-uuid: 827371a4-7cd1-4962-b378-694f0ef4c53a
-langcode: en
+uuid: 46aa00ba-b4d3-4a44-bea5-ea1871d3bd09
+langcode: fr
 status: true
 dependencies:
   config:
     - node.type.article
+    - node.type.document
     - node.type.page
+    - node.type.projet
+    - rest.resource.notifications_update_widget
     - taxonomy.vocabulary.tags
   module:
     - comment
     - contextual
     - file
+    - media
     - node
     - path
+    - rest
     - system
     - taxonomy
     - toolbar
@@ -19,8 +24,8 @@ dependencies:
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
-label: 'Content editor'
-weight: 2
+label: 'Rédacteur d''une organisation'
+weight: -8
 is_admin: false
 permissions:
   - 'access administration pages'
@@ -31,18 +36,26 @@ permissions:
   - 'access tour'
   - 'administer url aliases'
   - 'create article content'
-  - 'create page content'
+  - 'create document content'
+  - 'create media'
+  - 'create projet content'
   - 'create terms in tags'
   - 'create url aliases'
   - 'delete article revisions'
+  - 'delete media'
   - 'delete own article content'
-  - 'delete own page content'
+  - 'delete own document content'
+  - 'delete own projet content'
   - 'delete page revisions'
   - 'edit own article content'
   - 'edit own comments'
-  - 'edit own page content'
+  - 'edit own document content'
+  - 'edit own projet content'
   - 'edit terms in tags'
+  - 'restful post notifications_update_widget'
   - 'revert all revisions'
+  - 'update media'
   - 'view all revisions'
   - 'view own unpublished content'
+  - 'view own unpublished media'
   - 'view the administration theme'

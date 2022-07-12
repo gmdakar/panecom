@@ -1,5 +1,5 @@
-uuid: 14c76a6b-f1d1-488d-a667-bc3d2334e4bf
-langcode: en
+uuid: 167022c3-87b9-4d2a-a17f-ef9b85deb45d
+langcode: fr
 status: true
 dependencies:
   config:
@@ -17,6 +17,7 @@ settings:
         -
           name: Formatting
           items:
+            - countup
             - Bold
             - Italic
             - Strike
@@ -53,11 +54,13 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

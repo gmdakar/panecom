@@ -1,0 +1,15 @@
+uuid: 533b8425-d69c-4f72-8df1-a188f7749f1b
+langcode: fr
+status: true
+dependencies: {  }
+name: image_style_1000x500
+label: 'image style 1000x500'
+effects:
+  abdfba52-7f79-4c7f-8759-71385e4cf40b:
+    uuid: abdfba52-7f79-4c7f-8759-71385e4cf40b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 500
+      anchor: center-center

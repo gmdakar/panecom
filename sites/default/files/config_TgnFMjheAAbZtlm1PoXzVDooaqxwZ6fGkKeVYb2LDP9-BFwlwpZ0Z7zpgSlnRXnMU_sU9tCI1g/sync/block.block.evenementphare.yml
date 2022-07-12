@@ -1,0 +1,30 @@
+uuid: 743f171b-77b4-44b1-a3a1-a225726a252b
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:evenement_phare:65fb0c3e-9ef5-4ed8-be0c-0dea8b257250'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: evenementphare
+theme: panecom_bstrp
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:65fb0c3e-9ef5-4ed8-be0c-0dea8b257250'
+settings:
+  id: 'block_content:65fb0c3e-9ef5-4ed8-be0c-0dea8b257250'
+  label: 'Evénement phare'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

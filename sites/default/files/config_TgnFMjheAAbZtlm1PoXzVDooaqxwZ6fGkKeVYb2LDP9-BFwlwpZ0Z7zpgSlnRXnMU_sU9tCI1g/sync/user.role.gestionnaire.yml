@@ -1,0 +1,25 @@
+uuid: abf5750a-153d-436d-a647-4be6d6c95232
+langcode: en
+status: true
+dependencies:
+  module:
+    - backup_migrate
+    - media
+    - node
+    - role_delegation
+id: gestionnaire
+label: Gestionnaire
+weight: -6
+is_admin: null
+permissions:
+  - 'access media overview'
+  - 'assign content_editor role'
+  - 'assign gestionnaire role'
+  - 'bypass node access'
+  - 'create media'
+  - 'delete any media'
+  - 'delete media'
+  - 'perform backup'
+  - 'update any media'
+  - 'update media'
+  - 'view own unpublished media'

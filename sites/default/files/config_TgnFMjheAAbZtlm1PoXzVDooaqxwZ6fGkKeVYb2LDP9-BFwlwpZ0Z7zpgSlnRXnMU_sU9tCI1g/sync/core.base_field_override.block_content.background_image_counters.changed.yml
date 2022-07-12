@@ -1,0 +1,18 @@
+uuid: 58ba63f2-6cfd-47ef-b7de-412d594f014d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image_counters
+id: block_content.background_image_counters.changed
+field_name: changed
+entity_type: block_content
+bundle: background_image_counters
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

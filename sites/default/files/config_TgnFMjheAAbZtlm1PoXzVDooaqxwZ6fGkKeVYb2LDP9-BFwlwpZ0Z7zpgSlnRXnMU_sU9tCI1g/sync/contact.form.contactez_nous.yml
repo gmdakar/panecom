@@ -1,0 +1,21 @@
+uuid: 3644adc8-6115-4f4b-ad9e-690e62e9b407
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Envoyer
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: contactez_nous
+label: Contactez-nous
+recipients:
+  - ssmmsow@yahoo.com
+reply: "Bien reçu.\r\nNous vous remercions de votre message.\r\nBien cordialement"
+weight: 0
+message: 'Votre message a été bien envoyé avec succès.'
+redirect: ''

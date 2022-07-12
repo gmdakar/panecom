@@ -1,0 +1,14 @@
+uuid: 8760487c-c5e0-4ee9-aa21-21fceac7793d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: content_type
+label: 'content type'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

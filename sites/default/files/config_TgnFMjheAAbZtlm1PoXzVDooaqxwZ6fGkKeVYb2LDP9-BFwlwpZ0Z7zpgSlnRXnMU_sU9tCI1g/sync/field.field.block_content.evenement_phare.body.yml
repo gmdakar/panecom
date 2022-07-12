@@ -1,0 +1,23 @@
+uuid: b2fda83d-f9bd-47d4-b5e5-5d44565bd8d3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.evenement_phare
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.evenement_phare.body
+field_name: body
+entity_type: block_content
+bundle: evenement_phare
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

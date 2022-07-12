@@ -1,0 +1,10 @@
+uuid: 0dfc6f11-37c3-46d4-9835-07ee7673dae9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.me
+label: 'media library owlcarousel'
+targetEntityType: media
+cache: true

@@ -1,21 +1,24 @@
-uuid: 0dedbc92-e0c7-44f2-b60e-4d644ed42396
-langcode: en
+uuid: c2a6c8e4-0adb-40a2-98b1-599f7281d1a2
+langcode: fr
 status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - rest.resource.notifications_update_widget
   module:
     - comment
     - contact
     - filter
+    - media
+    - rest
     - search
     - shortcut
     - system
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
-label: 'Authenticated user'
-weight: 1
+label: 'Utilisateur authentifié'
+weight: -9
 is_admin: false
 permissions:
   - 'access comments'
@@ -23,6 +26,8 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'post comments'
+  - 'restful post notifications_update_widget'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view media'

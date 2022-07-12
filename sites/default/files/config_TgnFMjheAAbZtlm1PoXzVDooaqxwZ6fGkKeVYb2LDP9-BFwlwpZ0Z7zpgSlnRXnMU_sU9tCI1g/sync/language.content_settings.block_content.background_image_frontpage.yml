@@ -1,0 +1,18 @@
+uuid: 7b148d30-6b8f-417f-9552-1dafbf0cef23
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_image_frontpage
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.background_image_frontpage
+target_entity_type_id: block_content
+target_bundle: background_image_frontpage
+default_langcode: current_interface
+language_alterable: true

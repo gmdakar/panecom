@@ -1,0 +1,18 @@
+uuid: 88c5ee2b-810a-464b-965c-f0d20fe90cf1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.personnes_cles
+id: node.personnes_cles.title
+field_name: title
+entity_type: node
+bundle: personnes_cles
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

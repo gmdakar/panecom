@@ -1,0 +1,18 @@
+uuid: ed095c5c-9c9e-4be6-b883-67875e3917f0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.zone_actualites_sidebar_right_fr
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.zone_actualites_sidebar_right_fr
+target_entity_type_id: block_content
+target_bundle: zone_actualites_sidebar_right_fr
+default_langcode: current_interface
+language_alterable: true

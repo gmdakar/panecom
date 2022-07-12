@@ -1,0 +1,29 @@
+uuid: 19090a38-c95e-40da-998d-0f19839fc523
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.menu-mediatheque
+  module:
+    - system
+  theme:
+    - panecom_bstrp
+id: menumediatheque_2
+theme: panecom_bstrp
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-mediatheque'
+settings:
+  id: 'system_menu_block:menu-mediatheque'
+  label: 'Menu médiathèque'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/médiathèque/*\r\n/media-library/*"

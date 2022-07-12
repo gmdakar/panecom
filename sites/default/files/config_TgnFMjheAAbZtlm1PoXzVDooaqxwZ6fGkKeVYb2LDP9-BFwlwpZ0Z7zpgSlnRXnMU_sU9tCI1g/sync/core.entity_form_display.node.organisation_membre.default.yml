@@ -1,0 +1,293 @@
+uuid: 6942601d-40d9-4c19-b653-0222aa4f3eab
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.organisation_membre.body
+    - field.field.node.organisation_membre.field_org_actualites
+    - field.field.node.organisation_membre.field_org_adresse_contact
+    - field.field.node.organisation_membre.field_org_documents
+    - field.field.node.organisation_membre.field_org_image_hero
+    - field.field.node.organisation_membre.field_org_localisation
+    - field.field.node.organisation_membre.field_org_logo
+    - field.field.node.organisation_membre.field_org_photos
+    - field.field.node.organisation_membre.field_org_projets
+    - field.field.node.organisation_membre.field_org_site_web
+    - field.field.node.organisation_membre.field_org_telecharger
+    - field.field.node.organisation_membre.field_org_telephone
+    - field.field.node.organisation_membre.field_org_videos
+    - image.style.thumbnail
+    - node.type.organisation_membre
+  module:
+    - field_group
+    - image
+    - leaflet
+    - link
+    - media_library
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_informations_de_contact:
+      children:
+        - field_org_telephone
+        - field_org_adresse_contact
+        - field_org_site_web
+      label: 'Informations de contact'
+      region: content
+      parent_name: ''
+      weight: 10
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+        effect: none
+        direction: vertical
+        width_breakpoint: 640
+    group_presentation:
+      children:
+        - title
+        - field_org_logo
+        - field_org_image_hero
+        - body
+      label: Présentation
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+    group_mediatheque:
+      children:
+        - field_org_photos
+        - field_org_videos
+      label: Médiathèque
+      region: content
+      parent_name: ''
+      weight: 9
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+        effect: none
+        direction: vertical
+        width_breakpoint: 640
+    group_localisation:
+      children:
+        - field_org_localisation
+      label: Localisation
+      region: content
+      parent_name: ''
+      weight: 11
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+id: node.organisation_membre.default
+targetEntityType: node
+bundle: organisation_membre
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 5
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_org_adresse_contact:
+    type: text_textarea
+    weight: 18
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_org_image_hero:
+    type: image_image
+    weight: 4
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_org_localisation:
+    type: leaflet_widget_default
+    weight: 15
+    region: content
+    settings:
+      map:
+        leaflet_map: google-satellite
+        height: 1000
+        locate: 1
+        auto_center: 1
+        map_position:
+          force: false
+          center:
+            lat: !!float 0
+            lon: !!float 0
+          zoom: 8
+          minZoom: 1
+          maxZoom: 18
+          zoomFiner: 0
+        scroll_zoom_enabled: 1
+      input:
+        show: false
+        readonly: false
+      toolbar:
+        position: topright
+        marker: defaultMarker
+        drawPolyline: false
+        drawRectangle: false
+        drawPolygon: false
+        drawCircle: false
+        editMode: false
+        dragMode: false
+        cutPolygon: false
+        removalMode: false
+        rotateMode: false
+      reset_map:
+        position: topright
+        control: false
+      fullscreen:
+        control: false
+        options: '{"position":"topleft","pseudoFullscreen":false}'
+      path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+      geocoder:
+        control: false
+        settings:
+          position: topright
+          input_size: 25
+          providers: {  }
+          min_terms: 4
+          delay: 800
+          zoom: 16
+          popup: false
+          options: ''
+    third_party_settings: {  }
+  field_org_logo:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_org_photos:
+    type: media_library_widget
+    weight: 15
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_org_site_web:
+    type: link_default
+    weight: 19
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_org_telephone:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_org_videos:
+    type: media_library_widget
+    weight: 17
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 7
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_org_actualites: true
+  field_org_documents: true
+  field_org_projets: true
+  field_org_telecharger: true
+  langcode: true
+  revision_log: true

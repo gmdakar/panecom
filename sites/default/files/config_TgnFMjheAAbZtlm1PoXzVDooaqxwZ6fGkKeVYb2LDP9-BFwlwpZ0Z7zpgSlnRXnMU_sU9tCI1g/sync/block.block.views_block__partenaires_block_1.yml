@@ -1,0 +1,24 @@
+uuid: 137b3488-77ea-4494-8fe8-49ec7a9a856d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.partenaires
+  module:
+    - views
+  theme:
+    - panecom_bstrp
+id: views_block__partenaires_block_1
+theme: panecom_bstrp
+region: footer_third
+weight: -16
+provider: null
+plugin: 'views_block:partenaires-block_1'
+settings:
+  id: 'views_block:partenaires-block_1'
+  label: Partenaires
+  label_display: visible
+  provider: views
+  views_label: Partenaires
+  items_per_page: none
+visibility: {  }

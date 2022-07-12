@@ -1,0 +1,29 @@
+uuid: 08c923f8-1160-4e43-b933-ed6344375770
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.counters
+  module:
+    - system
+    - views
+  theme:
+    - panecom_bstrp
+id: views_block__counters_block_1
+theme: panecom_bstrp
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:counters-block_1'
+settings:
+  id: 'views_block:counters-block_1'
+  label: 'Quelques chiffres'
+  label_display: visible
+  provider: views
+  views_label: 'Quelques chiffres'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,18 @@
+uuid: f1d1dec5-9f70-4275-9801-5da6068fb913
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+id: taxonomy_term.languages_supported.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: languages_supported
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

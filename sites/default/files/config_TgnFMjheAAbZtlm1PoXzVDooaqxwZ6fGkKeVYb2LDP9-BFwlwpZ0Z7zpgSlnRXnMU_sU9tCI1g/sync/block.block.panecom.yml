@@ -1,0 +1,25 @@
+uuid: 5b54f012-9b0a-4282-9c69-32213ec1d2ce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:979c9fab-1557-4d14-b976-e612920035d5'
+  module:
+    - block_content
+  theme:
+    - panecom_bstrp
+id: panecom
+theme: panecom_bstrp
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:979c9fab-1557-4d14-b976-e612920035d5'
+settings:
+  id: 'block_content:979c9fab-1557-4d14-b976-e612920035d5'
+  label: Panecom
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

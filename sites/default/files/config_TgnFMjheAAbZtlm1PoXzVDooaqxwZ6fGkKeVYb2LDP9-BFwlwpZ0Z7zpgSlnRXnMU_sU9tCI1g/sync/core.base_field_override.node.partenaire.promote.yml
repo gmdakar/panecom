@@ -1,0 +1,22 @@
+uuid: 225ee641-a58d-42fb-ad8d-c337dc4f133b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.partenaire
+id: node.partenaire.promote
+field_name: promote
+entity_type: node
+bundle: partenaire
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

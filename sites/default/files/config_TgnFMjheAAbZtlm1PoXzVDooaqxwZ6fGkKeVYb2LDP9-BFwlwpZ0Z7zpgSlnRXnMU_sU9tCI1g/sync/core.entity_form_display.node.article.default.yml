@@ -1,10 +1,11 @@
-uuid: 51c3ac71-0dd5-4181-bcc4-093492451fa9
-langcode: en
+uuid: 7af581dc-9ead-4549-bc23-6188f2a3cdc0
+langcode: fr
 status: true
 dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_organisation
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -33,26 +34,18 @@ content:
     third_party_settings: {  }
   comment:
     type: comment_default
-    weight: 20
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    type: image_image
-    weight: 4
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
+  field_article_organisation:
+    type: entity_reference_autocomplete
     weight: 3
     region: content
     settings:
@@ -61,29 +54,37 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 7
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 12
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 8
     region: content
     settings:
       display_label: true
@@ -96,9 +97,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
@@ -106,4 +112,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+  url_redirects:
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_tags: true
+  langcode: true
+  revision_log: true

@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
-uuid: b4187c42-379e-430d-8be5-d1ba88817263
-name: 'D9 from D6'
-mail: eee@eee.Com
+langcode: fr
+uuid: dad6329b-cb10-4ca9-a6d3-42ea38c24269
+name: Panecom
+mail: testtest@panecom.pro
 slogan: ''
 page:
   403: ''
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: fr

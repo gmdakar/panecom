@@ -1,0 +1,27 @@
+uuid: d02fd76c-de6b-4690-900f-3f5fe1e8e415
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_org_telecharger
+    - node.type.organisation_membre
+  module:
+    - file
+id: node.organisation_membre.field_org_telecharger
+field_name: field_org_telecharger
+entity_type: node
+bundle: organisation_membre
+label: Télécharger
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'organisation/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf doc docx'
+  max_filesize: ''
+  description_field: false
+field_type: file

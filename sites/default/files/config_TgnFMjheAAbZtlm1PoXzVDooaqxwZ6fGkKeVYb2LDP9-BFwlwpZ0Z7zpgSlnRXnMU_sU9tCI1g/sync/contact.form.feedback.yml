@@ -1,5 +1,5 @@
-uuid: fb563479-66af-42d9-b937-e4c8d3a1a419
-langcode: en
+uuid: 224ac3aa-9fad-4e3f-856a-f92662d7f616
+langcode: fr
 status: true
 dependencies: {  }
 _core:
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - eee@eee.Com
+  - testtest@panecom.pro
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

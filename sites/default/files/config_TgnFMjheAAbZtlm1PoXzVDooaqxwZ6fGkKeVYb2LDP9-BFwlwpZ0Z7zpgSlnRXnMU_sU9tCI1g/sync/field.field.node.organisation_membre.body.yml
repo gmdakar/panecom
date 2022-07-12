@@ -1,0 +1,23 @@
+uuid: 0caa280f-4fe9-41ec-8363-273269fa30a1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.organisation_membre
+  module:
+    - text
+id: node.organisation_membre.body
+field_name: body
+entity_type: node
+bundle: organisation_membre
+label: Présentation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

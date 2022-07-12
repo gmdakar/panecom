@@ -1,0 +1,8 @@
+uuid: f20c6756-3e31-4a99-ae85-87ac07e2880c
+langcode: fr
+status: true
+dependencies: {  }
+id: evenement_phare
+label: 'Evènement phare'
+revision: 0
+description: ''

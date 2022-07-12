@@ -1,0 +1,18 @@
+uuid: 0d94dbcc-c87a-433b-a57a-d45e48dd4639
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.evenement_phare
+id: block_content.evenement_phare.info
+field_name: info
+entity_type: block_content
+bundle: evenement_phare
+label: 'Block description'
+description: 'Une brève description de votre bloc.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

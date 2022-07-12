@@ -1,11 +1,12 @@
-uuid: cbdf8e8e-a7de-44ba-b6f6-71d86e7a068c
-langcode: en
+uuid: 84090623-d769-4802-a456-45666917e8b9
+langcode: fr
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_organisation
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.medium
@@ -21,6 +22,11 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
   body:
     type: text_summary_or_trimmed
     label: hidden
@@ -51,5 +57,7 @@ content:
     region: content
 hidden:
   comment: true
+  field_article_organisation: true
   field_image: true
   field_tags: true
+  langcode: true

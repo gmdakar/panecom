@@ -1,0 +1,12 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          -
+            configuration:
+              label: About
+          -
+            configuration:
+              label: News
+              views_label: News
