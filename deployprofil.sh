@@ -45,7 +45,6 @@ drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer 
 echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true"
 chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true 
 
-
 ############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdistr"  ###############################
 echo "####"
 echo "#### CAUTION : the module mydefaultcontent needs to be marked activated by default by all the ways ####"
