@@ -1,0 +1,22 @@
+[
+    {
+        "cid": 3,
+        "uuid": "f26f6cd0-4b38-4ae9-81e5-38f6504a57f3",
+        "vid": 3,
+        "type": "personnes_cles",
+        "langcode": "fr",
+        "entity_id": 836,
+        "entity_type": "file",
+        "uri": "public://personnes_cles/2022-06/pexels-rebrand-cities-1367269_1.jpg",
+        "height": 1820,
+        "width": 1820,
+        "x": 3015,
+        "y": 1503,
+        "revision_timestamp": 1655915780,
+        "revision_uid": 1,
+        "revision_log": null,
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1"
+    }
+]

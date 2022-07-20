@@ -4,7 +4,7 @@ geolocation:
     js/geolocation.js: {}
   dependencies:
     - core/jquery
-    - core/once
+    - core/jquery.once
 
 geofield_proximity:
   version: 1.x

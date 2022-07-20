@@ -11,7 +11,8 @@
  * In general, users should be using the core block types instead.
  */
 function ctools_block_plugin_filter_block_alter(array &$definitions, array $extra, $consumer) {
-  if ($consumer == 'layout_builder') {
+  $moduleHandler = \Drupal::service('module_handler');
+  if ($moduleHandler->moduleExists('layout_builder')) {
     foreach ($definitions as $label => $definition) {
       if ($definition['provider'] == 'ctools_block') {
         unset($definitions[$label]);

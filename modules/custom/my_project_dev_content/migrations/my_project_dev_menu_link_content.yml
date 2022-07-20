@@ -1,0 +1,143 @@
+label: 'Import menu_link_content'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_menu_link_content
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/menu_link_content/menu_link_content-22.json
+    - ../data/menu_link_content/menu_link_content-23.json
+    - ../data/menu_link_content/menu_link_content-25.json
+    - ../data/menu_link_content/menu_link_content-33.json
+  ids:
+    id:
+      type: integer
+    revision_id:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    id:
+      name: id
+      selector: /id
+    uuid:
+      name: uuid
+      selector: /uuid
+    revision_id:
+      name: revision_id
+      selector: /revision_id
+    langcode:
+      name: langcode
+      selector: /langcode
+    bundle:
+      name: bundle
+      selector: /bundle
+    revision_created:
+      name: revision_created
+      selector: /revision_created
+    revision_user:
+      name: revision_user
+      selector: /revision_user
+    revision_log_message:
+      name: revision_log_message
+      selector: /revision_log_message
+    enabled:
+      name: enabled
+      selector: /enabled
+    title:
+      name: title
+      selector: /title
+    description:
+      name: description
+      selector: /description
+    menu_name:
+      name: menu_name
+      selector: /menu_name
+    link:
+      name: link
+      selector: /link
+    external:
+      name: external
+      selector: /external
+    rediscover:
+      name: rediscover
+      selector: /rediscover
+    weight:
+      name: weight
+      selector: /weight
+    expanded:
+      name: expanded
+      selector: /expanded
+    parent:
+      name: parent
+      selector: /parent
+    changed:
+      name: changed
+      selector: /changed
+    default_langcode:
+      name: default_langcode
+      selector: /default_langcode
+    revision_default:
+      name: revision_default
+      selector: /revision_default
+    revision_translation_affected:
+      name: revision_translation_affected
+      selector: /revision_translation_affected
+    content_translation_source:
+      name: content_translation_source
+      selector: /content_translation_source
+    content_translation_outdated:
+      name: content_translation_outdated
+      selector: /content_translation_outdated
+    content_translation_uid:
+      name: content_translation_uid
+      selector: /content_translation_uid
+    content_translation_status:
+      name: content_translation_status
+      selector: /content_translation_status
+    content_translation_created:
+      name: content_translation_created
+      selector: /content_translation_created
+process:
+  id: id
+  uuid: uuid
+  revision_id: revision_id
+  langcode: langcode
+  bundle: bundle
+  revision_created: revision_created
+  revision_user: revision_user
+  revision_log_message: revision_log_message
+  enabled: enabled
+  title: title
+  description: description
+  menu_name: menu_name
+  link: link
+  external: external
+  rediscover: rediscover
+  weight: weight
+  expanded: expanded
+  parent: parent
+  changed: changed
+  default_langcode: default_langcode
+  revision_default: revision_default
+  revision_translation_affected: revision_translation_affected
+  content_translation_source: content_translation_source
+  content_translation_outdated: content_translation_outdated
+  content_translation_uid: content_translation_uid
+  content_translation_status: content_translation_status
+  content_translation_created: content_translation_created
+destination:
+  plugin: 'entity_complete:menu_link_content'
+  translations: true
+migration_dependencies:
+  required: {  }
+  optional:
+    - my_project_dev_node_page
+    - my_project_dev_user

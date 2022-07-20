@@ -93,7 +93,7 @@ class WizardFactory implements WizardFactoryInterface {
         $arguments[] = $parameter->getDefaultValue();
       }
     }
-    /** @var \Drupal\ctools\Wizard\FormWizardInterface $wizard */
+    /** @var $wizard \Drupal\ctools\Wizard\FormWizardInterface */
     $wizard = $reflection->newInstanceArgs($arguments);
     return $wizard;
   }

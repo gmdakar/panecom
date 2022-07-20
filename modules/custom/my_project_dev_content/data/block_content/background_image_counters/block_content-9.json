@@ -1,0 +1,24 @@
+[
+    {
+        "id": 9,
+        "uuid": "6e860ce5-f91f-4656-91f1-f4c1819dbf07",
+        "revision_id": 8,
+        "langcode": "fr",
+        "type": "background_image_counters",
+        "revision_created": 1655830771,
+        "revision_user": null,
+        "revision_log": null,
+        "status": "1",
+        "info": "Quelque chiffres",
+        "changed": 1655830771,
+        "reusable": "1",
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "content_translation_source": "und",
+        "content_translation_outdated": "0",
+        "content_translation_uid": 1,
+        "content_translation_created": 1655830771,
+        "body": null
+    }
+]

@@ -1,0 +1,110 @@
+label: 'Import block_content zone_actualites_sidebar_right_fr'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_block_content_zone_actualites_sidebar_right_fr
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/block_content/zone_actualites_sidebar_right_fr/block_content-5.json
+  ids:
+    id:
+      type: integer
+    revision_id:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    id:
+      name: id
+      selector: /id
+    uuid:
+      name: uuid
+      selector: /uuid
+    revision_id:
+      name: revision_id
+      selector: /revision_id
+    langcode:
+      name: langcode
+      selector: /langcode
+    type:
+      name: type
+      selector: /type
+    revision_created:
+      name: revision_created
+      selector: /revision_created
+    revision_user:
+      name: revision_user
+      selector: /revision_user
+    revision_log:
+      name: revision_log
+      selector: /revision_log
+    status:
+      name: status
+      selector: /status
+    info:
+      name: info
+      selector: /info
+    changed:
+      name: changed
+      selector: /changed
+    reusable:
+      name: reusable
+      selector: /reusable
+    default_langcode:
+      name: default_langcode
+      selector: /default_langcode
+    revision_default:
+      name: revision_default
+      selector: /revision_default
+    revision_translation_affected:
+      name: revision_translation_affected
+      selector: /revision_translation_affected
+    content_translation_source:
+      name: content_translation_source
+      selector: /content_translation_source
+    content_translation_outdated:
+      name: content_translation_outdated
+      selector: /content_translation_outdated
+    content_translation_uid:
+      name: content_translation_uid
+      selector: /content_translation_uid
+    content_translation_created:
+      name: content_translation_created
+      selector: /content_translation_created
+    body:
+      name: body
+      selector: /body
+process:
+  id: id
+  uuid: uuid
+  revision_id: revision_id
+  langcode: langcode
+  type: type
+  revision_created: revision_created
+  revision_user: revision_user
+  revision_log: revision_log
+  status: status
+  info: info
+  changed: changed
+  reusable: reusable
+  default_langcode: default_langcode
+  revision_default: revision_default
+  revision_translation_affected: revision_translation_affected
+  content_translation_source: content_translation_source
+  content_translation_outdated: content_translation_outdated
+  content_translation_uid: content_translation_uid
+  content_translation_created: content_translation_created
+  body: body
+destination:
+  plugin: 'entity_complete:block_content'
+  translations: true
+migration_dependencies:
+  required: {  }
+  optional: {  }

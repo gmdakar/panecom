@@ -17,7 +17,6 @@ class AutomaticContext extends Context {
    * Returns TRUE if this context is automatic and always available.
    *
    * @return bool
-   *   If the context is automatic or not.
    */
   public function isAutomatic() {
     return TRUE;

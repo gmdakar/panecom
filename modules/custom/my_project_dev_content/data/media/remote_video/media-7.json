@@ -1,0 +1,29 @@
+[
+    {
+        "mid": 7,
+        "uuid": "e9bba5db-d256-4699-95a2-40da669ac844",
+        "vid": 7,
+        "langcode": "fr",
+        "bundle": "remote_video",
+        "revision_user": null,
+        "revision_log_message": null,
+        "status": "1",
+        "uid": 1,
+        "name": "À LA DÉCOUVERTE DE DRUPAL 9 (avec Kevin Fégar)",
+        "thumbnail": [
+            {
+                "target_id": 155,
+                "alt": "",
+                "title": null,
+                "width": 480,
+                "height": 360
+            }
+        ],
+        "created": 1653063873,
+        "changed": 1653063873,
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "field_media_oembed_video": "https://www.youtube.com/watch?v=uqEj1d-D20g"
+    }
+]

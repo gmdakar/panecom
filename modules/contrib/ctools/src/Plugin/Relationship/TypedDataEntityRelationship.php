@@ -19,17 +19,15 @@ class TypedDataEntityRelationship extends TypedDataRelationship {
   public function getRelationship() {
     $plugin_definition = $this->getPluginDefinition();
 
-    $context_definition = new EntityContextDefinition("entity:{$plugin_definition['target_entity_type']}", $plugin_definition['label']);
+    $entity_type = $this->getData($this->getContext('base'))->getDataDefinition()->getSetting('target_type');
+    $context_definition = new EntityContextDefinition("entity:$entity_type", $plugin_definition['label']);
     $context_value = NULL;
 
     // If the 'base' context has a value, then get the property value to put on
     // the context (otherwise, mapping hasn't occurred yet and we just want to
     // return the context with the right definition and no value).
     if ($this->getContext('base')->hasContextValue()) {
-      $data = $this->getData($this->getContext('base'));
-      if ($data) {
-        $context_value = $data->entity;
-      }
+      $context_value = $this->getData($this->getContext('base'))->entity;
     }
 
     $context_definition->setDefaultValue($context_value);

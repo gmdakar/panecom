@@ -11,9 +11,7 @@ use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Form\FormBuilderInterface;
 
-/**
- * Required Context Form.
- */
+
 abstract class RequiredContext extends FormBase {
 
   /**
@@ -43,14 +41,7 @@ abstract class RequiredContext extends FormBase {
     );
   }
 
-  /**
-   * Required Context Form constructor.
-   *
-   * @param \Drupal\Component\Plugin\PluginManagerInterface $typed_data_manager
-   *   The Typed Data Manager.
-   * @param \Drupal\Core\Form\FormBuilderInterface $form_builder
-   *   The Form Builder.
-   */
+
   public function __construct(PluginManagerInterface $typed_data_manager, FormBuilderInterface $form_builder) {
     $this->typedDataManager = $typed_data_manager;
     $this->formBuilder = $form_builder;
@@ -107,7 +98,7 @@ abstract class RequiredContext extends FormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $cached_values = $form_state->getTemporaryValue('wizard');
-    [$route_name, $route_parameters] = $this->getOperationsRouteInfo($cached_values, $this->machine_name, $form_state->getValue('contexts'));
+    list($route_name, $route_parameters) = $this->getOperationsRouteInfo($cached_values, $this->machine_name, $form_state->getValue('contexts'));
     $form_state->setRedirect($route_name . '.edit', $route_parameters);
   }
 
@@ -129,19 +120,15 @@ abstract class RequiredContext extends FormBase {
   }
 
   /**
-   * Render The contexts in the form.
-   *
    * @param $cached_values
-   *   Cached context values.
    *
    * @return array
-   *   The rendered contexts.
    */
   public function renderContexts($cached_values) {
     $configured_contexts = [];
     foreach ($this->getContexts($cached_values) as $row => $context) {
-      [$plugin_id, $label, $machine_name, $description] = array_values($context);
-      [$route_name, $route_parameters] = $this->getOperationsRouteInfo($cached_values, $cached_values['id'], $row);
+      list($plugin_id, $label, $machine_name, $description) = array_values($context);
+      list($route_name, $route_parameters) = $this->getOperationsRouteInfo($cached_values, $cached_values['id'], $row);
       $build = [
         '#type' => 'operations',
         '#links' => $this->getOperations($route_name, $route_parameters),
@@ -157,17 +144,7 @@ abstract class RequiredContext extends FormBase {
     return $configured_contexts;
   }
 
-  /**
-   * Retrieve Form Operations
-   *
-   * @param $route_name_base
-   *   The base route name.
-   * @param array $route_parameters
-   *   Route Parameters.
-   *
-   * @return array
-   *   The available operations.
-   */
+
   protected function getOperations($route_name_base, array $route_parameters = []) {
     $operations['edit'] = [
       'title' => $this->t('Edit'),
@@ -207,7 +184,6 @@ abstract class RequiredContext extends FormBase {
    * information to control the modal/redirect needs of your use case.
    *
    * @return string
-   *   The Context Class.
    */
   abstract protected function getContextClass();
 
@@ -215,7 +191,6 @@ abstract class RequiredContext extends FormBase {
    * Provide the tempstore id for your specified use case.
    *
    * @return string
-   *   The Tempstore ID.
    */
   abstract protected function getTempstoreId();
 
@@ -229,28 +204,24 @@ abstract class RequiredContext extends FormBase {
    * this approach quite seamlessly.
    *
    * @param mixed $cached_values
-   *  The Cached Values.
+   *
    * @param string $machine_name
-   *  The form machine name.
+   *
    * @param string $row
-   *  The form row to operate on.
    *
    * @return array
    *   In the format of
-   *   return ['route.base.name',
-   *     ['machine_name' => $machine_name, 'context' => $row]];
+   *   return ['route.base.name', ['machine_name' => $machine_name, 'context' => $row]];
    */
-  abstract protected function getOperationsRouteInfo(mixed $cached_values, string $machine_name, string $row);
+  abstract protected function getOperationsRouteInfo($cached_values, $machine_name, $row);
 
   /**
    * Custom logic for retrieving the contexts array from cached_values.
    *
-   * @param array $cached_values
-   *   The Cached Values.
+   * @param $cached_values
    *
    * @return array
-   *   The Contexts.
    */
-  abstract protected function getContexts(array $cached_values);
+  abstract protected function getContexts($cached_values);
 
 }

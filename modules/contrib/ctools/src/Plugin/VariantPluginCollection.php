@@ -23,7 +23,7 @@ class VariantPluginCollection extends DefaultLazyPluginCollection {
    */
   public function sort() {
     // @todo Determine the reason this needs error suppression.
-    @uasort($this->instanceIds, [$this, 'sortHelper']);
+    @uasort($this->instanceIDs, [$this, 'sortHelper']);
     return $this;
   }
 

@@ -774,7 +774,9 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 	include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
-$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync';
+//$settings['config_sync_directory'] = 'profiles/testp/config/sync';
+$settings['config_sync_directory'] = 'profiles/panecom/config/sync';
+//$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync';
 
-global $content_directories;
-$content_directories['sync'] = '/sites/default/content/sync';
+// Relative path.
+$settings['default_content_deploy_content_directory'] = 'sites/default/content';

@@ -73,3 +73,28 @@ blocks:
           value: "<h3><strong>25, rue de la corniche, Dakar, Sénégal</strong></h3>\r\n\r\n<p>+221 900 52 52 12</p>\r\n\r\n<p>infomail@panecom.com</p>\r\n\r\n<p>Pour toute question ou demande de renseignement,</p>\r\n\r\n<p>n’hésitez pas à nous contacter</p>\r\n"
           summary: ''
           format: basic_html
+  -
+    info: 'Quelque chiffres'
+    langcode: fr
+    uuid: 6e860ce5-f91f-4656-91f1-f4c1819dbf07
+    bundle: background_image_counters
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body: {  }
+  -
+    info: 'Blocs inscriptions'
+    langcode: fr
+    uuid: bf9106da-6a67-4fd2-9be5-ad920b7552a3
+    bundle: block_type_inscription
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_point_focal_d_une_organisa:
+        -
+          value: "<p>Je m'inscris en tant que point focal (référent) de mon organisation.</p>\r\n\r\n<p>Je gère les informations concernant mon organisation, en plus de la possibilité d’ajouter du contenu relatif aux activités de mon organisation.</p>\r\n\r\n<p><a class=\"btn btn-primary\" href=\"/inscription/pointfocal_organisation\">S'inscrire comme \"Point focal d'une organisation\"</a></p>\r\n"
+          format: full_html
+      field_redacteur_d_une_organisati:
+        -
+          value: "<p>Je m'inscris en tant que membre/rédacteur de mon organisation.</p>\r\n\r\n<p>J’aurai la possibilité d'ajouter du contenu relatif aux activités de mon organisation et d'accéder à toutes les informations disponibles sur la plateforme.</p>\r\n\r\n<p><a class=\"btn btn-primary\" href=\"/inscription/redacteur_organisation\">S'inscrire comme \"Rédacteur d'une organisation\"</a></p>\r\n"
+          format: full_html

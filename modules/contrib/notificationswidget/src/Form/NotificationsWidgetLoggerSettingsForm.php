@@ -49,11 +49,10 @@ class NotificationsWidgetLoggerSettingsForm extends ConfigFormBase {
    *   The module messager manager service.
    */
   public function __construct(
-        ConfigFactoryInterface $config_factory,
-        ModuleHandlerInterface $module_handler,
-        EntityTypeManagerInterface $entity_manager,
-        MessengerInterface $messenger_manager
-    ) {
+    ConfigFactoryInterface $config_factory,
+    ModuleHandlerInterface $module_handler,
+    EntityTypeManagerInterface $entity_manager,
+    MessengerInterface $messenger_manager) {
     parent::__construct($config_factory);
     $this->moduleHandler = $module_handler;
     $this->entityTypeManager = $entity_manager;
@@ -65,11 +64,11 @@ class NotificationsWidgetLoggerSettingsForm extends ConfigFormBase {
    */
   public static function create(ContainerInterface $container) {
     return new static(
-          $container->get('config.factory'),
-          $container->get('module_handler'),
-          $container->get('entity_type.manager'),
-          $container->get('messenger')
-      );
+      $container->get('config.factory'),
+      $container->get('module_handler'),
+      $container->get('entity_type.manager'),
+      $container->get('messenger')
+    );
   }
 
   /**
@@ -116,9 +115,8 @@ class NotificationsWidgetLoggerSettingsForm extends ConfigFormBase {
     $entities = explode(',', $values['additional_entity_type']);
     if (count(array_intersect($haystack, $entities)) > 0) {
       $form_state->setErrorByName(
-            'additional_entity_type',
-            $this->t('Default entity type already exists.')
-        );
+        'additional_entity_type',
+        $this->t('Default entity type already exists.'));
     }
   }
 
@@ -128,10 +126,8 @@ class NotificationsWidgetLoggerSettingsForm extends ConfigFormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     parent::submitForm($form, $form_state);
     $values = $form_state->getValues();
-    $savedEntities = explode(
-          ',', $this->config('notifications_widget.settings')
-            ->get('additional_entity_type')
-      );
+    $savedEntities = explode(',', $this->config('notifications_widget.settings')
+      ->get('additional_entity_type'));
     $revisedEntities = explode(',', $values['additional_entity_type']);
 
     // Prepare removed entity types and remove its configuration.
@@ -142,13 +138,9 @@ class NotificationsWidgetLoggerSettingsForm extends ConfigFormBase {
       ->set('excluded_entities', $values['excluded_entities'])
       ->set('additional_entity_type', $values['additional_entity_type'])
       ->save();
-    $this->messengerTypeManager->addMessage(
-          $this->t(
-              'Notification widget will work well once you saved the configuration from <a href=":user_settings_url">Notification Widget Settings</a>.', [
-                ':user_settings_url' => Url::fromRoute('notifications_widget.notifications_widget_settings')->toString(),
-              ]
-          ), 'warning'
-      );
+    $this->messengerTypeManager->addMessage($this->t('Notification widget will work well once you saved the configuration from <a href=":user_settings_url">Notification Widget Settings</a>.', [
+      ':user_settings_url' => Url::fromRoute('notifications_widget.notifications_widget_settings')->toString(),
+    ]), 'warning');
   }
 
   /**

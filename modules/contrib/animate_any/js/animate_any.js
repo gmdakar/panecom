@@ -29,20 +29,20 @@
               if (jsevent === 'scroll') {
                 $(window).scroll(function () {
                   if (section.visible()) {
-                    $(animate_parent).find(item.section_identity).addClass('animate__animated animate__' + item.section_animation);
+                    $(animate_parent).find(item.section_identity).addClass(item.section_animation + ' animated');
                   }
                 });
               }
               else if (jsevent === 'onload') {
                 $(document).ready(function () {
                   if (section.visible()) {
-                    $(animate_parent).find(item.section_identity).addClass('animate__animated animate__' + item.section_animation);
+                    $(animate_parent).find(item.section_identity).addClass(item.section_animation + ' animated');
                   }
                 });
               }
               else {
                 $(animate_parent).find(item.section_identity).on(jsevent, function () {
-                  $(animate_parent).find(item.section_identity).addClass('animate__animated animate__' + item.section_animation);
+                  $(animate_parent).find(item.section_identity).addClass(item.section_animation + ' animated');
                   // Remove animation class from an element to execute it multiple times when event is triggered.
                   clearClass(item_data);
                 });
@@ -59,7 +59,7 @@
    */
   function clearClass(item_data) {
     setTimeout(() => {
-      $(item_data.animate_parent).find(item_data.section_identity).removeClass('animate__animated animate__' + item_data.section_animation);
+      $(item_data.animate_parent).find(item_data.section_identity).removeClass(item_data.section_animation + ' animated');
     }, 1000);
   }
 

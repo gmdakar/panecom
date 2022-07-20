@@ -44,8 +44,7 @@ main#content {
 }
 
 /* login form*/
-form#user-pass,
-form#user-login-form {
+#user-login-form {
     margin: 2rem auto;
     padding: 2rem 2rem 0.1rem 2rem;
     box-shadow: rgb(0 0 0 / 30%) 0px 3px 18px;
@@ -53,19 +52,10 @@ form#user-login-form {
     max-width: 535px;
 }
 
-form#user-pass #edit-name, form#user-pass #edit-pass {
-    width: 100%;
-}
-
-.back-to-login {
-  display: none;
-}
-
 #user-login-form button#edit-submit {
     margin: 0 2em;
 	text-align: right;
 }
-
 #user-pass .form-actions, #user-login-form .form-actions {
     text-align: right;
 }
@@ -296,10 +286,6 @@ nav#block-panecom-bstrp-account-menu > div > a::before {
 nav#block-panecom-bstrp-account-menu a.nav-link--fr-inscriptions::before {
     content: "\f2c1";
 	font-size:1.05rem;
-}
-
-.user-logged-in #block-panecom-bstrp-account-menu a.nav-link--fr-inscriptions {
-    display: none;
 }
 
 /*zone actualités + sidebar right*/
@@ -1255,9 +1241,9 @@ li.sf-depth-1 ul{
 }
 
 /*hide geojson info map*/
-/*fieldset.js-form-item.js-form-type-textarea  {
+fieldset.js-form-item.js-form-type-textarea  {
     display: none;
-}*/
+}
 
 form button#edit-submit {
     margin: 2rem 0;

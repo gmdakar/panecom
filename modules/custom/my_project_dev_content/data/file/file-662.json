@@ -1,0 +1,15 @@
+[
+    {
+        "fid": 662,
+        "uuid": "11c44e45-0917-4f7f-9ab2-5df2c2cab4a3",
+        "langcode": "fr",
+        "uid": 1,
+        "filename": "dummyfile''.png.png",
+        "uri": "public://dummyfile''.png_41.png",
+        "filemime": "image/png",
+        "filesize": 390221,
+        "status": "1",
+        "created": 1653497631,
+        "changed": 1653497631
+    }
+]

@@ -1,0 +1,15 @@
+name: Opigno Messaging
+type: module
+description: Opigno app for messaging.
+core_version_requirement: ^9
+package: Opigno
+
+dependencies:
+  - private_message:private_message
+  - group:group
+  - opigno_statistics:opigno_statistics
+
+# Information added by Drupal.org packaging script on 2021-10-08
+version: '3.0.0'
+project: 'opigno_messaging'
+datestamp: 1633704149

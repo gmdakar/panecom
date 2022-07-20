@@ -19,7 +19,6 @@ IMPORTANT NOTES :
 1. Widget configuration must be saved once module installed.
 2. Bootstrap theme or CSS should be included into your project.
 
-
 INSTALLATION
 ------------
 
@@ -32,7 +31,6 @@ the entity name into provide configuration and their logs will not be tracked.
 
 If you wish add additional entity to being logs, then update the notifications
 admin settings to provide the valid entity types (comma seperated)
-
 
 CONFIGURATION
 -------------
@@ -47,50 +45,24 @@ CONFIGURATION
 * Customize the Notifications settings in Administration » Configuration »
    system » Notifications Widget settings.
 
-* Configure the notification widget block in Administration » Structure »
+* Configure the notifications widget block in Administration » Structure »
   Block Layout
    - Notification widget block
 
 * Service provided to add any new notification message using below sample code :
 
-```php
-  /**
-   * Creates a notification in the database.
-   *
-   * @param array $message .
-   *   An array containing all the message information.
-   *   Needs to respect the following format:
-   *   $message = [
-   *     'id' => '12334',
-   *     'bundle' => 'article',
-   *     'content' => 'Lorem ipsum read data by [user:name]',
-   *     'content_link' => 'users-list',
-   *   ];
-   *
-   * @param string $userAction
-   *   The action that led to the creation of the notification.
-   *   One of the following: create, update, delete
-   * @param object $entity
-   *   The entity that led to the notification being triggered.
-   *   Used to replace tokens in the message content.
-   * @param int|null $uid
-   *   (optional): The user id to which the notification should be sent.
-   */
-  public function logNotification(array $message, string $userAction, object $entity, int $uid = NULL): void;
-```
-
-Example usage:
-```php
   $notificationService = \Drupal::service('notifications_widget.logger');
-  $message = [
-    'id' => '1234',
-    'bundle' => 'article',
-    'content' => 'Lorem ipsum read data by [user:name]',
-    'content_link' => 'users-list',
-  ];
+  $message                 = [];
+  $message['id']           = '8764';
+  $message['bundle']       = 'article';
+  $message['content']      = "Lorem lipsum read data by [user:name]";
+  $message['content_link'] = 'users-list';
 
   $notificationService->logNotification($message, 'create', $entity);
-```
+
+  $message(Array) = Should content array of message data as per above example.
+  $entity(Object) = Should be drupal entity to replace token if any.
+  $action(String) = User action from (create, update, delete).
 
 
 MAINTAINERS
@@ -98,8 +70,6 @@ MAINTAINERS
 
 Current maintainers:
  * Vernit Gupta - https://www.drupal.org/u/vernit
- * BramDriesen - https://www.drupal.org/u/bramdriesen
-
 
 REQUIREMENTS
 -------------

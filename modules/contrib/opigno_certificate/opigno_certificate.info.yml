@@ -1,0 +1,15 @@
+name:  Opigno Certificate
+type: module
+package: Opigno
+description: Provides a certificate entity type.
+core_version_requirement: ^9
+dependencies:
+ - token_filter:token_filter
+ - drupal:views
+ - ckeditor_bgimage:ckeditor_bgimage
+ - entity_print:entity_print
+
+# Information added by Drupal.org packaging script on 2021-10-08
+version: '3.0.0'
+project: 'opigno_certificate'
+datestamp: 1633703482

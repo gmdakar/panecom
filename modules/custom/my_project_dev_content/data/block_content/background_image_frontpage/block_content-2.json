@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "uuid": "d1247749-c3f8-42e4-b492-0aed145198e3",
+        "revision_id": 2,
+        "langcode": "fr",
+        "type": "background_image_frontpage",
+        "revision_created": 1643718562,
+        "revision_user": null,
+        "revision_log": null,
+        "status": "1",
+        "info": "Background image frontpage content block",
+        "changed": 1643882822,
+        "reusable": "1",
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "content_translation_source": "und",
+        "content_translation_outdated": "0",
+        "content_translation_uid": null,
+        "content_translation_created": null,
+        "body": [
+            {
+                "value": "<p>Bienvenue!</p>\r\n\r\n<p>Créer votre propre <strong>plateforme communautaire</strong> avec la solution web <strong>Panecom</strong>, qui propose aux entreprises et associations de créer leur propre site communautaire pour rassembler facilement leur communauté et partager des informations liées à leurs activités.</p>\r\n",
+                "summary": "",
+                "format": "basic_html"
+            }
+        ]
+    }
+]

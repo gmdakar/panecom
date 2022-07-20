@@ -39,7 +39,7 @@ class EntityEditWizardTest extends EntityFormWizardBase {
    * {@inheritdoc}
    */
   public function getOperations($cached_values) {
-    /** @var \Drupal\ctools_wizard_test\Entity\ExampleConfigEntity $page */
+    /** @var $page \Drupal\ctools_wizard_test\Entity\ExampleConfigEntity */
     $config_entity = $cached_values['ctools_wizard_test_config_entity'];
 
     $steps = [

@@ -58,14 +58,13 @@ class NotificationWidgetUpdateResource extends ResourceBase {
    *   Database Connection.
    */
   public function __construct(
-        array $configuration,
-        $plugin_id,
-        $plugin_definition,
-        array $serializer_formats,
-        LoggerInterface $logger,
-        AccountProxyInterface $current_user,
-        Connection $database
-    ) {
+    array $configuration,
+    $plugin_id,
+    $plugin_definition,
+    array $serializer_formats,
+    LoggerInterface $logger,
+    AccountProxyInterface $current_user,
+    Connection $database) {
 
     parent::__construct($configuration, $plugin_id, $plugin_definition, $serializer_formats, $logger);
     $this->currentUser = $current_user;
@@ -77,15 +76,15 @@ class NotificationWidgetUpdateResource extends ResourceBase {
    */
   public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
     return new static(
-          $configuration,
-          $plugin_id,
-          $plugin_definition,
-          $container->getParameter('serializer.formats'),
-          $container->get('logger.factory')->get('notification-update'),
-          $container->get('current_user'),
-          $container->get('database'),
-          $container->get('request_stack')->getCurrentRequest()
-      );
+      $configuration,
+      $plugin_id,
+      $plugin_definition,
+      $container->getParameter('serializer.formats'),
+      $container->get('logger.factory')->get('notification-update'),
+      $container->get('current_user'),
+      $container->get('database'),
+      $container->get('request_stack')->getCurrentRequest()
+    );
   }
 
   /**
@@ -94,73 +93,79 @@ class NotificationWidgetUpdateResource extends ResourceBase {
   public function post(Request $request) {
     $result = [];
 
-    // Get logged user session.
-    $currentUser = $this->currentUser;
-    $uid = $currentUser->id();
-
     // Use current user after pass authentication to validate access.
     if (!$this->currentUser->hasPermission('access content')) {
       throw new AccessDeniedHttpException();
     }
 
-    $notificationData = Json::decode($request->getContent());
+	$notificationData = Json::decode($request->getContent());
     $action = $notificationData['notification_action'];
-    $id = (is_numeric($notificationData['nasId'])) ? $notificationData['nasId'] : NULL;
-    $notificationId = $notificationData['notiId'];
+    $id     = (isset($notificationData['notiId'])) ? $notificationData['notiId'] : '';
 
     switch ($action) {
+
       case 'read':
         $keys = [
           'id' => $id,
         ];
 
         $fields = [
-          'notification_id' => $notificationId,
-          'uid' => $uid,
-          'status' => 1,
-          'created' => \Drupal::time()->getRequestTime(),
+          'status'     => 1,
         ];
-        $tableName = 'notifications_actions';
+
+        try {
+          $this->database->merge('notifications')
+            ->key($keys)
+            ->fields($fields)
+            ->execute();
+          $result = ['status' => $this->t('successfully read')];
+        }
+        catch (Exception $e) {
+          // Exception handling if something else gets thrown.
+          $this->loggerFactory->error($e->getMessage());
+        }
         break;
 
       case 'delete':
-        $keys = [
-          'id' => $id,
-        ];
-
-        $fields = [
-          'notification_id' => $notificationId,
-          'uid' => $uid,
-          'status' => 2,
-          'created' => \Drupal::time()->getRequestTime(),
-        ];
-        $tableName = 'notifications_actions';
+        try {
+          $this->database->delete('notifications')
+            ->condition('id', $id)
+            ->execute();
+          $result = ['status' => $this->t('successfully Deleted')];
+        }
+        catch (Exception $e) {
+          // Exception handling if something else gets thrown.
+          $this->loggerFactory->error($e->getMessage());
+        }
         break;
 
       case 'clearall':
-        $keys = [
-          'id' => NULL,
-        ];
-
-        $fields = [
-          'notification_id' => $notificationId,
-          'uid' => $uid,
-          'created' => \Drupal::time()->getRequestTime(),
-        ];
-        $tableName = 'notifications_clear_all';
+        $notiType = $notificationData['notification_type'];
+        $notiUid  = $notificationData['uid'];
+        if ($notiType == 1) {
+          try {
+            $this->database->delete('notifications')
+              ->condition('entity_uid', $notiUid)
+              ->execute();
+            $result = ['status' => $this->t('successfully cleared')];
+          }
+          catch (Exception $e) {
+            // Exception handling if something else gets thrown.
+            $this->loggerFactory->error($e->getMessage());
+          }
+        }
+        else {
+          try {
+            $this->database->delete('notifications')
+              ->execute();
+            $result = ['status' => $this->t('successfully cleared')];
+          }
+          catch (Exception $e) {
+            // Exception handling if something else gets thrown.
+            $this->loggerFactory->error($e->getMessage());
+          }
+        }
         break;
-    }
-
-    try {
-      $this->database->merge($tableName)
-        ->key($keys)
-        ->fields($fields)
-        ->execute();
-      $result = ['status' => $this->t('success updated')];
-    }
-    catch (Exception $e) {
-      // Exception handling if something else gets thrown.
-      $this->loggerFactory->error($e->getMessage());
     }
 
     $response = new ResourceResponse($result);

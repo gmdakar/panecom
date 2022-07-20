@@ -1,0 +1,12 @@
+[
+    {
+        "id": 256,
+        "uuid": "46134e8e-c714-4ba7-975b-c781a0756631",
+        "revision_id": 256,
+        "langcode": "fr",
+        "path": "/node/301",
+        "alias": "/evenement/evenement-acsi-genitus-rusticus",
+        "status": "1",
+        "revision_default": "1"
+    }
+]

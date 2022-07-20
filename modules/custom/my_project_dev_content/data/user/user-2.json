@@ -1,0 +1,29 @@
+[
+    {
+        "uid": 2,
+        "uuid": "819aa8d0-d35d-4749-9dee-088831ff43f7",
+        "langcode": "fr",
+        "preferred_langcode": "fr",
+        "preferred_admin_langcode": "en",
+        "name": "user_gest",
+        "pass": [
+            {
+                "value": "$S$EB2g/OrD71JypkGl3gVQRPrfjA64vlYYXcWl.XCZMTF7m1bnmTJj",
+                "existing": null
+            }
+        ],
+        "mail": "user_gest@panecom.digissol.pro",
+        "timezone": "Africa/Dakar",
+        "status": "1",
+        "created": 1656601976,
+        "changed": 1656951521,
+        "access": 1657035411,
+        "login": 1657034293,
+        "init": "user_gest@panecom.digissol.pro",
+        "roles": "gestionnaire",
+        "default_langcode": "1",
+        "revision_log_settings": null,
+        "field_user_organisation": null,
+        "user_picture": null
+    }
+]

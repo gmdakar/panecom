@@ -13,7 +13,7 @@
                 // on slect list change
                 el.find('.select_animate').change(function () {
                     // remove exsisting class and apply new one
-                    el.find('#animate').removeClass().addClass('animate__animated animate__' + this.value);
+                    el.find('#animate').removeClass().addClass('animated ' + this.value);
                 });
             });
         }

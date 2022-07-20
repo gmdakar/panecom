@@ -1,0 +1,40 @@
+uuid: abf5750a-153d-436d-a647-4be6d6c95232
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.document
+    - node.type.organisation_membre
+    - node.type.page
+    - node.type.partenaire
+    - node.type.personnes_cles
+    - node.type.projet
+  module:
+    - backup_migrate
+    - media
+    - node
+    - role_delegation
+id: gestionnaire
+label: Gestionnaire
+weight: -6
+is_admin: null
+permissions:
+  - 'access media overview'
+  - 'assign content_editor role'
+  - 'assign gestionnaire role'
+  - 'bypass node access'
+  - 'create media'
+  - 'delete any media'
+  - 'delete media'
+  - 'edit any article content'
+  - 'edit any document content'
+  - 'edit any organisation_membre content'
+  - 'edit any page content'
+  - 'edit any partenaire content'
+  - 'edit any personnes_cles content'
+  - 'edit any projet content'
+  - 'perform backup'
+  - 'update any media'
+  - 'update media'
+  - 'view own unpublished media'

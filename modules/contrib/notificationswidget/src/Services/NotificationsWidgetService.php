@@ -6,14 +6,14 @@ use Drupal\Core\Database\Connection;
 use Drupal\Core\Session\AccountProxy;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\Logger\LoggerChannelFactoryInterface;
+use Drupal\Core\Logger\LoggerChannelFactory;
 use Drupal\Core\Utility\Token;
 use Drupal\Component\Datetime\TimeInterface;
 
 /**
  * Service handler for Notification Logger.
  */
-class NotificationsWidgetService implements NotificationsWidgetServiceInterface {
+class NotificationsWidgetService {
 
   /**
    * Drupal\Core\Session\AccountProxy definition.
@@ -44,9 +44,9 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
   protected $configFactory;
 
   /**
-   * Logger Factory Interface.
+   * Logger Factory.
    *
-   * @var \Drupal\Core\Logger\LoggerChannelFactoryInterface
+   * @var \Drupal\Core\Logger\LoggerChannelFactory
    */
   protected $loggerFactory;
 
@@ -68,13 +68,12 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
    * {@inheritdoc}
    */
   public function __construct(AccountProxy $current_user,
-        Connection $database,
-        RequestStack $request,
-        ConfigFactoryInterface $config_factory,
-        LoggerChannelFactoryInterface $loggerFactory,
-        Token $token,
-        TimeInterface $time
-    ) {
+  Connection $database,
+  RequestStack $request,
+  ConfigFactoryInterface $config_factory,
+  LoggerChannelFactory $loggerFactory,
+  Token $token,
+  TimeInterface $time) {
     $this->currentUser   = $current_user;
     $this->database      = $database;
     $this->request       = $request;
@@ -89,26 +88,22 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
    */
   public static function create(ContainerInterface $container) {
     return new static(
-          $container->get('current_user'),
-          $container->get('database'),
-          $container->get('request_stack'),
-          $container->get('config.factory'),
-          $container->get('logger.factory'),
-          $container->get('token'),
-          $container->get('datetime.time')
-      );
+      $container->get('current_user'),
+      $container->get('database'),
+      $container->get('request_stack'),
+      $container->get('config.factory'),
+      $container->get('token'),
+      $container->get('datetime.time')
+    );
   }
 
   /**
-   * {@inheritdoc}
+   * Stores the data into notification table.
    */
-  public function logNotification(array $message, string $userAction, object $entity, int $uid = NULL): void {
+  public function logNotification($message, $userAction, $entity) {
     // Get logged user session.
     $currentUser = $this->currentUser;
-    if($uid) {
-      $entityUid = $uid;
-    }
-    elseif ($entity->bundle() === 'user') {
+    if ($entity->bundle() == 'user') {
       $entityUid = $entity->id();
     }
     elseif (method_exists($entity, 'getOwner')) {
@@ -120,15 +115,17 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
 
     // Fetch the excluded entities to notifications.
     $notificationConfig = $this->configFactory->get('notifications_widget.settings');
-    $excludeList = $notificationConfig->get('excluded_entities');
-    $excludeBundles = explode(',', $excludeList);
+    $excludeList        = $notificationConfig->get('excluded_entities');
+    $excludeBundles     = explode(',', $excludeList);
 
-    $entityUrl = $message['content_link'];
-    if ($entityUrl === '[entity:url]') {
+    if ($message['content_link'] == '[entity:url]') {
       $entityUrl = $entity->toUrl()->toString();
     }
+    else {
+      $entityUrl = $message['content_link'];
+    }
 
-    // Validate for bundle exclusion.
+    // Valildate for bundle exclusion.
     if (!in_array($entity->bundle(), $excludeBundles)) {
 
       // Prepare notification item link.
@@ -136,9 +133,8 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
 
       $messageItems = $this->token->replace(
         $messageItems, [
-          'user' => $this->currentUser,
-          'node' => $entity,
-          'term' => $entity,
+          'user'    => $this->currentUser,
+          'node'    => $entity,
           'comment' => $entity,
         ]
       );
@@ -169,7 +165,9 @@ class NotificationsWidgetService implements NotificationsWidgetServiceInterface 
         // Exception handling if something else gets thrown.
         $this->loggerFactory->error($e->getMessage());
       }
+
     }
+
   }
 
 }

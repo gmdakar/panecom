@@ -53,7 +53,7 @@ trait BlockVariantTrait {
     $block = $this->getBlock($configuration['uuid']);
     // Allow modules to react to the change.
     $event = new BlockVariantEvent($block, $this);
-    $this->eventDispatcher()->dispatch($event, BlockVariantEvents::ADD_BLOCK);
+    $this->eventDispatcher()->dispatch(BlockVariantEvents::ADD_BLOCK, $event);
 
     return $configuration['uuid'];
   }
@@ -67,7 +67,7 @@ trait BlockVariantTrait {
 
     // Allow modules to react to the change.
     $event = new BlockVariantEvent($block, $this);
-    $this->eventDispatcher()->dispatch($event, BlockVariantEvents::DELETE_BLOCK);
+    $this->eventDispatcher()->dispatch(BlockVariantEvents::DELETE_BLOCK, $event);
 
     return $this;
   }
@@ -82,7 +82,7 @@ trait BlockVariantTrait {
 
     // Allow modules to react to the change.
     $event = new BlockVariantEvent($block, $this);
-    $this->eventDispatcher()->dispatch($event, BlockVariantEvents::UPDATE_BLOCK);
+    $this->eventDispatcher()->dispatch(BlockVariantEvents::UPDATE_BLOCK, $event);
 
     return $this;
   }
@@ -92,7 +92,7 @@ trait BlockVariantTrait {
    */
   public function getRegionAssignment($block_id) {
     $configuration = $this->getBlock($block_id)->getConfiguration();
-    return $configuration['region'] ?? NULL;
+    return isset($configuration['region']) ? $configuration['region'] : NULL;
   }
 
   /**
@@ -111,7 +111,7 @@ trait BlockVariantTrait {
    */
   public function getRegionName($region) {
     $regions = $this->getRegionNames();
-    return $regions[$region] ?? '';
+    return isset($regions[$region]) ? $regions[$region] : '';
   }
 
   /**

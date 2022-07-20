@@ -1,0 +1,330 @@
+label: 'Import file'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_file
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/file/file-142.json
+    - ../data/file/file-154.json
+    - ../data/file/file-155.json
+    - ../data/file/file-158.json
+    - ../data/file/file-159.json
+    - ../data/file/file-161.json
+    - ../data/file/file-162.json
+    - ../data/file/file-163.json
+    - ../data/file/file-165.json
+    - ../data/file/file-166.json
+    - ../data/file/file-346.json
+    - ../data/file/file-351.json
+    - ../data/file/file-363.json
+    - ../data/file/file-366.json
+    - ../data/file/file-388.json
+    - ../data/file/file-389.json
+    - ../data/file/file-390.json
+    - ../data/file/file-400.json
+    - ../data/file/file-414.json
+    - ../data/file/file-415.json
+    - ../data/file/file-416.json
+    - ../data/file/file-417.json
+    - ../data/file/file-418.json
+    - ../data/file/file-423.json
+    - ../data/file/file-424.json
+    - ../data/file/file-425.json
+    - ../data/file/file-431.json
+    - ../data/file/file-432.json
+    - ../data/file/file-433.json
+    - ../data/file/file-434.json
+    - ../data/file/file-444.json
+    - ../data/file/file-445.json
+    - ../data/file/file-446.json
+    - ../data/file/file-447.json
+    - ../data/file/file-452.json
+    - ../data/file/file-468.json
+    - ../data/file/file-469.json
+    - ../data/file/file-470.json
+    - ../data/file/file-471.json
+    - ../data/file/file-474.json
+    - ../data/file/file-476.json
+    - ../data/file/file-477.json
+    - ../data/file/file-478.json
+    - ../data/file/file-479.json
+    - ../data/file/file-480.json
+    - ../data/file/file-487.json
+    - ../data/file/file-490.json
+    - ../data/file/file-491.json
+    - ../data/file/file-498.json
+    - ../data/file/file-501.json
+    - ../data/file/file-502.json
+    - ../data/file/file-510.json
+    - ../data/file/file-513.json
+    - ../data/file/file-514.json
+    - ../data/file/file-522.json
+    - ../data/file/file-525.json
+    - ../data/file/file-526.json
+    - ../data/file/file-527.json
+    - ../data/file/file-532.json
+    - ../data/file/file-535.json
+    - ../data/file/file-536.json
+    - ../data/file/file-537.json
+    - ../data/file/file-544.json
+    - ../data/file/file-545.json
+    - ../data/file/file-546.json
+    - ../data/file/file-550.json
+    - ../data/file/file-553.json
+    - ../data/file/file-554.json
+    - ../data/file/file-555.json
+    - ../data/file/file-556.json
+    - ../data/file/file-561.json
+    - ../data/file/file-562.json
+    - ../data/file/file-563.json
+    - ../data/file/file-564.json
+    - ../data/file/file-565.json
+    - ../data/file/file-570.json
+    - ../data/file/file-571.json
+    - ../data/file/file-572.json
+    - ../data/file/file-573.json
+    - ../data/file/file-574.json
+    - ../data/file/file-580.json
+    - ../data/file/file-582.json
+    - ../data/file/file-583.json
+    - ../data/file/file-584.json
+    - ../data/file/file-585.json
+    - ../data/file/file-591.json
+    - ../data/file/file-592.json
+    - ../data/file/file-593.json
+    - ../data/file/file-594.json
+    - ../data/file/file-600.json
+    - ../data/file/file-601.json
+    - ../data/file/file-602.json
+    - ../data/file/file-606.json
+    - ../data/file/file-607.json
+    - ../data/file/file-608.json
+    - ../data/file/file-609.json
+    - ../data/file/file-610.json
+    - ../data/file/file-616.json
+    - ../data/file/file-617.json
+    - ../data/file/file-618.json
+    - ../data/file/file-619.json
+    - ../data/file/file-624.json
+    - ../data/file/file-625.json
+    - ../data/file/file-626.json
+    - ../data/file/file-627.json
+    - ../data/file/file-628.json
+    - ../data/file/file-632.json
+    - ../data/file/file-633.json
+    - ../data/file/file-634.json
+    - ../data/file/file-640.json
+    - ../data/file/file-641.json
+    - ../data/file/file-642.json
+    - ../data/file/file-643.json
+    - ../data/file/file-649.json
+    - ../data/file/file-650.json
+    - ../data/file/file-651.json
+    - ../data/file/file-652.json
+    - ../data/file/file-653.json
+    - ../data/file/file-659.json
+    - ../data/file/file-662.json
+    - ../data/file/file-666.json
+    - ../data/file/file-667.json
+    - ../data/file/file-668.json
+    - ../data/file/file-669.json
+    - ../data/file/file-670.json
+    - ../data/file/file-672.json
+    - ../data/file/file-673.json
+    - ../data/file/file-676.json
+    - ../data/file/file-677.json
+    - ../data/file/file-678.json
+    - ../data/file/file-679.json
+    - ../data/file/file-680.json
+    - ../data/file/file-681.json
+    - ../data/file/file-682.json
+    - ../data/file/file-684.json
+    - ../data/file/file-685.json
+    - ../data/file/file-688.json
+    - ../data/file/file-689.json
+    - ../data/file/file-690.json
+    - ../data/file/file-691.json
+    - ../data/file/file-692.json
+    - ../data/file/file-694.json
+    - ../data/file/file-695.json
+    - ../data/file/file-696.json
+    - ../data/file/file-697.json
+    - ../data/file/file-698.json
+    - ../data/file/file-699.json
+    - ../data/file/file-700.json
+    - ../data/file/file-701.json
+    - ../data/file/file-704.json
+    - ../data/file/file-708.json
+    - ../data/file/file-713.json
+    - ../data/file/file-715.json
+    - ../data/file/file-717.json
+    - ../data/file/file-719.json
+    - ../data/file/file-721.json
+    - ../data/file/file-723.json
+    - ../data/file/file-725.json
+    - ../data/file/file-727.json
+    - ../data/file/file-729.json
+    - ../data/file/file-731.json
+    - ../data/file/file-733.json
+    - ../data/file/file-754.json
+    - ../data/file/file-757.json
+    - ../data/file/file-760.json
+    - ../data/file/file-762.json
+    - ../data/file/file-764.json
+    - ../data/file/file-769.json
+    - ../data/file/file-770.json
+    - ../data/file/file-772.json
+    - ../data/file/file-773.json
+    - ../data/file/file-775.json
+    - ../data/file/file-776.json
+    - ../data/file/file-778.json
+    - ../data/file/file-779.json
+    - ../data/file/file-780.json
+    - ../data/file/file-781.json
+    - ../data/file/file-782.json
+    - ../data/file/file-783.json
+    - ../data/file/file-786.json
+    - ../data/file/file-787.json
+    - ../data/file/file-788.json
+    - ../data/file/file-791.json
+    - ../data/file/file-792.json
+    - ../data/file/file-793.json
+    - ../data/file/file-794.json
+    - ../data/file/file-797.json
+    - ../data/file/file-798.json
+    - ../data/file/file-799.json
+    - ../data/file/file-800.json
+    - ../data/file/file-803.json
+    - ../data/file/file-804.json
+    - ../data/file/file-805.json
+    - ../data/file/file-806.json
+    - ../data/file/file-807.json
+    - ../data/file/file-808.json
+    - ../data/file/file-809.json
+    - ../data/file/file-810.json
+    - ../data/file/file-811.json
+    - ../data/file/file-814.json
+    - ../data/file/file-815.json
+    - ../data/file/file-816.json
+    - ../data/file/file-818.json
+    - ../data/file/file-819.json
+    - ../data/file/file-820.json
+    - ../data/file/file-821.json
+    - ../data/file/file-822.json
+    - ../data/file/file-823.json
+    - ../data/file/file-824.json
+    - ../data/file/file-825.json
+    - ../data/file/file-826.json
+    - ../data/file/file-827.json
+    - ../data/file/file-828.json
+    - ../data/file/file-829.json
+    - ../data/file/file-836.json
+    - ../data/file/file-840.json
+    - ../data/file/file-841.json
+    - ../data/file/file-842.json
+    - ../data/file/file-844.json
+    - ../data/file/file-846.json
+    - ../data/file/file-848.json
+  ids:
+    fid:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    fid:
+      name: fid
+      selector: /fid
+    uuid:
+      name: uuid
+      selector: /uuid
+    langcode:
+      name: langcode
+      selector: /langcode
+    uid:
+      name: uid
+      selector: /uid
+    filename:
+      name: filename
+      selector: /filename
+    uri:
+      name: uri
+      selector: /uri
+    filemime:
+      name: filemime
+      selector: /filemime
+    filesize:
+      name: filesize
+      selector: /filesize
+    status:
+      name: status
+      selector: /status
+    created:
+      name: created
+      selector: /created
+    changed:
+      name: changed
+      selector: /changed
+process:
+  source_file_scheme:
+    -
+      plugin: explode
+      delimiter: '://'
+      source: uri
+    -
+      plugin: extract
+      index:
+        - 0
+    -
+      plugin: skip_on_empty
+      method: row
+  source_file_path:
+    -
+      plugin: explode
+      delimiter: '://'
+      source: uri
+    -
+      plugin: extract
+      index:
+        - 1
+    -
+      plugin: skip_on_empty
+      method: row
+  source_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/eme_file_path
+        - '@source_file_scheme'
+        - '@source_file_path'
+  fid: fid
+  uuid: uuid
+  langcode: langcode
+  uid: uid
+  filename: filename
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - uri
+  filemime: filemime
+  filesize: filesize
+  status: status
+  created: created
+  changed: changed
+destination:
+  plugin: 'entity:file'
+  translations: true
+migration_dependencies:
+  required:
+    - my_project_dev_crop_personnes_cles
+  optional:
+    - my_project_dev_user

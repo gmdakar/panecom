@@ -1,0 +1,10 @@
+name:  Opigno Certificate Config Test
+type: module
+package: Testing
+description: Provides cofiguration for testing certificates.
+core_version_requirement: ^9
+
+# Information added by Drupal.org packaging script on 2021-10-08
+version: '3.0.0'
+project: 'opigno_certificate'
+datestamp: 1633703482

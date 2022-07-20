@@ -1,0 +1,36 @@
+name: 'My Project Dev Content Entity Migration'
+type: module
+description: 'Generated with EME module'
+core_version_requirement: '^8.9 || ^9 || ^10'
+scenarios_module: my_project_dev_content
+dependencies:
+  - 'drupal:migrate'
+  - 'migrate_plus:migrate_plus'
+eme_settings:
+  plugin: json_files
+  migrations:
+    - my_project_dev_block_content_background_image_counters
+    - my_project_dev_block_content_background_image_frontpage
+    - my_project_dev_block_content_basic
+    - my_project_dev_block_content_evenement_phare
+    - my_project_dev_block_content_zone_actualites_sidebar_right_fr
+    - my_project_dev_crop_personnes_cles
+    - my_project_dev_file
+    - my_project_dev_media_image
+    - my_project_dev_media_remote_video
+    - my_project_dev_menu_link_content
+    - my_project_dev_node_article
+    - my_project_dev_node_document
+    - my_project_dev_node_evenement
+    - my_project_dev_node_organisation_membre
+    - my_project_dev_node_page
+    - my_project_dev_node_partenaire
+    - my_project_dev_node_personnes_cles
+    - my_project_dev_node_projet
+    - my_project_dev_path_alias
+    - my_project_dev_user
+  types:
+    - block_content
+    - node
+  id-prefix: my_project_dev
+  group: my_project_dev

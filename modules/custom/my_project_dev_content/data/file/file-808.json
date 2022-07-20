@@ -1,0 +1,15 @@
+[
+    {
+        "fid": 808,
+        "uuid": "e0fd9cfc-4ef9-46ca-8a3f-c0a2ed70e98c",
+        "langcode": "fr",
+        "uid": 1,
+        "filename": "generateImage_S3saiT.jpg",
+        "uri": "public://2022-06/generateImage_S3saiT.jpg",
+        "filemime": "image/jpeg",
+        "filesize": 8716,
+        "status": "1",
+        "created": 1655826274,
+        "changed": 1655826274
+    }
+]

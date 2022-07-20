@@ -1,4 +1,4 @@
-name: 'Plateteforme communautaire default empty profil'
+name: 'Plateteforme communautaire'
 type: profile
 description: "Distribution d'une plateteforme communautaire"
 core_version_requirement: '^8.8 || ^9'

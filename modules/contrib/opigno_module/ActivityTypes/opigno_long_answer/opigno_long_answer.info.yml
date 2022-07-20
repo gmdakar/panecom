@@ -1,0 +1,14 @@
+name: Opigno Long Answer
+type: module
+description: Opigno long answer activity type.
+core_version_requirement: ^9
+package: Opigno
+
+dependencies:
+  - opigno_module:opigno_module
+  - opigno_module:opigno_file_upload
+
+# Information added by Drupal.org packaging script on 2021-10-08
+version: '3.0.0'
+project: 'opigno_module'
+datestamp: 1633704909

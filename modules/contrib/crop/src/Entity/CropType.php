@@ -130,7 +130,6 @@ class CropType extends ConfigEntityBundleBase implements \IteratorAggregate, Cro
   /**
    * {@inheritdoc}
    */
-  #[\ReturnTypeWillChange]
   public function getIterator() {
     return new \ArrayIterator();
   }

@@ -21,29 +21,44 @@ set -e
 echo "ls -al index.php"
 ls -al index.php
 
-echo "rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status"
-rm -rf sites/default/files/config_* || true && drush cr && drush -y cex && git status
+echo "rm -rf profiles/panecom/config/sync || true && drush cr && drush -y cex && git status"
+rm -rf profiles/panecom/config/sync || true && drush cr && drush -y cex && git status
 
 echo "rm -rf modules/custom/mydefaultcontent/content"
 rm -rf modules/custom/mydefaultcontent/content
 
-echo "git add . --force && git commit -m 'new commmit' && git push origin HEAD:main --force"
-git add . --force && git commit -m "new commit" && git push origin HEAD:main --force
+echo "rm -rf sites/default/content"
+rm -rf sites/default/content	
+
+echo "git add . --force && git commit -m 'new commmit' && git push"
+#git add . --force && git commit -m "new commit" && git push
 
 echo "drush -y en mydefaultcontent || true"
 drush -y en mydefaultcontent || true
 
+#echo "drush -y en default_content_deploy || true"
+#drush -y en default_content_deploy || true
+
+echo "drush dcdes || true"
+drush dcdes || true
+
 echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
 
-echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb"
-drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush -y eb
+echo "drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content"
+drush dcer taxonomy_term --folder=modules/custom/mydefaultcontent/content && drush dcer file --folder=modules/custom/mydefaultcontent/content
 
 echo "drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer media --folder=modules/custom/mydefaultcontent/content && drush dcer block_content --folder=modules/custom/mydefaultcontent/content
 
 echo "chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true"
 chmod -R 775 ../panecomdistr/ || true && cd ../../htdocs && rm -rf panecomdistr/* || true && cp -r devpanecom/* panecomdistr/ || true 
+
+#echo "chmod -R 775 panecomdistr/modules/contrib && rm -rf panecomdistr/modules/contrib || true && rm -rf panecomdistr/modules/custom || true && rm -rf panecomdistr/themes/contrib || true && rm -rf panecomdistr/themes/custom"
+#rm -rf panecomdistr/modules/contrib || true && rm -rf panecomdistr/modules/custom || true && rm -rf panecomdistr/themes/contrib || true && rm -rf panecomdistr/themes/custom
+
+echo "mv panecomdistr/sites/default/files panecomdistr/sites/default/files_save"
+mv panecomdistr/sites/default/files panecomdistr/sites/default/files_save
 
 ############### PHASE D'INSTALLATION DU PROFIL DEPLOYEE sur l'instance de démo "panecomdistr"  ###############################
 echo "####"
@@ -59,14 +74,15 @@ cp sites/default/default.settings.php sites/default/settings.php && chmod -R 775
 echo "rm sites/default/settings.local.php"
 rm sites/default/settings.local.php
 
-echo "$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync'; >> sites/default/settings.php"
-echo "\$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync';" >> sites/default/settings.php 
+echo "$settings['config_sync_directory'] = 'profiles/panecom/config/sync'; >> sites/default/settings.php"
+echo "\$settings['config_sync_directory'] = 'profiles/panecom/config/sync';" >> sites/default/settings.php 
 
 echo "$settings['file_private_path'] = 'sites/default/private';"
 echo "\$settings['file_private_path'] = 'sites/default/private';" >> sites/default/settings.php
 
 #echo "global \$content_directories;" >> sites/default/settings.php
 #echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.php
+#echo "\$settings['default_content_deploy_content_directory'] = 'sites/default/content';" >> sites/default/settings.php
 
 echo "ls -al index.php"
 ls -al index.php
@@ -74,34 +90,34 @@ ls -al index.php
 echo "composer require drush/drush:10.x -W --no-interaction"
 composer require drush/drush:10.x -W --no-interaction
 
-echo "sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt"
-sed  's/standard/panecom/g' sites/*/*/*/*/core.extension.yml > delete.txt
+echo "sed  's/standard/panecom/g' profiles/panecom/config/sync/core.extension.yml > delete.txt"
+sed  's/standard/panecom/g' profiles/panecom/config/sync/core.extension.yml > delete.txt
 
-echo "mv delete.txt sites/*/*/*/*/core.extension.yml"
-mv delete.txt sites/*/*/*/*/core.extension.yml
+echo "mv delete.txt profiles/panecom/config/sync/core.extension.yml"
+mv delete.txt profiles/panecom/config/sync/core.extension.yml
 
-#grep -q "mydefaultcontent" delete.txt; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0'  delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml
-#echo "sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml"
-#sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt sites/*/*/*/*/core.extension.yml
+#grep -q "mydefaultcontent" delete.txt; [ $? -eq 0 ] && echo "module mydefaultcontent is already activated" || sed '10 a\  mydefaultcontent: 0'  delete.txt > delete2.txt && mv delete2.txt profiles/panecom/config/sync/core.extension.yml
+#echo "sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt profiles/panecom/config/sync/core.extension.yml"
+#sed '10 a\  mydefaultcontent: 0' delete.txt > delete2.txt && mv delete2.txt profiles/panecom/config/sync/core.extension.yml
 
 echo "rm delete.txt || true"
 rm delete.txt || true
 
-#echo "drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
-#drush sql-drop --yes || true && drush -y site-install --existing-config --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
+echo "drush sql-drop -y || true && drush -y site-install panecom --db-url=mysql://db-panecomdistr:xxxxxx@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com"
+#drush sql-drop -y || true && drush -y site-install panecom --db-url=mysql://db-panecomdistr:99nTm8u4ZC@cloudpanel.digissol.pro:3306/db-panecomdistr --account-name=admin --account-pass=Passer@123 --site-name=PANECOM --site-mail=test@testpanecom.com
 
 #car le module layout builder semble pas bien installer certaines configs layouts lors de la phase d'installation
 #echo "drush -y cim"
 #drush -y cim
 
-#echo "drush -y config-set system.performance css.preprocess TRUE"
+echo "drush -y config-set system.performance css.preprocess TRUE"
 #drush -y config-set system.performance css.preprocess TRUE
 
-#echo "drush -y config-set system.performance js.preprocess TRUE"
+echo "drush -y config-set system.performance js.preprocess TRUE"
 #drush -y config-set system.performance js.preprocess TRUE
 
-#echo "drush cr && drush -y ib"
-#drush cr && drush -y ib
+#echo "drush cr"
+#drush cr
 
 echo "............................"
 echo "***  PROFIL INSTALLED  *** "

@@ -31,8 +31,9 @@ geofield_map_widget:
   js:
     js/geofield_map_widget.js: {}
   dependencies:
+      - core/underscore
       - core/jquery
-      - core/once
+      - core/jquery.once
       - core/drupal
       - core/drupalSettings
       - core/drupal.autocomplete
@@ -56,8 +57,9 @@ geofield_google_map:
   js:
     js/geofield_map_gmap_formatter.js: {}
   dependencies:
+      - core/underscore
       - core/jquery
-      - core/once
+      - core/jquery.once
       - core/drupal
       - core/drupalSettings
 

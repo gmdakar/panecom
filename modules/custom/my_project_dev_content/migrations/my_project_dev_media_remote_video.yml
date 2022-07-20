@@ -1,0 +1,105 @@
+label: 'Import media remote_video'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_media_remote_video
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/media/remote_video/media-6.json
+    - ../data/media/remote_video/media-7.json
+  ids:
+    mid:
+      type: integer
+    vid:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    mid:
+      name: mid
+      selector: /mid
+    uuid:
+      name: uuid
+      selector: /uuid
+    vid:
+      name: vid
+      selector: /vid
+    langcode:
+      name: langcode
+      selector: /langcode
+    bundle:
+      name: bundle
+      selector: /bundle
+    revision_user:
+      name: revision_user
+      selector: /revision_user
+    revision_log_message:
+      name: revision_log_message
+      selector: /revision_log_message
+    status:
+      name: status
+      selector: /status
+    uid:
+      name: uid
+      selector: /uid
+    name:
+      name: name
+      selector: /name
+    thumbnail:
+      name: thumbnail
+      selector: /thumbnail
+    created:
+      name: created
+      selector: /created
+    changed:
+      name: changed
+      selector: /changed
+    default_langcode:
+      name: default_langcode
+      selector: /default_langcode
+    revision_default:
+      name: revision_default
+      selector: /revision_default
+    revision_translation_affected:
+      name: revision_translation_affected
+      selector: /revision_translation_affected
+    path:
+      name: path
+      selector: /path
+    field_media_oembed_video:
+      name: field_media_oembed_video
+      selector: /field_media_oembed_video
+process:
+  mid: mid
+  uuid: uuid
+  vid: vid
+  langcode: langcode
+  bundle: bundle
+  revision_user: revision_user
+  revision_log_message: revision_log_message
+  status: status
+  uid: uid
+  name: name
+  thumbnail: thumbnail
+  created: created
+  changed: changed
+  default_langcode: default_langcode
+  revision_default: revision_default
+  revision_translation_affected: revision_translation_affected
+  path: path
+  field_media_oembed_video: field_media_oembed_video
+destination:
+  plugin: 'entity_complete:media'
+  translations: true
+migration_dependencies:
+  required: {  }
+  optional:
+    - my_project_dev_file
+    - my_project_dev_user

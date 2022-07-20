@@ -1,0 +1,15 @@
+[
+    {
+        "fid": 846,
+        "uuid": "c9d50ffe-4abc-4924-8a94-456850827b30",
+        "langcode": "fr",
+        "uid": 1,
+        "filename": "image-2.jpg",
+        "uri": "public://2022-06/image-2.jpg",
+        "filemime": "image/jpeg",
+        "filesize": 20463,
+        "status": "1",
+        "created": 1656089074,
+        "changed": 1656089079
+    }
+]

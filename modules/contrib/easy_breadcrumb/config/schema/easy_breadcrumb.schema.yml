@@ -98,7 +98,7 @@ easy_breadcrumb.settings:
       type: boolean
       label: 'Limit breadcrumb trail segments'
     segment_display_limit:
-      type: integer
+      type: number
       label: 'Breadcrumb segment count'
     truncator_mode:
       type: boolean

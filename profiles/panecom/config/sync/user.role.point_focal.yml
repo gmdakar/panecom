@@ -1,0 +1,33 @@
+uuid: 875702bd-a59c-4ef4-8de5-2890a8b446a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.document
+    - node.type.organisation_membre
+    - node.type.projet
+  module:
+    - media
+    - node
+id: point_focal
+label: 'Point focal d''une organisation'
+weight: -7
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'create document content'
+  - 'create media'
+  - 'create organisation_membre content'
+  - 'create projet content'
+  - 'delete media'
+  - 'delete own article content'
+  - 'delete own document content'
+  - 'delete own projet content'
+  - 'edit any organisation_membre content'
+  - 'edit own article content'
+  - 'edit own document content'
+  - 'edit own organisation_membre content'
+  - 'edit own projet content'
+  - 'update media'
+  - 'view own unpublished media'

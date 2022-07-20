@@ -1,0 +1,225 @@
+label: 'Import node organisation_membre'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_node_organisation_membre
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/node/organisation_membre/node-243.json
+    - ../data/node/organisation_membre/node-285.json
+    - ../data/node/organisation_membre/node-289.json
+    - ../data/node/organisation_membre/node-290.json
+    - ../data/node/organisation_membre/node-291.json
+    - ../data/node/organisation_membre/node-293.json
+    - ../data/node/organisation_membre/node-299.json
+    - ../data/node/organisation_membre/node-316.json
+    - ../data/node/organisation_membre/node-317.json
+    - ../data/node/organisation_membre/node-318.json
+    - ../data/node/organisation_membre/node-319.json
+    - ../data/node/organisation_membre/node-320.json
+    - ../data/node/organisation_membre/node-321.json
+    - ../data/node/organisation_membre/node-322.json
+    - ../data/node/organisation_membre/node-323.json
+    - ../data/node/organisation_membre/node-324.json
+    - ../data/node/organisation_membre/node-325.json
+    - ../data/node/organisation_membre/node-326.json
+    - ../data/node/organisation_membre/node-327.json
+    - ../data/node/organisation_membre/node-328.json
+    - ../data/node/organisation_membre/node-329.json
+    - ../data/node/organisation_membre/node-330.json
+    - ../data/node/organisation_membre/node-331.json
+    - ../data/node/organisation_membre/node-332.json
+    - ../data/node/organisation_membre/node-333.json
+    - ../data/node/organisation_membre/node-334.json
+    - ../data/node/organisation_membre/node-335.json
+    - ../data/node/organisation_membre/node-482.json
+    - ../data/node/organisation_membre/node-483.json
+    - ../data/node/organisation_membre/node-484.json
+    - ../data/node/organisation_membre/node-485.json
+    - ../data/node/organisation_membre/node-488.json
+    - ../data/node/organisation_membre/node-489.json
+    - ../data/node/organisation_membre/node-491.json
+    - ../data/node/organisation_membre/node-499.json
+    - ../data/node/organisation_membre/node-500.json
+    - ../data/node/organisation_membre/node-501.json
+    - ../data/node/organisation_membre/node-502.json
+    - ../data/node/organisation_membre/node-503.json
+    - ../data/node/organisation_membre/node-504.json
+    - ../data/node/organisation_membre/node-505.json
+    - ../data/node/organisation_membre/node-506.json
+    - ../data/node/organisation_membre/node-507.json
+    - ../data/node/organisation_membre/node-508.json
+    - ../data/node/organisation_membre/node-509.json
+    - ../data/node/organisation_membre/node-510.json
+    - ../data/node/organisation_membre/node-511.json
+    - ../data/node/organisation_membre/node-512.json
+    - ../data/node/organisation_membre/node-513.json
+    - ../data/node/organisation_membre/node-514.json
+    - ../data/node/organisation_membre/node-515.json
+  ids:
+    nid:
+      type: integer
+    vid:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    nid:
+      name: nid
+      selector: /nid
+    uuid:
+      name: uuid
+      selector: /uuid
+    vid:
+      name: vid
+      selector: /vid
+    langcode:
+      name: langcode
+      selector: /langcode
+    type:
+      name: type
+      selector: /type
+    revision_timestamp:
+      name: revision_timestamp
+      selector: /revision_timestamp
+    revision_uid:
+      name: revision_uid
+      selector: /revision_uid
+    revision_log:
+      name: revision_log
+      selector: /revision_log
+    status:
+      name: status
+      selector: /status
+    uid:
+      name: uid
+      selector: /uid
+    title:
+      name: title
+      selector: /title
+    created:
+      name: created
+      selector: /created
+    changed:
+      name: changed
+      selector: /changed
+    promote:
+      name: promote
+      selector: /promote
+    sticky:
+      name: sticky
+      selector: /sticky
+    default_langcode:
+      name: default_langcode
+      selector: /default_langcode
+    revision_default:
+      name: revision_default
+      selector: /revision_default
+    revision_translation_affected:
+      name: revision_translation_affected
+      selector: /revision_translation_affected
+    content_translation_source:
+      name: content_translation_source
+      selector: /content_translation_source
+    content_translation_outdated:
+      name: content_translation_outdated
+      selector: /content_translation_outdated
+    path:
+      name: path
+      selector: /path
+    menu_link:
+      name: menu_link
+      selector: /menu_link
+    body:
+      name: body
+      selector: /body
+    field_org_actualites:
+      name: field_org_actualites
+      selector: /field_org_actualites
+    field_org_adresse_contact:
+      name: field_org_adresse_contact
+      selector: /field_org_adresse_contact
+    field_org_documents:
+      name: field_org_documents
+      selector: /field_org_documents
+    field_org_image_hero:
+      name: field_org_image_hero
+      selector: /field_org_image_hero
+    field_org_localisation:
+      name: field_org_localisation
+      selector: /field_org_localisation
+    field_org_logo:
+      name: field_org_logo
+      selector: /field_org_logo
+    field_org_photos:
+      name: field_org_photos
+      selector: /field_org_photos
+    field_org_projets:
+      name: field_org_projets
+      selector: /field_org_projets
+    field_org_site_web:
+      name: field_org_site_web
+      selector: /field_org_site_web
+    field_org_telecharger:
+      name: field_org_telecharger
+      selector: /field_org_telecharger
+    field_org_telephone:
+      name: field_org_telephone
+      selector: /field_org_telephone
+    field_org_videos:
+      name: field_org_videos
+      selector: /field_org_videos
+process:
+  nid: nid
+  uuid: uuid
+  vid: vid
+  langcode: langcode
+  type: type
+  revision_timestamp: revision_timestamp
+  revision_uid: revision_uid
+  revision_log: revision_log
+  status: status
+  uid: uid
+  title: title
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  default_langcode: default_langcode
+  revision_default: revision_default
+  revision_translation_affected: revision_translation_affected
+  content_translation_source: content_translation_source
+  content_translation_outdated: content_translation_outdated
+  path: path
+  menu_link: menu_link
+  body: body
+  field_org_actualites: field_org_actualites
+  field_org_adresse_contact: field_org_adresse_contact
+  field_org_documents: field_org_documents
+  field_org_image_hero: field_org_image_hero
+  field_org_localisation: field_org_localisation
+  field_org_logo: field_org_logo
+  field_org_photos: field_org_photos
+  field_org_projets: field_org_projets
+  field_org_site_web: field_org_site_web
+  field_org_telecharger: field_org_telecharger
+  field_org_telephone: field_org_telephone
+  field_org_videos: field_org_videos
+destination:
+  plugin: 'entity_complete:node'
+  translations: true
+migration_dependencies:
+  required: {  }
+  optional:
+    - my_project_dev_file
+    - my_project_dev_media_image
+    - my_project_dev_media_remote_video
+    - my_project_dev_path_alias
+    - my_project_dev_user

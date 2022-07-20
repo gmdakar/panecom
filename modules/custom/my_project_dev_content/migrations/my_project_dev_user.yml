@@ -1,0 +1,119 @@
+label: 'Import user'
+migration_tags:
+  - 'Drupal 9'
+  - Content
+  - 'My Project Dev Content Entity Migration'
+  - my_project_dev
+migration_group: my_project_dev
+id: my_project_dev_user
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  item_selector: /
+  data_parser_plugin: json
+  urls:
+    - ../data/user/user-1.json
+    - ../data/user/user-2.json
+    - ../data/user/user-3.json
+  ids:
+    uid:
+      type: integer
+    langcode:
+      type: string
+  fields:
+    uid:
+      name: uid
+      selector: /uid
+    uuid:
+      name: uuid
+      selector: /uuid
+    langcode:
+      name: langcode
+      selector: /langcode
+    preferred_langcode:
+      name: preferred_langcode
+      selector: /preferred_langcode
+    preferred_admin_langcode:
+      name: preferred_admin_langcode
+      selector: /preferred_admin_langcode
+    name:
+      name: name
+      selector: /name
+    pass:
+      name: pass
+      selector: /pass
+    mail:
+      name: mail
+      selector: /mail
+    timezone:
+      name: timezone
+      selector: /timezone
+    status:
+      name: status
+      selector: /status
+    created:
+      name: created
+      selector: /created
+    changed:
+      name: changed
+      selector: /changed
+    access:
+      name: access
+      selector: /access
+    login:
+      name: login
+      selector: /login
+    init:
+      name: init
+      selector: /init
+    roles:
+      name: roles
+      selector: /roles
+    default_langcode:
+      name: default_langcode
+      selector: /default_langcode
+    revision_log_settings:
+      name: revision_log_settings
+      selector: /revision_log_settings
+    path:
+      name: path
+      selector: /path
+    role_change:
+      name: role_change
+      selector: /role_change
+    field_user_organisation:
+      name: field_user_organisation
+      selector: /field_user_organisation
+    user_picture:
+      name: user_picture
+      selector: /user_picture
+process:
+  uid: uid
+  uuid: uuid
+  langcode: langcode
+  preferred_langcode: preferred_langcode
+  preferred_admin_langcode: preferred_admin_langcode
+  name: name
+  pass: pass
+  mail: mail
+  timezone: timezone
+  status: status
+  created: created
+  changed: changed
+  access: access
+  login: login
+  init: init
+  roles: roles
+  default_langcode: default_langcode
+  revision_log_settings: revision_log_settings
+  path: path
+  role_change: role_change
+  field_user_organisation: field_user_organisation
+  user_picture: user_picture
+destination:
+  plugin: 'entity:user'
+  translations: true
+migration_dependencies:
+  required: {  }
+  optional:
+    - my_project_dev_node_organisation_membre

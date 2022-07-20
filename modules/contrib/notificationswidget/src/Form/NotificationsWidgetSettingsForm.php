@@ -40,10 +40,9 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
    *   The module entity manager service.
    */
   public function __construct(
-        ConfigFactoryInterface $config_factory,
-        ModuleHandlerInterface $module_handler,
-        EntityTypeManagerInterface $entity_manager
-    ) {
+    ConfigFactoryInterface $config_factory,
+    ModuleHandlerInterface $module_handler,
+    EntityTypeManagerInterface $entity_manager) {
     parent::__construct($config_factory);
     $this->moduleHandler = $module_handler;
     $this->entityTypeManager = $entity_manager;
@@ -54,10 +53,10 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
    */
   public static function create(ContainerInterface $container) {
     return new static(
-          $container->get('config.factory'),
-          $container->get('module_handler'),
-          $container->get('entity_type.manager')
-      );
+      $container->get('config.factory'),
+      $container->get('module_handler'),
+      $container->get('entity_type.manager')
+    );
   }
 
   /**
@@ -87,11 +86,11 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
       '#title' => 'Users',
     ];
     $form['user_entity_type'] += $this->prepareEntityTypeForm(
-          'user',
-          'User',
-          $config,
-          'Entity'
-      );
+      'user',
+      'User',
+      $config,
+      'Entity'
+    );
 
     // Content Type list.
     $nodeTypeStorage = $this->entityTypeManager->getStorage('node_type');
@@ -104,11 +103,11 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
     foreach ($nodeTypes as $nodeType => $nodeTypeData) {
       $nodeTypeName = $nodeTypeData->get('name');
       $form['content_type'] += $this->prepareEntityTypeForm(
-            $nodeType,
-            $nodeTypeName,
-            $config,
-            'Content'
-        );
+        $nodeType,
+        $nodeTypeName,
+        $config,
+        'Content'
+      );
     }
 
     // Comment Type list.
@@ -123,11 +122,11 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
       foreach ($commentTypes as $commentType => $commentTypeData) {
         $commentTypeName = str_replace('Default', '', $commentTypeData->get('label'));
         $form['comment_type'] += $this->prepareEntityTypeForm(
-              $commentType,
-              $commentTypeName,
-              $config,
-              'Comment'
-          );
+          $commentType,
+          $commentTypeName,
+          $config,
+          'Comment'
+        );
       }
     }
 
@@ -142,11 +141,11 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
     foreach ($termTypes as $termType => $termTypeData) {
       $termTypeName = $termTypeData->get('name');
       $form['term_type'] += $this->prepareEntityTypeForm(
-            $termType,
-            $termTypeName,
-            $config,
-            'Taxonomy'
-        );
+        $termType,
+        $termTypeName,
+        $config,
+        'Taxonomy'
+      );
     }
 
     /*
@@ -177,31 +176,31 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
               $entityTypeName = str_replace('Default', '', $additionalEntityTypesData->get('label'));
               $flag = 1;
               $form['additional_entity_type'][$entityType] += $this->prepareEntityTypeForm(
-                    $additionalEntityType,
-                    $entityTypeName,
-                    $config,
-                    ucwords(strtok($entityType, "_"))
-                );
+                $additionalEntityType,
+                $entityTypeName,
+                $config,
+                ucwords(strtok($entityType, "_"))
+              );
             }
           }
         }
       }
       if ($flag == 1) {
         $form['additional_entity_type']['#description'] =
-                $this->t(
-              'List of additional entity types added from <a href="@link">Notifications Admin Settings</a>',
-              [
-                '@link' => Url::fromRoute('notifications_widget.notifications_widget_logger_settings')->toString(),
-              ]
+          $this->t(
+            'List of additional entity types added from <a href="@link">Notifications Admin Settings</a>',
+            [
+              '@link' => Url::fromRoute('notifications_widget.notifications_widget_logger_settings')->toString(),
+            ]
           );
       }
       else {
         $form['additional_entity_type']['#description'] =
-                $this->t(
-              'There no additional entity types added into admin settings. You can add more entity type from <a href="@link">Notifications Admin Settings</a>',
-              [
-                '@link' => Url::fromRoute('notifications_widget.notifications_widget_logger_settings')->toString(),
-              ]
+          $this->t(
+            'There no additional entity types added into admin settings. You can add more entity type from <a href="@link">Notifications Admin Settings</a>',
+            [
+              '@link' => Url::fromRoute('notifications_widget.notifications_widget_logger_settings')->toString(),
+            ]
           );
       }
     }
@@ -216,12 +215,11 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
     $form = [];
     $form[$nodeType] = [
       '#type'  => 'details',
-      '#title' => $this->t(
-          '@entityName Type - @nodeTypeName',
-          [
-            '@entityName'   => $entityName,
-            '@nodeTypeName' => $nodeTypeName,
-          ]
+      '#title' => $this->t('@entityName Type - @nodeTypeName',
+        [
+          '@entityName'   => $entityName,
+          '@nodeTypeName' => $nodeTypeName,
+        ]
       ),
       '#open'  => FALSE,
     ];
@@ -250,23 +248,20 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
 
     if (empty($contentCreateDefaultValue)) {
       $contentCreateDefaultValue = $this->t(
-            '@nodeTypeName has been created by [user:name]',
-            ['@nodeTypeName' => $nodeTypeName]
-        );
+        '@nodeTypeName has been created by [user:name]',
+        ['@nodeTypeName' => $nodeTypeName]);
     }
 
     if (empty($contentUpdateDefaultValue)) {
       $contentUpdateDefaultValue = $this->t(
-            '@nodeTypeName has been updated by [user:name]',
-            ['@nodeTypeName' => $nodeTypeName]
-        );
+        '@nodeTypeName has been updated by [user:name]',
+        ['@nodeTypeName' => $nodeTypeName]);
     }
 
     if (empty($contentDeleteDefaultValue)) {
       $contentDeleteDefaultValue = $this->t(
-            '@nodeTypeName has been deleted by [user:name]',
-            ['@nodeTypeName' => $nodeTypeName]
-        );
+        '@nodeTypeName has been deleted by [user:name]',
+        ['@nodeTypeName' => $nodeTypeName]);
     }
 
     $form[$nodeType][$contentTypeEnable] = [
@@ -337,10 +332,9 @@ class NotificationsWidgetSettingsForm extends ConfigFormBase {
       $commentTypes       = $commentTypeStorage->loadMultiple();
       $this->storeEntityNotificationsSettings($commentTypes, $values);
 
-      $addtionalEntityTypes = explode(
-            ',',
-            $this->config('notifications_widget.settings')
-              ->get('additional_entity_type')
+      $addtionalEntityTypes = explode(',',
+        $this->config('notifications_widget.settings')
+            ->get('additional_entity_type')
         );
     }
 

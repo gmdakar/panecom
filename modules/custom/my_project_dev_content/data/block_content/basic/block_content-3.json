@@ -1,0 +1,30 @@
+[
+    {
+        "id": 3,
+        "uuid": "eb11c816-4edb-41f7-844a-234654c141d2",
+        "revision_id": 3,
+        "langcode": "fr",
+        "type": "basic",
+        "revision_created": 1643734464,
+        "revision_user": null,
+        "revision_log": null,
+        "status": "1",
+        "info": "Copyright",
+        "changed": 1643734653,
+        "reusable": "1",
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "content_translation_source": "und",
+        "content_translation_outdated": "0",
+        "content_translation_uid": null,
+        "content_translation_created": null,
+        "body": [
+            {
+                "value": "<p>Copyright:&nbsp;<a href=\"https://www.digissol.com/\">Digissol</a>&nbsp;/ 2022&nbsp;</p>\r\n",
+                "summary": "",
+                "format": "basic_html"
+            }
+        ]
+    }
+]

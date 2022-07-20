@@ -1,0 +1,88 @@
+[
+    {
+        "id": 25,
+        "uuid": "c5ab4586-1edc-4a3c-be44-e0c77b1cf8df",
+        "revision_id": 25,
+        "langcode": "fr",
+        "bundle": "menu_link_content",
+        "revision_created": 1653492665,
+        "revision_user": null,
+        "revision_log_message": null,
+        "enabled": "1",
+        "title": "Mission",
+        "description": null,
+        "menu_name": "main",
+        "link": [
+            {
+                "uri": "entity:node/310",
+                "title": "",
+                "options": {
+                    "fa_icon": "",
+                    "fa_icon_prefix": "fa",
+                    "fa_icon_tag": "i",
+                    "fa_icon_appearance": "before",
+                    "attributes": {
+                        "class": []
+                    }
+                }
+            }
+        ],
+        "external": "0",
+        "rediscover": "0",
+        "weight": -49,
+        "expanded": "0",
+        "parent": "menu_link_content:16b4928e-4cc8-4bcb-ad97-2cac025360e0",
+        "changed": 1653492701,
+        "default_langcode": "1",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "content_translation_source": "und",
+        "content_translation_outdated": "0",
+        "content_translation_uid": null,
+        "content_translation_status": "1",
+        "content_translation_created": null
+    },
+    {
+        "id": 25,
+        "uuid": "c5ab4586-1edc-4a3c-be44-e0c77b1cf8df",
+        "revision_id": 25,
+        "langcode": "en",
+        "bundle": "menu_link_content",
+        "revision_created": 1653492665,
+        "revision_user": null,
+        "revision_log_message": null,
+        "enabled": "1",
+        "title": "Mission",
+        "description": null,
+        "menu_name": "main",
+        "link": [
+            {
+                "uri": "entity:node/310",
+                "title": "",
+                "options": {
+                    "fa_icon": "",
+                    "fa_icon_prefix": "fa",
+                    "fa_icon_tag": "i",
+                    "fa_icon_appearance": "before",
+                    "attributes": {
+                        "class": []
+                    }
+                }
+            }
+        ],
+        "external": "0",
+        "rediscover": "0",
+        "weight": -49,
+        "expanded": "0",
+        "parent": "menu_link_content:16b4928e-4cc8-4bcb-ad97-2cac025360e0",
+        "changed": 1653492701,
+        "default_langcode": "0",
+        "revision_default": "1",
+        "revision_translation_affected": "1",
+        "content_translation_source": "und",
+        "content_translation_outdated": "0",
+        "content_translation_uid": null,
+        "content_translation_status": "1",
+        "content_translation_created": null
+    }
+]

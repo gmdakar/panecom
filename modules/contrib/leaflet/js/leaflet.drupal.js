@@ -53,7 +53,7 @@
   $(document).on('leaflet.map', function(e, settings, lMap, mapid) {
 
     // Executes once per mapid.
-    once('leaflet_map_event_' + mapid, 'html').forEach(function() {
+    $(document).once('leaflet_map_event_' + mapid).each(function() {
       // Set the start center and the start zoom, and initialize the reset_map control.
       if (!Drupal.Leaflet[mapid].start_center && !Drupal.Leaflet[mapid].start_zoom) {
         Drupal.Leaflet[mapid].start_center = Drupal.Leaflet[mapid].lMap.getCenter();
@@ -392,9 +392,6 @@
     }
     if (options.shadowUrl) {
       icon_options.shadowUrl = options.shadowUrl;
-    }
-    if (options.iconRetinaUrl) {
-      icon_options.iconRetinaUrl = options.iconRetinaUrl;
     }
     if (options.shadowSize && options.shadowSize.x && options.shadowSize.y) {
       icon_options.shadowSize = new L.Point(parseInt(options.shadowSize.x), parseInt(options.shadowSize.y));

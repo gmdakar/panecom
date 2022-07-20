@@ -16,7 +16,7 @@ class EntityMaskTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected static $modules = [
+  public static $modules = [
     'block',
     'block_content',
     'ctools_entity_mask',
@@ -34,7 +34,7 @@ class EntityMaskTest extends KernelTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp(): void {
+  protected function setUp() {
     parent::setUp();
     $this->installConfig(['block_content', 'entity_mask_test']);
     $this->installEntitySchema('fake_block_content');
