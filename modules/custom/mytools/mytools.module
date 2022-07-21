@@ -1,22 +1,48 @@
 <?php
 	use Drupal\user\Entity\User;
 	use Drupal\node\NodeInterface;
+	use Drupal\Core\Access\AccessResult;
+	use Drupal\Core\Session\AccountInterface;
+	use Drupal\Core\Entity\EntityInterface;
 	
-	 use Drupal\Core\Cache\Cache;
-	 use Drupal\Core\Database\Database;
-	 use Drupal\Core\File\FileSystemInterface;
-	 use Drupal\Core\Link;
-	 use Drupal\Core\Url;
-	 use Drupal\Core\Utility\UpdateException;
-	 use Symfony\Component\Process\Process;
-	use Symfony\Component\Process\Exception\ProcessFailedException;
-
-	function mytools_cron(){
-	  
+	/** pour un point focal on doit permettre de rendre editable/supprimable que les contenus relatifs à l'organisation de ce point focal.
+	* Cf aussi les droits backend "Modifier n'importe quel ...." et  "Supprimer n'importe quel ...."
+	*/
+	function mytools_node_access(EntityInterface $entity, $operation, AccountInterface $account) {
+		$type = $entity->bundle();
 		
-	
-	 
-
+		switch ($operation) {
+			case 'update':
+			case 'delete':
+				
+				$user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
+				
+				if ($user->hasRole('point_focal') )
+				{
+				  $user_org_id = isset($user->get('field_user_organisation')->getValue()[0]['target_id']) ? $user->get('field_user_organisation')->getValue()[0]['target_id'] : false; 
+				  
+				  if ($type == 'organisation_membre')		  
+					return ($user_org_id === $entity->id() ? AccessResult::neutral() : AccessResult::forbidden());
+				  elseif (in_array($type, array('article', 'document', 'projet')))
+				  {
+					$entity_org_id = null;
+					if (isset($entity->field_article_organisation->target_id))
+						$entity_org_id = $entity->field_article_organisation->target_id;
+					elseif (isset($entity->field_document_organisation->target_id))
+						$entity_org_id = $entity->field_document_organisation->target_id;
+					elseif (isset($entity->field_projet_organisation->target_id))
+						$entity_org_id = $entity->field_projet_organisation->target_id;
+					return ($user_org_id === $entity_org_id ? AccessResult::neutral() : AccessResult::forbidden());
+				
+				  }
+				}
+				 
+				break;
+			 
+		}
+	  
+	  // No opinion.
+	  return AccessResult::neutral();
 	}
 
 	/** If a current user, with "point focal" role, add a new organisation, 
