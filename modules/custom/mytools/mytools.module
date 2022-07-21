@@ -6,7 +6,7 @@
 	use Drupal\Core\Entity\EntityInterface;
 	
 	/** pour un point focal on doit permettre de rendre editable/supprimable que les contenus relatifs à l'organisation de ce point focal.
-	* Cf aussi les droits backend "Modifier n'importe quel ...." et  "Supprimer n'importe quel ...."
+	* Cf aussi les droits backend "Modifier n'importe quel ..." et  "Supprimer n'importe quel ...."
 	*/
 	function mytools_node_access(EntityInterface $entity, $operation, AccountInterface $account) {
 		$type = $entity->bundle();
