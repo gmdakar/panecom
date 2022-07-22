@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 134168b9-d70f-444d-b7c9-b2aa388b5cf7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_hT4COt.gif
+  uri:
+    -
+      value: 'public://2022-05/generateImage_hT4COt.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 2652
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

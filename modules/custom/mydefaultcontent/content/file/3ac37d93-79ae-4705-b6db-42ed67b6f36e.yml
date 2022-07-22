@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3ac37d93-79ae-4705-b6db-42ed67b6f36e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fnC3hF4zE0.txt
+  uri:
+    -
+      value: 'public://document/2022-06/fnC3hF4zE0.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1111
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

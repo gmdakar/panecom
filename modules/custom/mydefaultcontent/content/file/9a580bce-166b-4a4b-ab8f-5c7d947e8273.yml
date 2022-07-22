@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9a580bce-166b-4a4b-ab8f-5c7d947e8273
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: migrating-multilingual-content-to-drupal-8-1_0.pdf
+  uri:
+    -
+      value: 'public://organisation/2022-05/migrating-multilingual-content-to-drupal-8-1_0.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 814259
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653166893

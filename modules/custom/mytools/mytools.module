@@ -8,7 +8,7 @@
 	/** pour un point focal on doit permettre de rendre editable/supprimable que les contenus relatifs à l'organisation de ce point focal.
 	* Cf aussi les droits backend "Modifier n'importe quel ..." et  "Supprimer n'importe quel ...."
 	*/
-	function mytools_node_access(EntityInterface $entity, $operation, AccountInterface $account) {
+	function mytools_entity_access(EntityInterface $entity, $operation, AccountInterface $account) {
 		$type = $entity->bundle();
 		
 		switch ($operation) {
@@ -34,6 +34,11 @@
 						$entity_org_id = $entity->field_projet_organisation->target_id;
 					return ($user_org_id === $entity_org_id ? AccessResult::neutral() : AccessResult::forbidden());
 				
+				  }
+				  elseif ($type == 'user'){	  
+					$user = \Drupal\user\Entity\User::load($entity->id());
+					$user_id_org = isset($user->get('field_user_organisation')->getValue()[0]['target_id']) ? $user->get('field_user_organisation')->getValue()[0]['target_id'] : false; 
+					return ($user_org_id === $user_id_org ? AccessResult::neutral() : AccessResult::forbidden());
 				  }
 				}
 				 

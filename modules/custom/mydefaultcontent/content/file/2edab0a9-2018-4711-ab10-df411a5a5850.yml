@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2edab0a9-2018-4711-ab10-df411a5a5850
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: x8noxqOUXu.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/x8noxqOUXu.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 670
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

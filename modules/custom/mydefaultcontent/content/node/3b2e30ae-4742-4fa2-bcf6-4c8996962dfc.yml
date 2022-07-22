@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3b2e30ae-4742-4fa2-bcf6-4c8996962dfc
+  bundle: personnes_cles
+  default_langcode: fr
+  depends:
+    1efb543f-cffe-4a4f-bc4b-40e407f82ec7: node
+    2630ee7a-33c6-4aba-a420-4d18bfb289d5: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alexis milin'
+  created:
+    -
+      value: 1655995630
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /personne-cle/alexis-milin
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_person_ordreaffichage:
+    -
+      value: 3
+  field_personne_fonction:
+    -
+      value: 'Coopération internationale'
+  field_personne_organisation:
+    -
+      entity: 1efb543f-cffe-4a4f-bc4b-40e407f82ec7
+  field_personne_photo:
+    -
+      entity: 2630ee7a-33c6-4aba-a420-4d18bfb289d5
+      alt: ''
+      title: ''
+      width: 4000
+      height: 6000
+  field_personne_reseaux_sociaux:
+    -
+      platform: linkedin
+      value: '55778'
+    -
+      platform: email
+      value: zzzz@zzzz.Com
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    created:
+      -
+        value: 1656068507
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    path:
+      -
+        alias: /personne-cle/alexis-milin
+        langcode: en
+        pathauto: 1
+    body:
+      -
+        value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n"
+        format: basic_html
+        summary: ''
+    field_personne_fonction:
+      -
+        value: 'International cooperation'

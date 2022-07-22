@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47c4412a-fb73-4ac9-a785-0e26ef58dbf2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-rebrand-cities-1367269_2.jpg
+  uri:
+    -
+      value: 'public://personnes_cles/2022-06/pexels-rebrand-cities-1367269_2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3933811
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655998569

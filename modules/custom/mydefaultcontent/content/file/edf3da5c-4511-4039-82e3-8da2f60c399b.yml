@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: edf3da5c-4511-4039-82e3-8da2f60c399b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_YF38AD.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_YF38AD.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4054
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

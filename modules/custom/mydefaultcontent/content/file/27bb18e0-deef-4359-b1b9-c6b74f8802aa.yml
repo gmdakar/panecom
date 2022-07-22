@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27bb18e0-deef-4359-b1b9-c6b74f8802aa
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: oWu6sJrU0y.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/oWu6sJrU0y.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1007
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 44f6619f-1aa5-4016-b410-229895bf06cf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ivTfNJ1HeE.txt
+  uri:
+    -
+      value: 'public://organisation/2022-06/ivTfNJ1HeE.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1021
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

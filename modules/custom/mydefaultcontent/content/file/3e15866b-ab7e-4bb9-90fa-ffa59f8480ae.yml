@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3e15866b-ab7e-4bb9-90fa-ffa59f8480ae
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fill-e-iyie-lec_a-4-2.pdf
+  uri:
+    -
+      value: 'public://document/2022-06/fill-e-iyie-lec_a-4-2.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 14971
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1654619879

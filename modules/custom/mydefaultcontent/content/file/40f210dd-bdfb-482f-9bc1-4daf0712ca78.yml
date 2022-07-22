@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40f210dd-bdfb-482f-9bc1-4daf0712ca78
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: amv5thNZt9.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/amv5thNZt9.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 610
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

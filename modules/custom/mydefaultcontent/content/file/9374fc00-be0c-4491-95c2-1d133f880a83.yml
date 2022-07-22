@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9374fc00-be0c-4491-95c2-1d133f880a83
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-pixabay-207247.jpg
+  uri:
+    -
+      value: 'public://slideshow/2022-05/pexels-pixabay-207247.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 304013
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652893594

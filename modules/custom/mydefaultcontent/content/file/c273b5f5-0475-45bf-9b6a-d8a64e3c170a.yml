@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c273b5f5-0475-45bf-9b6a-d8a64e3c170a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_AqSO0p.jpeg
+  uri:
+    -
+      value: 'public://2022-06/generateImage_AqSO0p.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4353
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

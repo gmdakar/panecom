@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a333e82d-db4c-40dd-92dc-5d2b5ae0720d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: knACF7RK0u.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/knACF7RK0u.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 813
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

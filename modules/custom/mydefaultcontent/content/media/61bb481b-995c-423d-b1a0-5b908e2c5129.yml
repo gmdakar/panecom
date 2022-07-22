@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 61bb481b-995c-423d-b1a0-5b908e2c5129
+  bundle: image
+  default_langcode: fr
+  depends:
+    c102fac4-70e7-4833-8796-f9312ab5ad18: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-scott-webb-1029624-1.jpg
+  created:
+    -
+      value: 1655831166
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: c102fac4-70e7-4833-8796-f9312ab5ad18
+      alt: '123456'
+      title: ''
+      width: 1920
+      height: 300

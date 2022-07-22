@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 25e721f2-670f-4084-a46e-069fbe45e0c9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: qp7IJurfrz.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/qp7IJurfrz.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 750
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417
