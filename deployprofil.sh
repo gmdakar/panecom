@@ -31,16 +31,10 @@ echo "rm -rf sites/default/content"
 rm -rf sites/default/content	
 
 echo "git add . --force && git commit -m 'new commmit' && git push"
-#git add . --force && git commit -m "new commit" && git push
+git add . --force && git commit -m "new commit" && git push
 
 echo "drush -y en mydefaultcontent || true"
 drush -y en mydefaultcontent || true
-
-#echo "drush -y en default_content_deploy || true"
-#drush -y en default_content_deploy || true
-
-echo "drush dcdes || true"
-drush dcdes || true
 
 echo "drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content"
 drush dcer node --folder=modules/custom/mydefaultcontent/content && drush dcer menu_link_content --folder=modules/custom/mydefaultcontent/content
@@ -82,7 +76,6 @@ echo "\$settings['file_private_path'] = 'sites/default/private';" >> sites/defau
 
 #echo "global \$content_directories;" >> sites/default/settings.php
 #echo "\$content_directories['sync'] = '/sites/default/content/sync';" >> sites/default/settings.php
-#echo "\$settings['default_content_deploy_content_directory'] = 'sites/default/content';" >> sites/default/settings.php
 
 echo "ls -al index.php"
 ls -al index.php

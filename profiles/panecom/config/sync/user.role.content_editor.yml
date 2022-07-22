@@ -57,5 +57,4 @@ permissions:
   - 'update media'
   - 'view all revisions'
   - 'view own unpublished content'
-  - 'view own unpublished media'
   - 'view the administration theme'

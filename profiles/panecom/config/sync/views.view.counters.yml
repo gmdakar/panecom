@@ -449,6 +449,7 @@ display:
     display_plugin: block
     position: 1
     display_options:
+      display_comment: 'test test test'
       display_extenders: {  }
     cache_metadata:
       max-age: -1

@@ -3,8 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - media.type.image
+    - media.type.remote_video
     - node.type.article
     - node.type.document
+    - node.type.evenement
     - node.type.organisation_membre
     - node.type.page
     - node.type.partenaire
@@ -12,29 +17,108 @@ dependencies:
     - node.type.projet
   module:
     - backup_migrate
+    - block_access
+    - content_translation
+    - contextual
+    - filter
     - media
+    - menu_link_attributes
     - node
+    - path
     - role_delegation
+    - system
+    - taxonomy
+    - toolbar
 id: gestionnaire
 label: Gestionnaire
 weight: -6
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
   - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer backup and migrate'
+  - 'administer media'
+  - 'administer menu'
+  - 'administer menu link attributes'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'administer users'
   - 'assign content_editor role'
   - 'assign gestionnaire role'
+  - 'assign point_focal role'
   - 'bypass node access'
+  - 'create article content'
+  - 'create document content'
+  - 'create image media'
   - 'create media'
+  - 'create organisation_membre content'
+  - 'create page content'
+  - 'create partenaire content'
+  - 'create personnes_cles content'
+  - 'create projet content'
+  - 'create remote_video media'
+  - 'delete any article content'
+  - 'delete any document content'
+  - 'delete any image media'
   - 'delete any media'
+  - 'delete any organisation_membre content'
+  - 'delete any page content'
+  - 'delete any partenaire content'
+  - 'delete any projet content'
+  - 'delete any remote_video media'
   - 'delete media'
+  - 'delete own article content'
+  - 'delete own document content'
+  - 'delete own evenement content'
+  - 'delete own image media'
+  - 'delete own organisation_membre content'
+  - 'delete own page content'
+  - 'delete own partenaire content'
+  - 'delete own personnes_cles content'
+  - 'delete own projet content'
+  - 'delete own remote_video media'
   - 'edit any article content'
   - 'edit any document content'
+  - 'edit any image media'
   - 'edit any organisation_membre content'
   - 'edit any page content'
   - 'edit any partenaire content'
   - 'edit any personnes_cles content'
   - 'edit any projet content'
+  - 'edit any remote_video media'
+  - 'edit own article content'
+  - 'edit own document content'
+  - 'edit own image media'
+  - 'edit own organisation_membre content'
+  - 'edit own page content'
+  - 'edit own partenaire content'
+  - 'edit own personnes_cles content'
+  - 'edit own projet content'
+  - 'edit own remote_video media'
   - 'perform backup'
+  - 'translate any entity'
+  - 'update any background_image_counters block_content'
+  - 'update any background_image_frontpage block_content'
+  - 'update any basic block_content'
+  - 'update any block_type_inscription block_content'
+  - 'update any evenement_phare block_content'
   - 'update any media'
+  - 'update any zone_actualites_sidebar_right_fr block_content'
   - 'update media'
-  - 'view own unpublished media'
+  - 'update own background_image_counters block_content'
+  - 'update own background_image_frontpage block_content'
+  - 'update own basic block_content'
+  - 'update own block_type_inscription block_content'
+  - 'update own evenement_phare block_content'
+  - 'update own zone_actualites_sidebar_right_fr block_content'
+  - 'use menu link attributes'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view the administration theme'
+  - 'view user email addresses'

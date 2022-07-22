@@ -40,6 +40,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_user_organisation:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image_image
     weight: 3
@@ -50,7 +65,6 @@ content:
     third_party_settings: {  }
 hidden:
   contact: true
-  field_user_organisation: true
   langcode: true
   language: true
   path: true

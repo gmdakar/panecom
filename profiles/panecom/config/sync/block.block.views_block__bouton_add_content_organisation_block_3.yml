@@ -12,7 +12,7 @@ dependencies:
 id: views_block__bouton_add_content_organisation_block_3
 theme: panecom_bstrp
 region: content
-weight: -19
+weight: -20
 provider: null
 plugin: 'views_block:bouton_add_content_organisation-block_3'
 settings:
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '/user/*'
+    pages: "/user/*\r\n!/inscription/*"

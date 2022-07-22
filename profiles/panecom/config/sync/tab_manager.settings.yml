@@ -20,25 +20,35 @@ tabs:
   -
     id: role_delegation.edit_form
     title: Roles
-    weight: '-7'
+    weight: '-5'
     hidden: 1
   -
     id: shortcut.set_switch
     title: Raccourcis
-    weight: '-6'
+    weight: '-4'
     hidden: 1
   -
     id: entity.user.contact_form
     title: Contact
-    weight: '-5'
+    weight: '-3'
     hidden: 1
   -
     id: 'content_translation.local_tasks:entity.user.content_translation_overview'
     title: 'Traduire mon profil'
-    weight: '-4'
+    weight: '-2'
     hidden: 0
   -
     id: 'devel.entities:user.devel_tab'
     title: Devel
-    weight: '-3'
+    weight: '-1'
     hidden: 1
+  -
+    id: 'views_view:view.content_dashbord.page_2'
+    title: 'Contenus de mon organisation'
+    weight: '-7'
+    hidden: 0
+  -
+    id: 'views_view:view.content_dashbord.page_3'
+    title: 'Tous les contenus'
+    weight: '-6'
+    hidden: 0

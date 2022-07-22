@@ -779,4 +779,4 @@ $settings['config_sync_directory'] = 'profiles/panecom/config/sync';
 //$settings['config_sync_directory'] = 'sites/default/files/config_TgnFMjheAAbZtlm1PoXzVDooaqxwZ6fGkKeVYb2LDP9-BFwlwpZ0Z7zpgSlnRXnMU_sU9tCI1g/sync';
 
 // Relative path.
-$settings['default_content_deploy_content_directory'] = 'sites/default/content';
+/*$settings['default_content_deploy_content_directory'] = 'sites/default/content';*/

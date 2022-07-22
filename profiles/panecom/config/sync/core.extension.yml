@@ -2,11 +2,11 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 langcode: fr
 module:
+  block_exclude_pages: 0
   bootstrap_layout_builder: 0
   bootstrap_styles: 0
   countup: 0
   crop: 0
-  default_content_deploy: 0
   disable_field: 0
   entity_route_context: 0
   epp: 0
@@ -20,16 +20,17 @@ module:
   mysql: 0
   prepopulate: 0
   realname: 0
+  role_delegation: 0
   social_media_links: 0
   social_media_links_field: 0
   tab_manager: 0
+  token_views_filter: 0
   typed_data: 0
   viewfield: 0
   views_bulk_edit: 0
   fontyourface: 1
   hide_revision_field: 1
   pathauto: 1
-  recreate_block_content: 1
   masonry_views: 2
   addtoany: 10
   admin_toolbar: 10
@@ -117,7 +118,6 @@ module:
   realistic_dummy_content_api: 10
   redirect: 10
   rest: 10
-  role_delegation: 10
   search: 10
   serialization: 10
   shortcut: 10

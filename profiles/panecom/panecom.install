@@ -53,7 +53,7 @@ function panecom_install_tasks(&$install_state) {
 
 function panecom_final_site_setup(){
     //use instead the existing files_save directory.
-		$process = new Process('chmod -R 775 sites/default/ || true && rm -rf sites/default/files || true && cp -r sites/default/files_save sites/default/files || true');
+		$process = new Process('chmod -R 775 sites/default/ || true && rm -rf sites/default/files || true && mv sites/default/files_save sites/default/files || true');
 		//$process = new Process('drush dcdi');
 		$process->setTimeout(0);
 		$process->run();
