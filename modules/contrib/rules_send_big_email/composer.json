@@ -1,0 +1,15 @@
+{
+    "name": "drupal/rules_send_big_email",
+    "license": "GPL-2.0",
+    "type": "drupal-module",
+    "description": "Modify Rules Action Send Email form make Message field a textarea.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/rules_send_big_email",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/rules_send_big_email",
+        "source": "http://cgit.drupalcode.org/rules_send_big_email"
+    }
+}
+

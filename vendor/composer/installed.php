@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '296c6ab9d785ac141e457203915314d5c4d458ca',
+        'reference' => '04e0069f6ea017960f34a7cba3bb4a899dffe3d5',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -185,6 +185,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/addtoany',
             'aliases' => array(),
             'reference' => '8.x-1.16',
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_content_notification' => array(
+            'pretty_version' => '3.8.0',
+            'version' => '3.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/admin_content_notification',
+            'aliases' => array(),
+            'reference' => '8.x-3.8',
             'dev_requirement' => false,
         ),
         'drupal/advagg' => array(
@@ -1050,7 +1059,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '296c6ab9d785ac141e457203915314d5c4d458ca',
+            'reference' => '04e0069f6ea017960f34a7cba3bb4a899dffe3d5',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1064,6 +1073,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/mail_safety' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/mail_safety',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
         ),
         'drupal/mailsystem' => array(
             'pretty_version' => '4.3.0',
@@ -1219,6 +1237,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/migrate_tools',
             'aliases' => array(),
             'reference' => '6.0.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/mimemail' => array(
+            'pretty_version' => '1.0.0-alpha4',
+            'version' => '1.0.0.0-alpha4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/mimemail',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha4',
             'dev_requirement' => false,
         ),
         'drupal/minimal' => array(
@@ -1443,6 +1470,24 @@
             'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
+        'drupal/rules' => array(
+            'pretty_version' => '3.0.0-alpha7',
+            'version' => '3.0.0.0-alpha7',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/rules',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-alpha7',
+            'dev_requirement' => false,
+        ),
+        'drupal/rules_send_big_email' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/rules_send_big_email',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
         'drupal/search' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1653,6 +1698,15 @@
             'reference' => '2.0.0',
             'dev_requirement' => false,
         ),
+        'drupal/typed_data' => array(
+            'pretty_version' => '1.0.0-beta1',
+            'version' => '1.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/typed_data',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-beta1',
+            'dev_requirement' => false,
+        ),
         'drupal/update' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1664,6 +1718,24 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/vefl' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/vefl',
+            'aliases' => array(),
+            'reference' => '8.x-3.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/verf' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/verf',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
         ),
         'drupal/viewfield' => array(
             'pretty_version' => '3.0.0-beta6',
@@ -1680,6 +1752,15 @@
                 0 => '9.4.2',
             ),
         ),
+        'drupal/views_autocomplete_filters' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/views_autocomplete_filters',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
+        ),
         'drupal/views_bootstrap' => array(
             'pretty_version' => '4.3.0',
             'version' => '4.3.0.0',
@@ -1687,15 +1768,6 @@
             'install_path' => __DIR__ . '/../../modules/contrib/views_bootstrap',
             'aliases' => array(),
             'reference' => '8.x-4.3',
-            'dev_requirement' => false,
-        ),
-        'drupal/views_bulk_edit' => array(
-            'pretty_version' => '2.6.0',
-            'version' => '2.6.0.0',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/views_bulk_edit',
-            'aliases' => array(),
-            'reference' => '8.x-2.6',
             'dev_requirement' => false,
         ),
         'drupal/views_infinite_scroll' => array(

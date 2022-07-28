@@ -1,0 +1,13 @@
+name: 'Rules Send Big Email'
+type: module
+description: Provides 'textarea' field for entering email message in related Rules actions.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Rules'
+dependencies:
+  - rules:rules
+
+# Information added by Drupal.org packaging script on 2020-08-08
+version: '8.x-1.4'
+project: 'rules_send_big_email'
+datestamp: 1596884837
