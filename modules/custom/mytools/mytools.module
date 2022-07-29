@@ -86,15 +86,15 @@
 	* Pour un contenu associé à une organisation membre, faire une copie de mail au point focal
 	*
 	*/
-	function mytools_mail_alter($key, &$message, $params) 
+	function mytools_mail_alter(&$message) 
 	{
 	  //\Drupal::logger('mytools')->notice("mytools_entity_org_id1" );
-	 \Drupal::logger('mytools')->notice("mytools_entity_org_id11". '<pre><code>' . print_r($key, TRUE) . '</code></pre>' );
-	// \Drupal::logger('mytools')->notice("mytools_entity_org_id22". '<pre><code>' . print_r($key['params']['nid'], TRUE) . '</code></pre>' );
-	  if ($key['id'] == 'admin_content_notification_admin_content_notification_key' && isset($key['params']['nid']) )
+	 \Drupal::logger('mytools')->notice("mytools_entity_org_id11". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
+	// \Drupal::logger('mytools')->notice("mytools_entity_org_id22". '<pre><code>' . print_r($message['params']['nid'], TRUE) . '</code></pre>' );
+	  if ($message['id'] == 'admin_content_notification_admin_content_notification_key' && isset($message['params']['nid']) )
 	  {
 		  //$body = $context['message'];
-		  $nid = $key['params']['nid'];
+		  $nid = $message['params']['nid'];
 		  $node = Node::load($nid);
 		  \Drupal::logger('mytools')->notice("mytools_entity_org_id2". '<pre><code>' . print_r($node, TRUE) . '</code></pre>' );
 		  $type = $node->bundle();
@@ -119,9 +119,15 @@
 			\Drupal::logger('mytools')->notice("mytools_entity_org_id4: ". '<pre><code>' . print_r($tab_users_point_focal, TRUE) . '</code></pre>' );
 			if (isset($tab_users_point_focal) && count($tab_users_point_focal))
 			{
-				$message['headers']['bcc'] = implode(';', $tab_users_point_focal);
-				$message['headers']['cc'] = "drupagal@yahoo.fr";
-				\Drupal::logger('mytools')->notice("mytools_entity_org_id5: ". '<pre><code>' . print_r($message['headers'], TRUE) . '</code></pre>' );
+				$tab_mails_recipients = array();
+				if (strpos($message['params']['bcc'], ";") !== false)
+					$tab_mails_recipients = explode(";", $message['params']['bcc']);
+				else
+					$tab_mails_recipients = explode(",", $message['params']['bcc']);
+				
+				$message['to'] = implode(';', array_merge($tab_users_point_focal, $tab_mails_recipients));
+				
+				\Drupal::logger('mytools')->notice("mytools_entity_org_id5: ". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
 			}
 		  }  
 	  }
