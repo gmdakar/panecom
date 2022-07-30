@@ -1,0 +1,51 @@
+uuid: 0228896f-2abd-4266-8215-11535c739e1b
+langcode: fr
+status: true
+dependencies: {  }
+id: new_user
+label: 'New user'
+events:
+  -
+    event_name: 'rules_entity_insert:user'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 1ebe5d6b-cb9a-4172-90dc-d16c3f522221
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 8ba7260d-b50c-4695-a433-82a6b478e0ef
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: c15a8a3a-eaf4-43a0-96ac-e95a6e6367fb
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: d904c2c2-9fb1-426e-aeed-d19f4b7380fa
+        weight: 0
+        action_id: rules_email_to_users_of_role
+        context_values:
+          roles:
+            - gestionnaire
+          subject: 'new user registered (uid={{ @user.current_user_context:current_user.mail.value }})'
+          message: "<p>Bonjour,</p><p>Un nouveau compte utilisateur a été créé</p>\r\nEmail utilisateur: {{ @user.current_user_context:current_user.mail.value }}\r\n<element style=\"display:none;\">{{ @user.current_user_context:current_user.mail.value }}</element >"
+          reply: ''
+          language: ''
+        context_mapping: {  }
+        context_processors:
+          roles:
+            rules_tokens: {  }
+          subject:
+            rules_tokens: {  }
+          message:
+            rules_tokens: {  }
+          reply:
+            rules_tokens: {  }
+          language:
+            rules_tokens: {  }
+        provides_mapping: {  }

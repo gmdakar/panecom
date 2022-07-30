@@ -9,7 +9,7 @@ tabs:
     hidden: 0
   -
     id: entity.user.edit_form
-    title: 'Modifier mon profil'
+    title: 'Modification du profil'
     weight: '-9'
     hidden: 0
   -
@@ -20,27 +20,27 @@ tabs:
   -
     id: role_delegation.edit_form
     title: Roles
-    weight: '-5'
+    weight: '-4'
     hidden: 1
   -
     id: shortcut.set_switch
     title: Raccourcis
-    weight: '-4'
+    weight: '-3'
     hidden: 1
   -
     id: entity.user.contact_form
     title: Contact
-    weight: '-3'
+    weight: '-2'
     hidden: 1
   -
     id: 'content_translation.local_tasks:entity.user.content_translation_overview'
     title: 'Traduire mon profil'
-    weight: '-2'
+    weight: '-1'
     hidden: 0
   -
     id: 'devel.entities:user.devel_tab'
     title: Devel
-    weight: '-1'
+    weight: '0'
     hidden: 1
   -
     id: 'views_view:view.content_dashbord.page_2'
@@ -51,4 +51,9 @@ tabs:
     id: 'views_view:view.content_dashbord.page_3'
     title: 'Tous les contenus'
     weight: '-6'
+    hidden: 0
+  -
+    id: 'views_view:view.people_dashboard.page_1'
+    title: 'Comptes utilisateurs de mon organisation'
+    weight: '-5'
     hidden: 0

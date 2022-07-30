@@ -16,9 +16,12 @@ dependencies:
     - user.role.content_editor
     - user.role.gestionnaire
     - user.role.point_focal
+    - views.view.organisations_list
   module:
+    - entityreference_filter
     - node
     - user
+    - vefl
 _core:
   default_config_hash: vBKWYGGDoAX-tFd1JErB8tZLSxx3lJ0foouVsgpcbB4
 id: content_dashbord
@@ -37,59 +40,6 @@ display:
     display_options:
       title: Content
       fields:
-        node_bulk_form:
-          id: node_bulk_form
-          table: node
-          field: node_bulk_form
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          plugin_id: node_bulk_form
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          action_title: Action
-          include_exclude: exclude
-          selected_actions: {  }
         title:
           id: title
           table: node_field_data
@@ -866,7 +816,6 @@ display:
           row_class: ''
           default_row_class: true
           columns:
-            node_bulk_form: node_bulk_form
             title: title
             type: type
             field_personne_organisation: field_personne_organisation
@@ -880,11 +829,6 @@ display:
             changed: changed
           default: changed
           info:
-            node_bulk_form:
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
             title:
               sortable: true
               default_sort_order: asc
@@ -980,7 +924,7 @@ display:
       show_admin_links: false
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -1030,7 +974,7 @@ display:
         weight: -10
         menu_name: admin
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -1518,7 +1462,7 @@ display:
         weight: -10
         menu_name: admin
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -1538,6 +1482,33 @@ display:
     position: 1
     display_options:
       title: 'Tous les contenus'
+      exposed_form:
+        type: vefl_basic
+        options:
+          submit_button: Filter
+          reset_button: true
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          layout:
+            layout_id: 'bootstrap_layout_builder:blb_col_3'
+            change: Modifier
+            widget_region:
+              title: blb_region_col_1
+              type: blb_region_col_1
+              field_document_organisation_target_id_entityreference_filter: blb_region_col_2
+              field_article_organisation_target_id_entityreference_filter: blb_region_col_2
+              field_projet_organisation_target_id_entityreference_filter: blb_region_col_2
+              langcode: blb_region_col_3
+              status: blb_region_col_3
+              sort_by: blb_region_col_3
+              sort_order: blb_region_col_3
+              items_per_page: blb_region_col_3
+              offset: blb_region_col_3
+              submit: blb_region_col_3
+              reset: blb_region_col_3
       access:
         type: role
         options:
@@ -1639,6 +1610,201 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
+        field_document_organisation_target_id_entityreference_filter:
+          id: field_document_organisation_target_id_entityreference_filter
+          table: node__field_document_organisation
+          field: field_document_organisation_target_id_entityreference_filter
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entityreference_filter_view_result
+          operator: or
+          value: null
+          group: 2
+          exposed: true
+          expose:
+            operator_id: field_document_organisation_target_id_entityreference_filter_op
+            label: 'Organisation (document)'
+            description: ''
+            use_operator: false
+            operator: field_document_organisation_target_id_entityreference_filter_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_document_organisation_target_id_entityreference_filter
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              point_focal: '0'
+              gestionnaire: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          reference_display: 'organisations_list:entity_reference_1'
+          reference_arguments: ''
+          hide_empty_filter: true
+        field_article_organisation_target_id_entityreference_filter:
+          id: field_article_organisation_target_id_entityreference_filter
+          table: node__field_article_organisation
+          field: field_article_organisation_target_id_entityreference_filter
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entityreference_filter_view_result
+          operator: or
+          value: null
+          group: 2
+          exposed: true
+          expose:
+            operator_id: field_article_organisation_target_id_entityreference_filter_op
+            label: 'Organisation (actualité)'
+            description: ''
+            use_operator: false
+            operator: field_article_organisation_target_id_entityreference_filter_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_article_organisation_target_id_entityreference_filter
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              point_focal: '0'
+              gestionnaire: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          reference_display: 'organisations_list:entity_reference_1'
+          reference_arguments: ''
+          hide_empty_filter: true
+        field_projet_organisation_target_id_entityreference_filter:
+          id: field_projet_organisation_target_id_entityreference_filter
+          table: node__field_projet_organisation
+          field: field_projet_organisation_target_id_entityreference_filter
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entityreference_filter_view_result
+          operator: or
+          value: null
+          group: 2
+          exposed: true
+          expose:
+            operator_id: field_projet_organisation_target_id_entityreference_filter_op
+            label: 'Organisation (projet)'
+            description: ''
+            use_operator: false
+            operator: field_projet_organisation_target_id_entityreference_filter_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_projet_organisation_target_id_entityreference_filter
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              point_focal: '0'
+              gestionnaire: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          reference_display: 'organisations_list:entity_reference_1'
+          reference_arguments: ''
+          hide_empty_filter: true
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
+          operator: in
+          value:
+            fr: fr
+            en: en
+          group: 3
+          exposed: true
+          expose:
+            operator_id: langcode_op
+            label: Language
+            description: ''
+            use_operator: false
+            operator: langcode_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: langcode
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              point_focal: '0'
+              gestionnaire: '0'
+              administrator: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
         status:
           id: status
           table: node_field_data
@@ -1651,7 +1817,7 @@ display:
           plugin_id: boolean
           operator: '='
           value: '1'
-          group: 1
+          group: 3
           exposed: true
           expose:
             operator_id: ''
@@ -1687,61 +1853,16 @@ display:
                 title: Unpublished
                 operator: '='
                 value: '0'
-        langcode:
-          id: langcode
-          table: node_field_data
-          field: langcode
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: langcode
-          plugin_id: language
-          operator: in
-          value:
-            fr: fr
-            en: en
-          group: 1
-          exposed: true
-          expose:
-            operator_id: langcode_op
-            label: Language
-            description: ''
-            use_operator: false
-            operator: langcode_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: langcode
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              content_editor: '0'
-              point_focal: '0'
-              gestionnaire: '0'
-              administrator: '0'
-            reduce: true
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
       filter_groups:
         operator: AND
         groups:
           1: AND
+          2: OR
+          3: AND
       defaults:
         access: false
         title: false
+        exposed_form: false
         relationships: false
         arguments: false
         filters: false
@@ -1777,12 +1898,13 @@ display:
         weight: -10
         menu_name: admin
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.roles
       tags:
@@ -1790,3 +1912,4 @@ display:
         - 'config:field.storage.node.field_document_organisation'
         - 'config:field.storage.node.field_personne_organisation'
         - 'config:field.storage.node.field_projet_organisation'
+        - node_list

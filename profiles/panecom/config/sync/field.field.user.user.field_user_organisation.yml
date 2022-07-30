@@ -15,13 +15,14 @@ third_party_settings:
     value: ''
     on_update: 0
   disable_field:
-    add_disable: none
-    edit_disable: roles_enable
-    edit_roles:
+    add_disable: roles_enable
+    add_roles:
       - anonymous
       - authenticated
-      - content_editor
-      - point_focal
+    edit_disable: roles_enable
+    edit_roles:
+      - gestionnaire
+      - administrator
   multiple_registration:
     user_additional_register_form:
       authenticated: 0

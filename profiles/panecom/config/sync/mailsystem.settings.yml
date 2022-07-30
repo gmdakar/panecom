@@ -10,3 +10,7 @@ modules:
     none:
       sender: swiftmailer
       formatter: swiftmailer
+  rules:
+    none:
+      sender: mime_mail
+      formatter: mime_mail

@@ -1,0 +1,12 @@
+uuid: c92200ec-f60c-4477-b115-6d1cbb526e2e
+langcode: fr
+status: true
+dependencies: {  }
+id: envoyer_un_courriel
+label: 'Envoyer un courriel'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: test@test.com
+  subject: subject
+  message: message

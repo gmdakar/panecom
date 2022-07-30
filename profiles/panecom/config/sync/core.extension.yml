@@ -2,6 +2,7 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 langcode: fr
 module:
+  admin_content_notification: 0
   block_exclude_pages: 0
   bootstrap_layout_builder: 0
   bootstrap_styles: 0
@@ -9,25 +10,30 @@ module:
   crop: 0
   disable_field: 0
   entity_route_context: 0
+  entityreference_filter: 0
   epp: 0
   image_widget_crop: 0
   layout_builder: 0
+  mail_safety: 0
   masonry: 0
   migrate: 0
   migrate_plus: 0
   migrate_tools: 0
+  mimemail: 0
   multiple_registration: 0
   mysql: 0
   prepopulate: 0
   realname: 0
   role_delegation: 0
+  rules: 0
+  rules_send_big_email: 0
   social_media_links: 0
   social_media_links_field: 0
   tab_manager: 0
   token_views_filter: 0
   typed_data: 0
+  vefl: 0
   viewfield: 0
-  views_bulk_edit: 0
   fontyourface: 1
   hide_revision_field: 1
   pathauto: 1
@@ -65,7 +71,6 @@ module:
   easy_breadcrumb: 10
   editor: 10
   email_registration: 10
-  entityreference_filter: 10
   field: 10
   field_group: 10
   field_ui: 10

@@ -89,14 +89,14 @@
 	function mytools_mail_alter(&$message) 
 	{
 	  //\Drupal::logger('mytools')->notice("mytools_entity_org_id1" );
-	 \Drupal::logger('mytools')->notice("mytools_entity_org_id11". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
-	// \Drupal::logger('mytools')->notice("mytools_entity_org_id22". '<pre><code>' . print_r($message['params']['nid'], TRUE) . '</code></pre>' );
+	// \Drupal::logger('mytools')->notice("mytools_entity_org_id11". '<pre><code>' . print_r($message['params'], TRUE) . '</code></pre>' );
+	//// \Drupal::logger('mytools')->notice("mytools_entity_org_id22". '<pre><code>' . print_r($message['params']['nid'], TRUE) . '</code></pre>' );
 	  if ($message['id'] == 'admin_content_notification_admin_content_notification_key' && isset($message['params']['nid']) )
 	  {
 		  //$body = $context['message'];
 		  $nid = $message['params']['nid'];
 		  $node = Node::load($nid);
-		  \Drupal::logger('mytools')->notice("mytools_entity_org_id2". '<pre><code>' . print_r($node, TRUE) . '</code></pre>' );
+		 // \Drupal::logger('mytools')->notice("mytools_entity_org_id2". '<pre><code>' . print_r($node, TRUE) . '</code></pre>' );
 		  $type = $node->bundle();
 		  $entity_org_id = null;
 		  if ($type == 'organisation_membre'){
@@ -112,11 +112,11 @@
 				$entity_org_id = $node->field_projet_organisation->target_id;
 		  }
 		  
-		  \Drupal::logger('mytools')->notice("mytools_entity_org_id3: ".$entity_org_id );
+		 // // \Drupal::logger('mytools')->notice("mytools_entity_org_id3: ".$entity_org_id );
 		  if ($entity_org_id)
 		  {
-			$tab_users_point_focal = getUserOrganisationByRole($entity_org_id);
-			\Drupal::logger('mytools')->notice("mytools_entity_org_id4: ". '<pre><code>' . print_r($tab_users_point_focal, TRUE) . '</code></pre>' );
+			$tab_users_point_focal = getUserOrganisationByRole($entity_org_id, 'point_focal');
+			// \Drupal::logger('mytools')->notice("mytools_entity_org_id4: ". '<pre><code>' . print_r($tab_users_point_focal, TRUE) . '</code></pre>' );
 			if (isset($tab_users_point_focal) && count($tab_users_point_focal))
 			{
 				$tab_mails_recipients = array();
@@ -127,8 +127,24 @@
 				
 				$message['to'] = implode(';', array_merge($tab_users_point_focal, $tab_mails_recipients));
 				
-				\Drupal::logger('mytools')->notice("mytools_entity_org_id5: ". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
+				// \Drupal::logger('mytools')->notice("mytools_entity_org_id5: ". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
 			}
+		  }  
+	  }
+	  elseif ($message['id'] == 'user_register_pending_approval' && isset($message['params']['account']) )
+	  {		  
+		  \Drupal::logger('mytools')->notice("mytools_user_register_pending_approval");
+		  $account = $message['params']['account'];
+		  //$mail = $account->mail;
+		  //\Drupal::logger('mytools')->notice("mytools_entity_org_id2: ".$mail);
+		  $user_org_id = isset($account->get('field_user_organisation')->getValue()[0]['target_id']) ? $account->get('field_user_organisation')->getValue()[0]['target_id'] : '';
+		  \Drupal::logger('mytools')->notice("mytools_entity_org_id3: ".$user_org_id);
+		  if ($user_org_id)
+		  {
+			$tab_users_pt_focal_and_gestionnaire = array_merge(getUserOrganisationByRole($user_org_id, 'point_focal'), getUserRole('gestionnaire'));
+			
+			$message['params']['headers']['bcc'] = implode(';', $tab_users_pt_focal_and_gestionnaire);
+			\Drupal::logger('mytools')->notice("mytools_entity_org_id4: ".$message['params']['headers']['bcc']);
 		  }  
 	  }
 	  
@@ -144,6 +160,26 @@
 		$query->innerJoin('user__field_user_organisation', 'o', 'o.entity_id = u.uid');
 		$query->innerJoin('users_field_data', 'd', 'd.uid = u.uid');
 		$query->condition('o.field_user_organisation_target_id', $org_id);
+		$query->condition('r.roles_target_id', $role_name);
+
+		$result = $query->execute();
+
+		$users = array();
+		foreach ($result as $user) {
+			$users[] = $user->mail;
+		}
+
+		return $users;
+	}
+	
+	/** 
+	* Get info (mail, name, etc..) about a list of users for a specific role
+	*/
+	function getUserRole($role_name='gestionnaire') { // rid = Role Id from users_roles table
+		$query = Drupal::database()->select('users', 'u');
+		$query->fields('d', array('mail'));
+		$query->innerJoin('user__roles', 'r', 'r.entity_id = u.uid');
+		$query->innerJoin('users_field_data', 'd', 'd.uid = u.uid');
 		$query->condition('r.roles_target_id', $role_name);
 
 		$result = $query->execute();
