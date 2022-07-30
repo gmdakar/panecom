@@ -81,7 +81,7 @@ echo "ls -al index.php"
 ls -al index.php
 
 echo "composer require drush/drush:10.x -W --no-interaction"
-composer require drush/drush:10.x -W --no-interaction
+#composer require drush/drush:10.x -W --no-interaction
 
 echo "sed  's/standard/panecom/g' profiles/panecom/config/sync/core.extension.yml > delete.txt"
 sed  's/standard/panecom/g' profiles/panecom/config/sync/core.extension.yml > delete.txt
