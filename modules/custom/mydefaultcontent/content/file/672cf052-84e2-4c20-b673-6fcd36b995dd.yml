@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 672cf052-84e2-4c20-b673-6fcd36b995dd
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: IMG_9637.jpg
+  uri:
+    -
+      value: 'public://slideshow/2022-05/IMG_9637.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 255332
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652875663

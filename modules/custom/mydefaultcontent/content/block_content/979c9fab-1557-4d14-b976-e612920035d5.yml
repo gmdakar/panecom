@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 979c9fab-1557-4d14-b976-e612920035d5
+  bundle: basic
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Panecom
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1655136040
+  body:
+    -
+      value: "<h3><strong>25, rue de la corniche, Dakar, Sénégal</strong></h3>\r\n\r\n<p>+221 900 52 52 12</p>\r\n\r\n<p>infomail@panecom.com</p>\r\n\r\n<p>Pour toute question ou demande de renseignement,</p>\r\n\r\n<p>n’hésitez pas à nous contacter</p>\r\n"
+      format: basic_html
+      summary: ''
+translations:
+  en:
+    info:
+      -
+        value: Panecom
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_created:
+      -
+        value: 1655136127
+    body:
+      -
+        value: "<h3><strong>25, rue de la corniche, Dakar, Sénégal</strong></h3>\r\n\r\n<p>+221 900 52 52 12</p>\r\n\r\n<p>infomail@panecom.com</p>\r\n\r\n<p>For any questions or inquiries,</p>\r\n\r\n<p>do not hesitate to contact us</p>\r\n"
+        format: basic_html
+        summary: ''

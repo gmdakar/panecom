@@ -125,7 +125,7 @@
 				else
 					$tab_mails_recipients = explode(",", $message['params']['bcc']);
 				
-				$message['to'] = implode(';', array_merge($tab_users_point_focal, $tab_mails_recipients));
+				$message['to'] = implode(',', array_merge($tab_users_point_focal, $tab_mails_recipients));
 				
 				// \Drupal::logger('mytools')->notice("mytools_entity_org_id5: ". '<pre><code>' . print_r($message, TRUE) . '</code></pre>' );
 			}
@@ -133,20 +133,37 @@
 	  }
 	  elseif ($message['id'] == 'user_register_pending_approval' && isset($message['params']['account']) )
 	  {		  
-		  \Drupal::logger('mytools')->notice("mytools_user_register_pending_approval");
-		  $account = $message['params']['account'];
-		  //$mail = $account->mail;
-		  //\Drupal::logger('mytools')->notice("mytools_entity_org_id2: ".$mail);
-		  $user_org_id = isset($account->get('field_user_organisation')->getValue()[0]['target_id']) ? $account->get('field_user_organisation')->getValue()[0]['target_id'] : '';
-		  \Drupal::logger('mytools')->notice("mytools_entity_org_id3: ".$user_org_id);
-		  if ($user_org_id)
-		  {
-			$tab_users_pt_focal_and_gestionnaire = array_merge(getUserOrganisationByRole($user_org_id, 'point_focal'), getUserRole('gestionnaire'));
-			
-			$message['params']['headers']['bcc'] = implode(';', $tab_users_pt_focal_and_gestionnaire);
-			\Drupal::logger('mytools')->notice("mytools_entity_org_id4: ".$message['params']['headers']['bcc']);
-		  }  
+		\Drupal::logger('mytools')->notice("mytools_user_register_pending_approval");
+		$account = $message['params']['account'];
+		//$mail = $account->mail;
+		//\Drupal::logger('mytools')->notice("mytools_entity_org_id2: ".$mail);
+		$user_org_id = isset($account->get('field_user_organisation')->getValue()[0]['target_id']) ? $account->get('field_user_organisation')->getValue()[0]['target_id'] : '';
+		\Drupal::logger('mytools')->notice("mytools_entity_org_id3: ".$user_org_id);
+		  
+		$tab_users_pt_focal_and_gestionnaire = array_merge(getUserOrganisationByRole($user_org_id, 'point_focal'), getUserRole('gestionnaire'));
+		
+		$mailer = \Drupal::service('plugin.manager.mail');
+
+		$email = implode(',', $tab_users_pt_focal_and_gestionnaire);
+		$sitename = \Drupal::config('system.site')->get('name');
+		$params['context']['subject'] = $sitename. " : New user registered and pending";
+		$params['context']['message'] = "Dear content manager,<br>There is a new user (".$message['to'].") registered and awaiting validation on the website.<br>"."Sincerly yours!";
+		$params['email'] = $account->mail;
+
+		$mailer->mail('mytools', 'subscribe', $email, \Drupal::currentUser()->getPreferredLangcode(), $params);
+		   
 	  }
+	  elseif ($message['id'] == 'mytools_subscribe'  )
+	  {
+		$options = [
+			'langcode' => \Drupal::currentUser()->getPreferredLangcode(),
+		];
+		$message['subject'] = t('@title', ['@title' => $message['params']['context']['subject']], $options);
+		$message['body'][] = t('@body', ['@body' => $message['params']['context']['message']], $options);  
+
+		$message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+	
+	  }	  
 	  
 	}
 	

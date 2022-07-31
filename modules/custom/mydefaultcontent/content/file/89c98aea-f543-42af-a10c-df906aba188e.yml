@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 89c98aea-f543-42af-a10c-df906aba188e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rp3lFFicvd.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/rp3lFFicvd.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1004
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

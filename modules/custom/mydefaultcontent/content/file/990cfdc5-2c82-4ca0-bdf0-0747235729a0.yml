@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 990cfdc5-2c82-4ca0-bdf0-0747235729a0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: k9TzYCcyDS.txt
+  uri:
+    -
+      value: 'public://organisation/2022-06/k9TzYCcyDS.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1020
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

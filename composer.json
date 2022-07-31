@@ -100,7 +100,6 @@
         "drupal/restui": "^1.20",
         "drupal/role_delegation": "^1.2",
         "drupal/rules": "^3.0@alpha",
-        "drupal/rules_send_big_email": "^1.4",
         "drupal/social_media_links": "^2.8",
         "drupal/spamspan": "^2.0@beta",
         "drupal/structure_sync": "^2.0",

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c08f53a5-98ec-4178-95ab-c1460fef18a4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: m3FqnSsN2K.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/m3FqnSsN2K.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 990
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

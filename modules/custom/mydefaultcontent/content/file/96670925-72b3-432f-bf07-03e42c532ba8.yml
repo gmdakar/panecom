@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 96670925-72b3-432f-bf07-03e42c532ba8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cAUmHtm85o.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/cAUmHtm85o.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1031
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

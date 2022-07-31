@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 91e4840b-1cc8-41b2-857c-c5adddcaad60
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fy5QHQHTg5.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/fy5QHQHTg5.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 886
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

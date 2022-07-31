@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa191c91196c48d4801cb17edbe25bc7",
+    "content-hash": "dfecceabdd302746938d410a7549d603",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6235,52 +6235,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/rules",
                 "issues": "https://www.drupal.org/project/issues/rules"
-            }
-        },
-        {
-            "name": "drupal/rules_send_big_email",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/rules_send_big_email.git",
-                "reference": "8.x-1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/rules_send_big_email-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "f73f7c664d0de5d01cd0642593be1f2b486e71cb"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "drupal/rules": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1596884835",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "wombatbuddy",
-                    "homepage": "https://www.drupal.org/user/3547848"
-                }
-            ],
-            "description": "Modify Rules Action Send Email form make Message field a textarea.",
-            "homepage": "https://www.drupal.org/project/rules_send_big_email",
-            "support": {
-                "source": "http://cgit.drupalcode.org/rules_send_big_email",
-                "issues": "https://www.drupal.org/project/issues/rules_send_big_email"
             }
         },
         {

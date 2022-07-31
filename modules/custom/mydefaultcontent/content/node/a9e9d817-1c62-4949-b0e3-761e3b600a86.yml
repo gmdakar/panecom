@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a9e9d817-1c62-4949-b0e3-761e3b600a86
+  bundle: article
+  default_langcode: fr
+  depends:
+    e41179ec-97c9-491b-9c2a-67574dbfdb00: user
+    3e6e6b3d-0e9e-41e3-a75c-826543214915: node
+default:
+  revision_uid:
+    -
+      entity: e41179ec-97c9-491b-9c2a-67574dbfdb00
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e41179ec-97c9-491b-9c2a-67574dbfdb00
+  title:
+    -
+      value: 'test article2'
+  created:
+    -
+      value: 1658936200
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1658936200
+      last_comment_name: ''
+      last_comment_uid: 4
+      comment_count: 0
+  field_article_organisation:
+    -
+      entity: 3e6e6b3d-0e9e-41e3-a75c-826543214915

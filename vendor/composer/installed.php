@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '354095dfde3bf01c71dd4f41a4012e81fded2a53',
+        'reference' => 'c0f00b78cd1a9da1d5c1a96275b84d683326b7b8',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1059,7 +1059,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '354095dfde3bf01c71dd4f41a4012e81fded2a53',
+            'reference' => 'c0f00b78cd1a9da1d5c1a96275b84d683326b7b8',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1477,15 +1477,6 @@
             'install_path' => __DIR__ . '/../../modules/contrib/rules',
             'aliases' => array(),
             'reference' => '8.x-3.0-alpha7',
-            'dev_requirement' => false,
-        ),
-        'drupal/rules_send_big_email' => array(
-            'pretty_version' => '1.4.0',
-            'version' => '1.4.0.0',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/rules_send_big_email',
-            'aliases' => array(),
-            'reference' => '8.x-1.4',
             'dev_requirement' => false,
         ),
         'drupal/search' => array(

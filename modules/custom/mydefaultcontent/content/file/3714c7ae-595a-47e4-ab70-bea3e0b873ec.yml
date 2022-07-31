@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3714c7ae-595a-47e4-ab70-bea3e0b873ec
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: iP2fI32zW3.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/iP2fI32zW3.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1027
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

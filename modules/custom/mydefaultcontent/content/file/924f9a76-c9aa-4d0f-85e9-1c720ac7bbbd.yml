@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 924f9a76-c9aa-4d0f-85e9-1c720ac7bbbd
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scioK9xiVC.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/scioK9xiVC.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 912
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

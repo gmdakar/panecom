@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: be78f416-f528-4da4-8931-72325ffa7471
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fmhNyplqCp.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/fmhNyplqCp.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 768
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

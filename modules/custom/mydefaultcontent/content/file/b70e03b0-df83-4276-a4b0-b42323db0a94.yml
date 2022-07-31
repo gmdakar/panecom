@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b70e03b0-df83-4276-a4b0-b42323db0a94
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_sbuaed.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_sbuaed.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9744
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

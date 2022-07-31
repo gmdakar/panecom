@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8c129f96-9eae-4e37-be89-b5c8f3975f73
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: xhblBSFhF2.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/xhblBSFhF2.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1132
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

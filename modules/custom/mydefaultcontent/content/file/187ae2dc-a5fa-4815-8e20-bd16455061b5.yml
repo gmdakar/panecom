@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 187ae2dc-a5fa-4815-8e20-bd16455061b5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 91OJI64l0MqXDLXK9Hdbn2tq7Tb9PI36np69K-WKHZ4.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/2022-05/91OJI64l0MqXDLXK9Hdbn2tq7Tb9PI36np69K-WKHZ4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 14202
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653063869

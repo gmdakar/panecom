@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f37c01ce-716c-4771-8bd6-1ce766701da6
+  bundle: organisation_membre
+  default_langcode: fr
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'my organisation2'
+  created:
+    -
+      value: 1659108101
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /organisation-membre/my-organisation2
+      langcode: fr
+      pathauto: 1
+  field_org_actualites:
+    -
+      target_id: slideshow
+      display_id: block_3
+      arguments: ''
+      items_to_display: ''
+  field_org_documents:
+    -
+      target_id: documents
+      display_id: block_1
+      arguments: ''
+      items_to_display: ''
+  field_org_projets:
+    -
+      target_id: projets
+      display_id: block_2
+      arguments: ''
+      items_to_display: ''

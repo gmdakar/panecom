@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 349946aa-1b6d-4e0a-91ae-1a095f495b1b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: e6HXAIrDjw.txt
+  uri:
+    -
+      value: 'public://document/2022-05/e6HXAIrDjw.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 805
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570
