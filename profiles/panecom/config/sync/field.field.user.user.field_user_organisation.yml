@@ -29,9 +29,9 @@ third_party_settings:
       content_editor: 0
       point_focal: 0
     user_additional_register_form_required:
+      content_editor: content_editor
+      point_focal: point_focal
       authenticated: 0
-      content_editor: 0
-      point_focal: 0
 id: user.user.field_user_organisation
 field_name: field_user_organisation
 entity_type: user

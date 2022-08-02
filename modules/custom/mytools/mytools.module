@@ -6,7 +6,12 @@
 	use Drupal\Core\Entity\EntityInterface;
 	use Drupal\node\Entity\Node;
 	
-	//var_dump(getUserOrganisationByRole(499)); exit;
+	/**
+	 * Implements hook_menu_links_discovered_alter().
+	 */
+	function mytools_menu_links_discovered_alter(&$links) {
+	  $links['user.logout']['class'] = 'Drupal\mytools\Plugin\Menu\MyLoginLogoutMenuLink';
+	}
 	
 	/** pour un point focal on doit permettre de rendre editable/supprimable que les contenus relatifs à l'organisation de ce point focal.
 	* Cf aussi les droits backend "Modifier n'importe quel ..." et  "Supprimer n'importe quel ...."

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c0f00b78cd1a9da1d5c1a96275b84d683326b7b8',
+        'reference' => 'e044aa467a6c3e4fae046edd0d456dffb2c62341',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1059,7 +1059,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c0f00b78cd1a9da1d5c1a96275b84d683326b7b8',
+            'reference' => 'e044aa467a6c3e4fae046edd0d456dffb2c62341',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1470,15 +1470,6 @@
             'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
-        'drupal/rules' => array(
-            'pretty_version' => '3.0.0-alpha7',
-            'version' => '3.0.0.0-alpha7',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/rules',
-            'aliases' => array(),
-            'reference' => '8.x-3.0-alpha7',
-            'dev_requirement' => false,
-        ),
         'drupal/search' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1687,15 +1678,6 @@
             'install_path' => __DIR__ . '/../../modules/contrib/transliterate_filenames',
             'aliases' => array(),
             'reference' => '2.0.0',
-            'dev_requirement' => false,
-        ),
-        'drupal/typed_data' => array(
-            'pretty_version' => '1.0.0-beta1',
-            'version' => '1.0.0.0-beta1',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/typed_data',
-            'aliases' => array(),
-            'reference' => '8.x-1.0-beta1',
             'dev_requirement' => false,
         ),
         'drupal/update' => array(

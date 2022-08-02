@@ -6458,71 +6458,6 @@
             "install-path": "../../modules/contrib/role_delegation"
         },
         {
-            "name": "drupal/rules",
-            "version": "3.0.0-alpha7",
-            "version_normalized": "3.0.0.0-alpha7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/rules.git",
-                "reference": "8.x-3.0-alpha7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/rules-8.x-3.0-alpha7.zip",
-                "reference": "8.x-3.0-alpha7",
-                "shasum": "6803aeaecea21cd64301a72b209d5db2f57f92b4"
-            },
-            "require": {
-                "drupal/core": "^8.8.2 || ^9",
-                "drupal/typed_data": "^1.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.0-alpha7",
-                    "datestamp": "1638768619",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10"
-                    }
-                },
-                "patches_applied": {
-                    "#123461 - Fix some issues rules": "https://www.drupal.org/files/issues/2020-11-11/rules-member_function_id_SystemMailToUsersOfRole-3088481-4.patch"
-                }
-            },
-            "installation-source": "dist",
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TR",
-                    "homepage": "https://www.drupal.org/user/202830"
-                },
-                {
-                    "name": "fago",
-                    "homepage": "https://www.drupal.org/user/16747"
-                },
-                {
-                    "name": "klausi",
-                    "homepage": "https://www.drupal.org/user/262198"
-                }
-            ],
-            "description": "React on events and conditionally evaluate actions.",
-            "homepage": "https://www.drupal.org/project/rules",
-            "support": {
-                "source": "https://git.drupalcode.org/project/rules",
-                "issues": "https://www.drupal.org/project/issues/rules"
-            },
-            "install-path": "../../modules/contrib/rules"
-        },
-        {
             "name": "drupal/social_media_links",
             "version": "2.8.0",
             "version_normalized": "2.8.0.0",
@@ -7254,63 +7189,6 @@
                 "issues": "https://www.drupal.org/project/issues/transliterate_filenames"
             },
             "install-path": "../../modules/contrib/transliterate_filenames"
-        },
-        {
-            "name": "drupal/typed_data",
-            "version": "1.0.0-beta1",
-            "version_normalized": "1.0.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/typed_data.git",
-                "reference": "8.x-1.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "73d079f29c7a5679e0db3e28ae888e8cce2f1335"
-            },
-            "require": {
-                "drupal/core": "^8.8.2 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1635839873",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10"
-                    }
-                }
-            },
-            "installation-source": "dist",
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "TR",
-                    "homepage": "https://www.drupal.org/user/202830"
-                },
-                {
-                    "name": "fago",
-                    "homepage": "https://www.drupal.org/user/16747"
-                }
-            ],
-            "description": "Extends the core Typed Data API with new APIs and features.",
-            "homepage": "https://www.drupal.org/project/typed_data",
-            "support": {
-                "source": "https://git.drupalcode.org/project/typed_data",
-                "issues": "https://www.drupal.org/project/issues/typed_data"
-            },
-            "install-path": "../../modules/contrib/typed_data"
         },
         {
             "name": "drupal/vefl",
