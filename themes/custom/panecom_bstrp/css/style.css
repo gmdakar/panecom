@@ -246,3 +246,20 @@ ul.sf-menu .sf-sub-indicator {
     position: relative;
 	top: .6rem;
 }
+
+/*A propos text*/
+#block-apropos {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    margin-top: 250px;
+    width: 45%;
+    color: #fff;
+    font-size: 1.55rem;
+    font-weight: 300;
+}
+
+#block-apropos h1 {
+    font-size: 3.125rem;
+	margin-bottom: 1rem;
+}
