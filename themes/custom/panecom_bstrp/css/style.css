@@ -8,7 +8,7 @@
 
 /*main colors,  use var(--color1); */
 :root {
-  --color1: #5186c6;
+  --color1: #007EA3;
   --color2: #8ecb80; 
   --color3: #F86060;
   --color_a: #064c7e;
@@ -74,7 +74,8 @@ header#header span.nolink{
 
 a.navbar-brand {
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+	z-index: 1;
 }
 
 /*main menu*/
@@ -82,7 +83,10 @@ a.navbar-brand {
     background-color: transparent;
     padding: 0 0 0 6%;
     position: absolute;
-    top: 1%;
+    top: 0;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 12px 8px #0527391c;
 }
 
 #navbar-main .navbar-collapse{
@@ -155,6 +159,7 @@ a.navbar-brand {
 
 #block-navigationprincipale ul.sf-menu li ul{
     width: 17rem !important;
+	background-color: var(--color1);
 }
 
 #block-navigationprincipale ul.sf-menu li ul li a{
@@ -176,20 +181,17 @@ ul.sf-menu .sf-sub-indicator::after {
 }
 
 ul.sf-menu .sf-sub-indicator {
-    overflow: initial;
-    position: absolute;
-    right: 1.1em;
-	top: 40%;
-    -webkit-transform: translateY(-40%);
-    -moz-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    -o-transform: translateY(-40%);
-    transform: translateY(-40%);
+    height: auto;
+    line-height: normal;
 }
-
 /**
 * Member espace link menu
 */
+#block-panecom-bstrp-account-menu {
+    text-align: center;
+	z-index: 1;
+}
+
 #block-panecom-bstrp-account-menu .nav-link {
     width: 15rem;
     background-color: var(--color3);
@@ -199,7 +201,7 @@ ul.sf-menu .sf-sub-indicator {
 }
 
 #block-panecom-bstrp-account-menu .nav-link span{
-    padding: 0 1rem;
+    padding: 0 .25rem;
 	font-size: 1.05rem;
 }
 
@@ -212,6 +214,7 @@ ul.sf-menu .sf-sub-indicator {
 /*selecteur langue*/
 #block-languagedropdownswitcher {
     margin: 1rem 3.5rem 0 2rem;
+	z-index:1;
 }
 
 #block-languagedropdownswitcher select {
@@ -226,7 +229,7 @@ ul.sf-menu .sf-sub-indicator {
 }
 
 #block-languagedropdownswitcher option {
-    background-color: #2d93f1;
+    background-color: var(--color1);
 }
 
 #block-languagedropdownswitcher select:focus {
