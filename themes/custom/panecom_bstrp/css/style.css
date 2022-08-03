@@ -211,7 +211,7 @@ ul.sf-menu .sf-sub-indicator {
 
 /*selecteur langue*/
 #block-languagedropdownswitcher {
-    margin: 1.15rem 3.5rem 0 2rem;
+    margin: 1rem 3.5rem 0 2rem;
 }
 
 #block-languagedropdownswitcher select {
@@ -241,5 +241,5 @@ ul.sf-menu .sf-sub-indicator {
     color: var(--krowd-theme-color-second);
     font-size: 1.5rem;
     position: relative;
-	top: .4rem;
+	top: .6rem;
 }
