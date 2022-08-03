@@ -10,7 +10,7 @@
 :root {
   --color1: #5186c6;
   --color2: #8ecb80; 
-  --color3: #f4793a;
+  --color3: #F86060;
   --color_a: #064c7e;
   --color4: transparent;
   --color5: #494c52;  
@@ -73,12 +73,17 @@ header#header span.nolink{
     color:#fff;
 }
 
+a.navbar-brand {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/*main menu*/
 #navbar-main {
-    background-color: transparent !important;
-    padding: 0;
+    background-color: transparent;
+    padding: 0 0 0 6%;
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 1%;
 }
 
 #navbar-main .navbar-collapse{
@@ -117,11 +122,15 @@ header#header span.nolink{
    
 }
 
-/*main menu*/
+#block-navigationprincipale {
+    padding: 0 1rem 0 3rem !important;
+}
+
 #block-navigationprincipale .menu span.nolink,
 #block-navigationprincipale .menu a {
-    font-size: 1.063rem;
+    font-size: 1.1rem;
 	color:#fff;
+	font-weight: 300;
 }
 
 #block-navigationprincipale ul.sf-menu span.nolink {
@@ -132,21 +141,33 @@ header#header span.nolink{
    color: #fff;    
 }
 
-#block-navigationprincipale ul.sf-menu li > a.is-active,
-#block-navigationprincipale ul.sf-menu li:hover > a{
+#block-navigationprincipale ul.sf-menu > li{
+    margin:0 .3rem;  
+}
+
+#block-navigationprincipale ul.sf-menu >li > a.is-active,
+#block-navigationprincipale ul.sf-menu > li:hover > a{
 	text-decoration: underline;
 	text-underline-position: under;
 	text-decoration-color: var(--color3) !important;
-	font-weight: 600;
+	font-weight: 500;
+	text-decoration-thickness: 0.2rem;
 }
 
+#block-navigationprincipale ul.sf-menu li ul{
+    width: 17rem !important;
+}
 
 #block-navigationprincipale ul.sf-menu li ul li a{
-    font-size: .95rem !important;
+    font-size: 1.05rem !important;
+	border-left: solid transparent .15rem;
 }
 
 #block-navigationprincipale ul.sf-menu li ul li:hover a{
    /* color: initial !important;*/
+   border-left: solid var(--color3) .15rem;
+   font-weight: 400;
+   text-decoration: none;
 }
 
 ul.sf-menu .sf-sub-indicator::after {
@@ -167,3 +188,29 @@ ul.sf-menu .sf-sub-indicator {
     transform: translateY(-40%);
 }
 
+/**
+* Member espace link menu
+*/
+#block-panecom-bstrp-account-menu .nav-link {
+    width: 15rem;
+    background-color: var(--color3);
+    border-radius: 25px;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+#block-panecom-bstrp-account-menu .nav-link span{
+    padding: 0 1rem;
+	font-size: 1.05rem;
+}
+
+#block-panecom-bstrp-account-menu .nav-link .fa-user-circle {
+    font-size: 1.65rem;
+    position: relative;
+    top: 0.25rem;
+}
+
+/*selecteur langue*/
+#block-selecteurdelangue {
+    margin-right: 1.5rem;
+}
