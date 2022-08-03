@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e044aa467a6c3e4fae046edd0d456dffb2c62341',
+        'reference' => '35c84a23748fd666340e9c96cc344fe3eedf2413',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -981,6 +981,15 @@
                 0 => '9.4.2',
             ),
         ),
+        'drupal/lang_dropdown' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/lang_dropdown',
+            'aliases' => array(),
+            'reference' => '8.x-2.0',
+            'dev_requirement' => false,
+        ),
         'drupal/language' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1059,7 +1068,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e044aa467a6c3e4fae046edd0d456dffb2c62341',
+            'reference' => '35c84a23748fd666340e9c96cc344fe3eedf2413',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

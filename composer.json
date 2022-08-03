@@ -69,6 +69,7 @@
         "drupal/image_widget_crop": "^2.3",
         "drupal/imagefield_slideshow": "^2.0",
         "drupal/install_profile_generator": "^3.0@alpha",
+        "drupal/lang_dropdown": "^2.0",
         "drupal/layout_builder_blocks": "^1.0",
         "drupal/layout_builder_component_attributes": "^2.0",
         "drupal/layout_builder_operation_link": "^1.0",

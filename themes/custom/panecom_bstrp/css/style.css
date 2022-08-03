@@ -61,7 +61,6 @@ main#content {
     width:  50%;
 }
  
-
 header#header {
     min-height: 400px;
     height: 100vh;
@@ -211,6 +210,36 @@ ul.sf-menu .sf-sub-indicator {
 }
 
 /*selecteur langue*/
-#block-selecteurdelangue {
-    margin-right: 1.5rem;
+#block-languagedropdownswitcher {
+    margin: 1.15rem 3.5rem 0 2rem;
+}
+
+#block-languagedropdownswitcher select {
+    padding: 0;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+	color: #fff;
+    text-transform: uppercase;
+	font-weight:300;
+	cursor: pointer;
+}
+
+#block-languagedropdownswitcher option {
+    background-color: #2d93f1;
+}
+
+#block-languagedropdownswitcher select:focus {
+    border-color: transparent;
+}
+
+#block-languagedropdownswitcher::before {
+    color: #fff !important;
+    content: "\f0ac";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: var(--krowd-theme-color-second);
+    font-size: 1.5rem;
+    position: relative;
+	top: .4rem;
 }
