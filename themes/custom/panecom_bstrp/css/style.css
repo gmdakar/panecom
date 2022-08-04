@@ -63,7 +63,7 @@ main#content {
  
 header#header{
     min-height: 700px;
-    max-height: 100vh; 
+    height: 100vh; 
     position: relative;
 	clip-path: polygon(0% 0%,
                   100% 0%,
