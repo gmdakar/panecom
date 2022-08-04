@@ -61,9 +61,9 @@ main#content {
     width:  50%;
 }
  
-header#header {
-    min-height: 400px;
-    height: 100vh;
+header#header{
+    min-height: 700px;
+    max-height: 100vh; 
     position: relative;
 	clip-path: polygon(0% 0%,
                   100% 0%,
@@ -72,8 +72,8 @@ header#header {
                    0% 85%);
 }
 
-header#header a,
-header#header span.nolink{
+header#header ul:not(.contextual-links) a,
+header#header ul:not(.contextual-links) span.nolink{
     color:#fff;
 }
 
@@ -81,6 +81,7 @@ a.navbar-brand {
     font-weight: 300;
     font-size: 1.05rem;
 	z-index: 1;
+	color: #fff !important;
 }
 
 /*main menu*/
@@ -197,6 +198,10 @@ ul.sf-menu .sf-sub-indicator {
 #block-panecom-bstrp-account-menu {
     text-align: center;
 	z-index: 1;
+}
+
+#block-panecom-bstrp-account-menu a{
+    color: #fff !important;
 }
 
 #block-panecom-bstrp-account-menu .nav-link {
