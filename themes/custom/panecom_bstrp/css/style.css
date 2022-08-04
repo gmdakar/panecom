@@ -65,6 +65,11 @@ header#header {
     min-height: 400px;
     height: 100vh;
     position: relative;
+	clip-path: polygon(0% 0%,
+                  100% 0%,
+                  100% 85%,         
+                  50% 100%,
+                   0% 85%);
 }
 
 header#header a,
@@ -254,17 +259,17 @@ ul.sf-menu .sf-sub-indicator {
 #block-apropos {
     position: absolute;
     top: 0;
-    left: 12%;
+    left: 10%;
     margin-top: 200px;
     width: 45%;
     color: #fff;
-    font-size: 1.55rem;
+    font-size: 1.45rem;
     font-weight: 300;
 }
 
 #block-apropos h1 {
     font-size: 3.125rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 
@@ -366,7 +371,7 @@ ul.sf-menu .sf-sub-indicator {
 	}
 	
 	#block-panecom-bstrp-account-menu .nav-link span{
-		padding: 0;
+		padding: 0 .25rem;
 		display: inline-block;
 	}
 	
