@@ -81,7 +81,7 @@ a.navbar-brand {
 /*main menu*/
 #navbar-main {
     background-color: transparent;
-    padding: 0 0 0 6%;
+    padding: 0 0 0 3% !important;
     position: absolute;
     top: 0;
     -webkit-backdrop-filter: blur(7px);
@@ -89,9 +89,9 @@ a.navbar-brand {
     box-shadow: 0 0 12px 8px #0527391c;
 }
 
-#navbar-main .navbar-collapse{
-     background-color: transparent !important;
-     padding: 0 .5rem ;
+#navbar-main .navbar-collapse {
+    background-color: transparent !important;
+    padding: 0;
 }
 
 #navbar-main .navbar-collapse.show {
@@ -126,7 +126,8 @@ a.navbar-brand {
 }
 
 #block-navigationprincipale {
-    padding: 0 1rem 0 3rem !important;
+    padding: 0 0 0 1rem !important;
+	
 }
 
 #block-navigationprincipale .menu span.nolink,
@@ -136,17 +137,18 @@ a.navbar-brand {
 	font-weight: 300;
 }
 
+#block-navigationprincipale ul.sf-menu > li{
+	margin:0rem;  
+}
+
 #block-navigationprincipale ul.sf-menu span.nolink {
-    padding: 1em 2.2em;
+	padding: 1em 1.75em;
 }
 
 #block-navigationprincipale ul.sf-menu li{
    color: #fff;    
 }
 
-#block-navigationprincipale ul.sf-menu > li{
-    margin:0 .3rem;  
-}
 
 #block-navigationprincipale ul.sf-menu >li > a.is-active,
 #block-navigationprincipale ul.sf-menu > li:hover > a{
@@ -213,8 +215,8 @@ ul.sf-menu .sf-sub-indicator {
 
 /*selecteur langue*/
 #block-languagedropdownswitcher {
-    margin: 1rem 3.5rem 0 2rem;
-	z-index:1;
+    margin: 1rem 2rem 0 2rem;
+    z-index: 1;
 }
 
 #block-languagedropdownswitcher select {
@@ -262,4 +264,120 @@ ul.sf-menu .sf-sub-indicator {
 #block-apropos h1 {
     font-size: 3.125rem;
 	margin-bottom: 1rem;
+}
+
+
+/* ############################## */
+/* ####### Breakpoints media queries  */
+/* ############################## */
+/* Extra extra small devices (portrait phones, less than 320px: galaxy fold)*/
+@media (max-width: 319.98px) {
+
+	
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+	
+
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+
+	
+}
+
+/*pour les "moyens et grands" écrans*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+	#block-navigationprincipale .menu span.nolink,
+	#block-navigationprincipale .menu a {
+		font-size: 1.05rem;
+	}
+	
+	#block-navigationprincipale ul.sf-menu > li:first-child.sf-depth-1 > a{
+		display: none !important; 
+	}
+	
+}
+
+/*pour les trés "grands" écrans uniquement*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	
+	#block-navigationprincipale .menu span.nolink,
+	#block-navigationprincipale .menu a {
+		font-size: 1.05rem;
+	}
+	
+	#block-navigationprincipale ul.sf-menu > li:first-child.sf-depth-1 > a{
+		display: none !important;  
+	}
+
+}
+
+/*pour les plus "grands" écrans uniquement*/
+@media (min-width: 1400px) and (max-width: 1599.98px){
+
+}
+
+@media (min-width: 1400px) {
+	
+	#block-navigationprincipale ul.sf-menu > li{
+		margin:0 .3rem;  
+	}
+
+	#block-navigationprincipale ul.sf-menu span.nolink {
+		padding: 1em 1.6em;
+	}
+	
+	#block-navigationprincipale .menu span.nolink,
+	#block-navigationprincipale .menu a {
+		font-size: 1.05rem;
+	}
+	
+}
+
+/*pour les plus "grands" écrans uniquement*/
+@media (min-width: 1600px) {
+	
+	#block-navigationprincipale {
+		padding: 0 1rem 0 3rem !important;
+	}
+	
+	#block-navigationprincipale ul.sf-menu > li{
+		margin:0 .5rem;  
+	}
+
+	#block-navigationprincipale ul.sf-menu span.nolink {
+		padding: 1em 1.75em;
+	}
+	
+	#navbar-main {
+		padding: 0 0 0 6%;
+	}
+	
+	#navbar-main .navbar-collapse{
+		 background-color: transparent !important;
+		 padding: 0 .5rem ;
+	}
+
+	#block-languagedropdownswitcher {
+		margin: 1rem 2rem 0 2rem;
+		z-index: 1;
+	}
+	
+	#block-navigationprincipale .menu span.nolink,
+	#block-navigationprincipale .menu a {
+		font-size: 1.1rem;
+	}
+
 }
