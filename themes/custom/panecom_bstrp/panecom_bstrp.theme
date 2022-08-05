@@ -32,3 +32,8 @@ function panecom_bstrp_form_system_theme_settings_alter(&$form, FormStateInterfa
     'bg-transparent' => t('Transparent'),
   ];
 }
+
+function panecom_bstrp_form_search_block_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+ 
+	$form['keys']['#attributes']['placeholder'] = t('Search an organisation');
+}

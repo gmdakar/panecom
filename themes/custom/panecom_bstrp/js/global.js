@@ -125,7 +125,6 @@
 			$( ".highlight.projet" ).closest(".column").addClass("order-2");
 			$( ".highlight.document" ).closest(".column").addClass("order-3");
 			
-			
         }
   };
 

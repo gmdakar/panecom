@@ -61,15 +61,12 @@ main#content {
     width:  50%;
 }
  
-header#header{
+header#header {
     min-height: 700px;
-    height: 100vh; 
+    height: 100vh;
     position: relative;
-	clip-path: polygon(0% 0%,
-                  100% 0%,
-                  100% 85%,         
-                  50% 100%,
-                   0% 85%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
 }
 
 header#header ul:not(.contextual-links) a,
@@ -275,6 +272,49 @@ ul.sf-menu .sf-sub-indicator {
 #block-apropos h1 {
     font-size: 2rem;
 	margin-bottom: 1rem;
+}
+
+/*recherche searchbox*/
+.block-search-form-block{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    margin-top: 480px;
+    max-width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.block-search-form-block input{
+	width: 465px;
+}
+
+.block-search-form-block ul:not(.contextual-links) a{
+    color: #000 !important;
+    font-size: .85rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+header #search-block-form {
+    padding: 5px 0;
+}
+
+
+.ui-autocomplete-field-group.ui-state-disabled.organisation-membre.ui-menu-item,
+.ui-autocomplete-field-group.ui-state-disabled.member-organization.ui-menu-item{
+    display: none;
+}
+
+.block-search-form-block .ui-widget-content {
+    border: none;
+}
+
+.block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: .9rem;
+  font-style: italic;
+  opacity: .7; /* Firefox */
 }
 
 

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7c14cdf0be2495e4fb2724c77da887d1f7a98490',
+        'reference' => '56de0e311895da92a2b35aae2b97771c75f10d7e',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1068,7 +1068,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7c14cdf0be2495e4fb2724c77da887d1f7a98490',
+            'reference' => '56de0e311895da92a2b35aae2b97771c75f10d7e',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1484,6 +1484,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/search_autocomplete' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/search_autocomplete',
+            'aliases' => array(),
+            'reference' => '2.0.2',
+            'dev_requirement' => false,
         ),
         'drupal/serialization' => array(
             'dev_requirement' => false,
