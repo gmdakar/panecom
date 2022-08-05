@@ -35,6 +35,7 @@
         "drupal/animate_any": "^1.4",
         "drupal/back_to_top": "^2.0",
         "drupal/backup_migrate": "^5.0",
+        "drupal/better_search": "^1.6",
         "drupal/bg_image_formatter": "^1.15",
         "drupal/block_access": "^1.0",
         "drupal/block_exclude_pages": "^2.0",

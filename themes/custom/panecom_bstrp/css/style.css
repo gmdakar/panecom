@@ -279,29 +279,63 @@ ul.sf-menu .sf-sub-indicator {
     position: absolute;
     top: 0;
     left: 10%;
-    margin-top: 480px;
+    margin-top: 520px;
     max-width: 100%;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 300;
 }
 
-.block-search-form-block input{
-	width: 465px;
-}
-
 .block-search-form-block ul:not(.contextual-links) a{
     color: #000 !important;
-    font-size: .85rem;
+    font-size: .8rem;
     font-style: italic;
     font-weight: 300;
+}
+
+.ui-widget-content.ui-autocomplete ul li a{
+	
 }
 
 header #search-block-form {
     padding: 5px 0;
 }
 
+.block-search-form-block input {
+    width: 465px;
+    display: inline-block;
+    height: 55px;
+    border-radius: 45px;
+	padding-left: 1.5rem;
+}
 
+.search-block-form form fieldset::after {
+    background-color: var(--color3);
+    width: 45px;
+    height: 45px;
+    content: "";
+    display: inline-block;
+    border-radius: 45px;
+    position: relative;
+    top: 1.05rem;
+    left: -3.38rem;
+}
+
+.search-block-form form::after {
+    color: #fff !important;
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: var(--krowd-theme-color-second);
+    font-size: 1.67rem;
+    position: relative;
+    top: 1.25rem;
+    display: inline-block;
+    left: -6.5rem;
+    height: 25px;
+}
+
+.block-search-form-block .form-submit,
 .ui-autocomplete-field-group.ui-state-disabled.organisation-membre.ui-menu-item,
 .ui-autocomplete-field-group.ui-state-disabled.member-organization.ui-menu-item{
     display: none;
@@ -312,11 +346,9 @@ header #search-block-form {
 }
 
 .block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-size: .9rem;
-  font-style: italic;
+  font-size: 1rem;
   opacity: .7; /* Firefox */
 }
-
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
@@ -394,6 +426,18 @@ header #search-block-form {
 		font-weight: 300;
 	}
 	
+	/*recherche searchbox*/
+	.block-search-form-block{
+		position: absolute;
+		top: 0;
+		left: 10%;
+		margin-top: 450px;
+		max-width: 100%;
+		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 300;
+	}
+	
 
 }
 
@@ -422,6 +466,18 @@ header #search-block-form {
 		width: 50%;
 		color: #fff;
 		font-size: 1.4rem;
+		font-weight: 300;
+	}
+	
+	/*recherche searchbox*/
+	.block-search-form-block{
+		position: absolute;
+		top: 0;
+		left: 10%;
+		margin-top: 450px;
+		max-width: 100%;
+		color: #fff;
+		font-size: 1.25rem;
 		font-weight: 300;
 	}
 	
@@ -508,6 +564,18 @@ header #search-block-form {
 	#block-apropos h1 {
 		font-size: 3.125rem;
 		margin-bottom: 1.5rem;
+	}
+	
+	/*recherche searchbox*/
+	.block-search-form-block{
+		position: absolute;
+		top: 0;
+		left: 10%;
+		margin-top: 480px;
+		max-width: 100%;
+		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 300;
 	}
 
 }

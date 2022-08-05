@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '56de0e311895da92a2b35aae2b97771c75f10d7e',
+        'reference' => '67d7173b0532f8924b7ff478b77929281504206d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -261,6 +261,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/better_search' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/better_search',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
         ),
         'drupal/bg_image_formatter' => array(
             'pretty_version' => '1.15.0',
@@ -1068,7 +1077,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '56de0e311895da92a2b35aae2b97771c75f10d7e',
+            'reference' => '67d7173b0532f8924b7ff478b77929281504206d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
