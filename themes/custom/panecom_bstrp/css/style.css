@@ -62,11 +62,11 @@ main#content {
 }
  
 header#header {
-    min-height: 700px;
-    height: 100vh;
-    position: relative;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
-            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+	min-height: 500px;
+	height: 90vh;
+	position: relative;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+			clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
 
 header#header ul:not(.contextual-links) a,
@@ -84,7 +84,7 @@ a.navbar-brand {
 /*main menu*/
 #navbar-main {
     background-color: transparent;
-    padding: 0 0 0 3% !important;
+    padding: 0 0 0 3%;
     position: absolute;
     top: 0;
     -webkit-backdrop-filter: blur(7px);
@@ -265,30 +265,37 @@ ul.sf-menu .sf-sub-indicator {
     margin-top: 140px;
     max-width: 80%;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     font-weight: 300;
 }
 
 #block-apropos h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
 
 /*recherche searchbox*/
-.block-search-form-block{
+.block-search-form-block {
     position: absolute;
     top: 0;
-    left: 10%;
-    margin-top: 520px;
-    max-width: 100%;
+    margin-top: 440px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 300;
+    padding-left: 22px;
+}
+
+.block-search-form-block input {
+	width: 250px;
+    display: inline-block;
+    height: 55px;
+    border-radius: 45px;
+	padding-left: 1rem;
 }
 
 .block-search-form-block ul:not(.contextual-links) a{
     color: #000 !important;
-    font-size: .8rem;
+    font-size: .75rem;
     font-style: italic;
     font-weight: 300;
 }
@@ -299,14 +306,6 @@ ul.sf-menu .sf-sub-indicator {
 
 header #search-block-form {
     padding: 5px 0;
-}
-
-.block-search-form-block input {
-    width: 465px;
-    display: inline-block;
-    height: 55px;
-    border-radius: 45px;
-	padding-left: 1.5rem;
 }
 
 .search-block-form form fieldset::after {
@@ -346,8 +345,8 @@ header #search-block-form {
 }
 
 .block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-size: 1rem;
-  opacity: .7; /* Firefox */
+  font-size: .75rem;
+  opacity: .85; /* Firefox */
 }
 
 /* ############################## */
@@ -396,7 +395,7 @@ header #search-block-form {
 
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
-
+	
 	#block-panecom-bstrp-account-menu {
 	    position: absolute;
 		right: 110px;
@@ -412,6 +411,10 @@ header #search-block-form {
 	#block-navigationprincipale .menu span.nolink,
 	#block-navigationprincipale .menu a {
 		font-size: 1.05rem;
+	}
+	
+	#block-apropos h1 {
+		font-size: 1.5rem;
 	}
 	
 	/*A propos text*/
@@ -436,8 +439,20 @@ header #search-block-form {
 		color: #fff;
 		font-size: 1.25rem;
 		font-weight: 300;
+		padding-left: 0;
 	}
 	
+	.block-search-form-block input {
+		width: 465px;
+	}
+	
+	.block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	  font-size: 1.15rem;
+	}
+	
+	.block-search-form-block ul:not(.contextual-links) a{
+		font-size: .65rem;
+	}
 
 }
 
@@ -490,6 +505,14 @@ header #search-block-form {
 }
 
 @media (min-width: 1400px) {
+	
+	header#header {
+		min-height: 700px;
+		height: 100vh;
+		position: relative;
+		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+				clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+	}
 	
 	#block-panecom-bstrp-account-menu .nav-link {
 		width: 13.1rem;
@@ -553,11 +576,11 @@ header #search-block-form {
 	#block-apropos {
 		position: absolute;
 		top: 0;
-		left: 10%;
+		left: 15%;
 		margin-top: 190px;
 		width: 45%;
 		color: #fff;
-		font-size: 1.45rem;
+		font-size: 1.55rem;
 		font-weight: 300;
 	}
 
@@ -570,12 +593,20 @@ header #search-block-form {
 	.block-search-form-block{
 		position: absolute;
 		top: 0;
-		left: 10%;
-		margin-top: 480px;
+		left: 15%;
+		margin-top: 540px;
 		max-width: 100%;
 		color: #fff;
 		font-size: 1.25rem;
 		font-weight: 300;
+	}
+	
+	.block-search-form-block input {
+		width: 600px;
+		display: inline-block;
+		height: 65px;
+		border-radius: 45px;
+		padding-left: 1.5rem;
 	}
 
 }
