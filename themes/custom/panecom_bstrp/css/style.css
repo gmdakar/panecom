@@ -451,7 +451,7 @@ header #search-block-form {
 	}
 	
 	.block-search-form-block ul:not(.contextual-links) a{
-		font-size: .65rem;
+		font-size: .75rem;
 	}
 
 }
