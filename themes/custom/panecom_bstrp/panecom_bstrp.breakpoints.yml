@@ -1,0 +1,18 @@
+panecom_bstrp.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+panecom_bstrp.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 5px) and (max-width: 991px)'
+  weight: 1
+  multipliers:
+    - 1x
+panecom_bstrp.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 992px)'
+  weight: 2
+  multipliers:
+    - 1x

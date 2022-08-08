@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '67d7173b0532f8924b7ff478b77929281504206d',
+        'reference' => '59d448b7bde516b49b41a99fba2316f781ca8066',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1077,7 +1077,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '67d7173b0532f8924b7ff478b77929281504206d',
+            'reference' => '59d448b7bde516b49b41a99fba2316f781ca8066',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1454,6 +1454,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/responsive_menu' => array(
+            'pretty_version' => '4.4.2',
+            'version' => '4.4.2.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/responsive_menu',
+            'aliases' => array(),
+            'reference' => '4.4.2',
+            'dev_requirement' => false,
         ),
         'drupal/responsive_menus' => array(
             'pretty_version' => '1.0.0-alpha1',

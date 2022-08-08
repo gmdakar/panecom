@@ -22,7 +22,7 @@
 }
 
 body {
-	overflow-x: hidden;
+	
 	
 }
 
@@ -81,6 +81,21 @@ a.navbar-brand {
 	color: #fff !important;
 }
 
+button.navbar-toggler {
+    display: none;
+}
+
+header#header #CollapsingNavbar.collapse:not(.show) {
+    display: block;
+}
+
+.responsive-menu-toggle {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+
 /*main menu*/
 #navbar-main {
     background-color: transparent;
@@ -108,87 +123,10 @@ a.navbar-brand {
     /*color: var(--color1); ; */
 } 
 
-/*rendre visible l'icon hamburger*/
-.navbar-toggler { 
-    background-color: #ED6A11;
-    position: absolute;
-    top: 0;
-    right: 5%;
-}
-
-.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after{
-   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;*/
-   content: "\f410"; 
-   font-family: "Font Awesome 5 Free"; 
-   font-size: 2rem;
-   
-}
-
 #block-navigationprincipale {
-    padding: 1rem 0 1rem 1rem !important;
-	
+	display: none;	
 }
 
-#block-navigationprincipale .menu span.nolink,
-#block-navigationprincipale .menu a {
-    font-size: 1.1rem;
-	color:#fff;
-	font-weight: 300;
-}
-
-#block-navigationprincipale ul.sf-menu > li{
-	margin:0rem;  
-}
-
-#block-navigationprincipale ul.sf-menu span.nolink {
-	padding: 1em 1.75em;
-}
-
-#block-navigationprincipale ul.sf-menu li{
-   color: #fff;    
-}
-
-
-#block-navigationprincipale ul.sf-menu >li > a.is-active,
-#block-navigationprincipale ul.sf-menu > li:hover > a{
-	text-decoration: underline;
-	text-underline-position: under;
-	text-decoration-color: var(--color3) !important;
-	font-weight: 500;
-	text-decoration-thickness: 0.2rem;
-}
-
-#block-navigationprincipale ul.sf-menu li ul{
-    width: 17rem !important;
-	background-color: var(--color1);
-}
-
-#block-navigationprincipale ul.sf-menu li ul li a{
-    font-size: 1.05rem !important;
-	border-left: solid transparent .15rem;
-}
-
-#block-navigationprincipale ul.sf-menu li ul li:hover a{
-   /* color: initial !important;*/
-   border-left: solid var(--color3) .15rem;
-   font-weight: 400;
-   text-decoration: none;
-}
-
-ul.sf-menu .sf-sub-indicator::after {
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 700; 
-    content: "\f0dd";
-}
-
-ul.sf-menu .sf-sub-indicator {
-    height: auto;
-    line-height: normal;
-}
 /**
 * Member espace link menu
 */
@@ -395,6 +333,75 @@ header #search-block-form {
 
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
+	
+	header#header #CollapsingNavbar.collapse:not(.show) {
+		display: none;
+	}
+	
+	#block-navigationprincipale {
+		padding: 1rem 0 1rem 1rem !important;
+		display: block;	
+	}
+
+	#block-navigationprincipale .menu span.nolink,
+	#block-navigationprincipale .menu a {
+		font-size: 1.1rem;
+		color:#fff;
+		font-weight: 300;
+	}
+
+	#block-navigationprincipale ul.sf-menu > li{
+		margin:0rem;  
+	}
+
+	#block-navigationprincipale ul.sf-menu span.nolink {
+		padding: 1em 1.75em;
+	}
+
+	#block-navigationprincipale ul.sf-menu li{
+	   color: #fff;    
+	}
+
+	.navbar-toggler{
+		display: none !important;
+	}
+
+	#block-navigationprincipale ul.sf-menu >li > a.is-active,
+	#block-navigationprincipale ul.sf-menu > li:hover > a{
+		text-decoration: underline;
+		text-underline-position: under;
+		text-decoration-color: var(--color3) !important;
+		font-weight: 500;
+		text-decoration-thickness: 0.2rem;
+	}
+
+	#block-navigationprincipale ul.sf-menu li ul{
+		width: 17rem !important;
+		background-color: var(--color1);
+	}
+
+	#block-navigationprincipale ul.sf-menu li ul li a{
+		font-size: 1.05rem !important;
+		border-left: solid transparent .15rem;
+	}
+
+	#block-navigationprincipale ul.sf-menu li ul li:hover a{
+	   /* color: initial !important;*/
+	   border-left: solid var(--color3) .15rem;
+	   font-weight: 400;
+	   text-decoration: none;
+	}
+
+	ul.sf-menu .sf-sub-indicator::after {
+		font-family: "Font Awesome 5 Free"; 
+		font-weight: 700; 
+		content: "\f0dd";
+	}
+
+	ul.sf-menu .sf-sub-indicator {
+		height: auto;
+		line-height: normal;
+	}
 	
 	#block-panecom-bstrp-account-menu {
 	    position: absolute;
