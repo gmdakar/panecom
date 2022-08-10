@@ -92,8 +92,18 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 .responsive-menu-toggle {
     display: inline-block;
     position: absolute;
-    top: 8px;
-    right: 55px;
+    top: 2px;
+    left: -6px;
+}
+
+.responsive-menu-toggle-icon span.label {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    top: 5px;
+    left: 38px;
+    color: #fff;
 }
 
 /*main menu*/
@@ -200,7 +210,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     position: absolute;
     top: 0;
     left: 10%;
-    margin-top: 140px;
+    margin-top: 100px;
     max-width: 80%;
     color: #fff;
     font-size: 1.05rem;
@@ -208,7 +218,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 #block-apropos h1 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 	margin-bottom: 1rem;
 }
 
@@ -216,7 +226,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 .block-search-form-block {
     position: absolute;
     top: 0;
-    margin-top: 440px;
+    margin-top: 365px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 300;
@@ -243,7 +253,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 header #search-block-form {
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .search-block-form form fieldset::after {
@@ -253,9 +263,9 @@ header #search-block-form {
     content: "";
     display: inline-block;
     border-radius: 45px;
-    position: relative;
-    top: 1.05rem;
-    left: -3.38rem;
+    position: absolute;
+    top: 0.5rem;
+    right: .8rem;
 }
 
 .search-block-form form::after {
@@ -265,10 +275,10 @@ header #search-block-form {
     font-weight: 600;
     color: var(--krowd-theme-color-second);
     font-size: 1.67rem;
-    position: relative;
-    top: 1.25rem;
+    position: absolute;
+    top: 0.75rem;
     display: inline-block;
-    left: -6.5rem;
+    right: 1.15rem;
     height: 25px;
 }
 
@@ -283,7 +293,7 @@ header #search-block-form {
 }
 
 .block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-size: .75rem;
+  font-size: .7rem;
   opacity: .85; /* Firefox */
 }
 
@@ -293,13 +303,57 @@ header #search-block-form {
 /* Extra extra small devices (portrait phones, less than 320px: galaxy fold)*/
 @media (max-width: 319.98px) {
 
+	#block-languagedropdownswitcher {
+		margin: 0;
+	}
+	
+	#navbar-main {
+		padding: 15px 0 0 3%;
+	}
+	
+	/*A propos text*/
+	#block-apropos {
+		font-size: .9rem;
+	}
+	
+	header#header {
+		height: 115vh;
+		
+	}
+	
+	.block-search-form-block input {
+		width: 230px;
+		height: 45px;
+	}
+	
 	
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (min-width: 320px) and (max-width: 575.98px) {
 	
-
+	
+	#block-languagedropdownswitcher {
+		margin: 0;
+	}
+	
+	#navbar-main {
+		padding: 15px 0 0 3%;
+	}
+	
+	/*A propos text*/
+	#block-apropos {
+		font-size: .9rem;
+	}
+	
+	header#header {
+		height: 115vh;
+		
+	}
+	
+	
+	
+	
 	
 }
 
