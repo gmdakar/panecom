@@ -12,8 +12,8 @@
   --color2: #8ecb80; 
   --color3: #F86060;
   --color_a: #064c7e;
-  --color4: transparent;
-  --color5: #494c52;  
+  --color4: #F6F4F0;
+  --color5: #252525;  
   --color6: #8ecb8008; /*owl carousel all blocks*/
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
@@ -379,6 +379,84 @@ li.sf-depth-1 ul{
 }
 
 
+.block-views-blockles-organisations-block-3 {
+    margin: 4rem 0 2rem 0;
+}
+
+.block-views-blockles-organisations-block-3 .owl-item {
+    padding: 0 0.5rem;
+}
+
+.block-views-blockles-organisations-block-3 > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.block-views-blockles-organisations-block-3 > h2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 10rem;
+    background-color: var(--color3);
+    margin: 0.5rem auto;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title {
+    height: 115px;
+    background-color: var(--color4);
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_logo {
+    display: inline-block;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_logo img {
+    max-width: 35px;
+    margin: 0 auto;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .row {
+    margin: 0;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_sigle {
+    font-size: 1.25em;
+	font-weight: bolder;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_title {
+    display: inline-block;
+    height: 115px;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_logo > div,
+.block-views-blockles-organisations-block-3 .org_logo_title .org_title > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+	padding: 0 0.5rem;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_title a {
+    font-size: .92rem;
+    color: var(--color5);
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3{
+	text-align: initial;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .wrapping{
+	box-shadow: none;
+}
+
+.views-label.views-label-nothing {
+    display: none;
+}
+
 /*liste organisations*/
 .view-organisations.view-id-organisations.view-display-id-page_1 {
    /* margin: 0 5%;*/
@@ -461,10 +539,15 @@ li.sf-depth-1 ul{
 
 .view-les-organisations .views-field-field-org-logo {
     position: relative;
-    height: 270px;
+    height: 250px;
     /* margin: 1.15rem 0; */
     background-color: #fff;
     /* padding: 1rem 0; */
+}
+
+.views-field.views-field-field-org-image-hero {
+    overflow: hidden;
+    max-height: 225px;
 }
 
 .view-les-organisations .views-field-field-org-logo img {
