@@ -297,6 +297,227 @@ header #search-block-form {
   opacity: .85; /* Firefox */
 }
 
+
+/*les organisations*/
+.view-organisations {
+    margin: 2rem auto;
+}
+
+.owl-page.active span,
+.owl-buttons div:hover{
+	background: var(--color3) !important;
+}
+
+.view-organisations .owl-item > div{
+    padding: 0 100px;
+    text-align: center;
+	border-right: 1px solid #cdd1d8;
+}
+
+.view-organisations .owl-wrapper {
+    background-color: var(--color6);
+    padding: 2rem;
+}
+
+.view-organisations .views-field-title {
+	margin: 0.5rem auto;
+}
+
+.view-organisations .views-field-title a {
+    color: var(--color1);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.view-organisations .views-field-body {
+    text-align: justify;
+    color: var(--color5);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.view-organisations .more-link {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.view-organisations .more-link a{
+    color: var(--color2);
+    font-size: 1.6rem;
+    font-weight: 600;
+	text-decoration: underline;
+}
+
+li.sf-depth-1 ul{
+	margin-top: 1.15rem !important;
+}
+
+.view-les-organisations .view-content.row .row > div {
+    margin: 0 auto;
+}
+
+.block-views-blockles-organisations-block-1 {
+    margin: 4rem 0 2rem 0;
+}
+
+.block-views-blockles-organisations-block-1 .owl-item {
+    padding: 0 0.5rem;
+}
+
+.block-views-blockles-organisations-block-1 > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+	font-weight: 700;
+}
+
+.block-views-blockles-organisations-block-1 > h2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 10rem;
+    background-color: var(--color3);
+    margin: 0.5rem auto;
+}
+
+
+/*liste organisations*/
+.view-organisations.view-id-organisations.view-display-id-page_1 {
+   /* margin: 0 5%;*/
+    text-align: center;
+}
+.view-organisations .views-view-grid.horizontal .row {
+	margin: 3.5rem auto;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.title {
+	margin: 0.5rem auto;
+	padding: 0 5rem;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.title a {
+    color: var(--color1);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.view-organisations.view-id-organisations.view-display-id-page_1 div.descriptif{
+    text-align: justify;
+    color: var(--color5);
+    font-size: 1rem;
+    font-weight: 300;
+	padding: 0 5rem;
+}
+
+.view-les-organisations {
+	margin: .5rem 2%;
+	text-align: center;
+}
+
+.path-frontpage .view-les-organisations {
+	margin: .5rem 10%;
+	text-align: center;
+}
+
+
+.page-view-les-organisations .title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.view-les-organisations .page-link {
+    border-radius: 0.5rem !important; 
+	border: none !important;
+	font-weight: 300 !important;
+	margin:0 .12rem;
+}
+
+.view-les-organisations .page-item.active .page-link {
+    background-color: #eecef !important;
+	color: var(--color3) !important;
+	font-weight: 500 !important;
+}
+
+.view-les-organisations li:hover .page-link{
+    color: var(--color3) !important;
+}
+
+.view-les-organisations .page-link a{  
+    border: none !important;
+}
+
+.view-les-organisations nav {
+	display: inline-block;
+	margin: 1.5rem auto;
+}
+
+.view-les-organisations .wrapping {
+    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
+    height: 425px;
+    /* position: relative; */
+    margin: 0.9rem 0;
+}
+
+.path-frontpage .view-les-organisations .wrapping {
+    margin: 1.5rem .95rem;
+}
+
+.view-les-organisations .views-field-field-org-logo {
+    position: relative;
+    height: 195px;
+    /* margin: 1.15rem 0; */
+    background-color: #fff;
+    /* padding: 1rem 0; */
+}
+
+.view-les-organisations .views-field-field-org-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	max-width: 130px;
+    max-height: 130px;
+}
+
+.view-les-organisations .views-field-title {
+    padding: 0.6rem 1rem;
+    height: 95px;
+    background-color: var(--color1);
+    overflow: hidden;
+	position: relative;
+}
+
+.page-view-les-organisations main#content {
+    margin-left: 15px;
+}
+
+.view-les-organisations .views-field-title .field-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+}
+
+.view-les-organisations .views-field-title a {
+    font-size: 1rem;
+    /*font-weight: 500; */
+    text-transform: uppercase;
+	color: #fff;
+}
+
+.view-les-organisations .views-field-title a:hover {
+	color: var(--color3);
+	text-decoration: none !important;
+}
+
+.view-les-organisations .views-field-body {
+    padding: 0.5rem 0.5rem;
+    font-weight: 300;
+    color: var(--color1);
+    background-color: #fff;
+}
+
 /* ############################## */
 /* ####### Breakpoints media queries  */
 /* ############################## */
@@ -595,6 +816,32 @@ header #search-block-form {
 	#block-navigationprincipale .menu span.nolink,
 	#block-navigationprincipale .menu a {
 		font-size: 1.05rem;
+	}
+	
+	.search-block-form form fieldset::after {
+		background-color: var(--color3);
+		width: 50px;
+		height: 50px;
+		content: "";
+		display: inline-block;
+		border-radius: 45px;
+		position: absolute;
+		top: 0.65rem;
+		right: 0.9rem;
+	}
+
+	.search-block-form form::after {
+		color: #fff !important;
+		content: "\f002";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 600;
+		color: var(--krowd-theme-color-second);
+		font-size: 1.67rem;
+		position: absolute;
+		top: 1rem;
+		display: inline-block;
+		right: 1.35rem;
+		height: 25px;
 	}
 	
 }
