@@ -14,7 +14,7 @@
   --color_a: #064c7e;
   --color4: #F6F4F0;
   --color5: #252525;  
-  --color6: #8ecb8008; /*owl carousel all blocks*/
+  --color6: #2C2C2C; /*owl carousel all blocks*/
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -22,8 +22,7 @@
 }
 
 body {
-	
-	
+	overflow-x: hidden;
 }
 
 a.feed-icon {
@@ -365,22 +364,21 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-1 > h2 {
     text-align: center;
-    font-size: 2.5rem;
-	font-weight: 700;
+    font-size: 2,1875rem;
+	font-weight: 500;
+	color: var(--color6);
 }
-
-.block-views-blockles-organisations-block-1 > h2:after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 10rem;
-    background-color: var(--color3);
-    margin: 0.5rem auto;
-}
-
 
 .block-views-blockles-organisations-block-3 {
     margin: 4rem 0 2rem 0;
+}
+
+.block-views-blockles-organisations-block-3 .view-header {
+    text-align: center;
+    max-width: 50%;
+    margin: 1rem auto;
+	color: var(--color6);
+	font-size: 1.125rem;
 }
 
 .block-views-blockles-organisations-block-3 .owl-item {
@@ -389,18 +387,11 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-3 > h2 {
     text-align: center;
-    font-size: 2.5rem;
-	font-weight: 700;
+    font-size: 2,1875rem;
+	font-weight: 500;
+	color: var(--color6);
 }
 
-.block-views-blockles-organisations-block-3 > h2:after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 10rem;
-    background-color: var(--color3);
-    margin: 0.5rem auto;
-}
 
 .block-views-blockles-organisations-block-3 .org_logo_title {
     height: 115px;
@@ -438,6 +429,22 @@ li.sf-depth-1 ul{
     transform: translate(-50%, -50%);
     width: 100%;
 	padding: 0 0.5rem;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo_title .org_logo > div {
+    background-color: #fff;
+    height: 55px;
+    width: 55px;
+    border-radius: 45px;
+    border: 1px solid #a8a8a85e;
+}
+
+.block-views-blockles-organisations-block-3 .org_logo.col-3 a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .block-views-blockles-organisations-block-3 .org_logo_title .org_title a {
@@ -495,10 +502,6 @@ li.sf-depth-1 ul{
 	text-align: center;
 }
 
-
-.page-view-les-organisations .title {
-    font-weight: 700;
-}
 
 .view-les-organisations .page-link {
     border-radius: 0.5rem !important; 
@@ -567,10 +570,6 @@ li.sf-depth-1 ul{
 	position: relative;
 }
 
-.page-view-les-organisations main#content {
-    margin-left: 15px;
-}
-
 .view-les-organisations .views-field-title .field-content {
     position: absolute;
     top: 50%;
@@ -597,6 +596,7 @@ li.sf-depth-1 ul{
     color: var(--color1);
     background-color: #fff;
 }
+
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
