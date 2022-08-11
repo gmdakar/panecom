@@ -191,7 +191,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 
 #block-languagedropdownswitcher select {
     padding: 0;
-    font-size: 1rem;
+    font-size: .95rem;
     background-color: transparent;
     border: 1px solid transparent;
 	color: #fff;
@@ -216,7 +216,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     color: var(--krowd-theme-color-second);
     font-size: 1.5rem;
     position: relative;
-	top: .6rem;
+	top: .5rem;
 }
 
 /*A propos text*/
@@ -398,7 +398,6 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-3 .view-header {
     text-align: center;
-    max-width: 50%;
     margin: 1rem auto;
 	color: var(--color6);
 	font-size: 1.1875rem;
@@ -508,6 +507,31 @@ li.sf-depth-1 ul{
 .path-frontpage .view-les-organisations.view-display-id-block_3 .more-link a:hover {
 	background-color: var(--color3);
 	color: #fff;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-prev,
+.path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-next{
+	width: 50px;
+    height: 50px;
+    background-color: var(--color3);
+    border-radius: 45px;
+    color: #fff;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-next{
+	float: right;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-prev {
+    float: left;
 }
 
 .more-link {
@@ -868,6 +892,10 @@ li.sf-depth-1 ul{
 	
 	.block-search-form-block ul:not(.contextual-links) a{
 		font-size: .75rem;
+	}
+	
+	.block-views-blockles-organisations-block-3 .view-header {
+		max-width: 50%;
 	}
 
 }
