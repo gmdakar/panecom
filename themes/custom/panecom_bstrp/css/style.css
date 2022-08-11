@@ -672,6 +672,20 @@ li.sf-depth-1 ul{
     background-color: #fff;
 }
 
+/******* les actualités **************/
+
+.block-views-blockles--block-2 .owl-carousel .owl-item img {
+    width: auto;
+}
+
+.block-views-blockles--block-2 .views-field-field-org-logo {
+    display: inline-block;
+}
+
+.block-views-blockles--block-2 .views-field-field-org-logo img {
+    max-width: 35px;
+    margin: 0 auto;
+}
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
