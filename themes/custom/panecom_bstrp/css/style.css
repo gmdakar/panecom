@@ -71,6 +71,8 @@ header#header {
 header#header ul:not(.contextual-links) a,
 header#header ul:not(.contextual-links) span.nolink{
     color:#fff;
+	font-family: 'Roboto Condensed';
+	font-weight: normal;
 }
 
 a.navbar-brand {
@@ -78,6 +80,9 @@ a.navbar-brand {
     font-size: 1.05rem;
 	z-index: 1;
 	color: #fff !important;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
 }
 
 button.navbar-toggler {
@@ -136,6 +141,13 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 	display: none;	
 }
 
+#block-navigationprincipale ul.sf-menu >li > a,
+#block-navigationprincipale ul.sf-menu > li > a,
+#block-navigationprincipale ul.sf-menu > li > span.nolink{
+	font-weight: 300;
+	font-size: 1.15rem;
+}
+
 /**
 * Member espace link menu
 */
@@ -160,6 +172,9 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     padding: 0 .25rem;
 	font-size: 1.05rem;
 	display: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
 }
 
 #block-panecom-bstrp-account-menu .nav-link .fa-user-circle {
@@ -212,13 +227,18 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     margin-top: 100px;
     max-width: 80%;
     color: #fff;
-    font-size: 1.05rem;
-    font-weight: 300;
+    font-size: 1rem;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
 }
 
 #block-apropos h1 {
     font-size: 1.35rem;
 	margin-bottom: 1rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: normal;
 }
 
 /*recherche searchbox*/
@@ -364,9 +384,12 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-1 > h2 {
     text-align: center;
-    font-size: 2,1875rem;
+    font-size: 2.1875rem;
 	font-weight: 500;
 	color: var(--color6);
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
 }
 
 .block-views-blockles-organisations-block-3 {
@@ -378,7 +401,10 @@ li.sf-depth-1 ul{
     max-width: 50%;
     margin: 1rem auto;
 	color: var(--color6);
-	font-size: 1.125rem;
+	font-size: 1.1875rem;
+	font-family: 'Questrial';
+	font-style: normal;
+	font-weight: normal;
 }
 
 .block-views-blockles-organisations-block-3 .owl-item {
@@ -387,9 +413,12 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-3 > h2 {
     text-align: center;
-    font-size: 2,1875rem;
+    font-size: 2.1875rem;
 	font-weight: 500;
 	color: var(--color6);
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
 }
 
 
@@ -786,9 +815,7 @@ li.sf-depth-1 ul{
 		left: 10%;
 		margin-top: 150px;
 		width: 50%;
-		color: #fff;
 		font-size: 1.35rem;
-		font-weight: 300;
 	}
 	
 	/*recherche searchbox*/
@@ -809,7 +836,8 @@ li.sf-depth-1 ul{
 	}
 	
 	.block-search-form-block ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	  font-size: 1.15rem;
+	  font-size: 1.05rem;
+	  font-weight: 500;
 	}
 	
 	.block-search-form-block ul:not(.contextual-links) a{
@@ -841,9 +869,7 @@ li.sf-depth-1 ul{
 		left: 10%;
 		margin-top: 165px;
 		width: 50%;
-		color: #fff;
 		font-size: 1.4rem;
-		font-weight: 300;
 	}
 	
 	/*recherche searchbox*/
@@ -898,6 +924,26 @@ li.sf-depth-1 ul{
 		font-size: 1.05rem;
 	}
 	
+	/*recherche searchbox*/
+	.block-search-form-block{
+		position: absolute;
+		top: 0;
+		left: 15%;
+		margin-top: 540px;
+		max-width: 100%;
+		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 300;
+	}
+	
+	.block-search-form-block input {
+		width: 550px;
+		display: inline-block;
+		height: 60px;
+		border-radius: 45px;
+		padding-left: 1.5rem;
+	}
+
 	.search-block-form form fieldset::after {
 		background-color: var(--color3);
 		width: 50px;
@@ -906,8 +952,8 @@ li.sf-depth-1 ul{
 		display: inline-block;
 		border-radius: 45px;
 		position: absolute;
-		top: 0.65rem;
-		right: 0.9rem;
+		top: 0.5rem;
+		right: .85rem;
 	}
 
 	.search-block-form form::after {
@@ -918,7 +964,7 @@ li.sf-depth-1 ul{
 		color: var(--krowd-theme-color-second);
 		font-size: 1.67rem;
 		position: absolute;
-		top: 1rem;
+		top: .85rem;
 		display: inline-block;
 		right: 1.35rem;
 		height: 25px;
@@ -967,9 +1013,7 @@ li.sf-depth-1 ul{
 		left: 15%;
 		margin-top: 190px;
 		width: 45%;
-		color: #fff;
 		font-size: 1.55rem;
-		font-weight: 300;
 	}
 
 	#block-apropos h1 {
@@ -977,24 +1021,5 @@ li.sf-depth-1 ul{
 		margin-bottom: 1.5rem;
 	}
 	
-	/*recherche searchbox*/
-	.block-search-form-block{
-		position: absolute;
-		top: 0;
-		left: 15%;
-		margin-top: 540px;
-		max-width: 100%;
-		color: #fff;
-		font-size: 1.25rem;
-		font-weight: 300;
-	}
 	
-	.block-search-form-block input {
-		width: 600px;
-		display: inline-block;
-		height: 65px;
-		border-radius: 45px;
-		padding-left: 1.5rem;
-	}
-
 }
