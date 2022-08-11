@@ -440,9 +440,10 @@ li.sf-depth-1 ul{
     margin: 0;
 }
 
-.block-views-blockles-organisations-block-3 .org_logo_title .org_sigle {
-    font-size: 1.25em;
-	font-weight: bolder;
+.block-views-blockles-organisations-block-3 .org_logo_title .org_sigle a{
+    font-size: 1.15em !important;
+	font-weight: 500;
+	color: var(--color6);
 }
 
 .block-views-blockles-organisations-block-3 .org_logo_title .org_title {
@@ -462,8 +463,8 @@ li.sf-depth-1 ul{
 
 .block-views-blockles-organisations-block-3 .org_logo_title .org_logo > div {
     background-color: #fff;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border-radius: 45px;
     border: 1px solid #a8a8a85e;
 }
@@ -487,6 +488,31 @@ li.sf-depth-1 ul{
 
 .path-frontpage .view-les-organisations.view-display-id-block_3 .wrapping{
 	box-shadow: none;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .more-link a {
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 275px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.path-frontpage .view-les-organisations.view-display-id-block_3 .more-link a:hover {
+	background-color: var(--color3);
+	color: #fff;
+}
+
+.more-link {
+    text-align: center;
+    margin: 0.75rem;
 }
 
 .views-label.views-label-nothing {

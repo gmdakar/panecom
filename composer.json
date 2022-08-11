@@ -99,7 +99,6 @@
         "drupal/realname": "^2.0@beta",
         "drupal/recreate_block_content": "^2.1",
         "drupal/responsive_menu": "^4.4",
-        "drupal/responsive_menus": "^1.0@alpha",
         "drupal/restui": "^1.20",
         "drupal/role_delegation": "^1.2",
         "drupal/search_autocomplete": "^2.0",
