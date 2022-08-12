@@ -678,6 +678,7 @@ li.sf-depth-1 ul{
     background-color: var(--color7);
     padding: 3.5rem 0;
     margin: 10rem -15px 10rem -15px;
+	overflow-x: hidden;
 }
 
 .block-views-blockles--block-2 .owl-carousel .owl-item img {
@@ -733,6 +734,52 @@ li.sf-depth-1 ul{
 	background-color: var(--color3);
 	color: #fff;
 }
+
+.block-views-blockles--block-2 .owl-stage{
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+.block-views-blockles--block-2 .owl-stage .owl-item.active:nth-child(2) .wrapping > div,
+.block-views-blockles--block-2 .owl-stage .owl-item.active:nth-child(1) .wrapping > div.views-field-field-image,
+.block-views-blockles--block-2 .owl-stage .owl-item.active:nth-child(3) .wrapping > div.views-field-field-image{
+	display: block !important;
+}
+
+.block-views-blockles--block-2 .owl-stage .owl-item .views-field-field-image img {
+    width: 68%;
+    height: 480px;
+    margin: 0 auto;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.block-views-blockles--block-2 .owl-stage .owl-item.active:nth-child(2) .views-field-field-image img {
+    width: 1200px;
+    /* max-height: 420px; */
+    max-width: 100%;
+}
+
+/* */
+.block-views-blockles--block-2 .owl-item.active::before, .block-views-blockles--block-2 .owl-item.active::after {
+    width: 200px;
+    height: 480px;
+    display: block;
+    background-color: red;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+}
+
+.block-views-blockles--block-2 .owl-item.active::after {
+    background-color: yellow;
+    right: 0;
+    left: initial;
+}
+/* */
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
