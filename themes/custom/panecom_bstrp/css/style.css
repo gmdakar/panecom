@@ -15,6 +15,7 @@
   --color4: #F6F4F0;
   --color5: #252525;  
   --color6: #2C2C2C; /*owl carousel all blocks*/
+  --color7: #F8F8F8; /*owl carousel all blocks*/
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -403,7 +404,7 @@ li.sf-depth-1 ul{
 	font-size: 1.1875rem;
 	font-family: 'Questrial';
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 .block-views-blockles-organisations-block-3 .owl-item {
@@ -509,7 +510,6 @@ li.sf-depth-1 ul{
 	background-color: var(--color3);
 	color: #fff;
 }
-
 
 .path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-prev,
 .path-frontpage .view-les-organisations.view-display-id-block_3 .owl-nav .owl-next{
@@ -674,6 +674,12 @@ li.sf-depth-1 ul{
 
 /******* les actualités **************/
 
+#block-views-block-les-block-2 {
+    background-color: var(--color7);
+    padding: 3.5rem 0;
+    margin: 10rem -15px 10rem -15px;
+}
+
 .block-views-blockles--block-2 .owl-carousel .owl-item img {
     width: auto;
 }
@@ -685,6 +691,47 @@ li.sf-depth-1 ul{
 .block-views-blockles--block-2 .views-field-field-org-logo img {
     max-width: 35px;
     margin: 0 auto;
+}
+
+.block-views-blockles--block-2 .view-header {
+    text-align: center;
+	color: var(--color6);
+	font-size: 1.1875rem;
+	font-family: 'Questrial';
+	font-style: normal;
+	font-weight: 300;
+	margin: 1rem auto 3rem auto;
+}
+
+.block-views-blockles--block-2 > h2 {
+    text-align: center;
+    font-size: 2.1875rem;
+	font-weight: 500;
+	color: var(--color6);
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	padding: 1.25rem 0 .15rem 0;
+}
+
+.block-views-blockles--block-2 .more-link a {
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 265px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.block-views-blockles--block-2 .more-link a:hover {
+	background-color: var(--color3);
+	color: #fff;
 }
 
 /* ############################## */
@@ -907,6 +954,11 @@ li.sf-depth-1 ul{
 	.block-views-blockles-organisations-block-3 .view-header {
 		max-width: 50%;
 	}
+	
+	.block-views-blockles--block-2  .view-header {
+		max-width: 50%;
+	}
+
 
 }
 
