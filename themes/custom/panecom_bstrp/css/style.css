@@ -762,23 +762,31 @@ li.sf-depth-1 ul{
 }
 
 /* */
+.block-views-blockles--block-2 .owl-item.active.q29::before, .block-views-blockles--block-2 .owl-item.active.q29::after,
 .block-views-blockles--block-2 .owl-item.active::before, .block-views-blockles--block-2 .owl-item.active::after {
     width: 200px;
     height: 480px;
-    display: block;
-    background-color: red;
+    visibility: hidden;
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 15%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .block-views-blockles--block-2 .owl-item.active::after {
-    background-color: yellow;
     right: 0;
     left: initial;
 }
+
+.block-views-blockles--block-2 .views-field.views-field-field-image-1 .views-label-field-image-1,
+.block-views-blockles--block-2 .views-field.views-field-field-image-1 .small-img{
+    display: none;
+}
+
 /* */
 
 /* ############################## */
