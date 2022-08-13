@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '14e56fab91f2d989745277d05791963cec9d8ec4',
+        'reference' => 'c51fc72fb438b7ee13504c7974f39b1de787d2bc',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1077,7 +1077,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '14e56fab91f2d989745277d05791963cec9d8ec4',
+            'reference' => 'c51fc72fb438b7ee13504c7974f39b1de787d2bc',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1526,6 +1526,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/slick_carousel_slider' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/slick_carousel_slider',
+            'aliases' => array(),
+            'reference' => '1.0.0',
+            'dev_requirement' => false,
         ),
         'drupal/social_media_links' => array(
             'pretty_version' => '2.8.0',

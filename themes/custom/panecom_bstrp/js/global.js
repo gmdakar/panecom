@@ -6,37 +6,6 @@
 (function ($, Drupal) {
 
   'use strict';
-  
-  Drupal.behaviors.panecom_bstrp_actualites_quoi2_9 = {
-        attach: function (context, settings) {								
-								
-			//console.log( $('.block-views-blockles--block-2 .owl-stage > div.active').index());
-			//var prev_actu = current_actu.next().children().addBack().text();
-			//var next_actu = current_actu.next().children(".views-field-nid .field-content").andSelf().text();
-			//console.log(prev_actu);
-			//console.log(next_actu);
-			setTimeout(function() { 
-				var owl = $('.owl-carousel');
-				owl.owlCarousel(); 
-			
-				owl.on('changed.owl.carousel', function(e) {
-				    
-					//var current_actu = $('.block-views-blockles--block-2 .owl-stage > div.active').find(".views-field-nid .field-content").text();
-					var obj_prev_actu = $('.block-views-blockles--block-2 .owl-stage > div.active').prev();
-					var obj_next_actu = $('.block-views-blockles--block-2 .owl-stage > div.active').next();	
-					var prev_actu_small_img = obj_prev_actu.find(".views-field-field-image-1 .small-img img").attr("src");
-					var next_actu_small_img = obj_next_actu.find(".views-field-field-image-1 .small-img img").attr("src");
-					$(".block-views-blockles--block-2 .owl-stage > div.active").append("<style>.block-views-blockles--block-2 .owl-stage > div.active::before{background-image:url('"+prev_actu_small_img+"') !important; visibility: initial;");
-					$(".block-views-blockles--block-2 .owl-stage > div.active").append("<style>.block-views-blockles--block-2 .owl-stage > div.active::after{background-image:url('"+next_actu_small_img+"') !important; visibility: initial;");
-								
-					//console.log("prev_actu:" + prev_actu_small_img + " - current_actu:" + current_actu + " - next_actu:" + next_actu_small_img);
-					
-				 })
-			   
-			}, 500);
-			
-        }
-  };
 
   Drupal.behaviors.panecom_bstrp_notificationwidget = {
     attach: function (context, settings) {
@@ -159,6 +128,73 @@
         }
   };
   
-    
+    Drupal.behaviors.panecom_bstrp_actualites_quoi2_9 = {
+        attach: function (context, settings) {
+			
+			/*setTimeout(function() { 
+				var owl = $('.owl-carousel');
+				owl.owlCarousel(); 
+			
+				owl.on('changed.owl.carousel', function(e) {
+				    
+					var obj_prev_actu = $('.block-views-blockles--block-2 .owl-stage > div.active').prev();
+					var obj_next_actu = $('.block-views-blockles--block-2 .owl-stage > div.active').next();	
+					var prev_actu_small_img = obj_prev_actu.find(".views-field-field-image-1 .small-img img").attr("src");
+					var next_actu_small_img = obj_next_actu.find(".views-field-field-image-1 .small-img img").attr("src");
+					$(".block-views-blockles--block-2 .owl-stage > div.active").append("<style>.block-views-blockles--block-2 .owl-stage > div.active::before{background-image:url('"+prev_actu_small_img+"') !important; visibility: initial;");
+					$(".block-views-blockles--block-2 .owl-stage > div.active").append("<style>.block-views-blockles--block-2 .owl-stage > div.active::after{background-image:url('"+next_actu_small_img+"') !important; visibility: initial;");
+								
+					console.log("prev_actu:" + prev_actu_small_img + " - current_actu:" + current_actu + " - next_actu:" + next_actu_small_img);
+					
+				 })
+			   
+			}, 500);*/
+			
+			setTimeout(function() { 
+				
+			/*$('.block-views-blockles--block-2 .view-content.row').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				autoplay: true,
+			  });*/
+			  
+			  
+$('.block-views-blockles--block-2 .view-content.row').slick({
+  centerMode: true,
+  centerPadding: '15%',
+  slidesToShow: 1,
+  autoplay: true,
+  dots: true,
+	prevArrow: '<a class="your-class-btn-back">Back</a>',
+	nextArrow: '<a class="your-class-btn-forward">Forward</a>',
+		   
+  infinite: true,
+  speed: 300,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+			
+			   
+			}, 500);
+        }
+  };
 
 })(jQuery, Drupal);

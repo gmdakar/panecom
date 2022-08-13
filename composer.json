@@ -102,6 +102,7 @@
         "drupal/restui": "^1.20",
         "drupal/role_delegation": "^1.2",
         "drupal/search_autocomplete": "^2.0",
+        "drupal/slick_carousel_slider": "^1.0",
         "drupal/social_media_links": "^2.8",
         "drupal/spamspan": "^2.0@beta",
         "drupal/structure_sync": "^2.0",
