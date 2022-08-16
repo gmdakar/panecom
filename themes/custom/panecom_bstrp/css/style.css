@@ -768,6 +768,32 @@ li.sf-depth-1 ul{
     padding: 0 2%;
 }
 
+.block-views-blockles--block-2 .slick-slide .views-field-fieldset {
+    background-color: #fff;
+    width: 65%;
+    position: relative;
+    top: -5rem;
+    padding: 2% 10%;	
+}
+
+.block-views-blockles--block-2 .slick-slide .views-field-title-1 {
+    padding: 0.75rem;
+}
+
+.block-views-blockles--block-2 .slick-slide .views-field-field-org-logo > div {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    border: 1px solid #a8a8a85e;
+}
+
+.block-views-blockles--block-2 .slick-slide .views-field-field-org-logo > div img {
+    max-width: 45px;
+	position: relative;
+    top: 0.65rem;
+}
+
 /*
 .block-views-blockles--block-2 .owl-item.active:nth-child(1) .views-field-field-image, .block-views-blockles--block-2 .owl-item.active:nth-child(3) .views-field-field-image{
     height: 480px;

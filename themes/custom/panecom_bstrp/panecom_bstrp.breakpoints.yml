@@ -1,12 +1,12 @@
 panecom_bstrp.mobile:
   label: mobile
-  mediaQuery: ''
+  mediaQuery: 'all and (min-width: 5px) and (max-width: 575.98px)'
   weight: 0
   multipliers:
     - 1x
 panecom_bstrp.narrow:
   label: narrow
-  mediaQuery: 'all and (min-width: 5px) and (max-width: 991px)'
+  mediaQuery: 'all and (min-width: 576px) and (max-width: 991px)'
   weight: 1
   multipliers:
     - 1x

@@ -159,38 +159,38 @@
 			  });*/
 			  
 			  
-$('.block-views-blockles--block-2 .view-content.row').slick({
-  centerMode: true,
-  centerPadding: '15%',
-  slidesToShow: 1,
-  autoplay: true,
-  dots: true,
-	prevArrow: '<a class="your-class-btn-back">Back</a>',
-	nextArrow: '<a class="your-class-btn-forward">Forward</a>',
-		   
-  infinite: true,
-  speed: 300,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
+			$('.block-views-blockles--block-2 .view-content.row').slick({
+			  centerMode: true,
+			  centerPadding: '15%',
+			  slidesToShow: 1,
+			  autoplay: false,
+			  dots: true,
+				prevArrow: '<a class="your-class-btn-back">Back</a>',
+				nextArrow: '<a class="your-class-btn-forward">Forward</a>',
+					   
+			  infinite: true,
+			  speed: 300,
+			  responsive: [
+				{
+				  breakpoint: 768,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				  }
+				},
+				{
+				  breakpoint: 480,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				  }
+				}
+			  ]
+			});
 			
 			   
 			}, 500);

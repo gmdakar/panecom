@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c51fc72fb438b7ee13504c7974f39b1de787d2bc',
+        'reference' => '0d4c5d919fc0518c450b2250c7d2472a0151c176',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1077,7 +1077,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c51fc72fb438b7ee13504c7974f39b1de787d2bc',
+            'reference' => '0d4c5d919fc0518c450b2250c7d2472a0151c176',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1716,6 +1716,15 @@
             'reference' => '2.0.0',
             'dev_requirement' => false,
         ),
+        'drupal/twig_debugger' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/twig_debugger',
+            'aliases' => array(),
+            'reference' => '1.1.3',
+            'dev_requirement' => false,
+        ),
         'drupal/update' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1777,6 +1786,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/views_bootstrap',
             'aliases' => array(),
             'reference' => '8.x-4.3',
+            'dev_requirement' => false,
+        ),
+        'drupal/views_fieldsets' => array(
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/views_fieldsets',
+            'aliases' => array(),
+            'reference' => '8.x-3.4',
             'dev_requirement' => false,
         ),
         'drupal/views_infinite_scroll' => array(
