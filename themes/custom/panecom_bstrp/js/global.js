@@ -165,8 +165,8 @@
 			  slidesToShow: 1,
 			  autoplay: false,
 			  dots: true,
-				prevArrow: '<a class="your-class-btn-back">Back</a>',
-				nextArrow: '<a class="your-class-btn-forward">Forward</a>',
+				prevArrow: '<button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>',
+				nextArrow: '<button type="button" role="presentation" class="owl-next disabled"><span aria-label="Next">›</span></button>',
 					   
 			  infinite: true,
 			  speed: 300,
