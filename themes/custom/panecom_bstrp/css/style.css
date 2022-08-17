@@ -925,7 +925,9 @@ li.sf-depth-1 ul{
 
 /* tabs onglets projets x documents en page d'accueil*/
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets .field--type-viewfield .field__label,
-.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-documents .field--type-viewfield .field__label{
+.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-documents .field--type-viewfield .field__label,
+.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets > h2,
+.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-documents > h2{
 	display: none;
 }
 
