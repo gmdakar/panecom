@@ -532,7 +532,7 @@ li.sf-depth-1 ul{
 
 .more-link {
     text-align: center;
-    margin: 0.75rem;
+    margin: 0.75rem auto;
 }
 
 .views-label.views-label-nothing {
@@ -673,12 +673,11 @@ li.sf-depth-1 ul{
 }
 
 /******* les actualités **************/
-
 #block-views-block-les-block-2 {
     background-color: var(--color7);
-    padding: 3.5rem 0;
-    margin: 10rem -15px 10rem -15px;
-	overflow-x: hidden;
+    padding: 0;
+    margin: 6rem -15px 10rem -15px;
+    overflow-x: hidden;
 }
 
 .block-views-blockles--block-2 .owl-carousel .owl-item img {
@@ -757,6 +756,10 @@ li.sf-depth-1 ul{
 	margin: 0 auto;
 }
 
+.block-views-blockles--block-2 .slick-slide.slick-current.slick-active .wrapping>div.views-field.views-field-body {
+    display: none !important;
+}
+
 .block-views-blockles--block-2 .slick-slide .wrapping > div .field-content {
     display: inline-block;
 }
@@ -769,17 +772,17 @@ li.sf-depth-1 ul{
 }
 
 .block-views-blockles--block-2  .classeligne > .wrapping {
-    max-height: 640px;
+    max-height: initial;
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-fieldset {
-    background-color: #fff;
-    width: 65%;
+	background-color: #fff;
+    width: 75%;
     position: relative;
-    top: -5rem;
-    padding: 2.5% 10%;	
+    top: -4rem;
+    padding: 2.5% 10%;
     text-align: center;
-	min-height: 500px;
+    min-height: 100px;
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-title {
@@ -787,22 +790,21 @@ li.sf-depth-1 ul{
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-title-1 {
-	margin: .75rem auto !important;
+	margin: .25rem auto !important;
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-title-1 a {
-    font-size: 1rem;
+    font-size: .75rem;
     color: var(--color5);
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-title a {
-    font-size: 1.15rem;
+    font-size: .85rem;
     color: var(--color5);
 }
 
 .block-views-blockles--block-2 .slick-slide .views-field-body{
     font-size: 1rem;
-    
     color: var(--color6);
     font-family: 'Questrial';
     font-style: normal;
@@ -824,6 +826,17 @@ li.sf-depth-1 ul{
     max-width: 45px;
 	position: relative;
     top: .35rem;
+}
+
+.block-views-blockles--block-2 .slick-dots {
+    position: absolute;
+    bottom: 8px;
+}
+
+.block-views-blockles--block-2 .slick-dotted.slick-slider {
+    margin-bottom: 0;
+    max-height: 320px;
+	overflow: hidden;
 }
 
 .block-views-blockles--block-2 .slick-dots li button {
@@ -876,7 +889,7 @@ li.sf-depth-1 ul{
 
 .block-views-blockles--block-2 .more-link {
     text-align: center;
-    margin: 0.75rem;
+    margin: 0.75rem auto;
     position: absolute;
     bottom: 4.5rem;
     left: 50%;
@@ -991,9 +1004,7 @@ li.sf-depth-1 ul{
 	
 	#block-navigationprincipale ul.sf-menu > li:first-child.sf-depth-1 > a{
 		display: none !important; 
-	}
-
-		
+	}		
 }
 
 /*pour les "moyens et grands" écrans*/
@@ -1132,7 +1143,49 @@ li.sf-depth-1 ul{
 	.block-views-blockles--block-2  .view-header {
 		max-width: 50%;
 	}
+	
+	#block-views-block-les-block-2 {
+		padding: 3.5rem 0;
+		margin: 10rem -15px 10rem -15px;
+	}
+	
+	.block-views-blockles--block-2 .slick-slide.slick-current.slick-active .wrapping>div.views-field.views-field-body {
+		display: block !important;
+	}
+	
+	.block-views-blockles--block-2 .slick-slide .views-field-fieldset {
+		width: 65%;
+		min-height: 500px;
+	}
+	
+	.block-views-blockles--block-2 .slick-dots {
+		position: absolute;
+		bottom: -25px;
+	}
+	
+	.block-views-blockles--block-2 .slick-dotted.slick-slider {
+		margin-bottom: 30px;
+		max-height: unset;
+		overflow: unset;
+	}
+	
 
+	.block-views-blockles--block-2  .classeligne > .wrapping {
+		max-height: 700px;
+	}
+	
+	.block-views-blockles--block-2 .slick-slide .views-field-title a {
+		font-size: 1.15rem;
+	}
+	
+	.block-views-blockles--block-2 .slick-slide .views-field-title-1 {
+		margin: .75rem auto !important;
+	}
+
+	.block-views-blockles--block-2 .slick-slide .views-field-title-1 a {
+		font-size: 1rem;
+		color: var(--color5);
+	}
 
 }
 
@@ -1144,8 +1197,6 @@ li.sf-depth-1 ul{
 	#block-navigationprincipale .menu a {
 		font-size: 1.05rem;
 	}
-
-
 
 }
 
