@@ -61,12 +61,16 @@ main#content {
     width:  50%;
 }
  
-header#header {
+.path-frontpage header#header {
 	min-height: 500px;
 	height: 90vh;
 	position: relative;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 			clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+}
+
+.path-admin header#header {
+	display: none;
 }
 
 header#header ul:not(.contextual-links) a,
@@ -919,6 +923,12 @@ li.sf-depth-1 ul{
 }
 */
 
+/* tabs onglets projets x documents en page d'accueil*/
+.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets .field--type-viewfield .field__label,
+.block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-documents .field--type-viewfield .field__label{
+	display: none;
+}
+
 /* */
 
 /* ############################## */
@@ -940,7 +950,7 @@ li.sf-depth-1 ul{
 		font-size: .9rem;
 	}
 	
-	header#header {
+	.path-frontpage header#header {
 		height: 115vh;
 		
 	}
@@ -1237,7 +1247,7 @@ li.sf-depth-1 ul{
 
 @media (min-width: 1400px) {
 	
-	header#header {
+	.path-frontpage header#header {
 		min-height: 700px;
 		height: 100vh;
 		position: relative;

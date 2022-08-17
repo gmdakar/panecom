@@ -75,6 +75,8 @@
         "drupal/layout_builder_component_attributes": "^2.0",
         "drupal/layout_builder_operation_link": "^1.0",
         "drupal/layout_builder_save_and_edit": "^1.0",
+        "drupal/layout_builder_tabs": "^1.0",
+        "drupal/lb_tabs": "^3.0",
         "drupal/leaflet_more_maps": "^2.1",
         "drupal/mail_safety": "^1.2",
         "drupal/masonry": "^1.2",
