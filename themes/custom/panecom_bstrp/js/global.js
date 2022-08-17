@@ -161,7 +161,7 @@
 			  
 			$('.block-views-blockles--block-2 .view-content.row').slick({
 			  centerMode: true,
-			  centerPadding: '15%',
+			  centerPadding: '17%',
 			  slidesToShow: 1,
 			  autoplay: false,
 			  dots: true,
