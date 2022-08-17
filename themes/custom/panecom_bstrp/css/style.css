@@ -962,6 +962,30 @@ li.sf-depth-1 ul{
     width: 100%;
 }
 
+#block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-tab {
+	border: none;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+
+#block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-tab a{
+    color: #000;
+	font-size: 1.4rem;
+	padding-bottom: .2rem;
+	font-weight: 300;
+}
+
+#block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+    border-bottom: 5px solid var(--color3);
+    background-color: #fff;
+}
+
+#block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active a{
+    color: var(--color3);
+	font-weight: 600;
+	padding-bottom: 0;
+}
+
 /* ############################## */
 /* ####### Breakpoints media queries  */
 /* ############################## */
