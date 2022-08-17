@@ -924,6 +924,11 @@ li.sf-depth-1 ul{
 */
 
 /* tabs onglets projets x documents en page d'accueil*/
+
+#block-tabsongletsprojetsxdocuments {
+    padding: 10%;
+}
+
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets .field--type-viewfield .field__label,
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-documents .field--type-viewfield .field__label,
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets > h2,
@@ -931,7 +936,31 @@ li.sf-depth-1 ul{
 	display: none;
 }
 
-/* */
+#block-tabsongletsprojetsxdocuments .ui-widget.ui-widget-content,
+#block-tabsongletsprojetsxdocuments .ui-widget-header {
+    border: none;
+	background: none;
+}
+
+#block-tabsongletsprojetsxdocuments .ui-tabs .ui-tabs-nav li.ui-tab {
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    width: 50%;
+}
+
+#block-tabsongletsprojetsxdocuments .ui-tabs .ui-tabs-nav li.ui-tab {
+    margin: 1px 0 0 0;
+}
+
+#block-tabsongletsprojetsxdocuments .view-header .field--name-body{
+    margin-left: -1em;
+    width: 70%;
+}
+
+#block-tabsongletsprojetsxdocuments .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    display: inline-block;
+    width: 100%;
+}
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
