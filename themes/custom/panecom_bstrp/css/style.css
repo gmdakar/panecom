@@ -69,8 +69,12 @@ main#content {
 			clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
 
-.path-admin header#header {
-	display: none;
+.user-logged-in #main {
+    margin-top: 100px;
+}
+
+body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
+    top: 0;
 }
 
 header#header ul:not(.contextual-links) a,
@@ -971,7 +975,7 @@ li.sf-depth-1 ul{
 #block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-tab a{
     color: #000;
 	font-size: 1.4rem;
-	padding-bottom: .2rem;
+	padding-bottom: .15rem;
 	font-weight: 300;
 }
 
