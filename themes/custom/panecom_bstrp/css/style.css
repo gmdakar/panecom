@@ -16,6 +16,8 @@
   --color5: #252525;  
   --color6: #2C2C2C; /*owl carousel all blocks*/
   --color7: #F8F8F8; /*owl carousel all blocks*/
+  --color8: #EEEEEE;
+  --color9: #ACACAC;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -989,9 +991,8 @@ li.sf-depth-1 ul{
 	padding-bottom: 0;
 }
 
-/** les projets**/
+/** onglet projets récents**/
 #views-bootstrap-projets-block-3 > .row > div > .wrapping{
-    max-width: 650px;
 	position: relative;
 }
 
@@ -1004,7 +1005,6 @@ li.sf-depth-1 ul{
     position: absolute;
     bottom: 0;
     width: 100%;
-    max-width: 570px;
     padding: 0.5rem 5%;
     margin: 0;
     height: 110px;
@@ -1015,6 +1015,10 @@ li.sf-depth-1 ul{
     top: 50%;
     left: 10%;
     transform: translate(0, -50%);
+    width: 100%;
+}
+
+.view-id-projets.view-display-id-block_3 .views-field-field-projet-photos img{
     width: 100%;
 }
 
@@ -1081,21 +1085,141 @@ li.sf-depth-1 ul{
 	color: #fff;
 }
 
-.view-id-projets.view-display-id-block_3 .org_logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-	padding: 0 0.5rem;
-}
-
-.view-id-projets.view-display-id-block_3 .org_logo{
+.view-id-projets.view-display-id-block_3 .other-except-image .org_logo{
     background-color: #fff;
     height: 50px;
     width: 50px;
     border-radius: 45px;
     border: 2px solid #a8a8a85e;
+	position: relative;
+}
+
+.view-id-projets.view-display-id-block_3 .other-except-image .org_logo a {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+/*onglet documents récents*/
+#views-bootstrap-documents-block-2 .wrapping {
+    margin: 10% auto;
+    background-color: var(--color7);
+    padding: 0;
+}
+
+#views-bootstrap-documents-block-2 .wrapping > div:first-child {
+    padding: 1rem 1.15rem 1rem 0;
+}
+
+#views-bootstrap-documents-block-2 .wrapping > div {
+    padding: 0 1rem 1.15rem 1rem;
+}
+
+#views-bootstrap-documents-block-2 .org_logo{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    border: 2px solid #a8a8a85e;
+	position: relative;
+	left: 1rem;
+}
+
+#views-bootstrap-documents-block-2 .org_logo a {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+#views-bootstrap-documents-block-2 .wrapping .row > div:first-child {
+	padding-left: .5rem;
+}
+
+#views-bootstrap-documents-block-2 .wrapping .row > div:last-child {
+    padding-left: 2rem;
+}
+
+#views-bootstrap-documents-block-2 .wrapping::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f15c";
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: var(--color8);
+    height: 100px;
+    padding-top: 1rem;
+    font-size: 2.75rem;
+    color: var(--color9);
+}
+
+#views-bootstrap-documents-block-2 .doc_title {
+	font-size: 1.1rem;
+	margin-bottom: .75rem;
+}
+
+#views-bootstrap-documents-block-2 .desc_doc {
+    color: #00000080;
+	font-size: .92rem;
+}
+
+#views-bootstrap-documents-block-2 .sigle_doc a {
+    font-size: 1rem;
+    color: var(--color9);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f06e";
+    font-size: 1.75rem;
+    color: var(--color3);
+	position: relative;
+	top: .25rem;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier .field-content {
+    display: inline-block;
+    margin: 0 .85rem;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier-1::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f019";
+    font-size: 1.75rem;
+    color: var(--color3);
+	position: relative;
+	top: .25rem;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier-1 .field-content {
+    display: inline-block;
+    margin: 0 .85rem;
+}
+
+.view-id-documents.view-display-id-block_2  .more-link a {
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 265px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.view-id-documents.view-display-id-block_2 .more-link a:hover {
+	background-color: var(--color3);
+	color: #fff;
 }
 
 /* ############################## */
@@ -1379,7 +1503,7 @@ li.sf-depth-1 ul{
 	}
 	
 	.view-id-projets.view-display-id-block_3 .other-except-image .wrapping .row > div:last-child {
-		margin-left: -1rem;
+		margin-left: -1.5rem;
 	}
 	
 	.view-id-projets.view-display-id-block_3 .other-except-image .projet_title a {
@@ -1424,6 +1548,9 @@ li.sf-depth-1 ul{
 		font-weight: 300;
 	}
 	
+	#views-bootstrap-documents-block-2 .wrapping > div {
+		padding: 0 0 1.15rem 1rem;
+	}
 
 }
 
@@ -1508,6 +1635,14 @@ li.sf-depth-1 ul{
 		display: inline-block;
 		right: 1.35rem;
 		height: 25px;
+	}
+	
+	#views-bootstrap-documents-block-2 .wrapping > div {
+		padding: 0 1rem 1.15rem 1rem;
+	}
+	
+	#views-bootstrap-documents-block-2 .wrapping {
+		width: 80%;
 	}
 	
 }
