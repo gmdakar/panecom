@@ -1289,6 +1289,13 @@ li.sf-depth-1 ul{
 }
 
 
+/*#views-bootstrap-personnes-cles-block-2 > .row > div:nth-of-type(odd) .wrapping {
+}*/
+
+#views-bootstrap-personnes-cles-block-2 > .row > div:nth-of-type(even) .wrapping  {
+  margin-top: 5rem;
+}
+
 /* ############################## */
 /* ####### Breakpoints media queries  */
 /* ############################## */
