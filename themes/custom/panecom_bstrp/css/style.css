@@ -487,7 +487,7 @@ li.sf-depth-1 ul{
 }
 
 .block-views-blockles-organisations-block-3 .org_logo_title .org_title a {
-    font-size: .92rem;
+    font-size: .8rem;
     color: var(--color5);
 }
 
@@ -979,7 +979,7 @@ li.sf-depth-1 ul{
 }
 
 #block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-tab a{
-    color: #2C2C2C30;
+    color: #2C2C2C;
 	font-size: 1rem;
 	padding-bottom: .15rem;
 	font-weight: 300;
@@ -1338,6 +1338,33 @@ li.sf-depth-1 ul{
 
 #views-bootstrap-counters-block-1 > .row > div:nth-child(2) .wrapping  {
   margin-left: 1rem;
+}
+
+/*Partenaires*/
+#block-views-block-partenaires-block-1 {
+    padding: 5rem 10%;
+}
+
+#views-bootstrap-partenaires-block-1 {
+    width: 100%;
+}
+
+#views-bootstrap-partenaires-block-1 .wrapping {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+#block-views-block-partenaires-block-1 h2 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: var(--color6);
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+#block-views-block-partenaires-block-1 .field.field--name-body {
+    color: #2C2C2Cbb;
+	font-weight: 300;
 }
 
 /* ############################## */
