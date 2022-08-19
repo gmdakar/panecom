@@ -687,7 +687,7 @@ li.sf-depth-1 ul{
     padding: 0;
     margin: 6rem -15px 10rem -15px;
     position: relative;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 #block-views-block-les-block-2 .owl-carousel .owl-item img {
@@ -936,7 +936,7 @@ li.sf-depth-1 ul{
 /* tabs onglets projets x documents en page d'accueil*/
 #block-tabsongletsprojetsxdocuments {
     position: relative;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets .field--type-viewfield .field__label,
@@ -1230,7 +1230,7 @@ li.sf-depth-1 ul{
 /* Team - l'équipe*/
 #block-blockteam {
     margin: 5rem -15px 0 -15px;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 #block-blockteam .field--name-body {
@@ -1306,7 +1306,7 @@ li.sf-depth-1 ul{
 /*En chiffres - compteur*/
 #block-quelquechiffres {
     margin: 0 -15px;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 #views-bootstrap-counters-block-1 {
@@ -1565,7 +1565,8 @@ li.sf-depth-1 ul{
 	
 	#block-views-block-les-block-2 {
 		padding: 3.5rem 0;
-		margin: 10rem -15px 10rem -15px;
+		margin: 6rem -15px 4rem -15px;
+		overflow-x: unset;
 	}
 	
 	#block-views-block-les-block-2 .slick-slide.slick-current.slick-active .wrapping>div.views-field.views-field-body {
@@ -1617,7 +1618,7 @@ li.sf-depth-1 ul{
 	}
 	
 	#block-tabsongletsprojetsxdocuments {
-		padding: 4% 10%;
+		padding: 8rem 10% 4rem 10%;
 	}
 	
 	.view-id-projets.view-display-id-block_3 .other-except-image .wrapping .row > div:last-child {
