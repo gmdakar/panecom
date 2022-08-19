@@ -400,7 +400,6 @@ li.sf-depth-1 ul{
 	color: var(--color6);
 	font-family: 'Rubik';
 	font-style: normal;
-	font-weight: 500;
 }
 
 .block-views-blockles-organisations-block-3 {
@@ -1221,6 +1220,74 @@ li.sf-depth-1 ul{
 	background-color: var(--color3);
 	color: #fff;
 }
+
+/* Team/ l'équipe*/
+#block-blockteam {
+    margin: 5rem -15px;
+}
+
+#block-blockteam .field--name-body {
+    width: 50%;
+}
+
+#block-blockteam .field--name-body p:first-child {
+    font-size: 2.1875rem;
+	font-weight: 500;
+	color: var(--color6);
+	font-family: 'Rubik';
+	font-style: normal;
+}
+
+#block-blockteam .block-views-blockpersonnes-cles-block-2 {
+    padding: 5rem 5%;
+}
+
+#block-blockteam .block-views-blockpersonnes-cles-block-2 .wrapping {
+    margin: 0 5%;
+    background-color: #fff;
+    padding: 5%;
+    box-shadow: 0 0 15px 2px #d9d9d982;
+	height: 430px;
+}
+
+#views-bootstrap-personnes-cles-block-2 {
+    text-align: center;
+	margin-top: 6rem;
+}
+
+#views-bootstrap-personnes-cles-block-2 .views-field-field-personne-photo img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 90px;
+}
+
+#views-bootstrap-personnes-cles-block-2 .views-field-field-personne-photo {
+    position: relative;
+    top: -20%;
+}
+
+#views-bootstrap-personnes-cles-block-2 .views-field-title {
+    position: relative;
+    top: -10%;
+	font-size: 1.05rem;
+	color: var(--color6);
+}
+
+#views-bootstrap-personnes-cles-block-2 .views-field-field-personne-fonction {
+    position: relative;
+    top: -8%;
+	color: var(--color1);
+	font-style: italic;
+	font-size: 1.05rem;
+	font-weight: 500;
+}
+
+#views-bootstrap-personnes-cles-block-2 .views-field-body {
+	color: var(--color6);
+	font-size: .95rem;
+	font-weight: 300;
+}
+
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
