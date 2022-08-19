@@ -1367,6 +1367,31 @@ li.sf-depth-1 ul{
 	font-weight: 300;
 }
 
+/*Footer*/
+#block-blockfooter {
+    width: 100%;
+}
+
+.site-footer__top .region {
+    width: 100% !important;
+}
+
+section.row.region.region-footer-first {
+    margin: 0 auto;
+}
+
+.layout-builder__section .navbar-brand {
+
+    font-size: 1.05rem;
+
+    color: #000;
+   
+    background-color: #d2cdcd;
+    padding: 2rem;
+    display: inline-block;
+    width: 20%;
+}
+
 /* ############################## */
 /* ####### Breakpoints media queries  */
 /* ############################## */
