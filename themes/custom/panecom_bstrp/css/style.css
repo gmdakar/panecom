@@ -1223,9 +1223,9 @@ li.sf-depth-1 ul{
 	color: #fff;
 }
 
-/* Team/ l'équipe*/
+/* Team - l'équipe*/
 #block-blockteam {
-    margin: 5rem -15px;
+    margin: 5rem -15px 0 -15px;
 	overflow: hidden;
 }
 
@@ -1285,18 +1285,55 @@ li.sf-depth-1 ul{
 	font-weight: 500;
 }
 
+#views-bootstrap-personnes-cles-block-2 .views-field-field-org-logo {
+    margin: 0.25rem;
+}
+
 #views-bootstrap-personnes-cles-block-2 .views-field-body {
 	color: var(--color6);
 	font-size: .95rem;
 	font-weight: 300;
 }
 
-
-/*#views-bootstrap-personnes-cles-block-2 > .row > div:nth-of-type(odd) .wrapping {
-}*/
-
 #views-bootstrap-personnes-cles-block-2 > .row > div:nth-of-type(even) .wrapping  {
   margin-top: 5rem;
+}
+
+/*En chiffres - compteur*/
+#block-quelquechiffres {
+    margin: 0 -15px;
+	overflow: hidden;
+}
+
+#views-bootstrap-counters-block-1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#views-bootstrap-counters-block-1 .wrapping {
+    margin: 4rem 1rem;
+	color: #fff;
+	text-align: center;
+}
+
+#views-bootstrap-counters-block-1 .highlight-count {
+    font-size: 4.125rem;
+}
+
+#views-bootstrap-counters-block-1 .highlight.organisation_membre {
+    min-width: 250px;
+}
+
+#views-bootstrap-counters-block-1 .highlight-type {
+    margin: 0 .75rem;
+}
+
+#views-bootstrap-counters-block-1 .highlight-icon {
+	font-size: 1.2rem;	
+}
+
+#views-bootstrap-counters-block-1 > .row > div:nth-child(2) .wrapping  {
+  margin-left: 1rem;
 }
 
 /* ############################## */
@@ -1597,6 +1634,10 @@ li.sf-depth-1 ul{
 	
 	#block-blockteam .field--name-body p:first-child {
 		font-size: 2.1875rem;
+	}
+	
+	#views-bootstrap-counters-block-1 .wrapping {
+		margin: 4rem 6rem;
 	}
 	
 }
