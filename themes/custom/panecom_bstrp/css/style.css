@@ -687,6 +687,7 @@ li.sf-depth-1 ul{
     padding: 0;
     margin: 6rem -15px 10rem -15px;
     position: relative;
+	overflow: hidden;
 }
 
 #block-views-block-les-block-2 .owl-carousel .owl-item img {
@@ -931,6 +932,7 @@ li.sf-depth-1 ul{
 /* tabs onglets projets x documents en page d'accueil*/
 #block-tabsongletsprojetsxdocuments {
     position: relative;
+	overflow: hidden;
 }
 
 .block-field-blockblock-contentblock-tabs-onglets-projets-x-docfield-tabs-projets .field--type-viewfield .field__label,
@@ -1224,14 +1226,15 @@ li.sf-depth-1 ul{
 /* Team/ l'équipe*/
 #block-blockteam {
     margin: 5rem -15px;
+	overflow: hidden;
 }
 
 #block-blockteam .field--name-body {
-    width: 50%;
+    width: auto;
 }
 
 #block-blockteam .field--name-body p:first-child {
-    font-size: 2.1875rem;
+    font-size: 1.75rem;
 	font-weight: 500;
 	color: var(--color6);
 	font-family: 'Rubik';
@@ -1243,7 +1246,7 @@ li.sf-depth-1 ul{
 }
 
 #block-blockteam .block-views-blockpersonnes-cles-block-2 .wrapping {
-    margin: 0 5%;
+    margin: 12% 5%;
     background-color: #fff;
     padding: 5%;
     box-shadow: 0 0 15px 2px #d9d9d982;
@@ -1582,6 +1585,18 @@ li.sf-depth-1 ul{
 	
 	.view-id-projets.view-display-id-block_3 .other-except-image .projet_title a {
 		font-size: 1.15rem;
+	}
+	
+	#block-blockteam .block-views-blockpersonnes-cles-block-2 .wrapping {
+		margin: 0 5%;
+	}
+
+	#block-blockteam .field--name-body {
+		width: 50%;
+	}
+	
+	#block-blockteam .field--name-body p:first-child {
+		font-size: 2.1875rem;
 	}
 	
 }
