@@ -703,6 +703,10 @@ li.sf-depth-1 ul{
     margin: 0 auto;
 }
 
+#block-views-block-les-block-2 .views-field-field-org-sigle {
+    margin: 0.25rem !important;
+}
+
 #block-views-block-les-block-2 .view-header {
     text-align: center;
 	color: var(--color6);
