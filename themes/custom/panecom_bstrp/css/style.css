@@ -1370,6 +1370,104 @@ li.sf-depth-1 ul{
 /*Footer*/
 #block-blockfooter {
     width: 100%;
+	color: #fff;
+	padding: 0 7%;
+}
+
+#block-copyright {
+    width: 275px;
+	margin: 0 auto;
+}
+
+.site-footer .content,
+#block-blockfooter h2,
+#block-blockfooter span,
+#block-blockfooter a{
+	color: #fff;
+}
+
+#block-blockfooter ._none:first-child .layout > div{
+	text-align: center;
+}
+
+#block-blockfooter ._none:first-child a.navbar-brand{
+	font-size: 1.35rem;
+}
+
+
+#block-blockfooter ._none:first-child a img {
+    position: relative;
+    top: 0.15rem;
+}
+
+.site-footer .content {
+    font-size: 1.1rem;
+}
+
+.site-footer .field--name-body {
+    font-size: 1rem;
+    text-align: center;
+    margin: .25rem auto;
+}
+
+.site-footer__top .content li a,
+.site-footer__top h2 {
+    border: none; 
+}
+
+.site-footer__top h2 {
+    font-size: 1.25rem; 
+	text-transform: unset;
+}
+
+.site-footer .block {
+    border: none; 
+	margin: 0;
+	padding: 0;
+}
+
+.site-footer__top .content .menu--acces-rapide {
+	margin-top: 3rem;
+}
+	
+.site-footer .menu--nous-suivre- {  
+    font-size: 1.65rem;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.site-footer .menu--nous-suivre- ul{
+    margin-left: .6rem;
+}
+
+.site-footer .menu--nous-suivre- li {
+	display: inline-block;
+	margin: 0 1.5rem
+}
+.site-footer .menu--nous-suivre- li a{
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+.site-footer__top .content .menu--acces-rapide li a {
+    padding-left: 1rem;
+}
+
+.site-footer__top .content li a:hover, .site-footer__top .content li a:focus {
+    background-color: transparent;	
+}
+
+.site-footer__top h2 {
+    margin: 13px 0 5px 0; 
+}
+
+.site-footer h2::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    width: 31px;
+	margin: 10px 0 10px 0;
 }
 
 .site-footer__top .region {
@@ -1391,6 +1489,17 @@ section.row.region.region-footer-first {
     display: inline-block;
     width: 20%;
 }
+
+.site-footer .nav-link.nav-link-,
+.site-footer .content ol:not(.menu), .site-footer .content ul:not(.menu) {
+    padding-left: 0;
+}
+
+.site-footer .nav{
+    display: block;
+}
+
+
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
@@ -1481,6 +1590,35 @@ section.row.region.region-footer-first {
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
 	
+	#block-copyright {
+		position: absolute;
+		bottom: 0;
+		right: 10%;
+	}
+	
+	.site-footer .menu--nous-suivre- {
+		margin-left: 7rem;
+		margin-top: unset;
+	}
+
+	.site-footer__top .content .menu--acces-rapide {
+		margin-left: 7rem;
+		margin-top: unset;
+	}
+	
+	.site-footer .field--name-body {
+		width: 70%;
+		margin: 2rem auto;
+	}
+	
+	._none.block.block-superfish.block-superfishacces-rapide {
+		margin-left: 20%;
+	}
+
+	._none.block.block-superfish.block-superfishnous-suivre-{
+		margin-left: 20%;
+	}
+
 	header#header #CollapsingNavbar.collapse:not(.show) {
 		display: none;
 	}
