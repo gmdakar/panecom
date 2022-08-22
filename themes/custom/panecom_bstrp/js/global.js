@@ -30,7 +30,7 @@
 		  console.log("click on one notification:", $("#notificationcount").attr('data-count'));
 		  if ($("#notificationcount").attr('data-count') == '1') /*it means it was the last currently visible*/
 			  $(this).closest("#block-notificationwidgetblock").hide();
-		  $("#notificationcount").attr('data-count') = $("#notificationcount").attr('data-count') - 1;
+		  $("#notificationcount").attr('data-count', $("#notificationcount").attr('data-count') - 1);
 		  event.preventDefault(); //evitons le chargement de page
 		  return false;
 		});
@@ -149,8 +149,6 @@
 				 })
 			   
 			}, 500);*/
-			
-			setTimeout(function() { 
 				
 			/*$('.block-views-blockles--block-2 .view-content.row').slick({
 				slidesToShow: 3,
@@ -192,8 +190,6 @@
 			  ]
 			});
 			
-			   
-			}, 500);
         }
   };
 
