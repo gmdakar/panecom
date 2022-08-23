@@ -18,6 +18,8 @@
   --color7: #F8F8F8; /*owl carousel all blocks*/
   --color8: #EEEEEE;
   --color9: #ACACAC;
+  --color10: #353535;
+  --color11: #F6F4F0;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -57,7 +59,6 @@ main#content {
     margin-left: 1%;
     text-shadow: 2px 2px #ffffff;
 }
-
 
 .logomenu img {
     width:  50%;
@@ -130,6 +131,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
     box-shadow: 0 0 12px 8px #0527391c;
+	min-height: 90px;
 }
 
 #navbar-main .navbar-collapse {
@@ -157,6 +159,16 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 #block-navigationprincipale ul.sf-menu > li > span.nolink{
 	font-weight: 300;
 	font-size: 1.15rem;
+}
+
+/** special Organisation breadcrumb**/
+#block-breadcrumbs {
+	display: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+    content: " > ";
 }
 
 /**
@@ -235,7 +247,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     position: absolute;
     top: 0;
     left: 10%;
-    margin-top: 100px;
+    margin-top: 125px;
     max-width: 80%;
     color: #fff;
     font-size: 1rem;
@@ -429,7 +441,6 @@ li.sf-depth-1 ul{
 	font-style: normal;
 	font-weight: 500;
 }
-
 
 .block-views-blockles-organisations-block-3 .org_logo_title {
     height: 115px;
@@ -679,6 +690,66 @@ li.sf-depth-1 ul{
     font-weight: 300;
     color: var(--color1);
     background-color: #fff;
+}
+
+/*une organisation (node)*/
+.node--type-organisation-membre header#header {
+	min-height: 500px;
+	height: 50vh;
+	position: relative;
+}
+
+.node--type-organisation-membre main#content {
+    padding: 0 10%;
+}
+
+.node--type-organisation-membre .field--name-field-org-logo {
+    position: absolute;
+    top: -5rem;
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    height: 150px;
+    border-radius: 150px;
+    border: 6px solid #A8A8A8;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.node--type-organisation-membre .field--name-field-org-logo img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+	padding: 5%;
+}
+
+.node--type-organisation-membre #block-menuorganisationmembre {
+    margin: 7rem 0 3rem 0;
+	text-align: center;
+	position: sticky;
+    top: 0;
+    z-index: 9999;
+	background-color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.node--type-organisation-membre #block-menuorganisationmembre ul,
+.node--type-organisation-membre #block-menuorganisationmembre li.nav-item {
+    display: inline-block;
+	background-color: var(--color11);
+	padding: 0.5rem .5rem;
+}
+
+.node--type-organisation-membre #block-menuorganisationmembre ul{
+    width: 100%;
+}
+
+.node--type-organisation-membre #block-menuorganisationmembre li.nav-item a{
+	color: var(--color10);
+	font-size: 1.3rem;
+	font-weight: 500;
 }
 
 /******* les actualités **************/
@@ -1530,7 +1601,6 @@ section.row.region.region-footer-first {
 		height: 45px;
 	}
 	
-	
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -1553,12 +1623,7 @@ section.row.region.region-footer-first {
 	header#header {
 		height: 115vh;
 		
-	}
-	
-	
-	
-	
-	
+	}	
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -1589,6 +1654,27 @@ section.row.region.region-footer-first {
 
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
+	
+	/** special Organisation breadcrumb**/
+	#block-breadcrumbs {
+		display: block;
+		width: 100%;
+	}
+	
+	/** special Organisation breadcrumb**/
+	#block-breadcrumbs .breadcrumb{
+		background-color: transparent;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		margin-left: 2rem;
+	}
+	
+	#block-breadcrumbs a,
+	#block-breadcrumbs li{
+		color: #fff;
+		font-size: 1rem;
+	}
 	
 	#block-copyright {
 		position: absolute;
@@ -1989,6 +2075,7 @@ section.row.region.region-footer-first {
 	
 	#navbar-main {
 		padding: 0 0 0 6%;
+		
 	}
 	
 	#navbar-main .navbar-collapse{
