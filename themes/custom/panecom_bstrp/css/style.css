@@ -743,6 +743,7 @@ li.sf-depth-1 ul{
 .node--type-organisation-membre #block-menuorganisationmembre,
 .node--type-organisation-membre #block-panecom-bstrp-page-title,
 .node--type-organisation-membre #presentation,
+.node--type-organisation-membre #documents,
 .node--type-organisation-membre #projets{
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -773,6 +774,16 @@ li.sf-depth-1 ul{
 	color: var(--color10);
 	font-size: 1.1rem;
 	font-weight: 500;
+}
+
+#views-bootstrap-documents-block-2 .wrapping {
+	width: 92%;
+	min-height: 485px;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping {
+	width: 92%;
+	min-height: 485px;
 }
 
 a.is-active,
@@ -829,6 +840,134 @@ a.is-active,
 	color: #2C2C2Caa;
 	font-family: 'Rubik';
 	font-style: normal;
+}
+
+/*documents d'une organisation*/
+
+.node--type-organisation-membre #documents{
+	margin: 4rem auto;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping {
+    margin: 10% auto;
+    background-color: var(--color7);
+    padding: 0;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping > div:first-child {
+    padding: 1rem 1.15rem 0 0;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping > div {
+    padding: 0 1rem .5rem 1rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .org_logo{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    border: 2px solid #a8a8a85e;
+	position: relative;
+	left: 1rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .org_logo a {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping .row > div:first-child {
+	padding-left: .5rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping .row > div:last-child {
+    padding-left: 2rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f15c";
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: var(--color8);
+    height: 100px;
+    padding-top: 1rem;
+    font-size: 2.75rem;
+    color: var(--color9);
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .doc_title {
+	font-size: 1.1rem;
+	margin-bottom: .25rem;
+	min-height: 6.2rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .desc_doc {
+    color: #00000080;
+	font-size: .92rem;
+	min-height: 7rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .sigle_doc a {
+    font-size: 1rem;
+    color: var(--color9);
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .views-field-field-document-fichier::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f06e";
+    font-size: 1.75rem;
+    color: var(--color3);
+	position: relative;
+	top: .25rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .views-field-field-document-fichier .field-content {
+    display: inline-block;
+    margin: 0 .85rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .views-field-field-document-fichier-1::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f019";
+    font-size: 1.75rem;
+    color: var(--color3);
+	position: relative;
+	top: .25rem;
+}
+
+.node--type-organisation-membre #views-bootstrap-documents-block-3 .views-field-field-document-fichier-1 .field-content {
+    display: inline-block;
+    margin: 0 .85rem;
+}
+
+.view-id-documents.view-display-id-block_2  .more-link a {
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 265px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.view-id-documents.view-display-id-block_2 .more-link a:hover {
+	background-color: var(--color3);
+	color: #fff;
 }
 
 /***/
@@ -1287,11 +1426,11 @@ a.is-active,
 }
 
 #views-bootstrap-documents-block-2 .wrapping > div:first-child {
-    padding: 1rem 1.15rem 1rem 0;
+    padding: 1rem 1.15rem 0 0;
 }
 
 #views-bootstrap-documents-block-2 .wrapping > div {
-    padding: 0 1rem 1.15rem 1rem;
+    padding: 0 1rem .5rem 1rem;
 }
 
 #views-bootstrap-documents-block-2 .org_logo{
@@ -1335,12 +1474,14 @@ a.is-active,
 
 #views-bootstrap-documents-block-2 .doc_title {
 	font-size: 1.1rem;
-	margin-bottom: .75rem;
+	margin-bottom: .25rem;
+	min-height: 6.2rem;
 }
 
 #views-bootstrap-documents-block-2 .desc_doc {
     color: #00000080;
 	font-size: .92rem;
+	min-height: 7rem;
 }
 
 #views-bootstrap-documents-block-2 .sigle_doc a {
@@ -2050,6 +2191,7 @@ section.row.region.region-footer-first {
 	.node--type-organisation-membre #block-menuorganisationmembre,
 	.node--type-organisation-membre #block-panecom-bstrp-page-title,
 	.node--type-organisation-membre #presentation,
+	.node--type-organisation-membre #documents,
 	.node--type-organisation-membre #projets{
 		padding-left: 10%;
 		padding-right: 10%;
@@ -2230,13 +2372,13 @@ section.row.region.region-footer-first {
 		padding: 0 1rem 1.15rem 1rem;
 	}
 	
-	#views-bootstrap-documents-block-2 .wrapping {
-		width: 80%;
+	.node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping > div {
+		padding: 0 1rem 1.15rem 1rem;
 	}
 	
 		
 	#block-menuorganisationmembre ul{
-		display: block;
+		display: block !important;
 	}
 	
 }
