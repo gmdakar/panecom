@@ -164,7 +164,7 @@ function slick_carousel(obj){
 	
 	obj.slick({
 			  centerMode: true,
-			  centerPadding: '9.8%',
+			  centerPadding: '9.6%',
 			  slidesToShow: 1,
 			  autoplay: false,
 			  dots: true,

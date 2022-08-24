@@ -704,7 +704,7 @@ li.sf-depth-1 ul{
 }
 
 .node--type-organisation-membre h2 {
-    font-size: 1.6rem !important;
+    font-size: 1.7rem !important;
 }
 
 .node--type-organisation-membre .field--name-field-org-logo {
@@ -735,32 +735,43 @@ li.sf-depth-1 ul{
 	position: sticky;
     top: 0;
     z-index: 9999;
-	background-color: #fff;
+	background-color: transparent;
 	padding-left: 0;
 	padding-right: 0;
 }
 
 .node--type-organisation-membre #block-menuorganisationmembre,
 .node--type-organisation-membre #block-panecom-bstrp-page-title,
-.node--type-organisation-membre #presentation{
-	margin-left: 10%;
-	margin-right: 10%;
+.node--type-organisation-membre #presentation,
+.node--type-organisation-membre #projets{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.node--type-organisation-membre #projets > h2,
+.node--type-organisation-membre .view-id-projets.view-display-id-block_2{
+    padding: 1rem;
+}
+
+.node--type-organisation-membre #projets{
+	background-color: var(--color7);
 }
 
 .node--type-organisation-membre #block-menuorganisationmembre ul,
 .node--type-organisation-membre #block-menuorganisationmembre li.nav-item {
     display: inline-block;
 	background-color: var(--color11);
-	padding: 0.5rem .5rem;
+	padding: 0.5rem .2rem;
 }
 
 .node--type-organisation-membre #block-menuorganisationmembre ul{
     width: 100%;
+	display: none;
 }
 
 .node--type-organisation-membre #block-menuorganisationmembre li.nav-item a{
 	color: var(--color10);
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 500;
 }
 
@@ -780,6 +791,58 @@ a.is-active,
 
 .node--type-organisation-membre .field--name-field-org-sigle .field__item {
     font-weight: 500;
+}
+
+/*les projets d'une organisation*/
+.node--type-organisation-membre .projets-org img{
+	width: 100%;
+}
+
+.node--type-organisation-membre .projets-org legend {
+	display: none;
+}
+
+.node--type-organisation-membre .projets-org{
+	margin: 2rem auto;
+}
+
+.node--type-organisation-membre .projets-org .views-field-title a{
+    font-size: 1.45rem;
+	font-weight: 500;
+	color: var(--color6);
+	font-family: 'Rubik';
+	font-style: normal;
+}
+
+.node--type-organisation-membre .projets-org .views-field-field-projet-date{
+    font-size: 1rem;
+	color: var(--color6);
+	font-weight: 500;
+	font-family: 'Rubik';
+	font-style: normal;
+	text-transform: capitalize;
+	margin:1rem 0;
+}
+
+.node--type-organisation-membre .projets-org .views-field-body{
+    font-size: 1rem;
+	color: #2C2C2Caa;
+	font-family: 'Rubik';
+	font-style: normal;
+}
+
+/***/
+.path-frontpage .view-les-organisations.view-display-id-block_3 .wrapping {
+    box-shadow: none;
+    background-color: var(--color4);
+}
+.path-frontpage .view-les-organisations .wrapping {
+    margin: 1.5rem 1rem;
+}
+.view-les-organisations .wrapping {
+    box-shadow: rgb(208 208 208 / 75%) 0px 0px 15px;
+    /* position: relative; */
+    margin: 0.9rem 0;
 }
 
 /******* les actualités **************/
@@ -1984,6 +2047,58 @@ section.row.region.region-footer-first {
 		margin: 4rem 6rem;
 	}
 	
+	.node--type-organisation-membre #block-menuorganisationmembre,
+	.node--type-organisation-membre #block-panecom-bstrp-page-title,
+	.node--type-organisation-membre #presentation,
+	.node--type-organisation-membre #projets{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.node--type-organisation-membre #projets{
+		background-color: var(--color7);
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		overflow-x: hidden;
+	}
+	
+	.node--type-organisation-membre .projets-org:nth-of-type(odd) .views-field-fieldset{
+		order: 1;
+		padding-right: 1rem;
+	}
+
+	.node--type-organisation-membre .projets-org:nth-of-type(odd) .views-field-fieldset-1{
+		order: 2;
+		padding-left: 1rem;
+	}
+
+	.node--type-organisation-membre .projets-org:nth-of-type(even) .views-field-fieldset{
+		order: 2;
+		padding-left: 1rem;
+	}
+
+	.node--type-organisation-membre .projets-org:nth-of-type(even) .views-field-fieldset-1{
+		order: 1;
+		padding-right: 1rem;
+	}
+
+	.node--type-organisation-membre .projets-org > .wrapping {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 0 15px 0 15px;
+	}
+
+	.node--type-organisation-membre .projets-org .views-field-fieldset,
+	.node--type-organisation-membre .projets-org .views-field-fieldset-1 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	
 }
 
 /*pour les trés "grands" écrans uniquement*/
@@ -2117,6 +2232,11 @@ section.row.region.region-footer-first {
 	
 	#views-bootstrap-documents-block-2 .wrapping {
 		width: 80%;
+	}
+	
+		
+	#block-menuorganisationmembre ul{
+		display: block;
 	}
 	
 }
