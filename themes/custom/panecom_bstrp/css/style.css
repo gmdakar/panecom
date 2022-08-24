@@ -849,7 +849,7 @@ a.is-active,
 }
 
 .node--type-organisation-membre #views-bootstrap-documents-block-3 .wrapping {
-    margin: 10% auto;
+    margin: 1.75rem auto;
     background-color: var(--color7);
     padding: 0;
 }
@@ -1420,7 +1420,7 @@ a.is-active,
 
 /*onglet documents récents*/
 #views-bootstrap-documents-block-2 .wrapping {
-    margin: 10% auto;
+    margin: 1.75rem auto;
     background-color: var(--color7);
     padding: 0;
 }
