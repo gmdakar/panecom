@@ -112,18 +112,10 @@
 			var langCode = drupalSettings.path.currentLanguage;
 			$("."+langCode+".nav-link").addClass("is-active"); //force active lang (hack js car pas d'explication sur le bug)
 			
-            /*onload page: make focus to first element sidebar menu organisation membre */
-			$(".sidebar #block-menuorganisationmembre.block li:first-child a").addClass( "focused");
-			
-			$(".sidebar #block-menuorganisationmembre.block li a").on('click',function(e) {
-				$(".sidebar #block-menuorganisationmembre.block li a").removeClass( "focused" );
-				$(this).addClass( "focused" );
+			$('#block-menuorganisationmembre.block li:first-child a').addClass("is-active");
+			$('#block-menuorganisationmembre.block li a').click(function() {
+			  $("#block-menuorganisationmembre.block li a").removeClass("is-active");
 			});
-			
-			/*order columns counters*/
-			$( ".highlight.organisation_membre" ).closest(".column").addClass("order-1");
-			$( ".highlight.projet" ).closest(".column").addClass("order-2");
-			$( ".highlight.document" ).closest(".column").addClass("order-3");
 			
         }
   };
@@ -156,10 +148,23 @@
 				autoplay: true,
 			  });*/
 			  
-			  
-			$('.block-views-blockles--block-2 .view-content.row').slick({
+			if ($('#block-views-block-les-block-2 .view-content.row'))
+				slick_carousel($('#block-views-block-les-block-2 .view-content.row'));
+			
+			if( $('#actualites .view-content.row'))
+				slick_carousel($('#actualites .view-content.row'));
+			
+			
+        }
+  };
+
+})(jQuery, Drupal);
+
+function slick_carousel(obj){
+	
+	obj.slick({
 			  centerMode: true,
-			  centerPadding: '17%',
+			  centerPadding: '9.8%',
 			  slidesToShow: 1,
 			  autoplay: false,
 			  dots: true,
@@ -189,8 +194,4 @@
 				}
 			  ]
 			});
-			
-        }
-  };
-
-})(jQuery, Drupal);
+}
