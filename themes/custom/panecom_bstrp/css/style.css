@@ -122,15 +122,27 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     color: #fff;
 }
 
-.view nav{
-	max-width: 250px;
-	margin: 0 auto;
+.view nav {
+    max-width: 250px;
+    margin: 0.5rem auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.pagination a[rel="prev"] span, .pagination a[rel="next"] span {
+    color: var(--color10) !important;
+}
+
+.pagination li.page-item {
+    border: 1px solid #2c2c2c15;
 }
 
 .pagination .page-link{
 	border: none;
 	font-size: .92rem;
 	font-weight: 300;
+	color: var(--color3);
 }
 
 .pagination li.active .page-link{
