@@ -20,6 +20,7 @@
   --color9: #ACACAC;
   --color10: #353535;
   --color11: #F6F4F0;
+  --color12: #F3F3F3;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -1677,7 +1678,7 @@ a.is-active,
 }
 
 #block-blockteam .block-views-blockpersonnes-cles-block-2 {
-    padding: 5rem 5%;
+    padding: 5rem 5% 6rem 5%;
 }
 
 #block-blockteam .block-views-blockpersonnes-cles-block-2 .wrapping {
@@ -1773,11 +1774,39 @@ a.is-active,
 
 /*Partenaires*/
 #block-views-block-partenaires-block-1 {
-    padding: 5rem 10%;
+	padding: 9rem 5% 5rem 5%;
 }
 
 #views-bootstrap-partenaires-block-1 {
     width: 100%;
+}
+
+#views-bootstrap-partenaires-block-1 .views-field.views-field-title {
+    margin: 1rem auto;
+	font-size: 1.31rem;
+	font-weight: 400;
+}
+
+#views-bootstrap-partenaires-block-1 .views-field.views-field-field-partenaire-siteweb {
+    background-color: var(--color12);
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    border: 1px solid #a8a8a85e;	
+	position: relative;
+	margin: 0 auto;
+}
+
+#views-bootstrap-partenaires-block-1 .views-field.views-field-field-partenaire-siteweb .content img {
+    max-width: 80%;
+}
+
+#views-bootstrap-partenaires-block-1 .views-field.views-field-field-partenaire-siteweb div {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #views-bootstrap-partenaires-block-1 .wrapping {
