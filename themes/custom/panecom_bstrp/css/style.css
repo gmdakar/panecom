@@ -124,7 +124,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 
 .view nav {
     max-width: 250px;
-    margin: 0.5rem auto;
+    margin: 1.1rem auto;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
@@ -806,13 +806,8 @@ li.sf-depth-1 ul{
 }
 
 #views-bootstrap-documents-block-2 .wrapping {
-	width: 95%;
-	min-width: 92%;
-	min-height: 485px;
-}
-
-.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping {
-	width: 95%;
+	width: 93%;
+	min-width: 93%;
 	min-height: 485px;
 }
 
@@ -878,7 +873,10 @@ a.is-active,
 }
 
 .node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping {
-    margin: 1.6rem auto;
+	width: 93%;
+	min-width: 93%;
+	min-height: 485px;
+    margin: 1.5rem auto;
     background-color: var(--color7);
     padding: 0;
 }
@@ -888,7 +886,7 @@ a.is-active,
 }
 
 .node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping > div {
-    padding: 0 1rem .5rem 1rem;
+    padding: 0 1rem .5rem 1.3rem;
 }
 
 .node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .org_logo{
@@ -974,6 +972,16 @@ a.is-active,
 	top: .25rem;
 }
 
+.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier .field-content a{
+    color: var(--color6);
+	font-size: 1rem;
+}
+
+.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier-1 .field-content a{
+    color: var(--color6);
+	font-size: 1rem;
+}
+
 .node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier-1 .field-content {
     display: inline-block;
     margin: 0 .85rem;
@@ -1041,6 +1049,11 @@ a.is-active,
     color: var(--color3);
 	font-weight: 600 !important;
 	padding-bottom: 0;
+}
+
+.node--type-organisation-membre #mediatheque .videoWrapper iframe {
+    width: 90%;
+    height: 90%;
 }
 /**/
 
@@ -1514,7 +1527,7 @@ a.is-active,
 
 /*onglet documents récents*/
 #views-bootstrap-documents-block-2 .wrapping {
-    margin: 1.6rem auto;
+    margin: 1.5rem auto;
     background-color: var(--color7);
     padding: 0;
 }
@@ -1598,6 +1611,16 @@ a.is-active,
 #views-bootstrap-documents-block-2 .views-field-field-document-fichier .field-content {
     display: inline-block;
     margin: 0 .85rem;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier .field-content a{
+    color: var(--color6);
+	font-size: 1rem;
+}
+
+#views-bootstrap-documents-block-2 .views-field-field-document-fichier-1 .field-content a{
+    color: var(--color6);
+	font-size: 1rem;
 }
 
 #views-bootstrap-documents-block-2 .views-field-field-document-fichier-1::before {
@@ -2480,11 +2503,11 @@ section.row.region.region-footer-first {
 	}
 	
 	#views-bootstrap-documents-block-2 .wrapping > div {
-		padding: 0 1rem 1.15rem 1rem;
+		padding: 0 1rem 1.15rem 1.3rem;
 	}
 	
 	.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping > div {
-		padding: 0 1rem 1.15rem 1rem;
+		padding: 0 1rem 1.15rem 1.3rem;
 	}
 	
 		
