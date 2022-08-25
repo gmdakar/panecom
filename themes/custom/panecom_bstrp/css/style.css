@@ -873,7 +873,6 @@ a.is-active,
 }
 
 /*documents d'une organisation*/
-
 .node--type-organisation-membre #documents{
 	margin: 4rem auto;
 }
@@ -979,6 +978,71 @@ a.is-active,
     display: inline-block;
     margin: 0 .85rem;
 }
+
+/* tabs onglets - mediatheque d'une organisation*/
+.node--type-organisation-membre #mediatheque {
+    position: relative;
+	overflow-x: hidden;
+}
+
+.node--type-organisation-membre #mediatheque .details-wrapper .field__label{
+	display: none;
+}
+
+.node--type-organisation-membre #mediatheque .horizontal-tabs .horizontal-tabs-list,
+.node--type-organisation-membre #mediatheque .horizontal-tabs .horizontal-tab-button,
+.node--type-organisation-membre #mediatheque .horizontal-tabs {
+    border: none;
+	background: none;
+}
+
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button {
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    width: 50%;
+}
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button {
+    margin: 1px 0 0 0;
+}
+
+/*
+.node--type-organisation-membre #mediatheque .view-header .field--name-body {
+    margin-left: -1em;
+    width: auto;
+}
+
+.node--type-organisation-membre #mediatheque .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    display: inline-block;
+    width: 100%;
+}*/
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button {
+	border: none;
+    border-bottom: 2px solid var(--color6) !important;
+    background-color: #fff;
+}
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button a{
+    color: #2C2C2C;
+	font-size: 1rem;
+	padding-bottom: .15rem;
+	font-weight: 300 !important;
+	font-style: normal !important;
+}
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button.selected {
+    border-bottom: 5px solid var(--color3) !important;
+    background-color: #fff;
+}
+
+.node--type-organisation-membre #mediatheque .horizontal-tab-button.selected a{
+    color: var(--color3);
+	font-weight: 600 !important;
+	padding-bottom: 0;
+}
+/**/
 
 .view-id-documents.view-display-id-block_2  .more-link a {
     color: var(--color3);
@@ -2191,6 +2255,18 @@ section.row.region.region-footer-first {
 	}
 	
 	#block-tabsongletsprojetsxdocuments {
+		padding: 8rem 10% 4rem 10%;
+	}
+	
+	.node--type-organisation-membre #mediatheque .view-header .field--name-body{
+		width: auto;
+	}
+	
+	.node--type-organisation-membre #mediatheque .horizontal-tab-button a{
+		font-size: 2rem;
+	}
+	
+	.node--type-organisation-membre #mediatheque {
 		padding: 8rem 10% 4rem 10%;
 	}
 	
