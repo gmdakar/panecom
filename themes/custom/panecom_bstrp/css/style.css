@@ -992,10 +992,17 @@ a.is-active,
 .node--type-organisation-membre #mediatheque {
     position: relative;
 	overflow-x: hidden;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
 }
 
 .node--type-organisation-membre #mediatheque .details-wrapper .field__label{
 	display: none;
+}
+
+.node--type-organisation-membre #mediatheque details[open] summary{
+	color: var(--color3);
+	font-weight: 500;
 }
 
 .node--type-organisation-membre #mediatheque .horizontal-tabs .horizontal-tabs-list,
@@ -1004,19 +1011,27 @@ a.is-active,
     border: none;
 	background: none;
 }
-
-.node--type-organisation-membre #mediatheque .field--name-field-org-photos.field--type-entity-reference.field__items {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin: 0 15px 0 15px;
+.node--type-organisation-membre #mediatheque .details-wrapper {
+    margin: 1.25rem auto;
 }
 
-.node--type-organisation-membre #mediatheque .field--name-field-org-photos.field--type-entity-reference.field__items > .field__item{
-	-ms-flex: 0 0 33.33%;
-	flex: 0 0 33.33%;
-	max-width: 33.33%;
+.node--type-organisation-membre #mediatheque article,
+.node--type-organisation-membre #mediatheque #edit-group-photos {
+    margin: 2.5rem auto;
+}
+
+.node--type-organisation-membre #mediatheque .media-library-item__name {
+    margin-bottom: 4rem;
+}
+
+.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items .node .field--type-image {
+    float: left;
+    margin: 0.5em 1em;
+}
+
+.node--type-organisation-membre #mediatheque .myButton img {
+    min-width: 100%;
+	width: 500px;
 }
 
 .node--type-organisation-membre #mediatheque .horizontal-tab-button {
@@ -2330,7 +2345,7 @@ section.row.region.region-footer-first {
 	}
 	
 	.node--type-organisation-membre #mediatheque .horizontal-tab-button a{
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	
 	.node--type-organisation-membre #mediatheque {
@@ -2417,6 +2432,33 @@ section.row.region.region-footer-first {
 	.node--type-organisation-membre .view-documents .form-actions {
 		position: relative;
 		top: -1.65rem;
+	}
+	
+	.node--type-organisation-membre #mediatheque {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 4rem 15px;
+	}
+
+	.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items > .field__item{
+		-ms-flex: 0 0 33.33%;
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+	
+	.node--type-organisation-membre #mediatheque #edit-group-photos {
+		margin: 1.5rem auto;
+	}
+	
+	.node--type-organisation-membre #mediatheque article{
+		margin: 0 auto;
 	}
 	
 }
