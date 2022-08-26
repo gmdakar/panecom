@@ -996,7 +996,7 @@ li.sf-depth-1 ul{
     position: relative;
 	overflow-x: hidden;
 	margin-top: 8rem;
-	margin-bottom: 4rem;
+	margin-bottom: 0;
 }
 
 .node--type-organisation-membre #mediatheque .field--type-image {
@@ -1101,22 +1101,8 @@ li.sf-depth-1 ul{
 }
 
 /*Contact et localisation d'une organisation*/
-
-.node--type-organisation-membre #contact-localisation{
-	background-color: var(--color7);
-	margin-left: -15px;
-	margin-right: -15px;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	overflow-x: hidden;
-}
-	
 .node--type-organisation-membre #contact {
-    max-width: 40%;
-    height: 550px;
-    position: relative;
-    padding-right: 5%;
-    margin-left: 10%;
+    margin-top : 3rem;
 }
 
 .node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li span a {
@@ -1170,19 +1156,8 @@ li.sf-depth-1 ul{
 .node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li {
     margin: 1.35rem 0;
 }
-
-.node--type-organisation-membre #localisation {
-    max-width: 42%;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    height: auto;
-    margin-right: 10%;
-}
-
+	
 .node--type-organisation-membre #localisation .leaflet-container {
-    margin-top: 3.5rem;
-    max-height: 450px;
 	border: 1px solid var(--color9);
 }
 
@@ -2444,6 +2419,12 @@ section.row.region.region-footer-first {
 		padding: 2rem 10% 4rem 10%;
 	}
 	
+	.node--type-organisation-membre #mediatheque {
+		margin-top: 6rem;
+		margin-bottom: 2rem;
+	}
+
+	
 	.node--type-organisation-membre #mediatheque .view-header .field--name-body{
 		width: auto;
 	}
@@ -2453,7 +2434,7 @@ section.row.region.region-footer-first {
 	}
 	
 	.node--type-organisation-membre #mediatheque {
-		padding: 8rem 5% 4rem 5%;
+		padding: 6rem 5% 2rem 5%;
 	}
 	
 	.view-id-projets.view-display-id-block_3 .other-except-image .wrapping .row > div:last-child {
@@ -2539,8 +2520,8 @@ section.row.region.region-footer-first {
 	}
 	
 	.node--type-organisation-membre #mediatheque {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items {
@@ -2565,6 +2546,41 @@ section.row.region.region-footer-first {
 		margin: 0 auto;
 	}
 	
+	.node--type-organisation-membre #contact-localisation{
+		background-color: var(--color7);
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		overflow-x: hidden;
+	}
+		
+	.node--type-organisation-membre #contact {
+		max-width: 40%;
+		height: 550px;
+		position: relative;
+		padding-right: 5%;
+		margin-left: 10%;
+	}
+	
+	.node--type-organisation-membre #localisation {
+		max-width: 42%;
+		position: absolute;
+		right: 0;
+		width: 100%;
+		height: auto;
+		margin-right: 10%;
+	}
+	
+	.node--type-organisation-membre #localisation .leaflet-container {
+		margin-top: 3.5rem;
+		max-height: 450px;
+	}
+	
+	.node--type-organisation-membre #localisation > h2 {
+		display: none;
+	}
+		
 }
 
 /*pour les trés "grands" écrans uniquement*/
