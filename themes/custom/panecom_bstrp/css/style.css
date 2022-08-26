@@ -802,7 +802,7 @@ li.sf-depth-1 ul{
 
 .node--type-organisation-membre #block-menuorganisationmembre li.nav-item a{
 	color: var(--color10);
-	font-size: 1.1rem;
+	font-size: 1.05rem;
 	font-weight: 500;
 }
 
@@ -996,6 +996,10 @@ li.sf-depth-1 ul{
 	margin-bottom: 4rem;
 }
 
+.node--type-organisation-membre #mediatheque .field--type-image {
+    margin: 0 0.5em 0 0.5em;
+}
+
 .node--type-organisation-membre #mediatheque .details-wrapper .field__label{
 	display: none;
 }
@@ -1011,6 +1015,12 @@ li.sf-depth-1 ul{
     border: none;
 	background: none;
 }
+
+.node--type-organisation-membre #mediatheque h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
 .node--type-organisation-membre #mediatheque .details-wrapper {
     margin: 1.25rem auto;
 }
@@ -1086,6 +1096,38 @@ li.sf-depth-1 ul{
     width: 90%;
     height: 90%;
 }
+
+/*Contact et localisation d'une organisation*/
+.node--type-organisation-membre #contact {
+    max-width: 40%;
+    height: 550px;
+    position: relative;
+    padding-right: 5%;
+    margin-left: 5%;
+}
+
+.node--type-organisation-membre #contact > div {
+    margin: 1.1rem 0;
+}
+
+.node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li {
+    margin: 1rem 0;
+}
+
+.node--type-organisation-membre #localisation {
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin-right: 5%;
+}
+
+.node--type-organisation-membre #localisation .leaflet-container {
+    margin-top: 3.5rem;
+    max-height: 450px;
+}
+
 /**/
 
 .view-id-documents.view-display-id-block_2  .more-link a {
@@ -2502,6 +2544,14 @@ section.row.region.region-footer-first {
 	#views-bootstrap-documents-block-2 .wrapping > div {
 		padding: 0 0 1.15rem 1rem;
 	}
+	
+    #block-menuorganisationmembre ul{
+		display: block !important;
+	}
+	
+	.node--type-organisation-membre #block-menuorganisationmembre li.nav-item a {
+		font-size: .85rem;
+	}
 
 }
 
@@ -2596,9 +2646,8 @@ section.row.region.region-footer-first {
 		padding: 0 1rem 1.15rem 1.3rem;
 	}
 	
-		
-	#block-menuorganisationmembre ul{
-		display: block !important;
+	.node--type-organisation-membre #block-menuorganisationmembre li.nav-item a {
+		font-size: 1.05rem;
 	}
 	
 }
