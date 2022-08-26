@@ -21,6 +21,7 @@
   --color10: #353535;
   --color11: #F6F4F0;
   --color12: #F3F3F3;
+  --color13: #09637E;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -870,7 +871,8 @@ li.sf-depth-1 ul{
 
 /*documents d'une organisation*/
 .node--type-organisation-membre #documents{
-	margin: 4rem auto;
+	margin: 10rem auto;
+	margin-bottom: 6rem;
 }
 
 .node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping {
@@ -1098,29 +1100,53 @@ li.sf-depth-1 ul{
 }
 
 /*Contact et localisation d'une organisation*/
+
+.node--type-organisation-membre #contact-localisation{
+	background-color: var(--color7);
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	overflow-x: hidden;
+}
+	
 .node--type-organisation-membre #contact {
     max-width: 40%;
     height: 550px;
     position: relative;
     padding-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
+}
+
+.node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li span a {
+    position: relative;
+    top: -0.5rem;
+    left: 0.5rem;
+}
+
+.node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li a {
+	color: var(--color10);
+}
+
+.node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li span.fa {
+	color: var(--color13);
 }
 
 .node--type-organisation-membre #contact > div {
-    margin: 1.1rem 0;
+    margin: 1.25rem 0;
 }
 
 .node--type-organisation-membre #contact .social-media-links--platforms.platforms.vertical li {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .node--type-organisation-membre #localisation {
-    max-width: 40%;
+    max-width: 42%;
     position: absolute;
     right: 0;
     width: 100%;
     height: auto;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .node--type-organisation-membre #localisation .leaflet-container {
@@ -2379,7 +2405,7 @@ section.row.region.region-footer-first {
 	}
 	
 	#block-tabsongletsprojetsxdocuments {
-		padding: 8rem 10% 4rem 10%;
+		padding: 2rem 10% 4rem 10%;
 	}
 	
 	.node--type-organisation-membre #mediatheque .view-header .field--name-body{
