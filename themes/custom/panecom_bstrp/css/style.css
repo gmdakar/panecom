@@ -812,7 +812,7 @@ li.sf-depth-1 ul{
 	min-height: 485px;
 }
 
-a.is-active,
+.node--type-organisation-membre a.is-active,
 .node--type-organisation-membre a.toscroll.nav-link:focus, 
 .node--type-organisation-membre a.toscroll.nav-link:active {
     color: var(--color3) !important;
