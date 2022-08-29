@@ -139,7 +139,8 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 .pagination li.page-item {
-    border: 1px solid #2c2c2c15;
+    /*border: 1px solid #2c2c2c15;*/
+	border: none;
 }
 
 .pagination .page-link{
@@ -147,12 +148,18 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 	font-size: .92rem;
 	font-weight: 300;
 	color: var(--color3);
+	border: none !important;
 }
 
 .pagination li.active .page-link{
-	border: none;
 	background-color: var(--color3);
     border-color: var(--color3);
+	border-radius: 0;
+	color: #fff !important;
+}
+
+.pagination .page-link {
+    color: #000 !important;
 }
 
 /*main menu*/
@@ -411,6 +418,24 @@ header #search-block-form {
     border-radius: 45px;
     width: 400px;
     max-width: 100%;
+}
+
+.views-exposed-form fieldset::after {
+    color: #fff;
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    background-color: var(--color3);
+    font-size: 1.2rem;
+    position: relative;
+    top: -2.25rem;
+    display: inline-block;
+    right: -16.5rem;
+    height: 34px;
+    width: 34px;
+    border-radius: 34px;
+    padding-left: 0.45rem;
+    padding-top: 0.15rem;
 }
 
 .path-frontpage .view-les-organisations .wrapping {
@@ -2510,7 +2535,7 @@ section.row.region.region-footer-first {
 	
 	#views-exposed-form-les-organisations-page-2 .form-actions {
 		position: relative;
-		top: -1.5rem;
+		top: -2.1rem;
 	}
 		
 }
