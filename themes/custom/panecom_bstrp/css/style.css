@@ -89,6 +89,27 @@ header#header {
   /*  margin-top: 100px;*/
 }
 
+.user-logged-in #block-panecom-bstrp-account-menu a, .user-logged-in #block-panecom-bstrp-account-menu span {
+    font-size: .85rem !important;
+    margin: 0 0.15rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: normal;
+}
+
+.user-logged-in #block-panecom-bstrp-account-menu .nav-link {
+    width: auto;
+}
+
+a.nav-link.nav-link--fr-user-logout {
+	
+	padding-bottom: 1rem !important;
+}
+
+a.nav-link.nav-link--fr-user {
+    padding-top: 1rem !important;
+}
+
 body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
     top: 0 !important;
 }
