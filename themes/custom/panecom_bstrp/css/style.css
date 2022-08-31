@@ -68,6 +68,10 @@ main#content {
 .logomenu img {
     width:  50%;
 }
+
+header#header {
+	min-height: 90px;
+}
  
 .path-frontpage header#header {
 	min-height: 500px;
@@ -169,14 +173,14 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 
 /*main menu*/
 #navbar-main {
-    background-color: transparent;
     padding: 0 0 0 3%;
     position: absolute;
     top: 0;
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
     box-shadow: 0 0 12px 8px #0527391c;
 	min-height: 90px;
+	background-color: var(--color15) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 #navbar-main .navbar-collapse {
@@ -679,10 +683,11 @@ li.sf-depth-1 ul{
 }
 
 /*full page liste organisations*/
-.page-view-les-organisations #navbar-main {
-    background-color: var(--color15) !important;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+.path-frontpage #navbar-main,
+.node--type-organisation-membre #navbar-main {
+    background-color: transparent !important;;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 
 .page-view-les-organisations .view-les-organisations .view-header {
