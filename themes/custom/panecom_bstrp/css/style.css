@@ -2522,6 +2522,14 @@ section.row.region.region-footer-first {
 		margin: 4rem 6rem;
 	}
 	
+	.node--type-organisation-membre .field--name-field-org-logo {
+		top: -8rem;
+	}
+	
+	.node--type-organisation-membre span.page-link {
+		color: var(--color3) !important;
+	}
+
 	.node--type-organisation-membre #block-menuorganisationmembre,
 	.node--type-organisation-membre #block-panecom-bstrp-page-title,
 	.node--type-organisation-membre #presentation,
