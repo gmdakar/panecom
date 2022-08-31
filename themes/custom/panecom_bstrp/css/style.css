@@ -92,9 +92,9 @@ header#header {
 .user-logged-in #block-panecom-bstrp-account-menu a, .user-logged-in #block-panecom-bstrp-account-menu span {
     font-size: .85rem !important;
     margin: 0 0.15rem;
-	font-family: 'Rubik' !important;
+	font-family: 'Roboto' !important;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300 !important;
 }
 
 .user-logged-in #block-panecom-bstrp-account-menu .nav-link {
@@ -107,7 +107,7 @@ a.nav-link.nav-link--fr-user-logout {
 }
 
 a.nav-link.nav-link--fr-user {
-    padding-top: 1rem !important;
+    padding-top: 1.15rem !important;
 }
 
 body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
