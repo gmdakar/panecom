@@ -131,12 +131,12 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     max-width: 250px;
     margin: 1.1rem auto;
     position: absolute;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, 0);
 }
 
 .pagination {
-    width: 200px;
+    width: 300px;
 }
 
 .pagination a[rel="prev"] span, .pagination a[rel="next"] span {
@@ -418,6 +418,10 @@ header #search-block-form {
 	border: none;
 }
 
+.views-exposed-form .form-row>fieldset {
+   position: relative;
+}
+
 .views-exposed-form fieldset input {
     background-color: var(--color8);
     border-radius: 45px;
@@ -432,15 +436,19 @@ header #search-block-form {
     font-weight: 600;
     background-color: var(--color3);
     font-size: 1.2rem;
-    position: relative;
-    top: -2.25rem;
+    position: absolute;
+    top: 0.15rem;
     display: inline-block;
-    right: -16.5rem;
+    right: 0.5rem;
     height: 34px;
     width: 34px;
     border-radius: 34px;
     padding-left: 0.45rem;
     padding-top: 0.15rem;
+}
+
+.views-exposed-form .form-row .form-actions {
+    margin: 0 auto;
 }
 
 .path-frontpage .view-les-organisations .wrapping {
@@ -1026,7 +1034,7 @@ li.sf-depth-1 ul{
 .node--type-organisation-membre #mediatheque {
     position: relative;
 	overflow-x: hidden;
-	margin-top: 8rem;
+	margin-top: 8rem; 
 	margin-bottom: 0;
 }
 
@@ -1189,6 +1197,15 @@ li.sf-depth-1 ul{
 	
 .node--type-organisation-membre #localisation .leaflet-container {
 	border: 1px solid var(--color9);
+}
+
+/*pagination d'une organisation*/
+.node--type-organisation-membre .view nav {
+    max-width: 150px;
+	left: 55%;
+}
+.node--type-organisation-membre .pagination {
+    width: 150px;
 }
 
 /**/
@@ -2175,6 +2192,19 @@ section.row.region.region-footer-first {
 		margin-bottom: 8rem;
 	}
 	
+	.view nav {
+		left: 50%;
+	}
+	
+	.views-exposed-form .form-row .form-actions {
+		margin: unset;
+		margin-bottom: 1rem;
+	}
+	
+	.node--type-organisation-membre .view nav {
+		left: 50%;
+	}
+	
 	.node--type-organisation-membre #main,
 	.path-frontpage #main{
 		padding: unset;
@@ -2614,7 +2644,7 @@ section.row.region.region-footer-first {
 	
 	#views-exposed-form-les-organisations-page-2 .form-actions {
 		position: relative;
-		top: -2.1rem;
+		top: -1.6rem;
 	}
 	
 	.view-les-organisations .wrapping {
