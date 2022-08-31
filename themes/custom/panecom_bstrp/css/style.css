@@ -778,6 +778,10 @@ li.sf-depth-1 ul{
     font-size: 1.7rem !important;
 }
 
+.node--type-organisation-membre span.page-link {
+	color: var(--color3) !important;
+}
+	
 .node--type-organisation-membre .field--name-field-org-logo {
     position: absolute;
     top: -5rem;
@@ -2524,10 +2528,6 @@ section.row.region.region-footer-first {
 	
 	.node--type-organisation-membre .field--name-field-org-logo {
 		top: -8rem;
-	}
-	
-	.node--type-organisation-membre span.page-link {
-		color: var(--color3) !important;
 	}
 
 	.node--type-organisation-membre #block-menuorganisationmembre,
