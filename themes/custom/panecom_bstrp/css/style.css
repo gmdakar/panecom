@@ -92,7 +92,7 @@ header#header {
 .user-logged-in #block-panecom-bstrp-account-menu a, .user-logged-in #block-panecom-bstrp-account-menu span {
     font-size: .85rem !important;
     margin: 0 0.15rem;
-	font-family: 'Rubik';
+	font-family: 'Rubik' !important;
 	font-style: normal;
 	font-weight: normal;
 }
