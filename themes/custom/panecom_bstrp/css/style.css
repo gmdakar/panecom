@@ -72,6 +72,10 @@ main#content {
 header#header {
 	min-height: 90px;
 }
+
+header#header {
+	position: relative;
+}
  
 .path-frontpage header#header {
 	min-height: 500px;
@@ -82,11 +86,15 @@ header#header {
 }
 
 .user-logged-in #main {
-    margin-top: 100px;
+  /*  margin-top: 100px;*/
 }
 
 body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
-    top: 0;
+    top: 0 !important;
+}
+
+body.adminimal-admin-toolbar.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.adminimal-admin-toolbar.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
+    /*top: 80px;*/
 }
 
 header#header ul:not(.contextual-links) a,
