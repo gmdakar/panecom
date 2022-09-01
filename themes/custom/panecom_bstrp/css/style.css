@@ -177,7 +177,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 .pagination li.page-item {
-    /*border: 1px solid #2c2c2c15;*/
+    /*border: 1px solid var(--color6)15;*/
 	border: none;
 }
 
@@ -613,7 +613,7 @@ li.sf-depth-1 ul{
 }
 
 .org_logo_title .org_sigle a{
-    font-size: 1.15em !important;
+    font-size: 1.15em;
 	font-weight: 500;
 	color: var(--color6);
 }
@@ -649,8 +649,8 @@ li.sf-depth-1 ul{
     transform: translate(-50%, -50%);
 }
 
-.org_logo_title .org_title a {
-    font-size: .85rem;
+.sidebar .org_logo_title .org_title a {
+    font-size: 1rem;
     color: var(--color5);
 }
 
@@ -730,7 +730,7 @@ li.sf-depth-1 ul{
 
 /*side bar les derniers projets*/
 .page-view-les-organisations #block-views-block-projets-block-1 {
-    margin-top: 13rem;
+    margin-top: 12.5rem;
 }
 
 .page-view-les-organisations #block-views-block-projets-block-1 .wrapping{
@@ -738,7 +738,7 @@ li.sf-depth-1 ul{
 	padding-left: 15px;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 li .wrapping::after {
+.sidebar li .wrapping::after {
     content: "";
     display: block;
     height: 1.75px;
@@ -749,10 +749,9 @@ li.sf-depth-1 ul{
     margin-top: 2rem;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 li:last-child .wrapping::after {
+.sidebar  li:last-child .wrapping::after {
     display: none;
 }
-
 
 .page-view-les-organisations .sidebar h2 {
     border: none; 
@@ -792,9 +791,11 @@ li.sf-depth-1 ul{
     margin-left: -15px;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .projet_date {
+time,
+.projet_date {
     color: var(--color9);
-	font-size: .85rem;
+	font-size: 1rem;
+	text-transform: capitalize;
 }
 
 /*une organisation (node)*/
@@ -942,7 +943,7 @@ li.sf-depth-1 ul{
 
 .node--type-organisation-membre .projets-org .views-field-body{
     font-size: 1rem;
-	color: #2C2C2Caa;
+	color: var(--color6)aa;
 	font-family: 'Rubik';
 	font-style: normal;
 }
@@ -1154,7 +1155,7 @@ li.sf-depth-1 ul{
 }
 
 .node--type-organisation-membre #mediatheque .horizontal-tab-button a{
-    color: #2C2C2C;
+    color: var(--color6);
 	font-size: 1rem;
 	padding-bottom: .15rem;
 	font-weight: 300 !important;
@@ -1238,14 +1239,99 @@ li.sf-depth-1 ul{
 }
 
 /*liste des projets*/
-.view-id-projets #views-bootstrap-projets-page-1 > div > div > .wrapping {
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 > div > div > .wrapping {
     margin: 1rem auto;
     background-color: var(--color7);
     min-height: 316px;
     padding: 16px;
 }
 
-.view-id-projets .views-field.views-field-field-projet-photos {
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-title a {
+    font-size: 1.5rem;
+}
+
+/*
+.org_logo_b {
+    position: relative;
+    margin: 0 1.75rem;
+}
+
+.org_logo_b > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+	padding: 0 0.5rem;
+	background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+    border: 1px solid #a8a8a85e;
+}
+
+.org_logo_b a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.org_logo a:hover,
+.org_logo_b a:hover {
+    text-decoration: none;
+}*/
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .org_logo_title .org_title {
+    height: 50px;
+}
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-title a {
+    font-size: 1.5rem;
+	color: var(--color6);
+}
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing,
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing a {
+    font-size: 1rem;
+	color: unset;
+}
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing {
+    margin: 1rem auto;
+    margin-left: -35px;
+}
+
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .org_logo_title .org_title > div {
+	margin-left: -30px;
+}
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 time {
+    color: unset;
+}
+
+.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-body{
+    color: var(--color9);
+	font-size: 1rem;
+}
+
+
+.sidebar .item-list ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.page-view-projets .sidebar .org_logo_title .org_title {
+    height: 65px;
+}
+
+.page-view-projets .sidebar .org_logo_title {
+    margin-left: -10px;
+}
+
+.page-view-projets .view-id-projets .views-field.views-field-field-projet-photos {
     float: left;
     margin-right: 2rem;
 }
@@ -1613,7 +1699,7 @@ li.sf-depth-1 ul{
 }
 
 #block-tabsongletsprojetsxdocuments li.ui-tabs-tab.ui-tab a{
-    color: #2C2C2C;
+    color: var(--color6);
 	font-size: 1rem;
 	padding-bottom: .15rem;
 	font-weight: 300;
@@ -2814,7 +2900,7 @@ section.row.region.region-footer-first {
 	}
 	
 	#block-panecom-bstrp-account-menu .nav-link span{
-		padding: 0 .25rem;
+		padding: 0 0.25rem 0.25rem 0.25rem;
 		display: inline-block;
 	}
 	
