@@ -148,10 +148,10 @@
 				autoplay: true,
 			  });*/
 			  
-			if ($('#block-views-block-les-block-2 .view-content.row'))
+			if ($('#block-views-block-les-block-2 .view-content.row').length)
 				slick_carousel($('#block-views-block-les-block-2 .view-content.row'));
 			
-			if( $('#actualites .view-content.row'))
+			if( $('#actualites .view-content.row').length)
 				slick_carousel($('#actualites .view-content.row'));
 			
 			
@@ -164,7 +164,7 @@ function slick_carousel(obj){
 	
 	obj.slick({
 			  centerMode: true,
-			  centerPadding: '9.6%',
+			  centerPadding: '15%',
 			  slidesToShow: 1,
 			  autoplay: false,
 			  dots: true,
