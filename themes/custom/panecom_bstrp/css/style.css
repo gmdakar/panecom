@@ -1237,6 +1237,44 @@ li.sf-depth-1 ul{
 	border: 1px solid var(--color9);
 }
 
+/*liste des projets*/
+.view-id-projets #views-bootstrap-projets-page-1 > div > div > .wrapping {
+    margin: 1rem auto;
+    background-color: var(--color7);
+    min-height: 316px;
+    padding: 16px;
+}
+
+.view-id-projets .views-field.views-field-field-projet-photos {
+    float: left;
+    margin-right: 2rem;
+}
+
+.page-view-projets .sidebar .block,
+.page-view-projets .sidebar h2 {
+    border: none;
+    font-size: 1.56rem;
+}
+
+.page-view-projets .sidebar .views-field.views-field-title a {
+    font-size: 1.15rem;
+    color: var(--color6);
+}
+
+.page-view-projets .sidebar .wrapping {
+    margin-bottom: 2.25rem;
+    padding-left: 15px;
+}
+
+.page-view-projets .sidebar {
+    margin-top: 5.35rem;
+    margin-right: -7.5px;
+}
+
+.page-view-projets .sidebar .views-field-field-image img{
+	width: 100%;
+}
+
 /*pagination d'une organisation*/
 .node--type-organisation-membre .view nav {
     max-width: 150px;
@@ -2239,6 +2277,11 @@ section.row.region.region-footer-first {
 		margin-bottom: 1rem;
 	}
 	
+	.view-id-projets .views-exposed-form .form-row .form-actions {
+		margin: unset;
+		margin-bottom: 2.5rem;
+	}
+		
 	.node--type-organisation-membre .view nav {
 		left: 50%;
 	}
@@ -2250,6 +2293,10 @@ section.row.region.region-footer-first {
 	
 	.view-les-organisations .views-view-grid > .row {
 		margin:0;
+	}
+	
+	.view-id-projets .views-view-grid > .row {
+		margin: 0;
 	}
 		
 	/** special Organisation breadcrumb**/
