@@ -729,15 +729,19 @@ li.sf-depth-1 ul{
 }
 
 /*side bar les derniers projets*/
+#block-views-block-projets-block-1 {
+    margin-top: 0rem;
+}
+
 .page-view-les-organisations #block-views-block-projets-block-1 {
     margin-top: 12.5rem;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .wrapping{
+#block-views-block-projets-block-1 .wrapping{
     margin-bottom: 2.25rem;
 }
 
-.sidebar li .wrapping::after {
+.sidebar .block li .wrapping::after {
     content: "";
     display: block;
     height: 1.75px;
@@ -748,32 +752,32 @@ li.sf-depth-1 ul{
     margin-top: 2rem;
 }
 
-.sidebar  li:last-child .wrapping::after {
+.sidebar .block li:last-child .wrapping::after {
     display: none;
 }
 
-.page-view-les-organisations .sidebar h2 {
+.sidebar h2 {
     border: none; 
 	font-size: 1.56rem;
 }
-.page-view-les-organisations .sidebar .block {
+.sidebar .block {
     border: none;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .views-field.views-field-title a {
+#block-views-block-projets-block-1 .views-field.views-field-title a {
     font-size: 1.25rem;
 	color: var(--color6);
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .views-field.views-field-title {
+#block-views-block-projets-block-1 .views-field.views-field-title {
     margin-top: 0.5rem;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .views-field.views-field-nothing {
+#block-views-block-projets-block-1 .views-field.views-field-nothing {
     margin: .1rem auto;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .org_logo_title .org_logo > div {
+#block-views-block-projets-block-1 .org_logo_title .org_logo > div {
     background-color: #fff;
     height: 42px;
     width: 42px;
@@ -781,12 +785,12 @@ li.sf-depth-1 ul{
     border: 1px solid #a8a8a85e;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .org_logo_title .org_title {
+#block-views-block-projets-block-1 .org_logo_title .org_title {
     height: 65px;
 	font-size: .85rem;
 }
 
-.page-view-les-organisations #block-views-block-projets-block-1 .org_logo_title {
+#block-views-block-projets-block-1 .org_logo_title {
     margin-left: -15px;
 }
 
@@ -1329,8 +1333,8 @@ time,
     margin-left: -10px;
 }
 
-.page-view-projets .sidebar .block,
-.page-view-projets .sidebar h2 {
+.sidebar .block,
+.sidebar h2 {
     border: none;
     font-size: 1.56rem;
 }
@@ -2848,7 +2852,7 @@ section.row.region.region-footer-first {
 		padding-left: 15px;
 	}
 	
-	.page-view-les-organisations #block-views-block-projets-block-1 .wrapping{
+	#block-views-block-projets-block-1 .wrapping{
 		padding-left: 15px;
 	}
 		
