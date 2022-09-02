@@ -1393,7 +1393,7 @@ time,
 }
 
 .slickc.view.view-les-.view-id-les_.view-display-id-block_2{
-    overflow-x: hidden;
+    
 }
 
 .node--type-organisation-membre .slick_actu {
@@ -2344,7 +2344,6 @@ section.row.region.region-footer-first {
 	#main{
 		padding: 0 7%;
 		margin-top: 3rem;
-		margin-bottom: 8rem;
 	}
 	
 	.view nav {
@@ -2641,7 +2640,7 @@ section.row.region.region-footer-first {
 	}
 	
 	#block-tabsongletsprojetsxdocuments {
-		padding: 2rem 10% 4rem 10%;
+		padding: 6rem 10% 4rem 10%;
 	}
 	
 	.node--type-organisation-membre #mediatheque {
