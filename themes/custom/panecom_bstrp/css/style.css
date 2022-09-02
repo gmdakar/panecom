@@ -667,7 +667,7 @@ li.sf-depth-1 ul{
     color: var(--color3);
     display: inline-block;
     text-align: center;
-    width: 275px;
+    width: 260px;
     border: 1px solid var(--color3);
     border-radius: 45px;
     padding: 0.5rem 1.15rem;
@@ -703,8 +703,8 @@ li.sf-depth-1 ul{
 }
 
 .more-link {
-    text-align: center;
     margin: 0.75rem auto;
+	text-align:center;
 }
 
 .views-label.views-label-nothing {
@@ -1387,7 +1387,10 @@ time,
     padding: 0;
     margin: 6rem -15px 10rem -15px;
     position: relative;
-	overflow-x: hidden;
+}
+
+.slickc.view.view-les-.view-id-les_.view-display-id-block_2{
+    overflow-x: hidden;
 }
 
 .node--type-organisation-membre .slick_actu {
@@ -1438,7 +1441,6 @@ time,
 }
 
 .slick_actu .more-link {
-    text-align: center;
     margin: 0.75rem auto;
     position: absolute;
     bottom: -5rem;
@@ -1771,7 +1773,6 @@ time,
 
 
 .view-id-projets.view-display-id-block_3 .more-link {
-    text-align: center;
     margin: 0.75rem auto;
     position: absolute;
     bottom: -4rem;
@@ -1905,12 +1906,12 @@ time,
 
 #views-bootstrap-documents-block-2 .views-field-field-document-fichier .field-content a{
     color: var(--color6);
-	font-size: 1rem;
+	font-size: .95rem;
 }
 
 #views-bootstrap-documents-block-2 .views-field-field-document-fichier-1 .field-content a{
     color: var(--color6);
-	font-size: 1rem;
+	font-size: .95rem;
 }
 
 #views-bootstrap-documents-block-2 .views-field-field-document-fichier-1::before {
@@ -2302,10 +2303,10 @@ section.row.region.region-footer-first {
 		font-size: .9rem;
 	}
 	
-	header#header {
+	/*header#header {
 		height: 115vh;
 		
-	}	
+	}	*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -2561,8 +2562,8 @@ section.row.region.region-footer-first {
 	.slick_actu {
 		padding: 3.5rem 0;
 		margin: 6rem -15px 4rem -15px;
-		overflow-x: unset;
 	}
+	
 	
 	.slick_actu .slick-slide.slick-current.slick-active .wrapping>div.views-field.views-field-body {
 		display: block !important;
