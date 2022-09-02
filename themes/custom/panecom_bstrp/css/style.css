@@ -2409,11 +2409,11 @@ section.row.region.region-footer-first {
 		font-size: 1rem;
 	}
 	
-	.node--type-organisation-membre #block-copyright {
+	/*.node--type-organisation-membre #block-copyright {
 		position: absolute;
 		bottom: 0;
 		right: 10%;
-	}
+	}*/
 	
 	.site-footer .menu--nous-suivre- {
 		margin-left: 7rem;
