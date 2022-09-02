@@ -735,7 +735,6 @@ li.sf-depth-1 ul{
 
 .page-view-les-organisations #block-views-block-projets-block-1 .wrapping{
     margin-bottom: 2.25rem;
-	padding-left: 15px;
 }
 
 .sidebar li .wrapping::after {
@@ -2836,6 +2835,10 @@ section.row.region.region-footer-first {
 	}
 	
 	.page-view-projets .sidebar .wrapping {
+		padding-left: 15px;
+	}
+	
+	.page-view-les-organisations #block-views-block-projets-block-1 .wrapping{
 		padding-left: 15px;
 	}
 		
