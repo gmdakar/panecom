@@ -161,7 +161,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 .view nav {
-    max-width: 250px;
+    max-width: 258px;
     margin: 1.1rem auto;
     position: absolute;
     left: 55%;
@@ -169,7 +169,7 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 .pagination {
-    width: 300px;
+    width: 258px;
 }
 
 .pagination a[rel="prev"] span, .pagination a[rel="next"] span {
@@ -1239,14 +1239,19 @@ time,
 }
 
 /*liste des projets*/
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 > div > div > .wrapping {
+
+.view.view-projets.view-id-projets.view-display-id-page_1{
+    /*overflow-x: hidden;*/
+}
+
+.page-view-projets .view-id-projets .views-view-grid > div > div > .wrapping {
     margin: 1rem auto;
     background-color: var(--color7);
     min-height: 316px;
     padding: 16px;
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-title a {
+.page-view-projets .view-id-projets .views-view-grid .views-field-title a {
     font-size: 1.5rem;
 }
 
@@ -1283,30 +1288,30 @@ time,
     text-decoration: none;
 }*/
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .org_logo_title .org_title {
+.page-view-projets .view-id-projets .views-view-grid .org_logo_title .org_title {
     height: 50px;
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-title a {
-    font-size: 1.5rem;
+.page-view-projets .view-id-projets .views-view-grid .views-field-title a {
+    font-size: 1.25rem;
 	color: var(--color6);
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing,
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing a {
+.page-view-projets .view-id-projets .views-view-grid .views-field-nothing,
+.page-view-projets .view-id-projets .views-view-grid .views-field-nothing a {
     font-size: 1rem;
 	color: unset;
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing {
+.page-view-projets .view-id-projets .views-view-grid .views-field-nothing {
 	margin: 1rem auto;
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 time {
+.page-view-projets .view-id-projets .views-view-grid time {
     color: unset;
 }
 
-.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-body{
+.page-view-projets .view-id-projets .views-view-grid .views-field-body{
     color: var(--color9);
 	font-size: 1rem;
 }
@@ -1338,7 +1343,6 @@ time,
 
 .page-view-projets .sidebar .wrapping {
     margin-bottom: 2.25rem;
-    padding-left: 15px;
 }
 
 .page-view-projets .sidebar {
@@ -2645,7 +2649,6 @@ section.row.region.region-footer-first {
 		margin-top: 6rem;
 		margin-bottom: 2rem;
 	}
-
 	
 	.node--type-organisation-membre #mediatheque .view-header .field--name-body{
 		width: auto;
@@ -2823,13 +2826,17 @@ section.row.region.region-footer-first {
 		margin-right: 2rem;
 	}
 	
-	.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .views-field-nothing {
+	.page-view-projets .view-id-projets .views-view-grid .views-field-nothing {
 		margin: 1rem auto;
 		margin-left: -35px;
 	}
 
-	.page-view-projets .view-id-projets #views-bootstrap-projets-page-1 .org_logo_title .org_title > div {
+	.page-view-projets .view-id-projets .views-view-grid .org_logo_title .org_title > div {
 		margin-left: -30px;
+	}
+	
+	.page-view-projets .sidebar .wrapping {
+		padding-left: 15px;
 	}
 		
 }
