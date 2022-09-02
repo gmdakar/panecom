@@ -44,10 +44,10 @@ a.feed-icon {
 a:not(.enchor).is-active {
 }*/
 
-.active-trail > span,
+/*.active-trail > span,
 a:not(.enchor):hover {
    color:var(--color3) !important;
-}
+}*/
 
 /*
 .path-frontpage #content {
@@ -1086,91 +1086,96 @@ time,
 }
 
 /* tabs onglets - mediatheque d'une organisation*/
-.path-node.node--type-organisation-membre #mediatheque {
+.path-node #mediatheque {
     position: relative;
 	overflow-x: hidden;
 	margin-top: 8rem; 
 	margin-bottom: 0;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .field--type-image {
-    margin: 0 0.5em 0 0.5em;
+.path-node #mediatheque .field--type-image {
+    margin: 0 0.75em 2.1rem 0.75em;
+	max-width: 400px;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .details-wrapper .field__label{
+.path-node .node--type-projet #mediatheque .field--type-image {
+    margin: 0 0 1rem 0em;
+}
+
+.path-node #mediatheque .details-wrapper .field__label{
 	display: none;
 }
 
-.path-node.node--type-organisation-membre #mediatheque details[open] summary{
+.path-node #mediatheque details[open] summary{
 	color: var(--color3);
 	font-weight: 500;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tabs .horizontal-tabs-list,
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tabs .horizontal-tab-button,
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tabs {
+.path-node #mediatheque .horizontal-tabs .horizontal-tabs-list,
+.path-node #mediatheque .horizontal-tabs .horizontal-tab-button,
+.path-node #mediatheque .horizontal-tabs {
     border: none;
 	background: none;
 }
 
-.path-node.node--type-organisation-membre #mediatheque h2 {
+.path-node .node--type-organisation-membre #mediatheque h2 {
     text-align: center;
     margin-bottom: 2.5rem;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .details-wrapper {
+.path-node #mediatheque .details-wrapper {
     margin: 1.25rem auto;
 }
 
-.path-node.node--type-organisation-membre #mediatheque article,
-.path-node.node--type-organisation-membre #mediatheque #edit-group-photos {
+.path-node #mediatheque article,
+.path-node #mediatheque #edit-group-photos {
     margin: 2.5rem auto;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .media-library-item__name {
+.path-node #mediatheque .media-library-item__name {
     margin-bottom: 4rem;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items .node .field--type-image {
+.path-node #mediatheque .field--type-entity-reference.field__items .node .field--type-image {
     float: left;
     margin: 0.5em 1em;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .myButton img {
+.path-node #mediatheque .myButton img {
     min-width: 100%;
 	width: 500px;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button {
+.path-node #mediatheque .horizontal-tab-button {
     padding-bottom: 1px;
     width: 50%;
     margin: 1px 0 0 0;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button .node .field--type-image {
+.path-node #mediatheque .horizontal-tab-button .node .field--type-image {
     float: left;
     margin: 1rem;
     width: 95%;
 }
 
 /*
-.path-node.node--type-organisation-membre #mediatheque .view-header .field--name-body {
+.path-node #mediatheque .view-header .field--name-body {
     margin-left: -1em;
     width: auto;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+.path-node #mediatheque .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
     display: inline-block;
     width: 100%;
 }*/
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button {
+.path-node #mediatheque .horizontal-tab-button {
 	border: none;
     border-bottom: 2px solid var(--color6) !important;
     background-color: #fff;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button a{
+.path-node #mediatheque .horizontal-tab-button a{
     color: var(--color6);
 	font-size: 1rem;
 	padding-bottom: .15rem;
@@ -1178,18 +1183,18 @@ time,
 	font-style: normal !important;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button.selected {
+.path-node #mediatheque .horizontal-tab-button.selected {
     border-bottom: 5px solid var(--color3) !important;
     background-color: #fff;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button.selected a{
+.path-node #mediatheque .horizontal-tab-button.selected a{
     color: var(--color3);
 	font-weight: 600 !important;
 	padding-bottom: 0;
 }
 
-.path-node.node--type-organisation-membre #mediatheque .videoWrapper iframe {
+.path-node #mediatheque .videoWrapper iframe {
     width: 90%;
     height: 90%;
 }
@@ -1372,7 +1377,16 @@ time,
 
 /*le détails d'une organisation*/
 .node--type-projet article {
+	padding: 0 5%;
+}
+
+.node--type-projet article.node--view-mode-teaser {
     position: relative;
+	padding: unset;
+}
+
+.node--type-projet .horizontal-tabs-panes .horizontal-tabs-pane {
+    padding: 0;
 }
 
 .node--type-projet article .field--name-field-projet-avancement {
@@ -1387,7 +1401,7 @@ time,
     width: 60%;
     position: absolute;
     left: 4rem;
-    bottom: 1.5rem;
+    bottom: .5rem;
 }
 
 .node--type-projet article.node--type-organisation-membre.node--view-mode-teaser h2 {
@@ -2696,20 +2710,20 @@ section.row.region.region-footer-first {
 		padding: 6rem 10% 4rem 10%;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque {
+	.path-node #mediatheque {
 		margin-top: 6rem;
 		margin-bottom: 2rem;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque .view-header .field--name-body{
+	.path-node #mediatheque .view-header .field--name-body{
 		width: auto;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque .horizontal-tab-button a{
+	.path-node #mediatheque .horizontal-tab-button a{
 		font-size: 1.5rem;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque {
+	.path-node .node--type-organisation-membre #mediatheque {
 		padding: 6rem 5% 2rem 5%;
 	}
 	
@@ -2799,30 +2813,34 @@ section.row.region.region-footer-first {
 		top: -1.65rem;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque {
+	.path-node #mediatheque {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
 
-	.path-node.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items {
+	.path-node #mediatheque .field--type-entity-reference.field__items {
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		margin: 4rem 15px;
 	}
+	
+	.path-node.node--type-projet #mediatheque .field--type-entity-reference.field__items {
+		margin: 0;
+	}
 
-	.path-node.node--type-organisation-membre #mediatheque .field--type-entity-reference.field__items > .field__item{
+	.path-node #mediatheque .field--type-entity-reference.field__items > .field__item{
 		-ms-flex: 0 0 33.33%;
 		flex: 0 0 33.33%;
 		max-width: 33.33%;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque #edit-group-photos {
+	.path-node #mediatheque #edit-group-photos {
 		margin: 1.5rem auto;
 	}
 	
-	.path-node.node--type-organisation-membre #mediatheque article{
+	.path-node #mediatheque article{
 		margin: 0 auto;
 	}
 	
