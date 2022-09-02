@@ -39,18 +39,23 @@ a.feed-icon {
     display: none;
 }
 
-a:not(.enchor):hover,
+
+/*a:not(.enchor):hover,
 a:not(.enchor).is-active {
-   /* color:var(--color3) !important;*/
+}*/
+
+
+a:not(.enchor):hover {
+   color:var(--color3) !important;
 }
 
+/*
 .path-frontpage #content {
-    /*margin: 0 !important;*/
 }
 
-main#content {
-   
+main#content {  
 }
+*/
 
 #navbar-top {
     background-color: transparent !important;
@@ -120,7 +125,7 @@ body.adminimal-admin-toolbar.toolbar-horizontal.toolbar-tray-open #navbar-top.fi
 
 header#header ul:not(.contextual-links) a,
 header#header ul:not(.contextual-links) span.nolink{
-    color:#fff;
+    color:#fff !important;
 	font-family: 'Roboto Condensed';
 	font-weight: normal;
 }
@@ -243,6 +248,10 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 .breadcrumb {
 	background-color: transparent;
 	padding: .75rem 0;
+}
+
+li.breadcrumb-item a {
+    color: var(--color6);
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -599,6 +608,11 @@ li.sf-depth-1 ul{
     background-color: var(--color4);
 }
 
+.view-les-organisations .org_logo_title a{
+    color: var(--color6);
+	font-size: .92rem;
+}
+
 .org_logo_title .org_logo {
     display: inline-block;
 }
@@ -724,9 +738,10 @@ li.sf-depth-1 ul{
 	margin: 1rem 0 3rem 0;
 }
 
-.page-view-les-organisations #block-navigationprincipale ul.sf-menu li ul {
+body:not(.path-frontpage) #block-navigationprincipale ul.sf-menu li ul {
 	background-color: var(--color15) !important;
 }
+
 
 /*side bar les derniers projets*/
 #block-views-block-projets-block-1 {
