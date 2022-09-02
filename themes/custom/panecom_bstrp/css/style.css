@@ -2076,7 +2076,7 @@ time,
 
 #views-bootstrap-partenaires-block-1 .views-field.views-field-title {
     margin: 1rem auto;
-	font-size: 1.31rem;
+	font-size: 1.12rem;
 	font-weight: 400;
 }
 
@@ -2344,6 +2344,11 @@ section.row.region.region-footer-first {
 	#main{
 		padding: 0 7%;
 		margin-top: 3rem;
+		margin-bottom: 6rem;
+	}
+	
+	.path-frontpage #main{
+		margin-bottom: 0;
 	}
 	
 	.view nav {
