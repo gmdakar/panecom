@@ -1460,6 +1460,26 @@ time,
     margin-right: -7.5px;
 }
 
+.sidebar .more-link a {
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 265px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.sidebar .more-link a:hover {
+	background-color: var(--color3);
+	color: #fff;
+}
+
 .view-id-documents.view-display-id-block_2  .more-link a {
     color: var(--color3);
     display: inline-block;
