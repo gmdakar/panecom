@@ -62,6 +62,14 @@ class MenuTrailByPathActiveTrailHtmlClassTest extends BrowserTestBase {
     $this->drupalCreateContentType(array('type' => 'page', 'name' => 'Basic page'));
 
     // Create nodes
+    $home = $this->drupalCreateNode();
+    $this->createPathAlias('/node/' . $home->id(), '/home');
+
+    $this->config('system.site')
+      ->set('page.front', '/node/' . $home->id())
+      ->save();
+
+    // Create nodes
     $node1 = $this->drupalCreateNode();
     $this->createPathAlias('/node/' . $node1->id(), '/news');
 
@@ -133,7 +141,7 @@ class MenuTrailByPathActiveTrailHtmlClassTest extends BrowserTestBase {
     $this->rebuildAll();
 
     $this->drupalGet(clone $this->menuUrls['User password']);
-    $this->assertNoRaw('menu-item--active-trail');
+    $this->assertSession()->responseNotContains('menu-item--active-trail');
 
     // Set a menu specific setting to override the default.
     $menu = Menu::load('main');
@@ -221,7 +229,7 @@ class MenuTrailByPathActiveTrailHtmlClassTest extends BrowserTestBase {
    */
   public function testUrlNewsCategoryaItema() {
     $node3 = $this->drupalCreateNode();
-    \Drupal::service('path.alias_storage')->save('/node/' . $node3->id(), '/news/category-a/item-a');
+    $this->createPathAlias('/node/' . $node3->id(), '/news/category-a/item-a');
 
     $this->drupalGet($node3->toUrl());
     $this->assertMenuActiveTrail(
@@ -238,7 +246,16 @@ class MenuTrailByPathActiveTrailHtmlClassTest extends BrowserTestBase {
     $this->rebuildAll();
 
     $this->drupalGet($node3->toUrl());
-    $this->assertNoRaw('menu-item--active-trail');
+    $this->assertSession()->responseNotContains('menu-item--active-trail');
+  }
+
+  /**
+   * Test url: 404 page.
+   */
+  public function testUrl404() {
+    $this->drupalGet('foo/bar');
+    $this->assertSession()->responseNotContains('is-active');
+    $this->assertSession()->responseNotContains('menu-item--active-trail');
   }
 
   /**

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ab85be7d5b655b87bae82a3a37730e237014c1e2',
+        'reference' => 'd35d124313ffb14191cb5b81b054f9cdbf6bdd8a',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1113,7 +1113,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ab85be7d5b655b87bae82a3a37730e237014c1e2',
+            'reference' => 'd35d124313ffb14191cb5b81b054f9cdbf6bdd8a',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1237,12 +1237,12 @@
             ),
         ),
         'drupal/menu_trail_by_path' => array(
-            'pretty_version' => '1.3.0',
-            'version' => '1.3.0.0',
+            'pretty_version' => '2.0.0-beta1',
+            'version' => '2.0.0.0-beta1',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../modules/contrib/menu_trail_by_path',
             'aliases' => array(),
-            'reference' => '8.x-1.3',
+            'reference' => '2.0.0-beta1',
             'dev_requirement' => false,
         ),
         'drupal/menu_ui' => array(

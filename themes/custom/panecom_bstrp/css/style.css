@@ -2594,6 +2594,7 @@ section.row.region.region-footer-first {
 		display: none !important;
 	}
 
+	#block-navigationprincipale ul.sf-menu >li.active-trail > span,
 	#block-navigationprincipale ul.sf-menu >li > a.is-active,
 	#block-navigationprincipale ul.sf-menu > li:hover > a{
 		text-decoration: underline;
@@ -2613,6 +2614,7 @@ section.row.region.region-footer-first {
 		border-left: solid transparent .15rem;
 	}
 
+	#block-navigationprincipale ul.sf-menu >li ul li a.is-active,
 	#block-navigationprincipale ul.sf-menu li ul li:hover a{
 	   /* color: initial !important;*/
 	   border-left: solid var(--color3) .15rem;
