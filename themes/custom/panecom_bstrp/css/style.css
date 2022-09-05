@@ -116,10 +116,6 @@ body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.toolbar-ho
     top: 0 !important;
 }
 
-body.adminimal-admin-toolbar.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top, body.adminimal-admin-toolbar.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
-    /*top: 80px;*/
-}
-
 header#header ul:not(.contextual-links) a,
 header#header ul:not(.contextual-links) span.nolink{
     color:#fff !important;
@@ -200,6 +196,13 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 
 .pagination .page-link {
     color: #000 !important;
+}
+
+/*share button node content bottom side*/
+span.a2a_kit.a2a_kit_size_32.addtoany_list {
+    margin: 3rem 0 1rem 0;
+    display: block;
+    float: right;
 }
 
 /*main menu*/
@@ -1375,14 +1378,38 @@ time,
 	width: 100%;
 }
 
-/*le détails d'une organisation*/
-.node--type-projet article {
-	padding: 0 5%;
+/*le détails d'un projet*/
+
+.node--type-projet #block-headernodeprojet{
+	margin: 1rem 0 2rem 0;
+}
+
+.node--type-projet #block-headernodeprojet p{
+    font-size: .95rem;
+	color: var(--color9);
+	font-weight: normal;
+}
+
+.node--type-projet #block-headernodeprojet h2 {
+    font-size: 2.4rem;
+}
+
+.node--type-projet #block-panecom-bstrp-page-title h1 {
+    font-size: 1.6rem;
 }
 
 .node--type-projet article.node--view-mode-teaser {
     position: relative;
 	padding: unset;
+	border: none;
+}
+
+.node--type-projet .field--label-above .field__label,
+.node--type-projet article h2{
+	/*margin-bottom: 1rem;*/
+    font-size: 1.17rem;
+	font-weight: 500;
+	margin: .75rem 0 .4rem 0;
 }
 
 .node--type-projet .horizontal-tabs-panes .horizontal-tabs-pane {
@@ -1408,6 +1435,13 @@ time,
 	font-size: 1rem;
 }
 
+.node--type-projet #mediatheque .field--name-field-projet-photos .field__item{
+    padding: 0 1%; :/*mediatheque images*/
+}
+
+.node--type-projet #mediatheque .field--name-field-projets-videos .field__item article {
+    padding: 0 5%; :/*mediatheque videos*/
+}
 
 /*pagination d'une organisation*/
 .path-node.node--type-organisation-membre .view nav {
