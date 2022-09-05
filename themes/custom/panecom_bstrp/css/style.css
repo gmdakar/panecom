@@ -800,7 +800,7 @@ body:not(.path-frontpage) #block-navigationprincipale ul.sf-menu li ul {
 
 #block-views-block-projets-block-1 .org_logo_title .org_title {
     height: 65px;
-	font-size: .85rem;
+	font-size: .87rem;
 }
 
 #block-views-block-projets-block-1 .org_logo_title {
@@ -971,7 +971,7 @@ time,
 	margin-bottom: 6rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping {
 	width: 93%;
 	min-width: 93%;
 	min-height: 485px;
@@ -980,15 +980,15 @@ time,
     padding: 0;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping > div:first-child {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping > div:first-child {
     padding: 1rem 1.15rem 0 0;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping > div {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping > div {
     padding: 0 1rem .5rem 1.3rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .org_logo{
+.view-documents div[id^="views-bootstrap-documents-"] .org_logo{
     background-color: #fff;
     height: 50px;
     width: 50px;
@@ -998,22 +998,22 @@ time,
 	left: 1rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .org_logo a {
+.view-documents div[id^="views-bootstrap-documents-"] .org_logo a {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping .row > div:first-child {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping .row > div:first-child {
 	padding-left: .5rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping .row > div:last-child {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping .row > div:last-child {
     padding-left: 2rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping::before {
+.view-documents div[id^="views-bootstrap-documents-"] .wrapping::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     content: "\f15c";
@@ -1027,26 +1027,26 @@ time,
     color: var(--color9);
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .doc_title {
+.view-documents div[id^="views-bootstrap-documents-"] .doc_title {
 	font-size: 1.1rem;
 	margin-bottom: .25rem;
 	min-height: 6.2rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .desc_doc {
+.view-documents div[id^="views-bootstrap-documents-"] .desc_doc {
     color: #00000080;
 	font-size: .92rem;
 	min-height: 7rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .sigle_doc a {
+.view-documents div[id^="views-bootstrap-documents-"] .sigle_doc a {
     font-size: 1rem;
     color: var(--color9);
     margin-bottom: 0.5rem;
     display: inline-block;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier::before {
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     content: "\f06e";
@@ -1056,12 +1056,12 @@ time,
 	top: .25rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier .field-content {
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content {
     display: inline-block;
     margin: 0 .85rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier-1::before {
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     content: "\f019";
@@ -1071,17 +1071,17 @@ time,
 	top: .25rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier .field-content a{
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content a{
     color: var(--color6);
 	font-size: 1rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier-1 .field-content a{
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
     color: var(--color6);
 	font-size: 1rem;
 }
 
-.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .views-field-field-document-fichier-1 .field-content {
+.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content {
     display: inline-block;
     margin: 0 .85rem;
 }
@@ -1625,7 +1625,7 @@ time,
 }
 
 .slick_actu .slick-slide .views-field-title a {
-    font-size: .85rem;
+    font-size: .87rem;
     color: var(--color5);
 }
 
@@ -1844,7 +1844,7 @@ time,
 .view-id-projets.view-display-id-block_3 .other-except-image a {
     color: #fff;
 	font-weight: 300;
-	font-size: .85rem;
+	font-size: .87rem;
 	font-style: italic;
 }
 
@@ -2957,6 +2957,15 @@ section.row.region.region-footer-first {
 		left: 4rem;
 		bottom: .5rem;
 	}
+	
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content a{
+		font-size: .87rem;
+	}
+
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
+		font-size: .87rem;
+	}
+
 		
 }
 
@@ -3005,7 +3014,7 @@ section.row.region.region-footer-first {
 	}
 	
 	.path-node.node--type-organisation-membre #block-menuorganisationmembre li.nav-item a {
-		font-size: .85rem;
+		font-size: .87rem;
 	}
 
 }
@@ -3097,12 +3106,20 @@ section.row.region.region-footer-first {
 		padding: 0 1rem 1.15rem 1.3rem;
 	}
 	
-	.path-node.node--type-organisation-membre div[id^="views-bootstrap-documents-block-3"] .wrapping > div {
+	.view-documents div[id^="views-bootstrap-documents-"] .wrapping > div {
 		padding: 0 1rem 1.15rem 1.3rem;
 	}
 	
 	.path-node.node--type-organisation-membre #block-menuorganisationmembre li.nav-item a {
 		font-size: 1.05rem;
+	}
+	
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content a{
+		font-size: .87rem;
+	}
+
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
+		font-size: .87rem;
 	}
 	
 }
@@ -3157,5 +3174,12 @@ section.row.region.region-footer-first {
 		margin-bottom: 1.5rem;
 	}
 	
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content a{
+		font-size: 1rem;
+	}
+
+	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
+		font-size: 1rem;
+	}
 	
 }
