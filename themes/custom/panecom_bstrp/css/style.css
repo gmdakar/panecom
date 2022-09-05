@@ -159,15 +159,15 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 }
 
 .view nav {
-    max-width: 258px;
+    /*max-width: 258px;*/
     margin: 1.1rem auto;
     position: absolute;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, 0);
 }
 
 .pagination {
-    width: 258px;
+    /*width: 258px;*/
 }
 
 .pagination a[rel="prev"] span, .pagination a[rel="next"] span {
@@ -1452,6 +1452,13 @@ time,
 }
 
 /**/
+
+/** liste des documents**/
+
+.page-view-documents .sidebar {
+    margin-top: 5.35rem;
+    margin-right: -7.5px;
+}
 
 .view-id-documents.view-display-id-block_2  .more-link a {
     color: var(--color3);
@@ -2847,7 +2854,7 @@ section.row.region.region-footer-first {
 		max-width: 50%;
 	}
 	
-	.path-node.node--type-organisation-membre .view-documents .form-actions {
+	.view-documents .form-actions {
 		position: relative;
 		top: -1.65rem;
 	}
