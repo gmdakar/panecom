@@ -1500,7 +1500,7 @@ time,
 	color: #fff;
 }
 
-/******* les actualités **************/
+/******* slideshow des actualités en page d'accueil **************/
 .slick_actu {
     background-color: var(--color7);
     padding: 0;
@@ -1762,6 +1762,67 @@ time,
     transform: translate(0%, 0%);
 }
 */
+
+/**liste des actualités */
+
+.page-view-les-.path-article #block-headerdescriptifblocpagedesactualitesalaunepagedaccueil h2 {
+    font-size: 2.4rem;
+}
+
+.page-view-les-.path-article #block-headerdescriptifblocpagedesactualitesalaunepagedaccueil p {
+    font-size: .95rem;
+    color: var(--color9);
+    font-weight: normal;
+}
+
+.page-view-les-.path-article #block-panecom-bstrp-page-title h1 {
+    font-size: 1.85rem;
+}
+
+.page-view-les-.path-article div#block-panecom-bstrp-page-title {
+    margin: 1.75rem auto;
+}
+
+.page-view-les-.path-article .sidebar #block-views-block-projets-block-1 {
+    margin-top: 8rem;
+}
+
+div[id^="views-bootstrap-les-page-1"] .wrapping {
+    margin-bottom: 4.5rem;
+    padding: 0 1rem;
+}
+
+div[id^="views-bootstrap-les-page-1"] .views-field-title {
+	margin: 1.35rem auto;
+	height: 50px;
+}
+
+div[id^="views-bootstrap-les-page-1"] .org_logo_title .org_title {
+    height: 50px;
+	margin-left: -15px;
+}
+
+div[id^="views-bootstrap-les-page-1"] .views-field-title a {
+    font-size: 1.25rem;
+	color: var(--color6);
+}
+
+div[id^="views-bootstrap-les-page-1"] .views-field-body{
+	font-size: 1rem;
+    color: var(--color17);
+	font-weight: 300;
+	height: 12.2rem;
+}
+
+div[id^="views-bootstrap-les-page-1"] .views-field-nothing {
+    margin: 2.5rem 0;
+}
+
+div[id^="views-bootstrap-les-page-1"] .views-field-field-image img {
+    height: 260px;
+	max-height: 260px;
+}
+
 
 /* tabs onglets projets x documents en page d'accueil*/
 #block-tabsongletsprojetsxdocuments {
@@ -2994,6 +3055,10 @@ section.row.region.region-footer-first {
 	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
 		font-size: .87rem;
 	}
+	
+	div[id^="views-bootstrap-les-page-1"] .views-field-body{
+		height: 14rem;
+	}
 
 		
 }
@@ -3151,6 +3216,10 @@ section.row.region.region-footer-first {
 		font-size: .87rem;
 	}
 	
+	div[id^="views-bootstrap-les-page-1"] .views-field-body{
+		height: 12rem;
+	}
+	
 }
 
 /*pour les plus "grands" écrans uniquement*/
@@ -3209,6 +3278,10 @@ section.row.region.region-footer-first {
 
 	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content a{
 		font-size: 1rem;
+	}
+	
+	div[id^="views-bootstrap-les-page-1"] .views-field-body{
+		height: 11rem;
 	}
 	
 }
