@@ -973,10 +973,8 @@ time,
 }
 
 .view-documents div[id^="views-bootstrap-documents-"] .wrapping {
-	width: 93%;
-	min-width: 93%;
 	min-height: 485px;
-    margin: 1.5rem auto;
+    margin: 1.5rem .5rem;
     background-color: var(--color7);
     padding: 0;
 }
