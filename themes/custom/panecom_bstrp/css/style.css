@@ -207,9 +207,6 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 .a2a_kit.a2a_kit_size_32.addtoany_list {
     display: none;
 }
-#block-addtoanybuttons span {
-    display: block;
-}
 
 /*main menu*/
 #navbar-main {
@@ -2620,10 +2617,15 @@ section.row.region.region-footer-first {
 
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
-	
+
 	#block-addtoanybuttons{
 		float: right;
 	}
+	
+	#block-addtoanybuttons span {
+		display: block;
+	}
+	
 	.a2a_kit.a2a_kit_size_32.addtoany_list {
 		margin: 0.25rem 0 .25rem 0;
 		/*display: none;*/
