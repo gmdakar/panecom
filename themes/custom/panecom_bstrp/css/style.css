@@ -2533,7 +2533,29 @@ section.row.region.region-footer-first {
     display: block;
 }
 
+/*liste des photos/videos (page des mediatheques)*/
+.path-médiathèque .view-gallerie-images {
+    min-width: 100% !important;
+}
 
+.path-médiathèque .view-gallerie-images .form-actions {
+	position: relative;
+	top: -1.65rem;
+}
+
+.path-médiathèque form {
+    margin: 2rem auto;
+}
+
+.path-médiathèque .myButton img {
+    min-width: 100%;
+    width: 500px;
+}
+
+.path-médiathèque article {
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
 
 /* ############################## */
 /* ####### Breakpoints media queries  */
@@ -3185,7 +3207,13 @@ section.row.region.region-footer-first {
 		margin-left: -15px;
 	}
 
+	.path-médiathèque .view-gallerie-images .view-filters {
+		margin-left: -15px;
+	}
 
+	.path-médiathèque #block-panecom-bstrp-page-title {
+		margin-left: -15px;
+	}
 		
 }
 
