@@ -609,7 +609,7 @@ li.sf-depth-1 ul{
 
 .view-les-organisations .org_logo_title a{
     color: var(--color6);
-	font-size: .92rem;
+	font-size: .89rem;
 }
 
 .org_logo_title .org_logo {
@@ -1498,6 +1498,60 @@ time,
 .view-id-documents.view-display-id-block_2 .more-link a:hover {
 	background-color: var(--color3);
 	color: #fff;
+}
+
+/*details d'une actualité*/
+.path-node.node--type-article .node--view-mode-full .field--type-image {
+    float: unset;
+}
+
+.path-node.node--type-article .node--view-mode-full .field--type-image > img{
+    width: 100%;
+}
+
+.path-node.node--type-article #block-headerdescriptifblocpagedesactualitesalaunepagedaccueil{
+	margin: 1rem 0 2rem 0;
+}
+
+.path-node.node--type-article #block-headerdescriptifblocpagedesactualitesalaunepagedaccueil p{
+    font-size: .95rem;
+	color: var(--color9);
+	font-weight: normal;
+}
+
+.path-node.node--type-article #block-headerdescriptifblocpagedesactualitesalaunepagedaccueil h2 {
+    font-size: 2.4rem;
+}
+
+.path-node.node--type-article #block-panecom-bstrp-page-title h1 {
+    font-size: 1.6rem;
+}
+
+.node--type-article article.node--view-mode-teaser {
+    position: relative;
+	padding: unset;
+	border: none;
+}
+
+.node--type-article article.node--view-mode-teaser h2 {
+	font-size: 1rem;
+}
+
+.node--type-article .field--label-above .field__label,
+.node--type-article article h2{
+	/*margin-bottom: 1rem;*/
+    font-size: 1.17rem;
+	font-weight: 500;
+	margin: .75rem 0 .4rem 0;
+}
+
+.path-node.node--type-article  #block-views-block-slideshow-block-4 h2 {
+    font-size: 1.5rem;
+    color: var(--color6);
+}
+
+.path-node.node--type-article .sidebar #block-views-block-slideshow-block-2 {
+    margin-top: 11.3rem;
 }
 
 /******* slideshow des actualités en page d'accueil **************/
@@ -3041,12 +3095,20 @@ section.row.region.region-footer-first {
 		padding-left: 15px;
 	}
 	
-	.node--type-projet article header {
+	.node--type-projet article.node--view-mode-teaser header {
+		width: 60%;
+		position: absolute;
+		left: 4rem;
+		bottom: .5rem;
+	}	
+	
+	.node--type-article article.node--view-mode-teaser header {
 		width: 60%;
 		position: absolute;
 		left: 4rem;
 		bottom: .5rem;
 	}
+	
 	
 	.view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier .field-content a{
 		font-size: .87rem;
