@@ -2566,7 +2566,7 @@ section.row.region.region-footer-first {
 	background-color: var(--color3);
 	color: #fff;
 }
-
+		
 .page-view-gallerie-images .view-gallerie-images .form-actions {
 	position: relative;
 	top: -1.65rem;
@@ -2589,6 +2589,27 @@ section.row.region.region-footer-first {
 
 .page-view-gallerie-images .media-library-item__name {
     text-align: center;
+}
+
+/*page contact : cacher les boutons d'actions sur la carte pour les non authentifiés*/
+.leaflet-control-container .leaflet-top.leaflet-right{
+    display: none;
+}
+.user-logged-in .leaflet-control-container .leaflet-top.leaflet-right	{
+    display: block;
+}
+
+.path-contact .js-form-item.js-form-type-textarea.form-item-field-geofield-contact-0-value{
+	display: none;
+}
+
+.path-contact #contact-map label {
+    display: none;
+}
+
+.path-contact form.contact-message-contactez-nous-form #contact-form {
+	margin-top: 2rem;
+	order: 2;
 }
 
 /* ############################## */
@@ -3252,7 +3273,24 @@ section.row.region.region-footer-first {
 	.page-view-gallerie-images .view-display-id-page_2 .view-filters form {
 		margin-left: 15px;
 	}
-		
+	
+	.path-contact form.contact-message-contactez-nous-form button#edit-submit {
+		padding: 0.5rem 6rem;
+		border-radius: 1rem;
+		background-color: var(--color3);
+	}
+	
+	.path-contact form.contact-message-contactez-nous-form button#edit-submit:hover {
+		color : var(--color3);
+		background-color: #fff;
+		border: 1px solid var(--color3);
+	}
+	
+	.path-contact form.contact-message-contactez-nous-form #contact-form {
+		order: unset;
+		margin-top: 0;
+	}
+	
 }
 
 /*pour les trés "grands" écrans uniquement*/
