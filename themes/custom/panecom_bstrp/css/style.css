@@ -26,6 +26,7 @@
   --color15: #494949;
   --color16: #ededed;
   --color17: #757575;
+  --color17: #efefef;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -2582,9 +2583,11 @@ section.row.region.region-footer-first {
 }
 
 .page-view-gallerie-images article {
-    margin: 1.5rem auto;
-    padding: 0 1rem;
-	min-width: 300px;
+    margin: 1.5rem 0.25rem;
+    padding: 1rem 1rem 0.15rem 1rem;
+    min-width: 200px;
+    background: #efefef;
+    min-height: 300px;
 }
 
 .page-view-gallerie-images .media-library-item__name {
