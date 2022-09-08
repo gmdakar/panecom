@@ -106,7 +106,7 @@ header#header {
 
 a.nav-link.nav-link--fr-user-logout {
 	
-	padding-bottom: 1rem !important;
+	/*padding-bottom: 1rem !important;*/
 }
 
 a.nav-link.nav-link--fr-user {
@@ -2534,27 +2534,61 @@ section.row.region.region-footer-first {
 }
 
 /*liste des photos/videos (page des mediatheques)*/
-.path-médiathèque .view-gallerie-images {
+.page-view-gallerie-images .view-gallerie-images {
     min-width: 100% !important;
 }
 
-.path-médiathèque .view-gallerie-images .form-actions {
+.page-view-gallerie-images .js-pager__items.pager {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.page-view-gallerie-images .js-pager__items.pager .pager__item {
+    display: inline-block;
+}
+
+.page-view-gallerie-images .js-pager__items.pager a.button{
+    color: var(--color3);
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+    border: 1px solid var(--color3);
+    border-radius: 45px;
+    padding: 0.5rem 1.15rem;
+    text-decoration: none;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.05rem;
+}
+
+.page-view-gallerie-images .js-pager__items.pager .pager__item a.button:hover {
+	background-color: var(--color3);
+	color: #fff;
+}
+
+.page-view-gallerie-images .view-gallerie-images .form-actions {
 	position: relative;
 	top: -1.65rem;
 }
 
-.path-médiathèque form {
+.page-view-gallerie-images .view-filters form {
     margin: 2rem auto;
 }
 
-.path-médiathèque .myButton img {
+.page-view-gallerie-images .myButton img {
     min-width: 100%;
     width: 500px;
 }
 
-.path-médiathèque article {
+.page-view-gallerie-images article {
     margin: 1.5rem auto;
     padding: 0 1rem;
+	min-width: 300px;
+}
+
+.page-view-gallerie-images .media-library-item__name {
+    text-align: center;
 }
 
 /* ############################## */
@@ -3207,12 +3241,16 @@ section.row.region.region-footer-first {
 		margin-left: -15px;
 	}
 
-	.path-médiathèque .view-gallerie-images .view-filters {
+	.page-view-gallerie-images .view-gallerie-images .view-filters {
 		margin-left: -15px;
 	}
 
-	.path-médiathèque #block-panecom-bstrp-page-title {
-		margin-left: -15px;
+	.page-view-gallerie-images #block-panecom-bstrp-page-title {
+		margin-left: 0;
+	}
+	
+	.page-view-gallerie-images .view-display-id-page_2 .view-filters form {
+		margin-left: 15px;
 	}
 		
 }
