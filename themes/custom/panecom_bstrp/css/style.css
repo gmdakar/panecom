@@ -2590,6 +2590,20 @@ section.row.region.region-footer-first {
     min-height: 300px;
 }
 
+.page-view-gallerie-images #views-bootstrap-gallerie-images-page-1 article::before {
+    content: "";
+    display: block;
+    width: 98%;
+    height: .75rem;
+    background: var(--color14);
+    margin: 0 auto;
+    position: relative;
+    top: -1.7rem;
+    border-bottom: 1.7px solid white;
+	opacity: .35;
+    /* margin-left: 3rem; */
+}
+
 .page-view-gallerie-images .media-library-item__name {
     text-align: center;
 }
