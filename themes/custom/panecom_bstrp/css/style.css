@@ -348,6 +348,22 @@ li.breadcrumb-item a {
 }
 
 /*A propos text*/
+.field--name-field-apropos-priorite {
+    display: none;
+}
+
+article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
+    margin: 2rem auto;
+}
+
+.view-a-propos article:nth-of-type(odd) .col-lg-6 {
+	order: 1;
+}
+
+.view-a-propos article:nth-of-type(even) .col-lg-6 {
+	order: 2;
+}
+
 #block-apropos {
     position: absolute;
     top: 0;
