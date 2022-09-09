@@ -2588,18 +2588,20 @@ section.row.region.region-footer-first {
     min-width: 200px;
     background: #efefef;
     min-height: 320px;
+	position: relative;
 }
 
 .page-view-gallerie-images #views-bootstrap-gallerie-images-page-1 article::before {
-    content: "";
-    display: block;
-    height: 35px;
-    background-image: url(/themes/custom/panecom_bstrp/img/bg_gallery2.png);
-    position: absolute;
-    top: 0.3rem;
-    text-align: center;
-    margin-left: -6px;
-    min-width: 300px !important;
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(/themes/custom/panecom_bstrp/img/bg_gallery2.png);
+	width: 275px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	top: -2.2rem;
+	transform: translate(-50%, 0);
 }
 
 .page-view-gallerie-images .media-library-item__name {
@@ -3306,6 +3308,7 @@ section.row.region.region-footer-first {
 		margin-top: 0;
 	}
 	
+	
 }
 
 /*pour les trés "grands" écrans uniquement*/
@@ -3464,6 +3467,8 @@ section.row.region.region-footer-first {
 	div[id^="views-bootstrap-les-page-1"] .views-field-body{
 		height: 12rem;
 	}
+	
+	
 	
 }
 
