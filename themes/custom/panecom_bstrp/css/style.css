@@ -2583,25 +2583,23 @@ section.row.region.region-footer-first {
 }
 
 .page-view-gallerie-images article {
-    margin: 1.5rem 0.25rem;
+    margin: 2.5rem 0.25rem;
     padding: 1rem 1rem 0.15rem 1rem;
     min-width: 200px;
     background: #efefef;
-    min-height: 300px;
+    min-height: 320px;
 }
 
 .page-view-gallerie-images #views-bootstrap-gallerie-images-page-1 article::before {
     content: "";
     display: block;
-    width: 98%;
-    height: .75rem;
-    background: var(--color14);
-    margin: 0 auto;
-    position: relative;
-    top: -1.7rem;
-    border-bottom: 1.7px solid white;
-	opacity: .35;
-    /* margin-left: 3rem; */
+    height: 35px;
+    background-image: url(/themes/custom/panecom_bstrp/img/bg_gallery2.png);
+    position: absolute;
+    top: 0.3rem;
+    text-align: center;
+    margin-left: -6px;
+    min-width: 300px !important;
 }
 
 .page-view-gallerie-images .media-library-item__name {
