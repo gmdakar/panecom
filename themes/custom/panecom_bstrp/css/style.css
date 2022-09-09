@@ -3544,6 +3544,7 @@ section.row.region.region-footer-first {
 	
 	div[id^="views-bootstrap-les-page-1"] .views-field-body{
 		height: 11rem;
+		color: var(--color14);
 	}
 	
 }
