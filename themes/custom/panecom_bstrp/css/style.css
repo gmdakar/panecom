@@ -2400,6 +2400,13 @@ div[id^="views-bootstrap-les-page-1"] .views-field-field-image img {
 }
 
 /*Footer*/
+.site-footer {
+	background-image: url(/themes/custom/panecom_bstrp/img/bg_footer.png) !important;
+	background-image: url(/themes/custom/panecom_bstrp/img/bg_footer.webp) !important;
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
 #block-blockfooter {
     width: 100%;
 	color: #fff;
@@ -2729,6 +2736,11 @@ section.row.region.region-footer-first {
 	#main{
 		padding: 0 7%;
 		margin-top: 3rem;
+		margin-bottom: 6rem;
+	}
+	
+	.page-view-les-organisations.path-organisation-membre,
+	.path-node.node--type-organisation-membre #main{
 		margin-bottom: 6rem;
 	}
 	
