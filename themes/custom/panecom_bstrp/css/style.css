@@ -26,7 +26,8 @@
   --color15: #494949;
   --color16: #ededed;
   --color17: #757575;
-  --color17: #efefef;
+  --color18: #efefef;
+  --color19: #00000080;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -348,7 +349,8 @@ li.breadcrumb-item a {
 }
 
 /*A propos text*/
-.field--name-field-apropos-priorite {
+.view-a-propos article header,
+.view-a-propos article.field--name-field-apropos-priorite {
     display: none;
 }
 
@@ -356,12 +358,29 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
     margin: 2rem auto;
 }
 
-.view-a-propos article:nth-of-type(odd) .col-lg-6 {
-	order: 1;
+.view-a-propos .views-row article .colr {
+	padding: 1rem;
 }
 
-.view-a-propos article:nth-of-type(even) .col-lg-6 {
-	order: 2;
+.view-a-propos .views-row article .colr h2{
+	margin-bottom: 1.25rem;
+}
+
+
+.view-a-propos .views-row:nth-of-type(odd) article .colr1 {
+	order: 1 !important;
+}
+
+.view-a-propos .views-row:nth-of-type(odd) article .colr2 {
+	order: 2 !important;
+}
+
+.view-a-propos .views-row:nth-of-type(even) article .colr1 {
+	order: 2 !important;
+}
+
+.view-a-propos .views-row:nth-of-type(even) article .colr2 {
+	order: 1 !important;
 }
 
 #block-apropos {
