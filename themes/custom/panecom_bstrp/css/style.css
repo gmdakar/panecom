@@ -415,22 +415,6 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 	margin-bottom: 1.25rem;
 }
 
-.view-a-propos .views-row:nth-of-type(odd) article .colr1 {
-	order: 1 !important;
-}
-
-.view-a-propos .views-row:nth-of-type(odd) article .colr2 {
-	order: 2 !important;
-}
-
-.view-a-propos .views-row:nth-of-type(even) article .colr1 {
-	order: 2 !important;
-}
-
-.view-a-propos .views-row:nth-of-type(even) article .colr2 {
-	order: 1 !important;
-}
-
 .page-view-a-propos #block-organigramme {
 	text-align: center;
 	margin: 0 auto;
@@ -3423,7 +3407,22 @@ section.row.region.region-footer-first {
 		margin-top: 0;
 	}
 	
-	
+	.view-a-propos .views-row:nth-of-type(odd) article .colr1 {
+		order: 1 !important;
+	}
+
+	.view-a-propos .views-row:nth-of-type(odd) article .colr2 {
+		order: 2 !important;
+	}
+
+	.view-a-propos .views-row:nth-of-type(even) article .colr1 {
+		order: 2 !important;
+	}
+
+	.view-a-propos .views-row:nth-of-type(even) article .colr2 {
+		order: 1 !important;
+	}
+
 }
 
 /*pour les trés "grands" écrans uniquement*/
