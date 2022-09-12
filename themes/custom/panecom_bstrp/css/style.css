@@ -28,6 +28,7 @@
   --color17: #757575;
   --color18: #efefef;
   --color19: #00000080;
+  --color20: #007A9C;
   --color1-rgb:81,134,198;
   --color2-rgb: 142,203,129%; 
   --color3-rgb: 244 121 58;
@@ -349,6 +350,54 @@ li.breadcrumb-item a {
 }
 
 /*A propos text*/
+
+.page-view-a-propos #main{
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.view-a-propos .view-header {
+    display: inline-block;
+    position: relative;
+    left: calc(50% - 67px);
+    width: 135px;
+}
+
+.view-a-propos .view-header::after {
+    content: "";
+    display: block;
+    height: 1.75px;
+    background-color: var(--color16);
+    width: 90%;
+    margin: 0 auto !important;
+    /* margin-top: 5rem; */
+    position: relative;
+    bottom: -0.5rem;
+}
+
+.view-a-propos .view-content.row {
+    margin-top: 3rem;
+}
+
+.view-a-propos span {
+    position: relative;
+    top: 0.3rem;
+    left: 0.25rem;
+    font-size: 1.25rem;
+    color: var(--color20);
+}
+
+.page-view-a-propos #block-panecom-bstrp-breadcrumbs,
+.view-a-propos {
+	padding: 0 7%;
+}
+
+.view-a-propos .block-field-blocknodea-proposbody .field--name-body p{
+	color: var(--color19);
+}
+
+.page-view-a-propos #block-organigramme > h2,
+.page-view-a-propos #block-panecom-bstrp-page-title,
 .view-a-propos article header,
 .view-a-propos article.field--name-field-apropos-priorite {
     display: none;
@@ -366,7 +415,6 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 	margin-bottom: 1.25rem;
 }
 
-
 .view-a-propos .views-row:nth-of-type(odd) article .colr1 {
 	order: 1 !important;
 }
@@ -381,6 +429,26 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 
 .view-a-propos .views-row:nth-of-type(even) article .colr2 {
 	order: 1 !important;
+}
+
+.page-view-a-propos #block-organigramme {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.page-view-a-propos .block-field-blockblock-contentblock-type-organigrammefield-organigramme-image .content img {
+    margin-bottom: 5rem;
+}
+
+.page-view-a-propos .block-field-blockblock-contentblock-type-organigrammebody {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 3rem 0;
+}
+
+.page-view-a-propos.block-layout-builder.block-field-blockblock-contentblock-type-organigrammebody h2{
+    margin-bottom: 1rem;
 }
 
 #block-apropos {
