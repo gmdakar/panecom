@@ -12,7 +12,7 @@ dependencies:
 id: views_block__slideshow_block_2
 theme: panecom_bstrp
 region: sidebar_second
-weight: 0
+weight: -27
 provider: null
 plugin: 'views_block:slideshow-block_2'
 settings:

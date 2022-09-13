@@ -12,7 +12,7 @@ _core:
 id: panecom_bstrp_search
 theme: panecom_bstrp
 region: sidebar_first
-weight: -6
+weight: -27
 provider: null
 plugin: search_form_block
 settings:

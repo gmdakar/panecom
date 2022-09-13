@@ -1,0 +1,19 @@
+uuid: 6df45544-31e7-4120-a101-c8ef73d115f3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_bg_logo_panecom
+field_name: field_bg_logo_panecom
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

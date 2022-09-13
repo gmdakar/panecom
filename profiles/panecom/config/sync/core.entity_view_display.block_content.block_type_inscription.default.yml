@@ -14,7 +14,7 @@ third_party_settings:
     allow_custom: false
     sections:
       -
-        layout_id: 'bootstrap_layout_builder:blb_col_2'
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
         layout_settings:
           label: ''
           context_mapping: {  }
@@ -163,28 +163,15 @@ third_party_settings:
                 class: null
           container_wrapper_bg_color_class: ''
           container_wrapper_bg_media: null
-          container: container-fluid
+          container: container
           section_classes: ''
           section_attributes: null
           regions_classes:
             blb_region_col_1: ''
-            blb_region_col_2: ''
           regions_attributes:
-            blb_region_col_1: null
-            blb_region_col_2: null
-          breakpoints:
-            desktop: blb_col_6_6
-            tablet: blb_col_6_6
-            mobile: blb_col_12
-          layout_regions_classes:
-            blb_region_col_1:
-              - col-lg-6
-              - col-md-6
-              - col-12
-            blb_region_col_2:
-              - col-lg-6
-              - col-md-6
-              - col-12
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
           remove_gutters: '0'
         components:
           -
@@ -348,7 +335,7 @@ third_party_settings:
                     class: null
           -
             uuid: 40b37ade-537d-4d04-9e00-449bdce49132
-            region: blb_region_col_2
+            region: blb_region_col_1
             configuration:
               id: 'field_block:block_content:block_type_inscription:field_point_focal_d_une_organisa'
               label: 'Point focal d''une organisation'
@@ -362,7 +349,7 @@ third_party_settings:
                 label: hidden
                 settings: {  }
                 third_party_settings: {  }
-            weight: 0
+            weight: 1
             additional:
               bootstrap_styles:
                 block_style:

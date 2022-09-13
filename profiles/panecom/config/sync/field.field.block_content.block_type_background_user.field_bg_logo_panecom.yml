@@ -1,0 +1,33 @@
+uuid: 1d72cb6b-8df5-43ca-a909-96083993567c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_background_user
+    - field.storage.block_content.field_bg_logo_panecom
+  module:
+    - disable_field
+    - epp
+    - text
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: block_content.block_type_background_user.field_bg_logo_panecom
+field_name: field_bg_logo_panecom
+entity_type: block_content
+bundle: block_type_background_user
+label: 'Logo panecom'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p><img alt=\"logo\" data-align=\"left\" data-entity-type=\"file\" data-entity-uuid=\"059e62e9-065f-493a-a3ab-e6a997a712a1\" height=\"41\" src=\"/sites/default/files/inline-images/abstract-1-1.png\" width=\"41\" /><span>Panecom</span></p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

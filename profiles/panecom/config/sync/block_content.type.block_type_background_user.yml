@@ -1,0 +1,8 @@
+uuid: 56c79e10-c65c-4d3b-966c-4d628d06cc8d
+langcode: fr
+status: true
+dependencies: {  }
+id: block_type_background_user
+label: 'Block type background user'
+revision: 0
+description: 'utilisé dans les pages de type user (login/register/etc..)'
