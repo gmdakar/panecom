@@ -384,6 +384,10 @@ li.breadcrumb-item a {
     margin-top: 3rem;
 }
 
+.view-a-propos .view-header .field--name-body {
+    width: 220px;
+}
+
 .view-a-propos span {
     position: relative;
     top: 0.3rem;
