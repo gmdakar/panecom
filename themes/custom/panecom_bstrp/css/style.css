@@ -472,8 +472,67 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 	position: relative;
 }
 
+.path-user .nav.primary.nav-tabs a {
+    color: #007EA3ee;
+}
+
+.path-user #block-panecom-bstrp-page-title h1 {
+    display: none;
+}
+
+.page-user-register #block-panecom-bstrp-page-title h1 {
+    display: block;
+}
+
+
+.page-user-register .backlink::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f057";
+    display: inline-block;
+    background-color: var(--color8);
+    font-size: 1.5rem;
+    color: var(--color3);
+}
+
+.page-user-register a.backlink {
+    float: right;
+    margin-top: -1rem;
+}
+
+.page-user-register .field--name-field__bg-user-illustration img {
+    width: 100% ! important;
+    height: auto ! important;
+    position: absolute ! important;
+    left: 50% ! important;
+    top: 45% ! important;
+    bottom: unset ! important;
+    opacity: .2 ! important;
+    z-index: 2 ! important;
+    transform: translate(-50%, -50%) ! important;
+    width: 80% ! important;
+}
+
+.nav-tabs .nav-link{
+	border: none;
+	background-color: transparent !important;
+}
+
+.path-user .nav.primary.nav-tabs li{
+	border-bottom: 1px solid var(--color9);
+}
+
+.path-user .nav.primary.nav-tabs li.active{
+    border-bottom: 2px solid var(--color3);
+}
+
+.path-user .nav.primary.nav-tabs li.active a{
+    color: var(--color20);
+	font-weight: 500;
+}
+
 .path-user .wrappcol.wrappcol1{
-    padding: 5% 8%;
+    padding: 5% 2% 5% 4%;
 	background: var(--color18);
 }
 
@@ -497,7 +556,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 
 .path-user .field--name-field-bg-logo-panecom {
     width: 200px;
-    margin: 0.5rem auto;
+    margin: .75rem auto;
 }
 
 .path-user .field--name-field-bg-logo-panecom span {
@@ -511,8 +570,16 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 .path-user #block-panecom-bstrp-breadcrumbs {
     position: absolute;
     top: 1%;
-    left: 7%;
+    left: 3%;
 	z-index: 1;
+}
+
+.path-user .view-id-page_d_inscriptions h2 {
+    font-size: 1.25rem;
+}
+
+.path-user .view-id-page_d_inscriptions .field--type-text-long {
+    font-size: .9rem;
 }
 
 /*recherche searchbox*/
@@ -2865,6 +2932,10 @@ section.row.region.region-footer-first {
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
 
+	.path-user input{
+	   max-width: 65%;
+	}
+	
 	#block-addtoanybuttons{
 		float: right;
 	}

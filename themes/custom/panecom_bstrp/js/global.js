@@ -117,6 +117,8 @@
 			  $("#block-menuorganisationmembre.block li a").removeClass("is-active");
 			});
 			
+			$(".page-user-register main").prepend("<p><a class='backlink' href='#' onclick='history.go(-1);'></a></p>")
+			
         }
   };
   
