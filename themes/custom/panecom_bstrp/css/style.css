@@ -49,6 +49,10 @@ a.feed-icon {
 }
 
 
+main#content.order-last { /* hack: anomalie page des documents en anglais**/
+    order: 0 !important;
+}
+
 /*a:not(.enchor):hover,
 a:not(.enchor).is-active {
 }*/

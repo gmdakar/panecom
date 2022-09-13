@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 32e3e878-0aac-4dba-90ac-41d70025c4af
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ugTIrHusYo.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/ugTIrHusYo.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 810
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

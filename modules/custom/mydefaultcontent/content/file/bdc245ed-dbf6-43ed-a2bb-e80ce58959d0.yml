@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bdc245ed-dbf6-43ed-a2bb-e80ce58959d0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hGQV6kVpl9.txt
+  uri:
+    -
+      value: 'public://2022-08/hGQV6kVpl9.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 702
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1661428863

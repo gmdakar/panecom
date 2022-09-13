@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f7b7f4f4-b108-4852-9167-c6a80d9befd7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ci4TtvQbrE.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/ci4TtvQbrE.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 803
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

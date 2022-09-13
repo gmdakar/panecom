@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0519c541-081f-4373-9864-f7263c260ee7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_nmA79i.png
+  uri:
+    -
+      value: 'public://2022-05/generateImage_nmA79i.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1509
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

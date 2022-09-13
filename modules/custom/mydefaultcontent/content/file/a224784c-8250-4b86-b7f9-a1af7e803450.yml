@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a224784c-8250-4b86-b7f9-a1af7e803450
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: yyX2jk8aOD.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/yyX2jk8aOD.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 662
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

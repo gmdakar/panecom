@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: cdabc9c0-a2f0-406b-8406-3ac76c447923
+  bundle: block_type_organigramme
+  default_langcode: fr
+  depends:
+    3a94a03d-f479-4c64-9024-2337cdf198d2: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Organigramme
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1662984343
+  body:
+    -
+      value: "<h2>Organigramme</h2>\r\n\r\n<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_organigramme_image:
+    -
+      entity: 3a94a03d-f479-4c64-9024-2337cdf198d2
+      alt: org
+      title: ''
+      width: 726
+      height: 690

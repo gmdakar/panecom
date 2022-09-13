@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 74701d1d-3a7b-4a0a-9ac3-39306873d414
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: trezarcoin_logo-700x700_0.png
+  uri:
+    -
+      value: 'public://2022-06/trezarcoin_logo-700x700_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 42892
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399163

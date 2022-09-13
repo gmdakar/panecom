@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 825ae906-1223-4990-9c7a-ae762c8b9588
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rectangle-163.png
+  uri:
+    -
+      value: 'public://2022-09/rectangle-163.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 164688
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662727030

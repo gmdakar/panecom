@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6d4f431-1948-4259-9140-8fced0922dd5
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: qiRvbaqbGM.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/qiRvbaqbGM.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 752
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

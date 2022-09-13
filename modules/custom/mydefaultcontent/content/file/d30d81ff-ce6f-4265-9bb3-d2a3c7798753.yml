@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d30d81ff-ce6f-4265-9bb3-d2a3c7798753
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_YD1Z6N.gif
+  uri:
+    -
+      value: 'public://2022-05/generateImage_YD1Z6N.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1216
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

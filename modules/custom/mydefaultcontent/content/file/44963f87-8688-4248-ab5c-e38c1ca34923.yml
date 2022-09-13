@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 44963f87-8688-4248-ab5c-e38c1ca34923
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_qkg6ik.jpeg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_qkg6ik.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3992
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

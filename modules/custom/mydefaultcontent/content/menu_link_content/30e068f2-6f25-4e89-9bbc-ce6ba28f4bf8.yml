@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 30e068f2-6f25-4e89-9bbc-ce6ba28f4bf8
+  bundle: menu_link_content
+  default_langcode: fr
+  depends:
+    0adfa3e9-6dde-40ca-ba8e-0f0d5c7a4278: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Vidéos
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/médiathèque/videos'
+      title: ''
+      options:
+        fa_icon: ''
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: before
+        attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:0adfa3e9-6dde-40ca-ba8e-0f0d5c7a4278'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1654599469
+translations:
+  en:
+    title:
+      -
+        value: Videos
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_status:
+      -
+        value: true
+    content_translation_created:
+      -
+        value: 1654599714

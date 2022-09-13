@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c8bd20ac-98bf-4c85-8295-ea915d90a9ef
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: c4MgQavVwA.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/c4MgQavVwA.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 787
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

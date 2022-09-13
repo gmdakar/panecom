@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2adce52b-e333-49f3-9d06-003dca848f02
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: l7gVd66OCt.txt
+  uri:
+    -
+      value: 'public://document/2022-06/l7gVd66OCt.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 831
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

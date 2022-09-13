@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 24bd0ed1-5b15-4800-be95-308315b4d147
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tG6spfHlwg.txt
+  uri:
+    -
+      value: 'public://document/2022-05/tG6spfHlwg.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 963
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

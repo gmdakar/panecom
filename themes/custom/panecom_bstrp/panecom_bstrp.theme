@@ -37,3 +37,17 @@ function panecom_bstrp_form_search_block_form_alter(&$form, FormStateInterface $
  
 	$form['keys']['#attributes']['placeholder'] = t('Search an organization..');
 }
+
+
+/**
+ * Implements hook_preprocess_breadcrumb().
+ */
+function panecom_bstrp_preprocess_breadcrumb(&$variables){
+  $variables['breadcrumb'][0] = array('text' => t('Home'));
+  /*foreach ($variables['breadcrumb'] as $key => $tb)
+  {
+	  if ($variables['breadcrumb'][$key]['text'] == 'A propos')
+		$variables['breadcrumb'][$key]['text'] = t('About');
+		  
+  }*/
+}

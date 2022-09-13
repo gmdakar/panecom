@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cfb0e754-dca9-45e9-b754-82ac68190dc8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: faiOSHVFa9.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/faiOSHVFa9.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1100
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

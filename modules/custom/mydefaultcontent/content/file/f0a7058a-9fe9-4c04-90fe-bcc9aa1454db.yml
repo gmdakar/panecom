@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f0a7058a-9fe9-4c04-90fe-bcc9aa1454db
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rectangle-90.png
+  uri:
+    -
+      value: 'public://2022-09/rectangle-90.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 645072
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662736731

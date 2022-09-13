@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f8521f89-67e7-4f46-81af-4fe2bd244a57
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_DsfWsR.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_DsfWsR.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7346
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

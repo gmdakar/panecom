@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e1ddbead-86ab-44bb-8618-603d75f04a5b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 16_save.png
+  uri:
+    -
+      value: 'public://2022-06/16_save.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 29281
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655400509

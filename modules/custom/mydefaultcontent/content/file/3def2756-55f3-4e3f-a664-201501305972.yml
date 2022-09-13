@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3def2756-55f3-4e3f-a664-201501305972
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_8pW8Wr.png
+  uri:
+    -
+      value: 'public://2022-05/generateImage_8pW8Wr.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1103
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

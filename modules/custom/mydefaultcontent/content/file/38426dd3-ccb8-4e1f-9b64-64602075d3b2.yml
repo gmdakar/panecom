@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 38426dd3-ccb8-4e1f-9b64-64602075d3b2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wafd_bank_logo-700x991_0.png
+  uri:
+    -
+      value: 'public://2022-06/wafd_bank_logo-700x991_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 76252
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399173

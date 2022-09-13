@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2907dda4-74e8-4909-9799-8fdc1b8f19e2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: c0nlyCeEepBVqeAmiYAZ-g6Mqw4vA0bR8MySF8nwMnI.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/c0nlyCeEepBVqeAmiYAZ-g6Mqw4vA0bR8MySF8nwMnI.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 20837
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662373851

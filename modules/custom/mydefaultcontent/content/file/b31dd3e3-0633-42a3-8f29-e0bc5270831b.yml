@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b31dd3e3-0633-42a3-8f29-e0bc5270831b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-mark-stebnicki-2255801.jpg
+  uri:
+    -
+      value: 'public://slideshow/2022-05/pexels-mark-stebnicki-2255801.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 679854
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652893550

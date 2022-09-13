@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d11d285f-3978-4b4f-a4fb-8d13d4b9529c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Csilrd.jpeg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_Csilrd.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3877
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570
