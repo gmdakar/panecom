@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '74c175d7546662308321494c76f7dcb83e92414d',
+        'reference' => '436246420823bd57375478d4e04f4f9001d4f249',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -1131,7 +1131,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '74c175d7546662308321494c76f7dcb83e92414d',
+            'reference' => '436246420823bd57375478d4e04f4f9001d4f249',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1385,15 +1385,6 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
-        ),
-        'drupal/organigrams' => array(
-            'pretty_version' => '2.1.0',
-            'version' => '2.1.0.0',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../modules/contrib/organigrams',
-            'aliases' => array(),
-            'reference' => '8.x-2.1',
-            'dev_requirement' => false,
         ),
         'drupal/owlcarousel' => array(
             'pretty_version' => '2.0.0-beta2',

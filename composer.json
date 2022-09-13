@@ -94,7 +94,6 @@
         "drupal/multiple_registration": "^3.1",
         "drupal/native_lazy_loading": "^1.1@RC",
         "drupal/notifications_widget": "^1.5",
-        "drupal/organigrams": "^2.1",
         "drupal/owlcarousel": "^2.0@beta",
         "drupal/pathauto": "^1.10",
         "drupal/photoswipe": "^3.1",

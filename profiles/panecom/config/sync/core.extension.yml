@@ -27,7 +27,6 @@ module:
   mimemail: 0
   multiple_registration: 0
   mysql: 0
-  organigrams: 0
   prepopulate: 0
   realname: 0
   responsive_menu: 0
