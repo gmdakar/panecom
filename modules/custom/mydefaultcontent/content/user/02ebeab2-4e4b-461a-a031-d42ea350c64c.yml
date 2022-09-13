@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 02ebeab2-4e4b-461a-a031-d42ea350c64c
+  default_langcode: fr
+  depends:
+    044e824b-8c47-4f48-b874-ea729e9c5a1a: node
+default:
+  preferred_langcode:
+    -
+      value: fr
+  preferred_admin_langcode:
+    -
+      value: fr
+  name:
+    -
+      value: drupagal_1
+  pass:
+    -
+      value: $S$EoCJIH.ZQ1xtVNwieZHVg39ZzbThmB/p4FTIcOAnI.NS0ZK/amU1
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: drupagal@yahoo.fr
+  timezone:
+    -
+      value: Africa/Dakar
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1659274377
+  access:
+    -
+      value: 1659274891
+  login:
+    -
+      value: 1659274700
+  init:
+    -
+      value: drupagal@yahoo.fr
+  roles:
+    -
+      target_id: point_focal
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1659274377
+  field_nom:
+    -
+      value: LY
+  field_prenom:
+    -
+      value: Serge
+  field_user_organisation:
+    -
+      entity: 044e824b-8c47-4f48-b874-ea729e9c5a1a

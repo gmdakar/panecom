@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 690acbc2-e9c3-465d-8c02-3cacf9e84108
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_3UFBXD.jpeg
+  uri:
+    -
+      value: 'public://2022-01/generateImage_3UFBXD.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3463
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643302695

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: abca60f1-77d9-4579-aa25-979107a4ee2d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 5vouvN89-hzz4lxi-0MGmY_6OU5EcEZ6z1haF9ESCk4.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/5vouvN89-hzz4lxi-0MGmY_6OU5EcEZ6z1haF9ESCk4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18450
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1661457103

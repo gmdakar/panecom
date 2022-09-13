@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dfaab8ab-8c21-4bfe-a076-61ea0c7cfba3
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hqf6HXReD7.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/hqf6HXReD7.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1001
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

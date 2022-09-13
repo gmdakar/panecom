@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 639f4576-5659-4df2-aa41-44772ac9af94
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 'dummyfile''''.png.png'
+  uri:
+    -
+      value: 'public://dummyfile''''.png_32.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 390221
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

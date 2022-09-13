@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 74ddbffe-6dfa-4ca3-8c4d-db944d6c3cba
+  bundle: projet
+  default_langcode: fr
+  depends:
+    1efb543f-cffe-4a4f-bc4b-40e407f82ec7: node
+    d0299e7e-157c-457f-8873-e0f9d31d6f3a: media
+    e9bba5db-d256-4699-95a2-40da669ac844: media
+    4b73cf7d-fb90-4712-b6c0-3e4356f0e0fd: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Projet - Accumsan Appellatio Immitto Jugis Metuo Praesent Proprius Qui'
+  created:
+    -
+      value: 1653355199
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /projet/projet-accumsan-appellatio-immitto-jugis-metuo-praesent-proprius-qui
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "Appellatio commodo molior vero. Decet eu nisl nobis praesent verto. Metuo premo qui. Amet cogo euismod eum iaceo ibidem importunus pala similis ullamcorper. Capto dolor humo iriure metuo pecus quidne suscipit verto. Acsi consectetuer hendrerit huic inhibeo neo. Autem comis exputo ibidem iusto melior tego. Eros hos luctus neo nobis nulla pecus saluto tation. Defui eum ideo macto sino.\r\n\r\nIncassum magna mauris nibh premo rusticus. Accumsan acsi decet incassum lobortis melior neo nostrud quis. Abbas elit exputo gravis letalis minim tamen valde. Genitus neque nisl olim plaga populus singularis turpis vel veniam.\r\n\r\nLaoreet letalis pneum quae si tincidunt ulciscor valetudo vero. Exputo inhibeo jus lobortis metuo vel velit virtus volutpat. Iusto neque olim. Elit feugiat usitas. Dolus genitus immitto lucidus nunc. Abigo scisco valde. Comis erat euismod nutus suscipere. Aliquip eligo ideo illum nimis tamen ullamcorper. Acsi humo ibidem ideo scisco vulputate. Accumsan eligo iusto melior suscipit valetudo. Abico facilisi haero neque pecus utinam velit voco.\r\n\r\nAdipiscing brevitas persto probo qui valetudo. Decet minim valetudo. Appellatio jumentum letalis luptatum roto sagaciter. Aptent consequat dolus iustum occuro quis sino suscipere tego valetudo. Acsi lucidus quia tation vicis voco wisi zelus. Exerci facilisis singularis sino.\r\n\r\nDistineo humo iaceo immitto jumentum modo olim paratus sagaciter te. Abluo diam obruo probo uxor. Dolore ea esse fere occuro zelus. Blandit commoveo decet pecus. Aliquip cui exerci pertineo. Cogo defui et euismod letalis nostrud si vulpes. Antehabeo hos mos obruo pertineo premo roto tincidunt venio.\r\n\r\nAppellatio caecus hendrerit ibidem mos nulla roto ullamcorper veniam. Commodo exputo praemitto. Tum valetudo vero. Acsi ille loquor. Antehabeo camur damnum decet importunus luptatum melior nutus.\r\n\r\nCaecus camur dolus. Esse interdico pala proprius quis tincidunt. Commoveo feugiat ibidem olim pecus premo quidne quis tamen validus. Ad aliquip antehabeo ea jugis nutus quis singularis sino torqueo. Hendrerit luctus sagaciter torqueo turpis veniam venio. Aliquip distineo patria pneum quis. Abico accumsan duis haero iustum tincidunt veniam. At commoveo fere gemino pertineo singularis sino utinam.\r\n\r\nAmet molior nimis pecus qui sagaciter si valetudo volutpat. Abigo haero humo mauris. Amet augue exputo jus neo quae saepius. Euismod letalis magna metuo quidne uxor. Amet consectetuer erat esse ibidem luctus praesent quibus roto tation. Abluo decet dignissim fere genitus jus ludus mos nulla obruo.\r\n\r\nGenitus hos iriure mos quibus. Abdo abigo euismod saluto wisi. Gilvus iaceo ibidem lobortis. Adipiscing aliquam ex exerci importunus lobortis odio pala refero validus.\r\n\r\nCamur gravis nimis vulpes. Abbas huic vindico. Magna natu singularis velit. Abbas commoveo haero iustum pala typicus validus. Conventio gravis lobortis mauris sudo.\r\n\r\nBrevitas hendrerit interdico luptatum mos nisl pertineo sudo voco ymo. Decet feugiat jumentum persto valetudo. Autem iaceo ibidem. Abbas capto imputo incassum lucidus praesent.\r\n\r\nAccumsan dolore iaceo melior modo. Abbas caecus exerci occuro quidne venio vero vindico vulpes vulputate. Aptent populus quidne tamen tum. At autem eu exerci genitus gilvus jus molior nisl tation.\r\n\r\n"
+      format: plain_text
+      summary: "Appellatio commodo molior vero. Decet eu nisl nobis praesent verto. Metuo premo qui. Amet cogo euismod eum iaceo ibidem importunus pala similis ullamcorper. Capto dolor humo iriure metuo pecus quidne suscipit verto. Acsi consectetuer hendrerit huic inhibeo neo. Autem comis exputo ibidem iusto melior tego. Eros hos luctus neo nobis nulla pecus saluto tation. Defui eum ideo macto sino.\r\n\r\nIncassum magna mauris nibh premo rusticus. Accumsan acsi decet incassum lobortis melior neo nostrud quis. Abbas elit exputo gravis letalis minim tamen valde. Genitus neque nisl olim plaga populus singularis turpis vel veniam.\r\n\r\nLaoreet letalis pneum quae si tincidunt ulciscor valetudo vero. Exputo inhibeo jus lobortis metuo vel velit virtus volutpat. Iusto neque olim. Elit feugiat usitas. Dolus genitus immitto lucidus nunc. Abigo scisco valde. Comis erat euismod nutus suscipere. Aliquip eligo ideo illum nimis tamen ullamcorper. Acsi humo ibidem ideo scisco vulputate. Accumsan eligo iusto melior suscipit valetudo. Abico facilisi haero neque pecus utinam velit voco.\r\n\r\nAdipiscing brevitas persto probo qui valetudo. Decet minim valetudo. Appellatio jumentum letalis luptatum roto sagaciter. Aptent consequat dolus iustum occuro quis sino suscipere tego valetudo. Acsi lucidus quia tation vicis voco wisi zelus. Exerci facilisis singularis sino.\r\n\r\nDistineo humo iaceo immitto jumentum modo olim paratus sagaciter te. Abluo diam obruo probo uxor. Dolore ea esse fere occuro zelus. Blandit commoveo decet pecus. Aliquip cui exerci pertineo. Cogo defui et euismod letalis nostrud si vulpes. Antehabeo hos mos obruo pertineo premo roto tincidunt venio.\r\n\r\nAppellatio caecus hendrerit ibidem mos nulla roto ullamcorper veniam. Commodo exputo praemitto. Tum valetudo vero. Acsi ille loquor. Antehabeo camur damnum decet importunus luptatum melior nutus.\r\n\r\nCaecus camur dolus. Esse interdico pala proprius quis tincidunt. Commoveo feugiat ibidem olim pecus premo quidne quis tamen validus. Ad aliquip antehabeo ea jugis nutus quis singularis sino torqueo. Hendrerit luctus sagaciter torqueo turpis veniam venio. Aliquip distineo patria pneum quis. Abico accumsan duis haero iustum tincidunt veniam. At commoveo fere gemino pertineo singularis sino utinam.\r\n\r\nAmet molior nimis pecus qui sagaciter si valetudo volutpat. Abigo haero humo mauris. Amet augue exputo jus neo quae saepius. Euismod letalis magna metuo quidne uxor. Amet consectetuer erat esse ibidem luctus praesent quibus roto tation. Abluo decet dignissim fere genitus jus ludus mos nulla obruo.\r\n\r\nGenitus hos iriure mos quibus. Abdo abigo euismod saluto wisi. Gilvus iaceo ibidem lobortis. Adipiscing aliquam ex exerci importunus lobortis odio pala refero validus.\r\n\r\nCamur gravis nimis vulpes. Abbas huic vindico. Magna natu singularis velit. Abbas commoveo haero iustum pala typicus validus. Conventio gravis lobortis mauris sudo.\r\n\r\nBrevitas hendrerit interdico luptatum mos nisl pertineo sudo voco ymo. Decet feugiat jumentum persto valetudo. Autem iaceo ibidem. Abbas capto imputo incassum lucidus praesent.\r\n\r\nAccumsan dolore iaceo melior modo. Abbas caecus exerci occuro quidne venio vero vindico vulpes vulputate. Aptent populus quidne tamen tum. At autem eu exerci genitus gilvus jus molior nisl tation.\r\n\r\n"
+  field_projet_localisation:
+    -
+      value: 'MULTIPOINT ((-101.69349 4.03593), (-102.4619662 3.7459201), (-103.4791491 4.2245794), (-105.1434578 4.3534504), (-105.9351041 4.4118202))'
+      geo_type: MultiPoint
+      lat: 4.07887015
+      lon: -103.81429705
+      left: -105.9351041
+      top: 4.4118202
+      right: -101.69349
+      bottom: 3.7459201
+      geohash: '98'
+      latlon: '4.07887015,-103.81429705'
+  field_projet_organisation:
+    -
+      entity: 1efb543f-cffe-4a4f-bc4b-40e407f82ec7
+  field_projet_photos:
+    -
+      entity: d0299e7e-157c-457f-8873-e0f9d31d6f3a
+  field_projets_videos:
+    -
+      entity: e9bba5db-d256-4699-95a2-40da669ac844
+    -
+      entity: 4b73cf7d-fb90-4712-b6c0-3e4356f0e0fd

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b8b37b7-6efb-4e91-954b-41fa6d66aab2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pal_aerospace_logo-700x152.png
+  uri:
+    -
+      value: 'public://2022-06/pal_aerospace_logo-700x152.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20626
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399389

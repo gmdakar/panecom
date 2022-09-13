@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 60fa3605-dadb-4e5a-8f6c-f91309884521
+  default_langcode: fr
+default:
+  filename:
+    -
+      value: sample_4.pdf.jpg
+  uri:
+    -
+      value: 'public://2022-08/sample_4.pdf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82045
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1661365672

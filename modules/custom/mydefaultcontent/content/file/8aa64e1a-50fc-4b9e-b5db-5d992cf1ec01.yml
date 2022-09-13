@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8aa64e1a-50fc-4b9e-b5db-5d992cf1ec01
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: z8TdycZOQu.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/z8TdycZOQu.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 929
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

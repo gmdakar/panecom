@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8ff4c968-f24b-451c-b60e-767dddc7104e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lOCwWAVzYE.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/lOCwWAVzYE.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1100
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

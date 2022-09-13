@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c7a7b954-a807-4631-9999-3051b1aa3bdc
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_k0m1CG.jpg
+  uri:
+    -
+      value: 'public://2022-06/generateImage_k0m1CG.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8082
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4f27bfc3-e794-4775-8387-850ff5a68ed8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cEYrVhy0C3.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/cEYrVhy0C3.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 889
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

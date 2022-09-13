@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0b23f2b5-d655-4682-8524-7ed570c43572
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'pexels-sean-whang-804269 (2).jpg'
+  uri:
+    -
+      value: 'public://2022-05/pexels-sean-whang-804269 (2).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 63354
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652973672

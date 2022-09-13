@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d8899d36-3486-493e-a03b-86270d556800
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: c4FGO8Ms41.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/c4FGO8Ms41.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 841
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653477688

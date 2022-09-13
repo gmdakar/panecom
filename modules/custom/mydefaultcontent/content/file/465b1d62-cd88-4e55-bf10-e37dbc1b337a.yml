@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 465b1d62-cd88-4e55-bf10-e37dbc1b337a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lIaVje2eMi.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/lIaVje2eMi.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 939
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

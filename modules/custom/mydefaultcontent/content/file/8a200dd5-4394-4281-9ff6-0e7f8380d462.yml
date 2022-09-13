@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8a200dd5-4394-4281-9ff6-0e7f8380d462
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vBw1QwYnVD.txt
+  uri:
+    -
+      value: 'public://organisation/2022-06/vBw1QwYnVD.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 753
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

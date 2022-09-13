@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: c04a4148-be79-467e-8c74-e0d33dbb2232
+  bundle: block_tabs_onglets_projets_x_doc
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Tabs-onglets [projets x documents]'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1660750812
+  field_tabs_documents:
+    -
+      target_id: documents
+      display_id: block_1
+      arguments: ''
+      items_to_display: ''
+  field_tabs_projets:
+    -
+      target_id: projets
+      display_id: block_1
+      arguments: ''
+      items_to_display: ''

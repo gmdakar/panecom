@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 039f89f2-dc12-4ed0-b402-8c4558ed881e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_N2an00.png
+  uri:
+    -
+      value: 'public://pagebase/2022-05/generateImage_N2an00.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 807
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653494821

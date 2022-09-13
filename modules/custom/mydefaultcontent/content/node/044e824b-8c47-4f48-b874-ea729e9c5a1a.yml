@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 044e824b-8c47-4f48-b874-ea729e9c5a1a
+  bundle: organisation_membre
+  default_langcode: fr
+  depends:
+    02ebeab2-4e4b-461a-a031-d42ea350c64c: user
+default:
+  revision_uid:
+    -
+      entity: 02ebeab2-4e4b-461a-a031-d42ea350c64c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 02ebeab2-4e4b-461a-a031-d42ea350c64c
+  title:
+    -
+      value: 'my organisation3'
+  created:
+    -
+      value: 1641044530
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /organisation-membre/my-organisation3
+      langcode: fr
+      pathauto: 1
+  field_org_actualites:
+    -
+      target_id: slideshow
+      display_id: block_3
+      arguments: ''
+      items_to_display: ''
+  field_org_documents:
+    -
+      target_id: documents
+      display_id: block_1
+      arguments: ''
+      items_to_display: ''
+  field_org_localisation:
+    -
+      value: 'POINT (0.71457 1.207415)'
+      geo_type: Point
+      lat: 1.207415
+      lon: 0.71457
+      left: 0.71457
+      top: 1.207415
+      right: 0.71457
+      bottom: 1.207415
+      geohash: s00wb7b3dwqp
+      latlon: '1.207415,0.71457'
+  field_org_projets:
+    -
+      target_id: projets
+      display_id: block_2
+      arguments: ''
+      items_to_display: ''

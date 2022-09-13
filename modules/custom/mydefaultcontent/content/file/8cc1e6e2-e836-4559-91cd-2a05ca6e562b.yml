@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8cc1e6e2-e836-4559-91cd-2a05ca6e562b
+  default_langcode: fr
+  depends:
+    09cf636f-843f-4966-9f89-66f098a0eb11: user
+default:
+  uid:
+    -
+      entity: 09cf636f-843f-4966-9f89-66f098a0eb11
+  filename:
+    -
+      value: pexels-jopwell-2422278.jpg
+  uri:
+    -
+      value: 'public://2022-07/pexels-jopwell-2422278.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 940675
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1656679775

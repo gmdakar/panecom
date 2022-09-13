@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 19bd5571-017e-4fef-8f73-f186da74e792
+  bundle: organigramme
+  default_langcode: fr
+  depends:
+    a1cc0bc7-640f-42cc-b652-146afe4a5449: taxonomy_term
+    656cbcee-99fe-403f-966e-a9868ef11603: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Service juridique'
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: a1cc0bc7-640f-42cc-b652-146afe4a5449
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1662983165
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_o_image:
+    -
+      entity: 656cbcee-99fe-403f-966e-a9868ef11603
+      alt: sj
+      title: ''
+      width: 88
+      height: 88
+  field_o_position:
+    -
+      value: u

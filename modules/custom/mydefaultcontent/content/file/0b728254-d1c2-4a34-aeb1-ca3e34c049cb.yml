@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0b728254-d1c2-4a34-aeb1-ca3e34c049cb
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lUGtruTbUZ.txt
+  uri:
+    -
+      value: 'public://document/2022-06/lUGtruTbUZ.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1082
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

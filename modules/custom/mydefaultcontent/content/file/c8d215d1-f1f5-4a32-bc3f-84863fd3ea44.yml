@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c8d215d1-f1f5-4a32-bc3f-84863fd3ea44
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wvKtVURMvK.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/wvKtVURMvK.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 794
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

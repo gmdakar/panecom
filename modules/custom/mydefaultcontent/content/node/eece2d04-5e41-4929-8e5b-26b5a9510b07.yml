@@ -1,0 +1,115 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eece2d04-5e41-4929-8e5b-26b5a9510b07
+  bundle: personnes_cles
+  default_langcode: fr
+  depends:
+    1efb543f-cffe-4a4f-bc4b-40e407f82ec7: node
+    b93050e9-6e48-4af1-a680-55a3f9f75b76: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Jacques Brou'
+  created:
+    -
+      value: 1656001398
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /personne-cle/jaques-brou
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt ausa cogo comis humo ibidem macto</p>\r\n\r\n<p>melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_person_ordreaffichage:
+    -
+      value: 4
+  field_personne_fonction:
+    -
+      value: Événementiel
+  field_personne_organisation:
+    -
+      entity: 1efb543f-cffe-4a4f-bc4b-40e407f82ec7
+  field_personne_photo:
+    -
+      entity: b93050e9-6e48-4af1-a680-55a3f9f75b76
+      alt: ''
+      title: ''
+      width: 3600
+      height: 2698
+  field_personne_reseaux_sociaux:
+    -
+      platform: twitter
+      value: kehfid
+    -
+      platform: linkedin
+      value: '55778'
+    -
+      platform: facebook
+      value: 5454kdfjo
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    created:
+      -
+        value: 1656068442
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    path:
+      -
+        alias: /personne-cle/jacques-brou
+        langcode: en
+        pathauto: 1
+    body:
+      -
+        value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt ausa cogo comis humo ibidem macto</p>\r\n\r\n<p>melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n"
+        format: basic_html
+        summary: ''
+    field_personne_fonction:
+      -
+        value: Events

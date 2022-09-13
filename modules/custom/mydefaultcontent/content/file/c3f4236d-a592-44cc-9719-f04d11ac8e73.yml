@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c3f4236d-a592-44cc-9719-f04d11ac8e73
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hBrckO8Nyt.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/hBrckO8Nyt.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 794
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

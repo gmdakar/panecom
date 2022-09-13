@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 11426285-7a93-4545-9c21-e9285e4a6ea4
+  bundle: personnes_cles
+  default_langcode: fr
+  depends:
+    7870229e-a557-4a4c-a67c-6d7c13f1cc84: node
+    47c4412a-fb73-4ac9-a785-0e26ef58dbf2: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Emilie Sané'
+  created:
+    -
+      value: 1655998400
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /personne-cle/emilie-sane
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt aptent premo sit velit vindico.</p>\r\n\r\n<p>Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_person_ordreaffichage:
+    -
+      value: 2
+  field_personne_fonction:
+    -
+      value: Trésorière
+  field_personne_organisation:
+    -
+      entity: 7870229e-a557-4a4c-a67c-6d7c13f1cc84
+  field_personne_photo:
+    -
+      entity: 47c4412a-fb73-4ac9-a785-0e26ef58dbf2
+      alt: ''
+      title: ''
+      width: 6720
+      height: 4480
+  field_personne_reseaux_sociaux:
+    -
+      platform: linkedin
+      value: kehfid
+    -
+      platform: email
+      value: email2@eee.com
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    created:
+      -
+        value: 1656068475
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    path:
+      -
+        alias: /personne-cle/emilie-sane
+        langcode: en
+        pathauto: 1
+    body:
+      -
+        value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam.&nbsp;Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Ea facilisis fere immitto quidem sudo tincidunt. Ea facilisis fere immitto quidem sudo tincidunt aptent premo sit velit vindico.</p>\r\n\r\n<p>Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+        format: basic_html
+        summary: ''
+    field_personne_fonction:
+      -
+        value: Treasurer

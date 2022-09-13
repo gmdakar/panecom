@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bbe54fff-72d5-47e3-92b8-5b29a26d33c8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_j6XA1C.png
+  uri:
+    -
+      value: 'public://2022-05/generateImage_j6XA1C.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 954
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417
