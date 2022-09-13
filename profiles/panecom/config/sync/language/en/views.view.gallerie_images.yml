@@ -18,6 +18,12 @@ display:
             placeholder: Search
   page_1:
     display_title: Photos
+    display_options:
+      filters:
+        combine:
+          expose:
+            description: 'Ex. title'
+            placeholder: Search
   page_2:
     display_title: Videos
     display_options:

@@ -331,6 +331,9 @@ display:
             remember_roles:
               authenticated: authenticated
               anonymous: '0'
+              content_editor: '0'
+              point_focal: '0'
+              gestionnaire: '0'
               administrator: '0'
             placeholder: Rechercher
           is_grouped: false

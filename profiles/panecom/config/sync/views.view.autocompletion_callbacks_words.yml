@@ -489,7 +489,7 @@ display:
           exposed: true
           expose:
             operator_id: keys_op
-            label: 'Search Keywords'
+            label: 'Mots-clés de recherche'
             description: ''
             use_operator: false
             operator: keys_op
