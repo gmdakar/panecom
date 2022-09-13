@@ -494,6 +494,10 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
     font-size: 1.5rem;
 }
 
+.page-user-inscriptions .block-field-blockblock-contentblock-type-inscriptionfield-point-focal-d-une-organisa {
+    margin-top: 3rem;
+}
+
 .page-user-register .backlink::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
@@ -544,6 +548,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 .path-user .wrappcol.wrappcol1{
     padding: 5%;
 	background: var(--color18);
+	min-height:80vh;
 }
 
 .path-user .wrappcol.wrappcol2{
