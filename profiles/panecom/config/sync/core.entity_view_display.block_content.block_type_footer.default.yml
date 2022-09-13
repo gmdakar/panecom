@@ -1,0 +1,1155 @@
+uuid: 442b7171-902d-4372-a684-dc32d11043cf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_footer
+    - field.field.block_content.block_type_footer.body
+    - system.menu.acces-rapide
+    - system.menu.infos-utiles
+    - system.menu.nous-suivre-
+  module:
+    - layout_builder
+    - system
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: image
+              background_color:
+                class: null
+              background_color_desktop:
+                class: null
+              background_color_laptop:
+                class: null
+              background_color_tablet:
+                class: null
+              background_color_mobile:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_color_desktop:
+                class: null
+              text_color_laptop:
+                class: null
+              text_color_tablet:
+                class: null
+              text_color_mobile:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              padding_desktop:
+                class: _none
+              padding_laptop:
+                class: _none
+              padding_tablet:
+                class: _none
+              padding_mobile:
+                class: _none
+              padding_left_desktop:
+                class: _none
+              padding_left_laptop:
+                class: _none
+              padding_left_tablet:
+                class: _none
+              padding_left_mobile:
+                class: _none
+              padding_top_desktop:
+                class: _none
+              padding_top_laptop:
+                class: _none
+              padding_top_tablet:
+                class: _none
+              padding_top_mobile:
+                class: _none
+              padding_right_desktop:
+                class: _none
+              padding_right_laptop:
+                class: _none
+              padding_right_tablet:
+                class: _none
+              padding_right_mobile:
+                class: _none
+              padding_bottom_desktop:
+                class: _none
+              padding_bottom_laptop:
+                class: _none
+              padding_bottom_tablet:
+                class: _none
+              padding_bottom_mobile:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              box_shadow:
+                class: null
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '1'
+        components:
+          -
+            uuid: 0244fec4-be84-4916-ab43-dade47c05756
+            region: blb_region_col_1
+            configuration:
+              id: system_branding_block
+              label: 'Site branding'
+              label_display: visible
+              provider: system
+              context_mapping: {  }
+              use_site_logo: true
+              use_site_name: true
+              use_site_slogan: true
+            weight: -10
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: color
+                  background_color:
+                    class: null
+                  background_color_desktop:
+                    class: null
+                  background_color_laptop:
+                    class: null
+                  background_color_tablet:
+                    class: null
+                  background_color_mobile:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_color_desktop:
+                    class: null
+                  text_color_laptop:
+                    class: null
+                  text_color_tablet:
+                    class: null
+                  text_color_mobile:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  padding_desktop:
+                    class: _none
+                  padding_laptop:
+                    class: _none
+                  padding_tablet:
+                    class: _none
+                  padding_mobile:
+                    class: _none
+                  padding_left_desktop:
+                    class: _none
+                  padding_left_laptop:
+                    class: _none
+                  padding_left_tablet:
+                    class: _none
+                  padding_left_mobile:
+                    class: _none
+                  padding_top_desktop:
+                    class: _none
+                  padding_top_laptop:
+                    class: _none
+                  padding_top_tablet:
+                    class: _none
+                  padding_top_mobile:
+                    class: _none
+                  padding_right_desktop:
+                    class: _none
+                  padding_right_laptop:
+                    class: _none
+                  padding_right_tablet:
+                    class: _none
+                  padding_right_mobile:
+                    class: _none
+                  padding_bottom_desktop:
+                    class: _none
+                  padding_bottom_laptop:
+                    class: _none
+                  padding_bottom_tablet:
+                    class: _none
+                  padding_bottom_mobile:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+          -
+            uuid: 2b1f7648-ebcc-4cb1-89c1-dfcb672614c3
+            region: blb_region_col_1
+            configuration:
+              id: 'field_block:block_content:block_type_footer:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: -9
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: color
+                  background_color:
+                    class: null
+                  background_color_desktop:
+                    class: null
+                  background_color_laptop:
+                    class: null
+                  background_color_tablet:
+                    class: null
+                  background_color_mobile:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_color_desktop:
+                    class: null
+                  text_color_laptop:
+                    class: null
+                  text_color_tablet:
+                    class: null
+                  text_color_mobile:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  padding_desktop:
+                    class: _none
+                  padding_laptop:
+                    class: _none
+                  padding_tablet:
+                    class: _none
+                  padding_mobile:
+                    class: _none
+                  padding_left_desktop:
+                    class: _none
+                  padding_left_laptop:
+                    class: _none
+                  padding_left_tablet:
+                    class: _none
+                  padding_left_mobile:
+                    class: _none
+                  padding_top_desktop:
+                    class: _none
+                  padding_top_laptop:
+                    class: _none
+                  padding_top_tablet:
+                    class: _none
+                  padding_top_mobile:
+                    class: _none
+                  padding_right_desktop:
+                    class: _none
+                  padding_right_laptop:
+                    class: _none
+                  padding_right_tablet:
+                    class: _none
+                  padding_right_mobile:
+                    class: _none
+                  padding_bottom_desktop:
+                    class: _none
+                  padding_bottom_laptop:
+                    class: _none
+                  padding_bottom_tablet:
+                    class: _none
+                  padding_bottom_mobile:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+        third_party_settings: {  }
+      -
+        layout_id: 'bootstrap_layout_builder:blb_col_3'
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_color_desktop:
+                class: null
+              background_color_laptop:
+                class: null
+              background_color_tablet:
+                class: null
+              background_color_mobile:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_color_desktop:
+                class: null
+              text_color_laptop:
+                class: null
+              text_color_tablet:
+                class: null
+              text_color_mobile:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              padding_desktop:
+                class: _none
+              padding_laptop:
+                class: _none
+              padding_tablet:
+                class: _none
+              padding_mobile:
+                class: _none
+              padding_left_desktop:
+                class: _none
+              padding_left_laptop:
+                class: _none
+              padding_left_tablet:
+                class: _none
+              padding_left_mobile:
+                class: _none
+              padding_top_desktop:
+                class: _none
+              padding_top_laptop:
+                class: _none
+              padding_top_tablet:
+                class: _none
+              padding_top_mobile:
+                class: _none
+              padding_right_desktop:
+                class: _none
+              padding_right_laptop:
+                class: _none
+              padding_right_tablet:
+                class: _none
+              padding_right_mobile:
+                class: _none
+              padding_bottom_desktop:
+                class: _none
+              padding_bottom_laptop:
+                class: _none
+              padding_bottom_tablet:
+                class: _none
+              padding_bottom_mobile:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              box_shadow:
+                class: null
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container-fluid
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+            blb_region_col_2: ''
+            blb_region_col_3: ''
+          regions_attributes:
+            blb_region_col_1: null
+            blb_region_col_2: null
+            blb_region_col_3: null
+          breakpoints:
+            desktop: blb_col_4_4_4
+            tablet: blb_col_4_4_4
+            mobile: blb_col_12
+          layout_regions_classes:
+            blb_region_col_1:
+              - col-lg-4
+              - col-md-4
+              - col-12
+            blb_region_col_2:
+              - col-lg-4
+              - col-md-4
+              - col-12
+            blb_region_col_3:
+              - col-lg-4
+              - col-md-4
+              - col-12
+          remove_gutters: '0'
+        components:
+          -
+            uuid: ab1ef743-c16f-4661-8f2b-73aa28c19c91
+            region: blb_region_col_1
+            configuration:
+              id: 'system_menu_block:infos-utiles'
+              label: 'Contacts de la plateforme'
+              label_display: visible
+              provider: system
+              context_mapping: {  }
+              level: 1
+              depth: 0
+              expand_all_items: false
+            weight: 0
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: color
+                  background_color:
+                    class: null
+                  background_color_desktop:
+                    class: null
+                  background_color_laptop:
+                    class: null
+                  background_color_tablet:
+                    class: null
+                  background_color_mobile:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_color_desktop:
+                    class: null
+                  text_color_laptop:
+                    class: null
+                  text_color_tablet:
+                    class: null
+                  text_color_mobile:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  padding_desktop:
+                    class: _none
+                  padding_laptop:
+                    class: _none
+                  padding_tablet:
+                    class: _none
+                  padding_mobile:
+                    class: _none
+                  padding_left_desktop:
+                    class: _none
+                  padding_left_laptop:
+                    class: _none
+                  padding_left_tablet:
+                    class: _none
+                  padding_left_mobile:
+                    class: _none
+                  padding_top_desktop:
+                    class: _none
+                  padding_top_laptop:
+                    class: _none
+                  padding_top_tablet:
+                    class: _none
+                  padding_top_mobile:
+                    class: _none
+                  padding_right_desktop:
+                    class: _none
+                  padding_right_laptop:
+                    class: _none
+                  padding_right_tablet:
+                    class: _none
+                  padding_right_mobile:
+                    class: _none
+                  padding_bottom_desktop:
+                    class: _none
+                  padding_bottom_laptop:
+                    class: _none
+                  padding_bottom_tablet:
+                    class: _none
+                  padding_bottom_mobile:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+          -
+            uuid: 5a3ca943-63ad-43d0-960c-336242f1edd4
+            region: blb_region_col_2
+            configuration:
+              id: 'system_menu_block:acces-rapide'
+              label: 'Accès rapide'
+              label_display: visible
+              provider: system
+              context_mapping: {  }
+              level: 1
+              depth: 0
+              expand_all_items: false
+            weight: 1
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: color
+                  background_color:
+                    class: null
+                  background_color_desktop:
+                    class: null
+                  background_color_laptop:
+                    class: null
+                  background_color_tablet:
+                    class: null
+                  background_color_mobile:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_color_desktop:
+                    class: null
+                  text_color_laptop:
+                    class: null
+                  text_color_tablet:
+                    class: null
+                  text_color_mobile:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  padding_desktop:
+                    class: _none
+                  padding_laptop:
+                    class: _none
+                  padding_tablet:
+                    class: _none
+                  padding_mobile:
+                    class: _none
+                  padding_left_desktop:
+                    class: _none
+                  padding_left_laptop:
+                    class: _none
+                  padding_left_tablet:
+                    class: _none
+                  padding_left_mobile:
+                    class: _none
+                  padding_top_desktop:
+                    class: _none
+                  padding_top_laptop:
+                    class: _none
+                  padding_top_tablet:
+                    class: _none
+                  padding_top_mobile:
+                    class: _none
+                  padding_right_desktop:
+                    class: _none
+                  padding_right_laptop:
+                    class: _none
+                  padding_right_tablet:
+                    class: _none
+                  padding_right_mobile:
+                    class: _none
+                  padding_bottom_desktop:
+                    class: _none
+                  padding_bottom_laptop:
+                    class: _none
+                  padding_bottom_tablet:
+                    class: _none
+                  padding_bottom_mobile:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+          -
+            uuid: 6fc07c79-75e4-4f96-860f-c0e727a41779
+            region: blb_region_col_3
+            configuration:
+              id: 'system_menu_block:nous-suivre-'
+              label: 'Réseaux Sociaux'
+              label_display: visible
+              provider: system
+              context_mapping: {  }
+              level: 1
+              depth: 0
+              expand_all_items: false
+            weight: 1
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: color
+                  background_color:
+                    class: null
+                  background_color_desktop:
+                    class: null
+                  background_color_laptop:
+                    class: null
+                  background_color_tablet:
+                    class: null
+                  background_color_mobile:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_color_desktop:
+                    class: null
+                  text_color_laptop:
+                    class: null
+                  text_color_tablet:
+                    class: null
+                  text_color_mobile:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  padding_desktop:
+                    class: _none
+                  padding_laptop:
+                    class: _none
+                  padding_tablet:
+                    class: _none
+                  padding_mobile:
+                    class: _none
+                  padding_left_desktop:
+                    class: _none
+                  padding_left_laptop:
+                    class: _none
+                  padding_left_tablet:
+                    class: _none
+                  padding_left_mobile:
+                    class: _none
+                  padding_top_desktop:
+                    class: _none
+                  padding_top_laptop:
+                    class: _none
+                  padding_top_tablet:
+                    class: _none
+                  padding_top_mobile:
+                    class: _none
+                  padding_right_desktop:
+                    class: _none
+                  padding_right_laptop:
+                    class: _none
+                  padding_right_tablet:
+                    class: _none
+                  padding_right_mobile:
+                    class: _none
+                  padding_bottom_desktop:
+                    class: _none
+                  padding_bottom_laptop:
+                    class: _none
+                  padding_bottom_tablet:
+                    class: _none
+                  padding_bottom_mobile:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+        third_party_settings: {  }
+id: block_content.block_type_footer.default
+targetEntityType: block_content
+bundle: block_type_footer
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

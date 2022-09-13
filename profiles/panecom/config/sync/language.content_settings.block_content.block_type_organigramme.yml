@@ -1,0 +1,11 @@
+uuid: de2e731b-a326-48d6-bcd2-7fb51d47ae94
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_organigramme
+id: block_content.block_type_organigramme
+target_entity_type_id: block_content
+target_bundle: block_type_organigramme
+default_langcode: site_default
+language_alterable: false

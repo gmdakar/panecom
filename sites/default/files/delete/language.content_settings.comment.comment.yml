@@ -1,0 +1,11 @@
+uuid: 36630683-8193-4dc6-8fa1-3d11983316ce
+langcode: fr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment
+target_entity_type_id: comment
+target_bundle: comment
+default_langcode: site_default
+language_alterable: false

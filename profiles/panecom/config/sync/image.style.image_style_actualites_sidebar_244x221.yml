@@ -1,0 +1,21 @@
+uuid: b5ef15d0-60be-4b07-af53-6a430fa93171
+langcode: fr
+status: true
+dependencies: {  }
+name: image_style_actualites_sidebar_244x221
+label: 'Image style actualites sidebar [244x221'
+effects:
+  6a9b55d4-04ba-4da2-8dde-be5a43a6a5f8:
+    uuid: 6a9b55d4-04ba-4da2-8dde-be5a43a6a5f8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 244
+      height: 221
+      anchor: center-center
+  359445cf-b87e-4ab5-9c5a-f540a716ffca:
+    uuid: 359445cf-b87e-4ab5-9c5a-f540a716ffca
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

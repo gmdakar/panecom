@@ -2,8 +2,8 @@ uuid: 61cf5130-7272-40cd-a415-328362ab6f0c
 langcode: fr
 status: true
 dependencies: {  }
-id: crop_type_1300x600
 label: 'Crop type 1300x600'
+id: crop_type_1300x600
 description: ''
 aspect_ratio: '1300:600'
 soft_limit_width: 1300

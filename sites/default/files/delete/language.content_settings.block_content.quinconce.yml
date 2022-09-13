@@ -1,0 +1,11 @@
+uuid: 9ec1b36a-3ce8-4c4b-a5e6-baaf0718656b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.quinconce
+id: block_content.quinconce
+target_entity_type_id: block_content
+target_bundle: quinconce
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,33 @@
+uuid: e60cd3c7-2f9d-428f-a0dc-163a02809b3c
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e3c70521-8810-4fe5-979b-c1322d3d1319'
+  module:
+    - block_content
+    - node
+  theme:
+    - panecom_bstrp
+id: headernodeprojet
+theme: panecom_bstrp
+region: content
+weight: -23
+provider: null
+plugin: 'block_content:e3c70521-8810-4fe5-979b-c1322d3d1319'
+settings:
+  id: 'block_content:e3c70521-8810-4fe5-979b-c1322d3d1319'
+  label: 'Header Node projet'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@entity_route_context.entity_route_context:canonical_entity:node'
+    bundles:
+      projet: projet

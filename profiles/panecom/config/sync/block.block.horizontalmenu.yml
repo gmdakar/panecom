@@ -1,0 +1,20 @@
+uuid: 210f6605-7d2d-47f7-834b-3b3932e50833
+langcode: fr
+status: false
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - panecom_bstrp
+id: horizontalmenu
+theme: panecom_bstrp
+region: primary_menu
+weight: 0
+provider: null
+plugin: responsive_menu_horizontal_menu
+settings:
+  id: responsive_menu_horizontal_menu
+  label: 'Horizontal menu'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

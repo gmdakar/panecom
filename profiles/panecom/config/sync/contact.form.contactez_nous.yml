@@ -12,10 +12,10 @@ third_party_settings:
     maximum_submissions_user: 0
     page_autoreply_format: plain_text
 id: contactez_nous
-label: Contactez-nous
+label: Contact
 recipients:
-  - ssmmsow@yahoo.com
+  - testtest@devpanecom.com
 reply: "Bien reçu.\r\nNous vous remercions de votre message.\r\nBien cordialement"
 weight: 0
 message: 'Votre message a été bien envoyé avec succès.'
-redirect: ''
+redirect: /contact

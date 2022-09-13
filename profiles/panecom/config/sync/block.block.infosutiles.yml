@@ -1,6 +1,6 @@
 uuid: 7ee39428-c990-4610-a877-e03ba6013226
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - system.menu.infos-utiles
@@ -11,7 +11,7 @@ dependencies:
 id: infosutiles
 theme: panecom_bstrp
 region: secondary_menu
-weight: -11
+weight: -22
 provider: null
 plugin: 'system_menu_block:infos-utiles'
 settings:

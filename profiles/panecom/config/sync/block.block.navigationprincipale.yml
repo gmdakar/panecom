@@ -6,12 +6,13 @@ dependencies:
     - system.menu.main
   module:
     - superfish
+    - system
   theme:
     - panecom_bstrp
 id: navigationprincipale
 theme: panecom_bstrp
 region: primary_menu
-weight: 0
+weight: -20
 provider: null
 plugin: 'superfish:main'
 settings:
@@ -37,7 +38,7 @@ settings:
   touchua: '0'
   touchual: ''
   touchuam: '0'
-  small: '2'
+  small: '0'
   smallbp: '992'
   smallua: '0'
   smallual: ''
@@ -68,4 +69,8 @@ settings:
   custom_list_class: ''
   custom_item_class: ''
   custom_link_class: ''
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/organisation-membre/*'

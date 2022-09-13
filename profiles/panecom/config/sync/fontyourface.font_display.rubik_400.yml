@@ -1,0 +1,12 @@
+uuid: 2093252a-fcdd-491a-9de7-49ac420851a3
+langcode: fr
+status: true
+dependencies: {  }
+id: rubik_400
+label: Rubik
+font_url: 'https://www.google.com/webfonts/family?family=Rubik&subset=latin#regular'
+fallback: ''
+selectors: .fontyourface
+theme: panecom_bstrp
+style: null
+weight: null

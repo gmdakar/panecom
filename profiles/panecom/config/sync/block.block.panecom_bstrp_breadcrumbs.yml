@@ -11,7 +11,7 @@ _core:
 id: panecom_bstrp_breadcrumbs
 theme: panecom_bstrp
 region: breadcrumb
-weight: 0
+weight: -25
 provider: null
 plugin: system_breadcrumb_block
 settings:
@@ -23,4 +23,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: '<front>'
+    pages: "<front>\r\n/organisation-membre/*"

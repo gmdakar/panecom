@@ -1,0 +1,61 @@
+uuid: 8ea9947b-1f1e-444c-8e36-72273f8eeb84
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.nous_contacter
+    - field.field.contact_message.nous_contacter.field_nom_prenoms
+    - field.field.contact_message.nous_contacter.field_sujet
+    - field.field.contact_message.nous_contacter.field_votre_mail
+id: contact_message.nous_contacter.default
+targetEntityType: contact_message
+bundle: nous_contacter
+mode: default
+content:
+  copy:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 3
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_nom_prenoms: true
+  field_sujet: true
+  field_votre_mail: true

@@ -2,6 +2,8 @@ uuid: 444b65d8-c51d-4654-badc-c183e0c631a2
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - panecom_bstrp
 _core:
@@ -9,7 +11,7 @@ _core:
 id: panecom_bstrp_page_title
 theme: panecom_bstrp
 region: content
-weight: -16
+weight: -21
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,8 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

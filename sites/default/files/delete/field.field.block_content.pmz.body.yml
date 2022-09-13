@@ -1,0 +1,23 @@
+uuid: d615cde5-a916-4400-944c-a43cb1d2c7f1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.pmz
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.pmz.body
+field_name: body
+entity_type: block_content
+bundle: pmz
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

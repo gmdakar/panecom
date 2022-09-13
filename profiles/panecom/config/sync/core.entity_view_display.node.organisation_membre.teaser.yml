@@ -13,44 +13,36 @@ dependencies:
     - field.field.node.organisation_membre.field_org_logo
     - field.field.node.organisation_membre.field_org_photos
     - field.field.node.organisation_membre.field_org_projets
+    - field.field.node.organisation_membre.field_org_sigle
     - field.field.node.organisation_membre.field_org_site_web
+    - field.field.node.organisation_membre.field_org_social_network
     - field.field.node.organisation_membre.field_org_telecharger
     - field.field.node.organisation_membre.field_org_telephone
     - field.field.node.organisation_membre.field_org_videos
-    - image.style.medium
+    - image.style.organisation_logo_small_50_x50_
     - node.type.organisation_membre
   module:
     - image
-    - text
     - user
 id: node.organisation_membre.teaser
 targetEntityType: node
 bundle: organisation_membre
 mode: teaser
 content:
-  body:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_org_logo:
     type: image
     label: hidden
     settings:
       image_link: content
-      image_style: medium
+      image_style: organisation_logo_small_50_x50_
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
 hidden:
   addtoany: true
+  body: true
   field_org_actualites: true
   field_org_adresse_contact: true
   field_org_documents: true
@@ -58,8 +50,11 @@ hidden:
   field_org_localisation: true
   field_org_photos: true
   field_org_projets: true
+  field_org_sigle: true
   field_org_site_web: true
+  field_org_social_network: true
   field_org_telecharger: true
   field_org_telephone: true
   field_org_videos: true
   langcode: true
+  links: true

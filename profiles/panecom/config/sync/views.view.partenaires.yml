@@ -7,6 +7,8 @@ dependencies:
     - field.storage.node.field_partenaire_siteweb
     - image.style.thumbnail
     - node.type.partenaire
+  content:
+    - 'block_content:basic:3f886a6d-3518-4680-a7d3-332f0b5905e1'
   module:
     - image
     - link
@@ -104,7 +106,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<a target="_blank" href="{{ field_partenaire_siteweb__uri }}"><img src="{{ field_partenaire_logo }}" class="img-responsive"></a>'
+            text: "<div><a target=\"_blank\" href=\"{{ field_partenaire_siteweb__uri }}\"><img src=\"{{ field_partenaire_logo }}\" class=\"img-responsive\"></a></div>\r\n"
             make_link: false
             path: ''
             absolute: false
@@ -150,6 +152,71 @@ display:
             rel: '0'
             target: _blank
           group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -234,9 +301,9 @@ display:
           default_row_class: true
           col_xs: col-6
           col_sm: col-sm-6
-          col_md: col-md-6
-          col_lg: col-lg-4
-          col_xl: col-xl-4
+          col_md: col-md-3
+          col_lg: none
+          col_xl: none
       row:
         type: fields
       query:
@@ -248,7 +315,20 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      header: {  }
+      header:
+        entity_block_content:
+          id: entity_block_content
+          table: views
+          field: entity_block_content
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entity
+          empty: false
+          target: 3f886a6d-3518-4680-a7d3-332f0b5905e1
+          view_mode: default
+          tokenize: true
+          bypass_access: false
       footer: {  }
       display_extenders: {  }
     cache_metadata:

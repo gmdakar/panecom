@@ -1,0 +1,30 @@
+uuid: dbfb1a00-73c0-4bb3-9bb2-9c345663db18
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:765ab939-8b70-4da8-a2a3-8a7c789fb7ca'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: headerdescriptifblocpagedesactualitesalaunepagedaccueil
+theme: panecom_bstrp
+region: content
+weight: -22
+provider: null
+plugin: 'block_content:765ab939-8b70-4da8-a2a3-8a7c789fb7ca'
+settings:
+  id: 'block_content:765ab939-8b70-4da8-a2a3-8a7c789fb7ca'
+  label: 'Header descriptif bloc [page des actualités - A la une/ Page d''accueil]'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article\r\n/article/*"

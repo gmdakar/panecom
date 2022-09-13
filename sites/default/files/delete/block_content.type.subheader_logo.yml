@@ -1,0 +1,8 @@
+uuid: dabd7897-7941-4deb-a600-b0c2ac1bda1e
+langcode: en
+status: true
+dependencies: {  }
+id: subheader_logo
+label: 'Subheader logo'
+revision: 0
+description: 'Contains Logo, Welcome message and search box'

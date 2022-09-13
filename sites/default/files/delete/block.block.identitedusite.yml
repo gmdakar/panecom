@@ -1,0 +1,23 @@
+uuid: b0fb62f1-cd62-4d09-9bc9-84f11e719642
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aad
+id: identitedusite
+theme: aad
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

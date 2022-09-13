@@ -1,0 +1,21 @@
+uuid: e9af9d16-4683-4a8d-aace-d79a850b3b10
+langcode: fr
+status: true
+dependencies: {  }
+name: image_hero_organisation_250x250
+label: 'image hero organisation 220x220'
+effects:
+  c94bb6ee-8980-49c0-95f2-5e8e73969b22:
+    uuid: c94bb6ee-8980-49c0-95f2-5e8e73969b22
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 220
+      anchor: center-center
+  921b82da-1e25-4ecd-9232-c6a4dd3966e1:
+    uuid: 921b82da-1e25-4ecd-9232-c6a4dd3966e1
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

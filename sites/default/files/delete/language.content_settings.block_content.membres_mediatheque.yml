@@ -1,0 +1,11 @@
+uuid: 5bd0d88f-494b-4fb6-ab39-838da942c43f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.membres_mediatheque
+id: block_content.membres_mediatheque
+target_entity_type_id: block_content
+target_bundle: membres_mediatheque
+default_langcode: site_default
+language_alterable: false

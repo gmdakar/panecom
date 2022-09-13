@@ -1,0 +1,20 @@
+uuid: 5d55a125-aff7-48ee-86bc-15a11c5bf16b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block
+    - block_content
+id: block_content.field_joinus
+field_name: field_joinus
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

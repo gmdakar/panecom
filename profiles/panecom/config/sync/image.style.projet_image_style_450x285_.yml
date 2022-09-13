@@ -1,0 +1,21 @@
+uuid: a887dc17-66ff-4c43-a0ef-0d6f071804bf
+langcode: fr
+status: true
+dependencies: {  }
+name: projet_image_style_450x285_
+label: 'Projet image style [450x285]'
+effects:
+  16c0224f-0e0b-4bf6-9436-5325d17ffded:
+    uuid: 16c0224f-0e0b-4bf6-9436-5325d17ffded
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 450
+      height: 285
+      anchor: center-center
+  5d0a8fde-4a38-4d5c-8b05-d5589785e26f:
+    uuid: 5d0a8fde-4a38-4d5c-8b05-d5589785e26f
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

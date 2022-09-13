@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.image.field_media_image
-    - image.style.large
+    - image.style.image_style_500x420
     - media.type.image
   module:
     - photoswipe
@@ -20,7 +20,7 @@ content:
     type: photoswipe_field_formatter
     label: hidden
     settings:
-      photoswipe_node_style_first: large
+      photoswipe_node_style_first: image_style_500x420
       photoswipe_node_style: hide
       photoswipe_image_style: ''
       photoswipe_reference_image_field: ''

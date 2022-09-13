@@ -7,12 +7,10 @@ dependencies:
     - node.type.document
     - node.type.page
     - node.type.projet
-    - rest.resource.notifications_update_widget
   module:
     - comment
     - media
     - node
-    - rest
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
@@ -33,5 +31,4 @@ permissions:
   - 'edit own comments'
   - 'edit own document content'
   - 'edit own projet content'
-  - 'restful post notifications_update_widget'
   - 'update media'

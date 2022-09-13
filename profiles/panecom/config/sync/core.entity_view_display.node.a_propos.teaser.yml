@@ -1,0 +1,36 @@
+uuid: f6433643-2526-49b0-8e8b-c5ce223b99a1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.a_propos.body
+    - field.field.node.a_propos.field_apropos_illustration
+    - field.field.node.a_propos.field_apropos_priorite
+    - node.type.a_propos
+  module:
+    - text
+    - user
+id: node.a_propos.teaser
+targetEntityType: node
+bundle: a_propos
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_apropos_illustration: true
+  field_apropos_priorite: true
+  langcode: true

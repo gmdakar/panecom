@@ -1,0 +1,30 @@
+uuid: 4ea92935-6857-46bb-aaa6-b0dab69602bd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_projet_avancement
+field_name: field_projet_avancement
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'À venir'
+      label: 'À venir'
+    -
+      value: 'En cours'
+      label: 'En cours'
+    -
+      value: Terminé
+      label: Terminé
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,129 @@
+uuid: 8fc8f10b-15a4-4f25-ac93-39866987407b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.quinconce
+    - field.field.block_content.quinconce.field_image
+    - field.field.block_content.quinconce.field_img1
+    - field.field.block_content.quinconce.field_img3
+    - field.field.block_content.quinconce.field_img4
+    - field.field.block_content.quinconce.field_txt1
+    - field.field.block_content.quinconce.field_txt2
+    - field.field.block_content.quinconce.field_txt3
+    - field.field.block_content.quinconce.field_txt4
+    - image.style.style_crop_200_x_200
+  module:
+    - image_widget_crop
+    - text
+id: block_content.quinconce.default
+targetEntityType: block_content
+bundle: quinconce
+mode: default
+content:
+  field_image:
+    weight: 6
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: style_crop_200_x_200
+      crop_preview_image_style: style_crop_200_x_200
+      crop_list:
+        - crop_type_200x200
+      crop_types_required:
+        - crop_type_200x200
+      progress_indicator: throbber
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  field_img1:
+    weight: 5
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: style_crop_200_x_200
+      crop_preview_image_style: style_crop_200_x_200
+      crop_list:
+        - crop_type_200x200
+      crop_types_required:
+        - crop_type_200x200
+      progress_indicator: throbber
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  field_img3:
+    weight: 7
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: style_crop_200_x_200
+      crop_preview_image_style: style_crop_200_x_200
+      crop_list:
+        - crop_type_200x200
+      crop_types_required:
+        - crop_type_200x200
+      progress_indicator: throbber
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  field_img4:
+    weight: 8
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: style_crop_200_x_200
+      crop_preview_image_style: style_crop_200_x_200
+      crop_list:
+        - crop_type_200x200
+      crop_types_required:
+        - crop_type_200x200
+      progress_indicator: throbber
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  field_txt1:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_txt2:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_txt3:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_txt4:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

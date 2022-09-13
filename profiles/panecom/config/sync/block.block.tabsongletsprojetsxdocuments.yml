@@ -1,0 +1,30 @@
+uuid: ecf2b967-43e6-4f07-be80-d7f64bf1dedf
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:block_tabs_onglets_projets_x_doc:c04a4148-be79-467e-8c74-e0d33dbb2232'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: tabsongletsprojetsxdocuments
+theme: panecom_bstrp
+region: content
+weight: -13
+provider: null
+plugin: 'block_content:c04a4148-be79-467e-8c74-e0d33dbb2232'
+settings:
+  id: 'block_content:c04a4148-be79-467e-8c74-e0d33dbb2232'
+  label: 'Tabs-onglets [projets x documents]'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

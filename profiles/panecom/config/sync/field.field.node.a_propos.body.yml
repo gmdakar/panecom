@@ -1,0 +1,23 @@
+uuid: f62c1a4e-78fe-4fe8-80d8-db4e020e6a6a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.a_propos
+  module:
+    - text
+id: node.a_propos.body
+field_name: body
+entity_type: node
+bundle: a_propos
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

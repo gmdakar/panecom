@@ -19,5 +19,9 @@ enabled_fonts:
   - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#900'
   - 'https://www.google.com/webfonts/family?family=Poppins&subset=latin#regular'
   - 'https://www.google.com/webfonts/family?family=Gravitas One&subset=latin#regular'
+  - 'https://www.google.com/webfonts/family?family=Questrial&subset=latin#regular'
+  - 'https://www.google.com/webfonts/family?family=Rubik&subset=latin#500'
+  - 'https://www.google.com/webfonts/family?family=Roboto&subset=latin#500'
+  - 'https://www.google.com/webfonts/family?family=Rubik&subset=latin#regular'
 load_on_themes:
   panecom_bstrp: panecom_bstrp

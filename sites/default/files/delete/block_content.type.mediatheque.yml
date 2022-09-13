@@ -1,0 +1,8 @@
+uuid: cc45535f-8fc3-4eb8-9d43-1769341a4ac3
+langcode: fr
+status: true
+dependencies: {  }
+id: mediatheque
+label: Mediatheque
+revision: 0
+description: 'Utilisé par le bloc "Membres et Mediatheque"'

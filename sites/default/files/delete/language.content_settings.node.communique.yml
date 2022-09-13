@@ -1,0 +1,11 @@
+uuid: c778e47c-7d1b-4d6d-9884-4eeede94783d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.communique
+id: node.communique
+target_entity_type_id: node
+target_bundle: communique
+default_langcode: site_default
+language_alterable: false

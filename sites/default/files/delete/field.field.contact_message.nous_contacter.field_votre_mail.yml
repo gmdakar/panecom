@@ -1,0 +1,19 @@
+uuid: f7e7342e-9e0c-415f-a039-e7b75ae10c9b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.nous_contacter
+    - field.storage.contact_message.field_votre_mail
+id: contact_message.nous_contacter.field_votre_mail
+field_name: field_votre_mail
+entity_type: contact_message
+bundle: nous_contacter
+label: 'Votre mail'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

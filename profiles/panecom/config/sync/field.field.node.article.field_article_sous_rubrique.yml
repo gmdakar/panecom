@@ -1,0 +1,39 @@
+uuid: a47ab3a7-7cd4-4d13-babb-653276e2bbd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_sous_rubrique
+    - node.type.article
+    - taxonomy.vocabulary.rubrique_d_actualite
+  module:
+    - disable_field
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: node.article.field_article_sous_rubrique
+field_name: field_article_sous_rubrique
+entity_type: node
+bundle: article
+label: 'Sous rubrique'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rubrique_d_actualite: rubrique_d_actualite
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

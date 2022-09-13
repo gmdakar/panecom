@@ -1,0 +1,8 @@
+uuid: 15d3d6ad-8a78-43b8-9fc9-86a718db7bfd
+langcode: fr
+status: true
+dependencies: {  }
+id: block_type_footer
+label: 'Block type footer'
+revision: 0
+description: ''

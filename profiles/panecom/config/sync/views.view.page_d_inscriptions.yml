@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - block_content.type.block_type_inscription
-    - system.menu.account
   module:
     - block_content
 id: page_d_inscriptions
@@ -177,12 +176,16 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: inscriptions
+      path: user/inscriptions
       menu:
-        type: normal
+        type: tab
         title: 'S''inscrire'
+        description: ''
+        weight: 0
+        expanded: false
         menu_name: account
         parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

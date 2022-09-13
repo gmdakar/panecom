@@ -13,7 +13,7 @@ _core:
 id: panecom_bstrp_footer
 theme: panecom_bstrp
 region: footer_fifth
-weight: 0
+weight: -24
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

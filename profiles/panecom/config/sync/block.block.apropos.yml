@@ -1,0 +1,30 @@
+uuid: 084b85d7-b4ac-408c-b51b-90585b51e448
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:25b3aa3d-43f7-40ed-b2ba-527b5477beaa'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: apropos
+theme: panecom_bstrp
+region: header
+weight: -21
+provider: null
+plugin: 'block_content:25b3aa3d-43f7-40ed-b2ba-527b5477beaa'
+settings:
+  id: 'block_content:25b3aa3d-43f7-40ed-b2ba-527b5477beaa'
+  label: 'A propos'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

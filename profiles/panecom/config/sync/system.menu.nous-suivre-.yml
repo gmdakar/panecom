@@ -8,6 +8,6 @@ third_party_settings:
   menu_trail_by_path:
     trail_source: ''
 id: nous-suivre-
-label: 'Nous suivre '
+label: 'Réseaux Sociaux'
 description: 'Réseaux sociaux liens'
 locked: false

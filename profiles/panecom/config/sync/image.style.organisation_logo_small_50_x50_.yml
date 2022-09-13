@@ -1,0 +1,21 @@
+uuid: 06bf2587-66a8-4056-a87a-6a974c53c9e2
+langcode: fr
+status: true
+dependencies: {  }
+name: organisation_logo_small_50_x50_
+label: 'Organisation logo small [50 x50]'
+effects:
+  68d98a0b-41a4-4ce6-8e5f-556664bf843b:
+    uuid: 68d98a0b-41a4-4ce6-8e5f-556664bf843b
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: true
+  9f603d7d-e4d4-4d14-9aa7-632c31721d45:
+    uuid: 9f603d7d-e4d4-4d14-9aa7-632c31721d45
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

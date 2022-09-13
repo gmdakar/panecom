@@ -1,0 +1,8 @@
+uuid: ef1e9392-00a9-4dc4-a6e3-e188ed3c0e3d
+langcode: fr
+status: true
+dependencies: {  }
+id: block_type_team
+label: 'Block type Team'
+revision: 0
+description: 'Utilisé en page d''accueil "Qui sommes Nous ?"'

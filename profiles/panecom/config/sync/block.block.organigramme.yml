@@ -1,0 +1,30 @@
+uuid: ef9a3625-2fd7-482f-a257-f9199ec5b97e
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:block_type_organigramme:cdabc9c0-a2f0-406b-8406-3ac76c447923'
+  module:
+    - block_content
+    - system
+  theme:
+    - panecom_bstrp
+id: organigramme
+theme: panecom_bstrp
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:cdabc9c0-a2f0-406b-8406-3ac76c447923'
+settings:
+  id: 'block_content:cdabc9c0-a2f0-406b-8406-3ac76c447923'
+  label: Organigramme
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /a-propos

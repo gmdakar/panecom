@@ -1,0 +1,29 @@
+uuid: 9b2be9ed-f465-45e3-97d9-e32a122366d7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_nous
+    - field.storage.contact_message.field_adresse_mail
+  module:
+    - disable_field
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: contact_message.contactez_nous.field_adresse_mail
+field_name: field_adresse_mail
+entity_type: contact_message
+bundle: contactez_nous
+label: 'Adresse mail'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

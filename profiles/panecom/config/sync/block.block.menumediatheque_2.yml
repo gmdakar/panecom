@@ -1,6 +1,6 @@
 uuid: 19090a38-c95e-40da-998d-0f19839fc523
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - system.menu.menu-mediatheque

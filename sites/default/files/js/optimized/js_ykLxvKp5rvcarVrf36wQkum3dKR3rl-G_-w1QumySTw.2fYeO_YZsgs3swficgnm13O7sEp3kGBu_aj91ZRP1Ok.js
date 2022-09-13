@@ -1,0 +1,17 @@
+/* Source and licensing information for the line(s) below can be found at https://devpanecom.digissol.pro/modules/contrib/addtoany/js/addtoany.js. */
+/* global a2a*/
+(function (Drupal) {
+  'use strict';
+
+  Drupal.behaviors.addToAny = {
+    attach: function (context, settings) {
+      // If not the full document (it's probably AJAX), and window.a2a exists
+      if (context !== document && window.a2a) {
+        a2a.init_all(); // Init all uninitiated AddToAny instances
+      }
+    }
+  };
+
+})(Drupal);
+
+/* Source and licensing information for the above line(s) can be found at https://devpanecom.digissol.pro/modules/contrib/addtoany/js/addtoany.js. */

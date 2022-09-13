@@ -1,0 +1,15 @@
+uuid: ac7e46cd-8327-4cf1-8f83-66b0b7b00428
+langcode: fr
+status: true
+dependencies: {  }
+name: crop_sec
+label: 'scale and crop 240 x 175'
+effects:
+  e9deafbb-90e2-41c9-8a11-4ca1d66e0046:
+    uuid: e9deafbb-90e2-41c9-8a11-4ca1d66e0046
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 240
+      height: 175
+      anchor: center-center

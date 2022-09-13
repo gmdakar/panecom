@@ -10,8 +10,8 @@ dependencies:
     - panecom_bstrp
 id: copyright
 theme: panecom_bstrp
-region: footer_fifth
-weight: 0
+region: footer_first
+weight: -23
 provider: null
 plugin: 'block_content:eb11c816-4edb-41f7-844a-234654c141d2'
 settings:

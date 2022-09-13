@@ -1,0 +1,8 @@
+uuid: 6ef28cd8-c207-4678-b5cd-e223fd543da4
+langcode: fr
+status: true
+dependencies: {  }
+id: footer_2_blocs
+label: 'Footer 2 blocs'
+revision: 0
+description: ''

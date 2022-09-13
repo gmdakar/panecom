@@ -1,0 +1,33 @@
+uuid: 74aa5b70-d265-4cb8-9be3-3e49971a8da8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.slideshow
+  module:
+    - node
+    - views
+  theme:
+    - panecom_bstrp
+id: views_block__slideshow_block_4
+theme: panecom_bstrp
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:slideshow-block_4'
+settings:
+  id: 'views_block:slideshow-block_4'
+  label: 'Voir aussi'
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: 'Voir aussi'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@entity_route_context.entity_route_context:canonical_entity:node'
+    bundles:
+      article: article

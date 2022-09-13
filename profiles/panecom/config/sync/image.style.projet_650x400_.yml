@@ -1,0 +1,21 @@
+uuid: 8f0942eb-9767-4bcf-adea-e50ac7c07c26
+langcode: fr
+status: true
+dependencies: {  }
+name: projet_650x400_
+label: 'Projet image style [650x400]'
+effects:
+  0f7fb168-f638-47dc-8c39-5e01db257970:
+    uuid: 0f7fb168-f638-47dc-8c39-5e01db257970
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 650
+      height: 400
+      anchor: center-center
+  82862aa1-2491-44b9-993c-a6090311ccff:
+    uuid: 82862aa1-2491-44b9-993c-a6090311ccff
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

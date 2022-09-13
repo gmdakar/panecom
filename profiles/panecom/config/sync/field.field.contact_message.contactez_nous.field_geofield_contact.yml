@@ -1,0 +1,42 @@
+uuid: d9cc93cb-9173-4682-b80b-66bb102bba31
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_nous
+    - field.storage.contact_message.field_geofield_contact
+  module:
+    - disable_field
+    - epp
+    - geofield
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: contact_message.contactez_nous.field_geofield_contact
+field_name: field_geofield_contact
+entity_type: contact_message
+bundle: contactez_nous
+label: 'Map contact'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    title: ''
+    value: 'POINT (-16.31113 15.793962)'
+    geo_type: Point
+    lat: 15.793962
+    lon: -16.31113
+    left: -16.31113
+    top: 15.793962
+    right: -16.31113
+    bottom: 15.793962
+    geohash: edu3ug4w7pgv
+    latlon: '15.793962,-16.31113'
+default_value_callback: ''
+settings: {  }
+field_type: geofield

@@ -7,13 +7,21 @@ dependencies:
     - node.type.article
   module:
     - content_translation
+    - disable_field
+    - epp
     - image
 third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
   content_translation:
     translation_sync:
       file: file
       alt: '0'
       title: '0'
+  disable_field:
+    add_disable: none
+    edit_disable: none
 _core:
   default_config_hash: PmVL51L3A9QGbPLoeLHw5epAPszeZRasCeC3imeeDRQ
 id: node.article.field_image
@@ -33,13 +41,13 @@ settings:
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
-  min_resolution: ''
+  min_resolution: 750x350
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

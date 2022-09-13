@@ -1,0 +1,18 @@
+uuid: 75cf13b8-3fde-42bf-9f06-27bb721b6ce1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'A propos'
+type: a_propos
+description: 'Chaque noeud de ce type sera exploité par la vue "a-propos" afin de générer la page  "à propos"  de la plateforme'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

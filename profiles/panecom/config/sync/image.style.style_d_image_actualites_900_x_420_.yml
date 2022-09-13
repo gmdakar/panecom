@@ -1,0 +1,21 @@
+uuid: a7e0afc9-c822-4e6d-beb5-9a2ffd77fb86
+langcode: fr
+status: true
+dependencies: {  }
+name: style_d_image_actualites_900_x_420_
+label: 'Style d''image actualités [900 x 420]'
+effects:
+  79d71e15-58a5-4f72-bcfb-0feecdafd573:
+    uuid: 79d71e15-58a5-4f72-bcfb-0feecdafd573
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 420
+      anchor: center-center
+  e016eadf-28e0-4cb7-88fe-c1206fda36ee:
+    uuid: e016eadf-28e0-4cb7-88fe-c1206fda36ee
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

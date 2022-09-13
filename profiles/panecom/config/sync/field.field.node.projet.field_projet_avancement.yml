@@ -1,0 +1,30 @@
+uuid: 68f031de-b921-4935-be4c-c4b88716079d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_projet_avancement
+    - node.type.projet
+  module:
+    - disable_field
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: node.projet.field_projet_avancement
+field_name: field_projet_avancement
+entity_type: node
+bundle: projet
+label: 'État d''avancement'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

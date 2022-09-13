@@ -1,0 +1,21 @@
+uuid: e10bc4d9-ec2b-4604-b528-8771d555122f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.background_title
+    - field.storage.block_content.layout_builder__layout
+  module:
+    - layout_builder
+id: block_content.background_title.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: block_content
+bundle: background_title
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

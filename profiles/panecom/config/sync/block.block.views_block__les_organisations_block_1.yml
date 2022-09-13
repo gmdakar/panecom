@@ -1,6 +1,6 @@
 uuid: 404aa1d5-48ab-437f-afaa-9dee4075a8f7
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - views.view.les_organisations
@@ -12,7 +12,7 @@ dependencies:
 id: views_block__les_organisations_block_1
 theme: panecom_bstrp
 region: content
-weight: -9
+weight: -2
 provider: null
 plugin: 'views_block:les_organisations-block_1'
 settings:

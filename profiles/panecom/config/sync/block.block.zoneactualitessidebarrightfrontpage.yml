@@ -1,6 +1,6 @@
 uuid: c18baf5d-dcd5-4baf-b0ec-ab026f83fd5a
 langcode: fr
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:zone_actualites_sidebar_right_fr:212791b6-f082-46a4-b8e8-0e99b359531c'
@@ -12,7 +12,7 @@ dependencies:
 id: zoneactualitessidebarrightfrontpage
 theme: panecom_bstrp
 region: content
-weight: -12
+weight: -4
 provider: null
 plugin: 'block_content:212791b6-f082-46a4-b8e8-0e99b359531c'
 settings:

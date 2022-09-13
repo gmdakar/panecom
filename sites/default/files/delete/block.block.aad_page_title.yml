@@ -1,0 +1,33 @@
+uuid: e62b37e3-72ab-4952-8f7e-203f77950c8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - aad
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: aad_page_title
+theme: aad
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      communique: communique
+      evenement: evenement
+      page: page
+      partenaires: partenaires
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

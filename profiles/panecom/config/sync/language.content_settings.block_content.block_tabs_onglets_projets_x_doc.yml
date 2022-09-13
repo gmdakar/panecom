@@ -1,0 +1,11 @@
+uuid: ec112df5-2bae-4c66-9664-f803519b3967
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.block_tabs_onglets_projets_x_doc
+id: block_content.block_tabs_onglets_projets_x_doc
+target_entity_type_id: block_content
+target_bundle: block_tabs_onglets_projets_x_doc
+default_langcode: site_default
+language_alterable: false

@@ -7,3 +7,8 @@ menu_link_icons:
     prefix: fa
     tag: span
     appearance: before
+  user_logout:
+    icon: fa-user-circle
+    prefix: fa
+    tag: i
+    appearance: after

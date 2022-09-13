@@ -27,11 +27,11 @@ third_party_settings:
             region: content
             configuration:
               id: 'views_block:counters-block_1'
-              label: 'Quelques chiffres'
+              label: ''
               label_display: '0'
               provider: views
               context_mapping: {  }
-              views_label: 'Quelques chiffres'
+              views_label: ''
               items_per_page: none
             weight: 0
             additional:
@@ -51,13 +51,13 @@ third_party_settings:
                     class: null
                   background_media:
                     image:
-                      media_id: null
+                      media_id: '14'
                     video:
                       media_id: null
                     background_options:
-                      background_position: center
+                      background_position: 'left top'
                       background_repeat: no-repeat
-                      background_attachment: fixed
+                      background_attachment: not_fixed
                       background_size: cover
                   text_color:
                     class: null

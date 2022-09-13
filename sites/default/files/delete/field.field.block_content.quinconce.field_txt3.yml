@@ -1,0 +1,21 @@
+uuid: 3a8bc6cc-e7d2-4e4f-9209-b9efd25a7876
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.quinconce
+    - field.storage.block_content.field_txt3
+  module:
+    - text
+id: block_content.quinconce.field_txt3
+field_name: field_txt3
+entity_type: block_content
+bundle: quinconce
+label: txt3
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

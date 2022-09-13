@@ -1,6 +1,6 @@
 uuid: 93451baf-e666-4e9e-bff3-9ea95a2becbe
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - views.view.evenements_masonry_
@@ -12,7 +12,7 @@ dependencies:
 id: views_block__evenements_masonry__block_1
 theme: panecom_bstrp
 region: content
-weight: -7
+weight: -1
 provider: null
 plugin: 'views_block:evenements_masonry_-block_1'
 settings:

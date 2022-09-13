@@ -1,6 +1,6 @@
 uuid: b0dd3f6c-2cf1-45da-b775-05a918c5aa1b
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - system.menu.nous-suivre-
@@ -11,12 +11,12 @@ dependencies:
 id: noussuivre
 theme: panecom_bstrp
 region: secondary_menu
-weight: -9
+weight: -21
 provider: null
 plugin: 'system_menu_block:nous-suivre-'
 settings:
   id: 'system_menu_block:nous-suivre-'
-  label: 'Nous suivre'
+  label: 'Follow us'
   label_display: visible
   provider: system
   level: 1

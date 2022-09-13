@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '68a244aef438004db203c340376f6e69345c82c6',
+        'reference' => '74c175d7546662308321494c76f7dcb83e92414d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -261,6 +261,15 @@
             'replaced' => array(
                 0 => '9.4.2',
             ),
+        ),
+        'drupal/better_login_form_config' => array(
+            'pretty_version' => '2.4.0',
+            'version' => '2.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/better_login_form_config',
+            'aliases' => array(),
+            'reference' => '8.x-2.4',
+            'dev_requirement' => false,
         ),
         'drupal/better_search' => array(
             'pretty_version' => '1.6.0',
@@ -768,6 +777,15 @@
             'reference' => '8.x-1.2',
             'dev_requirement' => false,
         ),
+        'drupal/fancy_login' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/fancy_login',
+            'aliases' => array(),
+            'reference' => '3.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1113,7 +1131,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '68a244aef438004db203c340376f6e69345c82c6',
+            'reference' => '74c175d7546662308321494c76f7dcb83e92414d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(

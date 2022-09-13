@@ -1,5 +1,6 @@
 <?php
 
+
 // phpcs:ignoreFile
 
 /**
@@ -780,3 +781,6 @@ $settings['config_sync_directory'] = 'profiles/panecom/config/sync';
 
 // Relative path.
 /*$settings['default_content_deploy_content_directory'] = 'sites/default/content';*/
+
+//Spew out all the warnings and notices!
+$config['system.logging']['error_level'] = 'some'; /*None: hide | Errors and warnings: some | All messages: all | All messages, with backtrace information: verbose*/

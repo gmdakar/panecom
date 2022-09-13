@@ -1,0 +1,8 @@
+uuid: 21c3d8c9-cfcc-415f-a429-2b6a0ee5f071
+langcode: fr
+status: true
+dependencies: {  }
+id: header_slogan
+label: 'Header slogan'
+revision: 0
+description: ''

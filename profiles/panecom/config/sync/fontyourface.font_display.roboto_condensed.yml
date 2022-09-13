@@ -1,0 +1,12 @@
+uuid: 46c3fdd4-4406-4e1d-b9b9-162ed2966394
+langcode: fr
+status: true
+dependencies: {  }
+id: roboto_condensed
+label: 'Roboto condensed'
+font_url: 'https://www.google.com/webfonts/family?family=Roboto Condensed&subset=latin#regular'
+fallback: ''
+selectors: .fontyourface
+theme: panecom_bstrp
+style: null
+weight: null

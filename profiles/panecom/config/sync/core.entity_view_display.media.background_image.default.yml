@@ -15,15 +15,18 @@ bundle: background_image
 mode: default
 content:
   field_media_image_1:
-    label: visually_hidden
-    weight: 0
-    settings:
-      image_style: bg_image_1300x600
-      image_link: ''
-    third_party_settings: {  }
     type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: bg_image_1300x600
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
+  addtoany: true
   created: true
   field_priority: true
   langcode: true

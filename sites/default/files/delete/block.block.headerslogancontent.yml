@@ -1,0 +1,30 @@
+uuid: 2605eed9-f066-4e65-8261-2526a90507de
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:header_slogan:ef973ba9-395b-4e4a-be93-9c18f2ffca4b'
+  module:
+    - block_content
+    - system
+  theme:
+    - aad
+id: headerslogancontent
+theme: aad
+region: top_header
+weight: -8
+provider: null
+plugin: 'block_content:ef973ba9-395b-4e4a-be93-9c18f2ffca4b'
+settings:
+  id: 'block_content:ef973ba9-395b-4e4a-be93-9c18f2ffca4b'
+  label: 'Header slogan (content)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

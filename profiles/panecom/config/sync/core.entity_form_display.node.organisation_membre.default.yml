@@ -12,7 +12,9 @@ dependencies:
     - field.field.node.organisation_membre.field_org_logo
     - field.field.node.organisation_membre.field_org_photos
     - field.field.node.organisation_membre.field_org_projets
+    - field.field.node.organisation_membre.field_org_sigle
     - field.field.node.organisation_membre.field_org_site_web
+    - field.field.node.organisation_membre.field_org_social_network
     - field.field.node.organisation_membre.field_org_telecharger
     - field.field.node.organisation_membre.field_org_telephone
     - field.field.node.organisation_membre.field_org_videos
@@ -25,6 +27,7 @@ dependencies:
     - link
     - media_library
     - path
+    - social_media_links_field
     - text
 third_party_settings:
   field_group:
@@ -33,6 +36,8 @@ third_party_settings:
         - field_org_telephone
         - field_org_adresse_contact
         - field_org_site_web
+        - field_org_social_network
+        - field_org_social_network_more
       label: 'Informations de contact'
       region: content
       parent_name: ''
@@ -51,6 +56,7 @@ third_party_settings:
     group_presentation:
       children:
         - title
+        - field_org_sigle
         - field_org_logo
         - field_org_image_hero
         - body
@@ -107,7 +113,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 5
+    weight: 6
     region: content
     settings:
       rows: 9
@@ -131,7 +137,7 @@ content:
     third_party_settings: {  }
   field_org_image_hero:
     type: image_image
-    weight: 4
+    weight: 5
     region: content
     settings:
       progress_indicator: throbber
@@ -193,7 +199,7 @@ content:
     third_party_settings: {  }
   field_org_logo:
     type: image_image
-    weight: 3
+    weight: 4
     region: content
     settings:
       progress_indicator: throbber
@@ -206,6 +212,14 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+  field_org_sigle:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_org_site_web:
     type: link_default
     weight: 19
@@ -213,6 +227,12 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_org_social_network:
+    type: social_media_links_field_default
+    weight: 20
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_org_telephone:
     type: string_textfield

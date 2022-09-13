@@ -1,0 +1,8 @@
+placeholder_text: 'Rechercher ici..'
+theme: '0'
+size: '24'
+searchpage_enable: 1
+searchpage_submit_not_visible: 1
+_core:
+  default_config_hash: QbCCK93vnyGuPAeurbQJVGbAPU1CU7tfn1Lf8TBHh9M
+langcode: fr

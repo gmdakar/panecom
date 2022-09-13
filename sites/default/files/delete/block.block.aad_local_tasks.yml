@@ -1,0 +1,22 @@
+uuid: 3d0d2391-ec38-4046-be59-afb192180d65
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aad
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: aad_local_tasks
+theme: aad
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 0a72cf93-aa61-4072-b502-0fb6ba153759
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_priority
+field_name: field_priority
+entity_type: media
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

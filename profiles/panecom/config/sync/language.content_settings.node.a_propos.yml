@@ -1,0 +1,16 @@
+uuid: 2750c9c5-b470-4c7f-8a06-6e72796b2c4c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.a_propos
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.a_propos
+target_entity_type_id: node
+target_bundle: a_propos
+default_langcode: current_interface
+language_alterable: true

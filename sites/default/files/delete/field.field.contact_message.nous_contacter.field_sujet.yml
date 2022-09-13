@@ -1,0 +1,19 @@
+uuid: 09771e03-4300-4d48-9a17-653a9f72cf2f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.nous_contacter
+    - field.storage.contact_message.field_sujet
+id: contact_message.nous_contacter.field_sujet
+field_name: field_sujet
+entity_type: contact_message
+bundle: nous_contacter
+label: Sujet
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

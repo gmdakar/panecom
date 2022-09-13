@@ -35,6 +35,11 @@
 
 }
 
+/*cacher les notices*/
+.alert-wrapper_del {
+    display: none;
+}
+
 body {
 	overflow-x: hidden;
 }

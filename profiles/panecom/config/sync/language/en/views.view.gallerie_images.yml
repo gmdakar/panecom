@@ -18,7 +18,6 @@ display:
             placeholder: Search
   page_1:
     display_title: Photos
-    display_options: {  }
   page_2:
     display_title: Videos
     display_options:

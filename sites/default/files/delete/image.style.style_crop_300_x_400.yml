@@ -1,0 +1,25 @@
+uuid: 1f69c714-8ab0-43db-bce1-ff36a81754a0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - crop.type.crop_type_300x400
+  module:
+    - crop
+name: style_crop_300_x_400
+label: 'style crop 300 x 400'
+effects:
+  23aebc94-1a36-4650-8e6e-2de140608834:
+    uuid: 23aebc94-1a36-4650-8e6e-2de140608834
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: crop_type_300x400
+  fc51d275-4d92-46ad-8f8e-ac7b472602e9:
+    uuid: fc51d275-4d92-46ad-8f8e-ac7b472602e9
+    id: image_scale
+    weight: 2
+    data:
+      width: 300
+      height: null
+      upscale: false

@@ -1,0 +1,8 @@
+uuid: 697f84b4-34fb-47f3-a00b-0cb1b021e7c8
+langcode: fr
+status: true
+dependencies: {  }
+id: membres_mediatheque_et_evenement
+label: 'Membres Mediatheque et Evenements'
+revision: 0
+description: ''

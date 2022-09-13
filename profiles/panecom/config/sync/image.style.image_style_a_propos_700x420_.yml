@@ -1,0 +1,21 @@
+uuid: 0be7e583-0ac2-4112-b382-52ff98a94ee0
+langcode: fr
+status: true
+dependencies: {  }
+name: image_style_a_propos_700x420_
+label: 'Image style a propos [700x420]'
+effects:
+  12842e46-2d45-4ee8-81a7-03a906e97051:
+    uuid: 12842e46-2d45-4ee8-81a7-03a906e97051
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 420
+      anchor: center-center
+  e5ea3542-7714-4cbc-bd87-9ca44021cd3f:
+    uuid: e5ea3542-7714-4cbc-bd87-9ca44021cd3f
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

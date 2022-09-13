@@ -11,8 +11,8 @@ dependencies:
     - panecom_bstrp
 id: menuorganisationmembre
 theme: panecom_bstrp
-region: sidebar_second
-weight: -12
+region: content
+weight: -28
 provider: null
 plugin: 'system_menu_block:presentation'
 settings:

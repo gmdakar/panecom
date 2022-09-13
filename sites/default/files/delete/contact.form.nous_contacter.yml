@@ -1,0 +1,12 @@
+uuid: 4c4eff3b-fe85-473e-8014-5f45fa1af657
+langcode: fr
+status: true
+dependencies: {  }
+id: nous_contacter
+label: 'Nous contacter'
+recipients:
+  - ssss@sss.com
+reply: 'Merci. on vous reviendra'
+weight: 0
+message: 'Merci. on vous reviendra'
+redirect: ''

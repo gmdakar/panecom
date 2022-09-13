@@ -1,0 +1,12 @@
+uuid: e60b0ab8-1c0e-4019-bfdd-da2324cfa22f
+langcode: fr
+status: true
+dependencies: {  }
+id: questrial
+label: Questrial
+font_url: 'https://www.google.com/webfonts/family?family=Questrial&subset=latin#regular'
+fallback: ''
+selectors: .fontyourface
+theme: panecom_bstrp
+style: null
+weight: null

@@ -1,0 +1,21 @@
+uuid: 39c6e14c-b3c9-4048-b564-a5fbe341651b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - block_content
+    - viewfield
+    - views
+id: block_content.field_tabs_projets
+field_name: field_tabs_projets
+entity_type: block_content
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

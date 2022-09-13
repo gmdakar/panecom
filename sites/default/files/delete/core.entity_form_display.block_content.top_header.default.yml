@@ -1,0 +1,27 @@
+uuid: b9fec4a1-5b2c-43e9-98d9-f97bb511771b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.top_header
+id: block_content.top_header.default
+targetEntityType: block_content
+bundle: top_header
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: 28d1567a-0774-4e34-bdce-5762987a6639
+langcode: fr
+status: true
+dependencies: {  }
+id: c_dump_sql
+label: c_dump_sql
+type: Directory
+config:
+  directory: ../../dump/

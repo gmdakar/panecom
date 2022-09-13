@@ -1,0 +1,8 @@
+uuid: c7ec7ee7-3ae5-4e9c-b7ec-485ba84c2235
+langcode: fr
+status: true
+dependencies: {  }
+id: jour_mois_annee
+label: 'jour mois annee'
+locked: false
+pattern: 'd F Y'

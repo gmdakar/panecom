@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.projet.body
+    - field.field.node.projet.field_projet_avancement
     - field.field.node.projet.field_projet_category
+    - field.field.node.projet.field_projet_date
     - field.field.node.projet.field_projet_localisation
     - field.field.node.projet.field_projet_organisation
     - field.field.node.projet.field_projet_photos
@@ -53,6 +55,8 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_projet_avancement: true
+  field_projet_date: true
   field_projet_localisation: true
   field_projet_organisation: true
   field_projets_videos: true

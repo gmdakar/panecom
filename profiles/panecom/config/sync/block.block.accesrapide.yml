@@ -1,6 +1,6 @@
 uuid: 18e83983-ab61-4645-849c-8063f89083e1
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - system.menu.acces-rapide
@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:acces-rapide'
 settings:
   id: 'system_menu_block:acces-rapide'
-  label: 'Accès rapide'
+  label: 'Quick access'
   label_display: visible
   provider: system
   level: 1

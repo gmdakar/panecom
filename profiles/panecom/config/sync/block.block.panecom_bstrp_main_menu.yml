@@ -13,7 +13,7 @@ _core:
 id: panecom_bstrp_main_menu
 theme: panecom_bstrp
 region: primary_menu
-weight: -7
+weight: -21
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -1,0 +1,14 @@
+uuid: bc1d44b1-a913-4bf7-819c-d603b3064f5c
+name: 'PMZ S.A'
+mail: admin@wampserver.invalid
+slogan: 'Travailler autrement'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

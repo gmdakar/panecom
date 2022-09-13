@@ -1,0 +1,23 @@
+uuid: 68aa962d-dac1-457d-9336-1020bb9ff7c2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.partenaires
+  module:
+    - text
+id: node.partenaires.body
+field_name: body
+entity_type: node
+bundle: partenaires
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
