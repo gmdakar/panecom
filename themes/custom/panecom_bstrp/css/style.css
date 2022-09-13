@@ -467,7 +467,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 
 /* page user (login/inscriptions/etc..)*/
 .path-user #main {
-    padding: 0;
+    padding: 0 5%;
     margin: 0;
 	position: relative;
 }
@@ -484,6 +484,10 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
     display: block;
 }
 
+.path-user nav.tabs {
+	margin-bottom: 1rem;
+	margin: 2rem;
+}
 
 .page-user-register .backlink::before {
     font-family: "Font Awesome 5 Free";
@@ -520,6 +524,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 
 .path-user .nav.primary.nav-tabs li{
 	border-bottom: 1px solid var(--color9);
+	width: 100%;
 }
 
 .path-user .nav.primary.nav-tabs li.active{
@@ -537,9 +542,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 }
 
 .path-user .wrappcol.wrappcol2{
-	background-image: url(/themes/custom/panecom_bstrp/img/bg_u.png) !important;
-	background-size: cover !important;
-    background-repeat: no-repeat !important;
+	display: none;
 }
 
 .path-user .field--name-field__bg-user-illustration img {
@@ -2932,6 +2935,25 @@ section.row.region.region-footer-first {
 /*pour les "moyens et grands" écrans*/
 @media (min-width: 992px){
 
+	.path-user nav.tabs {
+		margin: unset;
+		margin-bottom: 1rem;		
+	}
+
+	.path-user #main {
+		padding: 0;
+	}
+	
+	.path-user .nav.primary.nav-tabs li {
+		width: auto;
+	}
+	
+	.path-user .wrappcol.wrappcol2{
+		display: block;
+		background-image: url(/themes/custom/panecom_bstrp/img/bg_u.png) !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+	}
 	.path-user input{
 	   max-width: 65%;
 	}
