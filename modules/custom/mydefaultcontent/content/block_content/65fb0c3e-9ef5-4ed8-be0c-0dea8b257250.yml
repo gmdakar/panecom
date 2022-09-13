@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 65fb0c3e-9ef5-4ed8-be0c-0dea8b257250
+  bundle: evenement_phare
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Evénement phare'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<h2>Symposium Dakar 2022</h2>\r\n\r\n<h3>Collectivités territoriales et développement durable</h3>\r\n\r\n<h4>du 15 au 22 janvier 2022</h4>\r\n"
+      format: basic_html
+      summary: ''
+translations:
+  en:
+    info:
+      -
+        value: 'Key event'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_created:
+      -
+        value: 1654684869
+    body:
+      -
+        value: "<h2>Dakar Symposium 2022</h2>\r\n\r\n<h3>Local authorities and sustainable development</h3>\r\n\r\n<h4>from January 15 to 22, 2022</h4>\r\n"
+        format: basic_html
+        summary: ''

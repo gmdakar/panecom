@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b6ecbc7f-8946-46e6-ac61-ee781af54c33
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: zt4tkC88vd.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/zt4tkC88vd.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 865
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653476011

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3de45ed9-e024-4a39-b53d-18ed98d3535e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_TrsMNK.jpeg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_TrsMNK.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2398
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

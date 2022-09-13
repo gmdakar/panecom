@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a948b322-f70d-47a7-8b2f-4f8923bda17c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nRayuGCUkS.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/nRayuGCUkS.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1103
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

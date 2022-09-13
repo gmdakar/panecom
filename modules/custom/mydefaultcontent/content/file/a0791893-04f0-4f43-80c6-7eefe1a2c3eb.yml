@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a0791893-04f0-4f43-80c6-7eefe1a2c3eb
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_6BEVNl.jpeg
+  uri:
+    -
+      value: 'public://2022-06/generateImage_6BEVNl.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3596
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655138831

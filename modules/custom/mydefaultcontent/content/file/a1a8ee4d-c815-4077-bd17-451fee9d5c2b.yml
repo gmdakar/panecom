@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a1a8ee4d-c815-4077-bd17-451fee9d5c2b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: oORllfTVCE.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/oORllfTVCE.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 711
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

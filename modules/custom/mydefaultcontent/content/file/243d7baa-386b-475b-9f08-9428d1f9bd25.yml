@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 243d7baa-386b-475b-9f08-9428d1f9bd25
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mask-group-6_0.png
+  uri:
+    -
+      value: 'public://2022-09/mask-group-6_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 329890
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662634768

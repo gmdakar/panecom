@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 70cd6d8a-c96e-479b-b9f5-93ad5b071ac2
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pohdQgEzCz.txt
+  uri:
+    -
+      value: 'public://organisation/2022-06/pohdQgEzCz.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1033
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

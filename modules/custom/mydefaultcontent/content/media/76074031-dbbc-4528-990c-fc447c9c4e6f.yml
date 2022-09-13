@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 76074031-dbbc-4528-990c-fc447c9c4e6f
+  bundle: image
+  default_langcode: fr
+  depends:
+    567e3cee-a101-4d33-ab23-49201bc5092b: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: rectangle-67_0.png
+  created:
+    -
+      value: 1655895049
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 567e3cee-a101-4d33-ab23-49201bc5092b
+      alt: test
+      title: ''
+      width: 244
+      height: 221

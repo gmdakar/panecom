@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: e3c70521-8810-4fe5-979b-c1322d3d1319
+  bundle: basic
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Header Node projet'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1662375484
+  body:
+    -
+      value: "<h2>Projet</h2>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\r\n"
+      format: basic_html
+      summary: ''
+translations:
+  en:
+    info:
+      -
+        value: 'Header Node projet'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_created:
+      -
+        value: 1662375569
+    body:
+      -
+        value: "<h2>Project</h2>\r\n\r\n<p>(en) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\r\n"
+        format: basic_html
+        summary: ''

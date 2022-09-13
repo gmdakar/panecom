@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9cb22bbe-24c0-457b-a84c-daa5f27cdf96
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_uoOzTf.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_uoOzTf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6448
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

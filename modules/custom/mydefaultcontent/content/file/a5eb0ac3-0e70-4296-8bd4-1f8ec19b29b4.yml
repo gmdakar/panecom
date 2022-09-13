@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a5eb0ac3-0e70-4296-8bd4-1f8ec19b29b4
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-pixabay-273250.jpg
+  uri:
+    -
+      value: 'public://2022-05/pexels-pixabay-273250.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 390221
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653312165

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 660410a3-9e90-4ca7-8d51-4405093e36b8
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-pixabay-248921.jpg
+  uri:
+    -
+      value: 'public://2022-05/pexels-pixabay-248921.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 151089
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652973630

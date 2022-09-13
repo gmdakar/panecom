@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 53ff0a83-e02d-4603-9cee-eb7bbe443e9b
+  bundle: image
+  default_langcode: fr
+  depends:
+    12566ce7-1cac-4bdf-a01d-293360e6d3b3: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-blue-ox-studio-2063892.jpg
+  created:
+    -
+      value: 1652973630
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 12566ce7-1cac-4bdf-a01d-293360e6d3b3
+      alt: 'text alternatif'
+      title: ''
+      width: 1920
+      height: 1280

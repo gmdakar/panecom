@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1bb3a69-668a-426d-b2a0-02cfa96f8a63
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: group-526.png
+  uri:
+    -
+      value: 'public://2022-09/group-526.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 272098
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662373649

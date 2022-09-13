@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c5ef78da-6d6d-4efe-b734-e9a8ebe3ce36
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-flambo-1112080.jpg
+  uri:
+    -
+      value: 'public://slideshow/2022-05/pexels-flambo-1112080.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 846643
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652893568

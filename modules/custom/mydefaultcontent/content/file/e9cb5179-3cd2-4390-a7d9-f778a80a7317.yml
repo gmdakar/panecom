@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e9cb5179-3cd2-4390-a7d9-f778a80a7317
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rfdt7hd08r.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/rfdt7hd08r.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 861
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d9528a44-9e89-47b8-9a80-daf3e508035c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ghSjqdDHE8.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/ghSjqdDHE8.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 750
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

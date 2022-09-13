@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 41a79b98-2bae-4523-8961-215316fa89ce
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bldfZpB1d3.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/bldfZpB1d3.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1011
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

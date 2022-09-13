@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4ebd87b4-9908-4e6a-be70-eb2c1a6cf984
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: O-wIN1fkHV6N0C7dyW6fyP65WP4GSM5E64Sw9d3rKe4.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/O-wIN1fkHV6N0C7dyW6fyP65WP4GSM5E64Sw9d3rKe4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 21955
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1661457023

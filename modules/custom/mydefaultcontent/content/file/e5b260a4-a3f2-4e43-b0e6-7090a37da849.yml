@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5b260a4-a3f2-4e43-b0e6-7090a37da849
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tFRDmqIQu7.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/tFRDmqIQu7.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 924
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653477688

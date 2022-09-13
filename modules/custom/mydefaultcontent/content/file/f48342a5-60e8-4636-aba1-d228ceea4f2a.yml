@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f48342a5-60e8-4636-aba1-d228ceea4f2a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vFkL59P1ZC.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/vFkL59P1ZC.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 852
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

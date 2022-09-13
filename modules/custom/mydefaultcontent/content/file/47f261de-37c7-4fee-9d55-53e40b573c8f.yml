@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47f261de-37c7-4fee-9d55-53e40b573c8f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_BzxizY.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_BzxizY.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6854
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

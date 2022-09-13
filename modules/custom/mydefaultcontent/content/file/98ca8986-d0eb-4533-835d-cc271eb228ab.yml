@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 98ca8986-d0eb-4533-835d-cc271eb228ab
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_7eFzge.jpeg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_7eFzge.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4116
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

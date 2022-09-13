@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9cfa5bf7-d6f2-4b5b-9230-c77c4eb5ffd1
+  default_langcode: fr
+default:
+  filename:
+    -
+      value: chart.pdf.jpg
+  uri:
+    -
+      value: 'public://2022-07/chart.pdf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 75761
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1659108789

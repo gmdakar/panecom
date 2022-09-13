@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1af39a5-b840-421b-92d9-a3a479bc6f61
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: IMG_9794.jpg
+  uri:
+    -
+      value: 'public://slideshow/2022-05/IMG_9794.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 154214
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652875801

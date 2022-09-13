@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e3bc5c31-56d2-404f-a327-3801e08e81ce
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 16_save2.png
+  uri:
+    -
+      value: 'public://2022-06/16_save2.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 32339
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655400356

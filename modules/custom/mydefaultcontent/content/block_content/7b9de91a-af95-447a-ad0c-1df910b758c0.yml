@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 7b9de91a-af95-447a-ad0c-1df910b758c0
+  bundle: basic
+  default_langcode: en
+translations:
+  fr:
+    info:
+      -
+        value: 'Text descriptif bloc [ onglet Documents en Page d''accueil]'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: en
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_created:
+      -
+        value: 1660751334
+    body:
+      -
+        value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[Documents]</p>\r\n"
+        format: basic_html
+        summary: ''
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Text descriptif bloc [ onglet Documents en Page d''accueil] (en)'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1660751306
+  body:
+    -
+      value: "<p>(en) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[Documents]</p>\r\n"
+      format: basic_html
+      summary: ''

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5af445b9-43f7-4a44-814a-2eae4df652b0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: uCFC56Ecfi.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/uCFC56Ecfi.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 834
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445
