@@ -53,6 +53,26 @@ main#content.order-last { /* hack: anomalie page des documents en anglais**/
     order: 0 !important;
 }
 
+/*autocompletion recherche en page d'accueil*/
+ul#ui-id-1 {
+    position: absolute;
+    left: 3rem !important;
+}
+
+ul#ui-id-1 li.ui-menu-item-first.ui-menu-item {
+    background-color: var(--color3);
+    position: relative;
+    top: -2rem;
+    /* left: 3rem; */
+    height: 30px;
+	font-size: 1rem !important;
+}
+
+ul#ui-id-1 li:last-child {
+    display: none;
+}
+
+
 /*a:not(.enchor):hover,
 a:not(.enchor).is-active {
 }*/
@@ -267,6 +287,11 @@ header#header #CollapsingNavbar.collapse:not(.show) {
 
 li.breadcrumb-item a {
     color: var(--color6);
+}
+
+.path-node.node--type-organisation-membre li.breadcrumb-item,
+.path-node.node--type-organisation-membre li.breadcrumb-item a {
+	font-size: .92rem !important;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {

@@ -165,7 +165,8 @@
             },
             "drupal/core": {
                 "#123459 - Fix some issues for core layout builder export": "https://www.drupal.org/files/issues/2022-02-21/layout_builder-rebase_drupal_9_3_x-2942975-159-array.patch",
-				"#123460 - Fix some issues in order to make Field group label translatable": "https://www.drupal.org/files/issues/2020-02-05/2546212-119.patch"
+				"#123460 - Fix some issues in order to make Field group label translatable": "https://www.drupal.org/files/issues/2020-02-05/2546212-119.patch",
+				"#123461 - Fix some issues emails notification by language with tokens": "https://www.drupal.org/files/issues/2020-12-10/2991677-61.patch"
             },
 			"drupal/file_download_link": {
 				"#123461 - Fix some issues in order to make Field group label translatable": "https://www.drupal.org/files/issues/2022-03-21/3270849-2.patch"
