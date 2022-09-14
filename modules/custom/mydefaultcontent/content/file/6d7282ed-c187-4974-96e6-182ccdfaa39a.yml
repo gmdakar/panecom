@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6d7282ed-c187-4974-96e6-182ccdfaa39a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bg1_1.png
+  uri:
+    -
+      value: 'public://2022-08/bg1_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1437674
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1659444802

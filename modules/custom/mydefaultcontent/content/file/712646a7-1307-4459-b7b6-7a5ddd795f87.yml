@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 712646a7-1307-4459-b7b6-7a5ddd795f87
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_WYeN4E.gif
+  uri:
+    -
+      value: 'public://2022-06/generateImage_WYeN4E.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1773
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655138831

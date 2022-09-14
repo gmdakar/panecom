@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9bfb8865-bb46-49c0-a2b7-4178a805a33e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dK2i45qQKD.txt
+  uri:
+    -
+      value: 'public://document/2022-05/dK2i45qQKD.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 720
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

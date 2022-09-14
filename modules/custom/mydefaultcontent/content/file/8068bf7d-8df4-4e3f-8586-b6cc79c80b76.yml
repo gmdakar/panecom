@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8068bf7d-8df4-4e3f-8586-b6cc79c80b76
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bSjEB6yVCM.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/bSjEB6yVCM.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 889
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

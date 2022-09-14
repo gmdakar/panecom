@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f676d8a2-5ff5-4b18-b1ae-9ed0b53a68e7
+  bundle: organigramme
+  default_langcode: fr
+  depends:
+    a1cc0bc7-640f-42cc-b652-146afe4a5449: taxonomy_term
+    07580b60-9c06-4f5f-8b00-4684bfca371e: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Service contentieux'
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      entity: a1cc0bc7-640f-42cc-b652-146afe4a5449
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1662983197
+  path:
+    -
+      alias: ''
+      langcode: fr
+      pathauto: 0
+  field_o_image:
+    -
+      entity: 07580b60-9c06-4f5f-8b00-4684bfca371e
+      alt: sct
+      title: ''
+      width: 88
+      height: 88
+  field_o_position:
+    -
+      value: u

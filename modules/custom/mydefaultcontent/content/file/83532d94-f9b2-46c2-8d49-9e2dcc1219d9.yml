@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 83532d94-f9b2-46c2-8d49-9e2dcc1219d9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mlc_limited_logo-700x457_0.png
+  uri:
+    -
+      value: 'public://2022-06/mlc_limited_logo-700x457_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 56564
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399152

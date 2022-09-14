@@ -584,6 +584,98 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
     font-size: .9rem;
 }
 
+.user-logged-in.path-user .user-id #main {
+    padding: 5rem 10%;
+}
+
+.user-logged-in.path-user .user-id .menu .add-organisation,
+.user-logged-in.path-user .user-id .menu .add-resource{
+	font-size: 1.15rem;
+}
+
+.user-logged-in.path-user .user-id .content {
+    text-align: initial;
+}
+
+.user-logged-in.path-user .user-id .field--name-field-user-organisation .field__label{
+   font-weight: 600;
+   font-size: 1.25rem;
+}
+
+.user-logged-in.path-user .user-id .field--name-field-user-organisation .field__item {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    margin: 0.25rem 0;
+    display: inline-block;
+}
+
+.block-views-blockbouton-add-content-organisation-block-1,
+.block-views-blockbouton-add-content-organisation-block-2,
+.block-views-blockbouton-add-content-organisation-block-3 {
+	display: inline-block;
+	margin: 1rem 1rem 2rem 0;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li {
+    display: inline-block;
+    margin: 0 .35rem;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-organisation li {
+    list-style: none;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li,
+.user-logged-in.path-user .user-id .menu-list.add-organisation li {
+    list-style: none;
+    padding: 0.25rem 1rem;
+    background-color: var(--color3);
+    border-radius: 5px;
+	box-shadow: rgb(0 0 0 / 0%) 0px 0px 12px;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li {
+    background-color: var(--color1);
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li a,
+.user-logged-in.path-user .user-id .menu-list.add-organisation li a{
+    color: #fff !important;
+	text-decoration: none;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li a::before,
+.user-logged-in.path-user .user-id .menu-list.add-organisation li a::before{
+    content: "\f57c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li:hover a::before,
+.user-logged-in.path-user .user-id .menu-list.add-organisation li:hover a::before{
+	/*padding-right: 0.05rem;*/
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li.document a::before{
+    content: "\f56d";
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-resource li.projet a::before{
+    content: "\f02e";
+}
+.user-logged-in.path-user .user-id .menu-list.add-resource li.actualite a::before{
+    content: "\f1ea";
+}
+
+.user-logged-in.path-user .user-id .menu-list.add-organisation li:hover,
+.user-logged-in.path-user .user-id .menu-list.add-resource li:hover {
+    box-shadow: rgb(244 121 58 / 60%) 0px 0px 4px;
+}
+
+
 /*recherche searchbox*/
 .block-search-form-block {
     position: absolute;
@@ -3168,6 +3260,17 @@ section.row.region.region-footer-first {
 	#block-panecom-bstrp-account-menu {
 	    position: absolute;
 		right: 110px;
+	}
+	
+	/*user-logged-in .user-id #block-panecom-bstrp-account-menu,*/
+	.user-logged-in #block-panecom-bstrp-account-menu {
+	    position: absolute;
+		right: 6rem;
+	}
+	
+	.user-logged-in #block-panecom-bstrp-account-menu .nav-link {
+		padding-left: .7rem;
+		padding-right: .7rem;
 	}
 	
 	#block-languagedropdownswitcher {

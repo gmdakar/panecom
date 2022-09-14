@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ffaee32b-db0a-46a1-83b8-7bfd60e68baa
+  bundle: basic
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Text descriptif bloc [ Team en Page d''accueil]'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1660905422
+  body:
+    -
+      value: "<p>Qui sommes Nous ?</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[Team]</p>\r\n"
+      format: basic_html
+      summary: ''
+translations:
+  en:
+    info:
+      -
+        value: 'Text descriptif bloc [ Team en Page d''accueil] (en)'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_created:
+      -
+        value: 1660905497
+    body:
+      -
+        value: "<p>Who are we ?</p>\r\n\r\n<p>(en) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[Team]</p>\r\n"
+        format: basic_html
+        summary: ''

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 86108d1e-2352-402c-a66a-7d586dd639fa
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: btrju97TFc.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/btrju97TFc.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 960
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

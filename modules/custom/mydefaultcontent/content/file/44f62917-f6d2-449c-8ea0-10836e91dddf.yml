@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 44f62917-f6d2-449c-8ea0-10836e91dddf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_7tE3ik.png
+  uri:
+    -
+      value: 'public://2022-06/generateImage_7tE3ik.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 912
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655138831

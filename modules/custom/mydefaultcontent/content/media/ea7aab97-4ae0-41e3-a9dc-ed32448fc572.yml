@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ea7aab97-4ae0-41e3-a9dc-ed32448fc572
+  bundle: image
+  default_langcode: fr
+  depends:
+    3b8cc8b2-1868-40a2-ae07-bb4d0619a61b: file
+    5d0ed23d-2649-49c1-9529-87ec5f4a573d: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'PLEG - Colloque 2019'
+  created:
+    -
+      value: 1662373881
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 3b8cc8b2-1868-40a2-ae07-bb4d0619a61b
+      alt: '123456'
+      title: ''
+      width: 547
+      height: 292
+    -
+      entity: 5d0ed23d-2649-49c1-9529-87ec5f4a573d
+      alt: im2
+      title: ''
+      width: 363
+      height: 404

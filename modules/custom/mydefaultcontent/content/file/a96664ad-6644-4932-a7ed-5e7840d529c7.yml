@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a96664ad-6644-4932-a7ed-5e7840d529c7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: z3ceWvHQex.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/z3ceWvHQex.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 664
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

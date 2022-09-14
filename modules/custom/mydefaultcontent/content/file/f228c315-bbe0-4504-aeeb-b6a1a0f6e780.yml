@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f228c315-bbe0-4504-aeeb-b6a1a0f6e780
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_8Led8Y.gif
+  uri:
+    -
+      value: 'public://2022-06/generateImage_8Led8Y.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1480
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655138831

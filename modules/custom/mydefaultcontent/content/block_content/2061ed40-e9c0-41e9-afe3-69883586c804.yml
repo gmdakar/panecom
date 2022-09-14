@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2061ed40-e9c0-41e9-afe3-69883586c804
+  bundle: block_type_team
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Block team '
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1660905686

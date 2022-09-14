@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b256742e-c74d-4ab2-ab11-e3eb995d57d7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_oT8omP.gif
+  uri:
+    -
+      value: 'public://2022-05/generateImage_oT8omP.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1295
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c78497d6-c62f-4de4-be0a-8ed44a75df69
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: the_philippine_long_distance_telephone_company_logo-700x220.png
+  uri:
+    -
+      value: 'public://2022-06/the_philippine_long_distance_telephone_company_logo-700x220.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 27647
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399021

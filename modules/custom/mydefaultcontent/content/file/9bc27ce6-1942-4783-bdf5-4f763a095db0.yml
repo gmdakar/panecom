@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9bc27ce6-1942-4783-bdf5-4f763a095db0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ibrjnlS3UE.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/ibrjnlS3UE.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1061
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

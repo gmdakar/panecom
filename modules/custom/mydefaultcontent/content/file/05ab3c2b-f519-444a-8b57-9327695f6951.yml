@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 05ab3c2b-f519-444a-8b57-9327695f6951
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: i7hMoSCgfn.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/i7hMoSCgfn.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 840
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

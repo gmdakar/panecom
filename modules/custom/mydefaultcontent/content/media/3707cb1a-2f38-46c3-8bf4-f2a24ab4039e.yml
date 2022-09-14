@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3707cb1a-2f38-46c3-8bf4-f2a24ab4039e
+  bundle: image
+  default_langcode: fr
+  depends:
+    80005f7b-2436-4ce1-955b-508f48546915: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'AKEJ - financements des jeunes 2010'
+  created:
+    -
+      value: 1655830519
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 80005f7b-2436-4ce1-955b-508f48546915
+      alt: test
+      title: ''
+      width: 451
+      height: 285

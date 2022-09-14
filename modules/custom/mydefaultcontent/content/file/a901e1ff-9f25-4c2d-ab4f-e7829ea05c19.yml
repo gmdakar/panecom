@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a901e1ff-9f25-4c2d-ab4f-e7829ea05c19
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gAlXKjDgBX.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/gAlXKjDgBX.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 931
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

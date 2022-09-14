@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4512213a-706f-4e12-a123-3092962f0b5c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tU1i5Lmk6a.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/tU1i5Lmk6a.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 670
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

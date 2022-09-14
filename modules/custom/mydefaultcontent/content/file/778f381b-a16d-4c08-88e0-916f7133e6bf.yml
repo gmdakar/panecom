@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 778f381b-a16d-4c08-88e0-916f7133e6bf
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jc6O7KxoJu.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/jc6O7KxoJu.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1049
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

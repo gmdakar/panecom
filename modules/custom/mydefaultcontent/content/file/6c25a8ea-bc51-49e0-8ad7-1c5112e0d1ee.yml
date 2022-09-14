@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6c25a8ea-bc51-49e0-8ad7-1c5112e0d1ee
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: amZ2h9GyGp.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/amZ2h9GyGp.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 675
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

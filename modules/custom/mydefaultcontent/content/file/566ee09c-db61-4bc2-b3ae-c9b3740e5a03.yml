@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 566ee09c-db61-4bc2-b3ae-c9b3740e5a03
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mCtd5qV2iN.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/mCtd5qV2iN.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 945
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

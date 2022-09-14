@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 26f86d2b-3f92-43d3-b181-30d56ace51dc
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: smartmockups_l4pdzwzn.jpg
+  uri:
+    -
+      value: 'public://pictures/2022-07/smartmockups_l4pdzwzn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 118651
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1659110539

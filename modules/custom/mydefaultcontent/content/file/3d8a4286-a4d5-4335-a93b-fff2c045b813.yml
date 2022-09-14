@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d8a4286-a4d5-4335-a93b-fff2c045b813
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_Yofhj1.jpg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_Yofhj1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3974
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

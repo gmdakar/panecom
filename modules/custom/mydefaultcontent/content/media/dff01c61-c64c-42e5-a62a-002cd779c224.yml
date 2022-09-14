@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: dff01c61-c64c-42e5-a62a-002cd779c224
+  bundle: image
+  default_langcode: fr
+  depends:
+    9fed15a9-a42d-4944-a2ee-6ab9a3856d53: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'AKEJ - financements des jeunes 2012'
+  created:
+    -
+      value: 1662633886
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 9fed15a9-a42d-4944-a2ee-6ab9a3856d53
+      alt: test
+      title: ''
+      width: 3600
+      height: 2698
