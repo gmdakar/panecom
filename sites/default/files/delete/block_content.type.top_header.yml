@@ -1,8 +1,0 @@
-uuid: 851c0d06-bcf8-4232-b3c8-ee538cfbb6a8
-langcode: en
-status: true
-dependencies: {  }
-id: top_header
-label: 'Top header'
-revision: 0
-description: 'Contains social networks buttons, tel/email and login button'

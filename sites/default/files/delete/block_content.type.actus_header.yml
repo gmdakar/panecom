@@ -1,8 +1,0 @@
-uuid: f6eadd0b-f043-4ef0-805e-448e7822f2ab
-langcode: fr
-status: true
-dependencies: {  }
-id: actus_header
-label: 'Actualités et communiqués'
-revision: 0
-description: 'Bloc général contenant à gauche la liste des actualités et à droite la liste des communiqués.'

@@ -1,0 +1,20 @@
+uuid: bcf838e2-6517-456a-8eed-afa8a2d6adb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.background_image
+id: media.background_image.name
+field_name: name
+entity_type: media
+bundle: background_image
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

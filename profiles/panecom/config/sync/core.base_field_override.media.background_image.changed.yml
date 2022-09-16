@@ -1,0 +1,18 @@
+uuid: b75415c6-3519-4619-9a4c-85c199e483d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.background_image
+id: media.background_image.changed
+field_name: changed
+entity_type: media
+bundle: background_image
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

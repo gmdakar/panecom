@@ -48,18 +48,17 @@ a.feed-icon {
     display: none;
 }
 
-
 main#content.order-last { /* hack: anomalie page des documents en anglais**/
     order: 0 !important;
 }
 
 /*autocompletion recherche en page d'accueil*/
-ul#ui-id-1 {
+.path-frontpage ul#ui-id-1 {
     position: absolute;
     left: 3rem !important;
 }
 
-ul#ui-id-1 li.ui-menu-item-first.ui-menu-item {
+.path-frontpage ul#ui-id-1 li.ui-menu-item-first.ui-menu-item {
     background-color: var(--color3);
     position: relative;
     top: -2rem;
@@ -68,8 +67,21 @@ ul#ui-id-1 li.ui-menu-item-first.ui-menu-item {
 	font-size: 1rem !important;
 }
 
-ul#ui-id-1 li:last-child {
+.path-frontpage ul#ui-id-1 li:last-child {
     display: none;
+}
+
+.ui-menu.ui-autocomplete .ui-menu-item-wrapper {
+    padding: unset;
+}
+
+.ui-menu.ui-autocomplete li {
+	margin: .25em auto;
+	padding: .25em;
+}
+
+.ui-menu.ui-autocomplete li:hover a{
+   color: var(--color3);
 }
 
 
@@ -613,6 +625,10 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
     padding: 5rem 10%;
 }
 
+.user-logged-in.path-user a.nav-link.active.nav-link--en-user {
+    padding-top: 1.1rem !important;
+}
+
 .user-logged-in.path-user .user-id .menu .add-organisation,
 .user-logged-in.path-user .user-id .menu .add-resource{
 	font-size: 1.15rem;
@@ -625,6 +641,7 @@ article:nth-of-type(odd).node.node--type-a-propos.node--view-mode-full {
 .user-logged-in.path-user .user-id .field--name-field-user-organisation .field__label{
    font-weight: 600;
    font-size: 1.25rem;
+   width: 100%;
 }
 
 .user-logged-in.path-user .user-id .field--name-field-user-organisation .field__item {

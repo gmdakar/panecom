@@ -153,8 +153,11 @@
 
 		$email = implode(',', $tab_users_pt_focal_and_gestionnaire);
 		$sitename = \Drupal::config('system.site')->get('name');
-		$params['context']['subject'] = $sitename. " : New user registered and pending";
-		$params['context']['message'] = "Dear content manager,<br>There is a new user (".$message['to'].") registered and awaiting validation on the website.<br>"."Sincerly yours!";
+		//$params['context']['subject'] = $sitename. " : New user registered and pending";
+		//$params['context']['message'] = "Dear content manager,<br>There is a new user (".$message['to'].") registered and awaiting validation on the website.<br>"."Sincerly yours!";
+		//TODO: messages à passer comme arguments de la fonction "t()" afin de pouvoir les traduire et personnaliser via le backend;
+		$params['context']['subject'] = $sitename. " : Nouvel utilisateur enregistré et en attente de validation";
+		$params['context']['message'] = "Cher gestionnaire de contenus,<br>Il y a un nouvel utilisateur (".$message['to'].") inscrit et en attente de validation sur le site.<br>"."Cordialement!";
 		$params['email'] = $account->mail;
 
 		$mailer->mail('mytools', 'subscribe', $email, \Drupal::currentUser()->getPreferredLangcode(), $params);

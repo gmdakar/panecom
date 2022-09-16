@@ -1,0 +1,20 @@
+uuid: 5d397888-d50b-45f8-80ea-5232f2cc94dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.background_image
+  module:
+    - path
+id: media.background_image.path
+field_name: path
+entity_type: media
+bundle: background_image
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

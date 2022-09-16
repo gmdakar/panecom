@@ -1,0 +1,18 @@
+uuid: 9627bcdf-9638-44d2-b1fc-164ddeda3505
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_tabs_onglets_projets_x_doc
+id: block_content.block_tabs_onglets_projets_x_doc.changed
+field_name: changed
+entity_type: block_content
+bundle: block_tabs_onglets_projets_x_doc
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

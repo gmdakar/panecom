@@ -23,7 +23,7 @@ bundle: block_type_inscription
 label: 'Point focal d''une organisation'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: "<p>Je m'inscris en tant que point focal de mon organisation.</p>\r\n\r\n<p>Je suis le/la référent au sein de mon organisation. Je gère les informations concernant mon organisation et j’ai la possibilité d’ajouter du contenu relatif aux activités de mon organisation.</p>\r\n\r\n<p><a href=\"/inscription/pointfocal_organisation\">S'inscrire comme \"Point focal d'une organisation\"</a></p>\r\n"

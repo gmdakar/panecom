@@ -1,0 +1,18 @@
+uuid: ba143704-eb04-4b14-b596-ab1d2576a1ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_type_footer
+id: block_content.block_type_footer.changed
+field_name: changed
+entity_type: block_content
+bundle: block_type_footer
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

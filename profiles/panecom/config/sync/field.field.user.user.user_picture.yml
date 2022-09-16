@@ -32,7 +32,7 @@ id: user.user.user_picture
 field_name: user_picture
 entity_type: user
 bundle: user
-label: 'Photo de profil'
+label: Picture
 description: 'Votre visage ou image virtuelle.'
 required: false
 translatable: false

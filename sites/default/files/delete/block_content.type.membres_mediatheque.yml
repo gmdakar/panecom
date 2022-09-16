@@ -1,8 +1,0 @@
-uuid: 7d9ac00c-b31d-4673-93ac-317781d3901d
-langcode: fr
-status: true
-dependencies: {  }
-id: membres_mediatheque
-label: 'Membres Mediatheque'
-revision: 0
-description: 'Sera utilisé par le bloc "Members Mediathéques et Evenements"'

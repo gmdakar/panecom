@@ -1,0 +1,22 @@
+uuid: d342c4df-2379-4c13-97a5-6a1fe7073d84
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_tabs_onglets_projets_x_doc
+id: block_content.block_tabs_onglets_projets_x_doc.status
+field_name: status
+entity_type: block_content
+bundle: block_tabs_onglets_projets_x_doc
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
