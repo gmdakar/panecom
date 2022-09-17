@@ -162,7 +162,7 @@ a.nav-link.nav-link--fr-user-logout {
 }
 
 .path-user #block-panecom-bstrp-account-menu .nav-link{
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 
@@ -349,8 +349,17 @@ li.breadcrumb-item a {
     width: auto;
     background-color: var(--color3);
     border-radius: 25px;
+	
     /*padding-top: 0.6rem;
     padding-bottom: 0.6rem;*/
+}
+
+#block-panecom-bstrp-account-menu .nav-link:first-child {
+	padding-top: .55rem;
+}
+
+.path-user #block-panecom-bstrp-account-menu .nav-link:first-child {
+	padding-top: 1rem !important;
 }
 
 #block-panecom-bstrp-account-menu .nav-link span{
