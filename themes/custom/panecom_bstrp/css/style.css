@@ -843,6 +843,10 @@ header #search-block-form {
 }
 
 .views-exposed-form fieldset::after {
+    display: none;
+}
+
+.views-exposed-form fieldset.form-item-combine ::after {
     color: #fff;
     content: "\f002";
     font-family: "Font Awesome 5 Free";
@@ -860,8 +864,27 @@ header #search-block-form {
     padding-top: 0.15rem;
 }
 
-.path-user .views-exposed-form fieldset::after {
+
+.js-media-library-view .wrapping {
+    margin: 1.5rem auto;
+}
+
+.js-media-library-view .field--type-image img{
+    margin: 0 0 1em;
+    max-width: 150px;
+    height: auto;
+}
+
+.js-media-library-view .media-library-item__name {
     display: none;
+}
+
+
+button.ui-dialog-titlebar-close::before {
+    content: "x";
+    position: relative;
+    top: -0.3rem;
+    color: #000;
 }
 
 .path-user #views-exposed-form-people-dashboard-page-1 .form-actions {
@@ -1196,6 +1219,16 @@ time,
 }
 
 /*une organisation (node)*/
+
+.path-node.node--type-organisation-membre ul.nav.primary.nav-tabs {
+    margin: 0 8rem;
+}
+
+.path-node.node--type-organisation-membre ul.nav.primary.nav-tabs > li > a{
+    font-size: 1.15rem;
+	font-weight: 500;
+}
+
 .path-node.node--type-organisation-membre header#header {
 	min-height: 500px;
 	height: 50vh;
@@ -1462,6 +1495,91 @@ time,
 .view-documents div[id^="views-bootstrap-documents-"] .views-field-field-document-fichier-1 .field-content {
     display: inline-block;
     margin: 0 .85rem;
+}
+
+
+/**
+ * Style the media library grid items.
+ */
+/*
+.media-library-item {
+  position: relative;
+}
+
+.media-library-item--grid {
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 50%;
+  padding: 0rem;
+  vertical-align: top;
+  outline: none;
+  background: #fff;
+}
+
+.media-library-item--grid:before {
+  position: absolute;
+  top: 0.4375rem;
+  left: 0.4375rem;
+  width: calc(100% - 1rem);
+  height: calc(100% - 1rem);
+  content: "";
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  pointer-events: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+}
+
+.media-library-item--grid:focus {
+  outline: none;
+  box-shadow: none;
+}
+.media-library-item--grid.is-hover:before,
+.media-library-item--grid.checked:before,
+.media-library-item--grid.is-focus:before {
+  top: 0.3125rem;
+  left: 0.3125rem;
+  border-width: 3px;
+  border-radius: 0.1875rem;
+}
+
+.media-library-item--grid.is-hover:before,
+.media-library-item--grid.checked.is-hover:before {
+  border-color: #0036b1;
+}
+
+.media-library-item--grid.is-focus:before {
+  border-color: #26a769;
+}
+
+.media-library-item--grid.checked:before {
+  border-color: var(--color3);
+}
+
+.media-library-item--grid .form-boolean--type-checkbox:checked {
+  border-color: var(--color3);
+  background-color: var(--color3);
+}
+
+.media-library-item__click-to-select-checkbox {
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  left: 1rem;
+  display: block;
+}*/
+
+.media-library-item .custom-control-input {
+    position: absolute;
+    left: -0.88rem;
+    z-index: 1;
+    top: -0.25rem;
+    width: 3.6rem;
+    height: 1.7rem;
+    opacity: 1;
+}
+
+.js-media-library-add-form article {
+    padding: 0.25rem 0 2rem 0;
 }
 
 /* tabs onglets - mediatheque d'une organisation*/

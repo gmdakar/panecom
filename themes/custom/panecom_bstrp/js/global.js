@@ -10,8 +10,14 @@
   Drupal.behaviors.panecom_bstrp_notificationwidget = {
     attach: function (context, settings) {
 		
-		$( ".noti-store-msg" ).each(function() {
-		  $( this ).attr( "href", 'javascript:void(0);' );
+		/*hack pour eviter un effet gallery popup lors de la selection d'un média depuis le media browser*/
+		$( ".js-media-library-add-form .photoswipe-galery a.photoswipe" ).each(function() {
+		  $( this ).removeClass('photoswipe');
+		  $( this ).removeClass('photoswipe-gallery--fallback-wrapper');
+		});		
+		$( ".js-media-library-views-form .photoswipe-gallery a.photoswipe" ).each(function() {
+		  $( this ).removeClass('photoswipe');
+		  $( this ).removeClass('photoswipe-gallery--fallback-wrapper');
 		});
 
 		//if notification count=0 hide #block-notificationwidgetblock
@@ -117,7 +123,7 @@
 			  $("#block-menuorganisationmembre.block li a").removeClass("is-active");
 			});
 			
-			$(".page-user-register main").prepend("<p><a class='backlink' href='#' onclick='history.go(-1);'></a></p>")
+			$(".page-user-register main").prepend("<p><a class='backlink' href='#' onclick='history.go(-1);'></a></p>");
 			
         }
   };
