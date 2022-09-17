@@ -1239,6 +1239,10 @@ time,
     font-size: 1.9rem !important;
 }
 
+.path-node.node--type-organisation-membre #block-navigationprincipale {
+    display: none;
+}
+
 .path-node.node--type-organisation-membre h2 {
     font-size: 1.7rem !important;
 }
