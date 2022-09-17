@@ -2,7 +2,7 @@ _core:
   default_config_hash: rpfRQVoEn2ZWd_lw-iULKPiuina5CqcmzXWlz1OjTwM
 langcode: fr
 name: Panecom
-mail: admin@panecom.digissol.pro
+mail: admin@devpanecom.digissol.pro
 simple_address: false
 sitestyle: true
 textonly: false

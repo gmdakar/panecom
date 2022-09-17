@@ -51,3 +51,9 @@ function panecom_bstrp_preprocess_breadcrumb(&$variables){
 		  
   }*/
 }
+
+function panecom_bstrp_preprocess_page(&$vars) {
+
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $vars['language'] = $language;
+}
