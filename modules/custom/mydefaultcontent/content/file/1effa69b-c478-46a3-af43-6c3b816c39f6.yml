@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1effa69b-c478-46a3-af43-6c3b816c39f6
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: kNH2odEmtG.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/kNH2odEmtG.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1010
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

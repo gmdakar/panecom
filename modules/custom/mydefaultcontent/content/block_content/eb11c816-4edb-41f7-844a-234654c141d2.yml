@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: eb11c816-4edb-41f7-844a-234654c141d2
+  bundle: basic
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Copyright
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<p>Copyright:&nbsp;<a href=\"https://www.digissol.com/\">Digissol</a>&nbsp;/ 2022&nbsp;</p>\r\n"
+      format: basic_html
+      summary: ''

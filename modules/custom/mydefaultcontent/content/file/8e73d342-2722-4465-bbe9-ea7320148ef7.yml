@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e73d342-2722-4465-bbe9-ea7320148ef7
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dummyfile3333920032_f5fc59b0e1_o.jpg.jpg
+  uri:
+    -
+      value: 'public://dummyfile3333920032_f5fc59b0e1_o.jpg_19.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50797
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

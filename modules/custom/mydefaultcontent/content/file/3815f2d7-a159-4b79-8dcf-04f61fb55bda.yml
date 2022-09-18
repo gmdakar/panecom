@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3815f2d7-a159-4b79-8dcf-04f61fb55bda
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dwEkOBeJmg.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/dwEkOBeJmg.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 611
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

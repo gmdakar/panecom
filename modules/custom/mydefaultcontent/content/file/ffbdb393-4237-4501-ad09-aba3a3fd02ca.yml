@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ffbdb393-4237-4501-ad09-aba3a3fd02ca
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mask-group-12.png
+  uri:
+    -
+      value: 'public://2022-09/mask-group-12.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 163142
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662728170

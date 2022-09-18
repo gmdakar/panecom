@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b64e26a6-88bd-4207-b194-dbb70d50d286
+  default_langcode: fr
+  depends:
+    b015363a-639b-4605-8df5-a7a0fa376aa8: user
+default:
+  uid:
+    -
+      entity: b015363a-639b-4605-8df5-a7a0fa376aa8
+  filename:
+    -
+      value: image-8_0.jpg
+  uri:
+    -
+      value: 'public://2022-09/image-8_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 85428
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663535035

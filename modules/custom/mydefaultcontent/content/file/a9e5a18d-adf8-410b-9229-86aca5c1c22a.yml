@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a9e5a18d-adf8-410b-9229-86aca5c1c22a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: yF5vCtiXP5.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/yF5vCtiXP5.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 987
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653477688

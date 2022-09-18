@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f25330bb-1d39-4a93-a397-3db85003ae7f
+  default_langcode: fr
+  depends:
+    b015363a-639b-4605-8df5-a7a0fa376aa8: user
+default:
+  uid:
+    -
+      entity: b015363a-639b-4605-8df5-a7a0fa376aa8
+  filename:
+    -
+      value: mask-group-7.png
+  uri:
+    -
+      value: 'public://2022-09/mask-group-7.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 336430
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663438803

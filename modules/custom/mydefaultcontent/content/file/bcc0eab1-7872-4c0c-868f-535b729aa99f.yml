@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bcc0eab1-7872-4c0c-868f-535b729aa99f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pA9OG1Fe0q.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/pA9OG1Fe0q.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1131
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

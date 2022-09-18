@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5d2284c8-3e7b-41a7-80bd-07ee793ded4e
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_JPaFl3.jpg
+  uri:
+    -
+      value: 'public://2022-06/generateImage_JPaFl3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9255
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655138831

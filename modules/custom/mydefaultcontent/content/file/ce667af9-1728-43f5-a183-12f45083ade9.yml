@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ce667af9-1728-43f5-a183-12f45083ade9
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: viettel_telecom_logo-700x139.png
+  uri:
+    -
+      value: 'public://2022-06/viettel_telecom_logo-700x139.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 22586
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399044

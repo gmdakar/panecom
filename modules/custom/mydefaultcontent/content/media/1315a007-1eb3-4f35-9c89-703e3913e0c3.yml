@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1315a007-1eb3-4f35-9c89-703e3913e0c3
+  bundle: image
+  default_langcode: fr
+  depends:
+    b015363a-639b-4605-8df5-a7a0fa376aa8: user
+    7ee57304-5eea-4262-8d5a-7a4f9dc0c0f5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: b015363a-639b-4605-8df5-a7a0fa376aa8
+  name:
+    -
+      value: mask-group-7.png
+  created:
+    -
+      value: 1663527897
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 7ee57304-5eea-4262-8d5a-7a4f9dc0c0f5
+      alt: ''
+      title: ''
+      width: 548
+      height: 292

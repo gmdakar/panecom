@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d2691994-5f2e-471b-b6a4-8d5557cd296d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-pixabay-163064.jpg
+  uri:
+    -
+      value: 'public://2022-08/pexels-pixabay-163064.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 199349
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1660307142

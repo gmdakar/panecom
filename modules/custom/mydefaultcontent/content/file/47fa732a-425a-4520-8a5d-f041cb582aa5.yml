@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47fa732a-425a-4520-8a5d-f041cb582aa5
+  default_langcode: fr
+  depends:
+    d253e820-216d-4016-a0e8-d733ade74b63: user
+default:
+  uid:
+    -
+      entity: d253e820-216d-4016-a0e8-d733ade74b63
+  filename:
+    -
+      value: cumminitypro_mockup_2.jpg
+  uri:
+    -
+      value: 'public://2022-09/cumminitypro_mockup_2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 191505
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663536909

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e8d7ac69-a07c-4df6-8a90-aadddfb09692
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nJjC9REebh.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/nJjC9REebh.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 770
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

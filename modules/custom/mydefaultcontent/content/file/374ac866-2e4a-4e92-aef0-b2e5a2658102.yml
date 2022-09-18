@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 374ac866-2e4a-4e92-aef0-b2e5a2658102
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: zeodc0ngqC.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/zeodc0ngqC.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 849
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

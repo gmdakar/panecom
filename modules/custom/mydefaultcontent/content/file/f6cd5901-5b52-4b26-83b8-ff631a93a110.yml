@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f6cd5901-5b52-4b26-83b8-ff631a93a110
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bClx3C2QwO.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/bClx3C2QwO.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 938
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

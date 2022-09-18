@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a8a427e-9109-4187-b28e-f23858678b3b
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pySzjM7Ldu.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/pySzjM7Ldu.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1085
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653397445

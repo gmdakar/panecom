@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 212791b6-f082-46a4-b8e8-0e99b359531c
+  bundle: zone_actualites_sidebar_right_fr
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Zone actualités + sidebar right (frontpage)'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false

@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a95c9fa7-0db6-4ece-8864-13bf665d802e
+  bundle: image
+  default_langcode: fr
+  depends:
+    2e64241d-841d-446f-b122-fc3862af249f: file
+    0d6a1b8f-83aa-49f1-844b-78be80b5f4a7: file
+    b5c1090d-9938-4e05-ab5d-ac931c33663b: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: pexels-omotayo-tajudeen-3213283.jpg
+  created:
+    -
+      value: 1652973672
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 2e64241d-841d-446f-b122-fc3862af249f
+      alt: dmmldm
+      title: ''
+      width: 1920
+      height: 1368
+    -
+      entity: 0d6a1b8f-83aa-49f1-844b-78be80b5f4a7
+      alt: llk
+      title: ''
+      width: 1800
+      height: 600
+    -
+      entity: b5c1090d-9938-4e05-ab5d-ac931c33663b
+      alt: ezdze
+      title: ''
+      width: 1280
+      height: 1599

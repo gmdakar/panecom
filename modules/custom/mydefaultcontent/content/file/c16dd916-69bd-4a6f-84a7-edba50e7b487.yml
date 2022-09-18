@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c16dd916-69bd-4a6f-84a7-edba50e7b487
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: s3PkSmrBTO.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/s3PkSmrBTO.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1044
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 14eb0d97-c2dd-4a20-85d3-b445c7e6d03c
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pexels-felix-mittermeier-957024.jpg
+  uri:
+    -
+      value: 'public://2022-05/pexels-felix-mittermeier-957024.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 626192
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1652800545

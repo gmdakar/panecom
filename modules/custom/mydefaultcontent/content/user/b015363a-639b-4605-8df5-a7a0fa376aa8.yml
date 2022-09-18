@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: b015363a-639b-4605-8df5-a7a0fa376aa8
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ssmmsow
+  pass:
+    -
+      value: $S$E2PEzE8/hEfBCzeYoIQ3kO26rC9Dw5dhiaUwOqNiS58pmS6PyR1w
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: ssmmsow@yahoo.com
+  timezone:
+    -
+      value: Africa/Dakar
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663411037
+  access:
+    -
+      value: 1663539845
+  login:
+    -
+      value: 1663538660
+  init:
+    -
+      value: ssmmsow@yahoo.com
+  roles:
+    -
+      target_id: point_focal
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1663411037
+  field_nom:
+    -
+      value: mm
+  field_prenom:
+    -
+      value: ss
+  field_user_organisation:
+    -
+      target_id: 522

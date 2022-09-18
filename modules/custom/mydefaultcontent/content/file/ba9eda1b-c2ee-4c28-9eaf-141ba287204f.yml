@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ba9eda1b-c2ee-4c28-9eaf-141ba287204f
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dummyfile3008584298_b2302c12ea_o.jpg.jpg
+  uri:
+    -
+      value: 'public://dummyfile3008584298_b2302c12ea_o.jpg_11.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 597743
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

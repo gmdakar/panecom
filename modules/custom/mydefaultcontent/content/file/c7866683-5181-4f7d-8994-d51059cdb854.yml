@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c7866683-5181-4f7d-8994-d51059cdb854
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bV7KatbAjg.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/bV7KatbAjg.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 991
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653419417

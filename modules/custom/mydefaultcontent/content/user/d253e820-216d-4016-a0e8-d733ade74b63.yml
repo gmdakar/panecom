@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: d253e820-216d-4016-a0e8-d733ade74b63
+  default_langcode: en
+  depends:
+    1efb543f-cffe-4a4f-bc4b-40e407f82ec7: node
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: gmdakar_1
+  pass:
+    -
+      value: $S$EE0OuopZOlvCaWR1gi43YImJXMpgtUqGznGDWguxtJ0qe7.HvtnE
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: gmdakafr@yahoo.fr
+  timezone:
+    -
+      value: Africa/Dakar
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663536724
+  access:
+    -
+      value: 1663538420
+  login:
+    -
+      value: 1663538420
+  init:
+    -
+      value: gmdakar@yahoo.fr
+  roles:
+    -
+      target_id: content_editor
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1663536724
+  field_nom:
+    -
+      value: dk
+  field_prenom:
+    -
+      value: gm
+  field_user_organisation:
+    -
+      entity: 1efb543f-cffe-4a4f-bc4b-40e407f82ec7

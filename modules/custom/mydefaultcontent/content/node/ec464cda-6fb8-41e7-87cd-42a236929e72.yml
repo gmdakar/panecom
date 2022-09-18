@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ec464cda-6fb8-41e7-87cd-42a236929e72
+  bundle: personnes_cles
+  default_langcode: fr
+  depends:
+    62108fc1-bdb9-444a-b73c-dd150ac4c945: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Abdoul Hamid Seck'
+  created:
+    -
+      value: 1655914731
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  path:
+    -
+      alias: /personne-cle/abdoul-hamid-seck
+      langcode: fr
+      pathauto: 1
+  body:
+    -
+      value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam. Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_person_ordreaffichage:
+    -
+      value: 1
+  field_personne_fonction:
+    -
+      value: 'Coordinateur général'
+  field_personne_organisation:
+    -
+      target_id: 483
+  field_personne_photo:
+    -
+      entity: 62108fc1-bdb9-444a-b73c-dd150ac4c945
+      alt: ''
+      title: ''
+      width: 6720
+      height: 4480
+  field_personne_reseaux_sociaux:
+    -
+      platform: linkedin
+      value: kehfid
+    -
+      platform: twitter
+      value: '55778'
+    -
+      platform: facebook
+      value: orrtkpm
+    -
+      platform: email
+      value: email1@panecom.org
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    created:
+      -
+        value: 1656068524
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: fr
+    content_translation_outdated:
+      -
+        value: false
+    path:
+      -
+        alias: /personne-cle/abdoul-hamid-seck
+        langcode: en
+        pathauto: 1
+    body:
+      -
+        value: "<p>Causa cogo comis humo ibidem macto melior saluto utinam. Ea facilisis fere immitto quidem sudo tincidunt.</p>\r\n\r\n<p>Aptent dolus eligo erat haero refero sit vereor.&nbsp;Aptent premo sit velit vindico.</p>\r\n"
+        format: basic_html
+        summary: ''
+    field_personne_fonction:
+      -
+        value: 'General Coordinator'

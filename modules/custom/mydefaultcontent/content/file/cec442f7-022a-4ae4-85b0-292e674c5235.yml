@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cec442f7-022a-4ae4-85b0-292e674c5235
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: qUngf8DmiB.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/qUngf8DmiB.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 906
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653482303

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e731d078-685b-42e5-9b10-8cf3e8dc4fb3
+  default_langcode: fr
+  depends:
+    b015363a-639b-4605-8df5-a7a0fa376aa8: user
+default:
+  uid:
+    -
+      entity: b015363a-639b-4605-8df5-a7a0fa376aa8
+  filename:
+    -
+      value: 4CwWGHXjQR3G_u7nBxBH-Gw2q9EGpVxLlm8SxTF-01w.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/4CwWGHXjQR3G_u7nBxBH-Gw2q9EGpVxLlm8SxTF-01w.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 22819
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663439446

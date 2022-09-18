@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a0ef0b59-f01a-484b-ab76-b589ec18a9ba
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bKAGqdJk7T.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/bKAGqdJk7T.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 782
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 226aa054-4f3d-4397-ac0c-f30d5d0c0e87
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: iPJmKXXXLB.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/iPJmKXXXLB.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1021
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 231e1f84-e61f-4777-93ea-e5b3f8550326
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: kU0uU6AknI.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/kU0uU6AknI.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1062
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

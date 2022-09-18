@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: def8eae5-9490-4b03-9d3b-5bdd32fa0e90
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vRBURhADlD.txt
+  uri:
+    -
+      value: 'public://organisation/2022-05/vRBURhADlD.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 828
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

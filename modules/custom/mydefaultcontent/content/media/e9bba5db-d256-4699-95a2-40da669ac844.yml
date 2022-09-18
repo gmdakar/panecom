@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e9bba5db-d256-4699-95a2-40da669ac844
+  bundle: remote_video
+  default_langcode: fr
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'À LA DÉCOUVERTE DE DRUPAL 9 (avec Kevin Fégar)'
+  created:
+    -
+      value: 1653063873
+  revision_translation_affected:
+    -
+      value: true
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=uqEj1d-D20g'

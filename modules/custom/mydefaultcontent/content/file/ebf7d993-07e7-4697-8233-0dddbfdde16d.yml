@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ebf7d993-07e7-4697-8233-0dddbfdde16d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: green_horse_logo-700x463.png
+  uri:
+    -
+      value: 'public://2022-06/green_horse_logo-700x463.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 137745
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655399183

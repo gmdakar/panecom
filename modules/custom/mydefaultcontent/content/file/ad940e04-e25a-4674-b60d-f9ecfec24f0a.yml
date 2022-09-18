@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ad940e04-e25a-4674-b60d-f9ecfec24f0a
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: generateImage_XEZYHF.jpeg
+  uri:
+    -
+      value: 'public://2022-05/generateImage_XEZYHF.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4313
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653477467

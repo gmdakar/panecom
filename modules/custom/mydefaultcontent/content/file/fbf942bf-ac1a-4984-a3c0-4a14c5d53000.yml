@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fbf942bf-ac1a-4984-a3c0-4a14c5d53000
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gUwVnFp5Sh.txt
+  uri:
+    -
+      value: 'public://document/2022-06/gUwVnFp5Sh.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 1035
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655826274

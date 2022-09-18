@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 430dbcac-e58f-482d-ad86-ef17fc0ec03d
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dummyfile4416711433_20af415f38_o.jpg.jpg
+  uri:
+    -
+      value: 'public://dummyfile4416711433_20af415f38_o.jpg_28.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1252901
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

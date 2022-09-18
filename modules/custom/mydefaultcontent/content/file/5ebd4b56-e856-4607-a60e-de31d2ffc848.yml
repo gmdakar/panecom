@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5ebd4b56-e856-4607-a60e-de31d2ffc848
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: qtnJLBJuoB.txt
+  uri:
+    -
+      value: 'public://document/2022-05/qtnJLBJuoB.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 808
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653927570

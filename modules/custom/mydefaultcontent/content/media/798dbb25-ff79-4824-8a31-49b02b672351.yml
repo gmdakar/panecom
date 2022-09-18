@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 798dbb25-ff79-4824-8a31-49b02b672351
+  bundle: background_image
+  default_langcode: fr
+  depends:
+    508e1da4-2062-4134-8002-857593d4cdda: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: ignore-2.png
+  created:
+    -
+      value: 1659955389
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image_1:
+    -
+      entity: 508e1da4-2062-4134-8002-857593d4cdda
+      alt: ''
+      title: ''
+      width: 1440
+      height: 733
+  field_priority:
+    -
+      value: 1

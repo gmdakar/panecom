@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6abb398-0b1e-48bc-997f-88da421cd178
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mask-group-11.png
+  uri:
+    -
+      value: 'public://organigrams/mask-group-11.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 13774
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1662983129

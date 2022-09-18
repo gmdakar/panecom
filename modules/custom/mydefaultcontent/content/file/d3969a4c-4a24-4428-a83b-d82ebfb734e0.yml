@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3969a4c-4a24-4428-a83b-d82ebfb734e0
+  default_langcode: fr
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dummyfile4726904809_0a85583b5d_b.png.png
+  uri:
+    -
+      value: 'public://dummyfile4726904809_0a85583b5d_b.png_9.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20626
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1653497631

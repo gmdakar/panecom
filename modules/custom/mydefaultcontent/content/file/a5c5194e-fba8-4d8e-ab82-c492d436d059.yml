@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a5c5194e-fba8-4d8e-ab82-c492d436d059
+  default_langcode: fr
+default:
+  filename:
+    -
+      value: economie-egyp.pdf.jpg
+  uri:
+    -
+      value: 'public://2022-06/economie-egyp.pdf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 255008
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1655207080
