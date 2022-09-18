@@ -1,0 +1,14 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      1:
+        components:
+          -
+            configuration:
+              label: 'Platform contacts'
+          -
+            configuration:
+              label: 'Quick access'
+          -
+            configuration:
+              label: 'Social network'

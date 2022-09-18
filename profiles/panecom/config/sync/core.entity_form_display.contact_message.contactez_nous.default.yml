@@ -5,6 +5,7 @@ dependencies:
   config:
     - contact.form.contactez_nous
     - field.field.contact_message.contactez_nous.field_adresse_mail
+    - field.field.contact_message.contactez_nous.field_contact_nom
     - field.field.contact_message.contactez_nous.field_geofield_contact
     - field.field.contact_message.contactez_nous.field_telephone
   module:
@@ -97,7 +98,7 @@ third_party_settings:
         required_fields: false
     group_form_row_col:
       children:
-        - name
+        - field_contact_nom
       label: 'contact_form row col'
       region: content
       parent_name: group_contact_form_row
@@ -168,6 +169,14 @@ content:
       placeholder: ''
       size: 60
     third_party_settings: {  }
+  field_contact_nom:
+    type: string_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
   field_geofield_contact:
     type: leaflet_widget_default
     weight: 2
@@ -230,15 +239,11 @@ content:
       rows: 12
       placeholder: ''
     third_party_settings: {  }
-  name:
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   copy: true
   field_telephone: true
   langcode: true
   mail: true
+  name: true
   preview: true
   subject: true

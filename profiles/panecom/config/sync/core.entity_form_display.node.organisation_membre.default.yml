@@ -37,7 +37,6 @@ third_party_settings:
         - field_org_adresse_contact
         - field_org_site_web
         - field_org_social_network
-        - field_org_social_network_more
       label: 'Informations de contact'
       region: content
       parent_name: ''
@@ -47,12 +46,9 @@ third_party_settings:
         classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        formatter: open
         description: ''
         required_fields: true
-        effect: none
-        direction: vertical
-        width_breakpoint: 640
     group_presentation:
       children:
         - title
@@ -85,12 +81,9 @@ third_party_settings:
         classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        formatter: open
         description: ''
         required_fields: true
-        effect: none
-        direction: vertical
-        width_breakpoint: 640
     group_localisation:
       children:
         - field_org_localisation

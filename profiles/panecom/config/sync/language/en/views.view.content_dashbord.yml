@@ -8,3 +8,8 @@ display:
   page_3:
     display_options:
       title: 'All contents'
+  default:
+    display_options:
+      empty:
+        area_text_custom:
+          content: 'No result.'

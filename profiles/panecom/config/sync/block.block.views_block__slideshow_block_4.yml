@@ -6,6 +6,7 @@ dependencies:
     - views.view.slideshow
   module:
     - node
+    - system
     - views
   theme:
     - panecom_bstrp
@@ -31,3 +32,7 @@ visibility:
       node: '@entity_route_context.entity_route_context:canonical_entity:node'
     bundles:
       article: article
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/article/*'

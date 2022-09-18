@@ -5,7 +5,7 @@ dependencies:
   config:
     - views.view.background_image_organisation
   module:
-    - system
+    - node
     - views
   theme:
     - panecom_bstrp
@@ -24,7 +24,10 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  request_path:
-    id: request_path
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
     negate: false
-    pages: '/organisation-membre/*'
+    context_mapping:
+      node: '@entity_route_context.entity_route_context:canonical_entity:node'
+    bundles:
+      organisation_membre: organisation_membre

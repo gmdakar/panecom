@@ -1,0 +1,29 @@
+uuid: 4da38883-b60a-4202-bd76-afea94ec6c79
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_nous
+    - field.storage.contact_message.field_contact_nom
+  module:
+    - disable_field
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: contact_message.contactez_nous.field_contact_nom
+field_name: field_contact_nom
+entity_type: contact_message
+bundle: contactez_nous
+label: Nom
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -9,6 +9,7 @@ display:
       exposed_form:
         options:
           reset_button_label: Reset
+          submit_button: Filter
       empty:
         area:
           content:

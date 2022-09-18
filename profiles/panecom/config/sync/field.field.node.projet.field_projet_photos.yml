@@ -6,13 +6,23 @@ dependencies:
     - field.storage.node.field_projet_photos
     - media.type.image
     - node.type.projet
+  module:
+    - disable_field
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
 id: node.projet.field_projet_photos
 field_name: field_projet_photos
 entity_type: node
 bundle: projet
 label: Photos
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

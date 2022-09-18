@@ -6,7 +6,16 @@ dependencies:
     - field.storage.node.field_org_image_hero
     - node.type.organisation_membre
   module:
+    - disable_field
+    - epp
     - image
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+  disable_field:
+    add_disable: none
+    edit_disable: none
 id: node.organisation_membre.field_org_image_hero
 field_name: field_org_image_hero
 entity_type: node
@@ -25,8 +34,8 @@ settings:
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
-  alt_field: true
-  alt_field_required: true
+  alt_field: false
+  alt_field_required: false
   title_field: false
   title_field_required: false
   default_image:

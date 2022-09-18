@@ -1,0 +1,10 @@
+third_party_settings:
+  field_group:
+    group_informations_de_contact:
+      label: 'Contact informations'
+    group_presentation:
+      label: Presentation
+    group_mediatheque:
+      label: 'Media library'
+    group_localisation:
+      label: Localization

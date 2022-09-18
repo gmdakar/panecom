@@ -8,6 +8,7 @@ dependencies:
     - node.type.organisation_membre
     - node.type.projet
   module:
+    - content_translation
     - media
     - node
 id: point_focal
@@ -37,4 +38,5 @@ permissions:
   - 'edit own document content'
   - 'edit own organisation_membre content'
   - 'edit own projet content'
+  - 'translate editable entities'
   - 'update media'

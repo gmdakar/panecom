@@ -6,7 +6,6 @@ dependencies:
     - field.storage.node.field_image
     - node.type.article
   module:
-    - content_translation
     - disable_field
     - epp
     - image
@@ -14,11 +13,6 @@ third_party_settings:
   epp:
     value: ''
     on_update: 0
-  content_translation:
-    translation_sync:
-      file: file
-      alt: '0'
-      title: '0'
   disable_field:
     add_disable: none
     edit_disable: none
@@ -30,7 +24,7 @@ entity_type: node
 bundle: article
 label: Image
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -43,7 +37,7 @@ settings:
   max_resolution: ''
   min_resolution: 750x350
   alt_field: true
-  alt_field_required: true
+  alt_field_required: false
   title_field: false
   title_field_required: false
   default_image:

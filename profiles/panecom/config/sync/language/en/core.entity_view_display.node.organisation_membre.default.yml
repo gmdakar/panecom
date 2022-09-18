@@ -6,3 +6,11 @@ third_party_settings:
       label: 'Media library'
     group_localisation:
       label: Location
+    group_contact:
+      label: 'Organization contact'
+    group_projet_s_:
+      label: Projects
+    group_actualites:
+      label: News
+    group_videos:
+      label: Videos

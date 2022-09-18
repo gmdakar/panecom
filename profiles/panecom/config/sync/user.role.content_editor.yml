@@ -9,6 +9,7 @@ dependencies:
     - node.type.projet
   module:
     - comment
+    - content_translation
     - media
     - node
 _core:
@@ -31,4 +32,5 @@ permissions:
   - 'edit own comments'
   - 'edit own document content'
   - 'edit own projet content'
+  - 'translate editable entities'
   - 'update media'
