@@ -60,9 +60,10 @@ function panecom_bstrp_preprocess_html(&$vars) {
   
   //Ajouter une classe pour distinguer les éditions de nodes
   $current_path = \Drupal::service('path.current')->getPath();
-  if (strpos($current_path, '/node') !== false && strpos($current_path, '/edit') !== false)
+  if (strpos($current_path, '/node') !== false && strpos($current_path, '/add') !== false)
+	$vars['attributes']['class'][]  = 'add-node';
+  elseif (strpos($current_path, '/node') !== false && strpos($current_path, '/edit') !== false)
 	$vars['attributes']['class'][]  = 'edit-node';
   elseif (strpos($current_path, '/node') !== false && strpos($current_path, '/translations') !== false)
 	$vars['attributes']['class'][]  = 'translate-node';
-	  
 }

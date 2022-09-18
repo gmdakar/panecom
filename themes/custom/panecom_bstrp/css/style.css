@@ -216,6 +216,16 @@ header#header #CollapsingNavbar.collapse:not(.show) {
     color: #fff;
 }
 
+.path-node.translate-node details summary,
+.path-node.add-node details summary,
+.path-node.edit-node details summary {
+    font-weight: 500;
+    font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-top: 3.5rem;
+	border-bottom: 2px solid var(--color3);
+}
+
 .view nav {
     /*max-width: 258px;*/
     margin: 1.1rem auto;
