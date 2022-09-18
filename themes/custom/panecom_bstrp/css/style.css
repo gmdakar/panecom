@@ -157,11 +157,11 @@ a.nav-link.nav-link--fr-user-logout {
 	/*padding-bottom: 1rem !important;*/
 }
 
-#block-panecom-bstrp-account-menu .nav-link{
+.user-logged-in #block-panecom-bstrp-account-menu .nav-link{
     line-height: 2.5;
 }
 
-.path-user #block-panecom-bstrp-account-menu .nav-link{
+.user-logged-in.path-user #block-panecom-bstrp-account-menu .nav-link{
     line-height: 1.4;
 }
 
@@ -1220,6 +1220,10 @@ time,
 
 /*une organisation (node)*/
 
+article.contextual-region.node.node--type-organisation-membre.node--view-mode-full{
+	position: unset; /*hack pour éviter logo organisation flottant lors de l'affichage du détails d'une organisation*/
+}
+
 .path-node.node--type-organisation-membre ul.nav.primary.nav-tabs {
     margin: 0 8rem;
 }
@@ -1250,8 +1254,28 @@ time,
 .path-node.node--type-organisation-membre span.page-link {
 	color: var(--color3) !important;
 }
+
+.path-node.node--type-organisation-membre.translate-node #block-panecom-bstrp-content,
+.path-node.node--type-organisation-membre.edit-node #block-panecom-bstrp-content {
+    margin: 0 10%;
+}
+
+.path-node.node--type-organisation-membre.translate-node #block-panecom-bstrp-breadcrumbs,
+.path-node.node--type-organisation-membre.translate-node #block-menuorganisationmembre,
+.path-node.node--type-organisation-membre.edit-node #block-panecom-bstrp-breadcrumbs,
+.path-node.node--type-organisation-membre.edit-node #block-menuorganisationmembre{
+    display: none;
+}
+
+.path-node.node--type-organisation-membre.translate-node #header,
+.path-node.node--type-organisation-membre.edit-node #header{
+    min-height: unset;
+	height: 90px;
 	
-.path-node.node--type-organisation-membre .field--name-field-org-logo {
+}
+
+	
+.path-node.node--type-organisation-membre:not(.edit-node):not(.translate-node) .field--name-field-org-logo {
     position: absolute;
     top: -5rem;
     width: 150px;
@@ -1264,7 +1288,7 @@ time,
     transform: translate(-50%, 0);
 }
 
-.path-node.node--type-organisation-membre .field--name-field-org-logo img {
+.path-node.node--type-organisation-membre:not(.edit-node):not(.translate-node) .field--name-field-org-logo img {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1355,6 +1379,7 @@ time,
 
 .path-node.node--type-organisation-membre .projets-org{
 	margin: 2rem auto;
+	width: 100%;
 }
 
 .path-node.node--type-organisation-membre .projets-org .views-field-title a{
@@ -1386,6 +1411,10 @@ time,
 .path-node.node--type-organisation-membre #documents{
 	margin: 10rem auto;
 	margin-bottom: 6rem;
+}
+
+.view-documents div[id^="views-bootstrap-documents-"] {
+	width: 100%;
 }
 
 .view-documents div[id^="views-bootstrap-documents-"] .wrapping {
@@ -3645,7 +3674,7 @@ section.row.region.region-footer-first {
 		margin: 4rem 6rem;
 	}
 	
-	.path-node.node--type-organisation-membre .field--name-field-org-logo {
+	.path-node.node--type-organisation-membre:not(.edit-node):not(.translate-node) .field--name-field-org-logo {
 		top: -8rem;
 	}
 
@@ -3928,7 +3957,7 @@ section.row.region.region-footer-first {
 		padding: 0 0 1.15rem 1rem;
 	}
 	
-    #block-menuorganisationmembre ul{
+    #block-menuorganisationmembre ul:not(.contextual-links){
 		display: block !important;
 	}
 	

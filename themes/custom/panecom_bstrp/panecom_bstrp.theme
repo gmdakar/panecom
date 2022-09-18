@@ -43,7 +43,8 @@ function panecom_bstrp_form_search_block_form_alter(&$form, FormStateInterface $
  * Implements hook_preprocess_breadcrumb().
  */
 function panecom_bstrp_preprocess_breadcrumb(&$variables){
-  $variables['breadcrumb'][0] = array('text' => t('Home'));
+  //\Drupal::logger('mytools')->notice("panecom_bstrp_preprocess_breadcrumb". '<pre><code>' . print_r($variables['breadcrumb'], TRUE) . '</code></pre>' );
+  $variables['breadcrumb'][0]['text'] = t('Home');
   /*foreach ($variables['breadcrumb'] as $key => $tb)
   {
 	  if ($variables['breadcrumb'][$key]['text'] == 'A propos')
@@ -52,8 +53,16 @@ function panecom_bstrp_preprocess_breadcrumb(&$variables){
   }*/
 }
 
-function panecom_bstrp_preprocess_page(&$vars) {
-
-  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
-  $vars['language'] = $language;
+/**
+* hook_preprocess_page
+*/
+function panecom_bstrp_preprocess_html(&$vars) {
+  
+  //Ajouter une classe pour distinguer les éditions de nodes
+  $current_path = \Drupal::service('path.current')->getPath();
+  if (strpos($current_path, '/node') !== false && strpos($current_path, '/edit') !== false)
+	$vars['attributes']['class'][]  = 'edit-node';
+  elseif (strpos($current_path, '/node') !== false && strpos($current_path, '/translations') !== false)
+	$vars['attributes']['class'][]  = 'translate-node';
+	  
 }
