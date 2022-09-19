@@ -207,7 +207,7 @@ content:
         drawRectangle: false
         drawPolygon: false
         drawCircle: false
-        editMode: false
+        editMode: true
         dragMode: false
         cutPolygon: false
         removalMode: false
