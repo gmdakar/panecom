@@ -23,7 +23,7 @@ sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
 !sites/*/files/config_*
-sites/*/*/backup*
+!sites/*/*/backup*
 sites/*/files
 sites/*/private
 
