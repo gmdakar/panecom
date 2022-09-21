@@ -1,8 +1,0 @@
-uuid: 79ab5de4-0ed4-46f5-97f5-cbe3c8965f11
-langcode: fr
-status: true
-dependencies: {  }
-id: block_type_inscription
-label: 'Block type Inscription'
-revision: 0
-description: 'Permet d''afficher la liste des options d''inscriptions'

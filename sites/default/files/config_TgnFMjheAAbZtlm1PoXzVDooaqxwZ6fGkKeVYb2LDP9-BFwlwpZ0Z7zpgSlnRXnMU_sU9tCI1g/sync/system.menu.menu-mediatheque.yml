@@ -1,8 +1,0 @@
-uuid: c85cc70f-e588-41b1-9445-eccb3bb8b227
-langcode: und
-status: true
-dependencies: {  }
-id: menu-mediatheque
-label: 'Menu médiathèque'
-description: ''
-locked: false

@@ -1,8 +1,0 @@
-uuid: adfca7af-5f04-40a5-9b59-cd1302baa1aa
-langcode: fr
-status: true
-dependencies: {  }
-id: block_tabs_onglets_projets_x_doc
-label: 'Block tabs-onglets [projets x documents]'
-revision: 0
-description: ''

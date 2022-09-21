@@ -1,8 +1,0 @@
-uuid: bf396f6e-4ae1-4f85-ad68-553cd370dd32
-langcode: fr
-status: true
-dependencies: {  }
-name: 'Rubrique d''actualité'
-vid: rubrique_d_actualite
-description: ''
-weight: 0

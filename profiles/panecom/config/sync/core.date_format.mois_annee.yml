@@ -1,8 +1,0 @@
-uuid: 6749e12a-3224-4fc9-bf1a-423c61debf1c
-langcode: und
-status: true
-dependencies: {  }
-id: mois_annee
-label: 'Mois Année'
-locked: false
-pattern: 'F Y'

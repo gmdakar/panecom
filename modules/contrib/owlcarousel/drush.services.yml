@@ -1,7 +1,0 @@
-services:
-  owlcarousel.commands:
-    class: \Drupal\owlcarousel\Commands\OwlCarouselCommands
-    arguments:
-      - '@library.discovery'
-    tags:
-      - { name: drush.command }

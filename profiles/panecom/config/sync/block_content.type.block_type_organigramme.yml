@@ -1,8 +1,0 @@
-uuid: 352cd176-f6c0-4329-bfdc-d0a55a5bee5a
-langcode: fr
-status: true
-dependencies: {  }
-id: block_type_organigramme
-label: 'Block type organigramme'
-revision: 0
-description: 'Utilisé pour afficher le bloc organigramme dans la page "à propos"'
